@@ -1,0 +1,475 @@
+.container{
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: fixed;
+}
+.banner{
+  width: 100%;
+  height: 100vh; /* This will make sure your banner covers the full viewport height */
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,1.0)), url('/background.jpg');  /* Assuming border.jpg is in the public folder */
+  background-size: 12%;
+  background-position: center;
+  position: fixed;
+  top: 0; /* Add this to ensure it's positioned at the top */
+}
+.navbar{
+  width: 100%;
+  top: 0;
+  position: fixed;
+  margin: auto;
+  padding: 15px 15px 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: top 0.3s;
+  border-bottom: white 10px solid;
+  background-color: #89cff0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 550px;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  position: relative;
+} 
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.container{
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: fixed;
+}
+.banner{
+  width: 100%;
+  height: 100vh; /* This will make sure your banner covers the full viewport height */
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,1.0)), url('/border.jpg'); /* Assuming border.jpg is in the public folder */
+  background-size: 12%;
+  background-position: center;
+  position: fixed;
+  top: 0; /* Add this to ensure it's positioned at the top */
+}
+.navbar{
+  width: 100%;
+  top: 0;
+  position: fixed;
+  margin: auto;
+  padding: 15px 15px 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: top 0.3s;
+  border-bottom: white 10px solid;
+  background-color: #89cff0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 550px;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  position: relative;
+} 
+.navbar ul li p{
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.navbar ul li .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f0f0f0;
+  min-width: 160px;
+  border-left: 4px solid #89cff0; /* Accent color */
+  box-shadow: none;
+  z-index: 1;
+  top: 100%; /* Aligns the dropdown right below the nav item */
+  left: 0;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  overflow: hidden; /* Keeps the child elements inside the rounded corners */
+}
+.navbar ul li:hover .dropdown {
+  display: block;
+}
+.navbar ul li .dropdown a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #e7e7e7; /* Separator */
+}
+
+.navbar ul li .dropdown a:last-child {
+  border-bottom: none; /* Removes border from the last link */
+}
+
+.navbar ul li .dropdown a:hover {
+  background-color: #89cff0;
+  color: white;
+}
+.content{
+  position: absolute;
+  left: 66%; /* Start from the middle */
+  top: 0%;
+  transform: translate(500%, 500%); /* Adjust both horizontally and vertically */
+  text-align: center;
+  color: #ddd;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index: 2; /* Make sure it's above the background */
+  max-width: calc(100% - 500px); /* Assuming sideNav is 500px wide */
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 0px;
+}
+.content p{
+  margin: 10px 0px 0px 0px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #89cff0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.span{
+  background: #89cff0;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+.button:hover span{
+  width: 100%
+}
+.button:hover{
+  border: none;
+}
+.sideNav{
+  width: 500px;
+  height: 100vh; /* Set to 100% of the viewport height */
+  position: fixed; /* Fixed position to keep it in place */
+  top: 0;
+  left: 0;
+  padding: 0px 15px;
+  background: linear-gradient(#89cff0, #ddd);
+  display: flex;
+  flex-direction: column;
+  border-right: #fff 10px solid;
+  overflow-y: auto; /* Enable vertical scrolling */
+  z-index: 10; /* Ensure it's above other content */
+}
+.sideNav h3 {
+  color: #fff;
+  text-align: center; /* Use this instead of align-items for centering text */
+  border: 5px solid white;
+  display: inline-block; /* To apply border around the text */
+  padding: 0px; /* Optional: for some space inside the border */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto
+}
+.user h2{
+  font-size: 15px;
+  white-space: nowrap;
+}
+.user-img{
+  width: 100px;
+  border-radius: 100%;
+  margin: auto;
+  cursor: pointer;
+}
+.ul{
+  list-style: none;
+  padding: 0 15px;
+}
+.ul li{
+  margin: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.ul li img{
+  width: 30px;
+  margin-right: 0px;
+}
+.ul li p{
+  white-space: nowrap;
+  display: none;
+}
+.table{
+  color: #000;
+  width: 93%;
+  height: 80%;
+  position: absolute;
+  top: 8%; /* Decrease this percentage to move the table up */
+  transform: translateY(5%); /* Adjust this percentage to fine-tune the vertical positioning */
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  background-color: #fff;
+  background: transparent; 
+  border-collapse: collapse; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  color: #fff;
+  text-align: left;
+  text-align: center;
+  border-color:  rgba(0,0,0,0);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table th {
+  background-color: transparent;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contentsub{
+  width: 133%;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-100%);
+  text-align: center;
+  color: #fff;
+}
+.contentsub h1{
+  font-size: 70px;
+  margin-top: 80px;
+}
+.content{
+  position: absolute;
+  left: 66%; /* Start from the middle */
+  top: 50%;
+  transform: translate(-50%, -50%); /* Adjust both horizontally and vertically */
+  text-align: center;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index: 2; /* Make sure it's above the background */
+  max-width: calc(100% - 500px); /* Assuming sideNav is 500px wide */
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+}
+.content p{
+  margin: 10px 0px 0px 0px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.button{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #89cff0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.span{
+  background: #89cff0;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+.button:hover span{
+  width: 100%
+}
+.button:hover{
+  border: none;
+}
+.sideNav{
+  width: 500px;
+  height: 100vh; /* Set to 100% of the viewport height */
+  position: fixed; /* Fixed position to keep it in place */
+  top: 0;
+  left: 0;
+  padding: 0px 15px;
+  background: linear-gradient(#89cff0, #ddd);
+  display: flex;
+  flex-direction: column;
+  border-right: #fff 10px solid;
+  overflow-y: auto; /* Enable vertical scrolling */
+  z-index: 10; /* Ensure it's above other content */
+}
+.sideNav h3 {
+  color: #fff;
+  text-align: center; /* Use this instead of align-items for centering text */
+  border: 5px solid white;
+  display: inline-block; /* To apply border around the text */
+  padding: 0px; /* Optional: for some space inside the border */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto
+}
+.user h2{
+  font-size: 15px;
+  white-space: nowrap;
+}
+.user-img{
+  width: 100px;
+  border-radius: 100%;
+  margin: auto;
+  cursor: pointer;
+}
+.ul{
+  list-style: none;
+  padding: 0 15px;
+}
+.ul li{
+  margin: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.ul li img{
+  width: 30px;
+  margin-right: 0px;
+}
+.ul li p{
+  white-space: nowrap;
+  display: none;
+}
+.spreadValue {
+  font-size: 1rem; /* Smaller font size for the spread value */
+  color: #000; /* Grey color or choose as per your design */
+  margin-left: 0px; /* Space it a bit from the team name or logo */
+}
+@media screen and (max-width: 768px) {
+  .sideNav {
+    width: 200px; /* Smaller width for sideNav */
+  }
+
+  .content, .table2 {
+    left: 200px; /* Adjust the left position to new sideNav width */
+    width: calc(100% - 220px); /* Adjust the width based on new sideNav width and desired spacing */
+  }
+
+  .table2 {
+    margin-left: 220px; /* Adjust margin-left to new sideNav width plus spacing */
+  }
+@media only screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  .navbar ul li {
+    margin: 5px 0; /* Stack the items vertically with less margin */
+  }
+
+  .content {
+    position: static; /* Or adjust positioning as needed */
+    width: auto; /* Take up the full width */
+    padding: 10px; /* Add some padding */
+    text-align: left; /* Align text to the left, or center if preferred */
+    transform: none; /* Remove transformations */
+  }
+
+  .button {
+    width: auto; /* Full width for smaller screens */
+    margin: 10px; /* Adjust margin */
+  }
+
+  /* Adjust table styles for mobile */
+  .table, .table2 {
+    width: 100%; /* Full width */
+    margin: 0; /* Remove any margins if necessary */
+  }
+
+  .sideNav {
+    width: auto; /* Adjust side navigation width */
+    height: auto; /* Adjust height */
+    position: static; /* Remove fixed positioning */
+  }
+}}
