@@ -1,0 +1,128 @@
+[
+    {
+        "Team1": "Los Angeles Lakers",
+        "Team2": "New Orleans Pelicans",
+        "original_total": 230,
+        "Team1total": 125.54285714285714,
+        "Team2total": 123.56571428571431,
+        "adj_total": 249.10857142857145,
+        "difference": 19.10857142857145
+    },
+    {
+        "Team1": "Charlotte Hornets",
+        "Team2": "Cleveland Cavaliers",
+        "original_total": 209,
+        "Team1total": 111.3228,
+        "Team2total": 116.67342857142857,
+        "adj_total": 227.99622857142856,
+        "difference": 18.99622857142856
+    },
+    {
+        "Team1": "Utah Jazz",
+        "Team2": "Golden State Warriors",
+        "original_total": 222.5,
+        "Team1total": 110.48228571428572,
+        "Team2total": 129.05348571428573,
+        "adj_total": 239.53577142857145,
+        "difference": 17.03577142857145
+    },
+    {
+        "Team1": "Brooklyn Nets",
+        "Team2": "Philadelphia 76ers",
+        "original_total": 214,
+        "Team1total": 106.72479999999999,
+        "Team2total": 123.42,
+        "adj_total": 230.14479999999998,
+        "difference": 16.144799999999975
+    },
+    {
+        "Team1": "Washington Wizards",
+        "Team2": "Boston Celtics",
+        "original_total": 226.5,
+        "Team1total": 111.76868571428571,
+        "Team2total": 129.85605714285717,
+        "adj_total": 241.62474285714288,
+        "difference": 15.124742857142877
+    },
+    {
+        "Team1": "Detroit Pistons",
+        "Team2": "San Antonio Spurs",
+        "original_total": 214.5,
+        "Team1total": 112.4448,
+        "Team2total": 116.14571428571429,
+        "adj_total": 228.59051428571428,
+        "difference": 14.090514285714278
+    },
+    {
+        "Team1": "Milwaukee Bucks",
+        "Team2": "Orlando Magic",
+        "original_total": 214.5,
+        "Team1total": 111.03428571428572,
+        "Team2total": 116.14571428571429,
+        "adj_total": 227.18,
+        "difference": 12.680000000000007
+    },
+    {
+        "Team1": "Dallas Mavericks",
+        "Team2": "Oklahoma City Thunder",
+        "original_total": 224.5,
+        "Team1total": 120.23428571428572,
+        "Team2total": 116.5878857142857,
+        "adj_total": 236.82217142857144,
+        "difference": 12.322171428571437
+    },
+    {
+        "Team1": "Toronto Raptors",
+        "Team2": "Miami Heat",
+        "original_total": 220.5,
+        "Team1total": 105.73714285714284,
+        "Team2total": 125.52217142857144,
+        "adj_total": 231.25931428571428,
+        "difference": 10.759314285714282
+    },
+    {
+        "Team1": "Atlanta Hawks",
+        "Team2": "Indiana Pacers",
+        "original_total": 240,
+        "Team1total": 116.60000000000001,
+        "Team2total": 132.2153142857143,
+        "adj_total": 248.8153142857143,
+        "difference": 8.815314285714294
+    },
+    {
+        "Team1": "Chicago Bulls",
+        "Team2": "New York Knicks",
+        "original_total": 216.5,
+        "Team1total": 108.2508,
+        "Team2total": 114.0,
+        "adj_total": 222.2508,
+        "difference": 5.750799999999998
+    },
+    {
+        "Team1": "Phoenix Suns",
+        "Team2": "Minnesota Timberwolves",
+        "original_total": 217,
+        "Team1total": 107.99177142857144,
+        "Team2total": 112.56365714285714,
+        "adj_total": 220.5554285714286,
+        "difference": 3.5554285714285925
+    },
+    {
+        "Team1": "Denver Nuggets",
+        "Team2": "Memphis Grizzlies",
+        "original_total": 218,
+        "Team1total": 118.23908571428572,
+        "Team2total": 102.11657142857143,
+        "adj_total": 220.35565714285715,
+        "difference": 2.3556571428571544
+    },
+    {
+        "Team1": "Portland Trail Blazers",
+        "Team2": "Sacramento Kings",
+        "original_total": 213.5,
+        "Team1total": 102.63222857142858,
+        "Team2total": 106.31314285714286,
+        "adj_total": 208.94537142857143,
+        "difference": -4.554628571428566
+    }
+]

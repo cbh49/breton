@@ -1,0 +1,101 @@
+[
+    {
+        "Team1": "Atlanta Braves",
+        "Team2": "Houston Astros",
+        "original_total": 9,
+        "adj_total": 11.470690400000002,
+        "Team1total": 6.415968,
+        "Team2total": 5.054722400000001,
+        "difference": 2.4706904000000023
+    },
+    {
+        "Team1": "Chicago Cubs",
+        "Team2": "Arizona Diamondbacks",
+        "original_total": 9,
+        "adj_total": 11.051061200000001,
+        "Team1total": 5.27669,
+        "Team2total": 5.774371200000001,
+        "difference": 2.0510612000000013
+    },
+    {
+        "Team1": "Pittsburgh Pirates",
+        "Team2": "New York Mets",
+        "original_total": 8,
+        "adj_total": 9.943276000000001,
+        "Team1total": 3.4248760000000003,
+        "Team2total": 6.518400000000001,
+        "difference": 1.943276000000001
+    },
+    {
+        "Team1": "San Diego Padres",
+        "Team2": "Milwaukee Brewers",
+        "original_total": 9,
+        "adj_total": 10.912901999999999,
+        "Team1total": 4.50177,
+        "Team2total": 6.411132,
+        "difference": 1.912901999999999
+    },
+    {
+        "Team1": "Cincinnati Reds",
+        "Team2": "Seattle Mariners",
+        "original_total": 7.5,
+        "adj_total": 8.339055977777779,
+        "Team1total": 5.103077777777778,
+        "Team2total": 3.2359782000000004,
+        "difference": 0.8390559777777788
+    },
+    {
+        "Team1": "New York Yankees",
+        "Team2": "Toronto Blue Jays",
+        "original_total": 8.5,
+        "adj_total": 8.356774177777778,
+        "Team1total": 4.3563777777777775,
+        "Team2total": 4.0003964000000005,
+        "difference": -0.14322582222222202
+    },
+    {
+        "Team1": "Los Angeles Angels",
+        "Team2": "Tampa Bay Rays",
+        "original_total": 8.5,
+        "adj_total": 8.000792800000001,
+        "Team1total": 3.9094782999999995,
+        "Team2total": 4.091314500000001,
+        "difference": -0.49920719999999896
+    },
+    {
+        "Team1": "Texas Rangers",
+        "Team2": "Detroit Tigers",
+        "original_total": 7.5,
+        "adj_total": 6.501884955555555,
+        "Team1total": 3.2599294,
+        "Team2total": 3.2419555555555553,
+        "difference": -0.9981150444444449
+    },
+    {
+        "Team1": "San Francisco Giants",
+        "Team2": "Miami Marlins",
+        "original_total": 8.5,
+        "adj_total": 7.0616,
+        "Team1total": 3.5308,
+        "Team2total": 3.5308,
+        "difference": -1.4383999999999997
+    },
+    {
+        "Team1": "Colorado Rockies",
+        "Team2": "Philadelphia Phillies",
+        "original_total": 8,
+        "adj_total": 5.857290399999999,
+        "Team1total": 3.2824799999999996,
+        "Team2total": 2.5748103999999996,
+        "difference": -2.1427096000000008
+    },
+    {
+        "Team1": "St. Louis Cardinals",
+        "Team2": "Oakland Athletics",
+        "original_total": 8,
+        "adj_total": 5.075970900000001,
+        "Team1total": 2.7399008,
+        "Team2total": 2.3360701000000006,
+        "difference": -2.9240290999999994
+    }
+]
