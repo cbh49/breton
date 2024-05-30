@@ -22,6 +22,7 @@
 
 /* NAVBAR CONTENT */
 
+
 .navbar {
   width: 100%;
   top: 0;
@@ -142,6 +143,7 @@
 }
 
 
+
 /* MAIN CONTENT*/
 
 
@@ -166,7 +168,6 @@
   box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
   width: 500px;
   margin-left: 325px;
-  border: 1px solid #68b42b;
 }
 .content p{
   margin: 10px 0 20px;
@@ -214,7 +215,7 @@
   align-items: center;
   border: 1px solid #68b42b; 
   background-color: #303030;
-  margin-left: calc(42%);
+  margin-left: calc(43%);
 }
 .results{
   border-radius: 10%;
@@ -225,7 +226,8 @@
   margin-left: 475px;
   border: 1px solid #68b42b;
   background-color: #303030;
-  margin-left: calc(40%);
+  padding: 5px;
+  margin-left: calc(42%);
 }
 .chartButton {
   position: relative;
@@ -244,8 +246,8 @@
   border-radius: 5px;
   text-transform: uppercase; /* Keeping the style consistent with navbar */
 }
-.chartButton:hover {
-  padding-left: 20px;
+.chartButton:hover::after {
+  width: 100%;
 }
 .chartButton .dropdown {
   display: none;
@@ -277,36 +279,7 @@
   color: white;
 }
 
-/* BOTTOM NAV */
 
-
-.bottomNav {
-  position: fixed; /* Stick to the bottom of the viewport */
-  left: 0;
-  right: 0;
-  bottom: 0; /* Align to the bottom of the viewport */
-  height: 15px; /* Adjust height as necessary */
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,.8)), url('/pathex.avif');
-  background-size: 2%;
-  color: #89cff0;
-  text-align: center;
-  padding: 10px 0;
-  display: flex; /* Use flexbox to center content horizontally */
-  align-items: center; /* Center content vertically */
-  justify-content: center;
-  left: 500px;
-  z-index: 10;
-  border-top: 5px solid #89cff0;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: .75em;
-}
-.bottomnavlogo {
-  padding-left: 20px;
-  padding-top: 5px;
-  width: 25px; /* Specify width */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Ensure the image is scaled correctly */
-}
 
 
 
@@ -444,20 +417,16 @@
 /* TABLE CONTENT*/
 
 .table2{
-  width: calc(100% - 20px);
+  width: calc(100% - 20px); /* Adjust this percentage as needed to fit your design */
   position: relative; /* Keep the table in the normal document flow */
-  top: auto; /* Default to auto */
   border-collapse: collapse;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/pathex.avif');
   background-size: 3%;
   color: #fff;
   text-align: center;
-  padding-right: 10px;
-  margin-top: 0; /* Dynamically set in your component */
   z-index: 1;
   overflow-x: hidden; 
   border-radius: 2%;
-  margin-right: 10px;
 }
 .table2 tbody tr:nth-child(odd) {
   background-color: #484848; /* Color for odd rows */
@@ -475,7 +444,7 @@ table.table2 thead th {
 
 /* Table body styles */
 table.table2 tbody td {
-    font-size: 1.1em; /* Half the size of the header, adjust as necessary */
+    font-size: .75em; /* Half the size of the header, adjust as necessary */
     text-align: center;
     overflow: hidden;
 }
@@ -492,9 +461,9 @@ table.table2 tbody td {
   border: 1px solid #68b42b;
 }
 .atSymbol2 {
-  padding-right: 10px;
-  padding-left: 10px;
-  border-radius: 10%;
+  flex: none; /* Prevents '@' from stretching */
+  padding: 5px 10px;
+  border-radius: 30%;
   box-shadow: 0 4px 8px rgba(0,0,0, 1); /* Shadow for 3D effect */
 }
 .matchupRow2 {
@@ -509,7 +478,6 @@ table.table2 tbody td {
   width: 97.5%;
   margin-left: 10px;
   border: 1px solid #68b42b;
-  text-align: center;
 }
 .header{
   background-color: transparent; /* White background for the whole row */
@@ -519,12 +487,7 @@ table.table2 tbody td {
   height: 80px;
   width: 130px;
   border-bottom: 3px solid black;
-  align-items: center;
-  text-align: center;
-  font-size: 1em;
 }
-
-
 /* Add left border to each table cell for column separation */
 table.table2 th, table.table2 td {
     border-left: 0px solid #89cff0;
@@ -612,6 +575,31 @@ table.table2 th:last-child, table.table2 td:last-child {
 .tip:hover::after {
     visibility: visible;
     opacity: 1;
+}
+
+
+/* BOTTOM NAV */
+
+
+.bottomNav {
+  position: relative; /* Absolute positioning relative to the nearest positioned ancestor (page-container) */
+  left: 0;            /* Align to the left edge of the container */
+  right: 0;           /* Align to the right edge of the container */
+  bottom: 0;          /* Align to the bottom of the container */
+  height: 50px;       /* Height of the bar */
+  background-color: white;
+  color: white;       /* Text color */
+  text-align: center; /* Center the text */
+  padding: 10px 0;    /* Padding for some space inside the bar */
+  flex-direction: row;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.8)), url('/pathex.avif');
+  background-size: 5%;
+  z-index: 1;
+  border-bottom: 10px solid rgba(0,0,0,.8); 
+}
+.bottomnavlogo{
+  align-items: center;
+  padding: 15px;
 }
 
 
