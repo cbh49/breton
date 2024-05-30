@@ -1,0 +1,66 @@
+{
+    "Arizona Diamondbacks": [
+        3.3,
+        3.9
+    ],
+    "Atlanta Braves": [
+        4.0,
+        3.7
+    ],
+    "Boston Red Sox": [
+        4.8,
+        4.4
+    ],
+    "Chicago Cubs": [
+        3.3333333333333335,
+        5.222222222222222
+    ],
+    "Detroit Tigers": [
+        4.666666666666667,
+        6.555555555555555
+    ],
+    "Houston Astros": [
+        4.0,
+        3.7
+    ],
+    "Kansas City Royals": [
+        6.3,
+        3.3
+    ],
+    "Los Angeles Angels": [
+        3.8,
+        4.2
+    ],
+    "Milwaukee Brewers": [
+        4.5,
+        3.8
+    ],
+    "Minnesota Twins": [
+        3.9,
+        4.3
+    ],
+    "New York Mets": [
+        3.111111111111111,
+        5.777777777777778
+    ],
+    "New York Yankees": [
+        4.5,
+        2.7
+    ],
+    "Oakland Athletics": [
+        3.9,
+        4.6
+    ],
+    "Seattle Mariners": [
+        3.4,
+        3.8
+    ],
+    "Tampa Bay Rays": [
+        2.7,
+        4.9
+    ],
+    "Washington Nationals": [
+        4.8,
+        4.6
+    ]
+}

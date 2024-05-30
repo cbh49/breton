@@ -1,47 +1,7 @@
 [
     {
-        "Team1": "San Jose Sharks",
-        "Team2": "Edmonton Oilers",
-        "Total": 6
-    },
-    {
-        "Team1": "Minnesota Wild",
-        "Team2": "Los Angeles Kings",
-        "Total": 5.5
-    },
-    {
-        "Team1": "Ottawa Senators",
-        "Team2": "New York Rangers",
-        "Total": 6
-    },
-    {
-        "Team1": "New York Islanders",
-        "Team2": "New Jersey Devils",
-        "Total": 6
-    },
-    {
-        "Team1": "Nashville Predators",
-        "Team2": "Pittsburgh Penguins",
-        "Total": 6
-    },
-    {
-        "Team1": "Buffalo Sabres",
-        "Team2": "Tampa Bay Lightning",
-        "Total": 6
-    },
-    {
-        "Team1": "Montr\u00e9al Canadiens",
-        "Team2": "Detroit Red Wings",
-        "Total": 6.5
-    },
-    {
-        "Team1": "New York Islanders",
-        "Team2": "New Jersey Devils",
+        "Team1": "New York Rangers",
+        "Team2": "Florida Panthers",
         "Total": "Not Found"
-    },
-    {
-        "Team1": "Boston Bruins",
-        "Team2": "Washington Capitals",
-        "Total": 5.5
     }
 ]

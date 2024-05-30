@@ -1,74 +1,56 @@
 [
     {
-        "Team1": "Nashville Predators",
-        "Team2": "Pittsburgh Penguins",
-        "original_total": 6,
-        "Team1total": 3.2857142857142856,
-        "Team2total": 4.571428571428571,
-        "adj_total": 7.739999999999999,
-        "difference": 1.7399999999999993
+        "Team1": "Vancouver Canucks",
+        "Team2": "Winnipeg Jets",
+        "original_total": 5.5,
+        "Team1total": 3.142857142857143,
+        "Team2total": 4.428571428571429,
+        "adj_total": 7.382857142857143,
+        "difference": 1.8828571428571426
     },
     {
-        "Team1": "Montr\u00e9al Canadiens",
-        "Team2": "Detroit Red Wings",
+        "Team1": "Anaheim Ducks",
+        "Team2": "Las Vegas Golden Knights",
+        "original_total": 6,
+        "Team1total": 2.857142857142857,
+        "Team2total": 4.0,
+        "adj_total": 7.131428571428572,
+        "difference": 1.1314285714285717
+    },
+    {
+        "Team1": "Edmonton Oilers",
+        "Team2": "Colorado Avalanche",
         "original_total": 6.5,
-        "Team1total": 4.0,
-        "Team2total": 3.2857142857142856,
-        "adj_total": 7.482857142857143,
-        "difference": 0.9828571428571431
-    },
-    {
-        "Team1": "Minnesota Wild",
-        "Team2": "Los Angeles Kings",
-        "original_total": 5.5,
-        "Team1total": 3.0,
-        "Team2total": 3.4285714285714284,
-        "adj_total": 6.385714285714286,
-        "difference": 0.8857142857142861
-    },
-    {
-        "Team1": "Buffalo Sabres",
-        "Team2": "Tampa Bay Lightning",
-        "original_total": 6,
-        "Team1total": 2.7142857142857144,
-        "Team2total": 3.7142857142857144,
-        "adj_total": 6.3342857142857145,
-        "difference": 0.3342857142857145
-    },
-    {
-        "Team1": "New York Islanders",
-        "Team2": "New Jersey Devils",
-        "original_total": 6,
-        "Team1total": 3.0,
+        "Team1total": 4.142857142857143,
         "Team2total": 2.857142857142857,
-        "adj_total": 5.865714285714286,
-        "difference": -0.13428571428571434
+        "adj_total": 7.134285714285715,
+        "difference": 0.6342857142857152
     },
     {
-        "Team1": "Boston Bruins",
-        "Team2": "Washington Capitals",
-        "original_total": 5.5,
-        "Team1total": 3.0,
-        "Team2total": 2.142857142857143,
-        "adj_total": 5.074285714285715,
-        "difference": -0.42571428571428527
-    },
-    {
-        "Team1": "Ottawa Senators",
-        "Team2": "New York Rangers",
+        "Team1": "Seattle Kraken",
+        "Team2": "Minnesota Wild",
         "original_total": 6,
         "Team1total": 2.2857142857142856,
         "Team2total": 3.0,
-        "adj_total": 5.3914285714285715,
-        "difference": -0.6085714285714285
+        "adj_total": 5.271428571428571,
+        "difference": -0.7285714285714286
     },
     {
         "Team1": "San Jose Sharks",
-        "Team2": "Edmonton Oilers",
-        "original_total": 6,
+        "Team2": "Calgary Flames",
+        "original_total": 6.5,
         "Team1total": 2.142857142857143,
-        "Team2total": 2.857142857142857,
-        "adj_total": 4.9714285714285715,
-        "difference": -1.0285714285714285
+        "Team2total": 3.0,
+        "adj_total": 5.451428571428572,
+        "difference": -1.048571428571428
+    },
+    {
+        "Team1": "Chicago Blackhawks",
+        "Team2": "Los Angeles Kings",
+        "original_total": 6,
+        "Team1total": 1.4285714285714286,
+        "Team2total": 3.142857142857143,
+        "adj_total": 4.611428571428571,
+        "difference": -1.3885714285714288
     }
 ]

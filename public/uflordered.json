@@ -1,0 +1,38 @@
+[
+    {
+        "Team1": "Birmingham Stallions",
+        "Team2": "Memphis Showboats",
+        "original_total": 43,
+        "Team1total": 26.4,
+        "Team2total": 17.2,
+        "adj_total": 44.519999999999996,
+        "difference": 1.519999999999996
+    },
+    {
+        "Team1": "San Antonio Brahmas",
+        "Team2": "D.C. Defenders",
+        "original_total": 43,
+        "Team1total": 23.0,
+        "Team2total": 18.8,
+        "adj_total": 42.22,
+        "difference": -0.7800000000000011
+    },
+    {
+        "Team1": "Houston Roughnecks",
+        "Team2": "St. Louis Battlehawks",
+        "original_total": 47.5,
+        "Team1total": 15.2,
+        "Team2total": 30.2,
+        "adj_total": 46.15,
+        "difference": -1.3500000000000014
+    },
+    {
+        "Team1": "Arlington Renegades",
+        "Team2": "Michigan Panthers",
+        "original_total": 42,
+        "Team1total": 18.0,
+        "Team2total": 21.8,
+        "adj_total": 39.989999999999995,
+        "difference": -2.010000000000005
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "Team1": "Kansas City Royals",
+        "Team2": "Minnesota Twins",
+        "Team1total": 6.715548,
+        "Team2total": 3.432,
+        "Team1Pitcher": "Brady Singer",
+        "Team2Pitcher": "Chris Paddack",
+        "MLdifference": 3.283548
+    },
+    {
+        "Team1": "Kansas City Royals",
+        "Team2": "Minnesota Twins",
+        "Team1total": 6.715548,
+        "Team2total": 3.432,
+        "Team1Pitcher": "Brady Singer",
+        "Team2Pitcher": "Chris Paddack",
+        "MLdifference": 3.283548
+    },
+    {
+        "Team1": "Chicago Cubs",
+        "Team2": "Milwaukee Brewers",
+        "Team1total": 3.0881333333333334,
+        "Team2total": 4.22532,
+        "Team1Pitcher": "Jameson Taillon",
+        "Team2Pitcher": "Colin Rea",
+        "MLdifference": 1.1371866666666666
+    },
+    {
+        "Team1": "Washington Nationals",
+        "Team2": "Atlanta Braves",
+        "Team1total": 4.35072,
+        "Team2total": 3.58512,
+        "Team1Pitcher": "Trevor Williams",
+        "Team2Pitcher": "Reynaldo L\u00c3\u0192\u00c2\u00b3pez",
+        "MLdifference": 0.7656000000000001
+    },
+    {
+        "Team1": "Houston Astros",
+        "Team2": "Seattle Mariners",
+        "Team1total": 3.7480800000000003,
+        "Team2total": 3.509072,
+        "Team1Pitcher": "Spencer Arrighetti",
+        "Team2Pitcher": "Logan Gilbert",
+        "MLdifference": 0.2390080000000001
+    },
+    {
+        "Team1": "Detroit Tigers",
+        "Team2": "Boston Red Sox",
+        "Team1total": 4.4762666666666675,
+        "Team2total": 4.6368,
+        "Team1Pitcher": "Jack Flaherty",
+        "Team2Pitcher": "Nick Pivetta",
+        "MLdifference": 0.16053333333333253
+    },
+    {
+        "Team1": "New York Yankees",
+        "Team2": "Los Angeles Angels",
+        "Team1total": 3.7674000000000007,
+        "Team2total": 3.6784,
+        "Team1Pitcher": "Carlos Rod\u00c3\u0192\u00c2\u00b3n",
+        "Team2Pitcher": "Patrick Sandoval",
+        "MLdifference": 0.08900000000000086
+    }
+]

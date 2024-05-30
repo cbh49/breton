@@ -1,101 +1,93 @@
 [
     {
-        "Team1": "Atlanta Braves",
-        "Team2": "Houston Astros",
-        "original_total": 9,
-        "adj_total": 11.470690400000002,
-        "Team1total": 6.415968,
-        "Team2total": 5.054722400000001,
-        "difference": 2.4706904000000023
-    },
-    {
-        "Team1": "Chicago Cubs",
-        "Team2": "Arizona Diamondbacks",
-        "original_total": 9,
-        "adj_total": 11.051061200000001,
-        "Team1total": 5.27669,
-        "Team2total": 5.774371200000001,
-        "difference": 2.0510612000000013
-    },
-    {
-        "Team1": "Pittsburgh Pirates",
-        "Team2": "New York Mets",
+        "Team1": "Kansas City Royals",
+        "Team2": "Minnesota Twins",
         "original_total": 8,
-        "adj_total": 9.943276000000001,
-        "Team1total": 3.4248760000000003,
-        "Team2total": 6.518400000000001,
-        "difference": 1.943276000000001
+        "adj_total": 10.147548,
+        "Team1Runs": 6.3,
+        "Team2Runs": 3.9,
+        "Team1total": 6.715548,
+        "Team2total": 3.432,
+        "difference": 2.1475480000000005,
+        "Team1Pitcher": "Brady Singer",
+        "Team2Pitcher": "Chris Paddack"
     },
     {
-        "Team1": "San Diego Padres",
-        "Team2": "Milwaukee Brewers",
-        "original_total": 9,
-        "adj_total": 10.912901999999999,
-        "Team1total": 4.50177,
-        "Team2total": 6.411132,
-        "difference": 1.912901999999999
+        "Team1": "Kansas City Royals",
+        "Team2": "Minnesota Twins",
+        "original_total": 8,
+        "adj_total": 10.147548,
+        "Team1Runs": 6.3,
+        "Team2Runs": 3.9,
+        "Team1total": 6.715548,
+        "Team2total": 3.432,
+        "difference": 2.1475480000000005,
+        "Team1Pitcher": "Brady Singer",
+        "Team2Pitcher": "Chris Paddack"
     },
     {
-        "Team1": "Cincinnati Reds",
+        "Team1": "Detroit Tigers",
+        "Team2": "Boston Red Sox",
+        "original_total": 8,
+        "adj_total": 9.113066666666668,
+        "Team1Runs": 4.666666666666667,
+        "Team2Runs": 4.8,
+        "Team1total": 4.4762666666666675,
+        "Team2total": 4.6368,
+        "difference": 1.1130666666666684,
+        "Team1Pitcher": "Jack Flaherty",
+        "Team2Pitcher": "Nick Pivetta"
+    },
+    {
+        "Team1": "Houston Astros",
         "Team2": "Seattle Mariners",
         "original_total": 7.5,
-        "adj_total": 8.339055977777779,
-        "Team1total": 5.103077777777778,
-        "Team2total": 3.2359782000000004,
-        "difference": 0.8390559777777788
+        "adj_total": 7.2571520000000005,
+        "Team1Runs": 4.0,
+        "Team2Runs": 3.4,
+        "Team1total": 3.7480800000000003,
+        "Team2total": 3.509072,
+        "difference": -0.2428479999999995,
+        "Team1Pitcher": "Spencer Arrighetti",
+        "Team2Pitcher": "Logan Gilbert"
+    },
+    {
+        "Team1": "Washington Nationals",
+        "Team2": "Atlanta Braves",
+        "original_total": 8.5,
+        "adj_total": 7.93584,
+        "Team1Runs": 4.8,
+        "Team2Runs": 4.0,
+        "Team1total": 4.35072,
+        "Team2total": 3.58512,
+        "difference": -0.5641600000000002,
+        "Team1Pitcher": "Trevor Williams",
+        "Team2Pitcher": "Reynaldo L\u00c3\u00b3pez"
     },
     {
         "Team1": "New York Yankees",
-        "Team2": "Toronto Blue Jays",
+        "Team2": "Los Angeles Angels",
         "original_total": 8.5,
-        "adj_total": 8.356774177777778,
-        "Team1total": 4.3563777777777775,
-        "Team2total": 4.0003964000000005,
-        "difference": -0.14322582222222202
+        "adj_total": 7.4458,
+        "Team1Runs": 4.5,
+        "Team2Runs": 3.8,
+        "Team1total": 3.7674000000000007,
+        "Team2total": 3.6784,
+        "difference": -1.0541999999999998,
+        "Team1Pitcher": "Carlos Rod\u00c3\u00b3n",
+        "Team2Pitcher": "Patrick Sandoval"
     },
     {
-        "Team1": "Los Angeles Angels",
-        "Team2": "Tampa Bay Rays",
+        "Team1": "Chicago Cubs",
+        "Team2": "Milwaukee Brewers",
         "original_total": 8.5,
-        "adj_total": 8.000792800000001,
-        "Team1total": 3.9094782999999995,
-        "Team2total": 4.091314500000001,
-        "difference": -0.49920719999999896
-    },
-    {
-        "Team1": "Texas Rangers",
-        "Team2": "Detroit Tigers",
-        "original_total": 7.5,
-        "adj_total": 6.501884955555555,
-        "Team1total": 3.2599294,
-        "Team2total": 3.2419555555555553,
-        "difference": -0.9981150444444449
-    },
-    {
-        "Team1": "San Francisco Giants",
-        "Team2": "Miami Marlins",
-        "original_total": 8.5,
-        "adj_total": 7.0616,
-        "Team1total": 3.5308,
-        "Team2total": 3.5308,
-        "difference": -1.4383999999999997
-    },
-    {
-        "Team1": "Colorado Rockies",
-        "Team2": "Philadelphia Phillies",
-        "original_total": 8,
-        "adj_total": 5.857290399999999,
-        "Team1total": 3.2824799999999996,
-        "Team2total": 2.5748103999999996,
-        "difference": -2.1427096000000008
-    },
-    {
-        "Team1": "St. Louis Cardinals",
-        "Team2": "Oakland Athletics",
-        "original_total": 8,
-        "adj_total": 5.075970900000001,
-        "Team1total": 2.7399008,
-        "Team2total": 2.3360701000000006,
-        "difference": -2.9240290999999994
+        "adj_total": 7.313453333333333,
+        "Team1Runs": 3.3333333333333335,
+        "Team2Runs": 4.5,
+        "Team1total": 3.0881333333333334,
+        "Team2total": 4.22532,
+        "difference": -1.1865466666666666,
+        "Team1Pitcher": "Jameson Taillon",
+        "Team2Pitcher": "Colin Rea"
     }
 ]
