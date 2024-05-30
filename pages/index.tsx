@@ -12,12 +12,20 @@ type Matchup = {
   team2Logo: string;
   Team2: string;
   Total: number;
-};
-
-type rankings = {
   name: string;
   rank: number;
-}
+};
+
+type Rank = {
+  rank: number;
+  name: string;
+};
+
+type Ranking = {
+  name: string;
+  imageUrl: string;
+  ranks: Rank[];
+};
 
 type LogoUrls = { [team: string]: string };
 
@@ -48,8 +56,8 @@ const Home = () => {
   const [isNbaDropdownVisible, setIsNbaDropdownVisible] = useState(false);
   const [isMLBDropdownVisible, setIsMLBDropdownVisible] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
-  const [rankings, setRankings] = useState([]); // rankings
-  const [currentIndex, setCurrentIndex] = useState(0); // ufc rotator
+  const [rankings, setRankings] = useState<Ranking[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);  
   const tableTopSpacing = `${100}px`;
   const [ufcNames, setUfcNames] = useState([]);
   const [runsData, setRunsData] = useState<RunsData>({}); // For runs data
@@ -74,19 +82,20 @@ const Home = () => {
 
       // load rankings
         const loadRankings = async () => {
-            try {
-                const response = await fetch('/ufcrankings.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                const data = await response.json();
-                console.log("Rankings data:", data);
-                setRankings(data.rankings); // Assuming the JSON has a root "rankings" key
-            } catch (error) {
-                console.error("Failed to fetch rankings:", error);
+          try {
+            const response = await fetch('/ufcrankings.json');
+            if (!response.ok) {
+              throw new Error(`HTTP error! Status: ${response.status}`);
             }
-        };
-        loadRankings();
+          const data = await response.json();
+            console.log("Rankings data:", data);
+            setRankings(data.rankings); // Ensure the JSON structure has a "rankings" key with the correct structure
+            } catch (error) {
+              console.error("Failed to fetch rankings:", error);
+            }
+          };
+        
+          loadRankings();
       
         const fetchUfcNames = async () => {
           try {
@@ -155,13 +164,13 @@ const Home = () => {
               <div key={index} className={styles.dataSection}>
                 <h1>{section.text}</h1>
                 <div className={styles.buttonContainer}>
-                  {section.buttons.map((button, idx) => (
-                    <Link key={idx} href={button.href} passHref>
-                      <button className={styles.button}>{button.label} 
-                      <span className={styles.span}/> 
-                      </button>
-                    </Link>
-                  ))}
+                {section.buttons.map((button, idx) => (
+                  <Link key={idx} href={button.href} passHref>
+                    <button className={styles.button}>{button.label}
+                      <span className={styles.span}/>
+                    </button>
+                  </Link>
+                ))}
                 </div>
               </div>
             ))}
@@ -170,20 +179,20 @@ const Home = () => {
             <thead>
               <tr>
                 <th colSpan={2}>
-                  <img src="bohm.avif" alt="Highest Runs Per Game" className={styles.tableImage} />
+                  <Image src="bohm.avif" alt="Highest Runs Per Game" className={styles.tableImage} />
                   <h3>Runs Scored Leaders (Last 10)</h3>
                 </th>
               </tr>
             </thead>
             <tbody>
-              {getHighestRuns().map(([team, values]) => (
-                <tr key={team}>
-                  <td>
-                    <img src={logos[team]} alt={team} className={styles.logostat} />
-                    {values[0].toFixed(2)}
-                  </td>
-                </tr>
-              ))}
+            {getHighestRuns().map(([team, values]) => (
+              <tr key={team}>
+                <td>
+                  <Image src={logos[team]} alt={team} className={styles.logostat} width={80} height={80} />
+                  {values[0].toFixed(2)}
+                </td>
+              </tr>
+            ))}
             </tbody>
             <thead>
               <tr>
@@ -195,14 +204,14 @@ const Home = () => {
               </tr>
             </thead>
             <tbody>
-              {getLowestRunsAllowed().map(([team, values]) => (
-                <tr key={team}>
-                  <td>
-                    <img src={logos[team]} alt={team} className={styles.logostat} />
-                    {values[1].toFixed(2)}
-                  </td>
-                </tr>
-              ))}
+            {getLowestRunsAllowed().map(([team, values]) => (
+              <tr key={team}>
+                <td>
+                  <Image src={logos[team]} alt={team} className={styles.logostat} width={80} height={80} />
+                  {values[1].toFixed(2)}
+                </td>
+              </tr>
+            ))}
             </tbody>
           </table>
         </div>
@@ -215,7 +224,7 @@ const Home = () => {
     <div className={styles.imageContainer}>
       <div className={styles.imageTextContainer}>
         <Image src="/stats.png" alt="Logo" width={125} height={115} />
-        <p>Our site pulls in advanced analytics of teams and players recent results. These metrics allow us to identify best & worst performers. </p>
+        <p>Our site pulls in advanced analytics of teams and players recent results. These metrics allow us to identify best &amp; worst performers.</p>
       </div>
       <div className={styles.imageTextContainer}>
         <Image src="/monitor.png" alt="Logo" width={125} height={120} />
@@ -223,7 +232,7 @@ const Home = () => {
       </div>
       <div className={styles.imageTextContainer}>
         <Image src="/money.png" alt="Logo" width={125} height={120} />
-        <p>All of our data gets posted and tracked daily. Use our data, find the plays you like best, and make money. It's just that easy. </p>
+        <p>All of our data gets posted and tracked daily. Use our data, find the plays you like best, and make money. It&apos;s just that easy.</p>
       </div>
     </div>
   </div>
@@ -331,7 +340,7 @@ const Home = () => {
           </tr>
         ) : (
           displayMatchups.map((matchup) => (
-            <tr className={styles.matchupRow}>
+            <tr key={matchup.id} className={styles.matchupRow}>
                 <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} layout="fixed" />  
               <td className={styles.atSymbol}>@</td>   
                 <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} layout="fixed" />
@@ -363,7 +372,7 @@ const Home = () => {
           <h3>STANDINGS</h3>
           <h4>{rankings[currentIndex].name}</h4>
           <tr className={styles.headshotRow}>
-            <td colSpan="2"> {/* This will make the image span across all columns if there are more than one */}
+            <td colSpan={2}> {/* This will make the image span across all columns if there are more than one */}
               <Image
                 src={rankings[currentIndex].imageUrl}
                 alt={`Image for ${rankings[currentIndex].name}`}
@@ -377,11 +386,11 @@ const Home = () => {
             <thead>
             </thead>
             <tbody>
-              {rankings[currentIndex].ranks.slice(0, 11).map((rank, index) => (
-                <tr key={index}>
-                  <td>{rank.rank}  {rank.name}</td>
-                </tr>
-              ))}
+            {rankings[currentIndex].ranks.slice(0, 11).map((rank, index) => (
+              <tr key={index}>
+                <td>{rank.rank} {rank.name}</td>
+              </tr>
+            ))}
             </tbody>
           </table>
           <button onClick={handlePrev} className={styles.backButton}>

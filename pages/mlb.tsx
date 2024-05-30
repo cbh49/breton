@@ -415,7 +415,7 @@ const MLB = () => {
           </tr>
         ) : (
           displayMatchups.map((matchup) => (
-            <tr className={styles.matchupRow}>
+            <tr key={matchup.id} className={styles.matchupRow}>
                 <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} layout="fixed" />  
               <td className={styles.atSymbol}>@</td>   
                 <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} layout="fixed" />
