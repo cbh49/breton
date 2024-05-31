@@ -150,7 +150,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 87vh;
+  height: 95vh;
   top: 132px;
   width: calc(100% - 780px); /* Subtracting 400px from each side */
   border-radius: 2%;;
@@ -203,7 +203,7 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 180px;
   border-radius: 20px;
-  margin-top: -710px;
+  margin-top: -780px;
   background-color:rgba(238, 236, 236, 0.941);
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
   z-index: 10;
@@ -577,6 +577,9 @@
   border-color: #68b42b; /* Change border color to white on hover */
   box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
 }
+.leaguelogo{
+  margin-left: 140px;
+}
 
 
 
@@ -815,7 +818,7 @@
 
   .banner {
     
-    height: 80vh;
+    height: 75vh;
     top: 245px;
     width: 100%;
     order: 2; /* Main content */
@@ -874,14 +877,14 @@
     padding: 2px;
   }
   .logostat {
-    width: 30px;
-    height: 30px;
-    padding-right: 25px;
+    width: 20px;
+    height: 20px;
+    padding-right: 20px;
   }
   .tableImage{
     border-radius: 20px;
-    height: 100px;
-    width: 150px;
+    height: 125px;
+    width: 200px;
     margin-bottom: -15px;
   }
   .button {
@@ -920,14 +923,11 @@
     margin-left: 15px;
   }
   .imageTextContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 22px;
+    padding: 25px;
     height: 280px; /* example fixed height */
-    width: 80px; /* example fixed width */
+    width: 70px; /* example fixed width */
     gap: 0px;
+    border-radius: 5%;
   }
   .imageTextContainer p {
     max-width: 250px; /* Set a max-width for the text */
