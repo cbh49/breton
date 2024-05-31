@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position: fixed;
+  position: relative;
 }
 
 
@@ -29,31 +29,39 @@
   z-index: 100;
   font-size: 1em;
 }
-.navbar p{
+
+.navbar p {
   color: black;
   font-size: .75em;
-  
 }
-.navbar ul li{
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 145px;
+}
+
+.navbar ul li {
   display: inline-block;
   position: relative;
   color: white;
   font-size: 1.5em;
   cursor: pointer;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 10px 50px;
   background: transparent;
   box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
   border: 3px solid white;
-  right: 115px;
+  margin-left: 0px; /* Space between items */
 } 
-.navbar ul li a{
+
+.navbar ul li a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  
 }
-.navbar ul li::after{
+
+.navbar ul li::after {
   content: '';
   height: 3px;
   width: 0%;
@@ -62,12 +70,15 @@
   bottom: -5px;
   transition: 0.2s;
 }
-.navbar ul li:hover{
+
+.navbar ul li:hover {
   background-color: #68b42b;
 }
-.navbar ul li:hover::after{
+
+.navbar ul li:hover::after {
   width: 100%;
 }
+
 .navbar ul li .dropdown {
   display: none;
   position: absolute;
@@ -83,10 +94,12 @@
   z-index: 20;
   border-top: 1px solid white;
 }
+
 .navbar ul li:hover .dropdown {
   display: block;
   z-index: 100;
 }
+
 .navbar ul li .dropdown a {
   color: #0b0b0b;
   padding: 12px 16px;
@@ -96,36 +109,41 @@
   z-index: 20;
   cursor: pointer;
 }
+
 .navbar ul li .dropdown a:last-child {
   border-bottom: none; /* Removes border from the last link */
   z-index: 20;
   cursor: pointer;
 }
+
 .navbar ul li .dropdown a:hover {
   background-color: #68b42b;
   color: white;
   z-index: 20;
   cursor: pointer;
 }
-.logo{
+
+.logo {
   display: inline-block;
   cursor: pointer;
   margin-left: 50px;
   padding-right: 60px;
-  cursor: pointer;
 }
-.logor{
+
+.logor {
   display: inline-block;
   cursor: pointer;
   color: #fff;
   margin-right: 20px;
   margin-bottom: 50px;
-  cursor: pointer;
 }
-.odds{
+
+.odds {
   color: #fff;
 }
 
+
+/* MAIN CONTENT */
 
 .banner {
   display: flex;
@@ -536,27 +554,7 @@
   align-items: center; /* Align items vertically in the center */
   padding: 10px; /* Padding inside each row */
 }
-.user{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100px;
-  font-size: 12px;
-  padding: 10px;
-  border-radius: 8px;
-  margin-left: auto;
-  margin-right: auto
-}
-.user h2{
-  font-size: 15px;
-  white-space: nowrap;
-}
-.user-img{
-  width: 100px;
-  border-radius: 100%;
-  margin: auto;
-  cursor: pointer;
-}
+
 .sideNav .nextButton {
   display: none; /* Initially hidden */
   position: absolute;
@@ -774,160 +772,254 @@
 
 /* ADJUSTED SCREEN SIZE */
 
-
+/* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .secondSideNav {
-    width: auto; /* Adjust width to auto on very small screens */
-    height: auto;
-    position: static; /* Make it flow with the document */
-  }
-}
-@media screen and (max-width: 768px) {
-  .sideNav {
-    width: 200px; /* Smaller width for sideNav */
-  }
-  .secondSideNav {
-    width: 200px; /* Adjust the width on smaller screens */
-  }
-  .content, .table2 {
-    left: 200px; /* Adjust the left position to new sideNav width */
-    width: calc(100% - 220px); /* Adjust the width based on new sideNav width and desired spacing */
+ 
+  .container {
+    display: flex;
+    flex-direction: column; /* Switch to column layout */
+    align-items: center; /* Center align items */
   }
 
-  .table2 {
-    margin-left: 220px; /* Adjust margin-left to new sideNav width plus spacing */
-  }
-  .button {
-    width: 80%; /* Smaller width on mobile devices */
-  }
-@media only screen and (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-    padding: 10px;
-  }
-  
+  /* NAVBAR */
+
+
   .navbar ul {
-    padding: 0;
-    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
   }
 
   .navbar ul li {
-    margin: 5px 0; /* Stack the items vertically with less margin */
+    font-size: 0.5em;
+    padding: 10px 10px; /* Adjust padding for smaller buttons */
   }
 
-  .content {
-    position: static; /* Or adjust positioning as needed */
-    width: auto; /* Take up the full width */
-    padding: 10px; /* Add some padding */
-    text-align: left; /* Align text to the left, or center if preferred */
-    transform: none; /* Remove transformations */
+  .logo {
+    margin-left: 20px;
+    padding-right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  .logor {
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 200px;
+    margin-bottom: 50px;
   }
 
+
+
+    /* MAIN */
+
+  .banner {
+    
+    height: 80vh;
+    top: 245px;
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+  }
+  .contentSection {
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+  }
+
+  .dataSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .dataSection h1 {
+    margin-bottom: 12px; /* Add spacing between h1 and buttons */
+    border-radius: 10%;
+    padding: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-right: 200px;
+    width: 100px;
+    border: 1px solid #68b42b;
+  }
+
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center buttons horizontally */
+    gap: 10px; /* Spacing between buttons */
+    width: 100%; /* Ensure buttons take full width for centering */
+    margin-right: 350px;
+  }
+  
+  .stattable1{
+    width: 50%;
+    margin-left: 180px;
+    margin-top: -550px;
+  }
+  .statttable1 th, .stattable1 td {
+    padding-top: 5px;
+    font-size: 1em;
+  }
+  .stattable1 h3{
+    padding: 2px;
+  }
+  .logostat {
+    width: 30px;
+    height: 30px;
+    padding-right: 25px;
+  }
+  .tableImage{
+    border-radius: 20px;
+    height: 100px;
+    width: 150px;
+    margin-bottom: -15px;
+  }
   .button {
-    width: auto; /* Full width for smaller screens */
-    margin: 10px; /* Adjust margin */
+    width: 100px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    margin-left: 150px;
+  }
+  .banimg{
+    margin-right: 200px;
+    margin-top: 10px;
+    z-index: 0;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+    margin-bottom: 0px;
+    width: 150px;
+    height: 125px;
   }
 
-  /* Adjust table styles for mobile */
-  .table, .table2 {
-    width: 100%; /* Full width */
-    margin: 0; /* Remove any margins if necessary */
+
+
+/* ABOUT */
+
+
+  
+  .about {
+    display: block; /* Ensure it is not set to 'none' */
+    width: 100%;
+    height: 500px;
+    margin-top: 250px;
+    margin-left: 0px;
   }
+  .about h2{
+    font-size: 2rem;
+    width: 90%;
+    margin-left: 15px;
+  }
+  .imageTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 22px;
+    height: 280px; /* example fixed height */
+    width: 80px; /* example fixed width */
+    gap: 0px;
+  }
+  .imageTextContainer p {
+    max-width: 250px; /* Set a max-width for the text */
+    width: 150%; /* Ensure the text can expand to the max-width */
+    padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
+    font-size: .8em;
+  }
+.aboutlogo{
+  height: 100px;
+  width: 100px;
+}
+
+    /* SIDENAV */
 
   .sideNav {
-    width: auto; /* Adjust side navigation width */
-    height: auto; /* Adjust height */
-    position: static; /* Remove fixed positioning */
+    width: 100%;
+    height: 100px;
+    order: 1; /* Display below navbar */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    overflow-x: scroll;
+    margin-top: -5px;
   }
-  .imageContainer {
-    padding: 0 10%;
-    gap: 20%;
+  .navlogo {
+    height: 25px;
+    width: 25px;
+    align-items: row;
+    padding: 5px;
   }
-  
-  @media (max-width: 768px) {
-    .imageTextContainer p {
-      max-width: 200px; /* Smaller max-width for mobile devices */
-      padding: 0 10px; /* Smaller padding on smaller screens */
-    }
+  .sideNav h4 {
+    display: none;
   }
-  
-  @media (max-width: 480px) {
-    .imageContainer {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .imageTextContainer p {
-      max-width: 100%; /* Allow text to fill the container on very small screens */
-      padding: 0; /* Remove padding if necessary */
-    }
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
   }
-  @media (max-width: 768px) {
-    .newsItem {
-      margin-top: 0; /* Less negative top margin on smaller screens */
-      margin-right: 10px; /* Less shift to the right on smaller devices */
-    }
+  .table{
+    width: 25%;
+    margin-top: -92.5px; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
   }
+  .total{
+    font-size: .6em;
+  }
+  .matchupRow {
+    margin: 5px 0; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    padding: 10px; /* Padding inside each row */
+    height: 50px;
+  }
+  .leaguelogo {
+    display: none;
+}
 
 
 
-  /* For main content News */
 
-  @media (max-width: 1024px) {
-    .banner{
-      background-size: 20%;
-    }
 
-    .dataSection h1{
-      padding-right: 200px;
-    }
-    .buttonContainer{
-      padding-right: 200px;
-    }
-    .newsItem{
-      margin-top: -300px;
-      margin-right: -300px;
-    }
+/* FAQS */
+
+
+.faqs {
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 500px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+.faqs h3 {
+  width: 90%;
+  margin-left: 17px;
+}
+.faqlogo{
+  margin-left: 40%;
+}
+
+
+
+
+
+  .secondSideNav {
+    display: none;
   }
-  @media (max-width: 768px) {
-    .banner{
-      background-size: 30%;
-    }
-    .dataSection h1{
-      padding-right: 100px;
-    }
-    .button{
-      width: 250px;
-    }
-    .buttonContainer{
-      padding-right: 100px;
-    }
-    .newsItem{
-      margin-top: -200px;
-      margin-right: -200px;
-    }
-    @media (max-width: 480px) {
-      .banner{
-        background-size: 50%;
-      }
-      .dataSection{
-        top: 50px;
-      }
-      .dataSection h1{
-        padding-right: 50px;
-      }
-      .buttonContainer{
-        padding-right: 50px;
-      }
-      .newsItem{
-        margin-top: -100px;
-        margin-right: -100px;
-      }
-      .newsTextContainer{
-        width: 90%;
-        margin: 0 auto;
-      }
-    }
+
+  .bottomNav {
+    width: 100%;
+    order: 8; /* Display at the bottom */
+    flex-direction: row;
   }
-  
-}}
+
+}
+
