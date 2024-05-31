@@ -35,15 +35,16 @@ const dataSections = [
   {
     text: 'MLB',
     buttons: [
-      { label: 'MLB HOME', href: '/mlb' },
+      { label: 'OVER/UNDER', href: '/mlb' },
+      { label: 'MONEYLINE', href: '/mlbml' },
       { label: 'NRFI', href: '/nrfi' }
     ]
   },
   {
     text: 'NBA',
     buttons: [
-      { label: 'NBA ALT PLAYER PROPS', href: '/prop' },
-      { label: 'NBA PLAYER PROPS', href: '/fullprop' }
+      { label: 'ALT PROPS', href: '/prop' },
+      { label: 'PROPS', href: '/fullprop' }
     ]
   }
 ];
@@ -179,7 +180,7 @@ const Home = () => {
             <thead>
               <tr>
                 <th colSpan={2}>
-                  <Image src="bohm.avif" alt="Highest Runs Per Game" className={styles.tableImage} />
+                  <Image src="/bohm.avif" width={125} height={115}  alt="Highest Runs Per Game" className={styles.tableImage} />
                   <h3>Runs Scored Leaders (Last 10)</h3>
                 </th>
               </tr>
@@ -223,21 +224,21 @@ const Home = () => {
     <h2>What is Breton?</h2>
     <div className={styles.imageContainer}>
       <div className={styles.imageTextContainer}>
-        <Image src="/stats.png" alt="Logo" width={125} height={115} />
+        <Image src="/stats.png" alt="Logo" className={styles.aboutlogo} width={125} height={115} />
         <p>Our site pulls in advanced analytics of teams and players recent results. These metrics allow us to identify best &amp; worst performers.</p>
       </div>
       <div className={styles.imageTextContainer}>
-        <Image src="/monitor.png" alt="Logo" width={125} height={120} />
+        <Image src="/monitor.png" alt="Logo"  className={styles.aboutlogo} width={125} height={120} />
         <p>We use software engineered to modify values based upon matchups. After modifications, we find new values that give us deeper insights.</p>
       </div>
       <div className={styles.imageTextContainer}>
-        <Image src="/money.png" alt="Logo" width={125} height={120} />
+        <Image src="/money.png" alt="Logo"  className={styles.aboutlogo} width={125} height={120} />
         <p>All of our data gets posted and tracked daily. Use our data, find the plays you like best, and make money. It&apos;s just that easy.</p>
       </div>
     </div>
   </div>
   <div className={styles.faqs}>
-  <Image src="/graph.png" alt="Logo" width={80} height={60}  />
+  <Image src="/graph.png" alt="Logo" width={80} height={60} className={styles.faqlogo} />
   <h3>PREVIOUS SEASON STATS</h3>
   <table className={styles.table3}>
     <thead>
@@ -323,8 +324,8 @@ const Home = () => {
 
     {/* Side Navigation content */}
     <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
-      <div className={styles.user}>
-        <Image src="/mlb.webp" alt="user-img" width={110} height={60} />
+      <div className={styles.leaguelogo}>
+        <Image src="/mlb.webp" alt="user-img"  width={110} height={60} />
       </div>
       <h4>MLB GAMES TODAY</h4>
       <table className={styles.table} style={{ top: tableTopSpacing }}>
@@ -341,9 +342,9 @@ const Home = () => {
         ) : (
           displayMatchups.map((matchup) => (
             <tr key={matchup.id} className={styles.matchupRow}>
-                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} layout="fixed" />  
+                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
               <td className={styles.atSymbol}>@</td>   
-                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} layout="fixed" />
+                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
               <div className={styles.total}>O/U: {matchup.Total}</div>
             </tr>
             
