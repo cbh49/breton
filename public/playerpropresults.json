@@ -7,12 +7,6 @@
             "line": 8.5
         },
         {
-            "name": "Rudy Gobert",
-            "team": "Minnesota Timberwolves",
-            "games_above_line": "3/4",
-            "line": 11.5
-        },
-        {
             "name": "Mike Conley",
             "team": "Minnesota Timberwolves",
             "games_above_line": "3/4",
@@ -45,12 +39,6 @@
             "line": 2.5
         },
         {
-            "name": "Derrick Jones Jr.",
-            "team": "Dallas Mavericks",
-            "games_above_line": "3/4",
-            "line": 3.5
-        },
-        {
             "name": "Anthony Edwards",
             "team": "Minnesota Timberwolves",
             "games_above_line": "3/4",
@@ -61,7 +49,7 @@
         {
             "name": "Anthony Edwards",
             "team": "Minnesota Timberwolves",
-            "games_above_line": "4/4",
+            "games_above_line": "3/4",
             "line": 6.5
         }
     ]
