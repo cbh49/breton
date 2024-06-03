@@ -48,7 +48,7 @@ const MLB = () => {
     const [currentMatchupIndex, setCurrentMatchupIndex] = useState(0);
     const [displayMatchups, setDisplayMatchups] = useState<Matchup[]>([]);
     const numGames = matchups.length;
-    const tableTopSpacing = `${450}px`;
+    const tableTopSpacing = `${480}px`;
     const [isLoading, setIsLoading] = useState(true);
     const [tableMarginTop, setTableMarginTop] = useState(0);
     const contentRef = useRef<HTMLParagraphElement>(null);
@@ -96,12 +96,12 @@ Promise.all([
     // Rotating Matchups
     const handleNextGames = () => {
       setCurrentMatchupIndex(prevIndex => {
-        const newIndex = prevIndex + 7;
+        const newIndex = prevIndex + 6;
         return newIndex >= matchups.length ? 0 : newIndex; // Resets to 0 if exceeds array length
       });
     };
     useEffect(() => {
-      const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 7);
+      const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 6);
       setDisplayMatchups(newDisplayMatchups);
     }, [currentMatchupIndex, matchups]);
     
@@ -189,7 +189,6 @@ function getPercentageColor(tally: string) {
           )}
         </li>
         <li><Link href="/news">NEWS</Link></li>
-        <li><Link href="/sub">SUBSCRIBE</Link></li>
         <li><Link href="/ncaab">CBB</Link></li>
       </ul>
       <div className={styles.odds}>
@@ -215,7 +214,7 @@ function getPercentageColor(tally: string) {
             )}
           </div>
         </div>
-          <div className={styles.results}><p> ML Results: <br /> 2+: 35/56 (63%) <br /> 1+: 32/63 (51%)</p></div>
+          <div className={styles.results}><p> ML Results: <br /> 2+: 35/57 (61%) <br /> 1+: 32/63 (51%)</p></div>
       <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
         <th>Game</th>
@@ -228,7 +227,7 @@ function getPercentageColor(tally: string) {
   ) : isSubscribed ? (
     adjMatchData.map((item, index) => (
       <React.Fragment key={index}>
-        <tr>
+        <tr className={styles.tablelogo}>
           <td colSpan={6}>
             <span style={{ fontSize: '11px', display: 'inline-flex', alignItems: 'center' }}>
               {item.Team1} <br /> <br /> P: {item.Team1Pitcher}
@@ -359,7 +358,7 @@ function getPercentageColor(tally: string) {
         <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
           {/* Side Navigation content */}
           <div className={styles.user}>
-            <Image src="/mlb.webp" alt="user-img" width={125} height={80} />
+            <Image src="/mlb.webp" alt="user-img" width={110} height={60} className={styles.leaguelogo2} />
           </div>
           <h3>MLB GAMES TODAY</h3>
           <table className={styles.table} style={{ top: tableTopSpacing }}>
@@ -376,9 +375,9 @@ function getPercentageColor(tally: string) {
         ) : (
           displayMatchups.map((matchup) => (
             <tr key={matchup.id} className={styles.matchupRow}>
-                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} layout="fixed" />  
+                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
               <td className={styles.atSymbol}>@</td>   
-                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} layout="fixed" />
+                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
               <div className={styles.total}>O/U: {matchup.Total}</div>
             </tr>
             

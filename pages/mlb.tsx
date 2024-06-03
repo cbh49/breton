@@ -47,7 +47,7 @@ const MLB = () => {
   const [currentMatchupIndex, setCurrentMatchupIndex] = useState(0);
   const [displayMatchups, setDisplayMatchups] = useState<Matchup[]>([]);
   const numGames = matchups.length;
-  const tableTopSpacing = `${450}px`;
+  const tableTopSpacing = `${480}px`;
   const [isLoading, setIsLoading] = useState(true);
   const [tableMarginTop, setTableMarginTop] = useState(0);
   const contentRef = useRef<HTMLParagraphElement>(null);
@@ -98,7 +98,7 @@ const MLB = () => {
   };
 
   useEffect(() => {
-    const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 7);
+    const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 6);
     setDisplayMatchups(newDisplayMatchups);
   }, [currentMatchupIndex, matchups]);
 
@@ -202,13 +202,10 @@ const MLB = () => {
             <Link href="/news">NEWS</Link>
           </li>
           <li>
-            <Link href="/sub">SUBSCRIBE</Link>
-          </li>
-          <li>
             <Link href="/ncaab">CBB</Link>
           </li>
         </ul>
-        <div className={styles.odds}>
+      <div className={styles.odds}>
       <h4>Odds via:</h4>
       <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor} />
       </div>
@@ -257,7 +254,7 @@ const MLB = () => {
             ) : isSubscribed ? (
               adjMatchData.map((item, index) => (
                 <React.Fragment key={index}>
-                  <tr>
+                  <tr className={styles.tablelogo}>
                     <td colSpan={6}>
                       <span style={{ fontSize: '11px', display: 'inline-flex', alignItems: 'center' }}>
                         {item.Team1} <br /> <br /> P: {item.Team1Pitcher}
@@ -398,7 +395,7 @@ const MLB = () => {
       </table>
         </div>
         <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
-      <div className={styles.user}>
+      <div className={styles.leaguelogo}>
         <Image src="/mlb.webp" alt="user-img" width={110} height={60} />
       </div>
       <h3>MLB GAMES TODAY</h3>
@@ -416,9 +413,9 @@ const MLB = () => {
         ) : (
           displayMatchups.map((matchup) => (
             <tr key={matchup.id} className={styles.matchupRow}>
-                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} layout="fixed" />  
+                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
               <td className={styles.atSymbol}>@</td>   
-                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} layout="fixed" />
+                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
               <div className={styles.total}>O/U: {matchup.Total}</div>
             </tr>
             

@@ -253,8 +253,8 @@ const Home = () => {
           <span>
             <Image src={"/nba.png"}
               alt="NBA"
-              width={50}
-              height={60}
+              width={40}
+              height={50}
               style={{ marginRight: '0px' }}
             />
             Over/Under
@@ -267,8 +267,8 @@ const Home = () => {
           <span>
             <Image src={"/NCAAb.svg"}
               alt="MM"
-              width={70}
-              height={70}
+              width={50}
+              height={50}
               style={{ marginRight: '0px' }}
             />
             Over/Under
@@ -312,12 +312,11 @@ const Home = () => {
           )}
         </li>
         <li><Link href="/news">NEWS</Link></li>
-        <li><Link href="/sub">SUBSCRIBE</Link></li>
         <li><Link href="/ncaab">CBB</Link></li>
       </ul>
       <div className={styles.odds}>
       <h4>Odds via:</h4>
-      <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor} />
+      <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor}/>
       </div>
     </div>
     
