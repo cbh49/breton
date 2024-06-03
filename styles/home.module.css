@@ -39,7 +39,7 @@
   display: flex;
   list-style-type: none;
   padding: 0;
-  margin-right: 145px;
+  margin-right: 160px;
 }
 
 .navbar ul li {
@@ -48,7 +48,7 @@
   color: white;
   font-size: 1.5em;
   cursor: pointer;
-  padding: 10px 50px;
+  padding: 20px 70px;
   background: transparent;
   box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
   border: 3px solid white;
@@ -86,7 +86,7 @@
   min-width: 160px;
   border-left: 4px solid #68b42b; /* Accent color */
   box-shadow: none;
-  top: 110%; /* Aligns the dropdown right below the nav item */
+  top: 100%; /* Aligns the dropdown right below the nav item */
   left: 0;
   border-radius: 4px;
   font-size: 1em;
@@ -786,38 +786,45 @@
 
   /* NAVBAR */
 
-
   .navbar ul {
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
     justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
   }
-
   .navbar ul li {
-    font-size: 0.5em;
+    font-size: 0.75em;
     padding: 10px 10px; /* Adjust padding for smaller buttons */
   }
-
   .logo {
     margin-left: 20px;
     padding-right: 20px;
     width: 50px;
     height: 50px;
   }
-  .logor {
-    display: inline-block;
-    cursor: pointer;
-    color: #fff;
-    margin-right: 200px;
-    margin-bottom: 50px;
+  .odds{
+    margin-right: 0px;
   }
-
+  .logor {
+    display: fixed;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    height: 45px;
+    width: 50px;
+  }
+  .odds h4{
+    padding-left: 20px;
+    font-size: .5em;
+    margin-left: 8px;
+  }
 
 
     /* MAIN */
 
   .banner {
-    
     height: 80vh;
     top: 245px;
     width: 100%;
@@ -992,8 +999,8 @@
     margin-top: -5px;
   }
   .navlogo {
-    height: 25px;
-    width: 25px;
+    height: 35px;
+    width: 35px;
     align-items: row;
     padding: 5px;
   }
@@ -1016,7 +1023,7 @@
     font-size: .6em;
   }
   .matchupRow {
-    margin: 5px 0; /* Margin between each row */
+    margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
     padding: 10px; /* Padding inside each row */
     height: 50px;

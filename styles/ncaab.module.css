@@ -48,19 +48,25 @@
   font-size: .75em;
   
 }
-.navbar ul li{
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 160px;
+}
+.navbar ul li {
   display: inline-block;
   position: relative;
   color: white;
   font-size: 1.5em;
   cursor: pointer;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 20px 70px;
   background: transparent;
   box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
   border: 3px solid white;
-  right: 115px;
+  margin-left: 0px; /* Space between items */
 } 
+
 .navbar ul li a{
   text-decoration: none;
   color: white;
@@ -126,13 +132,12 @@
   cursor: pointer;
   margin-left: 50px;
   padding-right: 60px;
-  cursor: pointer;
 }
 .logor{
   display: inline-block;
   cursor: pointer;
   color: #fff;
-  margin-right: 0px;
+  margin-right: 20px;
   margin-bottom: 50px;
   cursor: pointer;
 }
@@ -393,7 +398,7 @@
   display: flex; /* Use flexbox to manage layout of cells */
   justify-content: space-around; /* Distribute space around cells */
   align-items: center; /* Align items vertically in the center */
-  padding: 10px; /* Padding inside each row */
+  padding: 8px; /* Padding inside each row */
 }
 .user{
   display: flex;
@@ -438,6 +443,15 @@
   border-color: #68b42b; /* Change border color to white on hover */
   box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
 }
+.leaguelogo{
+  margin-left: 140px;
+  margin-top: 5px;
+}
+.leaguelogo2{
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
 
 
 
@@ -448,7 +462,6 @@
   position: relative; /* Keep the table in the normal document flow */
   top: auto; /* Default to auto */
   border-collapse: collapse;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/pathex.avif');
   background-size: 3%;
   color: #fff;
   text-align: center;
@@ -458,6 +471,7 @@
   overflow-x: hidden; 
   border-radius: 2%;
   margin-right: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/pathex.avif');
 }
 .table2 tbody tr:nth-child(odd) {
   background-color: #484848; /* Color for odd rows */
@@ -523,6 +537,7 @@ table.table2 tbody td {
   text-align: center;
   font-size: 1em;
 }
+
 
 
 /* Add left border to each table cell for column separation */
@@ -621,59 +636,202 @@ table.table2 th:last-child, table.table2 td:last-child {
 
 
 
+/* ADJUSTED SCREEN SIZE */
 
-/* Add responsive styling for smaller screens if needed */
-@media screen and (max-width: 768px) {
-    .sideNav {
-      width: 200px; /* Smaller width for sideNav */
-    }
-  
-    .content, .table2 {
-      left: 200px; /* Adjust the left position to new sideNav width */
-      width: calc(100% - 220px); /* Adjust the width based on new sideNav width and desired spacing */
-    }
-  
-    .table2 {
-      margin-left: 220px; /* Adjust margin-left to new sideNav width plus spacing */
-    }
-    @media only screen and (max-width: 600px) {
-      .navbar {
-        flex-direction: column;
-        padding: 10px;
-      }
-      
-      .navbar ul {
-        padding: 0;
-        width: 100%;
-      }
-    
-      .navbar ul li {
-        margin: 5px 0; /* Stack the items vertically with less margin */
-      }
-    
-      .content {
-        position: static; /* Or adjust positioning as needed */
-        width: auto; /* Take up the full width */
-        padding: 10px; /* Add some padding */
-        text-align: left; /* Align text to the left, or center if preferred */
-        transform: none; /* Remove transformations */
-      }
-    
-      .button {
-        width: auto; /* Full width for smaller screens */
-        margin: 10px; /* Adjust margin */
-      }
-    
-      /* Adjust table styles for mobile */
-      .table, .table2 {
-        width: 100%; /* Full width */
-        margin: 0; /* Remove any margins if necessary */
-      }
-    
-      .sideNav {
-        width: auto; /* Adjust side navigation width */
-        height: auto; /* Adjust height */
-        position: static; /* Remove fixed positioning */
-      }
-    }
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .container {
+    display: flex;
+    flex-direction: column; /* Switch to column layout */
+    align-items: center; /* Center align items */
+    overflow-y: hidden;
   }
+
+  /* NAVBAR */
+
+  .navbar {
+    height: 105px;
+    width: 100%;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    width: 100%; /* Take full width */
+    margin: 0;
+    padding: 0;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+  }
+
+  .navbar ul li {
+    font-size: 2em;
+    padding: 10px 10px; /* Adjust padding for smaller buttons */
+  }
+
+  .logo {
+    margin-left: 20px;
+    padding-right: 20px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .odds {
+    margin-right: -15px;
+  }
+
+  .logor {
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .odds h4 {
+    padding-left: 20px;
+    font-size: .75em;
+    margin-left: 15px;
+  }
+
+  /* MAIN */
+
+  .banner {
+    height: 300vh;
+    top: 120px;
+    margin-left: -400px;
+    width: 100%; /* Ensure it takes full width */
+    overflow: hidden; /* Hide overflow to prevent stretching */
+    box-sizing: border-box; /* Include padding in width and height */
+  }
+  .content {
+    margin-left: -500px;
+    width: 213%; /* Full width */
+    padding: 20px; /* Add padding for better layout */
+  }
+
+  .table2 {
+    display: block; /* Ensure it is displayed */
+    width: calc(100%-5px); /* Ensure it is 100% wide */
+    background-color: #fff; /* Background color for visibility */
+    padding: 10px; /* Padding for better layout */
+    margin-left: 30px;
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  }
+
+  .table2 span {
+    padding: 10px;
+    width: calc(100%-0px);
+    font-size: 1.5em;
+  }
+
+  /* Table header styles */
+  table.table2 thead th {
+    font-size: 2em; /* Adjust as necessary */
+    text-align: center;
+  }
+
+  /* Table body styles */
+  table.table2 tbody td {
+    font-size: 1em; /* Adjust as necessary */
+    text-align: center;
+  }
+  .matchupRow2 {
+    margin: 10px 7px; /* Margin between each row */
+    padding: 5px; /* Padding inside each row */
+    width: 95%;
+  }
+  .header {
+    padding: 10px; /* Padding inside each row */
+    height: 100px;
+    width: 130px; /* Full width */
+    font-size: 1em;
+  }
+
+  .headerContainer h1 {
+    margin-top: 150px;
+    margin-left: 330px; /* Reset left margin */
+    width: 100%;
+    font-size: 3em;
+    z-index: 2;
+    padding: 10px;
+  }
+
+  .results {
+    margin-left: 0; /* Reset left margin */
+    font-size: 1em;   
+    margin-left: 365px; /* Reset left margin */
+  }
+.chartButton{
+  top: 125px;
+  left: 20px;
+}
+  
+  /* SIDENAV */
+
+  .sideNav {
+    width: 100%;
+    height: 100px;
+    order: 1; /* Display below navbar */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    margin-top: -5px;
+  }
+
+  .navlogo {
+    height: 60px;
+    width: 60px;
+    align-items: row;
+    padding: 5px;
+  }
+
+  .sideNav h3 {
+    display: none;
+  }
+
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
+  }
+
+  .table {
+    width: 25%;
+    margin-top: 10; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
+  }
+
+  .total {
+    font-size: 1.2em;
+  }
+
+  .matchupRow {
+    margin: 5px 2px; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    padding: 10px; /* Padding inside each row */
+    height: 50px;
+  }
+
+  .leaguelogo {
+    display: none;
+  }
+
+  .leaguelogo2 {
+    display: none;
+  }
+
+  .secondSideNav {
+    display: none;
+  }
+
+  .bottomNav {
+    width: 100%;
+    order: 8; /* Display at the bottom */
+    flex-direction: row;
+  }
+}
