@@ -623,6 +623,9 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   /* NAVBAR */
 
+  .navbar{
+    background-size: .5%;
+  }
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -672,6 +675,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   overflow: hidden;
   box-sizing: border-box;
   margin-left: -400px; /* Reset margin left */
+  background-size: .5%;
 }
 
 /* Ensuring content is centered within the banner */
@@ -696,7 +700,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   padding-left: -100px;
   box-sizing: border-box;
   overflow: hidden;
-  
+  background-size: .5%;
 }
 
 .table2 span {
@@ -762,6 +766,7 @@ table.table2 tbody td {
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
     margin-top: -5px;
+    background-size: .5%;
   }
 
   .navlogo {
@@ -835,6 +840,9 @@ table.table2 tbody td {
   }
   /* NAVBAR */
 
+  .navbar{
+    background-size: .5%;
+  }
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -887,6 +895,7 @@ table.table2 tbody td {
   overflow: hidden;
   box-sizing: border-box;
   margin-left: -400px; /* Reset margin left */
+  background-size: .5%;
 }
 
 /* Ensuring content is centered within the banner */
@@ -911,6 +920,7 @@ table.table2 tbody td {
   padding: 10px;
   box-sizing: border-box;
   overflow: hidden;
+  background-size: .5%;
 }
 
 .table2 span {
@@ -976,6 +986,7 @@ table.table2 tbody td {
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
     margin-top: -5px;
+    background-size: .5%;
   }
 
   .navlogo {

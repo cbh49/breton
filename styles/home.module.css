@@ -814,6 +814,7 @@
   /* NAVBAR */
 .navbar{
   height: 80px;
+  background-size: .5%;
 }
   .navbar ul {
     display: flex;
@@ -1028,6 +1029,7 @@
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
     top: 105px;
+    background-size: .5%;
   }
   .navlogo {
     height: 35px;

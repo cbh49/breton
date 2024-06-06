@@ -649,16 +649,9 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   /* NAVBAR */
-
-  .container {
-    display: flex;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
-    overflow-y: hidden;
-  }
-
-  /* NAVBAR */
-
+.navbar{
+  background-size: .5%;
+}
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -706,6 +699,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
+    background-size: .5%;
   }
   .content {
     margin-left: -400px;
@@ -725,6 +719,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 10px; /* Padding for better layout */
     margin-left: 175px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    background-size: .5%;
   }
 
   /* Table header styles */
@@ -782,7 +777,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     justify-content: space-around; /* Space items evenly */
     overflow: hidden; /* Allow horizontal scrolling */
     margin-top: -5px;
-    background-size: 1%;
+    background-size: .5%;
   }
 
   .navlogo {
@@ -866,6 +861,9 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   /* NAVBAR */
 
+  .navbar{
+    background-size: .5%;
+  }
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -912,6 +910,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
+    background-size: .5%;
   }
   .content {
     margin-left: -400px;
@@ -931,6 +930,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 10px; /* Padding for better layout */
     margin-left: 200px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    background-size: .5%;
   }
 
   /* Table header styles */
@@ -995,7 +995,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
     margin-top: -5px;
-    background-size: 1%;
+    background-size: .5%;
   }
 
   .navlogo {

@@ -649,7 +649,9 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   /* NAVBAR */
-
+.navbar{
+  background-size: .5%;
+}
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -696,6 +698,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
+    background-size: .5%;
   }
   .content {
     margin-left: -400px;
@@ -710,6 +713,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 10px; /* Padding for better layout */
     margin-left: 0px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    background-size: .5%;
   }
 
   .table2 span {
@@ -775,6 +779,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
     margin-top: -5px;
+    background-size: .5%;
   }
 
   .navlogo {
@@ -857,7 +862,9 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   /* NAVBAR */
-
+.navbar{
+  background-size: .5%;
+}
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -907,6 +914,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
+    background-size: .5%;
   }
   .content {
     margin-left: -400px;
@@ -921,6 +929,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 10px; /* Padding for better layout */
     margin-left: 0px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    background-size: .5%;
   }
 
   .table2 span {
@@ -984,6 +993,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
     margin-top: -5px;
+    background-size: .5%;
   }
 
   .navlogo {
