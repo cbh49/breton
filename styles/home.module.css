@@ -203,7 +203,7 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 180px;
   border-radius: 20px;
-  margin-top: -780px;
+  margin-top: -750px;
   background-color:rgba(238, 236, 236, 0.941);
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
   z-index: 10;
@@ -773,10 +773,348 @@
 }
 
 
+
+
+
+
+
+
+
+
+
 /* ADJUSTED SCREEN SIZE */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) {
+ 
+  .container {
+    display: flex;
+    flex-direction: column; /* Switch to column layout */
+    align-items: center; /* Center align items */
+  }
+
+  /* NAVBAR */
+.navbar{
+  height: 80px;
+}
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
+  }
+  .navbar ul li {
+    font-size: 0.5em;
+    padding: 15px 10px; /* Adjust padding for smaller buttons */
+  }
+  .logo {
+    margin-left: 20px;
+    padding-right: 20px;
+    width: 60px;
+    height: 60px;
+  }
+  .odds{
+    margin-right: 0px;
+  }
+  .logor {
+    display: fixed;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    height: 55px;
+    width: 50px;
+  }
+  .odds h4{
+    padding-left: 20px;
+    font-size: .5em;
+    margin-left: 8px;
+  }
+
+
+    /* MAIN */
+
+  .banner {
+    height: 85vh;
+    top: 210px;
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+    background-size: .5%;
+  }
+  .contentSection {
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+  }
+
+  .dataSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .dataSection h1 {
+    margin-bottom: 12px; /* Add spacing between h1 and buttons */
+    border-radius: 10%;
+    padding: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-right: 200px;
+    width: 100px;
+    border: 1px solid #68b42b;
+  }
+
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center buttons horizontally */
+    gap: 10px; /* Spacing between buttons */
+    width: 100%; /* Ensure buttons take full width for centering */
+    margin-right: 350px;
+  }
+  
+  .stattable1{
+    width: 0%;
+    margin-left: 180px;
+    margin-top: -525px;
+  }
+  .statttable1 th, .stattable1 td {
+    padding-top: 5px;
+    font-size: 1em;
+  }
+  .stattable1 h3{
+    padding: 1px;
+  }
+  .logostat {
+    width: 15px;
+    height: 15px;
+    padding-right: 20px;
+  }
+  .tableImage{
+    border-radius: 20px;
+    height: 120px;
+    width: 160px;
+    margin-bottom: -15px;
+  }
+  .button {
+    width: 100px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    margin-left: 150px;
+  }
+  .banimg{
+    margin-right: 200px;
+    margin-top: 10px;
+    z-index: 0;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+    margin-bottom: 0px;
+    width: 150px;
+    height: 125px;
+  }
+  .table3 span{
+    border: none;
+    width: 40px;
+    height: 50px;
+  }
+
+
+
+/* ABOUT */
+
+
+  
+  .about {
+    display: block; /* Ensure it is not set to 'none' */
+    width: 100%;
+    height: 500px;
+    margin-top: 250px;
+    margin-left: 0px;
+    background-size: .5%;
+  }
+  .about h2{
+    font-size: 2rem;
+    width: 90%;
+    margin-left: 15px;
+  }
+  .imageTextContainer {
+    padding: 25px;
+    height: 280px; /* example fixed height */
+    width: 55px; /* example fixed width */
+    gap: 0px;
+    border-radius: 5%;
+    background-size: .5%;
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+  .imageTextContainer p {
+    max-width: 250px; /* Set a max-width for the text */
+    width: 150%; /* Ensure the text can expand to the max-width */
+    padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
+    font-size: .7em;
+  }
+.aboutlogo{
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
+
+
+
+/* FAQS */
+
+
+.faqs {
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 500px;
+  margin-top: 5px;
+  margin-left: 0px;
+  background-size: .5%;
+}
+.faqs h3 {
+  width: 90%;
+  margin-left: 17px;
+}
+.faqlogo{
+  margin-left: 40%;
+}
+.table3{
+  background-size: .5%;
+}
+
+
+
+
+
+    /* SIDENAV */
+
+  .sideNav {
+    width: 100%;
+    height: 100px;
+    order: 1; /* Display below navbar */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    overflow-x: scroll;
+    top: 105px;
+  }
+  .navlogo {
+    height: 35px;
+    width: 35px;
+    align-items: row;
+    padding: 5px;
+  }
+  .sideNav h4 {
+    display: none;
+  }
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
+  }
+  .table{
+    width: 25%;
+    margin-top: -92.5px; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
+  }
+  .total{
+    font-size: .6em;
+  }
+  .matchupRow {
+    margin: 5px 2px; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    padding: 10px; /* Padding inside each row */
+    height: 50px;
+  }
+  .leaguelogo {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+  .secondSideNav {
+    display: none;
+  }
+
+  .bottomNav {
+    width: 100%;
+    order: 8; /* Display at the bottom */
+    flex-direction: row;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 600PX */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 600px)  {
  
   .container {
     display: flex;
@@ -873,8 +1211,8 @@
   }
   
   .stattable1{
-    width: 50%;
-    margin-left: 180px;
+    width: 45%;
+    margin-left: 190px;
     margin-top: -525px;
   }
   .statttable1 th, .stattable1 td {
@@ -891,8 +1229,8 @@
   }
   .tableImage{
     border-radius: 20px;
-    height: 125px;
-    width: 200px;
+    height: 120px;
+    width: 180px;
     margin-bottom: -15px;
   }
   .button {
