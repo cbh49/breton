@@ -1,20 +1,34 @@
 {
     "PTS": [
         {
-            "name": "Dereck Lively II",
+            "name": "Al Horford",
+            "team": "Boston Celtics",
+            "games_above_line": "3/4",
+            "line": 6.5
+        },
+        {
+            "name": "Jaylen Brown",
+            "team": "Boston Celtics",
+            "games_above_line": "4/4",
+            "line": 22.5
+        },
+        {
+            "name": "Daniel Gafford",
             "team": "Dallas Mavericks",
             "games_above_line": "3/4",
             "line": 8.5
         },
         {
-            "name": "Mike Conley",
-            "team": "Minnesota Timberwolves",
-            "games_above_line": "3/4",
-            "line": 12.5
-        },
-        {
-            "name": "Daniel Gafford",
+            "name": "Luka Doncic",
             "team": "Dallas Mavericks",
+            "games_above_line": "3/4",
+            "line": 31.5
+        }
+    ],
+    "REBS": [
+        {
+            "name": "Jayson Tatum",
+            "team": "Boston Celtics",
             "games_above_line": "3/4",
             "line": 9.5
         },
@@ -22,35 +36,8 @@
             "name": "Luka Doncic",
             "team": "Dallas Mavericks",
             "games_above_line": "3/4",
-            "line": 30.5
+            "line": 9.5
         }
     ],
-    "REBS": [
-        {
-            "name": "Dereck Lively II",
-            "team": "Dallas Mavericks",
-            "games_above_line": "3/4",
-            "line": 6.5
-        },
-        {
-            "name": "Mike Conley",
-            "team": "Minnesota Timberwolves",
-            "games_above_line": "3/4",
-            "line": 2.5
-        },
-        {
-            "name": "Anthony Edwards",
-            "team": "Minnesota Timberwolves",
-            "games_above_line": "3/4",
-            "line": 7.5
-        }
-    ],
-    "ASTS": [
-        {
-            "name": "Anthony Edwards",
-            "team": "Minnesota Timberwolves",
-            "games_above_line": "3/4",
-            "line": 6.5
-        }
-    ]
+    "ASTS": []
 }
