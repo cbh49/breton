@@ -158,7 +158,7 @@ const Home = () => {
           <title>BRETON</title>
         </Head>
         <div className={styles.banner}>
-        <Image src="/bracket.webp" alt="Logo" width={400} height={250} className={styles.banimg} />
+        <Image src="/betn.png" alt="Logo" width={350} height={200} className={styles.banimg} />
           <div className={styles.contentSection}>
             {/* Button sections here */}
             {dataSections.map((section, index) => (
@@ -282,7 +282,7 @@ const Home = () => {
 
     <div className={styles.navbar}>
    
-      <Image src="/BRETONw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+      <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
       <Link href="/" passHref></Link>
       <ul><li><Link href="/" passHref>HOME</Link></li>
         <li

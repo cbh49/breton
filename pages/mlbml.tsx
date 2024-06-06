@@ -1,5 +1,5 @@
 // pages/mlb.tsx
-import styles from '../styles/ncaab.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
+import styles from '../styles/nhl.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -158,7 +158,7 @@ function getPercentageColor(tally: string) {
         </Head>
         <div className={styles.banner}></div>
         <div className={styles.navbar}>
-      <Image src="/BRETONw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+      <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
       <Link href="/" passHref></Link>
       <ul>
       <li><Link href="/">HOME</Link></li>
@@ -214,7 +214,7 @@ function getPercentageColor(tally: string) {
             )}
           </div>
         </div>
-          <div className={styles.results}><p> ML Results: <br /> 2+: 35/57 (61%) <br /> 1+: 32/63 (51%)</p></div>
+          <div className={styles.results}><p> ML Results: <br /> 2+: 36/58 (61%) <br /> 1+: 39/73 (51%)</p></div>
       <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
         <th>Game</th>
@@ -229,7 +229,7 @@ function getPercentageColor(tally: string) {
       <React.Fragment key={index}>
         <tr className={styles.tablelogo}>
           <td colSpan={6}>
-            <span style={{ fontSize: '11px', display: 'inline-flex', alignItems: 'center' }}>
+            <span style={{ fontSize: '11px', display: 'inline-flex', paddingLeft: '10px', alignItems: 'center' }}>
               {item.Team1} <br /> <br /> P: {item.Team1Pitcher}
               {logos[item.Team1] && (
                 <Image

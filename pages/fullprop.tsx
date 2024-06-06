@@ -125,7 +125,6 @@ const Fullprop = () => {
             )}
           </li>
           <li><Link href="/news">NEWS</Link></li>
-          <li><Link href="/sub">SUBSCRIBE</Link></li>
           <li><Link href="/ncaab">CBB</Link></li>
         </ul>
         <div className={styles.odds}>
@@ -261,7 +260,7 @@ const Fullprop = () => {
         </table>
         </div>
       <div className={styles.sideNav}>
-        <div className={styles.user}>
+        <div className={styles.leaguelogo}>
           <Image src="/nba.png" alt="user-img" width={100} height={100} />
         </div>
         <h3>NBA GAMES TODAY</h3>

@@ -135,7 +135,6 @@ const Home = () => {
           )}
         </li>
         <li><Link href="/news">NEWS</Link></li>
-        <li><Link href="/sub">SUBSCRIBE</Link></li>
         <li><Link href="/ncaab">CBB</Link></li>
       </ul>
       <div className={styles.odds}>

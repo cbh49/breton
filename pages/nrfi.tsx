@@ -161,7 +161,7 @@ function getPercentageColor(tally: string) {
         </Head>
         <div className={styles.banner}></div>
         <div className={styles.navbar}>
-      <Image src="/BRETONw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+      <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
       <Link href="/index" passHref></Link>
       <ul>
       <li><Link href="/">HOME</Link></li>
@@ -192,14 +192,13 @@ function getPercentageColor(tally: string) {
           )}
         </li>
         <li><Link href="/news">NEWS</Link></li>
-        <li><Link href="/sub">SUBSCRIBE</Link></li>
         <li><Link href="/ncaab">CBB</Link></li>
       </ul>
       <div className={styles.odds}>
       <h4>Odds via:</h4>
       <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor} />
       </div>
-    </div>
+      </div>
     <div className={styles.content}>
         <div className={styles.headerContainer}>
           <h1>MLB NRFI</h1>
@@ -224,7 +223,7 @@ function getPercentageColor(tally: string) {
             )}
           </div>
         </div>
-          <div className={styles.results}><p ref={contentRef}>NRFI Hit Rates: <br /> Under 0.5: 13/22 (63%) <br /> Other NRFIs: 97/148 (65%) <br /> YRFI Hit Rate: 28/52 (54%) </p></div>
+          <div className={styles.results}><p ref={contentRef}>NRFI Hit Rates: <br /> NRFIs: 132/209 (63%) <br /> YRFI: 36/66 (54%) </p></div>
       <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
           <tr>
@@ -239,7 +238,7 @@ function getPercentageColor(tally: string) {
   ) : isSubscribed ? (
     adjMatchData.map((item, index) => (
       <React.Fragment key={index}>
-        <tr>
+        <tr className={styles.tablelogo}>
           <td colSpan={6}>
             <span style={{ fontSize: '11px', display: 'inline-flex', alignItems: 'center' }}>
               {item.Team1} <br /> <br /> P: {item.Team1Pitcher}
@@ -337,7 +336,7 @@ function getPercentageColor(tally: string) {
             <div
               className={styles.header}
               style={{
-                backgroundColor: item.Total < 1 ? 'green' : item.Total > 1 ? 'red' : 'transparent',
+                backgroundColor: item.Total < .75 ? 'green' : item.Total > 1 ? 'red' : 'orange',
                 color: item.Total > 1 || item.Total < -1 ? 'white' : '',
               }}
             >
@@ -434,7 +433,7 @@ function getPercentageColor(tally: string) {
 </div>
   
 <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
-      <div className={styles.user}>
+      <div className={styles.leaguelogo}>
         <Image src="/mlb.webp" alt="user-img" width={110} height={60} />
       </div>
       <h3>MLB GAMES TODAY</h3>
@@ -452,9 +451,9 @@ function getPercentageColor(tally: string) {
         ) : (
           displayMatchups.map((matchup) => (
             <tr key={matchup.id} className={styles.matchupRow}>
-                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} layout="fixed" />  
+                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
               <td className={styles.atSymbol}>@</td>   
-                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} layout="fixed" />
+                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
               <div className={styles.total}>O/U: {matchup.Total}</div>
             </tr>
             

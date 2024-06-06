@@ -1,5 +1,5 @@
 // pages/nba.tsx
-import styles from '../styles/ncaab.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
+import styles from '../styles/nba.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -103,7 +103,7 @@ type LogoUrls = { [team: string]: string };
         </Head>
         <div className={styles.banner}></div>
         <div className={styles.navbar}>
-      <Image src="/BRETONw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+      <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
       <Link href="/" passHref></Link>
       <ul>
       <li><Link href="/">HOME</Link></li>
@@ -134,7 +134,6 @@ type LogoUrls = { [team: string]: string };
           )}
         </li>
         <li><Link href="/news">NEWS</Link></li>
-        <li><Link href="/sub">SUBSCRIBE</Link></li>
         <li><Link href="/ncaab">CBB</Link></li>
       </ul>
       <div className={styles.odds}>
@@ -164,16 +163,11 @@ type LogoUrls = { [team: string]: string };
       <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
         <th>Game</th>
-            <th className={styles.tip} data-tooltip="Line from DraftKings">Total</th>
-            <th className={styles.tip} data-tooltip="Team offensive AVG of last 7 games after compared against Opponent Defense and Tempo">Away Adj Pts</th>
-            <th className={styles.tip} data-tooltip="Team offensive AVG of last 7 games after compared against Opponent Defense and Tempo">Home Adj Pts</th>
-            <th className={styles.tip} data-tooltip="Combined Adjusted Offensive Totals">Adjusted Total</th>
-            <th className={styles.tip} data-tooltip="Difference between Total and Adjusted Total">Difference</th>
         </thead>
         <tbody>
         {adjMatchData.length === 0 ? (
     <tr>
-      <td colSpan={6}>Model finished at 68%(!) Hit Rate. Great year, see you next season.</td>
+      <td colSpan={1}>Model finished at 68%(!) Hit Rate. Great year, see you next season.</td>
     </tr>
   ) : (
     adjMatchData.map((item, index) => (
@@ -230,7 +224,7 @@ type LogoUrls = { [team: string]: string };
         </div>
         <div className={styles.sideNav}>
           <div className={styles.user}>
-            <Image src="/nba.png" alt="user-img" width={100} height={100} />
+            <Image src="/nba.png" alt="user-img" width={100} height={100} className={styles.leaguelogo} />
           </div>
           <h3>NBA GAMES TODAY</h3>
           <table className={styles.table} style={{ top: tableTopSpacing }}>

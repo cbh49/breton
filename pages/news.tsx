@@ -1,5 +1,5 @@
 // pages/index.tsx
-import styles from '../styles/ncaab.module.css';
+import styles from '../styles/news.module.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -104,7 +104,7 @@ const Home = () => {
         <div className={styles.banner}>
         </div>
         <div className={styles.navbar}>
-      <Image src="/BRETONw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+      <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
       <Link href="/" passHref></Link>
       <ul>
       <li><Link href="/">HOME</Link></li>
@@ -135,7 +135,6 @@ const Home = () => {
           )}
         </li>
         <li><Link href="/news">NEWS</Link></li>
-        <li><Link href="/sub">SUBSCRIBE</Link></li>
         <li><Link href="/ncaab">CBB</Link></li>
       </ul>
       <div className={styles.odds}>
@@ -146,17 +145,12 @@ const Home = () => {
         <div className={styles.content}>
         <span className={styles.span}/> 
           <h1>News</h1>
-          <p>Follow @breton on Twitter. <br /> <Link href="https://twitter.com/BretonPicks"><Image src="/x.png" alt="Logo" width={30} height={30} className={styles.bottomnavlogo} /></Link> <br /> <br /> News Coming Soon.</p>
-          <Link href="https://pay.bretonpicks.com/470c3a5c-ab5a-4369-98d4-baf" passHref>
-          <button className={styles.button}>
-            <span className={styles.span}/> 
-            Subscribe Here
-            </button></Link>
+          <p>Follow @breton on Twitter. <br /> <br /> <br /> <Link href="https://twitter.com/BretonPicks"><Image src="/x.png" alt="Logo" width={100} height={100} className={styles.bottomnavlogo} /></Link> <br /> <br /> <br /> News Coming Soon.</p>
         </div>
         <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
           {/* Side Navigation content */}
           <div className={styles.user}>
-            <Image src="/mlb.webp" alt="user-img" width={125} height={80} />
+            <Image src="/mlb.webp" alt="user-img" width={125} height={80} className={styles.leaguelogo2} />
           </div>
           <h3>MLB GAMES TODAY</h3>
           <table className={styles.table} style={{ top: tableTopSpacing }}>
@@ -173,9 +167,9 @@ const Home = () => {
         ) : (
           displayMatchups.map((matchup) => (
             <tr key={matchup.id} className={styles.matchupRow}>
-                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} layout="fixed" />  
+                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
               <td className={styles.atSymbol}>@</td>   
-                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} layout="fixed" />
+                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
               <div className={styles.total}>O/U: {matchup.Total}</div>
             </tr>
             
