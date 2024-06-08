@@ -95,7 +95,7 @@ type LogoUrls = { [team: string]: string };
         </Head>
         <div className={styles.banner}></div>
         <div className={styles.navbar}>
-      <Image src="/BRETONw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+        <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
       <Link href="/" passHref></Link>
       <ul>
       <li><Link href="/">HOME</Link></li>

@@ -214,7 +214,7 @@ function getPercentageColor(tally: string) {
             )}
           </div>
         </div>
-          <div className={styles.results}><p> ML Results: <br /> 2+: 36/58 (61%) <br /> 1+: 39/73 (51%)</p></div>
+          <div className={styles.results}> ML Results: <br /> <p> 2+: 36/58 (61%) <br /> 1+: 47/81 (58%)</p></div>
       <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
         <th>Game</th>

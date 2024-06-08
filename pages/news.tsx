@@ -145,7 +145,7 @@ const Home = () => {
         <div className={styles.content}>
         <span className={styles.span}/> 
           <h1>News</h1>
-          <p>Follow @breton on Twitter. <br /> <br /> <br /> <Link href="https://twitter.com/BretonPicks"><Image src="/x.png" alt="Logo" width={100} height={100} className={styles.bottomnavlogo} /></Link> <br /> <br /> <br /> News Coming Soon.</p>
+          <p>Follow @breton on Twitter. <br /> <br /> <br /> <Link href="https://twitter.com/BretonPicks"><Image src="/x.png" alt="Logo" width={200} height={200} className={styles.bottomnavlogo} /></Link> <br /> <br /> <br /> News Coming Soon.</p>
         </div>
         <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
           {/* Side Navigation content */}
