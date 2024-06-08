@@ -151,7 +151,7 @@ type LogoUrls = { [team: string]: string };
             )}
           </div>
         </div>
-          <p ref={contentRef}>Players who consistently clear their alternate lines. Updated daily.</p>
+          <p className={styles.tabletext}>Players who consistently clear their alternate lines. Updated daily.</p>
           <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
           <tr>

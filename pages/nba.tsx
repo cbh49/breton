@@ -159,7 +159,7 @@ type LogoUrls = { [team: string]: string };
             )}
           </div>
         </div>
-          <p ref={contentRef}>Updated daily. Hover above headers for more info. <br />Hit rates (Updated 4/12) : 20+: 75% | 10-20: 65% | -5-10: 55%</p> {/* Attach the ref here */}
+          <p className={styles.tabletext}>Updated daily. Hover above headers for more info. <br />Hit rates (Updated 4/12) : 20+: 75% | 10-20: 65% | -5-10: 55%</p>
       <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
         <th>Game</th>

@@ -130,8 +130,9 @@ type LogoUrls = { [team: string]: string };
       </div>
     </div>
         <div className={styles.content}>
-          <h1>NCAAB Over/Unders</h1>
-          <p ref={contentRef}>Updated daily.</p>
+        <div className={styles.headerContainer}>
+          <h1>NCAAB Over/Unders</h1></div>
+          <p ref={contentRef}></p>
           <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
         <th>Game</th>

@@ -150,7 +150,7 @@ const Fullprop = () => {
             )}
           </div>
         </div>
-        <p ref={contentRef}>Players who consistently clear their betting lines. Updated daily.</p>
+        <p className={styles.tabletext}>Players who consistently clear their betting lines. Updated daily.</p>
         <table className={styles.table2}>
           <tbody>
             {ptsData.length === 0 ? (
