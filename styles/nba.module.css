@@ -700,26 +700,29 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
     background-size: .5%;
+    overflow: visible;
   }
   .content {
-    margin-left: -400px;
-    width: 213%; /* Full width */
+    width: 100%; /* Full width */
     padding: 20px; /* Add padding for better layout */
+    overflow: visible;
   }
   .content h1{
     align-items: center;
     margin-top: 200px;
-    margin-left: calc(22%);
   }
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: 50%; /* Ensure it is 100% wide */
+    width: 100%; /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
-    margin-left: 175px;
+    margin-left: -200px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: .5%;
+  }
+  .tabletext{
+    display: none;
   }
 
   /* Table header styles */
@@ -743,25 +746,18 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 140px; /* Full width */
     font-size: 1em;
   }
-
   .headerContainer h1 {
     margin-top: 150px;
-    margin-left: calc(37%); /* Reset left margin */
+    margin-left: calc(-60%); /* Reset left margin */
     width: 100%;
     font-size: 3em;
     z-index: 2;
     padding: 10px;
   }
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1em;   
-    margin-left: calc(35%); /* Reset left margin */
-  }
-.chartButton{
+  .chartButton{
   top: 125px;
-  left: 20px;
-}
+  left: -50px;
+  }
 .table2 th{
   font-size: .25em;
 }
@@ -911,26 +907,29 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
     background-size: .5%;
+    overflow: visible;
   }
   .content {
-    margin-left: -400px;
-    width: 213%; /* Full width */
+    width: 100%; /* Full width */
     padding: 20px; /* Add padding for better layout */
+    overflow: visible;
   }
   .content h1{
     align-items: center;
     margin-top: 200px;
-    margin-left: calc(22%);
   }
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: 50%; /* Ensure it is 100% wide */
+    width: 87%; /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
-    margin-left: 200px;
+    margin-left: -200px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: .5%;
+  }
+  .tabletext{
+    display: none;
   }
 
   /* Table header styles */
@@ -938,7 +937,6 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%;
     display: hidden;
   }
-
   /* Table body styles */
   table.table2 tbody td {
     font-size: 1em; /* Adjust as necessary */
@@ -947,7 +945,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow2 {
     margin: 10px 7px; /* Margin between each row */
     padding: 5px; /* Padding inside each row */
-    width: 100%;
+    width: 98%;
   }
   .header {
     padding: 10px; /* Padding inside each row */
@@ -955,25 +953,22 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 140px; /* Full width */
     font-size: 1em;
   }
-
   .headerContainer h1 {
     margin-top: 150px;
-    margin-left: 225px; /* Reset left margin */
+    margin-left: calc(-60%); /* Reset left margin */
     width: 100%;
     font-size: 3em;
     z-index: 2;
     padding: 10px;
   }
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1em;   
-    margin-left: 310px; /* Reset left margin */
-  }
-.chartButton{
+  .chartButton{
   top: 125px;
-  left: 20px;
+  left: -50px;
+  }
+.table2 th{
+  font-size: .25em;
 }
+
 .table2 tbody tr:nth-child(odd) {
   background-color: #484848;
   width: 100%; /* Color for odd rows */

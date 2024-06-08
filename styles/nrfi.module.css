@@ -672,42 +672,32 @@ table.table2 th:last-child, table.table2 td:last-child {
 
 /* Container for the banner to use flexbox */
 .banner {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically if needed */
   height: 300vh;
   top: 120px;
-  width: 100%;
-  overflow: hidden;
-  box-sizing: border-box;
-  margin-left: -400px; /* Reset margin left */
+  margin-left: -400px;
+  width: 100%; /* Ensure it takes full width */
+  overflow: hidden; /* Hide overflow to prevent stretching */
+  box-sizing: border-box; /* Include padding in width and height */
   background-size: .5%;
+  overflow: visible;
 }
-
-/* Ensuring content is centered within the banner */
 .content {
-  margin-left: -450px;
-  width: 213%; /* Full width */
-  padding: 20px; 
-}
-
-/* Centering table2 within the content */
-.table2-container {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  width: 100%;
+  margin-left: 0px;
+  width: 100%; /* Full width */
+  padding: 20px; /* Add padding for better layout */
+  overflow: visible;
 }
 
 .table2 {
-  display: block;
-  width: auto; /* Adjust width as needed */
-  max-width: 100%;
-  background-color: #fff;
-  padding-left: -100px;
-  box-sizing: border-box;
-  overflow: hidden;
-  background-size: .5%;
+  display: block; /* Ensure it is displayed */
+  width: calc(219%); /* Ensure it is 100% wide */
+  background-color: #fff; /* Background color for visibility */
+  padding: 10px; /* Padding for better layout */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  background-size: 5%;
+  right: calc(460px);
 }
+
 
 .table2 span {
   padding: 10px;
@@ -730,7 +720,7 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(100% - 35px);
+  width: calc(100% - 25px);
 }
 
 .header {
@@ -744,22 +734,21 @@ table.table2 tbody td {
 
 .headerContainer h1 {
   margin-top: 150px;
-  margin-left: calc(48%);
+  margin-left: calc(-60%); /* Reset left margin */
   width: 100%;
   font-size: 3em;
   z-index: 2;
   padding: 10px;
 }
 
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1em;   
-    margin-left: calc(37.5%); /* Reset left margin */
-  }
+.results {
+  margin-left: 0; /* Reset left margin */
+  font-size: 1em;   
+  margin-left: calc(-30%); /* Reset left margin */
+}
 .chartButton{
-  top: 125px;
-  left: 70px;
+top: 125px;
+left: -70px;
 }
   
   /* SIDENAV */
@@ -836,7 +825,7 @@ table.table2 tbody td {
 
 
 
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 420px) {
 
   .container {
     display: flex;
@@ -892,41 +881,30 @@ table.table2 tbody td {
 
 /* Container for the banner to use flexbox */
 .banner {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically if needed */
   height: 300vh;
   top: 120px;
-  width: 100%;
-  overflow: hidden;
-  box-sizing: border-box;
-  margin-left: -400px; /* Reset margin left */
-  background-size: .5%;
-}
-
-/* Ensuring content is centered within the banner */
-.content {
   margin-left: -400px;
-  width: 213%; /* Full width */
-  padding: 20px; 
+  width: 100%; /* Ensure it takes full width */
+  overflow: hidden; /* Hide overflow to prevent stretching */
+  box-sizing: border-box; /* Include padding in width and height */
+  background-size: .5%;
+  overflow: visible;
 }
-
-/* Centering table2 within the content */
-.table2-container {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  width: 100%;
+.content {
+  margin-left: 0px;
+  width: 100%; /* Full width */
+  padding: 20px; /* Add padding for better layout */
+  overflow: visible;
 }
 
 .table2 {
-  display: block;
-  width: auto; /* Adjust width as needed */
-  max-width: calc(100% - 50px);
-  background-color: #fff;
-  padding: 10px;
-  box-sizing: border-box;
-  overflow: hidden;
-  background-size: .5%;
+  display: block; /* Ensure it is displayed */
+  width: calc(205%); /* Ensure it is 100% wide */
+  background-color: #fff; /* Background color for visibility */
+  padding: 10px; /* Padding for better layout */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  background-size: 5%;
+  right: calc(440px);
 }
 
 .table2 span {
@@ -950,7 +928,7 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(100% - 20px);
+  width: calc(100% - 22px);
 }
 
 .header {
@@ -964,24 +942,218 @@ table.table2 tbody td {
 
 .headerContainer h1 {
   margin-top: 150px;
-  margin-left: calc(40%);
+  margin-left: calc(-60%); /* Reset left margin */
   width: 100%;
   font-size: 3em;
   z-index: 2;
   padding: 10px;
 }
 
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1em;   
-    margin-left: calc(35%); /* Reset left margin */
-  }
-.chartButton{
-  top: 125px;
-  left: 60px;
+.results {
+  margin-left: 0; /* Reset left margin */
+  font-size: 1em;   
+  margin-left: calc(-27%); /* Reset left margin */
 }
-  
+.chartButton{
+top: 125px;
+left: -50px;
+}
+  /* SIDENAV */
+
+  .sideNav {
+    width: 100%;
+    height: 100px;
+    order: 1; /* Display below navbar */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    margin-top: -5px;
+    background-size: .5%;
+  }
+
+  .navlogo {
+    height: 60px;
+    width: 60px;
+    align-items: row;
+    padding: 5px;
+  }
+
+  .sideNav h3 {
+    display: none;
+  }
+
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
+  }
+
+  .table {
+    width: 25%;
+    margin-top: 10; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
+  }
+
+  .total {
+    font-size: 1.2em;
+  }
+
+  .matchupRow {
+    margin: 5px 2px; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    margin-top: 35px;
+    padding: 10px; /* Padding inside each row */
+    height: 50px;
+  }
+
+  .leaguelogo {
+    display: none;
+  }
+
+  .leaguelogo2 {
+    display: none;
+  }
+
+  .secondSideNav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 600px) {
+
+  .container {
+    display: flex;
+    flex-direction: column; /* Switch to column layout */
+    align-items: center; /* Center align items */
+    overflow-y: hidden;
+  }
+  /* NAVBAR */
+
+  .navbar{
+    background-size: .5%;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
+  }
+  .navbar ul li {
+    font-size: 1.75em;
+    padding: 15px 10px; /* Adjust padding for smaller buttons */
+  }
+  .logo {
+    margin-left: 20px;
+    padding-right: 230px;
+    width: 80px;
+    height: 80px;
+  }
+  .odds{
+    margin-right: 0px;
+  }
+  .logor {
+    display: fixed;
+    padding-right: 0px;
+    margin-bottom: 25px;
+    height: 75px;
+    width: 80px;
+  }
+  .odds h4{
+    padding-right: 0px;
+    font-size: .8em;
+    margin-left: 8px;
+  }
+
+
+
+
+
+  /* MAIN */
+
+/* Container for the banner to use flexbox */
+.banner {
+  height: 300vh;
+  top: 120px;
+  margin-left: -400px;
+  width: 100%; /* Ensure it takes full width */
+  overflow: hidden; /* Hide overflow to prevent stretching */
+  box-sizing: border-box; /* Include padding in width and height */
+  background-size: .5%;
+  overflow: visible;
+}
+.content {
+  margin-left: 0px;
+  width: 100%; /* Full width */
+  padding: 20px; /* Add padding for better layout */
+  overflow: visible;
+}
+
+.table2 {
+  display: block; /* Ensure it is displayed */
+  width: calc(198%); /* Ensure it is 100% wide */
+  background-color: #fff; /* Background color for visibility */
+  padding: 10px; /* Padding for better layout */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  background-size: 5%;
+  right: calc(437px);
+}
+
+.table2 span {
+  padding: 10px;
+  width: 400px;
+  font-size: 1.5em;
+}
+
+/* Table header styles */
+table.table2 thead th {
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Table body styles */
+table.table2 tbody td {
+  font-size: 1em;
+  text-align: center;
+}
+
+.matchupRow2 {
+  margin: 10px 7px;
+  padding: 5px;
+  width: calc(100% - 22px);
+}
+
+.header {
+  padding: 0.5px;
+  margin: 1px;
+  height: 120px;
+  width: 100px;
+  margin-right: calc(100% + 10px);
+  font-size: 0.8em;
+}
+
+.headerContainer h1 {
+  margin-top: 150px;
+  margin-left: calc(-60%); /* Reset left margin */
+  width: 100%;
+  font-size: 3em;
+  z-index: 2;
+  padding: 10px;
+}
+
+.results {
+  margin-left: 0; /* Reset left margin */
+  font-size: 1em;   
+  margin-left: calc(-27%); /* Reset left margin */
+}
+.chartButton{
+top: 125px;
+left: -50px;
+}
   /* SIDENAV */
 
   .sideNav {

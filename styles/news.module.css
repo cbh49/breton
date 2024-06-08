@@ -651,42 +651,43 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   /* NAVBAR */
+  .navbar{
+    background-size: .5%;
+  }
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+      justify-content: center; /* Center items in the navbar */
+      flex-grow: 1; /* Allow ul to grow and take available space */
+      margin: 0;
+      padding: 0;
+    }
+    .navbar ul li {
+      font-size: 1em;
+      padding: 10px 10px; /* Adjust padding for smaller buttons */
+    }
+    .logo {
+      margin-left: 20px;
+      padding-right: 20px;
+      width: 50px;
+      height: 50px;
+    }
+    .odds{
+      margin-right: 0px;
+    }
+    .logor {
+      display: fixed;
+      padding-left: 20px;
+      margin-bottom: 40px;
+      height: 50px;
+      width: 60px;
+    }
+    .odds h4{
+      padding-left: 20px;
+      font-size: .8em;
 
-  .navbar ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
-    justify-content: center; /* Center items in the navbar */
-    flex-grow: 1; /* Allow ul to grow and take available space */
-    margin: 0;
-    padding: 0;
-  }
-  .navbar ul li {
-    font-size: 2.2em;
-    padding: 10px 10px; /* Adjust padding for smaller buttons */
-  }
-  .logo {
-    margin-left: 20px;
-    padding-right: 20px;
-    width: 80px;
-    height: 80px;
-  }
-  .odds{
-    margin-right: 0px;
-  }
-  .logor {
-    display: fixed;
-    padding-left: 20px;
-    margin-bottom: 25px;
-    height: 75px;
-    width: 80px;
-  }
-  .odds h4{
-    padding-left: 20px;
-    font-size: .8em;
-    margin-left: 8px;
-  }
-
+    }
 
 
   /* MAIN */
@@ -700,14 +701,16 @@ table.table2 th:last-child, table.table2 td:last-child {
     box-sizing: border-box; /* Include padding in width and height */
   }
   .content {
-    margin-left: -450px;
-    width: 213%; /* Full width */
+    margin-left: -400px;
+    width: 100%; /* Full width */
     padding: 20px; /* Add padding for better layout */
   }
   .content h1{
     align-items: center;
     margin-top: 200px;
-    margin-left: calc(18%);
+    margin-left: 0px;
+    font-size: 3em;
+    width: 100%;
   }
   .table2 {
     display: block; /* Ensure it is displayed */
@@ -862,42 +865,45 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   /* NAVBAR */
+  .navbar{
+    background-size: .5%;
+  }
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+      justify-content: center; /* Center items in the navbar */
+      flex-grow: 1; /* Allow ul to grow and take available space */
+      margin: 0;
+      padding: 0;
+    }
+    .navbar ul li {
+      font-size: 1em;
+      padding: 10px 10px; /* Adjust padding for smaller buttons */
+    }
+    .logo {
+      margin-left: 20px;
+      padding-right: 20px;
+      width: 50px;
+      height: 50px;
+    }
+    .odds{
+      margin-right: 0px;
+    }
+    .logor {
+      display: fixed;
+      padding-left: 20px;
+      margin-bottom: 40px;
+      height: 50px;
+      width: 60px;
+    }
+    .odds h4{
+      padding-left: 20px;
+      font-size: .8em;
 
-  .navbar ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
-    justify-content: center; /* Center items in the navbar */
-    flex-grow: 1; /* Allow ul to grow and take available space */
-    margin: 0;
-    padding: 0;
-  }
-  .navbar ul li {
-    font-size: 2.5em;
-    padding: 10px 10px; /* Adjust padding for smaller buttons */
-  }
-  .logo {
-    margin-left: 20px;
-    padding-right: 20px;
-    width: 80px;
-    height: 80px;
-  }
-  .odds{
-    margin-right: 0px;
-  }
-  .logor {
-    display: fixed;
-    padding-left: 20px;
-    margin-bottom: 25px;
-    height: 80px;
-    width: 90px;
-  }
-  .odds h4{
-    padding-left: 20px;
-    font-size: .8em;
-    margin-left: 15px;
-  }
-
+    }
+  
+  
 
 
 
@@ -915,13 +921,15 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .content {
     margin-left: -400px;
-    width: 213%; /* Full width */
+    width: 100%; /* Full width */
     padding: 20px; /* Add padding for better layout */
   }
   .content h1{
     align-items: center;
     margin-top: 200px;
-    margin-left: calc(22%);
+    margin-left: 0px;
+    font-size: 3em;
+    width: 95%;
   }
 
   .table2 {
