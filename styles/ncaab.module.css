@@ -10,7 +10,7 @@
   border-radius: 2%;
   width: 76%;
   height: 100vh; /* This will make sure your banner covers the full viewport height */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/pathex.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
   background-size: 8%;
   background-position: center;
   position: fixed;
@@ -95,7 +95,7 @@
   min-width: 160px;
   border-left: 4px solid #68b42b; /* Accent color */
   box-shadow: none;
-  top: 110%; /* Aligns the dropdown right below the nav item */
+  top: 100%; /* Aligns the dropdown right below the nav item */
   left: 0;
   border-radius: 4px;
   font-size: 1em;
@@ -705,21 +705,23 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
     background-size: .5%;
+    overflow: visible;
   }
   .content {
-    margin-left: -400px;
-    width: 213%; /* Full width */
+    margin-left: 0px;
+    width: 100%; /* Full width */
     padding: 20px; /* Add padding for better layout */
+    overflow: visible;
   }
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: 120%; /* Ensure it is 100% wide */
+    width: calc(220%); /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
-    margin-left: -50px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: .5%;
+    right: calc(460px);
   }
 
   .table2 span {
@@ -754,21 +756,22 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .headerContainer h1 {
     margin-top: 150px;
-    margin-left: calc(37%); /* Reset left margin */
+    margin-left: calc(-69%); /* Reset left margin */
     width: 100%;
     font-size: 3em;
     z-index: 2;
     padding: 10px;
+    
   }
 
   .results {
     margin-left: 0; /* Reset left margin */
     font-size: 1em;   
-    margin-left: calc(35%); /* Reset left margin */
+    margin-left: calc(-35%); /* Reset left margin */
   }
 .chartButton{
   top: 125px;
-  left: 20px;
+  left: -50px;
 }
 .table2 th{
   font-size: .25em;
@@ -921,8 +924,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     background-size: .5%;
   }
   .content {
-    margin-left: -400px;
-    width: 213%; /* Full width */
+    margin-left: 0px;
+    width: 100%; /* Full width */
     padding: 20px; /* Add padding for better layout */
   }
 

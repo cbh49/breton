@@ -158,7 +158,7 @@
   position: relative;
   overflow: hidden;
   border-bottom: 1px solid #68b42b;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.56)), url('/pathex.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
   background-size: 8%;
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
 }
@@ -295,7 +295,7 @@
   border-radius: 2%;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.56)), url('/pathex.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('/pathex.avif');
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-bottom: 1px solid #68b42b;
   border-top: 1px solid #68b42b;
@@ -367,7 +367,7 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.56)), url('/pathex.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('/pathex.avif');
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-bottom: 1px solid #68b42b;
   border-top: 1px solid #68b42b;

@@ -8,14 +8,13 @@
   left: 402px;
   margin-top: 130px;
   border-radius: 2%;
-  width: 76%;
   height: 100vh; /* This will make sure your banner covers the full viewport height */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/pathex.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
   background-size: 8%;
   background-position: center;
   position: fixed;
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-  width: calc(78.5%);
+  width: calc(76%);
 }
 
 
@@ -57,6 +56,7 @@
   cursor: pointer;
   padding-left: 60px;
   padding-right: 60px;
+  padding: 20px 70px;
   background: transparent;
   box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
   border: 3px solid white;
@@ -90,7 +90,7 @@
   min-width: 160px;
   border-left: 4px solid #68b42b; /* Accent color */
   box-shadow: none;
-  top: 110%; /* Aligns the dropdown right below the nav item */
+  top: 100%; /* Aligns the dropdown right below the nav item */
   left: 0;
   border-radius: 4px;
   font-size: 1em;
@@ -215,7 +215,7 @@
   align-items: center;
   border: 1px solid #68b42b; 
   background-color: #303030;
-  margin-left: calc(43%);
+  margin-left: calc(42%);
 }
 .results{
   border-radius: 10%;
@@ -227,7 +227,10 @@
   border: 1px solid #68b42b;
   background-color: #303030;
   padding: 5px;
-  margin-left: calc(42%);
+  margin-left: calc(40%);
+}
+.results p{
+  color: #68b42b;
 }
 .chartButton {
   position: relative;
@@ -410,6 +413,9 @@
 .sideNav .nextButton:hover {
   border-color: #68b42b; /* Change border color to white on hover */
   box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
+}
+.leaguelogo{
+  margin-left: 140px;
 }
 
 

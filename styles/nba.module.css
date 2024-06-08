@@ -10,7 +10,7 @@
   border-radius: 2%;
   width: 76%;
   height: 100vh; /* This will make sure your banner covers the full viewport height */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/pathex.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
   background-size: 8%;
   background-position: center;
   position: fixed;
@@ -95,7 +95,7 @@
   min-width: 160px;
   border-left: 4px solid #68b42b; /* Accent color */
   box-shadow: none;
-  top: 110%; /* Aligns the dropdown right below the nav item */
+  top: 100%; /* Aligns the dropdown right below the nav item */
   left: 0;
   border-radius: 4px;
   font-size: 1em;
