@@ -658,9 +658,10 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   /* NAVBAR */
-.navbar{
-  background-size: .5%;
-}
+  .navbar{
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+  }
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -799,7 +800,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
     margin-top: -5px;
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
   }
 
   .navlogo {
@@ -882,9 +884,10 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   /* NAVBAR */
-.navbar{
-  background-size: .5%;
-}
+  .navbar{
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+  }
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -1022,7 +1025,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
     margin-top: -5px;
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
   }
 
   .navlogo {
