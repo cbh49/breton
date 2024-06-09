@@ -704,7 +704,8 @@ table.table2 th:last-child, table.table2 td:last-child {
   background-color: #fff; /* Background color for visibility */
   padding: 10px; /* Padding for better layout */
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-  background-size: 5%;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
   right: calc(460px);
 }
 
@@ -924,7 +925,8 @@ left: -70px;
   background-color: #fff; /* Background color for visibility */
   padding: 10px; /* Padding for better layout */
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-  background-size: 5%;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
   right: calc(440px);
 }
 
@@ -956,7 +958,7 @@ table.table2 tbody td {
   padding: 0.5px;
   margin: 1px;
   height: 120px;
-  width: 105px;
+  width: 110px;
   margin-right: calc(100% + 10px);
   font-size: 0.5em;
 }
@@ -1129,7 +1131,8 @@ left: -50px;
   background-color: #fff; /* Background color for visibility */
   padding: 10px; /* Padding for better layout */
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-  background-size: 5%;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
   right: calc(437px);
 }
 
