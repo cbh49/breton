@@ -815,7 +815,6 @@
   /* NAVBAR */
 .navbar{
   height: 80px;
-  background-size: 5%;
   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,.9)), url('/blank.png');
 }
   .navbar ul {
@@ -862,7 +861,6 @@
     width: 100%;
     order: 2; /* Main content */
     margin: 0; /* Remove margin */
-    background-size: 5%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
   }
   .contentSection {
@@ -975,7 +973,6 @@
     width: 55px; /* example fixed width */
     gap: 0px;
     border-radius: 5%;
-    background-size: 5%;
     margin-right: 2px;
     margin-left: 2px;
   }
@@ -1014,9 +1011,7 @@
 .faqlogo{
   margin-left: 40%;
 }
-.table3{
-  background-size: 5%;
-}
+
 
 
 
@@ -1032,7 +1027,6 @@
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
     top: 105px;
-    background-size: 5%;
   }
   .navlogo {
     height: 35px;
@@ -1176,7 +1170,6 @@
     width: 100%;
     order: 2; /* Main content */
     margin: 0; /* Remove margin */
-    background-size: 5%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
   }
   .contentSection {
@@ -1325,9 +1318,6 @@
 }
 .faqlogo{
   margin-left: 40%;
-}
-.table3{
-  background-size: 5%;
 }
 
 
