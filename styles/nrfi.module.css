@@ -38,8 +38,8 @@
   box-shadow: 0px 10px 20px rgba(0,0,0, .5);
   background-color: #68b42b;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/pathex.avif');
-  background-size: 3%;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+  background-size: 120%;
   z-index: 100;
   font-size: 1em;
 }
@@ -495,6 +495,11 @@ table.table2 tbody td {
   height: 80px;
   width: 130px;
   border-bottom: 3px solid black;
+  font-size: .6em;
+}
+.value{
+  margin-top: -20px;
+  font-size: 3.5em;
 }
 /* Add left border to each table cell for column separation */
 table.table2 th, table.table2 td {
@@ -722,7 +727,7 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(100% - 25px);
+  width: calc(96.5%);
 }
 
 .header {
@@ -809,6 +814,13 @@ left: -70px;
 
   .leaguelogo2 {
     display: none;
+  }
+  .header{
+    font-size: .5em;
+  }
+  .value{
+    margin-top: -10px;
+    font-size: 4em;
   }
 
   .secondSideNav {
@@ -930,7 +942,7 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(100% - 22px);
+  width: calc(97%);
 }
 
 .header {
@@ -939,7 +951,7 @@ table.table2 tbody td {
   height: 120px;
   width: 100px;
   margin-right: calc(100% + 10px);
-  font-size: 0.8em;
+  font-size: 0.5em;
 }
 
 .headerContainer h1 {
@@ -1001,6 +1013,10 @@ left: -50px;
   .total {
     font-size: 1.2em;
   }
+  .value{
+    margin-top: -10px;
+    font-size: 4em;
+  }
 
   .matchupRow {
     margin: 5px 2px; /* Margin between each row */
@@ -1017,6 +1033,7 @@ left: -50px;
   .leaguelogo2 {
     display: none;
   }
+
 
   .secondSideNav {
     display: none;
@@ -1126,7 +1143,7 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(100% - 22px);
+  width: calc(97%);
 }
 
 .header {
@@ -1135,7 +1152,7 @@ table.table2 tbody td {
   height: 120px;
   width: 100px;
   margin-right: calc(100% + 10px);
-  font-size: 0.8em;
+  font-size: 0.5em;
 }
 
 .headerContainer h1 {
@@ -1151,6 +1168,10 @@ table.table2 tbody td {
   margin-left: 0; /* Reset left margin */
   font-size: 1em;   
   margin-left: calc(-27%); /* Reset left margin */
+}
+.value{
+  margin-top: -10px;
+  font-size: 4em;
 }
 .chartButton{
 top: 125px;

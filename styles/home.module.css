@@ -24,8 +24,8 @@
   box-shadow: 0px 10px 20px rgba(0,0,0, .5);
   background-color: #68b42b;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/pathex.avif');
-  background-size: 3%;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+  background-size: 120%;
   z-index: 100;
   font-size: 1em;
 }

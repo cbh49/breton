@@ -38,8 +38,8 @@
   box-shadow: 0px 10px 20px rgba(0,0,0, .5);
   background-color: #68b42b;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/pathex.avif');
-  background-size: 3%;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+  background-size: 120%;
   z-index: 100;
   font-size: 1em;
 }
@@ -537,7 +537,11 @@ table.table2 tbody td {
   border-bottom: 3px solid black;
   align-items: center;
   text-align: center;
-  font-size: 1em;
+  font-size: .5em;
+}
+.value{
+  margin-top: -20px;
+  font-size: 4em;
 }
 
 
@@ -718,12 +722,12 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: calc(217%); /* Ensure it is 100% wide */
+    width: calc(200%); /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: 5%;
-    right: calc(455px);
+    right: calc(420px);
   }
 
   .table2 span {
@@ -747,13 +751,13 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow2 {
     margin: 10px 7px; /* Margin between each row */
     padding: 5px; /* Padding inside each row */
-    width: calc(94%);
+    width: calc(95%);
     margin-left: 15px;
   }
   .header {
-    padding: 7px; /* Padding inside each row */
+    padding: 5px; /* Padding inside each row */
     height: 100px;
-    width: 140px; /* Full width */
+    width: 130px; /* Full width */
     font-size: 1em;
   }
 
@@ -781,6 +785,10 @@ table.table2 th:last-child, table.table2 td:last-child {
 }
 .tabletext{
   display: none;
+}
+.value{
+  margin-top: -10px;
+  font-size: 2em;
 }
 
   
@@ -978,7 +986,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin-left: 15px;
   }
   .header {
-    padding: 8px; /* Padding inside each row */
+    padding: 6px; /* Padding inside each row */
     height: 100px;
     width: 140px; /* Full width */
     font-size: 1em;
@@ -1010,7 +1018,10 @@ table.table2 th:last-child, table.table2 td:last-child {
 .tabletext{
   display: none;
 }
-
+.value{
+  margin-top: -10px;
+  font-size: 2.5em;
+}
   
   /* SIDENAV */
 
@@ -1148,7 +1159,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     box-sizing: border-box; /* Include padding in width and height */
     overflow: visible;
     background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
   }
   .content {
     margin-left: 0px;
@@ -1159,11 +1170,11 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: calc(198%); /* Ensure it is 100% wide */
+    width: calc(195%); /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    right: calc(440px);
+    right: calc(430px);
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
   }
@@ -1200,7 +1211,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .headerContainer h1 {
     margin-top: 150px;
-    margin-left: calc(-61%); /* Reset left margin */
+    margin-left: calc(-59%); /* Reset left margin */
     width: 100%;
     font-size: 3em;
     z-index: 2;
@@ -1211,7 +1222,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   .results {
     margin-left: 0; /* Reset left margin */
     font-size: 1em;   
-    margin-left: calc(-29%); /* Reset left margin */
+    margin-left: calc(-27%); /* Reset left margin */
   }
 .chartButton{
   top: 125px;
@@ -1227,10 +1238,14 @@ table.table2 th:last-child, table.table2 td:last-child {
 
 .table2 tbody tr:nth-child(even) {
   background-color: #303030;
-  width: 98%; /* Color for even rows */
+  width: 97%; /* Color for even rows */
 }
 .tabletext{
   display: none;
+}
+.value{
+  margin-top: -10px;
+  font-size: 2.5em;
 }
 
   
