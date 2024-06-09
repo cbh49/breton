@@ -35,7 +35,7 @@ const dataSections = [
   {
     text: 'MLB',
     buttons: [
-      { label: 'OVER/UNDER', href: '/mlb' },
+      { label: 'UPDATED', href: '/mlb' },
       { label: 'MONEYLINE', href: '/mlbml' },
       { label: 'NRFI', href: '/nrfi' }
     ]
