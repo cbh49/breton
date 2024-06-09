@@ -709,7 +709,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
     overflow: visible;
   }
   .content {
@@ -936,7 +937,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
     overflow: visible;
   }
   .content {
