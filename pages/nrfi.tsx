@@ -223,7 +223,7 @@ function getPercentageColor(tally: string) {
             )}
           </div>
         </div>
-          <div className={styles.results}>NRFI Hit Rates:<p> NRFIs: 137/216 (63%) <br /> YRFI: 38/68 (56%) </p></div>
+          <div className={styles.results}>NRFI Hit Rates:<p> NRFIs: 139/222 (62%) <br /> YRFI: 40/71 (56%) </p></div>
       <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
           <tr>

@@ -35,7 +35,7 @@ const dataSections = [
   {
     text: 'MLB',
     buttons: [
-      { label: 'UPDATED', href: '/mlb' },
+      { label: 'OVER/UNDER', href: '/mlb' },
       { label: 'MONEYLINE', href: '/mlbml' },
       { label: 'NRFI', href: '/nrfi' }
     ]
@@ -344,7 +344,7 @@ const Home = () => {
                 <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
               <td className={styles.atSymbol}>@</td>   
                 <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
-              <div className={styles.total}>O/U: {matchup.Total}</div>
+              <div className={styles.total}>O/U: {matchup.Total} </div>
             </tr>
             
           ))
