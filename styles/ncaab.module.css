@@ -710,8 +710,9 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
-    background-size: .5%;
+    background-size: 120%;
     overflow: visible;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
   }
   .content {
     margin-left: 0px;
@@ -751,14 +752,16 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow2 {
     margin: 10px 7px; /* Margin between each row */
     padding: 5px; /* Padding inside each row */
-    width: calc(95%);
-    margin-left: 15px;
+    width: calc(90%);
+    margin-left: calc(25px);
   }
   .header {
-    padding: 5px; /* Padding inside each row */
+    padding: 6px; /* Padding inside each row */
     height: 100px;
-    width: 130px; /* Full width */
-    font-size: 1em;
+    width: calc(105px); /* Full width */
+    margin: 7px;
+    font-size: .8em;
+    margin-left: 15px;
   }
 
   .headerContainer h1 {
@@ -788,7 +791,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 }
 .value{
   margin-top: -10px;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
   
@@ -802,7 +805,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
     margin-top: -5px;
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
   }
 
   .navlogo {
@@ -982,14 +986,15 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow2 {
     margin: 10px 7px; /* Margin between each row */
     padding: 5px; /* Padding inside each row */
-    width: calc(94%); /* Color for even rows */
-    margin-left: 15px;
+    width: calc(90%); /* Color for even rows */
+    margin-left: calc(25px);
   }
   .header {
     padding: 6px; /* Padding inside each row */
     height: 100px;
-    width: 140px; /* Full width */
-    font-size: 1em;
+    width: calc(120px); /* Full width */
+    margin: 10px;
+    font-size: .9em;
   }
 
   .headerContainer h1 {
@@ -1020,7 +1025,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 }
 .value{
   margin-top: -10px;
-  font-size: 2.5em;
+  font-size: 2.75em;
 }
   
   /* SIDENAV */
@@ -1203,10 +1208,11 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: calc(95%);
   }
   .header {
-    padding: 8px; /* Padding inside each row */
+    padding: 6px; /* Padding inside each row */
     height: 100px;
-    width: 140px; /* Full width */
-    font-size: 1em;
+    width: calc(129px); /* Full width */
+    margin: 7px;
+    font-size: .9em;
   }
 
   .headerContainer h1 {
@@ -1238,14 +1244,14 @@ table.table2 th:last-child, table.table2 td:last-child {
 
 .table2 tbody tr:nth-child(even) {
   background-color: #303030;
-  width: 97%; /* Color for even rows */
+  width: calc(96%); /* Color for even rows */
 }
 .tabletext{
   display: none;
 }
 .value{
   margin-top: -10px;
-  font-size: 2.5em;
+  font-size: 2.75em;
 }
 
   

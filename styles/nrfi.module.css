@@ -958,7 +958,7 @@ table.table2 tbody td {
   padding: 0.5px;
   margin: 1px;
   height: 120px;
-  width: 110px;
+  width: 105px;
   margin-right: calc(100% + 10px);
   font-size: 0.5em;
 }
@@ -1164,7 +1164,7 @@ table.table2 tbody td {
   padding: 0.5px;
   margin: 1px;
   height: 120px;
-  width: 100px;
+  width: 110px;
   margin-right: calc(100% + 10px);
   font-size: 0.5em;
 }

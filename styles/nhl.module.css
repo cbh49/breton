@@ -726,7 +726,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    background-size: 5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
     right: calc(410px);
   }
 
@@ -751,12 +752,13 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow2 {
     margin: 10px 7px; /* Margin between each row */
     padding: 5px; /* Padding inside each row */
-    width: 97%;
+    width: 95%;
+    margin-left: calc(25px);
   }
   .header {
     padding: 10px; /* Padding inside each row */
     height: 100px;
-    width: 140px; /* Full width */
+    width: 130px; /* Full width */
     font-size: 1em;
   }
 
@@ -783,7 +785,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 }
 .table2 tbody tr:nth-child(even) {
   background-color: #303030;
-  width: 95%; /* Color for even rows */
+  width: 90%; /* Color for even rows */
 }
 .value{
   margin-top: -10px;
@@ -954,7 +956,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    background-size: 5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
     right: calc(435px);
   }
   .table2 span {
@@ -977,12 +980,13 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow2 {
     margin: 10px 7px; /* Margin between each row */
     padding: 5px; /* Padding inside each row */
-    width: 98%;
+    width: 95%;
+    margin-left: calc(30px);
   }
   .header {
     padding: 10px; /* Padding inside each row */
     height: 100px;
-    width: 140px; /* Full width */
+    width: 130px; /* Full width */
     font-size: 1em;
   }
 
@@ -1010,7 +1014,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
 .table2 tbody tr:nth-child(even) {
   background-color: #303030;
-  width: 97%; /* Color for even rows */
+  width: 90%; /* Color for even rows */
 }
 .value{
   margin-top: -10px;

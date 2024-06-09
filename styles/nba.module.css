@@ -723,7 +723,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 10px; /* Padding for better layout */
     margin-left: -200px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
   }
   .tabletext{
     display: none;
@@ -852,7 +853,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
 /* Small devices (phones, 600px and down) */
 @media only screen and (min-width: 400px) and (max-width: 600px) {
-
+  
   .container {
     display: flex;
     flex-direction: column; /* Switch to column layout */
@@ -861,7 +862,6 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   /* NAVBAR */
-
   .navbar{
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
@@ -902,7 +902,6 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
 
-
   /* MAIN */
 
   .banner {
@@ -933,7 +932,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 10px; /* Padding for better layout */
     margin-left: -200px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
   }
   .tabletext{
     display: none;
