@@ -387,6 +387,8 @@
 }
 .total {
   font-size: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0, 1);
+  padding: 3px;
   border-radius: 10px;
   color: black;
 }
@@ -716,7 +718,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: calc(220%); /* Ensure it is 100% wide */
+    width: calc(217%); /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
@@ -745,10 +747,11 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow2 {
     margin: 10px 7px; /* Margin between each row */
     padding: 5px; /* Padding inside each row */
-    width: 98%;
+    width: calc(94%);
+    margin-left: 15px;
   }
   .header {
-    padding: 8px; /* Padding inside each row */
+    padding: 7px; /* Padding inside each row */
     height: 100px;
     width: 140px; /* Full width */
     font-size: 1em;
@@ -875,7 +878,8 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   /* NAVBAR */
   .navbar{
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
   }
 
   .navbar ul {
@@ -927,7 +931,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
     overflow: visible;
   }
   .content {
@@ -943,7 +948,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
     right: calc(440px);
   }
 
@@ -968,7 +974,8 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow2 {
     margin: 10px 7px; /* Margin between each row */
     padding: 5px; /* Padding inside each row */
-    width: calc(95%);
+    width: calc(94%); /* Color for even rows */
+    margin-left: 15px;
   }
   .header {
     padding: 8px; /* Padding inside each row */
@@ -999,15 +1006,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 .table2 th{
   font-size: .25em;
 }
-.table2 tbody tr:nth-child(odd) {
-  background-color: #484848;
-  width: 100%; /* Color for odd rows */
-}
 
-.table2 tbody tr:nth-child(even) {
-  background-color: #303030;
-  width: 97%; /* Color for even rows */
-}
 .tabletext{
   display: none;
 }
@@ -1023,7 +1022,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
     margin-top: -5px;
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
   }
 
   .navlogo {
@@ -1096,7 +1096,8 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   /* NAVBAR */
   .navbar{
-    background-size: .5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
   }
 
   .navbar ul {
@@ -1145,8 +1146,9 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
-    background-size: .5%;
     overflow: visible;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
   }
   .content {
     margin-left: 0px;
@@ -1161,8 +1163,9 @@ table.table2 th:last-child, table.table2 td:last-child {
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    background-size: 5%;
     right: calc(440px);
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
   }
 
   .table2 span {

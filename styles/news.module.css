@@ -389,6 +389,8 @@
 }
 .total {
   font-size: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0, 1);
+  padding: 3px;
   border-radius: 10px;
   color: black;
 }
@@ -710,7 +712,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin-top: 200px;
     margin-left: 0px;
     font-size: 3em;
-    width: 100%;
+    width: 90%;
   }
   .table2 {
     display: block; /* Ensure it is displayed */
@@ -721,56 +723,6 @@ table.table2 th:last-child, table.table2 td:last-child {
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
   }
 
-  .table2 span {
-    margin-left: 150px;
-    margin-right: 150px;
-
-  }
-
-  /* Table header styles */
-  table.table2 thead th {
-    font-size: 1em; /* Adjust as necessary */
-    text-align: center;
-  }
-
-  /* Table body styles */
-  table.table2 tbody td {
-    font-size: 1em; /* Adjust as necessary */
-    text-align: center;
-  }
-  .matchupRow2 {
-    margin: 10px 7px; /* Margin between each row */
-    padding: 5px; /* Padding inside each row */
-    width: 97%;
-  }
-  .header {
-    padding: 10px; /* Padding inside each row */
-    height: 100px;
-    width: 140px; /* Full width */
-    font-size: 1em;
-  }
-
-  .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(37%); /* Reset left margin */
-    width: 100%;
-    font-size: 3em;
-    z-index: 2;
-    padding: 10px;
-  }
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1em;   
-    margin-left: calc(35%); /* Reset left margin */
-  }
-.chartButton{
-  top: 125px;
-  left: 20px;
-}
-.tablelogo{
-  padding-left: 300px;
-}
 
 
   
@@ -787,10 +739,11 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .navlogo {
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     align-items: row;
     padding: 5px;
+    font-size: .5em;
   }
 
   .sideNav h3 {
@@ -811,7 +764,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .total {
-    font-size: 1.2em;
+    font-size: .75em;
   }
 
   .matchupRow {
