@@ -340,7 +340,7 @@ function getPercentageColor(tally: string) {
                 color: item.Total > 1 || item.Total < -1 ? 'white' : '',
               }}
             >
-              <p>Proj 1st Runs:</p>
+              <p>Projected 1st Runs:</p>
               <div className={styles.value}>{toFixed(item.Total)}</div>
             </div>
           </td>
