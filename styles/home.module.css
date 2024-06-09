@@ -815,7 +815,7 @@
   /* NAVBAR */
 .navbar{
   height: 80px;
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,.9)), url('/blank.png');
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
 }
   .navbar ul {
     display: flex;
@@ -1124,7 +1124,8 @@
   /* NAVBAR */
 
   .navbar{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,.9)), url('/blank.png');
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+    background-size: 20%;
   }
   .navbar ul {
     display: flex;
@@ -1171,6 +1172,7 @@
     order: 2; /* Main content */
     margin: 0; /* Remove margin */
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
+    background-size: 10%;
   }
   .contentSection {
     width: 100%;
@@ -1270,6 +1272,7 @@
     margin-top: 250px;
     margin-left: 0px;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('/blank.png');
+    background-size: 30%;
   }
   .about h2{
     font-size: 2rem;
@@ -1311,6 +1314,7 @@
   margin-top: 5px;
   margin-left: 0px;
   background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+  background-size: 50%;
 }
 .faqs h3 {
   width: 90%;
@@ -1334,6 +1338,8 @@
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
     margin-top: -5px;
+    background-size: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url('/blank.png');
   }
   .navlogo {
     height: 35px;
