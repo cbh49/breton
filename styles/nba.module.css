@@ -920,7 +920,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow: visible;
   }
   .content {
-    width: 100%; /* Full width */
+    width: 80%; /* Full width */
     padding: 20px; /* Add padding for better layout */
     overflow: visible;
   }
@@ -966,7 +966,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .headerContainer h1 {
     margin-top: 150px;
-    margin-left: calc(-60%); /* Reset left margin */
+    margin-left: calc(-75%); /* Reset left margin */
     width: 100%;
     font-size: 3em;
     z-index: 2;

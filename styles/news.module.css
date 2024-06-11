@@ -886,7 +886,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .content {
     margin-left: -400px;
-    width: 100%; /* Full width */
+    width: 80%; /* Full width */
     padding: 20px; /* Add padding for better layout */
   }
   .content h1{
