@@ -142,8 +142,10 @@
   margin-bottom: 50px;
 }
 
-.odds {
+.odds h4 {
   color: #fff;
+  margin-left: 12px;
+  font-size: .75em;
 }
 
 
@@ -835,7 +837,7 @@
   }
   .navbar ul li {
     font-size: 0.65em;
-    padding: 15px 10px; /* Adjust padding for smaller buttons */
+    padding: 11px 10px; /* Adjust padding for smaller buttons */
   }
   .logo {
     margin-left: 20px;
@@ -1159,7 +1161,7 @@
   }
   .navbar ul li {
     font-size: 0.85em;
-    padding: 15px 10px; /* Adjust padding for smaller buttons */
+    padding: 12px 10px; /* Adjust padding for smaller buttons */
   }
   .logo {
     margin-left: 20px;
