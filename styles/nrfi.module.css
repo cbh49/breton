@@ -883,7 +883,7 @@ left: -70px;
   }
   .logor {
     display: fixed;
-    padding-right: 0px;
+    margin-left: -10px;
     margin-bottom: 25px;
     height: 75px;
     width: 80px;
@@ -891,7 +891,7 @@ left: -70px;
   .odds h4{
     padding-right: 0px;
     font-size: .8em;
-    margin-left: 8px;
+    margin-left: 3px;
   }
 
 
@@ -921,19 +921,20 @@ left: -70px;
 
 .table2 {
   display: block; /* Ensure it is displayed */
-  width: calc(225%); /* Ensure it is 100% wide */
+  width: calc(205%); /* Ensure it is 100% wide */
   background-color: #fff; /* Background color for visibility */
   padding: 10px; /* Padding for better layout */
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
   background-size: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
-  right: calc(430px);
+  right: calc(400px);
 }
 
 .table2 span {
   padding: 10px;
   width: 400px;
   font-size: 1.5em;
+  margin-left: 40px;
 }
 
 /* Table header styles */
@@ -951,21 +952,21 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(105%);
+  width: calc(96%);
 }
 
 .header {
-  padding: 5px;
-  margin: 5px;
-  height: 120px;
-  width: calc(90%);
+  padding: 4px;
+  margin: 10px;
+  height: 100px;
+  width: calc(80%);
   margin-right: calc(100% + 10px);
-  font-size: 0.5em;
+  font-size: 0.4em;
 }
 
 .headerContainer h1 {
   margin-top: 150px;
-  margin-left: calc(-60%); /* Reset left margin */
+  margin-left: calc(-75%); /* Reset left margin */
   width: 100%;
   font-size: 3em;
   z-index: 2;
@@ -975,11 +976,11 @@ table.table2 tbody td {
 .results {
   margin-left: 0; /* Reset left margin */
   font-size: 1em;   
-  margin-left: calc(-27%); /* Reset left margin */
+  margin-left: calc(-45%); /* Reset left margin */
 }
 .chartButton{
 top: 125px;
-left: -50px;
+left: -100px;
 }
   /* SIDENAV */
 
@@ -1025,7 +1026,7 @@ left: -50px;
   }
   .value{
     margin-top: -10px;
-    font-size: 3em;
+    font-size: 3.25em;
   }
 
   .matchupRow {
