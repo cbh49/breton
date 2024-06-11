@@ -693,20 +693,20 @@ table.table2 th:last-child, table.table2 td:last-child {
 }
 .content {
   margin-left: 0px;
-  width: 100%; /* Full width */
+  width: 80%; /* Full width */
   padding: 20px; /* Add padding for better layout */
   overflow: visible;
 }
 
 .table2 {
   display: block; /* Ensure it is displayed */
-  width: calc(219%); /* Ensure it is 100% wide */
+  width: calc(245%); /* Ensure it is 100% wide */
   background-color: #fff; /* Background color for visibility */
   padding: 10px; /* Padding for better layout */
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
   background-size: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
-  right: calc(460px);
+  right: calc(450px);
 }
 
 
@@ -731,21 +731,21 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(96.5%);
+  width: calc(100%);
 }
 
 .header {
-  padding: 0.5px;
-  margin: 1px;
+  padding: 5px;
+  margin: 5px;
   height: 120px;
-  width: 100px;
+  width: calc(90%);
   margin-right: calc(100% + 10px);
-  font-size: 0.8em;
+  font-size: 0.3em;
 }
 
 .headerContainer h1 {
   margin-top: 150px;
-  margin-left: calc(-60%); /* Reset left margin */
+  margin-left: calc(-90%); /* Reset left margin */
   width: 100%;
   font-size: 3em;
   z-index: 2;
@@ -755,7 +755,7 @@ table.table2 tbody td {
 .results {
   margin-left: 0; /* Reset left margin */
   font-size: 1em;   
-  margin-left: calc(-30%); /* Reset left margin */
+  margin-left: calc(-57%); /* Reset left margin */
 }
 .chartButton{
 top: 125px;
@@ -825,7 +825,7 @@ left: -70px;
   }
   .value{
     margin-top: -10px;
-    font-size: 4em;
+    font-size: 3em;
   }
 
   .secondSideNav {
@@ -914,20 +914,20 @@ left: -70px;
 }
 .content {
   margin-left: 0px;
-  width: 100%; /* Full width */
+  width: 80%; /* Full width */
   padding: 20px; /* Add padding for better layout */
   overflow: visible;
 }
 
 .table2 {
   display: block; /* Ensure it is displayed */
-  width: calc(205%); /* Ensure it is 100% wide */
+  width: calc(225%); /* Ensure it is 100% wide */
   background-color: #fff; /* Background color for visibility */
   padding: 10px; /* Padding for better layout */
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
   background-size: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
-  right: calc(440px);
+  right: calc(430px);
 }
 
 .table2 span {
@@ -951,14 +951,14 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(97%);
+  width: calc(105%);
 }
 
 .header {
-  padding: 0.5px;
-  margin: 1px;
+  padding: 5px;
+  margin: 5px;
   height: 120px;
-  width: 105px;
+  width: calc(90%);
   margin-right: calc(100% + 10px);
   font-size: 0.5em;
 }
@@ -1025,7 +1025,7 @@ left: -50px;
   }
   .value{
     margin-top: -10px;
-    font-size: 4em;
+    font-size: 3em;
   }
 
   .matchupRow {
