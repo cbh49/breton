@@ -224,6 +224,7 @@
   border: 1px solid #68b42b; 
   background-color: #303030;
   margin-left: calc(42%);
+  padding: 10px;
 }
 .results{
   border-radius: 10%;
@@ -880,29 +881,29 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 2.5em;
-    padding: 10px 10px; /* Adjust padding for smaller buttons */
+    font-size: 1.5em;
+    padding: 5px 5px; /* Adjust padding for smaller buttons */
   }
   .logo {
     margin-left: 20px;
-    padding-right: 20px;
-    width: 80px;
-    height: 80px;
+    padding-right: 0px;
+    width: 50px;
+    height: 50px;
   }
   .odds{
     margin-right: 0px;
   }
   .logor {
     display: fixed;
-    padding-left: 20px;
-    margin-bottom: 25px;
-    height: 80px;
-    width: 90px;
+    margin-bottom: 30px;
+    margin-right: 350px;
+    height: 40px;
+    width: 50px;
   }
   .odds h4{
     padding-left: 20px;
-    font-size: .8em;
-    margin-left: 15px;
+    font-size: .5em;
+    margin-left: -10px;
   }
 
 
@@ -920,13 +921,15 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow: visible;
   }
   .content {
-    width: 200%; /* Full width */
+    margin-left: 0px;
+    width: 80%; /* Full width */
     padding: 20px; /* Add padding for better layout */
     overflow: visible;
   }
   .content h1{
     align-items: center;
     margin-top: 200px;
+    padding: 10px;
   }
 
   .table2 {
@@ -934,7 +937,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 87%; /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
-    margin-left: -200px;
+    margin-left: -400px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
@@ -966,15 +969,15 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .headerContainer h1 {
     margin-top: 150px;
-    margin-left: calc(-75%); /* Reset left margin */
+    margin-left: calc(-170%); /* Reset left margin */
     width: 100%;
     font-size: 3em;
     z-index: 2;
-    padding: 10px;
+    padding: 20px;
   }
   .chartButton{
   top: 125px;
-  left: -50px;
+  left: -350px;
   }
 .table2 th{
   font-size: .25em;
