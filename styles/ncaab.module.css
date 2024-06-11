@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'VTFRedzone-Classic';
+  src: url('../fonts/VTFRedzone-Classic.ttf') format('truetype');
+}
 .container{
   margin: 0;
   padding: 0;
