@@ -316,7 +316,7 @@ const Home = () => {
       </ul>
       <div className={styles.odds}>
       <h4>Odds via:</h4>
-      <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor}/>
+      <Image src="/dkvert.png" alt="Logo" width={75} height={65} className={styles.logor}/>
       </div>
     </div>
     

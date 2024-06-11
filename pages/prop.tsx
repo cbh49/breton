@@ -1,5 +1,5 @@
 // pages/nba.tsx
-import styles from '../styles/nhl.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
+import styles from '../styles/nba.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
