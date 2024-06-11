@@ -1,10 +1,14 @@
-.container{
-  margin: 0;
-  padding: 0;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position: relative;
+@font-face {
+  font-family: 'VTFRedzone-Classic';
+  src: url('../fonts/VTFRedzone-Classic.ttf') format('truetype');
 }
 
+.container {
+  margin: 0;
+  padding: 0;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: fixed;
+}
 
 /* NAVBAR CONTENT */
 
@@ -23,7 +27,7 @@
   border-bottom: #68b42b 2px solid;
   box-shadow: 0px 10px 20px rgba(0,0,0, .5);
   background-color: #68b42b;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
   background-size: 120%;
   z-index: 100;
@@ -174,7 +178,7 @@
   text-align: center;
   color: #fff;
   font-size: 1.5rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .dataSection h1 {
@@ -200,7 +204,7 @@
   width: 70%;
   text-align: center;
   background-color: white;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 180px;
   border-radius: 20px;
   margin-top: -750px;
@@ -213,7 +217,7 @@
   color: #000;
   text-align: center;
   border-color:  rgba(0,0,0,0.2);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: 1px solid #68b42b;
   padding-top: 5px;
   font-size: 1.5em;
@@ -296,7 +300,7 @@
   position: relative;
   overflow: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url('/pathex.avif');
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-bottom: 1px solid #68b42b;
   border-top: 1px solid #68b42b;
   margin-top: 134px;
@@ -320,7 +324,7 @@
   font-size: .8rem;
   line-height: 1.5; /* Spacing between lines for better readability */
   text-align: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: white;
   font-size: 1em;
 }
@@ -369,7 +373,7 @@
   position: relative;
   overflow: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-bottom: 1px solid #68b42b;
   border-top: 1px solid #68b42b;
   box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
@@ -397,7 +401,7 @@
   color: black;
   line-height: 1.5; /* Spacing between lines for better readability */
   text-align: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: white;
   
 }
@@ -496,7 +500,7 @@
   border: 5px solid white;
   display: block;
   padding: 0px 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-sizing: border-box;
   width: 95%;
   box-shadow: 0 1.5px 1.5px rgba(255, 255, 255, .7);
@@ -514,7 +518,7 @@
   background-color: transparent;
   border-collapse: collapse; 
   border-spacing: 0;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: -125px; /* Moves table up and down */
   
 }
@@ -524,7 +528,7 @@
   text-align: center;
   border-color:  rgba(0,0,0,0.2);
   box-shadow: 0 1px 2px rgba(0,0,0, 1);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .table tr{
   background-color: #fff;
@@ -533,7 +537,7 @@
 }
 .table th {
   background-color: transparent;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .atSymbol {
   flex: none; /* Prevents '@' from stretching */
@@ -614,7 +618,7 @@
   text-align: center;
   border: 5px solid white;
   display: block; 
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-sizing: border-box;
   width: 100%;
   box-shadow: 0 1.5px 1.5px rgba(255, 255, 255, .7); /* Shadow for 3D effect */
@@ -624,7 +628,7 @@
   text-align: center;
   border: 5px solid white;
   display: block; 
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-sizing: border-box;
   width: 100%;
   box-shadow: 0 1.5px 1.5px rgba(255, 255, 255, .7); /* Shadow for 3D effect */
@@ -645,7 +649,7 @@
   background-color: transparent;
   border-collapse: collapse; 
   border-spacing: 10;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: -125px; /* Moves table up and down */
   border-collapse: separate; /* This must be separate to use border-spacing */
   border-spacing: 0 5px; /* Horizontal and vertical spacing */
@@ -657,7 +661,7 @@
   text-align: center;
   border-color: rgba(0,0,0,0.2);
   box-shadow: 0 1px 2px rgba(0,0,0, 1);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .table4 tr {
   background-color: #fff;
@@ -667,7 +671,7 @@
 }
 .table4 th {
   background-color: transparent;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 0px;
 }
 .total {
@@ -884,7 +888,7 @@
     text-align: center;
     color: #fff;
     font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .dataSection h1 {
@@ -1135,6 +1139,7 @@
     display: flex;
     flex-direction: column; /* Switch to column layout */
     align-items: center; /* Center align items */
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   /* NAVBAR */
@@ -1207,7 +1212,7 @@
     text-align: center;
     color: #fff;
     font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .dataSection h1 {

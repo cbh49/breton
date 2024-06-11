@@ -1,7 +1,7 @@
 .container{
   margin: 0;
   padding: 0;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: fixed;
 }
 .banner{
@@ -37,7 +37,7 @@
   border-bottom: #68b42b 2px solid;
   box-shadow: 0px 10px 20px rgba(0,0,0, .5);
   background-color: #68b42b;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
   background-size: 120%;
   z-index: 100;
@@ -159,7 +159,7 @@
   z-index: 1; /* Lower z-index than sideNav so it scrolls under it */
   text-align: center;
   color: #fff;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -303,7 +303,7 @@
   left: 500px;
   z-index: 10;
   border-top: 5px solid #89cff0;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: .75em;
 }
 .bottomnavlogo {
@@ -343,7 +343,7 @@
   border: 5px solid white;
   display: block;
   padding: 0px 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-sizing: border-box;
   width: 95%;
   box-shadow: 0 1.5px 1.5px rgba(255, 255, 255, .7);
@@ -361,7 +361,7 @@
   background-color: transparent;
   border-collapse: collapse; 
   border-spacing: 0;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: -475px; /* Moves table up and down */
   
 }
@@ -371,7 +371,7 @@
   text-align: center;
   border-color:  rgba(0,0,0,0.2);
   box-shadow: 0 1px 2px rgba(0,0,0, 1);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .table tr{
   background-color: #fff;
@@ -380,7 +380,7 @@
 }
 .table th {
   background-color: transparent;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .atSymbol {
   flex: none; /* Prevents '@' from stretching */
