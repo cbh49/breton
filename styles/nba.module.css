@@ -451,7 +451,7 @@
   box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
 }
 .leaguelogo{
-  margin-left: 140px;
+  margin-left: 170px;
   margin-top: 5px;
 }
 .leaguelogo2{
@@ -670,31 +670,29 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 1.5em;
-    padding: 3px 3px; /* Adjust padding for smaller buttons */
+    font-size: 1em;
+    padding: 10px 8px; /* Adjust padding for smaller buttons */
   }
   .logo {
     margin-left: 20px;
-    padding-right: 0px;
+    padding-right: 15px;
     width: 50px;
     height: 50px;
-    padding-right: 10px;
   }
   .odds{
     margin-right: 0px;
   }
   .logor {
     display: fixed;
-    margin-bottom: 30px;
-    margin-right: 385px;
-    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    height: 45px;
     width: 50px;
-    padding-left: 10px;
   }
   .odds h4{
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: .5em;
-    margin-left: 0px;
+    margin-left: 11px;
   }
 
 
@@ -712,23 +710,23 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow: hidden;
   }
   .content {
-    margin-left: 0px;
-    width: 80%; /* Full width */
-    padding: 20px; /* Add padding for better layout */
-    overflow: visible;
+    margin-left: -400px;
+    width: 90%; /* Full width */
+    padding: 0px; /* Add padding for better layout */
+    height: 100%;
   }
   .content h1{
     align-items: center;
     margin-top: 200px;
     padding: 10px;
+
   }
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: 90%; /* Ensure it is 100% wide */
+    width: 85%; /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
-    margin-left: -440px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
@@ -759,19 +757,24 @@ table.table2 th:last-child, table.table2 td:last-child {
     font-size: 1em;
   }
   .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-202.5%); /* Reset left margin */
-    width: 95%;
+    margin-top: 175px; 
+    width: 100%;
+    margin-left: calc(6px);
     font-size: 2em;
     z-index: 2;
     padding: 20px;
   }
   .chartButton{
-  top: 100px;
-  left: -470px;
-  width: 20px;
-  font-size: .6em;
-  }
+    top: 100px;
+    width: 25px;
+    font-size: .6em;
+    margin-right: 0px;
+    }
+    .chartButton .dropdown{
+      min-width: 110px;
+      margin-left: 10px;
+      margin-top: 1px;
+    }
 .table2 th{
   font-size: .25em;
 }
@@ -894,32 +897,31 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 1.5em;
-    padding: 3px 3px; /* Adjust padding for smaller buttons */
+    font-size: 1em;
+    padding: 10px 9px; /* Adjust padding for smaller buttons */
   }
   .logo {
     margin-left: 20px;
-    padding-right: 0px;
+    padding-right: 15px;
     width: 50px;
     height: 50px;
-    margin-right: 10px;
   }
   .odds{
     margin-right: 0px;
   }
   .logor {
     display: fixed;
-    margin-bottom: 30px;
-    margin-right: 385px;
-    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    height: 45px;
     width: 50px;
-    margin-left: 10px;
   }
   .odds h4{
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: .5em;
-    margin-left: -10px;
+    margin-left: 11px;
   }
+
 
 
   /* MAIN */
@@ -933,13 +935,13 @@ table.table2 th:last-child, table.table2 td:last-child {
     box-sizing: border-box; /* Include padding in width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-    overflow: hidden;
+    overflow: none;
   }
   .content {
-    margin-left: 0px;
-    width: 80%; /* Full width */
-    padding: 20px; /* Add padding for better layout */
-    overflow: visible;
+    margin-left: -400px;
+    width: 90%; /* Full width */
+    padding: 0px; /* Add padding for better layout */
+    height: 100%;
   }
   .content h1{
     align-items: center;
@@ -952,11 +954,11 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 80%; /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
-    margin-left: -435px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
   }
+
   .tabletext{
     display: none;
   }
@@ -983,18 +985,18 @@ table.table2 th:last-child, table.table2 td:last-child {
     font-size: 1em;
   }
   .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-185%); /* Reset left margin */
+    margin-top: 150px; 
     width: 90%;
     font-size: 2em;
     z-index: 2;
     padding: 20px;
+    margin-left: calc(5px);
   }
   .chartButton{
   top: 100px;
-  left: -475px;
   width: 25px;
   font-size: .6em;
+  margin-right: 0px;
   }
 .table2 th{
   font-size: .25em;
