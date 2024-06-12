@@ -154,7 +154,7 @@ const Fullprop = () => {
         <table className={styles.table2}>
           <tbody>
             {ptsData.length === 0 ? (
-              <tr>
+              <tr className={styles.matchupRow2}>
                 <td colSpan={3}>No Best Point Lines Today!</td>
               </tr>
             ) : (
@@ -189,7 +189,7 @@ const Fullprop = () => {
           </tbody>
           <tbody>
             {rebsData.length === 0 ? (
-              <tr>
+              <tr className={styles.matchupRow2}>
                 <td colSpan={3}>No Best Rebound Lines Today!</td>
               </tr>
             ) : (
