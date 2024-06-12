@@ -768,18 +768,20 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-63%); /* Reset left margin */
-    width: 100%;
+    margin-top: 200px;
+    margin-left: calc(-85%); /* Reset left margin */
+    width: 135%;
     font-size: 3em;
     z-index: 2;
     padding: 10px;
+    
   }
 
   .results {
     margin-left: 0; /* Reset left margin */
-    font-size: 1em;   
-    margin-left: calc(-32%); /* Reset left margin */
+    font-size: 2em;   
+    margin-left: calc(-60%); /* Reset left margin */
+    width: 100%;
   }
 .chartButton{
   top: 125px;
@@ -997,17 +999,19 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .headerContainer h1 {
     margin-top: 150px;
-    margin-left: calc(-60%); /* Reset left margin */
-    width: 100%;
+    margin-left: calc(-75%); /* Reset left margin */
+    width: 135%;
     font-size: 3em;
     z-index: 2;
     padding: 10px;
+    
   }
 
   .results {
     margin-left: 0; /* Reset left margin */
-    font-size: 1em;   
-    margin-left: calc(-27%); /* Reset left margin */
+    font-size: 2em;   
+    margin-left: calc(-52.5%); /* Reset left margin */
+    width: 100%;
   }
 .chartButton{
   top: 125px;

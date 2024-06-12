@@ -655,21 +655,20 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 1.75em;
-    padding: 15px 10px; /* Adjust padding for smaller buttons */
+    font-size: 2em;
+    padding: 15px 20px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 20px;
-    padding-right: 230px;
+    margin-left: 25px;
+    padding-right: 160px;
     width: 80px;
     height: 80px;
   }
   .odds{
-    margin-right: 0px;
+    margin-left: -70px;
   }
   .logor {
-    display: fixed;
-    padding-right: 120px;
+    padding-right: 50px;
     margin-bottom: 25px;
     height: 75px;
     width: 80px;
@@ -677,7 +676,8 @@ table.table2 th:last-child, table.table2 td:last-child {
   .odds h4{
     padding-right: 120px;
     font-size: .8em;
-    margin-left: 8px;
+    margin-left: 10px;
+    width: 100%;
   }
 
 
@@ -704,7 +704,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
 .table2 {
   display: block; /* Ensure it is displayed */
-  width: calc(245%); /* Ensure it is 100% wide */
+  width: calc(240%); /* Ensure it is 100% wide */
   background-color: #fff; /* Background color for visibility */
   padding: 10px; /* Padding for better layout */
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
@@ -718,6 +718,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   padding: 10px;
   width: 400px;
   font-size: 1.5em;
+  margin-left: 40px;
 }
 
 /* Table header styles */
@@ -735,14 +736,14 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(100%);
+  width: calc(96%);
 }
 
 .header {
   padding: 5px;
   margin: 5px;
   height: 120px;
-  width: calc(90%);
+  width: calc(80%);
   margin-right: calc(100% + 10px);
   font-size: 0.3em;
 }
@@ -873,21 +874,20 @@ left: -70px;
     padding: 0;
   }
   .navbar ul li {
-    font-size: 1.75em;
-    padding: 15px 10px; /* Adjust padding for smaller buttons */
+    font-size: 2em;
+    padding: 15px 23px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 20px;
-    padding-right: 230px;
+    margin-left: 30px;
+    padding-right: 150px;
     width: 80px;
     height: 80px;
   }
   .odds{
-    margin-right: 0px;
+    margin-left: -70px;
   }
   .logor {
-    display: fixed;
-    margin-left: -10px;
+    padding-right: 50px;
     margin-bottom: 25px;
     height: 75px;
     width: 80px;
@@ -895,7 +895,7 @@ left: -70px;
   .odds h4{
     padding-right: 0px;
     font-size: .8em;
-    margin-left: 3px;
+    margin-left: 10px;
   }
 
 
@@ -925,20 +925,20 @@ left: -70px;
 
 .table2 {
   display: block; /* Ensure it is displayed */
-  width: calc(205%); /* Ensure it is 100% wide */
+  width: calc(230%); /* Ensure it is 100% wide */
   background-color: #fff; /* Background color for visibility */
-  padding: 10px; /* Padding for better layout */
+  padding: 0px; /* Padding for better layout */
   box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
   background-size: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
-  right: calc(400px);
+  right: calc(440px);
 }
 
 .table2 span {
   padding: 10px;
   width: 400px;
   font-size: 1.5em;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 /* Table header styles */
@@ -956,15 +956,14 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(96%);
+  width: calc(97%);
 }
 
 .header {
-  padding: 4px;
-  margin: 10px;
+  padding: 8px;
+  margin: 16px;
   height: 100px;
-  width: calc(80%);
-  margin-right: calc(100% + 10px);
+  width: calc(70%);
   font-size: 0.3em;
 }
 
@@ -1079,21 +1078,20 @@ left: -100px;
     padding: 0;
   }
   .navbar ul li {
-    font-size: 1.75em;
-    padding: 15px 10px; /* Adjust padding for smaller buttons */
+    font-size: 2em;
+    padding: 15px 30px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 20px;
-    padding-right: 230px;
+    margin-left: 30px;
+    padding-right: 170px;
     width: 80px;
     height: 80px;
   }
   .odds{
-    margin-right: 0px;
+    margin-left: -65px;
   }
   .logor {
-    display: fixed;
-    padding-right: 0px;
+    padding-right: 50px;
     margin-bottom: 25px;
     height: 75px;
     width: 80px;
@@ -1101,7 +1099,7 @@ left: -100px;
   .odds h4{
     padding-right: 0px;
     font-size: .8em;
-    margin-left: 8px;
+    margin-left: 10px;
   }
 
 
@@ -1145,6 +1143,7 @@ left: -100px;
   padding: 10px;
   width: 400px;
   font-size: 1.5em;
+  margin-left: 50px;
 }
 
 /* Table header styles */
@@ -1162,22 +1161,21 @@ table.table2 tbody td {
 .matchupRow2 {
   margin: 10px 7px;
   padding: 5px;
-  width: calc(91%);
+  width: calc(97%);
 }
 
 .header {
-  padding: 0.5px;
-  margin: 1px;
-  height: 120px;
-  width: 110px;
-  margin-right: calc(100% + 10px);
-  font-size: 0.5em;
+  padding: 9px;
+  margin: 20px;
+  height: 100px;
+  width: calc(65%);
+  font-size: 0.3em;
 }
 
 .headerContainer h1 {
   margin-top: 150px;
   margin-left: calc(-60%); /* Reset left margin */
-  width: 100%;
+  width: 120%;
   font-size: 3em;
   z-index: 2;
   padding: 10px;
@@ -1185,8 +1183,9 @@ table.table2 tbody td {
 
 .results {
   margin-left: 0; /* Reset left margin */
-  font-size: 1em;   
-  margin-left: calc(-27%); /* Reset left margin */
+  font-size: 1.5em;   
+  margin-left: calc(-33%); /* Reset left margin */
+  width: 70%;
 }
 .value{
   margin-top: -10px;

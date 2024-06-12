@@ -50,7 +50,7 @@
   display: inline-block;
   position: relative;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.6em;
   cursor: pointer;
   padding: 20px 70px;
   background: transparent;
@@ -837,13 +837,16 @@
   }
   .navbar ul li {
     font-size: 0.65em;
-    padding: 11px 10px; /* Adjust padding for smaller buttons */
+    padding: 11px 9.3px; /* Adjust padding for smaller buttons */
+  }
+  .navbar ul li .dropdown{
+    font-size: 1.75em;
   }
   .logo {
-    margin-left: 20px;
+    margin-left: 25px;
     padding-right: calc(17.55px);
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
   .odds{
     margin-right: 0px;
@@ -852,7 +855,7 @@
     display: fixed;
     padding-left: calc(17.5px);
     margin-bottom: 25px;
-    height: 55px;
+    height: 50px;
     width: 50px;
   }
   .odds h4{
@@ -1161,11 +1164,14 @@
   }
   .navbar ul li {
     font-size: 0.85em;
-    padding: 12px 10px; /* Adjust padding for smaller buttons */
+    padding: 12px 9px; /* Adjust padding for smaller buttons */
+  }
+  .navbar ul li .dropdown{
+    font-size: 1.75em;
   }
   .logo {
-    margin-left: 20px;
-    padding-right: calc(22.5px);
+    margin-left: 27.5px;
+    padding-right: calc(20px);
     width: 60px;
     height: 60px;
   }
