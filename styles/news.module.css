@@ -166,21 +166,18 @@
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   overflow-y: auto;
   overflow-x: hidden;
+  align-content: center;
 }
 .content h1{
-  font-size: 70px;
-  margin-top: 55px;
-  align-items: center;
-  border-radius: 10px;
-  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
-  width: 500px;
-  margin-left: 325px;
-  border: 1px solid #68b42b;
+display: none;
+ 
 }
 .content p{
   margin: 10px 0 20px;
   font-weight: 100;
   line-height: 25px;
+  margin-top: 200px;
+  margin-right: 10px;
 }
 .button{
   width: 200px;
@@ -223,7 +220,7 @@
   align-items: center;
   border: 1px solid #68b42b; 
   background-color: #303030;
-  margin-left: calc(42%);
+  margin-left: calc(40%);
 }
 .results{
   border-radius: 10%;
