@@ -153,18 +153,11 @@ type LogoUrls = { [team: string]: string };
         </div>
           <p className={styles.tabletext}>Players who consistently clear their alternate lines. Updated daily.</p>
           <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
-        <thead>
-          <tr>
-            <th>Player</th>
-            <th>Alt Line (Pts)</th>
-            <th>Hit rate</th>
-            </tr>
-        </thead>
         <tbody>
       {adjMatchData.length === 0 ? (
-    <tr>
+    <tr className={styles.matchupRow2}>
       <td colSpan={6}>No Point Alt Lines Today!</td>
-    </tr>
+    </tr >
       ) : (
     adjMatchData.map((item, index) => (
         <tr key={index}>
@@ -179,16 +172,9 @@ type LogoUrls = { [team: string]: string };
         ))
       )}
         </tbody>
-      <thead>
-          <tr>
-            <th>Player</th>
-            <th>Alt Line (Rebs)</th>
-            <th>Hit rate</th>
-            </tr>
-        </thead>
         <tbody>
       {adjMatchDataA.length === 0 ? (
-    <tr>
+    <tr className={styles.matchupRow2}>
       <td colSpan={6}>No Rebound Alt Lines Today!</td>
     </tr>
       ) : (
@@ -205,16 +191,9 @@ type LogoUrls = { [team: string]: string };
         ))
       )}
         </tbody>
-        <thead>
-          <tr>
-            <th>Player</th>
-            <th>Alt Line (Asts)</th>
-            <th>Hit rate</th>
-            </tr>
-        </thead>
         <tbody>
         {adjMatchDataB.length === 0 ? (
-    <tr>
+    <tr className={styles.matchupRow2}>
       <td colSpan={6}>No Assist Alt Lines Today!</td>
     </tr>
       ) : (
