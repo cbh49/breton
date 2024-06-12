@@ -709,7 +709,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     box-sizing: border-box; /* Include padding in width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-    overflow: visible;
+    overflow: hidden;
   }
   .content {
     margin-left: 0px;
@@ -725,10 +725,10 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: 87%; /* Ensure it is 100% wide */
+    width: 90%; /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
-    margin-left: -430px;
+    margin-left: -440px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
@@ -760,16 +760,16 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .headerContainer h1 {
     margin-top: 150px;
-    margin-left: calc(-200%); /* Reset left margin */
-    width: 90%;
+    margin-left: calc(-202.5%); /* Reset left margin */
+    width: 95%;
     font-size: 2em;
     z-index: 2;
     padding: 20px;
   }
   .chartButton{
   top: 100px;
-  left: -450px;
-  width: 30px;
+  left: -470px;
+  width: 20px;
   font-size: .6em;
   }
 .table2 th{
@@ -933,7 +933,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     box-sizing: border-box; /* Include padding in width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-    overflow: visible;
+    overflow: hidden;
   }
   .content {
     margin-left: 0px;
@@ -949,10 +949,10 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: 87%; /* Ensure it is 100% wide */
+    width: 80%; /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
-    margin-left: -415px;
+    margin-left: -435px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
@@ -984,7 +984,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .headerContainer h1 {
     margin-top: 150px;
-    margin-left: calc(-170%); /* Reset left margin */
+    margin-left: calc(-185%); /* Reset left margin */
     width: 90%;
     font-size: 2em;
     z-index: 2;
@@ -992,8 +992,8 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .chartButton{
   top: 100px;
-  left: -420px;
-  width: 30px;
+  left: -475px;
+  width: 25px;
   font-size: .6em;
   }
 .table2 th{

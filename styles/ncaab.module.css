@@ -680,7 +680,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .navbar ul li {
     font-size: 2.5em;
-    padding: 10px 10px; /* Adjust padding for smaller buttons */
+    padding: 15px 12.5px; /* Adjust padding for smaller buttons */
   }
   .logo {
     margin-left: 20px;
@@ -912,7 +912,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .navbar ul li {
     font-size: 2.5em;
-    padding: 10px 10px; /* Adjust padding for smaller buttons */
+    padding: 15px 15px; /* Adjust padding for smaller buttons */
   }
   .logo {
     margin-left: 20px;
@@ -1137,7 +1137,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .navbar ul li {
     font-size: 2.5em;
-    padding: 10px 10px; /* Adjust padding for smaller buttons */
+    padding: 15px 15px; /* Adjust padding for smaller buttons */
   }
   .logo {
     margin-left: 20px;

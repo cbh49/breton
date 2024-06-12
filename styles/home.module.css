@@ -199,6 +199,7 @@
   gap: 10px; /* Spacing between buttons */
   width: 100%; /* Ensure buttons take full width for centering */
   margin-right: 400px;
+  
 }
 
 .stattable1{
@@ -258,6 +259,8 @@
   color: white;
   overflow: hidden;
   box-shadow: 0px 5px 5px rgba(0,0,0, .5);
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: .75em;
 }
 .span {
   background: #68b42b;
@@ -1164,7 +1167,7 @@
   }
   .navbar ul li {
     font-size: 0.85em;
-    padding: 12px 9px; /* Adjust padding for smaller buttons */
+    padding: 12px 8.5px; /* Adjust padding for smaller buttons */
   }
   .navbar ul li .dropdown{
     font-size: 1.75em;
@@ -1187,8 +1190,8 @@
   }
   .odds h4{
     padding-left: 20px;
-    font-size: .5em;
-    margin-left: 8px;
+    font-size: .3em;
+    margin-left: 10px;
   }
 
 

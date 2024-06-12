@@ -745,6 +745,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin-top: -5px;
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+    
   }
 
   .navlogo {
@@ -770,6 +771,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
+    margin-left: -25px;
   }
 
   .total {
@@ -994,6 +996,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
+    margin-left: -25px;
   }
 
   .total {
