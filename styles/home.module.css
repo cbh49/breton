@@ -144,8 +144,9 @@
 
 .odds h4 {
   color: #fff;
-  margin-left: 0px;
+  margin-left: 15px;
   font-size: .75em;
+  margin-top: 25px;
 }
 
 
@@ -499,7 +500,7 @@
   border: 1px solid white;
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
 }
-.sideNav h4 {
+.sideNav h3 {
   color: #fff;
   text-align: center;
   border: 5px solid white;
@@ -591,6 +592,7 @@
 }
 .leaguelogo{
   margin-left: 140px;
+  margin-top: 5px;
 }
 
 
@@ -825,7 +827,7 @@
 
   /* NAVBAR */
 .navbar{
-  height: 80px;
+  height: 40px;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
   background-size: 100%;
 }
@@ -839,8 +841,8 @@
     padding: 0;
   }
   .navbar ul li {
-    font-size: 0.65em;
-    padding: 11px 9.3px; /* Adjust padding for smaller buttons */
+    font-size: 0.75em;
+    padding: 11px 10.5px; /* Adjust padding for smaller buttons */
   }
   .navbar ul li .dropdown{
     font-size: 1.75em;
@@ -848,22 +850,23 @@
   .logo {
     margin-left: 25px;
     padding-right: calc(17.55px);
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
   .odds{
     margin-right: 0px;
   }
   .logor {
     display: fixed;
-    padding-left: calc(17.5px);
+    padding-left: calc(20px);
     margin-bottom: 25px;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
   }
   .odds h4{
-    padding-left: 20px;
-    font-size: .5em;
+    padding-left: calc(20px);
+    padding-right: calc(20px);
+    font-size: .1em;
     margin-left: 5px;
   }
 
@@ -872,7 +875,7 @@
 
   .banner {
     height: 85vh;
-    top: 210px;
+    top: 135px;
     width: 100%;
     order: 2; /* Main content */
     margin: 0; /* Remove margin */
@@ -971,39 +974,42 @@
 
 
   
-  .about {
-    display: block; /* Ensure it is not set to 'none' */
-    width: 100%;
-    height: 500px;
-    margin-top: 215px;
-    margin-left: 0px;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
-    background-size: 100%;
-    order: 2;
-  }
-  .about h2{
-    font-size: 2rem;
-    width: 90%;
-    margin-left: 15px;
-  }
-  .imageTextContainer {
-    padding: 25px;
-    height: 280px; /* example fixed height */
-    width: 55px; /* example fixed width */
-    gap: 0px;
-    border-radius: 5%;
-    margin-right: 2px;
-    margin-left: 2px;
-  }
-  .imageTextContainer p {
-    max-width: 250px; /* Set a max-width for the text */
-    width: 150%; /* Ensure the text can expand to the max-width */
-    padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
-    font-size: .7em;
-  }
+.about {
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 450px;
+  margin-top: 140px;
+  margin-left: 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
+  background-size: 100%;
+  order: 2;
+
+}
+.about h2{
+  font-size: 2rem;
+  width: 90%;
+  margin-left: 15px;
+}
+.imageContainer{
+  width: calc(90%);
+  margin-left: 5px;
+}
+.imageTextContainer {
+  padding: 25px;
+  height: 230px; /* example fixed height */
+  width: 60px;  /* example fixed width */
+  border-radius: 5%;
+  margin-left: 0px;
+}
+.imageTextContainer p {
+  max-width: 250px; /* Set a max-width for the text */
+  width: 150%; /* Ensure the text can expand to the max-width */
+  padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
+  font-size: .6em;
+}
 .aboutlogo{
-  height: 100px;
-  width: 100px;
+height: 70px;
+width: 70px;
 }
 
 
@@ -1045,52 +1051,55 @@
 
     /* SIDENAV */
 
-  .sideNav {
-    width: 100%;
-    height: 100px;
-    order: 1; /* Display below navbar */
-    flex-direction: row; /* Horizontal layout */
-    justify-content: space-around; /* Space items evenly */
-    overflow-x: scroll;
-    top: 105px;
-    background-size: 120%;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
-    z-index: 10;
+    .sideNav {
+      width: 100%;
+      height: 62px;
+      order: 1; /* Display below navbar */
+      flex-direction: row; /* Horizontal layout */
+      justify-content: space-around; /* Space items evenly */
+      overflow-x: scroll;
+      margin-top: -70px;
+      background-size: 120%;
+      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+      z-index: 10;
+      border-bottom: 2px solid #68b42b;
+    }
+    .navlogo {
+      height: 30px;
+      width: 30px;
+      align-items: row;
+      padding: 5px;
+    }
+    .sideNav h3 {
+      display: none;
+    }
+    .atSymbol {
+      flex: none; /* Prevents '@' from stretching */
+      padding: 0 2px;
+      font-size: 10px; /* Increases font size for visibility */
+    }
+    .table{
+      width: 25%;
+      margin-top: -92.5px; /* Moves table up and down */
+      overflow-x: hidden; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevents wrapping of items */
+      width: auto; /* Width auto to contain all children */
+    }
+    .total{
+      font-size: .6em;
+    }
+    .matchupRow {
+      margin: 5px 2px; /* Margin between each row */
+      display: inline-flex; /* Use flexbox to manage layout of cells */
+      padding: 3px; /* Padding inside each row */
+      height: 40px;
+      margin-top: -2px;
+    }
+    .leaguelogo {
+      display: none;
   }
-  .navlogo {
-    height: 35px;
-    width: 35px;
-    align-items: row;
-    padding: 5px;
-  }
-  .sideNav h4 {
-    display: none;
-  }
-  .atSymbol {
-    flex: none; /* Prevents '@' from stretching */
-    padding: 0 2px;
-    font-size: 10px; /* Increases font size for visibility */
-  }
-  .table{
-    width: 25%;
-    margin-top: -92.5px; /* Moves table up and down */
-    overflow-x: hidden; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevents wrapping of items */
-    width: auto; /* Width auto to contain all children */
-  }
-  .total{
-    font-size: .6em;
-  }
-  .matchupRow {
-    margin: 5px 2px; /* Margin between each row */
-    display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 10px; /* Padding inside each row */
-    height: 50px;
-  }
-  .leaguelogo {
-    display: none;
-}
-
+  
+  
 
 
 .secondSideNav {
@@ -1197,6 +1206,7 @@
   .navbar{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
     background-size: 120%;
+    height: 40px;
   }
   .navbar ul {
     display: flex;
@@ -1209,7 +1219,7 @@
   }
   .navbar ul li {
     font-size: 0.85em;
-    padding: 12px 8.5px; /* Adjust padding for smaller buttons */
+    padding: 12px 11px; /* Adjust padding for smaller buttons */
   }
   .navbar ul li .dropdown{
     font-size: 1.75em;
@@ -1217,8 +1227,8 @@
   .logo {
     margin-left: 27.5px;
     padding-right: calc(20px);
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
   }
   .odds{
     margin-right: 0px;
@@ -1226,14 +1236,16 @@
   .logor {
     display: fixed;
     padding-left: calc(20px);
+    padding-left: calc(20px);
     margin-bottom: 25px;
-    height: 55px;
-    width: 50px;
+    height: 45px;
+    width: 40px;
   }
   .odds h4{
-    padding-left: 20px;
-    font-size: .3em;
-    margin-left: 0px;
+    padding-left: calc(20px);
+    padding-left: calc(20px);
+    font-size: .1em;
+    margin-left: 5px;
   }
 
 
@@ -1241,7 +1253,7 @@
 
   .banner {
     height: 80vh;
-    top: 245px;
+    top: 135px;
     width: 100%;
     order: 2; /* Main content */
     margin: 0; /* Remove margin */
@@ -1340,37 +1352,42 @@
 
 
   
-  .about {
-    display: block; /* Ensure it is not set to 'none' */
-    width: 100%;
-    height: 500px;
-    margin-top: 250px;
-    margin-left: 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('/blank.png');
-    background-size: 30%;
-  }
-  .about h2{
-    font-size: 2rem;
-    width: 90%;
-    margin-left: 15px;
-  }
-  .imageTextContainer {
-    padding: 25px;
-    height: 300px; /* example fixed height */
-    width: 70px; /* example fixed width */
-    gap: 0px;
-    border-radius: 5%;
-    background-size: 5%;
-  }
-  .imageTextContainer p {
-    max-width: 250px; /* Set a max-width for the text */
-    width: 150%; /* Ensure the text can expand to the max-width */
-    padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
-    font-size: .8em;
-  }
+.about {
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 450px;
+  margin-top: 140px;
+  margin-left: 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
+  background-size: 100%;
+  order: 2;
+
+}
+.about h2{
+  font-size: 2rem;
+  width: 90%;
+  margin-left: 15px;
+}
+.imageContainer{
+  width: calc(95%);
+  margin-left: 9px;
+}
+.imageTextContainer {
+  padding: 25px;
+  height: 230px; /* example fixed height */
+  width: 67px;  /* example fixed width */
+  border-radius: 5%;
+  margin-left: 0px;
+}
+.imageTextContainer p {
+  max-width: 250px; /* Set a max-width for the text */
+  width: 150%; /* Ensure the text can expand to the max-width */
+  padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
+  font-size: .65em;
+}
 .aboutlogo{
-  height: 100px;
-  width: 100px;
+height: 70px;
+width: 70px;
 }
 
 
@@ -1399,7 +1416,7 @@
   margin-left: 40%;
 }
 .table3{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/blank.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/blank.png');
   background-size: 100%;
 }
 
@@ -1410,23 +1427,24 @@
 
   .sideNav {
     width: 100%;
-    height: 100px;
+    height: 60px;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
-    margin-top: -5px;
+    margin-top: -70px;
     background-size: 120%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
     z-index: 10;
+    border-bottom: 2px solid #68b42b;
   }
   .navlogo {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     align-items: row;
     padding: 5px;
   }
-  .sideNav h4 {
+  .sideNav h3 {
     display: none;
   }
   .atSymbol {
@@ -1447,8 +1465,9 @@
   .matchupRow {
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 10px; /* Padding inside each row */
-    height: 50px;
+    padding: 3px; /* Padding inside each row */
+    height: 40px;
+    margin-top: -2px;
   }
   .leaguelogo {
     display: none;
@@ -1521,4 +1540,3 @@
   }
 
 }
-
