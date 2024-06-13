@@ -12,16 +12,11 @@
     {
         "Team1": "Chicago White Sox",
         "Team2": "Seattle Mariners",
-        "Total": 7.5
+        "Total": 6.5
     },
     {
-        "Team1": "New York Yankees",
-        "Team2": "Kansas City Royals",
-        "Total": 10.5
-    },
-    {
-        "Team1": "Pittsburgh Pirates",
-        "Team2": "St. Louis Cardinals",
+        "Team1": "Oakland Athletics",
+        "Team2": "Minnesota Twins",
         "Total": 8
     },
     {
@@ -30,14 +25,9 @@
         "Total": 8.5
     },
     {
-        "Team1": "Cleveland Guardians",
-        "Team2": "Cincinnati Reds",
-        "Total": 8.5
-    },
-    {
         "Team1": "Miami Marlins",
         "Team2": "New York Mets",
-        "Total": 7.5
+        "Total": 8.5
     },
     {
         "Team1": "Chicago Cubs",
@@ -45,33 +35,23 @@
         "Total": 7.5
     },
     {
+        "Team1": "Pittsburgh Pirates",
+        "Team2": "St. Louis Cardinals",
+        "Total": 8.5
+    },
+    {
+        "Team1": "New York Yankees",
+        "Team2": "Kansas City Royals",
+        "Total": 10.5
+    },
+    {
         "Team1": "Washington Nationals",
         "Team2": "Detroit Tigers",
-        "Total": 7.5
+        "Total": 8.5
     },
     {
         "Team1": "Atlanta Braves",
         "Team2": "Baltimore Orioles",
         "Total": 9
-    },
-    {
-        "Team1": "Oakland Athletics",
-        "Team2": "San Diego Padres",
-        "Total": 8
-    },
-    {
-        "Team1": "Houston Astros",
-        "Team2": "San Francisco Giants",
-        "Total": 7.5
-    },
-    {
-        "Team1": "Toronto Blue Jays",
-        "Team2": "Milwaukee Brewers",
-        "Total": 9
-    },
-    {
-        "Team1": "Colorado Rockies",
-        "Team2": "Minnesota Twins",
-        "Total": 8
     }
 ]

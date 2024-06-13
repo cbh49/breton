@@ -1,10 +1,10 @@
 {
     "greater_than_2": {
-        "correct": 36,
-        "total": 58
+        "correct": 43,
+        "total": 72
     },
     "between_1_and_2": {
-        "correct": 39,
-        "total": 73
+        "correct": 58,
+        "total": 100
     }
 }
