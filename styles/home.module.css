@@ -1095,7 +1095,7 @@
 
 .secondSideNav {
   width: 92%;
-  height: 650px; /* Adjust the height as needed */
+  height: 700px; /* Adjust the height as needed */
   display: flex;
   flex-direction: row; /* Horizontal layout */
   justify-content: space-around; /* Space items evenly */
@@ -1464,7 +1464,7 @@
 
 .secondSideNav {
   width: 92%;
-  height: 650px; /* Adjust the height as needed */
+  height: 700px; /* Adjust the height as needed */
   display: flex;
   flex-direction: row; /* Horizontal layout */
   justify-content: space-around; /* Space items evenly */
