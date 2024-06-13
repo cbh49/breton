@@ -223,7 +223,7 @@ function getPercentageColor(tally: string) {
             )}
           </div>
         </div>
-          <div className={styles.results}>NRFI Hit Rates:<p> NRFIs: 139/222 (62%) <br /> YRFI: 40/71 (56%) </p></div>
+          <div className={styles.results}>NRFI Hit Rates:<p> NRFIs: 144/233 (62%) <br /> YRFI: 40/71 (56%) </p></div>
       <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
           <tr>
@@ -258,7 +258,7 @@ function getPercentageColor(tally: string) {
                   alt={`logo`}
                   width={60}
                   height={50}
-                  style={{ marginLeft: '30px', marginRight: '30px' }}
+                  style={{ marginLeft: '30px', marginRight: '30px', }}
                 />
               )}
               {item.Team2} <br /> <br /> P: {item.Team2Pitcher}
