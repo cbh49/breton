@@ -223,8 +223,8 @@ type LogoUrls = { [team: string]: string };
       </table>
         </div>
         <div className={styles.sideNav}>
-          <div className={styles.user}>
-            <Image src="/nba.png" alt="user-img" width={100} height={100} className={styles.leaguelogo} />
+          <div className={styles.leaguelogo}>
+          <Image src="/nba.png" alt="user-img" width={70} height={90} />
           </div>
           <h3>NBA GAMES TODAY</h3>
           <table className={styles.table} style={{ top: tableTopSpacing }}>
