@@ -878,6 +878,7 @@
     margin: 0; /* Remove margin */
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
     background-size: 100%;
+    order: 2;
   }
   .contentSection {
     width: 100%;
@@ -978,6 +979,7 @@
     margin-left: 0px;
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
     background-size: 100%;
+    order: 2;
   }
   .about h2{
     font-size: 2rem;
@@ -1014,12 +1016,13 @@
 
 
 .faqs {
+  order: 2;
   display: block; /* Ensure it is not set to 'none' */
   width: 100%;
   height: 500px;
   margin-top: 5px;
   margin-left: 0px;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
   background-size: 100%;
 }
 .faqs h3 {
@@ -1090,16 +1093,55 @@
 
 
 
+.secondSideNav {
+  width: 92%;
+  height: 650px; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: scroll;
+  background-size: 120%;
+  border-color:#68b42b;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
+  z-index: 10;
+  margin-bottom: 140px; /* Add some margin to separate from the faqs section */
+  margin-top: -135px;
+  position: relative; /* Ensure it is positioned in the document flow */
+  z-index: 1;
+}
+.table4{
+  width: 115%;
+  margin-left: -30px;
+  font-size: 1em;
+}
+.secondSideNav .nextButton{
+  display: block;
+  margin-top: 120px;
+}
+.secondSideNav .backButton{
+  display: block;
+  margin-top: 121px;
+}
 
-
-
-
-
-
-  .secondSideNav {
-    display: none;
-  }
-
+/* Additional styles for elements inside secondSideNav if needed */
+.ufclogo {
+  height: 1px;
+  width: 0px;
+  align-items: row;
+  padding: 5px;
+  margin-top: 5px;
+}
+.secondSideNav h3{
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 0px;
+}
+.headshot{
+  height: 100px;
+  width: 180px;
+  margin-top: -15px;
+  margin-right: 50px;
+}
   .bottomNav {
     width: 100%;
     order: 8; /* Display at the bottom */
@@ -1346,7 +1388,7 @@
   height: 500px;
   margin-top: 5px;
   margin-left: 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('/blank.png');
   background-size: 100%;
 }
 .faqs h3 {
@@ -1420,9 +1462,55 @@
 
 
 
-  .secondSideNav {
-    display: none;
-  }
+.secondSideNav {
+  width: 92%;
+  height: 650px; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: scroll;
+  background-size: 120%;
+  border-color:#68b42b;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
+  z-index: 10;
+  margin-bottom: 140px; /* Add some margin to separate from the faqs section */
+  margin-top: -135px;
+  position: relative; /* Ensure it is positioned in the document flow */
+  z-index: 1;
+}
+.table4{
+  width: 115%;
+  margin-left: -30px;
+  font-size: 1em;
+}
+.secondSideNav .nextButton{
+  display: block;
+  margin-top: 120px;
+}
+.secondSideNav .backButton{
+  display: block;
+  margin-top: 121px;
+}
+
+/* Additional styles for elements inside secondSideNav if needed */
+.ufclogo {
+  height: 1px;
+  width: 0px;
+  align-items: row;
+  padding: 5px;
+  margin-top: 5px;
+}
+.secondSideNav h3{
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 0px;
+}
+.headshot{
+  height: 100px;
+  width: 180px;
+  margin-top: -15px;
+  margin-right: 50px;
+}
 
   .bottomNav {
     width: 100%;
