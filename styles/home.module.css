@@ -1084,7 +1084,7 @@ width: 70px;
       overflow-x: hidden; /* Enable horizontal scrolling */
       white-space: nowrap; /* Prevents wrapping of items */
       width: auto; /* Width auto to contain all children */
-      margin-left: -50px;
+      margin-left: -55px;
     }
     .total{
       font-size: .6em;
@@ -1246,6 +1246,7 @@ width: 70px;
     padding-left: calc(20px);
     padding-left: calc(20px);
     font-size: 4px;
+    margin-left: 0px;
   }
 
 
@@ -1432,11 +1433,12 @@ width: 70px;
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
-    margin-top: -70px;
+    margin-top: -68px;
     background-size: 120%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
     z-index: 10;
     border-bottom: 2px solid #68b42b;
+    border-top: 2px solid #68b42b;
   }
   .navlogo {
     height: 30px;
@@ -1458,7 +1460,7 @@ width: 70px;
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
-    margin-left: -60px;
+    margin-left: -70px;
   }
   .total{
     font-size: .6em;
@@ -1467,7 +1469,7 @@ width: 70px;
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
     padding: 3px; /* Padding inside each row */
-    height: 40px;
+    height: 38px;
     margin-top: -2px;
   }
   .leaguelogo {
