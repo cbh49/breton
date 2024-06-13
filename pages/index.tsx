@@ -316,7 +316,7 @@ const Home = () => {
       </ul>
       <div className={styles.odds}>
       <h4>Odds via:</h4>
-      <Image src="/dkvert.png" alt="Logo" width={75} height={65} className={styles.logor}/>
+      <Image src="/dkvert.png" alt="Logo" width={85} height={75} className={styles.logor}/>
       </div>
     </div>
     
@@ -366,7 +366,7 @@ const Home = () => {
     <div className={styles.secondSideNav}>
       {rankings.length > 0 ? (
         <div>
-        <div className={styles.user}>
+        <div className={styles.ufclogo}>
         <Image src="/ufc.png" alt="user-img" width={125} height={40} />
       </div>
           <h3>STANDINGS</h3>
