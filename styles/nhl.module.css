@@ -860,8 +860,9 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow {
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 10px; /* Padding inside each row */
+    padding: 7.5px; /* Padding inside each row */
     height: 50px;
+    margin-top: 37.5px;
   }
 
   .leaguelogo {
@@ -1091,8 +1092,9 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow {
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 10px; /* Padding inside each row */
+    padding: 7.5px; /* Padding inside each row */
     height: 50px;
+    margin-top: 37.5px;
   }
 
   .leaguelogo {
