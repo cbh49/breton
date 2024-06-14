@@ -9,8 +9,8 @@
   position: fixed;
 }
 .banner{
-  left: 406px;
-  margin-top: 133px;
+  left: 402px;
+  margin-top: 130px;
   border-radius: 2%;
   height: 100vh; /* This will make sure your banner covers the full viewport height */
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
@@ -47,39 +47,32 @@
   z-index: 100;
   font-size: 1em;
 }
-
-.navbar p {
+.navbar p{
   color: black;
   font-size: .75em;
+  
 }
-
-.navbar ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin-right: 160px;
-}
-
-.navbar ul li {
+.navbar ul li{
   display: inline-block;
   position: relative;
   color: white;
-  font-size: 1.6em;
+  font-size: 1.5em;
   cursor: pointer;
+  padding-left: 60px;
+  padding-right: 60px;
   padding: 20px 70px;
   background: transparent;
   box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
   border: 3px solid white;
-  margin-left: 0px; /* Space between items */
+  right: 115px;
 } 
-
-.navbar ul li a {
+.navbar ul li a{
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+  
 }
-
-.navbar ul li::after {
+.navbar ul li::after{
   content: '';
   height: 3px;
   width: 0%;
@@ -88,15 +81,12 @@
   bottom: -5px;
   transition: 0.2s;
 }
-
-.navbar ul li:hover {
+.navbar ul li:hover{
   background-color: #68b42b;
 }
-
-.navbar ul li:hover::after {
+.navbar ul li:hover::after{
   width: 100%;
 }
-
 .navbar ul li .dropdown {
   display: none;
   position: absolute;
@@ -112,12 +102,10 @@
   z-index: 20;
   border-top: 1px solid white;
 }
-
 .navbar ul li:hover .dropdown {
   display: block;
   z-index: 100;
 }
-
 .navbar ul li .dropdown a {
   color: #0b0b0b;
   padding: 12px 16px;
@@ -127,41 +115,37 @@
   z-index: 20;
   cursor: pointer;
 }
-
 .navbar ul li .dropdown a:last-child {
   border-bottom: none; /* Removes border from the last link */
   z-index: 20;
   cursor: pointer;
 }
-
 .navbar ul li .dropdown a:hover {
   background-color: #68b42b;
   color: white;
   z-index: 20;
   cursor: pointer;
 }
-
-.logo {
+.logo{
   display: inline-block;
   cursor: pointer;
   margin-left: 50px;
   padding-right: 60px;
+  cursor: pointer;
 }
-
-.logor {
+.logor{
   display: inline-block;
   cursor: pointer;
   color: #fff;
-  margin-right: 20px;
+  margin-right: 0px;
   margin-bottom: 50px;
+  cursor: pointer;
+}
+.odds{
+  color: #fff;
+  margin-right: 20px;
 }
 
-.odds h4 {
-  color: #fff;
-  margin-left: 15px;
-  font-size: .75em;
-  margin-top: 25px;
-}
 
 
 /* MAIN CONTENT*/
@@ -351,7 +335,7 @@
   border-collapse: collapse; 
   border-spacing: 0;
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: -470px; /* Moves table up and down */
+  margin-top: -475px; /* Moves table up and down */
   
 }
 .table th, .table td {
@@ -438,7 +422,6 @@
 }
 .leaguelogo{
   margin-left: 140px;
-  margin-top: 5px;
 }
 
 
@@ -516,7 +499,7 @@ table.table2 tbody td {
   height: 80px;
   width: 130px;
   border-bottom: 3px solid black;
-  font-size: .85em;
+  font-size: .6em;
 }
 .value{
   margin-top: -20px;
