@@ -199,7 +199,7 @@ const MLB = () => {
         </ul>
         <div className={styles.odds}>
           <h4>Odds via:</h4>
-          <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor} />
+          <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor} />
         </div>
       </div>
       <div className={styles.content}>
@@ -372,9 +372,9 @@ const MLB = () => {
         </table>
       </div>
       <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
-        <div className={styles.user}>
-          <Image src="/mlb.webp" alt="user-img" width={110} height={60} className={styles.leaguelogo2} />
-        </div>
+      <div className={styles.leaguelogo}>
+        <Image src="/mlb.webp" alt="user-img" width={110} height={60} />
+      </div>
         <h3>MLB GAMES TODAY</h3>
         <table className={styles.table} style={{ top: tableTopSpacing }}>
           <thead>

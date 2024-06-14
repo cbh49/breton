@@ -138,7 +138,7 @@ type LogoUrls = { [team: string]: string };
       </ul>
       <div className={styles.odds}>
       <h4>Odds via:</h4>
-      <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor} />
+      <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor} />
       </div>
     </div>
           <div className={styles.content}>

@@ -316,7 +316,7 @@ const Home = () => {
       </ul>
       <div className={styles.odds}>
       <h4>Odds via:</h4>
-      <Image src="/dkvert.png" alt="Logo" width={85} height={75} className={styles.logor}/>
+      <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor}/>
       </div>
     </div>
     
@@ -326,7 +326,7 @@ const Home = () => {
       <div className={styles.leaguelogo}>
         <Image src="/mlb.webp" alt="user-img"  width={110} height={60} />
       </div>
-      <h4>MLB GAMES TODAY</h4>
+      <h3>MLB GAMES TODAY</h3>
       <table className={styles.table} style={{ top: tableTopSpacing }}>
         {/* Table content */}
         <thead>

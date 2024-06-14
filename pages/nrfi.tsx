@@ -34,12 +34,6 @@ type AdjMatchData = {
   PRA2: number;
 };
 
-type TallyData = {
-  "2+": string,
-  "1_to_2": string,
-  "-1_to_-2": string,
-  "-2-": string
-};
 
 const MLB = () => {
   const [adjMatchData, setAdjMatchData] = useState<AdjMatchData[]>([]);
@@ -58,12 +52,7 @@ const MLB = () => {
   const [isNbaDropdownVisible, setIsNbaDropdownVisible] = useState(false);
   const [isMLBDropdownVisible, setIsMLBDropdownVisible] = useState(false);
   const [IsChartDropdownVisible, setIsChartDropdownVisible] = useState(false);
-  const [tallies, setTallies] = useState<TallyData>({
-    "2+": "Loading...",
-    "1_to_2": "Loading...",
-    "-1_to_-2": "Loading...",
-    "-2-": "Loading..."
-  });
+
 
   useEffect(() => {
     // Fetch the logos and matchups
@@ -71,25 +60,17 @@ const MLB = () => {
       fetch('/mlblogos.json').then(res => res.json()),
       fetch('/mlbmatchups.json').then(res => res.json()),
       fetch('/sorted_NRFI.json').then(res => res.json()),
-      fetch('/cumulative_tallies.json').then(res => res.json()),
       fetch('/nrfiresults.json').then(res => res.json()) // Fetch the NRFI results
     ])
-    .then(([logosData, matchupsData, adjMatchOrderData, tallyData, nrfiResultsData]) => {
+    .then(([logosData, matchupsData, adjMatchOrderData, nrfiResultsData]) => {
       setLogos(logosData);
       setMatchups(matchupsData);
       setAdjMatchData(adjMatchOrderData);
-      setTallies(tallyData);
       setNrfiResults(nrfiResultsData); // Update the NRFI results state
     })
     .catch(error => {
       console.error('Error fetching data:', error);
       // If there's an error fetching tallies, you may want to set a default message or value
-      setTallies({
-        "2+": "Error",
-        "1_to_2": "Error",
-        "-1_to_-2": "Error",
-        "-2-": "Error"
-      });
     })
     .finally(() => {
       setIsLoading(false);
@@ -99,13 +80,13 @@ const MLB = () => {
   // Rotating Matchups
   const handleNextGames = () => {
     setCurrentMatchupIndex(prevIndex => {
-      const newIndex = prevIndex + 7;
+      const newIndex = prevIndex + 6;
       return newIndex >= matchups.length ? 0 : newIndex; // Resets to 0 if exceeds array length
     });
   };
 
   useEffect(() => {
-    const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 7);
+    const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 6);
     setDisplayMatchups(newDisplayMatchups);
   }, [currentMatchupIndex, matchups]);
 
@@ -196,7 +177,7 @@ const MLB = () => {
         </ul>
         <div className={styles.odds}>
           <h4>Odds via:</h4>
-          <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor} />
+          <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor} />
         </div>
       </div>
       <div className={styles.content}>
@@ -227,7 +208,7 @@ const MLB = () => {
           NRFI Hit Rates:
           {nrfiResults ? (
             <p>
-              NRFIs: {nrfiResults.NRFI.correct}/{nrfiResults.NRFI.total} ({((nrfiResults.NRFI.correct / nrfiResults.NRFI.total) * 100).toFixed(0)}%)<br />
+              NRFI: {nrfiResults.NRFI.correct}/{nrfiResults.NRFI.total} ({((nrfiResults.NRFI.correct / nrfiResults.NRFI.total) * 100).toFixed(0)}%)<br />
               YRFI: {nrfiResults.YRFI.correct}/{nrfiResults.YRFI.total} ({((nrfiResults.YRFI.correct / nrfiResults.YRFI.total) * 100).toFixed(0)}%)
             </p>
           ) : (
@@ -283,7 +264,7 @@ const MLB = () => {
                 backgroundColor: item.PRA1 > 0.75 ? 'red' : item.PRA1 < 0.34 ? 'green' : 'transparent',
               }}
             >
-              <p>Away Pitcher ERA 1st:</p>
+              <p>Away ERA 1st:</p>
               <div className={styles.value}>{toFixed(item.PRA1)}</div>
             </div>
           </td>
@@ -294,7 +275,7 @@ const MLB = () => {
                 backgroundColor: item.Team1PitcherWHIP > 1.5 ? 'red' : item.Team1PitcherWHIP < 1 ? 'green' : 'transparent',
               }}
             >
-              <p>Away Pitcher WHIP 1st:</p>
+              <p>Away WHIP 1st:</p>
               <div className={styles.value}>{toFixed(item.Team1PitcherWHIP)}</div>
             </div>
           </td>
@@ -305,7 +286,7 @@ const MLB = () => {
                 backgroundColor: item.Team1Runs > 1 ? 'red' : item.Team1Runs < 0.4 ? 'green' : 'transparent',
               }}
             >
-              <p>Away Team Runs 1st:</p>
+              <p>Away Tm Runs 1st:</p>
               <div className={styles.value}>{toFixed(item.Team1Runs)}</div>
             </div>
           </td>
@@ -327,7 +308,7 @@ const MLB = () => {
                 backgroundColor: item.Team2PitcherWHIP > 1.5 ? 'red' : item.Team2PitcherWHIP < 1 ? 'green' : 'transparent',
               }}
             >
-              <p>Home Pitcher WHIP 1st:</p>
+              <p>Home WHIP 1st:</p>
               <div className={styles.value}>{toFixed(item.Team2PitcherWHIP)}</div>
             </div>
           </td>
@@ -338,7 +319,7 @@ const MLB = () => {
                 backgroundColor: item.Team2Runs > 1 ? 'red' : item.Team2Runs < 0.4 ? 'green' : 'transparent',
               }}
             >
-              <p>Home Team Runs 1st:</p>
+              <p>Home Tm Runs 1st:</p>
               <div className={styles.value}>{toFixed(item.Team2Runs)}</div>
             </div>
           </td>
@@ -350,7 +331,7 @@ const MLB = () => {
                 color: item.Total > 1 || item.Total < -1 ? 'white' : '',
               }}
             >
-              <p>Projected 1st Runs:</p>
+              <p>Proj. 1st Runs:</p>
               <div className={styles.value}>{toFixed(item.Total)}</div>
             </div>
           </td>

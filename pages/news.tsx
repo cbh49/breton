@@ -67,12 +67,12 @@ const Home = () => {
     // Rotating Matchups
     const handleNextGames = () => {
       setCurrentMatchupIndex(prevIndex => {
-        const newIndex = prevIndex + 7;
+        const newIndex = prevIndex + 6;
         return newIndex >= matchups.length ? 0 : newIndex; // Resets to 0 if exceeds array length
       });
     };
     useEffect(() => {
-      const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 7);
+      const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 6);
       setDisplayMatchups(newDisplayMatchups);
     }, [currentMatchupIndex, matchups]);
     
@@ -139,7 +139,7 @@ const Home = () => {
       </ul>
       <div className={styles.odds}>
       <h4>Odds via:</h4>
-      <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor} />
+      <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor} />
       </div>
     </div>
         <div className={styles.content}>
@@ -149,8 +149,8 @@ const Home = () => {
         </div>
         <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
           {/* Side Navigation content */}
-          <div className={styles.user}>
-            <Image src="/mlb.webp" alt="user-img" width={125} height={80} className={styles.leaguelogo2} />
+          <div className={styles.leaguelogo}>
+            <Image src="/mlb.webp" alt="user-img" width={110} height={60} />
           </div>
           <h3>MLB GAMES TODAY</h3>
           <table className={styles.table} style={{ top: tableTopSpacing }}>
