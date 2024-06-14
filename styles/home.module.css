@@ -1084,7 +1084,6 @@ width: 70px;
       overflow-x: hidden; /* Enable horizontal scrolling */
       white-space: nowrap; /* Prevents wrapping of items */
       width: auto; /* Width auto to contain all children */
-      margin-left: -55px;
     }
     .total{
       font-size: .6em;
@@ -1460,7 +1459,6 @@ width: 70px;
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
-    margin-left: -70px;
   }
   .total{
     font-size: .6em;
