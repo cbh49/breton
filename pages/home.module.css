@@ -1,0 +1,1545 @@
+@font-face {
+  font-family: 'VTFRedzone-Classic';
+  src: url('../fonts/VTFRedzone-Classic.ttf') format('truetype');
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: fixed;
+}
+
+/* NAVBAR CONTENT */
+
+.navbar {
+  width: 100%;
+  top: 0;
+  right: 0;
+  height: 105px;
+  position: fixed;
+  margin: auto;
+  padding: 15px 15px 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: top 0.3s;
+  border-bottom: #68b42b 2px solid;
+  box-shadow: 0px 10px 20px rgba(0,0,0, .5);
+  background-color: #68b42b;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+  background-size: 120%;
+  z-index: 100;
+  font-size: 1em;
+}
+
+.navbar p {
+  color: black;
+  font-size: .75em;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 160px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  position: relative;
+  color: white;
+  font-size: 1.6em;
+  cursor: pointer;
+  padding: 20px 70px;
+  background: transparent;
+  box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
+  border: 3px solid white;
+  margin-left: 0px; /* Space between items */
+} 
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.2s;
+}
+
+.navbar ul li:hover {
+  background-color: #68b42b;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.navbar ul li .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  border-left: 4px solid #68b42b; /* Accent color */
+  box-shadow: none;
+  top: 100%; /* Aligns the dropdown right below the nav item */
+  left: 0;
+  border-radius: 4px;
+  font-size: 1em;
+  overflow: hidden; /* Keeps the child elements inside the rounded corners */
+  z-index: 20;
+  border-top: 1px solid white;
+}
+
+.navbar ul li:hover .dropdown {
+  display: block;
+  z-index: 100;
+}
+
+.navbar ul li .dropdown a {
+  color: #0b0b0b;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #e7e7e7; /* Separator */
+  z-index: 20;
+  cursor: pointer;
+}
+
+.navbar ul li .dropdown a:last-child {
+  border-bottom: none; /* Removes border from the last link */
+  z-index: 20;
+  cursor: pointer;
+}
+
+.navbar ul li .dropdown a:hover {
+  background-color: #68b42b;
+  color: white;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.logo {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 50px;
+  padding-right: 60px;
+}
+
+.logor {
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.odds h4 {
+  color: #fff;
+  margin-left: 15px;
+  font-size: .75em;
+  margin-top: 25px;
+}
+
+
+/* MAIN CONTENT */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 95vh;
+  top: 132px;
+  width: calc(100% - 780px); /* Subtracting 400px from each side */
+  border-radius: 2%;;
+  margin-left: 400px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #68b42b;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/pathex.avif');
+  background-size: 8%;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+}
+
+.dataSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dataSection h1 {
+  margin-bottom: 12px; /* Add spacing between h1 and buttons */
+  border-radius: 10%;
+  padding: 5px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  margin-right: 400px;
+  border: 1px solid #68b42b;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center buttons horizontally */
+  gap: 10px; /* Spacing between buttons */
+  width: 100%; /* Ensure buttons take full width for centering */
+  margin-right: 400px;
+  
+}
+
+.stattable1{
+  color: #000;
+  width: 70%;
+  text-align: center;
+  background-color: white;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 180px;
+  border-radius: 10px;
+  margin-top: -750px;
+  background-color:rgba(238, 236, 236, 0.941);
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  z-index: 10;
+}
+.statttable1 th, .stattable1 td {
+  border-radius: 20px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: 5px;
+  font-size: 1.5em;
+  color: black;
+  background-color: white;
+}
+.stattable1 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
+}
+.logostat {
+  width: 30px;
+  height: 30px;
+  padding-right: 25px;
+}
+.tableImage{
+  border-radius: 20px;
+  height: 230px;
+  width: 375px;
+  margin-bottom: -15px;
+}
+.button {
+  position: relative;
+  width: 300px;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #68b42b;
+  background: transparent;
+  cursor: pointer;
+  color: white;
+  overflow: hidden;
+  box-shadow: 0px 5px 5px rgba(0,0,0, .5);
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: .75em;
+}
+.span {
+  background: #68b42b;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.button:hover .span {
+  width: 100%;
+  background-color: #68b42b;
+}
+
+.contentSection {
+  width: 30%;
+  padding: 20px;
+}
+.banimg{
+  margin-right: 400px;
+  margin-top: 10px;
+  z-index: 0;
+  border-radius: 30px;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  margin-bottom: 0px;
+
+}
+
+
+/* ABOUT BANNER CONTENT*/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 60vh;
+  border-radius: 2%;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url('/pathex.avif');
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: 1px solid #68b42b;
+  border-top: 1px solid #68b42b;
+  margin-top: 134px;
+  background-size: 8%;
+  width: calc(100% - 780px); /* Subtracting 400px from each side */
+  border-radius: 2%;;
+  margin-left: 400px;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+}
+.about h2{
+  font-size: 3rem; /* Larger font size for headers */
+  color: #fff;
+  text-align: center;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/pathex.avif');
+  border-radius: 10px;
+  padding: 5px;
+}
+.about p{
+  color: white;
+  font-size: .8rem;
+  line-height: 1.5; /* Spacing between lines for better readability */
+  text-align: center;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: white;
+  font-size: 1em;
+}
+.about .imageContainer {
+  display: flex;
+  justify-content: space-between; /* This keeps the images spaced out evenly */
+  align-items: center;
+  gap: 15px;
+  background-color: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)), url('/pathex.avif');
+}
+
+.imageTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  height: 280px; /* example fixed height */
+  width: 230px; /* example fixed width */
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  gap: 10px;
+  background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/pathex.avif');
+}
+.imageTextContainer p {
+  max-width: 250px; /* Set a max-width for the text */
+  width: 100%; /* Ensure the text can expand to the max-width */
+  padding: 0 20px; /* Optional: Add padding to control text from hitting the edges */
+}
+.imageTextContainer:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5); /* Glowing effect */
+}
+
+/* FAQ BANNER CONTENT*/
+
+.faqs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: 1px solid #68b42b;
+  border-top: 1px solid #68b42b;
+  box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
+  background-size: 8%;
+  width: calc(100% - 780px); /* Subtracting 400px from each side */
+  border-radius: 2%;;
+  margin-left: 400px;
+  margin-top: 1px;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30); 
+}
+.faqs h3 {
+  font-size: 1.5rem; /* Larger font size for headers */
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 8px rgba(0,0,0, 1);
+  padding: 3px;
+}
+.faqs h2:after{
+  content:' ';
+  display:block;
+  border: 5px solid #68b42b;
+}
+.faqs p {
+  color: black;
+  line-height: 1.5; /* Spacing between lines for better readability */
+  text-align: center;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: white;
+  
+}
+.table3 {
+  margin: auto; /* Center the table */
+  position: relative;
+  border-collapse: separate; /* Allows separate border-radius */
+  border-spacing: 0; /* Ensures no spacing between borders */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/pathex.avif');
+  background-size: 3%;
+  color: white;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-top: 0; /* Dynamically set in your component */
+  z-index: 1;
+  height: 300px;
+  width: 60%;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 1);
+  border-radius: 15px;
+}
+
+/* Table header styles */
+.table3 thead th {
+  font-size: 1.5em; /* Double the size, you may adjust as necessary */
+  border-bottom: 5px solid #68b42b; /* Add bottom border to header */
+  text-align: center;
+  color: #fff;
+  box-shadow: 0px 1px 1px rgba(0,0,0, .5);
+  padding: 10px; /* Add padding for better spacing */
+}
+
+/* Apply border-radius to specific header corners */
+.table3 thead th:first-child {
+  border-top-left-radius: 15px;
+}
+
+.table3 thead th:last-child {
+  border-top-right-radius: 15px;
+}
+
+/* Table body styles */
+.table3 tbody td {
+  font-size: 1.5em; /* Half the size of the header, adjust as necessary */
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #68b42b;
+}
+
+/* Apply border-radius to specific body corners */
+.table3 tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+.table3 tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+/* Table span styles */
+.table3 span {
+  text-align: center;
+  overflow: hidden;
+  gap: 2px;
+  padding: 5px;
+  border-right: 2px solid #68b42b;
+  border-bottom: 2px solid #68b42b;
+}
+
+
+
+
+
+
+/* SIDENAV CONTENT */
+
+
+.sideNav{
+  height: calc(100vh - 100px);
+  top: 140px;
+  position: fixed; /* Fixed position to keep it in place */
+  width: 400px;
+  left: 0;
+  background: linear-gradient(#68b42b, #ddd);
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden; 
+  z-index: 30; /* Ensure it's above other content */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('/pathex.avif');
+  background-size: 10%;
+  border-radius: 2%;
+  border: 1px solid white;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+}
+.sideNav h3 {
+  color: #fff;
+  text-align: center;
+  border: 5px solid white;
+  display: block;
+  padding: 0px 10px;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+  width: 95%;
+  box-shadow: 0 1.5px 1.5px rgba(255, 255, 255, .7);
+  margin-left: 10px; /* Pushes the h3 to the right */
+}
+.table{
+  color: #000;
+  left: 10px;
+  width: 95%;
+  position: relative;
+  right: 10px;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0;
+  background-color: transparent;
+  border-collapse: collapse; 
+  border-spacing: 0;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -125px; /* Moves table up and down */
+  
+}
+.table th, .table td {
+  border-radius: 30px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px rgba(0,0,0, 1);
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table tr{
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
+}
+.table th {
+  background-color: transparent;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.atSymbol {
+  flex: none; /* Prevents '@' from stretching */
+  padding: 0 20px;
+  font-size: 20px; /* Increases font size for visibility */
+}
+.total {
+  font-size: 0.75rem;
+  box-shadow: 0 1px 2px rgba(0,0,0, 1);
+  padding: 3px;
+  border-radius: 10px;
+  color: black;
+}
+.matchupRow {
+  background-color: transparent; /* White background for the whole row */
+  border-radius: 10px; /* Rounded corners for the box */
+  box-shadow: 0 4px 8px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  margin: 20px 0; /* Margin between each row */
+  display: flex; /* Use flexbox to manage layout of cells */
+  justify-content: space-around; /* Distribute space around cells */
+  align-items: center; /* Align items vertically in the center */
+  padding: 10px; /* Padding inside each row */
+}
+
+.sideNav .nextButton {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 5%; /* Adjust to center vertically relative to the parent */
+  left: 90%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Perfect center alignment */
+  background-color: transparent; /* Transparent background */
+  border: 1px solid white; /* Visible border with a light blue color */
+  color: #fff; /* White text color */
+  padding: 5px 5px; /* Padding for better touch area and visibility */
+  border-radius: 30px;
+  cursor: pointer; /* Cursor indicates clickable item */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Shadow for depth */
+  z-index: 10;
+}
+.sideNav:hover .nextButton {
+  display: block; /* Show when sideNav is hovered */
+}
+.sideNav .nextButton:hover {
+  border-color: #68b42b; /* Change border color to white on hover */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
+}
+.leaguelogo{
+  margin-left: 140px;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+/* SECOND SIDENAV */
+
+
+.secondSideNav {
+  width: 350px;
+  height: calc(100vh - 100px);
+  position: fixed;
+  top: 140px;
+  right: 0px;
+  padding: 0px 15px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('/pathex.avif');
+  background-size: 10%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2%;
+  border: white 1px solid;
+  overflow-y: auto; /* Change to auto to allow scrolling */
+  z-index: 2;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+}
+.secondSideNav h3 {
+  color: #fff;
+  text-align: center;
+  border: 5px solid white;
+  display: block; 
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 1.5px 1.5px rgba(255, 255, 255, .7); /* Shadow for 3D effect */
+}
+.secondSideNav h4 {
+  color: #fff;
+  text-align: center;
+  border: 5px solid white;
+  display: block; 
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 1.5px 1.5px rgba(255, 255, 255, .7); /* Shadow for 3D effect */
+}
+.secondSideNav .user{
+  padding-right: 20px;
+}
+.table4{
+  color: #000;
+  left: 10px;
+  top: 100px;
+  width: 95%;
+  position: relative;
+  right: 10px;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10;
+  background-color: transparent;
+  border-collapse: collapse; 
+  border-spacing: 10;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -125px; /* Moves table up and down */
+  border-collapse: separate; /* This must be separate to use border-spacing */
+  border-spacing: 0 5px; /* Horizontal and vertical spacing */
+}
+.table4 th, .table4 td {
+  padding: 10px; /* Add padding to each table cell */
+  border-radius: 30px;
+  color: #000;
+  text-align: center;
+  border-color: rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px rgba(0,0,0, 1);
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table4 tr {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
+  margin-bottom: 10px; /* Add space between rows */
+}
+.table4 th {
+  background-color: transparent;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0px;
+}
+.total {
+  font-size: 0.75rem;
+  border-radius: 10px;
+  color: black;
+}
+.user{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto
+}
+.user h2{
+  font-size: 15px;
+  white-space: nowrap;
+}
+.user-img{
+  width: 100px;
+  border-radius: 100%;
+  margin: auto;
+  cursor: pointer;
+  
+}
+.secondSideNav .nextButton {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 4%; /* Adjust to center vertically relative to the parent */
+  left: 90%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Perfect center alignment */
+  background-color: transparent; /* Transparent background */
+  border: 1px solid #fff; /* Visible border with a light blue color */
+  color: #fff; /* White text color */
+  padding: 5px 10px; /* Padding for better touch area and visibility */
+  border-radius: 50px;
+  cursor: pointer; /* Cursor indicates clickable item */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Shadow for depth */
+  z-index: 10;
+}
+.secondSideNav:hover .nextButton {
+  display: block; /* Show when sideNav is hovered */
+}
+.secondSideNav .nextButton:hover {
+  border-color: #68b42b; /* Change border color to white on hover */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
+}
+.secondSideNav .backButton {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 4%; /* Adjust to center vertically relative to the parent */
+  left: 10%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Perfect center alignment */
+  background-color: transparent; /* Transparent background */
+  border: 1px solid white; /* Visible border with a light blue color */
+  color: #fff; /* White text color */
+  padding: 5px 10px; /* Padding for better touch area and visibility */
+  border-radius: 50px;
+  cursor: pointer; /* Cursor indicates clickable item */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Shadow for depth */
+  z-index: 10;
+}
+.secondSideNav:hover .backButton {
+  display: block; /* Show when sideNav is hovered */
+}
+.secondSideNav .backButton:hover {
+  border-color: #68b42b; /* Change border color to white on hover */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
+}
+.headshot {
+  margin-left: 52px;
+}
+
+
+
+
+
+
+/* BOTTOM NAV */
+
+
+.bottomNav {
+  position: relative; /* Absolute positioning relative to the nearest positioned ancestor (page-container) */
+  left: 0;            /* Align to the left edge of the container */
+  right: 0;           /* Align to the right edge of the container */
+  bottom: 0;          /* Align to the bottom of the container */
+  height: 50px;       /* Height of the bar */
+  top: 10px;
+  background-color: white;
+  color: white;       /* Text color */
+  text-align: center; /* Center the text */
+  padding: 10px 0;    /* Padding for some space inside the bar */
+  flex-direction: row;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.8)), url('/pathex.avif');
+  background-size: 5%;
+  z-index: 1;
+  border-bottom: 10px solid rgba(0,0,0,.8); 
+}
+.bottomnavlogo{
+  align-items: center;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ADJUSTED SCREEN SIZE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) {
+ 
+  .container {
+    display: flex;
+    flex-direction: column; /* Switch to column layout */
+    align-items: center; /* Center align items */
+  }
+
+  /* NAVBAR */
+.navbar{
+  height: 40px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+  background-size: 100%;
+}
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
+  }
+  .navbar ul li {
+    font-size: 0.75em;
+    padding: 11px 10.5px; /* Adjust padding for smaller buttons */
+  }
+  .navbar ul li .dropdown{
+    font-size: 1.75em;
+  }
+  .logo {
+    margin-left: 25px;
+    padding-right: calc(17.55px);
+    width: 40px;
+    height: 40px;
+  }
+  .odds{
+    margin-right: 0px;
+  }
+  .logor {
+    display: fixed;
+    padding-left: calc(20px);
+    margin-bottom: 30px;
+    height: 40px;
+    width: 40px;
+  }
+  .odds h4{
+    padding-left: calc(20px);
+    padding-right: calc(20px);
+    font-size: 3px;
+    margin-left: 12px;
+  }
+
+
+    /* MAIN */
+
+  .banner {
+    height: 85vh;
+    top: 135px;
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
+    background-size: 100%;
+    order: 2;
+  }
+  .contentSection {
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+  }
+
+  .dataSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .dataSection h1 {
+    margin-bottom: 12px; /* Add spacing between h1 and buttons */
+    border-radius: 10%;
+    padding: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-right: 200px;
+    width: 100px;
+    border: 1px solid #68b42b;
+  }
+
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center buttons horizontally */
+    gap: 10px; /* Spacing between buttons */
+    width: 100%; /* Ensure buttons take full width for centering */
+    margin-right: 350px;
+  }
+  
+  .stattable1{
+    width: 0%;
+    margin-left: 180px;
+    margin-top: -525px;
+  }
+  .statttable1 th, .stattable1 td {
+    padding-top: 5px;
+    font-size: 1em;
+  }
+  .stattable1 h3{
+    padding: 1px;
+  }
+  .logostat {
+    width: 15px;
+    height: 15px;
+    padding-right: 20px;
+  }
+  .tableImage{
+    border-radius: 20px;
+    height: 120px;
+    width: 160px;
+    margin-bottom: -15px;
+  }
+  .button {
+    width: 100px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    margin-left: 150px;
+  }
+  .banimg{
+    margin-right: 200px;
+    margin-top: 10px;
+    z-index: 0;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+    margin-bottom: 0px;
+    width: 150px;
+    height: 125px;
+  }
+  .table3 span{
+    border: none;
+    width: 40px;
+    height: 50px;
+  }
+
+
+
+/* ABOUT */
+
+
+  
+.about {
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 450px;
+  margin-top: 140px;
+  margin-left: 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
+  background-size: 100%;
+  order: 2;
+
+}
+.about h2{
+  font-size: 2rem;
+  width: 90%;
+  margin-left: 15px;
+}
+.imageContainer{
+  width: calc(90%);
+  margin-left: 5px;
+}
+.imageTextContainer {
+  padding: 25px;
+  height: 230px; /* example fixed height */
+  width: 60px;  /* example fixed width */
+  border-radius: 5%;
+  margin-left: 0px;
+}
+.imageTextContainer p {
+  max-width: 250px; /* Set a max-width for the text */
+  width: 150%; /* Ensure the text can expand to the max-width */
+  padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
+  font-size: .6em;
+}
+.aboutlogo{
+height: 70px;
+width: 70px;
+}
+
+
+
+
+
+
+
+/* FAQS */
+
+
+.faqs {
+  order: 2;
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 500px;
+  margin-top: 5px;
+  margin-left: 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
+  background-size: 100%;
+}
+.faqs h3 {
+  width: 90%;
+  margin-left: 17px;
+}
+.faqlogo{
+  margin-left: 40%;
+}
+.table3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/blank.png');
+  background-size: 100%;
+}
+
+
+
+
+
+
+
+    /* SIDENAV */
+
+    .sideNav {
+      width: 100%;
+      height: 65px;
+      order: 1; /* Display below navbar */
+      flex-direction: row; /* Horizontal layout */
+      justify-content: space-around; /* Space items evenly */
+      overflow-x: scroll;
+      margin-top: -70px;
+      background-size: 120%;
+      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+      z-index: 10;
+      border-bottom: 2px solid #68b42b;
+    }
+    .navlogo {
+      height: 30px;
+      width: 30px;
+      align-items: row;
+      padding: 5px;
+    }
+    .sideNav h3 {
+      display: none;
+    }
+    .atSymbol {
+      flex: none; /* Prevents '@' from stretching */
+      padding: 0 2px;
+      font-size: 10px; /* Increases font size for visibility */
+    }
+    .table{
+      width: 25%;
+      margin-top: -92.5px; /* Moves table up and down */
+      overflow-x: hidden; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevents wrapping of items */
+      width: auto; /* Width auto to contain all children */
+      margin-left: -55px;
+    }
+    .total{
+      font-size: .6em;
+    }
+    .matchupRow {
+      margin: 5px 2px; /* Margin between each row */
+      display: inline-flex; /* Use flexbox to manage layout of cells */
+      padding: 3px; /* Padding inside each row */
+      height: 40px;
+      margin-top: 0px;
+    }
+    .leaguelogo {
+      display: none;
+  }
+  
+  
+
+
+.secondSideNav {
+  width: 92%;
+  height: 700px; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: scroll;
+  background-size: 120%;
+  border-color:#68b42b;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
+  z-index: 10;
+  margin-bottom: 140px; /* Add some margin to separate from the faqs section */
+  margin-top: -135px;
+  position: relative; /* Ensure it is positioned in the document flow */
+  z-index: 1;
+}
+.table4{
+  width: 115%;
+  margin-left: -30px;
+  font-size: 1em;
+}
+.secondSideNav .nextButton{
+  display: block;
+  margin-top: 120px;
+}
+.secondSideNav .backButton{
+  display: block;
+  margin-top: 121px;
+}
+
+/* Additional styles for elements inside secondSideNav if needed */
+.ufclogo {
+  height: 1px;
+  width: 0px;
+  align-items: row;
+  padding: 5px;
+  margin-top: 5px;
+}
+.secondSideNav h3{
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 0px;
+}
+.headshot{
+  height: 100px;
+  width: 180px;
+  margin-top: -15px;
+  margin-right: 50px;
+}
+  .bottomNav {
+    width: 100%;
+    order: 8; /* Display at the bottom */
+    flex-direction: row;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 600PX */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) and (max-width: 600px)  {
+ 
+  .container {
+    display: flex;
+    flex-direction: column; /* Switch to column layout */
+    align-items: center; /* Center align items */
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  /* NAVBAR */
+
+  .navbar{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+    background-size: 120%;
+    height: 40px;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
+  }
+  .navbar ul li {
+    font-size: 0.85em;
+    padding: 12px 11px; /* Adjust padding for smaller buttons */
+  }
+  .navbar ul li .dropdown{
+    font-size: 1.75em;
+  }
+  .logo {
+    margin-left: 27.5px;
+    padding-right: calc(20px);
+    width: 45px;
+    height: 45px;
+  }
+  .odds{
+    margin-right: 0px;
+  }
+  .logor {
+    display: fixed;
+    padding-left: calc(20px);
+    padding-left: calc(20px);
+    margin-bottom: 32.5px;
+    height: 45px;
+    width: 40px;
+  }
+  .odds h4{
+    padding-left: calc(20px);
+    padding-left: calc(20px);
+    font-size: 4px;
+    margin-left: 10px;
+  }
+
+
+    /* MAIN */
+
+  .banner {
+    height: 80vh;
+    top: 135px;
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
+    background-size: 120%;
+  }
+  .contentSection {
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+    
+  }
+
+  .dataSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .dataSection h1 {
+    margin-bottom: 12px; /* Add spacing between h1 and buttons */
+    border-radius: 10%;
+    padding: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-right: 200px;
+    width: 100px;
+    border: 1px solid #68b42b;
+  }
+
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center buttons horizontally */
+    gap: 10px; /* Spacing between buttons */
+    width: 100%; /* Ensure buttons take full width for centering */
+    margin-right: 350px;
+  }
+  
+  .stattable1{
+    width: 45%;
+    margin-left: 190px;
+    margin-top: -500px;
+  }
+  .statttable1 th, .stattable1 td {
+    padding-top: 5px;
+    font-size: 1em;
+  }
+  .stattable1 h3{
+    padding: 2px;
+  }
+  .logostat {
+    width: 15px;
+    height: 15px;
+    padding-right: 20px;
+  }
+  .tableImage{
+    border-radius: 20px;
+    height: 120px;
+    width: 180px;
+    margin-bottom: -15px;
+  }
+  .button {
+    width: 100px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    margin-left: 150px;
+  }
+  .banimg{
+    margin-right: 200px;
+    margin-top: 10px;
+    z-index: 0;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+    margin-bottom: 0px;
+    width: 150px;
+    height: 125px;
+  }
+  .table3 span{
+    border: none;
+    width: 40px;
+    height: 50px;
+  }
+
+
+
+/* ABOUT */
+
+
+  
+.about {
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 450px;
+  margin-top: 140px;
+  margin-left: 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
+  background-size: 100%;
+  order: 2;
+
+}
+.about h2{
+  font-size: 2rem;
+  width: 90%;
+  margin-left: 15px;
+}
+.imageContainer{
+  width: calc(95%);
+  margin-left: 9px;
+}
+.imageTextContainer {
+  padding: 25px;
+  height: 230px; /* example fixed height */
+  width: 67px;  /* example fixed width */
+  border-radius: 5%;
+  margin-left: 0px;
+}
+.imageTextContainer p {
+  max-width: 250px; /* Set a max-width for the text */
+  width: 150%; /* Ensure the text can expand to the max-width */
+  padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
+  font-size: .65em;
+}
+.aboutlogo{
+height: 70px;
+width: 70px;
+}
+
+
+
+
+
+
+
+/* FAQS */
+
+
+.faqs {
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 500px;
+  margin-top: 5px;
+  margin-left: 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('/blank.png');
+  background-size: 100%;
+}
+.faqs h3 {
+  width: 90%;
+  margin-left: 17px;
+}
+.faqlogo{
+  margin-left: 40%;
+}
+.table3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('/blank.png');
+  background-size: 100%;
+}
+
+
+
+
+    /* SIDENAV */
+
+  .sideNav {
+    width: 100%;
+    height: 60px;
+    order: 1; /* Display below navbar */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    overflow-x: scroll;
+    margin-top: -68px;
+    background-size: 120%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+    z-index: 10;
+    border-bottom: 2px solid #68b42b;
+    border-top: 2px solid #68b42b;
+  }
+  .navlogo {
+    height: 30px;
+    width: 30px;
+    align-items: row;
+    padding: 5px;
+  }
+  .sideNav h3 {
+    display: none;
+  }
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
+  }
+  .table{
+    width: 25%;
+    margin-top: -92.5px; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
+    margin-left: -70px;
+  }
+  .total{
+    font-size: .6em;
+  }
+  .matchupRow {
+    margin: 5px 2px; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    padding: 3px; /* Padding inside each row */
+    height: 38px;
+    margin-top: -2px;
+  }
+  .leaguelogo {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+.secondSideNav {
+  width: 92%;
+  height: 700px; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: scroll;
+  background-size: 120%;
+  border-color:#68b42b;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
+  z-index: 10;
+  margin-bottom: 140px; /* Add some margin to separate from the faqs section */
+  margin-top: -135px;
+  position: relative; /* Ensure it is positioned in the document flow */
+  z-index: 1;
+}
+.table4{
+  width: 115%;
+  margin-left: -30px;
+  font-size: 1em;
+}
+.secondSideNav .nextButton{
+  display: block;
+  margin-top: 120px;
+}
+.secondSideNav .backButton{
+  display: block;
+  margin-top: 121px;
+}
+
+/* Additional styles for elements inside secondSideNav if needed */
+.ufclogo {
+  height: 1px;
+  width: 0px;
+  align-items: row;
+  padding: 5px;
+  margin-top: 5px;
+}
+.secondSideNav h3{
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 0px;
+}
+.headshot{
+  height: 100px;
+  width: 180px;
+  margin-top: -15px;
+  margin-right: 50px;
+}
+
+  .bottomNav {
+    width: 100%;
+    order: 8; /* Display at the bottom */
+    flex-direction: row;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
+  }
+
+}
