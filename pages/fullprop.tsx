@@ -129,7 +129,7 @@ const Fullprop = () => {
         </ul>
         <div className={styles.odds}>
           <h4>Odds via:</h4>
-          <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor} />
+          <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor} />
         </div>
       </div>
       <div className={styles.content}>
@@ -154,7 +154,7 @@ const Fullprop = () => {
         <table className={styles.table2}>
           <tbody>
             {ptsData.length === 0 ? (
-              <tr>
+              <tr className={styles.matchupRow2}>
                 <td colSpan={3}>No Best Point Lines Today!</td>
               </tr>
             ) : (
@@ -189,7 +189,7 @@ const Fullprop = () => {
           </tbody>
           <tbody>
             {rebsData.length === 0 ? (
-              <tr>
+              <tr className={styles.matchupRow2}>
                 <td colSpan={3}>No Best Rebound Lines Today!</td>
               </tr>
             ) : (
@@ -261,7 +261,7 @@ const Fullprop = () => {
         </div>
       <div className={styles.sideNav}>
         <div className={styles.leaguelogo}>
-          <Image src="/nba.png" alt="user-img" width={100} height={100} />
+        <Image src="/nba.png" alt="user-img" width={60} height={90} />
         </div>
         <h3>NBA GAMES TODAY</h3>
         <table className={styles.table} style={{ top: tableTopSpacing }}>

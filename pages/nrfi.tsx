@@ -1,9 +1,8 @@
-// pages/mlb.tsx
-import styles from '../styles/nrfi.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
+import { useEffect, useState, useRef } from 'react';
+import styles from '../styles/nrfi.module.css'; 
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useState, useRef } from 'react';
 import React, { Fragment } from 'react';
 
 type LogoUrls = { [team: string]: string };
@@ -19,130 +18,112 @@ type Matchup = {
 };
 
 type AdjMatchData = {
-    id: number;
-    team1Logo: string;
-    Team1: string;
-    team2Logo: string;
-    Team2: string;
-    Team1Pitcher: string;
-    Team1PitcherWHIP: number;
-    Team1Runs: number;
-    Team2Pitcher: string;
-    Team2PitcherWHIP: number;
-    Team2Runs: number;
-    Total: number;
-    PRA1: number;
-    PRA2: number;
+  id: number;
+  team1Logo: string;
+  Team1: string;
+  team2Logo: string;
+  Team2: string;
+  Team1Pitcher: string;
+  Team1PitcherWHIP: number;
+  Team1Runs: number;
+  Team2Pitcher: string;
+  Team2PitcherWHIP: number;
+  Team2Runs: number;
+  Total: number;
+  PRA1: number;
+  PRA2: number;
 };
 
-type TallyData = {
-    "2+": string,
-    "1_to_2": string,
-    "-1_to_-2": string,
-    "-2-": string
-};
 
 const MLB = () => {
-    const [adjMatchData, setAdjMatchData] = useState<AdjMatchData[]>([]);
-    // State for the logos and matchups for the sideNav
-    const [logos, setLogos] = useState<LogoUrls>({});
-    const [isSubscribed, setIsSubscribed] = useState(true);
-    const [matchups, setMatchups] = useState<Matchup[]>([]);
-    const [currentMatchupIndex, setCurrentMatchupIndex] = useState(0);
-    const [displayMatchups, setDisplayMatchups] = useState<Matchup[]>([]);
-    const [isLoading, setIsLoading] = useState(true);
-    const numGames = matchups.length;
-    const [isVisible, setIsVisible] = useState(false);
-    const tableTopSpacing = `${450}px`;
-    const [tableMarginTop, setTableMarginTop] = useState(0);
-    const contentRef = useRef<HTMLParagraphElement>(null);
-    const [isNbaDropdownVisible, setIsNbaDropdownVisible] = useState(false);
-    const [isMLBDropdownVisible, setIsMLBDropdownVisible] = useState(false);
-    const [IsChartDropdownVisible, setIsChartDropdownVisible] = useState(false);
-    const [tallies, setTallies] = useState<TallyData>({
-        "2+": "Loading...",
-        "1_to_2": "Loading...",
-        "-1_to_-2": "Loading...",
-        "-2-": "Loading..."
-    });
+  const [adjMatchData, setAdjMatchData] = useState<AdjMatchData[]>([]);
+  const [logos, setLogos] = useState<LogoUrls>({});
+  const [isSubscribed, setIsSubscribed] = useState(true);
+  const [matchups, setMatchups] = useState<Matchup[]>([]);
+  const [currentMatchupIndex, setCurrentMatchupIndex] = useState(0);
+  const [displayMatchups, setDisplayMatchups] = useState<Matchup[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [nrfiResults, setNrfiResults] = useState<{ NRFI: { correct: number, total: number }, YRFI: { correct: number, total: number } } | null>(null);
+  const numGames = matchups.length;
+  const [isVisible, setIsVisible] = useState(false);
+  const tableTopSpacing = `${450}px`;
+  const [tableMarginTop, setTableMarginTop] = useState(0);
+  const contentRef = useRef<HTMLParagraphElement>(null);
+  const [isNbaDropdownVisible, setIsNbaDropdownVisible] = useState(false);
+  const [isMLBDropdownVisible, setIsMLBDropdownVisible] = useState(false);
+  const [IsChartDropdownVisible, setIsChartDropdownVisible] = useState(false);
+
+
   useEffect(() => {
-// Fetch the logos and matchups
-Promise.all([
-    fetch('/mlblogos.json').then(res => res.json()),
-    fetch('/mlbmatchups.json').then(res => res.json()),
-    fetch('/sorted_NRFI.json').then(res => res.json()),
-    fetch('/cumulative_tallies.json').then(res => res.json())
-])
-.then(([logosData, matchupsData, adjMatchOrderData, tallyData]) => { // <- Include tallyData here
-    setLogos(logosData);
-    setMatchups(matchupsData);
-    setAdjMatchData(adjMatchOrderData);
-    setTallies(tallyData); // <- Now tallyData is correctly passed in 
-})
-.catch(error => {
-    console.error('Error fetching data:', error);
-    // If there's an error fetching tallies, you may want to set a default message or value
-    setTallies({
-        "2+": "Error",
-        "1_to_2": "Error",
-        "-1_to_-2": "Error",
-        "-2-": "Error"
+    // Fetch the logos and matchups
+    Promise.all([
+      fetch('/mlblogos.json').then(res => res.json()),
+      fetch('/mlbmatchups.json').then(res => res.json()),
+      fetch('/sorted_NRFI.json').then(res => res.json()),
+      fetch('/nrfiresults.json').then(res => res.json()) // Fetch the NRFI results
+    ])
+    .then(([logosData, matchupsData, adjMatchOrderData, nrfiResultsData]) => {
+      setLogos(logosData);
+      setMatchups(matchupsData);
+      setAdjMatchData(adjMatchOrderData);
+      setNrfiResults(nrfiResultsData); // Update the NRFI results state
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+      // If there's an error fetching tallies, you may want to set a default message or value
+    })
+    .finally(() => {
+      setIsLoading(false);
     });
-})
-.finally(() => {
-    setIsLoading(false);
-});
+  }, []);
 
-    }, []);
+  // Rotating Matchups
+  const handleNextGames = () => {
+    setCurrentMatchupIndex(prevIndex => {
+      const newIndex = prevIndex + 6;
+      return newIndex >= matchups.length ? 0 : newIndex; // Resets to 0 if exceeds array length
+    });
+  };
 
+  useEffect(() => {
+    const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 6);
+    setDisplayMatchups(newDisplayMatchups);
+  }, [currentMatchupIndex, matchups]);
 
-    // Rotating Matchups
-    const handleNextGames = () => {
-      setCurrentMatchupIndex(prevIndex => {
-        const newIndex = prevIndex + 7;
-        return newIndex >= matchups.length ? 0 : newIndex; // Resets to 0 if exceeds array length
-      });
-    };
-    useEffect(() => {
-      const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 7);
-      setDisplayMatchups(newDisplayMatchups);
-    }, [currentMatchupIndex, matchups]);
+  // Table Spacing from Text    
+  useEffect(() => {
+    if (contentRef.current) {
+      const contentBottom = contentRef.current.getBoundingClientRect().bottom;
+      const navbarBottom = document.querySelector('.navbar')?.getBoundingClientRect().bottom || 0;
+      let newMarginTop;
 
-    // Table Spacing from Text    
-    useEffect(() => {
-      if (contentRef.current) {
-        const contentBottom = contentRef.current.getBoundingClientRect().bottom;
-        const navbarBottom = document.querySelector('.navbar')?.getBoundingClientRect().bottom || 0;
-        let newMarginTop;
-    
-        if (adjMatchData.length === 0) {
-          // When there's no data, center the table on the screen
-          newMarginTop = (window.innerHeight - contentBottom) / 2;
-        } else {
-          // When there's data, set a smaller margin
-          newMarginTop = 20; // Or any other suitable value based on your design
-        }
-    
-        setTableMarginTop(Math.max(newMarginTop, 20)); // Ensures that the margin is not less than 20px
+      if (adjMatchData.length === 0) {
+        // When there's no data, center the table on the screen
+        newMarginTop = (window.innerHeight - contentBottom) / 2;
+      } else {
+        // When there's data, set a smaller margin
+        newMarginTop = 20; // Or any other suitable value based on your design
       }
-    }, [adjMatchData]);
 
-    function toFixed(value: number | undefined, decimals: number = 2): string {
-      // Check if the value is a number and is not null or undefined.
-        if (typeof value === 'number') {
-            return value.toFixed(decimals);
-        } else {
-            // Return 'N/A' if the value is not a number.
-            return 'N/A';
-      }
+      setTableMarginTop(Math.max(newMarginTop, 20)); // Ensures that the margin is not less than 20px
     }
+  }, [adjMatchData]);
+
+  function toFixed(value: number | undefined, decimals: number = 2): string {
+    // Check if the value is a number and is not null or undefined.
+    if (typeof value === 'number') {
+      return value.toFixed(decimals);
+    } else {
+      // Return 'N/A' if the value is not a number.
+      return 'N/A';
+    }
+  }
 
   if (isLoading) {
     return <div>Loading...</div>; // Render a loading state or spinner here
   }
 
-
-function getPercentageColor(tally: string) {
+  function getPercentageColor(tally: string) {
     // Extract the percentage value from the tally string, e.g., "5/10 (50%)"
     const matches = tally.match(/\((\d+\.?\d*)%\)/);
     if (matches) {
@@ -152,54 +133,54 @@ function getPercentageColor(tally: string) {
     }
     return 'orange'; // Default color if no percentage or falls between 40% and 60%
   }
-  
-    return (
-      <>
-        <Head>
-          <title>BRETON</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-        <div className={styles.banner}></div>
-        <div className={styles.navbar}>
-      <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
-      <Link href="/index" passHref></Link>
-      <ul>
-      <li><Link href="/">HOME</Link></li>
-        <li
-          onMouseEnter={() => setIsMLBDropdownVisible(true)}
-          onMouseLeave={() => setIsMLBDropdownVisible(false)}
-        >
-          MLB
-          {isMLBDropdownVisible && (
-            <div className={styles.dropdown}>
-              <Link href="/mlb"><p>Over/Under</p></Link>
-              <Link href="/mlbml"><p>ML PICKS</p></Link>
-              <Link href="/nrfi"><p>NRFI</p></Link>
-            </div>
-          )}
-        </li>
-        <li
-          onMouseEnter={() => setIsNbaDropdownVisible(true)}
-          onMouseLeave={() => setIsNbaDropdownVisible(false)}
-        >
-          NBA
-          {isNbaDropdownVisible && (
-            <div className={styles.dropdown}>
-              <Link href="/nba"><p>Over/Under</p></Link>
-              <Link href="/fullprop"><p>Player Props</p></Link>
-              <Link href="/prop"><p>Alt Player Props</p></Link>
-            </div>
-          )}
-        </li>
-        <li><Link href="/news">NEWS</Link></li>
-        <li><Link href="/ncaab">CBB</Link></li>
-      </ul>
-      <div className={styles.odds}>
-      <h4>Odds via:</h4>
-      <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor} />
+
+  return (
+    <>
+      <Head>
+        <title>BRETON</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className={styles.banner}></div>
+      <div className={styles.navbar}>
+        <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+        <Link href="/index" passHref></Link>
+        <ul>
+          <li><Link href="/">HOME</Link></li>
+          <li
+            onMouseEnter={() => setIsMLBDropdownVisible(true)}
+            onMouseLeave={() => setIsMLBDropdownVisible(false)}
+          >
+            MLB
+            {isMLBDropdownVisible && (
+              <div className={styles.dropdown}>
+                <Link href="/mlb"><p>Over/Under</p></Link>
+                <Link href="/mlbml"><p>ML PICKS</p></Link>
+                <Link href="/nrfi"><p>NRFI</p></Link>
+              </div>
+            )}
+          </li>
+          <li
+            onMouseEnter={() => setIsNbaDropdownVisible(true)}
+            onMouseLeave={() => setIsNbaDropdownVisible(false)}
+          >
+            NBA
+            {isNbaDropdownVisible && (
+              <div className={styles.dropdown}>
+                <Link href="/nba"><p>Over/Under</p></Link>
+                <Link href="/fullprop"><p>Player Props</p></Link>
+                <Link href="/prop"><p>Alt Player Props</p></Link>
+              </div>
+            )}
+          </li>
+          <li><Link href="/news">NEWS</Link></li>
+          <li><Link href="/ncaab">CBB</Link></li>
+        </ul>
+        <div className={styles.odds}>
+          <h4>Odds via:</h4>
+          <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor} />
+        </div>
       </div>
-      </div>
-    <div className={styles.content}>
+      <div className={styles.content}>
         <div className={styles.headerContainer}>
           <h1>MLB NRFI</h1>
           <div
@@ -223,7 +204,17 @@ function getPercentageColor(tally: string) {
             )}
           </div>
         </div>
-          <div className={styles.results}>NRFI Hit Rates:<p> NRFIs: 139/222 (62%) <br /> YRFI: 40/71 (56%) </p></div>
+        <div className={styles.results}>
+          NRFI Hit Rates:
+          {nrfiResults ? (
+            <p>
+              NRFI: {nrfiResults.NRFI.correct}/{nrfiResults.NRFI.total} ({((nrfiResults.NRFI.correct / nrfiResults.NRFI.total) * 100).toFixed(0)}%)<br />
+              YRFI: {nrfiResults.YRFI.correct}/{nrfiResults.YRFI.total} ({((nrfiResults.YRFI.correct / nrfiResults.YRFI.total) * 100).toFixed(0)}%)
+            </p>
+          ) : (
+            <p>Loading results...</p>
+          )}
+        </div>
       <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
         <thead>
           <tr>
@@ -258,7 +249,7 @@ function getPercentageColor(tally: string) {
                   alt={`logo`}
                   width={60}
                   height={50}
-                  style={{ marginLeft: '30px', marginRight: '30px' }}
+                  style={{ marginLeft: '30px', marginRight: '30px', }}
                 />
               )}
               {item.Team2} <br /> <br /> P: {item.Team2Pitcher}
@@ -273,7 +264,7 @@ function getPercentageColor(tally: string) {
                 backgroundColor: item.PRA1 > 0.75 ? 'red' : item.PRA1 < 0.34 ? 'green' : 'transparent',
               }}
             >
-              <p>Away Pitcher ERA 1st:</p>
+              <p>Away ERA 1st:</p>
               <div className={styles.value}>{toFixed(item.PRA1)}</div>
             </div>
           </td>
@@ -284,7 +275,7 @@ function getPercentageColor(tally: string) {
                 backgroundColor: item.Team1PitcherWHIP > 1.5 ? 'red' : item.Team1PitcherWHIP < 1 ? 'green' : 'transparent',
               }}
             >
-              <p>Away Pitcher WHIP 1st:</p>
+              <p>Away WHIP 1st:</p>
               <div className={styles.value}>{toFixed(item.Team1PitcherWHIP)}</div>
             </div>
           </td>
@@ -295,7 +286,7 @@ function getPercentageColor(tally: string) {
                 backgroundColor: item.Team1Runs > 1 ? 'red' : item.Team1Runs < 0.4 ? 'green' : 'transparent',
               }}
             >
-              <p>Away Team Runs 1st:</p>
+              <p>Away Tm Runs 1st:</p>
               <div className={styles.value}>{toFixed(item.Team1Runs)}</div>
             </div>
           </td>
@@ -317,7 +308,7 @@ function getPercentageColor(tally: string) {
                 backgroundColor: item.Team2PitcherWHIP > 1.5 ? 'red' : item.Team2PitcherWHIP < 1 ? 'green' : 'transparent',
               }}
             >
-              <p>Home Pitcher WHIP 1st:</p>
+              <p>Home WHIP 1st:</p>
               <div className={styles.value}>{toFixed(item.Team2PitcherWHIP)}</div>
             </div>
           </td>
@@ -328,7 +319,7 @@ function getPercentageColor(tally: string) {
                 backgroundColor: item.Team2Runs > 1 ? 'red' : item.Team2Runs < 0.4 ? 'green' : 'transparent',
               }}
             >
-              <p>Home Team Runs 1st:</p>
+              <p>Home Tm Runs 1st:</p>
               <div className={styles.value}>{toFixed(item.Team2Runs)}</div>
             </div>
           </td>
@@ -340,7 +331,7 @@ function getPercentageColor(tally: string) {
                 color: item.Total > 1 || item.Total < -1 ? 'white' : '',
               }}
             >
-              <p>Projected 1st Runs:</p>
+              <p>Proj. 1st Runs:</p>
               <div className={styles.value}>{toFixed(item.Total)}</div>
             </div>
           </td>

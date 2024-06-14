@@ -138,7 +138,7 @@ type LogoUrls = { [team: string]: string };
       </ul>
       <div className={styles.odds}>
       <h4>Odds via:</h4>
-      <Image src="/dkvert.png" alt="Logo" width={70} height={60} className={styles.logor} />
+      <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor} />
       </div>
     </div>
           <div className={styles.content}>
@@ -223,8 +223,8 @@ type LogoUrls = { [team: string]: string };
       </table>
         </div>
         <div className={styles.sideNav}>
-          <div className={styles.user}>
-            <Image src="/nba.png" alt="user-img" width={100} height={100} className={styles.leaguelogo} />
+          <div className={styles.leaguelogo}>
+          <Image src="/nba.png" alt="user-img" width={60} height={90} />
           </div>
           <h3>NBA GAMES TODAY</h3>
           <table className={styles.table} style={{ top: tableTopSpacing }}>

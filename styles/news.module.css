@@ -9,8 +9,8 @@
   position: fixed;
 }
 .banner{
-  left: 402px;
-  margin-top: 130px;
+  left: 406px;
+  margin-top: 133px;
   border-radius: 2%;
   width: 76%;
   height: 100vh; /* This will make sure your banner covers the full viewport height */
@@ -47,22 +47,24 @@
   z-index: 100;
   font-size: 1em;
 }
-.navbar p{
+
+.navbar p {
   color: black;
   font-size: .75em;
-  
 }
+
 .navbar ul {
   display: flex;
   list-style-type: none;
   padding: 0;
   margin-right: 160px;
 }
+
 .navbar ul li {
   display: inline-block;
   position: relative;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.6em;
   cursor: pointer;
   padding: 20px 70px;
   background: transparent;
@@ -71,13 +73,13 @@
   margin-left: 0px; /* Space between items */
 } 
 
-.navbar ul li a{
+.navbar ul li a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  
 }
-.navbar ul li::after{
+
+.navbar ul li::after {
   content: '';
   height: 3px;
   width: 0%;
@@ -86,12 +88,15 @@
   bottom: -5px;
   transition: 0.2s;
 }
-.navbar ul li:hover{
+
+.navbar ul li:hover {
   background-color: #68b42b;
 }
-.navbar ul li:hover::after{
+
+.navbar ul li:hover::after {
   width: 100%;
 }
+
 .navbar ul li .dropdown {
   display: none;
   position: absolute;
@@ -107,10 +112,12 @@
   z-index: 20;
   border-top: 1px solid white;
 }
+
 .navbar ul li:hover .dropdown {
   display: block;
   z-index: 100;
 }
+
 .navbar ul li .dropdown a {
   color: #0b0b0b;
   padding: 12px 16px;
@@ -120,34 +127,40 @@
   z-index: 20;
   cursor: pointer;
 }
+
 .navbar ul li .dropdown a:last-child {
   border-bottom: none; /* Removes border from the last link */
   z-index: 20;
   cursor: pointer;
 }
+
 .navbar ul li .dropdown a:hover {
   background-color: #68b42b;
   color: white;
   z-index: 20;
   cursor: pointer;
 }
-.logo{
+
+.logo {
   display: inline-block;
   cursor: pointer;
   margin-left: 50px;
   padding-right: 60px;
 }
-.logor{
+
+.logor {
   display: inline-block;
   cursor: pointer;
   color: #fff;
   margin-right: 20px;
   margin-bottom: 50px;
-  cursor: pointer;
 }
-.odds{
+
+.odds h4 {
   color: #fff;
-  margin-right: 20px;
+  margin-left: 15px;
+  font-size: .75em;
+  margin-top: 25px;
 }
 
 
@@ -166,21 +179,18 @@
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   overflow-y: auto;
   overflow-x: hidden;
+  align-content: center;
 }
 .content h1{
-  font-size: 70px;
-  margin-top: 55px;
-  align-items: center;
-  border-radius: 10px;
-  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
-  width: 500px;
-  margin-left: 325px;
-  border: 1px solid #68b42b;
+display: none;
+ 
 }
 .content p{
   margin: 10px 0 20px;
   font-weight: 100;
   line-height: 25px;
+  margin-top: 200px;
+  margin-right: 10px;
 }
 .button{
   width: 200px;
@@ -223,7 +233,7 @@
   align-items: center;
   border: 1px solid #68b42b; 
   background-color: #303030;
-  margin-left: calc(42%);
+  margin-left: calc(40%);
 }
 .results{
   border-radius: 10%;
@@ -406,7 +416,7 @@
   display: flex; /* Use flexbox to manage layout of cells */
   justify-content: space-around; /* Distribute space around cells */
   align-items: center; /* Align items vertically in the center */
-  padding: 8px; /* Padding inside each row */
+  padding: 10px; /* Padding inside each row */
 }
 .user{
   display: flex;
@@ -657,44 +667,40 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   /* NAVBAR */
-  .navbar{
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
   }
-    .navbar ul {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
-      justify-content: center; /* Center items in the navbar */
-      flex-grow: 1; /* Allow ul to grow and take available space */
-      margin: 0;
-      padding: 0;
-    }
-    .navbar ul li {
-      font-size: 1em;
-      padding: 10px 10px; /* Adjust padding for smaller buttons */
-    }
-    .logo {
-      margin-left: 20px;
-      padding-right: 20px;
-      width: 50px;
-      height: 50px;
-    }
-    .odds{
-      margin-right: 0px;
-    }
-    .logor {
-      display: fixed;
-      padding-left: 20px;
-      margin-bottom: 25px;
-      height: 45px;
-      width: 55px;
-    }
-    .odds h4{
-      padding-left: 30px;
-      font-size: .5em;
-
-    }
+  .navbar ul li {
+    font-size: 1em;
+    padding: 10px 8px; /* Adjust padding for smaller buttons */
+  }
+  .logo {
+    margin-left: 20px;
+    padding-right: 15px;
+    width: 50px;
+    height: 50px;
+  }
+  .odds{
+    margin-right: 0px;
+  }
+  .logor {
+    display: fixed;
+    padding-left: 15px;
+    margin-bottom: 45px;
+    height: 45px;
+    width: 50px;
+  }
+  .odds h4{
+    padding-left: 10px;
+    font-size: .5em;
+    margin-left: 11px;
+  }
 
 
   /* MAIN */
@@ -711,7 +717,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .content {
     margin-left: -400px;
-    width: 100%; /* Full width */
+    width: 80%; /* Full width */
     padding: 20px; /* Add padding for better layout */
   }
   .content h1{
@@ -745,6 +751,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin-top: -5px;
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+    
   }
 
   .navlogo {
@@ -770,6 +777,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
+    margin-left: -25px;
   }
 
   .total {
@@ -994,6 +1002,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
+    margin-left: -25px;
   }
 
   .total {

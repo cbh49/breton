@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "NRFI": {
         "correct": 144,
@@ -7,4 +8,15 @@
         "correct": 40,
         "total": 71
     }
+=======
+{
+    "NRFI": {
+        "correct": 144,
+        "total": 233
+    },
+    "YRFI": {
+        "correct": 40,
+        "total": 71
+    }
+>>>>>>> e0e60461b30541a5deb80f10251279e618e3651f
 }

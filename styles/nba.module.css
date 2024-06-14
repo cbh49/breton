@@ -9,8 +9,8 @@
   position: fixed;
 }
 .banner{
-  left: 402px;
-  margin-top: 130px;
+  left: 406px;
+  margin-top: 133px;
   border-radius: 2%;
   width: 76%;
   height: 100vh; /* This will make sure your banner covers the full viewport height */
@@ -47,22 +47,24 @@
   z-index: 100;
   font-size: 1em;
 }
-.navbar p{
+
+.navbar p {
   color: black;
   font-size: .75em;
-  
 }
+
 .navbar ul {
   display: flex;
   list-style-type: none;
   padding: 0;
   margin-right: 160px;
 }
+
 .navbar ul li {
   display: inline-block;
   position: relative;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.6em;
   cursor: pointer;
   padding: 20px 70px;
   background: transparent;
@@ -71,13 +73,13 @@
   margin-left: 0px; /* Space between items */
 } 
 
-.navbar ul li a{
+.navbar ul li a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  
 }
-.navbar ul li::after{
+
+.navbar ul li::after {
   content: '';
   height: 3px;
   width: 0%;
@@ -86,12 +88,15 @@
   bottom: -5px;
   transition: 0.2s;
 }
-.navbar ul li:hover{
+
+.navbar ul li:hover {
   background-color: #68b42b;
 }
-.navbar ul li:hover::after{
+
+.navbar ul li:hover::after {
   width: 100%;
 }
+
 .navbar ul li .dropdown {
   display: none;
   position: absolute;
@@ -107,10 +112,12 @@
   z-index: 20;
   border-top: 1px solid white;
 }
+
 .navbar ul li:hover .dropdown {
   display: block;
   z-index: 100;
 }
+
 .navbar ul li .dropdown a {
   color: #0b0b0b;
   padding: 12px 16px;
@@ -120,34 +127,40 @@
   z-index: 20;
   cursor: pointer;
 }
+
 .navbar ul li .dropdown a:last-child {
   border-bottom: none; /* Removes border from the last link */
   z-index: 20;
   cursor: pointer;
 }
+
 .navbar ul li .dropdown a:hover {
   background-color: #68b42b;
   color: white;
   z-index: 20;
   cursor: pointer;
 }
-.logo{
+
+.logo {
   display: inline-block;
   cursor: pointer;
   margin-left: 50px;
   padding-right: 60px;
 }
-.logor{
+
+.logor {
   display: inline-block;
   cursor: pointer;
   color: #fff;
   margin-right: 20px;
   margin-bottom: 50px;
-  cursor: pointer;
 }
-.odds{
+
+.odds h4 {
   color: #fff;
-  margin-right: 20px;
+  margin-left: 15px;
+  font-size: .75em;
+  margin-top: 25px;
 }
 
 
@@ -405,7 +418,7 @@
   display: flex; /* Use flexbox to manage layout of cells */
   justify-content: space-around; /* Distribute space around cells */
   align-items: center; /* Align items vertically in the center */
-  padding: 8px; /* Padding inside each row */
+  padding: 10px; /* Padding inside each row */
 }
 .user{
   display: flex;
@@ -451,7 +464,7 @@
   box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
 }
 .leaguelogo{
-  margin-left: 140px;
+  margin-left: 170px;
   margin-top: 5px;
 }
 .leaguelogo2{
@@ -670,31 +683,29 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 1.5em;
-    padding: 3px 3px; /* Adjust padding for smaller buttons */
+    font-size: 1em;
+    padding: 10px 8px; /* Adjust padding for smaller buttons */
   }
   .logo {
     margin-left: 20px;
-    padding-right: 0px;
+    padding-right: 15px;
     width: 50px;
     height: 50px;
-    padding-right: 10px;
   }
   .odds{
     margin-right: 0px;
   }
   .logor {
     display: fixed;
-    margin-bottom: 30px;
-    margin-right: 385px;
-    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 45px;
+    height: 45px;
     width: 50px;
-    padding-left: 10px;
   }
   .odds h4{
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: .5em;
-    margin-left: 0px;
+    margin-left: 11px;
   }
 
 
@@ -709,26 +720,26 @@ table.table2 th:last-child, table.table2 td:last-child {
     box-sizing: border-box; /* Include padding in width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-    overflow: visible;
+    overflow: hidden;
   }
   .content {
-    margin-left: 0px;
-    width: 80%; /* Full width */
-    padding: 20px; /* Add padding for better layout */
-    overflow: visible;
+    margin-left: -400px;
+    width: 90%; /* Full width */
+    padding: 0px; /* Add padding for better layout */
+    height: 100%;
   }
   .content h1{
     align-items: center;
     margin-top: 200px;
     padding: 10px;
+
   }
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: 87%; /* Ensure it is 100% wide */
+    width: 85%; /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
-    margin-left: -430px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
@@ -759,19 +770,24 @@ table.table2 th:last-child, table.table2 td:last-child {
     font-size: 1em;
   }
   .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-200%); /* Reset left margin */
-    width: 90%;
+    margin-top: 175px; 
+    width: 100%;
+    margin-left: calc(6px);
     font-size: 2em;
     z-index: 2;
     padding: 20px;
   }
   .chartButton{
-  top: 100px;
-  left: -450px;
-  width: 30px;
-  font-size: .6em;
-  }
+    top: 100px;
+    width: 25px;
+    font-size: .6em;
+    margin-right: 0px;
+    }
+    .chartButton .dropdown{
+      min-width: 110px;
+      margin-left: 10px;
+      margin-top: 1px;
+    }
 .table2 th{
   font-size: .25em;
 }
@@ -837,12 +853,9 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .leaguelogo {
-    display: none;
+    margin-right: 2100px;
   }
 
-  .leaguelogo2 {
-    display: none;
-  }
 
   .secondSideNav {
     display: none;
@@ -894,32 +907,31 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 1.5em;
-    padding: 3px 3px; /* Adjust padding for smaller buttons */
+    font-size: 1em;
+    padding: 10px 9px; /* Adjust padding for smaller buttons */
   }
   .logo {
     margin-left: 20px;
-    padding-right: 0px;
+    padding-right: 15px;
     width: 50px;
     height: 50px;
-    margin-right: 10px;
   }
   .odds{
     margin-right: 0px;
   }
   .logor {
     display: fixed;
-    margin-bottom: 30px;
-    margin-right: 385px;
-    height: 40px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    height: 45px;
     width: 50px;
-    margin-left: 10px;
   }
   .odds h4{
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: .5em;
-    margin-left: -10px;
+    margin-left: 11px;
   }
+
 
 
   /* MAIN */
@@ -933,13 +945,13 @@ table.table2 th:last-child, table.table2 td:last-child {
     box-sizing: border-box; /* Include padding in width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-    overflow: visible;
+    overflow: none;
   }
   .content {
-    margin-left: 0px;
-    width: 80%; /* Full width */
-    padding: 20px; /* Add padding for better layout */
-    overflow: visible;
+    margin-left: -400px;
+    width: 90%; /* Full width */
+    padding: 0px; /* Add padding for better layout */
+    height: 100%;
   }
   .content h1{
     align-items: center;
@@ -949,14 +961,14 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .table2 {
     display: block; /* Ensure it is displayed */
-    width: 87%; /* Ensure it is 100% wide */
+    width: 80%; /* Ensure it is 100% wide */
     background-color: #fff; /* Background color for visibility */
     padding: 10px; /* Padding for better layout */
-    margin-left: -415px;
     box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
   }
+
   .tabletext{
     display: none;
   }
@@ -983,18 +995,18 @@ table.table2 th:last-child, table.table2 td:last-child {
     font-size: 1em;
   }
   .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-170%); /* Reset left margin */
+    margin-top: 150px; 
     width: 90%;
     font-size: 2em;
     z-index: 2;
     padding: 20px;
+    margin-left: calc(5px);
   }
   .chartButton{
   top: 100px;
-  left: -420px;
-  width: 30px;
+  width: 25px;
   font-size: .6em;
+  margin-right: 0px;
   }
 .table2 th{
   font-size: .25em;
@@ -1062,7 +1074,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .leaguelogo {
-    display: none;
+    margin-right: 950px;
   }
 
   .leaguelogo2 {
