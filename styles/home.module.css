@@ -339,7 +339,7 @@
   justify-content: space-between; /* This keeps the images spaced out evenly */
   align-items: center;
   gap: 15px;
-  background-color: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('/pathex.avif');
+  background-color: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)), url('/pathex.avif');
 }
 
 .imageTextContainer {
