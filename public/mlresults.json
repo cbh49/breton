@@ -1,19 +1,10 @@
 {
     "greater_than_2": {
-<<<<<<< HEAD
-        "correct": 44,
-        "total": 74
+        "correct": 45,
+        "total": 75
     },
     "between_1_and_2": {
-        "correct": 60,
-        "total": 105
-=======
-        "correct": 43,
-        "total": 72
-    },
-    "between_1_and_2": {
-        "correct": 58,
-        "total": 100
->>>>>>> e0e60461b30541a5deb80f10251279e618e3651f
+        "correct": 63,
+        "total": 109
     }
 }
