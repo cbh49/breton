@@ -1,10 +1,10 @@
 {
     "NRFI": {
-        "correct": 145,
-        "total": 234
+        "correct": 151,
+        "total": 243
     },
     "YRFI": {
-        "correct": 40,
-        "total": 72
+        "correct": 42,
+        "total": 74
     }
 }
