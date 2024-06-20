@@ -1,0 +1,23 @@
+[
+    {
+        "name": "MacKenzie Gore",
+        "team": "Washington Nationals",
+        "Line": 6.5,
+        "OverUnder": "OVER",
+        "Rate": "4/5 (80%)"
+    },
+    {
+        "name": "Chris Flexen",
+        "team": "Chicago White Sox",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "Rate": "4/5 (80%)"
+    },
+    {
+        "name": "Seth Lugo",
+        "team": "Kansas City Royals",
+        "Line": 6.5,
+        "OverUnder": "UNDER",
+        "Rate": "5/5 (100%)"
+    }
+]
