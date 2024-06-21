@@ -1,0 +1,98 @@
+[
+    {
+        "PlayerName": "Joc Pederson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592626/headshot/silo/current",
+        "Team": "Arizona Diamondbacks",
+        "OverUnder": "OVER",
+        "Line": "+120",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Ozzie Albies",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/645277/headshot/silo/current",
+        "Team": "Atlanta Braves",
+        "OverUnder": "OVER",
+        "Line": "+185",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Anthony Santander",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/623993/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
+        "Line": "+130",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Yordan Alvarez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/670541/headshot/silo/current",
+        "Team": "Houston Astros",
+        "OverUnder": "OVER",
+        "Line": "+130",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Andrew Vaughn",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683734/headshot/silo/current",
+        "Team": "Chicago White Sox",
+        "OverUnder": "OVER",
+        "Line": "+180",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Shohei Ohtani",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/660271/headshot/silo/current",
+        "Team": "Los Angeles Dodgers",
+        "OverUnder": "OVER",
+        "Line": "+120",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Zack Gelof",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680869/headshot/silo/current",
+        "Team": "Oakland Athletics",
+        "OverUnder": "OVER",
+        "Line": "+250",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Royce Lewis",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668904/headshot/silo/current",
+        "Team": "Minnesota Twins",
+        "OverUnder": "OVER",
+        "Line": "+115",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Ian Happ",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664023/headshot/silo/current",
+        "Team": "Chicago Cubs",
+        "OverUnder": "OVER",
+        "Line": "+160",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Pete Alonso",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/624413/headshot/silo/current",
+        "Team": "New York Mets",
+        "OverUnder": "OVER",
+        "Line": "+130",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Brandon Nimmo",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607043/headshot/silo/current",
+        "Team": "New York Mets",
+        "OverUnder": "OVER",
+        "Line": "+210",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Jazz Chisholm Jr.",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665862/headshot/silo/current",
+        "Team": "MIA",
+        "OverUnder": "OVER",
+        "Line": "+200",
+        "HitRate": "4/5"
+    }
+]

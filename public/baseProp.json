@@ -1,0 +1,128 @@
+[
+    {
+        "PlayerName": "Adam Duvall",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/594807/headshot/silo/current",
+        "Team": "Atlanta Braves",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-180",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Cedric Mullins",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656775/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-180",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Jeremy Pe\u00f1a",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665161/headshot/silo/current",
+        "Team": "Houston Astros",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-200",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Jacob Hurtubise",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/674441/headshot/silo/current",
+        "Team": "Cincinnati Reds",
+        "OverUnder": "UNDER",
+        "Line": 0.5,
+        "Odds": "+105",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Ceddanne Rafaela",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/678882/headshot/silo/current",
+        "Team": "Boston Red Sox",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-175",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Jake Fraley",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641584/headshot/silo/current",
+        "Team": "Cincinnati Reds",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-195",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Zach McKinstry",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656716/headshot/silo/current",
+        "Team": "Detroit Tigers",
+        "OverUnder": "UNDER",
+        "Line": 0.5,
+        "Odds": "+135",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Corey Seager",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608369/headshot/silo/current",
+        "Team": "Texas Rangers",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-134",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Miguel Vargas",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/678246/headshot/silo/current",
+        "Team": "Los Angeles Dodgers",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-160",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Shohei Ohtani",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/660271/headshot/silo/current",
+        "Team": "Los Angeles Dodgers",
+        "OverUnder": "OVER",
+        "Line": 1.5,
+        "Odds": "-105",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Carlos Santana",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/467793/headshot/silo/current",
+        "Team": "Minnesota Twins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-175",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Christopher Morel",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666624/headshot/silo/current",
+        "Team": "Chicago Cubs",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-190",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Rowdy Tellez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/642133/headshot/silo/current",
+        "Team": "Pittsburgh Pirates",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-145",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Drew Millas",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686452/headshot/silo/current",
+        "Team": "Washington Nationals",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-190",
+        "HitRate": "5/5"
+    }
+]

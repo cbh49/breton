@@ -10,7 +10,7 @@
 }
 .banner{
   left: 406px;
-  margin-top: 133px;
+  margin-top: 130px;
   border-radius: 2%;
   width: 76%;
   height: 100vh; /* This will make sure your banner covers the full viewport height */
@@ -45,7 +45,7 @@
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
   background-size: 120%;
   z-index: 100;
-  font-size: 1em;
+  font-size: .7em;
 }
 
 .navbar p {
@@ -57,16 +57,16 @@
   display: flex;
   list-style-type: none;
   padding: 0;
-  margin-right: 160px;
+  margin-right: 75px;
 }
 
 .navbar ul li {
   display: inline-block;
   position: relative;
   color: white;
-  font-size: 1.6em;
+  font-size: 2em;
   cursor: pointer;
-  padding: 20px 70px;
+  padding: 20px 80px;
   background: transparent;
   box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
   border: 3px solid white;
@@ -144,15 +144,14 @@
 .logo {
   display: inline-block;
   cursor: pointer;
-  margin-left: 50px;
-  padding-right: 60px;
+  margin-left: 40px;
 }
 
 .logor {
   display: inline-block;
   cursor: pointer;
   color: #fff;
-  margin-right: 20px;
+  margin-right: 40px;
   margin-bottom: 50px;
 }
 
@@ -468,7 +467,7 @@
   margin-top: 5px;
 }
 .leaguelogo2{
-  margin-left: 0px;
+  margin-left: 165px;
   margin-top: 5px;
 }
 
@@ -532,6 +531,20 @@ table.table2 tbody td {
   box-shadow: 0 4px 8px rgba(0,0,0, 1); /* Shadow for 3D effect */
 }
 .matchupRow2 {
+  background-color: transparent; /* White background for the whole row */
+  border-radius: 10px; /* Rounded corners for the box */
+  box-shadow: 0 4px 8px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  margin: 20px 0; /* Margin between each row */
+  display: flex; /* Use flexbox to manage layout of cells */
+  justify-content: space-around; /* Distribute space around cells */
+  align-items: center; /* Align items vertically in the center */
+  padding: 5px; /* Padding inside each row */
+  width: 97.5%;
+  margin-left: 10px;
+  border: 1px solid #68b42b;
+  text-align: center;
+}
+.matchupRow3 {
   background-color: transparent; /* White background for the whole row */
   border-radius: 10px; /* Rounded corners for the box */
   box-shadow: 0 4px 8px rgba(0,0,0, 1); /* Shadow for 3D effect */
@@ -662,7 +675,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
 /* ADJUSTED SCREEN SIZE */
 
-/* Small devices (phones, 600px and down) */
+/* Small devices (phones, 400px and down) */
 @media only screen and (max-width: 400px) {
 
   .container {
@@ -672,15 +685,10 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow-y: hidden;
   }
 
-  /* NAVBAR */
-
-  .navbar {
-    background-size: .5%;
+  .navbar{
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
   }
-
-
-  /* NAVBAR */
-
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -691,14 +699,15 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 2.5em;
-    padding: 15px 12.5px; /* Adjust padding for smaller buttons */
+    font-size: 2.2em;
+    padding: 15px 17px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 20px;
-    padding-right: 20px;
+    padding-right: calc(20px);
+    padding-left: calc(5px);
     width: 80px;
     height: 80px;
+    margin-left: 20px;
   }
   .odds{
     margin-right: 0px;
@@ -706,14 +715,15 @@ table.table2 th:last-child, table.table2 td:last-child {
   .logor {
     display: fixed;
     padding-left: 20px;
-    margin-bottom: 25px;
-    height: 75px;
-    width: 80px;
+    margin-bottom: 35px;
+    height: 80px;
+    width: 90px;
+    margin-right: 0px;
   }
   .odds h4{
     padding-left: 20px;
-    font-size: .8em;
-    margin-left: 8px;
+    font-size: 10px;
+    margin-left: 15px;
   }
 
 
@@ -723,7 +733,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .banner {
     height: 300vh;
-    top: 120px;
+    top: 100px;
     margin-left: -400px;
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
@@ -770,15 +780,23 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow2 {
     margin: 10px 7px; /* Margin between each row */
     padding: 10px; /* Padding inside each row */
-    width: calc(92%);
+    width: calc(93%);
     margin-left: calc(10px);
   }
-  .header {
-    padding: 6px; /* Padding inside each row */
+  .matchupRow3 {
+    width: calc(50%);
+    margin-left: calc(140px);
+    font-size: 1.5em;
+    padding-left: calc(50px);
+    padding-right: calc(50px);
     height: 100px;
-    width: calc(110px); /* Full width */
+  }
+  .header {
+    padding: 2px; /* Padding inside each row */
+    height: 100px;
+    width: calc(115px); /* Full width */
     margin: 7px;
-    font-size: .5em;
+    font-size: .52em;
     margin-left: 15px;
   }
 
@@ -799,7 +817,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%;
   }
 .chartButton{
-  top: 125px;
+  top: 100px;
   left: -100px;
 }
 .table2 th{
@@ -870,7 +888,10 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .leaguelogo2 {
-    display: none;
+    margin-left: calc(375px);
+    padding-right: 500px;
+    height: 20px;
+    width: 20px;
   }
 
   .secondSideNav {
@@ -908,12 +929,10 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow-y: hidden;
   }
 
-  /* NAVBAR */
   .navbar{
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
   }
-
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -924,14 +943,15 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 2.5em;
-    padding: 15px 15px; /* Adjust padding for smaller buttons */
+    font-size: 2.3em;
+    padding: 15px 17.5px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 20px;
-    padding-right: 20px;
+    padding-right: calc(20px);
+    padding-left: calc(5px);
     width: 80px;
     height: 80px;
+    margin-left: 20px;
   }
   .odds{
     margin-right: 0px;
@@ -939,13 +959,14 @@ table.table2 th:last-child, table.table2 td:last-child {
   .logor {
     display: fixed;
     padding-left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     height: 80px;
     width: 90px;
+    margin-right: 0px;
   }
   .odds h4{
     padding-left: 20px;
-    font-size: .8em;
+    font-size: 10px;
     margin-left: 15px;
   }
   .tabletext{
@@ -958,7 +979,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .banner {
     height: 300vh;
-    top: 120px;
+    top: 110px;
     margin-left: -400px;
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
@@ -1008,6 +1029,14 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 15px; /* Padding inside each row */
     margin-left: calc(22px);
   }
+  .matchupRow3 {
+    width: calc(50%);
+    margin-left: calc(150px);
+    font-size: 1.5em;
+    padding-left: calc(50px);
+    padding-right: calc(50px);
+    height: 100px;
+  }
   .header {
     padding: 6px; /* Padding inside each row */
     height: 100px;
@@ -1036,7 +1065,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%;
   }
   .chartButton{
-    top: 125px;
+    top: 100px;
     left: -100px;
   }
 .table2 th{
@@ -1107,7 +1136,10 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .leaguelogo2 {
-    display: none;
+    margin-left: calc(375px);
+    padding-right: 500px;
+    height: 20px;
+    width: 20px;
   }
 
   .secondSideNav {
@@ -1134,12 +1166,10 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow-y: hidden;
   }
 
-  /* NAVBAR */
   .navbar{
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
   }
-
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -1150,14 +1180,15 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 2.5em;
-    padding: 15px 15px; /* Adjust padding for smaller buttons */
+    font-size: 2.3em;
+    padding: 15px 17.5px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 20px;
-    padding-right: 20px;
+    padding-right: calc(20px);
+    padding-left: calc(5px);
     width: 80px;
     height: 80px;
+    margin-left: 20px;
   }
   .odds{
     margin-right: 0px;
@@ -1165,23 +1196,23 @@ table.table2 th:last-child, table.table2 td:last-child {
   .logor {
     display: fixed;
     padding-left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     height: 80px;
     width: 90px;
+    margin-right: 0px;
   }
   .odds h4{
     padding-left: 20px;
-    font-size: .8em;
+    font-size: 10px;
     margin-left: 15px;
   }
-
 
 
   /* MAIN */
 
   .banner {
     height: 300vh;
-    top: 120px;
+    top: 110px;
     margin-left: -400px;
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
@@ -1232,6 +1263,13 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: calc(100%);
     margin-left: 10px;
   }
+  .matchupRow3 {
+    margin-left: calc(37px);
+    font-size: 1.5em;
+    padding-left: calc(35px);
+    padding-right: calc(35px);
+    height: 100px;
+  }
   .header {
     padding: 8px; /* Padding inside each row */
     height: 100px;
@@ -1256,7 +1294,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 100%;
   }
   .chartButton{
-    top: 125px;
+    top: 100px;
     left: -100px;
   }
 .table2 th{
@@ -1335,9 +1373,11 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .leaguelogo2 {
-    display: none;
+    margin-left: calc(375px);
+    padding-right: 500px;
+    height: 20px;
+    width: 20px;
   }
-
   .secondSideNav {
     display: none;
   }

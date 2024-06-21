@@ -31,7 +31,7 @@
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
   background-size: 120%;
   z-index: 100;
-  font-size: 1em;
+  font-size: .7em;
 }
 
 .navbar p {
@@ -43,16 +43,16 @@
   display: flex;
   list-style-type: none;
   padding: 0;
-  margin-right: 160px;
+  margin-right: 75px;
 }
 
 .navbar ul li {
   display: inline-block;
   position: relative;
   color: white;
-  font-size: 1.6em;
+  font-size: 2em;
   cursor: pointer;
-  padding: 20px 70px;
+  padding: 20px 80px;
   background: transparent;
   box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
   border: 3px solid white;
@@ -130,15 +130,14 @@
 .logo {
   display: inline-block;
   cursor: pointer;
-  margin-left: 50px;
-  padding-right: 60px;
+  margin-left: 40px;
 }
 
 .logor {
   display: inline-block;
   cursor: pointer;
   color: #fff;
-  margin-right: 20px;
+  margin-right: 40px;
   margin-bottom: 50px;
 }
 
@@ -211,7 +210,7 @@
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 180px;
   border-radius: 10px;
-  margin-top: -750px;
+  margin-top: -600px;
   background-color:rgba(238, 236, 236, 0.941);
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
   z-index: 10;
@@ -285,7 +284,7 @@
 }
 .banimg{
   margin-right: 400px;
-  margin-top: 10px;
+  margin-top: 50px;
   z-index: 0;
   border-radius: 30px;
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
@@ -755,6 +754,10 @@
 .headshot {
   margin-left: 52px;
 }
+.ufclogo {
+  margin-left: calc(32.5%);
+  margin-top: calc(10px);
+}
 
 
 
@@ -841,12 +844,16 @@
     padding: 0;
   }
   .navbar ul li {
-    font-size: 0.75em;
-    padding: 11px 10.5px; /* Adjust padding for smaller buttons */
+    font-size: 1em;
+    padding: 3px 12px; /* Adjust padding for smaller buttons */
+    border: 2px solid white;
+    box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
   }
   .navbar ul li .dropdown{
-    font-size: 1.75em;
+    font-size: 1.25em;
+    min-width: 100px;
   }
+  
   .logo {
     margin-left: 25px;
     padding-right: calc(17.55px);
@@ -867,7 +874,7 @@
     padding-left: calc(20px);
     padding-right: calc(20px);
     font-size: 3px;
-    margin-left: 12px;
+    margin-left: 5px;
   }
 
 
@@ -926,7 +933,7 @@
   .stattable1{
     width: 0%;
     margin-left: 180px;
-    margin-top: -525px;
+    margin-top: -425px;
   }
   .statttable1 th, .stattable1 td {
     padding-top: 5px;
@@ -954,7 +961,7 @@
   }
   .banimg{
     margin-right: 200px;
-    margin-top: 10px;
+    margin-top: 30px;
     z-index: 0;
     border-radius: 30px;
     box-shadow: 0px 10px 20px rgba(0,0,0, 30);
@@ -1091,9 +1098,9 @@ width: 70px;
     .matchupRow {
       margin: 5px 2px; /* Margin between each row */
       display: inline-flex; /* Use flexbox to manage layout of cells */
-      padding: 3px; /* Padding inside each row */
-      height: 40px;
-      margin-top: 0px;
+      padding: 7.5px; /* Padding inside each row */
+      height: 25px;
+      margin-top: 2.5px;
     }
     .leaguelogo {
       display: none;
@@ -1139,6 +1146,7 @@ width: 70px;
   align-items: row;
   padding: 5px;
   margin-top: 5px;
+  margin-left: calc(-0px);
 }
 .secondSideNav h3{
   width: 50%;
@@ -1205,9 +1213,9 @@ width: 70px;
 
   .navbar{
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
-    background-size: 120%;
+    background-size: 100%;
     height: 40px;
-  }
+    }
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -1218,11 +1226,14 @@ width: 70px;
     padding: 0;
   }
   .navbar ul li {
-    font-size: 0.85em;
-    padding: 12px 11px; /* Adjust padding for smaller buttons */
+    font-size: 1em;
+    padding: 3px 13px; /* Adjust padding for smaller buttons */
+    border: 2px solid white;
+    box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
   }
   .navbar ul li .dropdown{
-    font-size: 1.75em;
+    font-size: 1.25em;
+    min-width: 100px;
   }
   .logo {
     margin-left: 27.5px;
@@ -1239,7 +1250,7 @@ width: 70px;
     padding-left: calc(20px);
     margin-bottom: 32.5px;
     height: 45px;
-    width: 40px;
+    width: 45px;
   }
   .odds h4{
     padding-left: calc(20px);
@@ -1304,7 +1315,7 @@ width: 70px;
   .stattable1{
     width: 45%;
     margin-left: 190px;
-    margin-top: -500px;
+    margin-top: -400px;
   }
   .statttable1 th, .stattable1 td {
     padding-top: 5px;
@@ -1332,7 +1343,7 @@ width: 70px;
   }
   .banimg{
     margin-right: 200px;
-    margin-top: 10px;
+    margin-top: 30px;
     z-index: 0;
     border-radius: 30px;
     box-shadow: 0px 10px 20px rgba(0,0,0, 30);
@@ -1416,7 +1427,7 @@ width: 70px;
   margin-left: 40%;
 }
 .table3{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('/blank.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/blank.png');
   background-size: 100%;
 }
 
@@ -1466,9 +1477,9 @@ width: 70px;
   .matchupRow {
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 3px; /* Padding inside each row */
-    height: 38px;
-    margin-top: -2px;
+    padding: 7.5px; /* Padding inside each row */
+    height: 25px;
+    margin-top: 0px;
   }
   .leaguelogo {
     display: none;
@@ -1519,6 +1530,7 @@ width: 70px;
   align-items: row;
   padding: 5px;
   margin-top: 5px;
+  margin-left: calc(-0px);
 }
 .secondSideNav h3{
   width: 50%;
@@ -1533,10 +1545,11 @@ width: 70px;
 }
 
   .bottomNav {
-    width: 100%;
+    width: 105%;
     order: 8; /* Display at the bottom */
     flex-direction: row;
     background-size: 100%;
+    margin-left: -10px;
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
   }
 

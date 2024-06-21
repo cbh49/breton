@@ -25,7 +25,6 @@
 
 /* NAVBAR CONTENT */
 
-
 .navbar {
   width: 100%;
   top: 0;
@@ -45,34 +44,41 @@
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
   background-size: 120%;
   z-index: 100;
-  font-size: 1em;
+  font-size: .7em;
 }
-.navbar p{
+
+.navbar p {
   color: black;
   font-size: .75em;
-  
 }
-.navbar ul li{
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 75px;
+}
+
+.navbar ul li {
   display: inline-block;
   position: relative;
   color: white;
-  font-size: 1.5em;
+  font-size: 2em;
   cursor: pointer;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding: 20px 70px;
+  padding: 20px 80px;
   background: transparent;
   box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
   border: 3px solid white;
-  right: 115px;
+  margin-left: 0px; /* Space between items */
 } 
-.navbar ul li a{
+
+.navbar ul li a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  
 }
-.navbar ul li::after{
+
+.navbar ul li::after {
   content: '';
   height: 3px;
   width: 0%;
@@ -81,12 +87,15 @@
   bottom: -5px;
   transition: 0.2s;
 }
-.navbar ul li:hover{
+
+.navbar ul li:hover {
   background-color: #68b42b;
 }
-.navbar ul li:hover::after{
+
+.navbar ul li:hover::after {
   width: 100%;
 }
+
 .navbar ul li .dropdown {
   display: none;
   position: absolute;
@@ -102,10 +111,12 @@
   z-index: 20;
   border-top: 1px solid white;
 }
+
 .navbar ul li:hover .dropdown {
   display: block;
   z-index: 100;
 }
+
 .navbar ul li .dropdown a {
   color: #0b0b0b;
   padding: 12px 16px;
@@ -115,35 +126,39 @@
   z-index: 20;
   cursor: pointer;
 }
+
 .navbar ul li .dropdown a:last-child {
   border-bottom: none; /* Removes border from the last link */
   z-index: 20;
   cursor: pointer;
 }
+
 .navbar ul li .dropdown a:hover {
   background-color: #68b42b;
   color: white;
   z-index: 20;
   cursor: pointer;
 }
-.logo{
+
+.logo {
   display: inline-block;
   cursor: pointer;
-  margin-left: 50px;
-  padding-right: 60px;
-  cursor: pointer;
+  margin-left: 40px;
 }
-.logor{
+
+.logor {
   display: inline-block;
   cursor: pointer;
   color: #fff;
-  margin-right: 0px;
+  margin-right: 40px;
   margin-bottom: 50px;
-  cursor: pointer;
 }
-.odds{
+
+.odds h4 {
   color: #fff;
-  margin-right: 20px;
+  margin-left: 15px;
+  font-size: .75em;
+  margin-top: 25px;
 }
 
 
@@ -499,11 +514,13 @@ table.table2 tbody td {
   height: 80px;
   width: 130px;
   border-bottom: 3px solid black;
-  font-size: .6em;
+  font-size: .7em;
+  
 }
 .value{
   margin-top: -20px;
-  font-size: 3.5em;
+  font-size: 2.5em;
+  margin-top: -20px;
 }
 /* Add left border to each table cell for column separation */
 table.table2 th, table.table2 td {
@@ -644,7 +661,6 @@ table.table2 th:last-child, table.table2 td:last-child {
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
   }
-
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -656,29 +672,32 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .navbar ul li {
     font-size: 2em;
-    padding: 15px 20px; /* Adjust padding for smaller buttons */
+    padding: 15px 17px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 25px;
-    padding-right: 160px;
+    padding-right: calc(20px);
+    padding-left: calc(5px);
     width: 80px;
     height: 80px;
+    margin-left: 20px;
   }
   .odds{
-    margin-left: -70px;
+    margin-right: 0px;
   }
   .logor {
-    padding-right: 50px;
-    margin-bottom: 25px;
-    height: 75px;
-    width: 80px;
+    display: fixed;
+    padding-left: 20px;
+    margin-bottom: 35px;
+    height: 80px;
+    width: 90px;
+    margin-right: 0px;
   }
   .odds h4{
-    padding-right: 120px;
-    font-size: .8em;
-    margin-left: 10px;
-    width: 100%;
+    padding-left: 20px;
+    font-size: 10px;
+    margin-left: 15px;
   }
+
 
 
   /* MAIN */
@@ -686,7 +705,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 /* Container for the banner to use flexbox */
 .banner {
   height: 300vh;
-  top: 120px;
+  top: 90px;
   margin-left: -400px;
   width: 100%; /* Ensure it takes full width */
   overflow: hidden; /* Hide overflow to prevent stretching */
@@ -734,17 +753,17 @@ table.table2 tbody td {
 }
 
 .matchupRow2 {
-  margin: 10px 7px;
+  margin: 10px 10px;
   padding: 5px;
-  width: calc(96%);
+  width: calc(85%);
+  font-size: .75em;
 }
 
 .header {
-  padding: 5px;
-  margin: 5px;
-  height: 120px;
-  width: calc(80%);
-  margin-right: calc(100% + 10px);
+  padding: 1px;
+  margin: 16px;
+  height: 100px;
+  width: 70px;
   font-size: 0.3em;
 }
 
@@ -766,6 +785,7 @@ table.table2 tbody td {
 top: 125px;
 left: -70px;
 }
+
   
   /* SIDENAV */
 
@@ -782,8 +802,8 @@ left: -70px;
   }
 
   .navlogo {
-    height: 60px;
-    width: 60px;
+    height: 55px;
+    width: 55px;
     align-items: row;
     padding: 5px;
   }
@@ -815,7 +835,7 @@ left: -70px;
     display: inline-flex; /* Use flexbox to manage layout of cells */
     margin-top: 35px;
     padding: 10px; /* Padding inside each row */
-    height: 50px;
+    height: 45px;
   }
 
   .leaguelogo {
@@ -863,7 +883,6 @@ left: -70px;
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
   }
-
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -874,29 +893,33 @@ left: -70px;
     padding: 0;
   }
   .navbar ul li {
-    font-size: 2em;
-    padding: 15px 23px; /* Adjust padding for smaller buttons */
+    font-size: 2.3em;
+    padding: 15px 17.5px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 30px;
-    padding-right: 150px;
+    padding-right: calc(20px);
+    padding-left: calc(5px);
     width: 80px;
     height: 80px;
+    margin-left: 20px;
   }
   .odds{
-    margin-left: -70px;
+    margin-right: 0px;
   }
   .logor {
-    padding-right: 50px;
-    margin-bottom: 25px;
-    height: 75px;
-    width: 80px;
+    display: fixed;
+    padding-left: 20px;
+    margin-bottom: 35px;
+    height: 80px;
+    width: 90px;
+    margin-right: 0px;
   }
   .odds h4{
-    padding-right: 0px;
-    font-size: .8em;
-    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 10px;
+    margin-left: 15px;
   }
+
 
 
 
@@ -907,7 +930,7 @@ left: -70px;
 /* Container for the banner to use flexbox */
 .banner {
   height: 300vh;
-  top: 120px;
+  top: 110px;
   margin-left: -400px;
   width: 100%; /* Ensure it takes full width */
   overflow: hidden; /* Hide overflow to prevent stretching */
@@ -954,16 +977,16 @@ table.table2 tbody td {
 }
 
 .matchupRow2 {
-  margin: 10px 7px;
+  margin: 10px 10px;
   padding: 5px;
-  width: calc(97%);
+  width: calc(95%);
 }
 
 .header {
-  padding: 8px;
+  padding: 1px;
   margin: 16px;
   height: 100px;
-  width: calc(70%);
+  width: 70px;
   font-size: 0.3em;
 }
 
@@ -1062,12 +1085,15 @@ left: -100px;
     align-items: center; /* Center align items */
     overflow-y: hidden;
   }
+
+
   /* NAVBAR */
+
+
   .navbar{
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
   }
-
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -1078,28 +1104,31 @@ left: -100px;
     padding: 0;
   }
   .navbar ul li {
-    font-size: 2em;
-    padding: 15px 30px; /* Adjust padding for smaller buttons */
+    font-size: 2.3em;
+    padding: 15px 17.5px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 30px;
-    padding-right: 170px;
+    padding-right: calc(20px);
+    padding-left: calc(5px);
     width: 80px;
     height: 80px;
+    margin-left: 20px;
   }
   .odds{
-    margin-left: -65px;
+    margin-right: 0px;
   }
   .logor {
-    padding-right: 50px;
-    margin-bottom: 25px;
-    height: 75px;
-    width: 80px;
+    display: fixed;
+    padding-left: 20px;
+    margin-bottom: 35px;
+    height: 80px;
+    width: 90px;
+    margin-right: 0px;
   }
   .odds h4{
-    padding-right: 0px;
-    font-size: .8em;
-    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 10px;
+    margin-left: 15px;
   }
 
 
@@ -1111,7 +1140,7 @@ left: -100px;
 /* Container for the banner to use flexbox */
 .banner {
   height: 300vh;
-  top: 120px;
+  top: 110px;
   margin-left: -400px;
   width: 100%; /* Ensure it takes full width */
   overflow: hidden; /* Hide overflow to prevent stretching */
@@ -1159,19 +1188,18 @@ table.table2 tbody td {
 }
 
 .matchupRow2 {
-  margin: 10px 7px;
+  margin: 10px 10px;
   padding: 5px;
-  width: calc(97%);
+  width: calc(95%);
 }
 
 .header {
-  padding: 9px;
-  margin: 20px;
+  padding: 0px;
+  margin: 16px;
   height: 100px;
-  width: calc(65%);
+  width: 80px;
   font-size: 0.3em;
 }
-
 .headerContainer h1 {
   margin-top: 150px;
   margin-left: calc(-60%); /* Reset left margin */

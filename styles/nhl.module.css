@@ -45,7 +45,7 @@
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
   background-size: 120%;
   z-index: 100;
-  font-size: 1em;
+  font-size: .7em;
 }
 
 .navbar p {
@@ -57,16 +57,16 @@
   display: flex;
   list-style-type: none;
   padding: 0;
-  margin-right: 160px;
+  margin-right: 75px;
 }
 
 .navbar ul li {
   display: inline-block;
   position: relative;
   color: white;
-  font-size: 1.6em;
+  font-size: 2em;
   cursor: pointer;
-  padding: 20px 70px;
+  padding: 20px 80px;
   background: transparent;
   box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
   border: 3px solid white;
@@ -144,15 +144,14 @@
 .logo {
   display: inline-block;
   cursor: pointer;
-  margin-left: 50px;
-  padding-right: 60px;
+  margin-left: 40px;
 }
 
 .logor {
   display: inline-block;
   cursor: pointer;
   color: #fff;
-  margin-right: 20px;
+  margin-right: 40px;
   margin-bottom: 50px;
 }
 
@@ -162,7 +161,6 @@
   font-size: .75em;
   margin-top: 25px;
 }
-
 
 /* MAIN CONTENT*/
 
@@ -690,14 +688,15 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 2.5em;
-    padding: 15px 12.5px; /* Adjust padding for smaller buttons */
+    font-size: 2.4em;
+    padding: 14.5px 17px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 20px;
-    padding-right: 20px;
+    padding-right: calc(10px);
+    padding-left: calc(5px);
     width: 80px;
     height: 80px;
+    margin-left: 20px;
   }
   .odds{
     margin-right: 0px;
@@ -705,24 +704,23 @@ table.table2 th:last-child, table.table2 td:last-child {
   .logor {
     display: fixed;
     padding-left: 20px;
-    margin-bottom: 25px;
-    height: 75px;
-    width: 80px;
+    margin-bottom: 35px;
+    height: 80px;
+    width: 90px;
+    margin-right: 0px;
   }
   .odds h4{
     padding-left: 20px;
-    font-size: .8em;
-    margin-left: 8px;
+    font-size: 10px;
+    margin-left: 15px;
   }
-
-
 
   /* MAIN */
 
 
   .banner {
     height: 300vh;
-    top: 120px;
+    top: 110px;
     margin-left: -400px;
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
@@ -776,7 +774,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   .header {
     padding: 10px; /* Padding inside each row */
     height: 100px;
-    width: 130px; /* Full width */
+    width: 120px; /* Full width */
     font-size: 1em;
   }
 
@@ -817,7 +815,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .sideNav {
     width: 100%;
-    height: 100px;
+    height: 110px;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
@@ -845,12 +843,11 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .table {
-    width: 25%;
-    margin-top: 10; /* Moves table up and down */
+    width: 30%;
+    margin-top: 20; /* Moves table up and down */
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
-    margin-left: -20px;
   }
 
   .total {
@@ -860,7 +857,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow {
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 7.5px; /* Padding inside each row */
+    padding: 10px; /* Padding inside each row */
     height: 50px;
     margin-top: 37.5px;
   }
@@ -923,14 +920,15 @@ table.table2 th:last-child, table.table2 td:last-child {
     padding: 0;
   }
   .navbar ul li {
-    font-size: 2.5em;
-    padding: 15px 15px; /* Adjust padding for smaller buttons */
+    font-size: 2.4em;
+    padding: 16px 20px; /* Adjust padding for smaller buttons */
   }
   .logo {
-    margin-left: 20px;
-    padding-right: 20px;
+    padding-right: calc(20px);
+    padding-left: calc(5px);
     width: 80px;
     height: 80px;
+    margin-left: 20px;
   }
   .odds{
     margin-right: 0px;
@@ -938,13 +936,14 @@ table.table2 th:last-child, table.table2 td:last-child {
   .logor {
     display: fixed;
     padding-left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     height: 80px;
     width: 90px;
+    margin-right: 0px;
   }
   .odds h4{
     padding-left: 20px;
-    font-size: .8em;
+    font-size: 10px;
     margin-left: 15px;
   }
 
@@ -956,7 +955,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   /* MAIN */
   .banner {
     height: 300vh;
-    top: 120px;
+    top: 110px;
     margin-left: -400px;
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
@@ -1008,7 +1007,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   .header {
     padding: 10px; /* Padding inside each row */
     height: 100px;
-    width: 130px; /* Full width */
+    width: 120px; /* Full width */
     font-size: 1em;
   }
 
@@ -1049,7 +1048,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .sideNav {
     width: 100%;
-    height: 100px;
+    height: 110px;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
@@ -1082,7 +1081,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
-    margin-left: -25px;
+    margin-left: 0px;
   }
 
   .total {
@@ -1093,8 +1092,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
     padding: 7.5px; /* Padding inside each row */
-    height: 50px;
-    margin-top: 37.5px;
+    height: 55px;
+    margin-top: 40px;
   }
 
   .leaguelogo {

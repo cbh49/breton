@@ -8,7 +8,7 @@
 const nextConfig = {
   // Enable image optimization for external sources
   images: {
-    domains: ['cdn.freebiesupply.com', 'seeklogo.com', 'a.espncdn.com'],
+    domains: ['cdn.freebiesupply.com', 'seeklogo.com', 'a.espncdn.com', 'img.mlbstatic.com'],
   },
 
   // Add a rewrites function if you need to redirect old URLs or pattern match

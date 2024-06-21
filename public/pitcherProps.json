@@ -1,23 +1,56 @@
 [
     {
-        "name": "MacKenzie Gore",
-        "team": "Washington Nationals",
-        "Line": 6.5,
-        "OverUnder": "OVER",
-        "Rate": "4/5 (80%)"
-    },
-    {
-        "name": "Chris Flexen",
-        "team": "Chicago White Sox",
+        "name": "Jordan Montgomery",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656756/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
         "Line": 4.5,
         "OverUnder": "UNDER",
-        "Rate": "4/5 (80%)"
+        "Rate": "4/5 (80%)",
+        "Odds": "-139"
     },
     {
-        "name": "Seth Lugo",
-        "team": "Kansas City Royals",
-        "Line": 6.5,
+        "name": "Grayson Rodriguez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680570/headshot/silo/current",
+        "team": "Baltimore Orioles",
+        "Line": 5.5,
+        "OverUnder": "OVER",
+        "Rate": "4/5 (80%)",
+        "Odds": "-124"
+    },
+    {
+        "name": "Andrew Abbott",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/671096/headshot/silo/current",
+        "team": "Cincinnati Reds",
+        "Line": 5.5,
         "OverUnder": "UNDER",
-        "Rate": "5/5 (100%)"
+        "Rate": "4/5 (80%)",
+        "Odds": "-124"
+    },
+    {
+        "name": "Erick Fedde",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607200/headshot/silo/current",
+        "team": "Chicago White Sox",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "Rate": "4/5 (80%)",
+        "Odds": "-150"
+    },
+    {
+        "name": "Jose Quintana",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/500779/headshot/silo/current",
+        "team": "New York Mets",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "Rate": "4/5 (80%)",
+        "Odds": "+130"
+    },
+    {
+        "name": "Trevor Rogers",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669432/headshot/silo/current",
+        "team": "Miami Marlins",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "Rate": "5/5 (100%)",
+        "Odds": "+120"
     }
 ]

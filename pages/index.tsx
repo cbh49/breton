@@ -37,14 +37,8 @@ const dataSections = [
     buttons: [
       { label: 'OVER/UNDER', href: '/mlb' },
       { label: 'MONEYLINE', href: '/mlbml' },
-      { label: 'NRFI', href: '/nrfi' }
-    ]
-  },
-  {
-    text: 'NBA',
-    buttons: [
-      { label: 'ALT PROPS', href: '/prop' },
-      { label: 'PROPS', href: '/fullprop' }
+      { label: 'NRFI', href: '/nrfi' },
+      { label: 'Strikeouts', href: '/pitchProp' },
     ]
   }
 ];
@@ -233,7 +227,7 @@ const Home = () => {
       </div>
       <div className={styles.imageTextContainer}>
         <Image src="/money.png" alt="Logo"  className={styles.aboutlogo} width={125} height={120} />
-        <p>All of our data gets posted and tracked daily. Use our data, find the plays you like best, and make money. It&apos;s just that easy.</p>
+        <p>All of our data gets posted and tracked daily. Use our data, find the plays you like best, and beat the books. It&apos;s just that easy.</p>
       </div>
     </div>
   </div>
@@ -260,7 +254,7 @@ const Home = () => {
             Over/Under
           </span>
         </td>
-        <td>68%</td>
+        <td>65%</td>
       </tr>
       <tr>
         <td>
@@ -285,34 +279,24 @@ const Home = () => {
       <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
       <Link href="/" passHref></Link>
       <ul><li><Link href="/" passHref>HOME</Link></li>
+      <li><Link href="/mlb">MLB O/U</Link></li>
+      <li><Link href="/mlbml">MLB ML</Link></li>
+      <li><Link href="/nrfi">NRFI</Link></li>
         <li
           onMouseEnter={() => setIsMLBDropdownVisible(true)}
           onMouseLeave={() => setIsMLBDropdownVisible(false)}
         >
-          MLB
+          MLB Props
           {isMLBDropdownVisible && (
             <div className={styles.dropdown}>
-              <Link href="/mlb"><p>Over/Under</p></Link>
-              <Link href="/mlbml"><p>ML PICKS</p></Link>
-              <Link href="/nrfi"><p>NRFI</p></Link>
+              <Link href="/pitchProp"><p>Strike Outs</p></Link>
+              <Link href="/bases"><p>Total Bases</p></Link>
+              <Link href="/hits"><p>Hits</p></Link>
+              <Link href="/rbi"><p>RBIs</p></Link>
+              
             </div>
           )}
         </li>
-        <li
-          onMouseEnter={() => setIsNbaDropdownVisible(true)}
-          onMouseLeave={() => setIsNbaDropdownVisible(false)}
-        >
-          NBA
-          {isNbaDropdownVisible && (
-            <div className={styles.dropdown}>
-              <Link href="/nba"><p>Over/Under</p></Link>
-              <Link href="/fullprop"><p>Player Props</p></Link>
-              <Link href="/prop"><p>Alt Player Props</p></Link>
-            </div>
-          )}
-        </li>
-        <li><Link href="/news">NEWS</Link></li>
-        <li><Link href="/ncaab">CBB</Link></li>
       </ul>
       <div className={styles.odds}>
       <h4>Odds via:</h4>

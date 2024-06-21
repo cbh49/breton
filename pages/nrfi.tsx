@@ -46,7 +46,7 @@ const MLB = () => {
   const [nrfiResults, setNrfiResults] = useState<{ NRFI: { correct: number, total: number }, YRFI: { correct: number, total: number } } | null>(null);
   const numGames = matchups.length;
   const [isVisible, setIsVisible] = useState(false);
-  const tableTopSpacing = `${450}px`;
+  const tableTopSpacing = `${455}px`;
   const [tableMarginTop, setTableMarginTop] = useState(0);
   const contentRef = useRef<HTMLParagraphElement>(null);
   const [isNbaDropdownVisible, setIsNbaDropdownVisible] = useState(false);
@@ -142,44 +142,33 @@ const MLB = () => {
       </Head>
       <div className={styles.banner}></div>
       <div className={styles.navbar}>
-        <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
-        <Link href="/index" passHref></Link>
-        <ul>
-          <li><Link href="/">HOME</Link></li>
-          <li
-            onMouseEnter={() => setIsMLBDropdownVisible(true)}
-            onMouseLeave={() => setIsMLBDropdownVisible(false)}
-          >
-            MLB
-            {isMLBDropdownVisible && (
-              <div className={styles.dropdown}>
-                <Link href="/mlb"><p>Over/Under</p></Link>
-                <Link href="/mlbml"><p>ML PICKS</p></Link>
-                <Link href="/nrfi"><p>NRFI</p></Link>
-              </div>
-            )}
-          </li>
-          <li
-            onMouseEnter={() => setIsNbaDropdownVisible(true)}
-            onMouseLeave={() => setIsNbaDropdownVisible(false)}
-          >
-            NBA
-            {isNbaDropdownVisible && (
-              <div className={styles.dropdown}>
-                <Link href="/nba"><p>Over/Under</p></Link>
-                <Link href="/fullprop"><p>Player Props</p></Link>
-                <Link href="/prop"><p>Alt Player Props</p></Link>
-              </div>
-            )}
-          </li>
-          <li><Link href="/news">NEWS</Link></li>
-          <li><Link href="/ncaab">CBB</Link></li>
-        </ul>
-        <div className={styles.odds}>
-          <h4>Odds via:</h4>
-          <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor} />
-        </div>
-      </div>
+   
+   <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+   <Link href="/" passHref></Link>
+   <ul><li><Link href="/" passHref>HOME</Link></li>
+   <li><Link href="/mlb">MLB O/U</Link></li>
+   <li><Link href="/mlbml">MLB ML</Link></li>
+   <li><Link href="/nrfi">NRFI</Link></li>
+     <li
+       onMouseEnter={() => setIsMLBDropdownVisible(true)}
+       onMouseLeave={() => setIsMLBDropdownVisible(false)}
+     >
+       MLB Props
+       {isMLBDropdownVisible && (
+         <div className={styles.dropdown}>
+           <Link href="/pitchProp"><p>Strike Outs</p></Link>
+           <Link href="/bases"><p>Total Bases</p></Link>
+           <Link href="/hits"><p>Hits</p></Link>
+           <Link href="/rbi"><p>RBIs</p></Link>
+         </div>
+       )}
+     </li>
+   </ul>
+   <div className={styles.odds}>
+   <h4>Odds via:</h4>
+   <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor}/>
+   </div>
+ </div>
       <div className={styles.content}>
         <div className={styles.headerContainer}>
           <h1>MLB NRFI</h1>
@@ -199,6 +188,9 @@ const MLB = () => {
                 </Link>
                 <Link href="/nrfi">
                   <p>NRFI</p>
+                </Link>
+                <Link href="/pitchProp">
+                  <p>Strikeouts</p>
                 </Link>
               </div>
             )}
@@ -458,8 +450,8 @@ const MLB = () => {
     <Image
       src="/right-arrow.png" // Update with your actual image path
       alt="Next 7 Games"
-      width={50} // Set appropriate width
-      height={50} // Set appropriate height
+      width={30} // Set appropriate width
+      height={30} // Set appropriate height
     />
   </button>
   )}
