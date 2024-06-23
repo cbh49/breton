@@ -1,101 +1,101 @@
 [
     {
-        "Team1": "Minnesota Twins",
-        "Team2": "Oakland Athletics",
-        "Team1total": 7.835520000000001,
-        "Team2total": 4.348888888888889,
-        "Team1Pitcher": "Bailey Ober",
-        "Team2Pitcher": "JP Sears",
-        "MLdifference": 3.4866311111111115
-    },
-    {
         "Team1": "Boston Red Sox",
         "Team2": "Cincinnati Reds",
-        "Team1total": 5.6448,
-        "Team2total": 2.2003519999999996,
-        "Team1Pitcher": "Nick Pivetta",
-        "Team2Pitcher": "Frankie Montas",
-        "MLdifference": 3.4444480000000004
-    },
-    {
-        "Team1": "Washington Nationals",
-        "Team2": "Colorado Rockies",
-        "Team1total": 3.7224,
-        "Team2total": 6.633522000000001,
-        "Team1Pitcher": "Mitchell Parker",
-        "Team2Pitcher": "Cal Quantrill",
-        "MLdifference": 2.911122000000001
+        "Team1total": 5.4516,
+        "Team2total": 2.278936,
+        "Team1Pitcher": "Zack Kelly",
+        "Team2Pitcher": "Nick Lodolo",
+        "MLdifference": 3.172664
     },
     {
         "Team1": "New York Mets",
         "Team2": "Chicago Cubs",
-        "Team1total": 5.9062079999999995,
-        "Team2total": 3.072,
-        "Team1Pitcher": "Tylor Megill",
-        "Team2Pitcher": "Jameson Taillon",
-        "MLdifference": 2.8342079999999994
+        "Team1total": 5.979080000000001,
+        "Team2total": 3.686,
+        "Team1Pitcher": "Luis Severino",
+        "Team2Pitcher": "Javier Assad",
+        "MLdifference": 2.2930800000000007
     },
     {
-        "Team1": "Baltimore Orioles",
-        "Team2": "Houston Astros",
-        "Team1total": 6.480760000000001,
-        "Team2total": 4.158,
-        "Team1Pitcher": "Corbin Burnes",
-        "Team2Pitcher": "Ronel Blanco",
-        "MLdifference": 2.3227600000000006
+        "Team1": "Washington Nationals",
+        "Team2": "Colorado Rockies",
+        "Team1total": 4.850776,
+        "Team2total": 6.33072,
+        "Team1Pitcher": "Jake Irvin",
+        "Team2Pitcher": "Kyle Freeland",
+        "MLdifference": 1.4799440000000006
     },
     {
-        "Team1": "Atlanta Braves",
-        "Team2": "New York Yankees",
-        "Team1total": 4.120116,
-        "Team2total": 6.0669400000000016,
-        "Team1Pitcher": "Charlie Morton",
-        "Team2Pitcher": "Marcus Stroman",
-        "MLdifference": 1.9468240000000012
-    },
-    {
-        "Team1": "Tampa Bay Rays",
-        "Team2": "Pittsburgh Pirates",
-        "Team1total": 4.8925,
-        "Team2total": 3.0096,
-        "Team1Pitcher": "Zach Eflin",
-        "Team2Pitcher": "Jared Jones",
-        "MLdifference": 1.8829000000000002
-    },
-    {
-        "Team1": "Arizona Diamondbacks",
-        "Team2": "Philadelphia Phillies",
-        "Team1total": 5.86656,
-        "Team2total": 4.187568000000001,
-        "Team1Pitcher": "Tommy Henry",
-        "Team2Pitcher": "Zack Wheeler",
-        "MLdifference": 1.6789919999999992
-    },
-    {
-        "Team1": "San Francisco Giants",
-        "Team2": "St. Louis Cardinals",
-        "Team1total": 5.04288,
-        "Team2total": 3.4954919999999996,
-        "Team1Pitcher": "Jordan Hicks",
-        "Team2Pitcher": "Miles Mikolas",
-        "MLdifference": 1.5473880000000007
+        "Team1": "Minnesota Twins",
+        "Team2": "Oakland Athletics",
+        "Team1total": 6.0231111111111115,
+        "Team2total": 4.546995555555556,
+        "Team1Pitcher": "Pablo L\u00c3\u0192\u00c2\u00b3pez",
+        "Team2Pitcher": "Hogan Harris",
+        "MLdifference": 1.4761155555555554
     },
     {
         "Team1": "Toronto Blue Jays",
         "Team2": "Cleveland Guardians",
-        "Team1total": 2.8520000000000003,
-        "Team2total": 4.358592,
-        "Team1Pitcher": "Jos\u00c3\u0192\u00c2\u00a9 Berr\u00c3\u0192\u00c2\u00ados",
-        "Team2Pitcher": "Ben Lively",
-        "MLdifference": 1.5065919999999995
+        "Team1total": 3.1679999999999997,
+        "Team2total": 4.1690879999999995,
+        "Team1Pitcher": "Yusei Kikuchi",
+        "Team2Pitcher": "Triston McKenzie",
+        "MLdifference": 1.0010879999999998
     },
     {
-        "Team1": "Kansas City Royals",
-        "Team2": "Texas Rangers",
-        "Team1total": 3.0362640000000005,
-        "Team2total": 3.55776,
-        "Team1Pitcher": "Michael Wacha",
-        "Team2Pitcher": "Jon Gray",
-        "MLdifference": 0.5214959999999995
+        "Team1": "San Francisco Giants",
+        "Team2": "St. Louis Cardinals",
+        "Team1total": 5.33664,
+        "Team2total": 4.403994,
+        "Team1Pitcher": "Logan Webb",
+        "Team2Pitcher": "Sonny Gray",
+        "MLdifference": 0.9326460000000001
+    },
+    {
+        "Team1": "Tampa Bay Rays",
+        "Team2": "Pittsburgh Pirates",
+        "Team1total": 4.133184,
+        "Team2total": 3.4579999999999997,
+        "Team1Pitcher": "Aaron Civale",
+        "Team2Pitcher": "Paul Skenes",
+        "MLdifference": 0.6751840000000002
+    },
+    {
+        "Team1": "Arizona Diamondbacks",
+        "Team2": "Philadelphia Phillies",
+        "Team1total": 5.2624,
+        "Team2total": 4.7586,
+        "Team1Pitcher": "Slade Cecconi",
+        "Team2Pitcher": "Cristopher S\u00c3\u0192\u00c2\u00a1nchez",
+        "MLdifference": 0.5038
+    },
+    {
+        "Team1": "Chicago White Sox",
+        "Team2": "Detroit Tigers",
+        "Team1total": 2.381544,
+        "Team2total": 2.8566499999999997,
+        "Team1Pitcher": "Jonathan Cannon",
+        "Team2Pitcher": "Reese Olson",
+        "MLdifference": 0.4751059999999998
+    },
+    {
+        "Team1": "Milwaukee Brewers",
+        "Team2": "San Diego Padres",
+        "Team1total": 4.259200000000001,
+        "Team2total": 4.61736,
+        "Team1Pitcher": "Tobias Myers",
+        "Team2Pitcher": "Michael King",
+        "MLdifference": 0.3581599999999989
+    },
+    {
+        "Team1": "Atlanta Braves",
+        "Team2": "New York Yankees",
+        "Team1total": 5.3768,
+        "Team2total": 5.337948000000001,
+        "Team1Pitcher": "Max Fried",
+        "Team2Pitcher": "Nestor Cortes",
+        "MLdifference": 0.03885199999999944
     }
 ]
