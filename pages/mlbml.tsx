@@ -1,5 +1,5 @@
 // pages/mlbml.tsx
-import styles from '../styles/nhl.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
+import styles from '../styles/ncaab2.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -161,6 +161,7 @@ const MLB = () => {
       <Head>
         <title>BRETON</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale= 1, user-scalable=yes" />
       </Head>
       <div className={styles.banner}></div>
       <div className={styles.navbar}>
@@ -168,9 +169,19 @@ const MLB = () => {
    <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
    <Link href="/" passHref></Link>
    <ul><li><Link href="/" passHref>HOME</Link></li>
-   <li><Link href="/mlb">MLB O/U</Link></li>
-   <li><Link href="/mlbml">MLB ML</Link></li>
-   <li><Link href="/nrfi">NRFI</Link></li>
+   <li
+       onMouseEnter={() => setIsMLBDropdownVisible(true)}
+       onMouseLeave={() => setIsMLBDropdownVisible(false)}
+     >
+       MLB Models
+       {isMLBDropdownVisible && (
+         <div className={styles.dropdown}>
+          <Link href="/mlb"><p>MLB O/U</p></Link>
+          <Link href="/mlbml"><p>MLB ML</p></Link>
+          <Link href="/nrfi"><p>NRFI</p></Link>
+         </div>
+       )}
+     </li>
      <li
        onMouseEnter={() => setIsMLBDropdownVisible(true)}
        onMouseLeave={() => setIsMLBDropdownVisible(false)}
@@ -185,6 +196,7 @@ const MLB = () => {
          </div>
        )}
      </li>
+     <li><Link href="/news" passHref>AI Picks</Link></li>
    </ul>
    <div className={styles.odds}>
    <h4>Odds via:</h4>
@@ -211,18 +223,17 @@ const MLB = () => {
                 <Link href="/nrfi">
                   <p>NRFI</p>
                 </Link>
-                <Link href="/pitchProp">
-                  <p>Strikeouts</p>
-                </Link>
               </div>
             )}
           </div>
         </div>
+        <div className={styles.info}><p>These projections are made by pulling in each Teams Offensive, Defensive, and Pitcher recent performance and modifying them against each other. </p></div>
         <div className={styles.results}>
           ML Results: <br />
           {results ? (
-            <p>
-              2+: {results.greater_than_2.correct}/{results.greater_than_2.total} ({((results.greater_than_2.correct / results.greater_than_2.total) * 100).toFixed(0)}%)<br />
+            
+            <p className = {styles.resultsText}>
+              2+: {results.greater_than_2.correct}/{results.greater_than_2.total} ({((results.greater_than_2.correct / results.greater_than_2.total) * 100).toFixed(0)}%) <br />
               1-2: {results.between_1_and_2.correct}/{results.between_1_and_2.total} ({((results.between_1_and_2.correct / results.between_1_and_2.total) * 100).toFixed(0)}%)
             </p>
           ) : (
@@ -246,7 +257,9 @@ const MLB = () => {
                   <tr className={styles.tablelogo}>
                     <td colSpan={6}>
                       <span style={{ fontSize: '11px', display: 'inline-flex', paddingLeft: '10px', alignItems: 'center' }}>
+                      <div className={styles.spanFont}>
                         {item.Team1} <br /> <br /> P: {item.Team1Pitcher}
+                        </div>
                         {logos[item.Team1] && (
                           <Image
                             src={logos[item.Team1]}
@@ -266,7 +279,9 @@ const MLB = () => {
                             style={{ marginLeft: '30px', marginRight: '30px' }}
                           />
                         )}
+                        <div className={styles.spanFont}>
                         {item.Team2} <br /> <br /> P: {item.Team2Pitcher}
+                        </div>
                       </span>
                     </td>
                   </tr>

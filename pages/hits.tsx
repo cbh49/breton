@@ -1,5 +1,5 @@
 //pages/hits.tsx
-import styles from '../styles/news.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
+import styles from '../styles/prop.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -23,7 +23,7 @@ type AdjMatchData = {
   Line: number;
   OverUnder: string;
   HitRate: string;
-  odds: string;
+  Odds: number;
   Headshot: string;
 };
 
@@ -137,6 +137,7 @@ const MLB = () => {
       <Head>
         <title>BRETON</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale= 1, user-scalable=yes" />
       </Head>
       <div className={styles.banner}></div>
       <div className={styles.navbar}>
@@ -144,9 +145,19 @@ const MLB = () => {
    <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
    <Link href="/" passHref></Link>
    <ul><li><Link href="/" passHref>HOME</Link></li>
-   <li><Link href="/mlb">MLB O/U</Link></li>
-   <li><Link href="/mlbml">MLB ML</Link></li>
-   <li><Link href="/nrfi">NRFI</Link></li>
+   <li
+       onMouseEnter={() => setIsMLBDropdownVisible(true)}
+       onMouseLeave={() => setIsMLBDropdownVisible(false)}
+     >
+       MLB Models
+       {isMLBDropdownVisible && (
+         <div className={styles.dropdown}>
+          <Link href="/mlb"><p>MLB O/U</p></Link>
+          <Link href="/mlbml"><p>MLB ML</p></Link>
+          <Link href="/nrfi"><p>NRFI</p></Link>
+         </div>
+       )}
+     </li>
      <li
        onMouseEnter={() => setIsMLBDropdownVisible(true)}
        onMouseLeave={() => setIsMLBDropdownVisible(false)}
@@ -161,6 +172,7 @@ const MLB = () => {
          </div>
        )}
      </li>
+     <li><Link href="/news" passHref>AI Picks</Link></li>
    </ul>
    <div className={styles.odds}>
    <h4>Odds via:</h4>
@@ -200,8 +212,8 @@ const MLB = () => {
                 <td colSpan={6}>No Games Today!</td>
               </tr>
             ) : isSubscribed ? (
-              adjMatchData.map((item, index) => (
-                <React.Fragment key={index}>
+              adjMatchData.map((item) => (
+                <React.Fragment key={item.PlayerName}>
                 <tr className={styles.matchupRow2}>
                   <td>
                     <div className={styles.header}>
@@ -249,7 +261,7 @@ const MLB = () => {
                       <div
                         className={styles.header}>
                         <p>Odds:</p>
-                        <div className={styles.value}>{(item.Line)}</div>
+                        <div className={styles.value}>{(item.Odds)}</div>
                       </div>
                     </td>
                     <td>

@@ -1,5 +1,5 @@
 // pages/mlb.tsx
-import styles from '../styles/ncaab.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
+import styles from '../styles/ncaab2.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -151,16 +151,29 @@ const MLB = () => {
       <Head>
         <title>BRETON</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale= 1, user-scalable=yes" />
       </Head>
+      <div className="grid-container">
+    <div className="grid-item">
       <div className={styles.banner}></div>
       <div className={styles.navbar}>
    
    <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
    <Link href="/" passHref></Link>
    <ul><li><Link href="/" passHref>HOME</Link></li>
-   <li><Link href="/mlb">MLB O/U</Link></li>
-   <li><Link href="/mlbml">MLB ML</Link></li>
-   <li><Link href="/nrfi">NRFI</Link></li>
+   <li
+       onMouseEnter={() => setIsMLBDropdownVisible(true)}
+       onMouseLeave={() => setIsMLBDropdownVisible(false)}
+     >
+       MLB Models
+       {isMLBDropdownVisible && (
+         <div className={styles.dropdown}>
+          <Link href="/mlb"><p>MLB O/U</p></Link>
+          <Link href="/mlbml"><p>MLB ML</p></Link>
+          <Link href="/nrfi"><p>NRFI</p></Link>
+         </div>
+       )}
+     </li>
      <li
        onMouseEnter={() => setIsMLBDropdownVisible(true)}
        onMouseLeave={() => setIsMLBDropdownVisible(false)}
@@ -175,6 +188,7 @@ const MLB = () => {
          </div>
        )}
      </li>
+     <li><Link href="/news" passHref>AI Picks</Link></li>
    </ul>
    <div className={styles.odds}>
    <h4>Odds via:</h4>
@@ -201,13 +215,11 @@ const MLB = () => {
                 <Link href="/nrfi">
                   <p>NRFI</p>
                 </Link>
-                <Link href="/pitchProp">
-                  <p>Strikeouts</p>
-                </Link>
               </div>
             )}
           </div>
         </div>
+        <div className={styles.info}><p>These projections are made by pulling in each Teams Offensive, Defensive, and Pitcher recent performance and modifying them against each other. </p></div>
         <div className={styles.results}><p ref={contentRef}>
           Hit Rates (Difference): <br />
           <span style={{ color: getPercentageColor(tallies["2+"]) }}> 2+: {tallies["2+"]}</span> <br />
@@ -215,7 +227,9 @@ const MLB = () => {
           <span style={{ color: getPercentageColor(tallies["-1_to_-2"]) }}>(-1-2): {tallies["-1_to_-2"]}</span> <br />
           <span style={{ color: getPercentageColor(tallies["-2-"]) }}>(-2+): {tallies["-2-"]}</span>
         </p>
+        
         </div>
+        
         <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
           <thead>
             <th>Game</th>
@@ -231,14 +245,16 @@ const MLB = () => {
                   <tr className={styles.tablelogo}>
                     <td colSpan={6}>
                       <span style={{ fontSize: '11px', display: 'inline-flex', alignItems: 'center' }}>
+                      <div className={styles.spanFont}>
                         {item.Team1} <br /> <br /> P: {item.Team1Pitcher}
+                        </div>
                         {logos[item.Team1] && (
                           <Image
                             src={logos[item.Team1]}
                             alt={`logo`}
                             width={60}
                             height={50}
-                            style={{ marginLeft: '30px', marginRight: '30px' }}
+                            style={{ marginLeft: '25px', marginRight: '25px' }}
                           />
                         )}
                         <td className={styles.atSymbol2}>@</td>
@@ -248,10 +264,12 @@ const MLB = () => {
                             alt={`logo`}
                             width={60}
                             height={50}
-                            style={{ marginLeft: '30px', marginRight: '30px' }}
+                            style={{ marginLeft: '25px', marginRight: '25px' }}
                           />
                         )}
+                        <div className={styles.spanFont}>
                         {item.Team2} <br /> <br /> P: {item.Team2Pitcher}
+                        </div>
                       </span>
                     </td>
                   </tr>
@@ -408,6 +426,8 @@ const MLB = () => {
     />
   </button>
   )}
+  </div>
+  </div>
         </div>
       </>
     );

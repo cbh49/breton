@@ -251,6 +251,18 @@
 .results p{
   color: #68b42b;
 }
+.info{
+  border-radius: 10%;
+  box-shadow: 0 1px 3px rgba(0,0,0, 1); /* Shadow for 3D effect */;
+  margin-bottom: 10px;
+  width: 200px;
+  align-content: center;
+  margin-left: 475px;
+  border: 1px solid #68b42b;
+  background-color: #303030;
+  margin-left: calc(40%);
+  font-size: .5em;
+}
 .chartButton {
   position: relative;
   cursor: pointer;
@@ -794,6 +806,10 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin-left: calc(-60%); /* Reset left margin */
     width: 100%;
   }
+  .info{
+    margin-left: calc(-40%); /* Reset left margin */
+    width: 60%;
+  }
 .chartButton{
   top: 125px;
   left: -70px;
@@ -1007,8 +1023,8 @@ table.table2 th:last-child, table.table2 td:last-child {
   .header {
     padding: 10px; /* Padding inside each row */
     height: 100px;
-    width: 120px; /* Full width */
-    font-size: 1em;
+    width: 110px; /* Full width */
+    font-size: .75em;
   }
 
   .headerContainer h1 {
@@ -1027,6 +1043,10 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin-left: calc(-52.5%); /* Reset left margin */
     width: 100%;
   }
+  .info{
+    margin-left: calc(-32.5%); /* Reset left margin */
+    width: 60%;
+  }
 .chartButton{
   top: 125px;
   left: -50px;
@@ -1041,7 +1061,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 }
 .value{
   margin-top: -10px;
-  font-size: 2.5em;
+  font-size: 3.25em;
 }
 
   /* SIDENAV */

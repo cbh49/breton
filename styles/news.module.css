@@ -20,6 +20,18 @@
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
   width: calc(78.5%);
 }
+.banner2{
+  left: 0px;
+  margin-top: 130px;
+  border-radius: 2%;
+  height: 100vh; /* This will make sure your banner covers the full viewport height */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
+  background-size: 8%;
+  background-position: center;
+  position: fixed;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  width: calc(100%);
+}
 
 
 
@@ -300,8 +312,198 @@
   background-color: #68b42b;
   color: white;
 }
+.innerTable{
+  width: 100%;
+}
 
+/*NEWS PAGE TABLE*/
 
+.tableContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Distributes space between the tables */
+  margin-left: 0%;
+  z-index: 100;
+  overflow: visible;
+}
+.content2{
+  position: absolute;
+  top: 15vh; /* Example: Adjust based on your actual navbar height */
+  left: 40px; /* Push content to the right to account for sideNav width */
+  width: calc(95% ); /* Subtract sideNav width from total width */
+  z-index: 1; /* Lower z-index than sideNav so it scrolls under it */
+  text-align: center;
+  color: #fff;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.content2 h1{
+  font-size: 70px;
+  margin-top: 55px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  width: 1000px;
+  margin-left: 32%;
+}
+.content2 p{
+  margin: 10px 0 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.stattable1 {
+flex: 1; /* Ensures the tables take equal space */
+margin: 10px; 
+color: #000;
+width: 90%;
+text-align: center;
+background-color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: calc(0%);
+margin-right: calc(0%);
+border-radius: 10px;
+margin-top: 0px;
+background-color:rgba(238, 236, 236, 0.941);
+box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+z-index: 10;
+}
+.statttable1 th, .stattable1 td {
+border-radius: 20px;
+color: #000;
+text-align: center;
+border-color:  rgba(0,0,0,0.2);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 1px solid #68b42b;
+padding-top: 5px;
+font-size: 1.5em;
+color: black;
+background-color: white;
+}
+.stattable1 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-top: 5.5%;
+  font-size: 1.75em;
+  margin-bottom: -0%;
+}
+.stattable1 p{
+  font-size: .75em;
+}
+.button h4{
+  font-size: 3em;
+  color: black;
+  border: none;
+}
+
+/* FOR HOME NEWS PAGE */
+.tableContainer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Distributes space between the tables */
+  margin-left: 25%;
+  z-index: 100;
+  overflow: visible;
+}
+.stattable2 {
+  flex: 1; /* Ensures the tables take equal space */
+  margin: 10px; 
+  color: #000;
+  width: 90%;
+  text-align: center;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: calc(0%);
+  margin-right: calc(2.5%);
+  border-radius: 10px;
+  margin-top: 0px;
+  background-color:rgba(238, 236, 236, 0.941);
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  z-index: 10;
+  }
+  .statttable2 th, .stattable2 td {
+  border-radius: 20px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: 5px;
+  font-size: 1.5em;
+  color: black;
+  background-color: white;
+  }
+  .stattable2 h3{
+    border-radius: 10px;
+    padding: 2px;
+    color: white;
+    background-color: black;
+    margin-top: 5.5%;
+    font-size: 1.75em;
+    margin-bottom: -0%;
+  }
+  .stattable2 p{
+    font-size: .75em;
+  }
+  .content2 h2{
+    font-size: 70px;
+    margin-top: 55px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+    width: 800px;
+    margin-left: 35%;
+  }
+  .button {
+    position: relative;
+    width: 300px;
+    padding: 0px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgba(0,0,0, .5);
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .5em;
+    margin-top: -20px;
+  }
+  .button h4{
+    font-size: 3em;
+    color: black;
+    border: none;
+  }
+  .button:hover .span {
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+  }
+.button h2{
+  color: black;
+  text-decoration: none;
+}
+.span {
+  background: black;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.tableImage{
+  border-radius: 5%;
+  box-shadow: 0px 5px 5px rgba(0,0,0, .5);
+  border: 3px solid white;
+}
 
 
 
@@ -312,7 +514,7 @@
   height: calc(100vh - 100px);
   top: 140px;
   position: fixed; /* Fixed position to keep it in place */
-  width: 400px;
+  width: 23.5%;
   left: 0;
   background: linear-gradient(#68b42b, #ddd);
   display: flex;
@@ -657,16 +859,17 @@ table.table2 th:last-child, table.table2 td:last-child {
 /* Small devices (phones, 400px and down) */
 @media only screen and (max-width: 400px) {
 
-  .container {
+  .container{
     display: flex;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
-    overflow-y: hidden;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Ensure container does not cause horizontal overflow */
   }
-
   .navbar{
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+    height: 40px;
+    width: 100%;
   }
   .navbar ul {
     display: flex;
@@ -676,16 +879,23 @@ table.table2 th:last-child, table.table2 td:last-child {
     flex-grow: 1; /* Allow ul to grow and take available space */
     margin: 0;
     padding: 0;
-  }
+    overflow: visible;
+    margin-left: 3%;
+    }
   .navbar ul li {
-    font-size: 2.2em;
-    padding: 15px 17px; /* Adjust padding for smaller buttons */
+    display: inline-block;
+    position: relative;
+    font-size: .8em;
+    padding: 8px 12px; /* Adjust padding for smaller buttons */
+    flex-wrap: nowrap; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
   .logo {
-    padding-right: calc(20px);
+    padding-right: calc(1%);
     padding-left: calc(5px);
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     margin-left: 20px;
   }
   .odds{
@@ -693,144 +903,193 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .logor {
     display: fixed;
-    padding-left: 20px;
-    margin-bottom: 35px;
-    height: 80px;
-    width: 90px;
-    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 12.5%;
   }
   .odds h4{
     padding-left: 20px;
-    font-size: 10px;
-    margin-left: 15px;
-  }
+    font-size: 4px;
+    margin-top: 45%;
+    margin-left: 7.5%;
 
+  }
 
 
 
   /* MAIN */
 
   .banner {
-    height: 300vh;
-    top: 100px;
-    margin-left: -400px;
+    height: 500vh;
+    top: 10px;
+    margin: -110%;
+    width: 115%; /* Ensure it takes full width */
+    overflow: hidden; /* Hide overflow to prevent stretching */
+    box-sizing: border-box; /* Include padding in width and height */
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+    }
+    .content {
+      width: 92%; /* Full width */
+      padding: 20px; /* Add padding for better layout */
+      overflow: hidden;
+      position: sticky;
+      }
+
+  .banner2 {
+    height: 500vh;
+    top: 10px;
+    margin: 0%;
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
     background-size: 100%;
-    overflow: visible;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-  }
-  .content {
-    margin-left: 0px;
-    width: 90%; /* Full width */
-    padding: 20px; /* Add padding for better layout */
-    overflow: visible;
-  }
-
-  .table2 {
-    display: block; /* Ensure it is displayed */
-    width: calc(215%); /* Ensure it is 100% wide */
-    background-color: #fff; /* Background color for visibility */
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    background-size: 5%;
-    right: calc(420px);
-  }
-  .navlogo2 {
-    height: 45px;
-    width: 45px;
-    align-items: row;
-    padding: 0px;
-  }
+    }
 
 
-  .table2 span {
-    padding: 10px;
-    width: 400px;
-    font-size: 1.5em;
-    margin-left: 20px;
-  }
+/* NEWS PAGES */
+.content2 {
+  width: 65%; /* Full width */
+  padding: 67px; /* Add padding for better layout */
+  overflow: hidden;
+  position: sticky;
+}
+.content2 h1{
+  font-size: 3em;
+  margin-top: 35%;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  width: 100%;
+  margin-left: -0%;
+}
+.content2 p{
+  margin: 10px 0 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.stattable1{
+  margin-right: 27.5%;
+  margin-left: -4%;
+}
+.statttable1 th, .stattable1 td {
+border-radius: 20px;
+color: #000;
+text-align: center;
+border-color:  rgba(0,0,0,0.2);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 1px solid #68b42b;
+padding-top: 5px;
+font-size: 1.5em;
+color: black;
+background-color: white;
+}
+.stattable1 h3{
+border-radius: 10px;
+padding: 2px;
+color: white;
+background-color: black;
+margin-bottom: 0px;
+}
+.stattable1 p{
+  font-size: .5em;
+}
 
-  /* Table header styles */
-  table.table2 thead th {
-    font-size: 1.3em; /* Adjust as necessary */
-    text-align: center;
-    padding: 20px;
+.stattable2 {
+  margin-right: calc(5%);
+  margin-left: calc(-4%);
   }
-
-  /* Table body styles */
-  table.table2 tbody td {
-    font-size: 1em; /* Adjust as necessary */
-    text-align: center;
+  .statttable2 th, .stattable2 td {
+  border-radius: 20px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: 5px;
+  font-size: 1.5em;
+  color: black;
+  background-color: white;
   }
-  .matchupRow2 {
-    margin: 10px 7px; /* Margin between each row */
-    padding: 10px; /* Padding inside each row */
-    width: calc(100%);
-    margin-left: calc(20px);
+  .stattable2 h1{
+    margin-top: calc(100%);
   }
-  .header {
-    padding: 2px; /* Padding inside each row */
-    height: 100px;
-    width: calc(85px); /* Full width */
-    margin: 3px;
-    font-size: .65em;
-    margin-left: 15px;
+  .stattable2 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
   }
-
-  .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-90%); /* Reset left margin */
-    width: 130%;
+  .stattable2 p{
+    font-size: .5em;
+    padding: 1%;
+  }
+  .tableContainer2{
+    margin-left: -18%;
+    width: 200%;
+  }
+  .content2 h2{
     font-size: 2.5em;
-    z-index: 2;
-    padding: 10px;
-    
+    margin-top: 10%;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+    width: 300px;
+    margin-left: -10%;
+    padding: 5%;
   }
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1.3em;   
-    margin-left: calc(-65%); /* Reset left margin */
-    width: 100%;
+  .button{
+    width: 50%;
   }
-.chartButton{
-  top: 100px;
-  left: -100px;
+.button h4{
+  font-size: 1em;
 }
-.table2 th{
-  font-size: .2em;
+.innerTable th, .innerTable  td{
+  font-size: .45em;
 }
-.tabletext{
-  display: none;
-}
-.value{
-  margin-top: -10px;
-  font-size: 2em;
-}
-.headshot{
-  width: 70px;
-  height: 70px;
+.notesText{
+  font-size: .4em;
+  margin-right: 10%;
 }
 
-  
+
+.tableContainer{
+  width: calc(200%);
+  padding-left: calc(1%);
+  padding-right: calc(1%);
+  margin-left: calc(-20%);
+}
+.tableImage{
+  width: calc(90%);
+  height: 15vh;
+}
+
+
+
+
+
+
   /* SIDENAV */
 
   .sideNav {
     width: 100%;
-    height: 100px;
+    height: 75px;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
-    margin-top: -5px;
+    margin-top: -20%;
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
   }
 
   .navlogo {
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     align-items: row;
     padding: 5px;
   }
@@ -854,14 +1113,14 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .total {
-    font-size: 1.2em;
+    font-size: .75em;
   }
 
   .matchupRow {
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
     padding: 7.5px; /* Padding inside each row */
-    height: 50px;
+    height: 30%;
     margin-top: 37.5px;
   }
 
@@ -903,17 +1162,17 @@ table.table2 th:last-child, table.table2 td:last-child {
 
 /* Small devices (phones, 600px and down) */
 @media only screen and (min-width: 400px) and (max-width: 420px) {
-
-  .container {
+  .container{
     display: flex;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
-    overflow-y: hidden;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Ensure container does not cause horizontal overflow */
   }
-
   .navbar{
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+    height: 40px;
+    width: 100%;
   }
   .navbar ul {
     display: flex;
@@ -923,16 +1182,23 @@ table.table2 th:last-child, table.table2 td:last-child {
     flex-grow: 1; /* Allow ul to grow and take available space */
     margin: 0;
     padding: 0;
-  }
+    overflow: visible;
+    margin-left: 3%;
+    }
   .navbar ul li {
-    font-size: 2.3em;
-    padding: 15px 17.5px; /* Adjust padding for smaller buttons */
+    display: inline-block;
+    position: relative;
+    font-size: .8em;
+    padding: 8px 15px; /* Adjust padding for smaller buttons */
+    flex-wrap: nowrap; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
   .logo {
-    padding-right: calc(20px);
+    padding-right: calc(1%);
     padding-left: calc(5px);
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     margin-left: 20px;
   }
   .odds{
@@ -940,19 +1206,18 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .logor {
     display: fixed;
-    padding-left: 20px;
-    margin-bottom: 35px;
-    height: 80px;
-    width: 90px;
-    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10%;
   }
   .odds h4{
     padding-left: 20px;
-    font-size: 10px;
-    margin-left: 15px;
-  }
-  .tabletext{
-    display: none;
+    font-size: 4px;
+    margin-top: 45%;
+    margin-left: 5%;
+
   }
 
 
@@ -960,125 +1225,173 @@ table.table2 th:last-child, table.table2 td:last-child {
   /* MAIN */
 
   .banner {
-    height: 300vh;
-    top: 110px;
-    margin-left: -400px;
+    height: 500vh;
+    top: 10px;
+    margin: -105%;
+    width: 115%; /* Ensure it takes full width */
+    overflow: hidden; /* Hide overflow to prevent stretching */
+    box-sizing: border-box; /* Include padding in width and height */
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+    }
+    .content {
+      width: 92%; /* Full width */
+      padding: 20px; /* Add padding for better layout */
+      overflow: hidden;
+      position: sticky;
+      }
+  .banner2 {
+    height: 500vh;
+    top: 10px;
+    margin: 0%;
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-    overflow: visible;
-  }
-  .content {
-    margin-left: 0px;
-    width: 85%; /* Full width */
-    padding: 20px; /* Add padding for better layout */
-    overflow: visible;
-  }
+    }
 
-  .table2 {
-    display: block; /* Ensure it is displayed */
-    width: calc(225%); /* Ensure it is 100% wide */
-    background-color: #fff; /* Background color for visibility */ /* Padding for better layout */
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
-    right: calc(440px);
-  }
+/* NEWS PAGES */
+.content2 {
+  width: 65%; /* Full width */
+  padding: 67px; /* Add padding for better layout */
+  overflow: hidden;
+  position: sticky;
+}
+.content2 h1{
+  font-size: 3em;
+  margin-top: 35%;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  width: 100%;
+  margin-left: -0%;
+}
+.content2 p{
+  margin: 10px 0 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.stattable1{
+  margin-right: 30%;
+  margin-left: -2.55%;
+}
+.statttable1 th, .stattable1 td {
+border-radius: 20px;
+color: #000;
+text-align: center;
+border-color:  rgba(0,0,0,0.2);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 1px solid #68b42b;
+padding-top: 5px;
+font-size: 1.5em;
+color: black;
+background-color: white;
+}
+.stattable1 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
+}
+.stattable1 p{
+  font-size: .5em;
+}
 
-  .table2 span {
-    padding: 10px;
-    width: 400px;
-    font-size: 1.5em;
-    margin-left: 30px;
+.stattable2 {
+  margin-right: calc(5%);
+  margin-left: calc(-2%);
   }
-
-  /* Table header styles */
-  table.table2 thead th {
-    font-size: 1.3em; /* Adjust as necessary */
-    text-align: center;
-    padding: 20px;
+  .statttable2 th, .stattable2 td {
+  border-radius: 20px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: 5px;
+  font-size: 1.5em;
+  color: black;
+  background-color: white;
   }
-
-  /* Table body styles */
-  table.table2 tbody td {
-    font-size: 1em; /* Adjust as necessary */
-    text-align: center;
+  .stattable2 h1{
+    margin-top: calc(100%);
   }
-  .matchupRow2 {
-    margin: 10px 7px; /* Margin between each row */
-    padding: 15px; /* Padding inside each row */
-    margin-left: calc(22px);
-    width: calc(97%);
+  .stattable2 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
   }
-  .header {
-    padding: 6px; /* Padding inside each row */
-    height: 100px;
-    width: calc(80px); /* Full width */
-    margin: 10px;
-    font-size: .7em;
+  .stattable2 p{
+    font-size: .5em;
+    padding: 1%;
   }
-  .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-90%); /* Reset left margin */
-    width: 130%;
+  .tableContainer2{
+    margin-left: -18%;
+    width: 200%;
+  }
+  .content2 h2{
     font-size: 2.5em;
-    z-index: 2;
-    padding: 10px;
-    
+    margin-top: 10%;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+    width: 300px;
+    margin-left: -10%;
+    padding: 5%;
   }
-  .navlogo2 {
-    height: 50px;
-    width: 50px;
-    align-items: row;
-    padding: 0px;
+  .button{
+    width: 50%;
   }
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1.3em;   
-    margin-left: calc(-65%); /* Reset left margin */
-    width: 100%;
-  }
-  .chartButton{
-    top: 100px;
-    left: -100px;
-  }
-.table2 th{
-  font-size: .25em;
+.button h4{
+  font-size: 1em;
+}
+.innerTable th, .innerTable  td{
+  font-size: .45em;
+}
+.notesText{
+  font-size: .4em;
+  margin-right: 10%;
 }
 
-.tabletext{
-  display: none;
+
+
+.tableContainer{
+  width: calc(200%);
+  padding-left: calc(1%);
+  padding-right: calc(1%);
+  margin-left: calc(-20%);
 }
-.value{
-  margin-top: -10px;
-  font-size: 2.25em;
-}
-.headshot{
-  width: 70px;
-  height: 70px;
+.tableImage{
+  width: calc(90%);
+  height: 15vh;
 }
 
-  
+
+
+
+
+
   /* SIDENAV */
 
   .sideNav {
     width: 100%;
-    height: 100px;
+    height: 80px;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
-    margin-top: -5px;
+    margin-top: -18.5%;
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
   }
 
   .navlogo {
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     align-items: row;
     padding: 5px;
   }
@@ -1102,14 +1415,14 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .total {
-    font-size: 1.2em;
+    font-size: .75em;
   }
 
   .matchupRow {
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
     padding: 7.5px; /* Padding inside each row */
-    height: 50px;
+    height: 30%;
     margin-top: 37.5px;
   }
 
@@ -1134,23 +1447,22 @@ table.table2 th:last-child, table.table2 td:last-child {
     flex-direction: row;
   }
 }
-
-
 
 
 /* Small devices (phones, 600px and down) */
 @media only screen and (min-width: 420px) and (max-width: 600px) {
 
-  .container {
+  .container{
     display: flex;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
-    overflow-y: hidden;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Ensure container does not cause horizontal overflow */
   }
-
   .navbar{
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+    height: 40px;
+    width: 100%;
   }
   .navbar ul {
     display: flex;
@@ -1160,16 +1472,23 @@ table.table2 th:last-child, table.table2 td:last-child {
     flex-grow: 1; /* Allow ul to grow and take available space */
     margin: 0;
     padding: 0;
-  }
+    overflow: visible;
+    margin-left: 3%;
+    }
   .navbar ul li {
-    font-size: 2.3em;
-    padding: 15px 17.5px; /* Adjust padding for smaller buttons */
+    display: inline-block;
+    position: relative;
+    font-size: .8em;
+    padding: 8px 15px; /* Adjust padding for smaller buttons */
+    flex-wrap: nowrap; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
   .logo {
-    padding-right: calc(20px);
+    padding-right: calc(1%);
     padding-left: calc(5px);
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     margin-left: 20px;
   }
   .odds{
@@ -1177,139 +1496,190 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .logor {
     display: fixed;
-    padding-left: 20px;
-    margin-bottom: 35px;
-    height: 80px;
-    width: 90px;
-    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10%;
   }
   .odds h4{
     padding-left: 20px;
-    font-size: 10px;
-    margin-left: 15px;
+    font-size: 4px;
+    margin-top: 45%;
+    margin-left: 5%;
+
   }
+
 
 
   /* MAIN */
 
   .banner {
-    height: 300vh;
-    top: 110px;
-    margin-left: -400px;
+    height: 500vh;
+    top: 10px;
+    margin: -105%;
+    width: 115%; /* Ensure it takes full width */
+    overflow: hidden; /* Hide overflow to prevent stretching */
+    box-sizing: border-box; /* Include padding in width and height */
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+    }
+    .content {
+      width: 92%; /* Full width */
+      padding: 20px; /* Add padding for better layout */
+      overflow: hidden;
+      position: sticky;
+      }
+  .banner2 {
+    height: 500vh;
+    top: 10px;
+    margin: 0%;
     width: 100%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
-    overflow: visible;
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-  }
-  .content {
-    margin-left: 0px;
-    width: 80%; /* Full width */
-    padding: 20px; /* Add padding for better layout */
-    overflow: visible;
-  }
+    }
 
-  .table2 {
-    display: block; /* Ensure it is displayed */
-    width: calc(230%); /* Ensure it is 100% wide */
-    background-color: #fff; /* Background color for visibility */ /* Padding for better layout */
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    right: calc(450px);
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
-  }
+/* NEWS PAGES */
+.content2 {
+  width: 65%; /* Full width */
+  padding: 67px; /* Add padding for better layout */
+  overflow: hidden;
+  position: sticky;
+}
+.content2 h1{
+  font-size: 3em;
+  margin-top: 35%;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  width: 100%;
+  margin-left: -0%;
+}
+.content2 p{
+  margin: 10px 0 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.stattable1{
+  margin-right: 30%;
+  margin-left: -2.55%;
+}
+.statttable1 th, .stattable1 td {
+border-radius: 20px;
+color: #000;
+text-align: center;
+border-color:  rgba(0,0,0,0.2);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 1px solid #68b42b;
+padding-top: 5px;
+font-size: 1.5em;
+color: black;
+background-color: white;
+}
+.stattable1 h3{
+border-radius: 10px;
+padding: 2px;
+color: white;
+background-color: black;
+margin-bottom: 0px;
+}
+.stattable1 p{
+  font-size: .5em;
+}
 
-  .table2 span {
-    padding: 20px;
-    width: 420px;
-    font-size: 1.5em;
-    margin-left: 40px;
+.stattable2 {
+  margin-right: calc(5%);
+  margin-left: calc(-2%);
   }
-
-  /* Table header styles */
-  table.table2 thead th {
-    font-size: 1.3em; /* Adjust as necessary */
-    text-align: center;
-    padding: 20px;
+  .statttable2 th, .stattable2 td {
+  border-radius: 20px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: 5px;
+  font-size: 1.5em;
+  color: black;
+  background-color: white;
   }
-
-  /* Table body styles */
-  table.table2 tbody td {
-    font-size: 1em; /* Adjust as necessary */
-    text-align: center;
+  .stattable2 h1{
+    margin-top: calc(100%);
   }
-  .matchupRow2 {
-    margin: 10px 7px; /* Margin between each row */
-    padding: 15px; /* Padding inside each row */
-    width: calc(97%);
-    margin-left: 10px;
+  .stattable2 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
   }
-  .header {
-    padding: 8px; /* Padding inside each row */
-    height: 100px;
-    width: calc(85px); /* Full width */
-    margin: 8px;
-    font-size: .7em;
+  .stattable2 p{
+    font-size: .5em;
+    padding: 1%;
   }
-  .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-90%); /* Reset left margin */
-    width: 130%;
+  .tableContainer2{
+    margin-left: -18%;
+    width: 200%;
+  }
+  .content2 h2{
     font-size: 2.5em;
-    z-index: 2;
-    padding: 10px;
-    
+    margin-top: 10%;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+    width: 300px;
+    margin-left: -10%;
+    padding: 5%;
   }
-  .navlogo2 {
-    height: 40px;
-    width: 40px;
-    align-items: row;
-    padding: 0px;
+  .button{
+    width: 50%;
   }
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1.3em;   
-    margin-left: calc(-65%); /* Reset left margin */
-    width: 100%;
-  }
-  .chartButton{
-    top: 100px;
-    left: -100px;
-  }
-.table2 th{
-  font-size: .25em;
-}
-.tabletext{
-  display: none;
-}
-.value{
-  margin-top: -10px;
-  font-size: 1.75em;
-}
-.headshot{
-  height: 75px;
-  width: 75px;
+.button h4{
+  font-size: 1em;
 }
 
-  
+.tableContainer{
+  width: calc(200%);
+  padding-left: calc(1%);
+  padding-right: calc(1%);
+  margin-left: calc(-20%);
+}
+.tableImage{
+  width: calc(90%);
+  height: 15vh;
+}
+.innerTable th, .innerTable  td{
+  font-size: .45em;
+}
+.notesText{
+  font-size: .4em;
+  margin-right: 10%;
+}
+
+
+
+
+
+
   /* SIDENAV */
 
   .sideNav {
     width: 100%;
-    height: 100px;
+    height: 80px;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: auto; /* Allow horizontal scrolling */
-    margin-top: -5px;
+    margin-top: -18.5%;
+    background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
   }
 
   .navlogo {
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     align-items: row;
     padding: 5px;
   }
@@ -1333,14 +1703,14 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .total {
-    font-size: 1.2em;
+    font-size: .75em;
   }
 
   .matchupRow {
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
     padding: 7.5px; /* Padding inside each row */
-    height: 50px;
+    height: 30%;
     margin-top: 37.5px;
   }
 
@@ -1354,6 +1724,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     height: 20px;
     width: 20px;
   }
+
   .secondSideNav {
     display: none;
   }
@@ -1363,4 +1734,109 @@ table.table2 th:last-child, table.table2 td:last-child {
     order: 8; /* Display at the bottom */
     flex-direction: row;
   }
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+
+  .navbar{
+    width:100%;
+  }
+  .navbar ul{
+    margin-left: -15%;
+  }
+  .navbar ul li{
+    padding: 4% 4%;
+    font-size: 1.7em; 
+    flex-wrap: nowrap; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }  
+  .banner{
+    margin-left: -30%;
+    width: 105%;
+  }
+  .content2 h1 {
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: -10%;
+    width: 50%;
+    font-size: 2.5em;
+    z-index: 2;
+    padding: 10px; 
+  }
+  .content{
+    margin-left: 0%;
+    width: 100%;
+    position: sticky;
+  }
+
+  .info{
+    width: 30%;
+    margin-left: 47%;
+  }
+  .results{
+    width: 50%;
+    margin-left: 37.5%;
+  }
+.chartButton{
+  display: none;
+}
+.header {
+  padding: 6px; /* Padding inside each row */
+  height: 80px;
+  width: calc(40px); /* Full width */
+  margin: 10px;
+  font-size: 7px;
+  margin-left: 3%;
+}
+.table2 span{
+  margin-left: 5%;
+  width: 82.5%;
+}
+ .table2{
+  width: calc(75%);
+  margin-left: 25%;
+ }
+ .matchupRow2{
+  width: 90%;
+  margin-left: 3%;
+ }
+ .value{
+  font-size: 2em;
+ }
+
+ .stattable2 {
+  margin-right: calc(5%);
+  margin-left: calc(-6%);
+  }
+  .stattable1 {
+    margin-right: calc(35%);
+    margin-left: calc(0%);
+    width: 100%;
+    }
+  .tableImage{
+    width: 70%;
+  }
+  .navlogo{
+    width: 20%;
+    height: 20%;
+  }
+  .navlogo2{
+    width: 85%;
+    height: 85%;
+  }
+  .headshot{
+    height: 65%;
+    width: 100%;
+  }
+  .atSymbol{
+    padding: 2%;
+    font-size: .3em;
+  }
+  .leaguelogo{
+    margin-left: 20%;
+  }
+
 }

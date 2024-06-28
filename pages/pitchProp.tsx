@@ -1,5 +1,5 @@
 // pages/pitchProp.tsx
-import styles from '../styles/news.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
+import styles from '../styles/prop.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -17,12 +17,12 @@ type Matchup = {
 };
 
 type AdjMatchData = {
-  name: string;
+  PlayerName: string;
   team: string;
   teamLogo: string;
   Line: number;
   OverUnder: string;
-  Rate: string;
+  HitRate: string;
   Odds: string;
   Headshot: string;
 };
@@ -137,16 +137,27 @@ const MLB = () => {
       <Head>
         <title>BRETON</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale= 1, user-scalable=yes" />
       </Head>
       <div className={styles.banner}></div>
       <div className={styles.navbar}>
    
-   <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
-   <Link href="/" passHref></Link>
-   <ul><li><Link href="/" passHref>HOME</Link></li>
-   <li><Link href="/mlb">MLB O/U</Link></li>
-   <li><Link href="/mlbml">MLB ML</Link></li>
-   <li><Link href="/nrfi">NRFI</Link></li>
+    <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+    <Link href="/" passHref></Link>
+    <ul><li><Link href="/" passHref>HOME</Link></li>
+   <li
+       onMouseEnter={() => setIsMLBDropdownVisible(true)}
+       onMouseLeave={() => setIsMLBDropdownVisible(false)}
+     >
+       MLB Models
+       {isMLBDropdownVisible && (
+         <div className={styles.dropdown}>
+          <Link href="/mlb"><p>MLB O/U</p></Link>
+          <Link href="/mlbml"><p>MLB ML</p></Link>
+          <Link href="/nrfi"><p>NRFI</p></Link>
+         </div>
+       )}
+     </li>
      <li
        onMouseEnter={() => setIsMLBDropdownVisible(true)}
        onMouseLeave={() => setIsMLBDropdownVisible(false)}
@@ -161,6 +172,7 @@ const MLB = () => {
          </div>
        )}
      </li>
+     <li><Link href="/news" passHref>AI Picks</Link></li>
    </ul>
    <div className={styles.odds}>
    <h4>Odds via:</h4>
@@ -200,67 +212,67 @@ const MLB = () => {
                 <td colSpan={6}>No Games Today!</td>
               </tr>
             ) : isSubscribed ? (
-              adjMatchData.map((item, index) => (
-                <React.Fragment key={index}>
+              adjMatchData.map((item) => (
+                <React.Fragment key={item.PlayerName}>
                 <tr className={styles.matchupRow2}>
                   <td>
                     <div className={styles.header}>
                       <Image
-                        src={item.Headshot}  // Add this line
-                        alt={item.name}
+                        src={item.Headshot} // Add this line
+                        alt={item.PlayerName}
                         width={80}
                         height={80}
-                        className={styles.headshot}  // Add appropriate CSS class if needed
+                        className={styles.headshot} // Add appropriate CSS class if needed
                       />
-                      <div className={styles.valueName}>{item.name}</div>
+                      <div className={styles.valueName}>{item.PlayerName}</div>
                     </div>
-                    </td>
-                    <td>
+                  </td>
+                  <td>
                     <div className={styles.header}>
-                        <p>Team:</p>
-                        <div className={styles.value}>
-                            <Image
-                            src={item.teamLogo}
-                            alt={item.team}
-                            width={55}
-                            height={55}
-                            className={styles.navlogo2}
-                            />
-                        </div>
-                        </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
-                        <p>Line:</p>
-                        <div className={styles.value}>{(item.Line)}</div>
+                      <p>Team:</p>
+                      <div className={styles.value}>
+                        <Image
+                          src={item.teamLogo}
+                          alt={item.team}
+                          width={55}
+                          height={55}
+                          className={styles.navlogo2}
+                        />
                       </div>
-                    </td>
-                    <td>
-                      <div className={styles.header}
-                        style={{
-                            backgroundColor: item.OverUnder === 'OVER' ? 'green' : 'UNDER' ? 'red' : 'transparent',
-                                          }}>
-                        <p>O/U:</p>
-                        <div className={styles.value}>{(item.OverUnder)}</div>
-                      </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
-                        <p>Odds:</p>
-                        <div className={styles.value}>{(item.Odds)}</div>
-                      </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
-                        <p>Hit Rate:</p>
-                        <div className={styles.value}>{(item.Rate)}</div>
-                      </div>
-                    </td>
-                  </tr>
-                </React.Fragment>
+                    </div>
+                  </td>
+                  <td>
+                    <div className={styles.header}>
+                      <p>Line:</p>
+                      <div className={styles.value}>{item.Line}</div>
+                    </div>
+                  </td>
+                  <td>
+                    <div
+                      className={styles.header}
+                      style={{
+                        backgroundColor: item.OverUnder === 'OVER' ? 'green' : item.OverUnder === 'UNDER' ? 'red' : 'transparent',
+                      }}
+                    >
+                      <p>O/U:</p>
+                      <div className={styles.value}>{item.OverUnder}</div>
+                    </div>
+                  </td>
+                  <td>
+                    <div className={styles.header}>
+                      <p>Odds:</p>
+                      <div className={styles.value}>{item.Odds}</div>
+                    </div>
+                  </td>
+                  <td>
+                    <div className={styles.header}>
+                      <p>Hit Rate:</p>
+                      <div className={styles.value}>{item.HitRate}</div>
+                    </div>
+                  </td>
+                </tr>
+              </React.Fragment>
+
               ))
   ) : (
     <>
@@ -272,12 +284,12 @@ const MLB = () => {
                     <p>Pitcher:</p>
                       <Image
                         src={item.Headshot}  // Add this line
-                        alt={item.name}
+                        alt={item.PlayerName}
                         width={60}
                         height={60}
                         className={styles.headshot}  // Add appropriate CSS class if needed
                       />
-                      <div className={styles.valueName}>{item.name}</div>
+                      <div className={styles.valueName}>{item.PlayerName}</div>
                     </div>
                     </td>
                     <td>
@@ -321,7 +333,7 @@ const MLB = () => {
                       <div
                         className={styles.header}>
                         <p>Hit Rate:</p>
-                        <div className={styles.value}>{(item.Rate)}</div>
+                        <div className={styles.value}>{(item.HitRate)}</div>
                       </div>
                     </td>
                     </tr>

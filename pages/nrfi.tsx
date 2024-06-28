@@ -139,6 +139,7 @@ const MLB = () => {
       <Head>
         <title>BRETON</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale= 1, user-scalable=yes" />
       </Head>
       <div className={styles.banner}></div>
       <div className={styles.navbar}>
@@ -146,9 +147,19 @@ const MLB = () => {
    <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
    <Link href="/" passHref></Link>
    <ul><li><Link href="/" passHref>HOME</Link></li>
-   <li><Link href="/mlb">MLB O/U</Link></li>
-   <li><Link href="/mlbml">MLB ML</Link></li>
-   <li><Link href="/nrfi">NRFI</Link></li>
+   <li
+       onMouseEnter={() => setIsMLBDropdownVisible(true)}
+       onMouseLeave={() => setIsMLBDropdownVisible(false)}
+     >
+       MLB Models
+       {isMLBDropdownVisible && (
+         <div className={styles.dropdown}>
+          <Link href="/mlb"><p>MLB O/U</p></Link>
+          <Link href="/mlbml"><p>MLB ML</p></Link>
+          <Link href="/nrfi"><p>NRFI</p></Link>
+         </div>
+       )}
+     </li>
      <li
        onMouseEnter={() => setIsMLBDropdownVisible(true)}
        onMouseLeave={() => setIsMLBDropdownVisible(false)}
@@ -163,6 +174,7 @@ const MLB = () => {
          </div>
        )}
      </li>
+     <li><Link href="/news" passHref>AI Picks</Link></li>
    </ul>
    <div className={styles.odds}>
    <h4>Odds via:</h4>
@@ -189,13 +201,11 @@ const MLB = () => {
                 <Link href="/nrfi">
                   <p>NRFI</p>
                 </Link>
-                <Link href="/pitchProp">
-                  <p>Strikeouts</p>
-                </Link>
               </div>
             )}
           </div>
         </div>
+        <div className={styles.info}><p>These projections are made by pulling in each Pitcher and Teams First Inning Stats and consolidate them to one projection.</p></div>
         <div className={styles.results}>
           NRFI Hit Rates:
           {nrfiResults ? (
@@ -224,7 +234,9 @@ const MLB = () => {
         <tr className={styles.tablelogo}>
           <td colSpan={6}>
             <span style={{ fontSize: '11px', display: 'inline-flex', alignItems: 'center' }}>
+            <div className={styles.spanFont}>
               {item.Team1} <br /> <br /> P: {item.Team1Pitcher}
+              </div>
               {logos[item.Team1] && (
                 <Image
                   src={logos[item.Team1]}
@@ -244,7 +256,9 @@ const MLB = () => {
                   style={{ marginLeft: '30px', marginRight: '30px', }}
                 />
               )}
+              <div className={styles.spanFont}>
               {item.Team2} <br /> <br /> P: {item.Team2Pitcher}
+              </div>
             </span>
           </td>
         </tr>
@@ -256,7 +270,7 @@ const MLB = () => {
                 backgroundColor: item.PRA1 > 0.75 ? 'red' : item.PRA1 < 0.34 ? 'green' : 'transparent',
               }}
             >
-              <p>Away ERA 1st:</p>
+              <p>Away P ERA 1st:</p>
               <div className={styles.value}>{toFixed(item.PRA1)}</div>
             </div>
           </td>
@@ -267,7 +281,7 @@ const MLB = () => {
                 backgroundColor: item.Team1PitcherWHIP > 1.5 ? 'red' : item.Team1PitcherWHIP < 1 ? 'green' : 'transparent',
               }}
             >
-              <p>Away WHIP 1st:</p>
+              <p>Away P WHIP 1st:</p>
               <div className={styles.value}>{toFixed(item.Team1PitcherWHIP)}</div>
             </div>
           </td>
@@ -278,7 +292,7 @@ const MLB = () => {
                 backgroundColor: item.Team1Runs > 1 ? 'red' : item.Team1Runs < 0.4 ? 'green' : 'transparent',
               }}
             >
-              <p>Away Tm Runs 1st:</p>
+              <p>Tm Runs 1st:</p>
               <div className={styles.value}>{toFixed(item.Team1Runs)}</div>
             </div>
           </td>
@@ -289,7 +303,7 @@ const MLB = () => {
                 backgroundColor: item.PRA2 > 0.75 ? 'red' : item.PRA2 < 0.34 ? 'green' : 'transparent',
               }}
             >
-              <p>Home Pitcher ERA 1st:</p>
+              <p>Home P ERA 1st:</p>
               <div className={styles.value}>{toFixed(item.PRA2)}</div>
             </div>
           </td>
@@ -300,7 +314,7 @@ const MLB = () => {
                 backgroundColor: item.Team2PitcherWHIP > 1.5 ? 'red' : item.Team2PitcherWHIP < 1 ? 'green' : 'transparent',
               }}
             >
-              <p>Home WHIP 1st:</p>
+              <p>Home P WHIP 1st:</p>
               <div className={styles.value}>{toFixed(item.Team2PitcherWHIP)}</div>
             </div>
           </td>
@@ -311,7 +325,7 @@ const MLB = () => {
                 backgroundColor: item.Team2Runs > 1 ? 'red' : item.Team2Runs < 0.4 ? 'green' : 'transparent',
               }}
             >
-              <p>Home Tm Runs 1st:</p>
+              <p>Tm Runs 1st:</p>
               <div className={styles.value}>{toFixed(item.Team2Runs)}</div>
             </div>
           </td>

@@ -249,6 +249,20 @@
   background-color: #303030;
   margin-left: calc(40%);
 }
+.info{
+  border-radius: 10%;
+  box-shadow: 0 1px 3px rgba(0,0,0, 1); /* Shadow for 3D effect */;
+  margin-bottom: 10px;
+  width: 200px;
+  align-content: center;
+  margin-left: 475px;
+  border: 1px solid #68b42b;
+  background-color: #303030;
+  margin-left: calc(40%);
+  font-size: .5em;
+}
+
+
 .chartButton {
   position: relative;
   cursor: pointer;
@@ -544,20 +558,6 @@ table.table2 tbody td {
   border: 1px solid #68b42b;
   text-align: center;
 }
-.matchupRow3 {
-  background-color: transparent; /* White background for the whole row */
-  border-radius: 10px; /* Rounded corners for the box */
-  box-shadow: 0 4px 8px rgba(0,0,0, 1); /* Shadow for 3D effect */
-  margin: 20px 0; /* Margin between each row */
-  display: flex; /* Use flexbox to manage layout of cells */
-  justify-content: space-around; /* Distribute space around cells */
-  align-items: center; /* Align items vertically in the center */
-  padding: 5px; /* Padding inside each row */
-  width: 97.5%;
-  margin-left: 10px;
-  border: 1px solid #68b42b;
-  text-align: center;
-}
 .header{
   background-color: transparent; /* White background for the whole row */
   border-radius: 25%; /* Rounded corners for the box */
@@ -574,7 +574,6 @@ table.table2 tbody td {
   margin-top: -20px;
   font-size: 3em;
 }
-
 
 
 /* Add left border to each table cell for column separation */
@@ -673,236 +672,254 @@ table.table2 th:last-child, table.table2 td:last-child {
 
 
 
+
 /* ADJUSTED SCREEN SIZE */
 
 /* Small devices (phones, 400px and down) */
 @media only screen and (max-width: 400px) {
 
   .container {
-    display: flex;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
-    overflow-y: hidden;
-  }
+      display: flex;
+      flex-direction: column; /* Switch to column layout */
+      align-items: center; /* Center align items */
+      overflow-y: hidden;
+    }
+  
+    .navbar{
+      background-size: 100%;
+      background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+      height: 40px;
+      
+    }
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+      justify-content: center; /* Center items in the navbar */
+      flex-grow: 1; /* Allow ul to grow and take available space */
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      margin-right: -10%;
+      }
+    .navbar ul li {
+      display: inline-block;
+      position: relative;
+      font-size: .8em;
+      padding: 3% 5%; /* Adjust padding for smaller buttons */
+      flex-wrap: nowrap; 
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .logo {
+      padding-right: calc(10px);
+      padding-left: calc(5px);
+      width: 45px;
+      height: 45px;
+      margin-left: 4%;
+    }
+    .odds{
+      margin-right: 0px;
+    }
+    .logor {
+      display: fixed;
+      padding-left: 0px;
+      margin-bottom: 50%;
+      height: 50px;
+      width: 50px;
+      margin-left: 50%;
+    }
+    .odds h4{
+      padding-left: 20px;
+      font-size: 10px;
+      margin-right: 0%;
+  
+    }
 
-  .navbar{
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
-  }
-  .navbar ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
-    justify-content: center; /* Center items in the navbar */
-    flex-grow: 1; /* Allow ul to grow and take available space */
-    margin: 0;
-    padding: 0;
-  }
-  .navbar ul li {
-    font-size: 2.2em;
-    padding: 15px 17px; /* Adjust padding for smaller buttons */
-  }
-  .logo {
-    padding-right: calc(20px);
-    padding-left: calc(5px);
-    width: 80px;
-    height: 80px;
-    margin-left: 20px;
-  }
-  .odds{
-    margin-right: 0px;
-  }
-  .logor {
-    display: fixed;
-    padding-left: 20px;
-    margin-bottom: 35px;
-    height: 80px;
-    width: 90px;
-    margin-right: 0px;
-  }
-  .odds h4{
-    padding-left: 20px;
-    font-size: 10px;
-    margin-left: 15px;
-  }
+
+/* MAIN */
+
+.banner {
+  height: 300vh;
+  top: 10px;
+  margin: -100%;
+  width: 105%; /* Ensure it takes full width */
+  overflow: hidden; /* Hide overflow to prevent stretching */
+  box-sizing: border-box; /* Include padding in width and height */
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+  overflow: hidden;
+}
+.content {
+  width: 100%; /* Full width */
+  padding: 20px; /* Add padding for better layout */
+  overflow: hidden;
+}
+
+.table2 {
+  display: block; /* Ensure it is displayed */
+  width: calc(110%); /* Ensure it is 100% wide */
+  background-color: #fff; /* Background color for visibility */ /* Padding for better layout */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
+  right: 5%;
+}
+.table2 span {
+  padding: 10px;
+  width: 80%;
+  font-size: 1em;
+  margin-left: 2.5%;
+  overflow: hidden;
+}
 
 
+/* Table header styles */
+table.table2 thead th {
+  font-size: 1.3em; /* Adjust as necessary */
+  text-align: center;
+  padding: 20px;
+  margin-right: -50%;
+}
 
+/* Table body styles */
+table.table2 tbody td {
+  font-size: 1em; /* Adjust as necessary */
+  text-align: center;
 
-  /* MAIN */
+}
+.matchupRow2 {
+  margin: 10px 7px; /* Margin between each row */
+  padding: 5px; /* Padding inside each row */
+  margin-left: 1%;
+  width: 90%;
+}
 
-  .banner {
-    height: 300vh;
-    top: 100px;
-    margin-left: -400px;
-    width: 100%; /* Ensure it takes full width */
-    overflow: hidden; /* Hide overflow to prevent stretching */
-    box-sizing: border-box; /* Include padding in width and height */
-    background-size: 120%;
-    overflow: visible;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-  }
-  .content {
-    margin-left: 0px;
-    width: 90%; /* Full width */
-    padding: 20px; /* Add padding for better layout */
-    overflow: visible;
-  }
+.header {
+  padding: 6px; /* Padding inside each row */
+  height: 90px;
+  width: calc(45px); /* Full width */
+  margin: 10px;
+  font-size: 5px;
+}
+.headerContainer h1 {
+  margin-top: 8%;
+  margin-left: calc(25%); /* Reset left margin */
+  width: 100%;
+  font-size: 2.5em;
+  z-index: 2;
+  padding: 10px; 
+}
 
-  .table2 {
-    display: block; /* Ensure it is displayed */
-    width: calc(215%); /* Ensure it is 100% wide */
-    background-color: #fff; /* Background color for visibility */
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    background-size: 5%;
-    right: calc(420px);
-  }
-
-  .table2 span {
-    padding: 10px;
-    width: 400px;
-    font-size: 1.5em;
-    margin-left: 20px;
-  }
-
-  /* Table header styles */
-  table.table2 thead th {
-    font-size: 1.3em; /* Adjust as necessary */
-    text-align: center;
-    padding: 20px;
-  }
-
-  /* Table body styles */
-  table.table2 tbody td {
-    font-size: 1em; /* Adjust as necessary */
-    text-align: center;
-  }
-  .matchupRow2 {
-    margin: 10px 7px; /* Margin between each row */
-    padding: 10px; /* Padding inside each row */
-    width: calc(93%);
-    margin-left: calc(10px);
-  }
-  .matchupRow3 {
-    width: calc(50%);
-    margin-left: calc(140px);
-    font-size: 1.5em;
-    padding-left: calc(50px);
-    padding-right: calc(50px);
-    height: 100px;
-  }
-  .header {
-    padding: 2px; /* Padding inside each row */
-    height: 100px;
-    width: calc(115px); /* Full width */
-    margin: 7px;
-    font-size: .52em;
-    margin-left: 15px;
-  }
-
-  .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-90%); /* Reset left margin */
-    width: 130%;
-    font-size: 2.5em;
-    z-index: 2;
-    padding: 10px;
-    
-  }
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1.3em;   
-    margin-left: calc(-65%); /* Reset left margin */
-    width: 100%;
-  }
+.results {
+  margin-left: 0; /* Reset left margin */
+  font-size: 1.3em;   
+  margin-left: calc(-0%); /* Reset left margin */
+  width: 100%;
+}
 .chartButton{
-  top: 100px;
-  left: -100px;
+  top: 120px;
+  left: -15%;
+}
+.chartButton .dropdown {
+  min-width: 120%; /* Match the width or exceed the button's width */
+  font-size: .7em;
+}
+.chartButton2{
+  top: 300px;
+  left: -15%;
+}
+.chartButton2 .dropdown {
+  min-width: 120%; /* Match the width or exceed the button's width */
+  font-size: .7em;
 }
 .table2 th{
-  font-size: .2em;
+font-size: .25em;
 }
+
 .tabletext{
-  display: none;
+display: none;
 }
 .value{
-  margin-top: -10px;
-  font-size: 4cqb;
+  margin-top: -30%;
+  font-size: 6em;
+}
+.info{
+margin-left: calc(15%); /* Reset left margin */
+width: 50%;
 }
 
-  
-  /* SIDENAV */
+/* SIDENAV */
 
-  .sideNav {
-    width: 100%;
-    height: 100px;
-    order: 1; /* Display below navbar */
-    flex-direction: row; /* Horizontal layout */
-    justify-content: space-around; /* Space items evenly */
-    overflow-x: auto; /* Allow horizontal scrolling */
-    margin-top: -5px;
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
-  }
+.sideNav {
+  width: 100%;
+  height: 70px;
+  order: 1; /* Display below navbar */
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  margin-top: -18%;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+}
 
-  .navlogo {
-    height: 60px;
-    width: 60px;
-    align-items: row;
-    padding: 5px;
-  }
+.navlogo {
+  height: 40px;
+  width: 40px;
+  align-items: row;
+  padding: 5px;
+}
 
-  .sideNav h3 {
-    display: none;
-  }
+.sideNav h3 {
+  display: none;
+}
 
-  .atSymbol {
-    flex: none; /* Prevents '@' from stretching */
-    padding: 0 2px;
-    font-size: 10px; /* Increases font size for visibility */
-  }
+.atSymbol {
+  flex: none; /* Prevents '@' from stretching */
+  padding: 0 2px;
+  font-size: 10px; /* Increases font size for visibility */
+}
 
-  .table {
-    width: 25%;
-    margin-top: 10; /* Moves table up and down */
-    overflow-x: hidden; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevents wrapping of items */
-    width: auto; /* Width auto to contain all children */
-  }
+.table {
+  width: 25%;
+  margin-top: 10; /* Moves table up and down */
+  overflow-x: hidden; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping of items */
+  width: auto; /* Width auto to contain all children */
+}
 
-  .total {
-    font-size: 1.2em;
-  }
+.total {
+  font-size: .5em;
+}
 
-  .matchupRow {
-    margin: 5px 2px; /* Margin between each row */
-    display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 7.5px; /* Padding inside each row */
-    height: 50px;
-    margin-top: 37.5px;
-  }
+.matchupRow {
+  margin: 5px 2px; /* Margin between each row */
+  display: inline-flex; /* Use flexbox to manage layout of cells */
+  padding: 7.5px; /* Padding inside each row */
+  height: 35px;
+  margin-top: 3%;
+}
 
-  .leaguelogo {
-    display: none;
-  }
+.leaguelogo {
+  display: none;
+}
 
-  .leaguelogo2 {
-    margin-left: calc(375px);
-    padding-right: 500px;
-    height: 20px;
-    width: 20px;
-  }
+.leaguelogo2 {
+  margin-left: calc(375px);
+  padding-right: 500px;
+  height: 20px;
+  width: 20px;
+}
 
-  .secondSideNav {
-    display: none;
-  }
+.secondSideNav {
+  display: none;
+}
 
-  .bottomNav {
-    width: 100%;
-    order: 8; /* Display at the bottom */
-    flex-direction: row;
-  }
+.bottomNav {
+  width: 100%;
+  order: 8; /* Display at the bottom */
+  flex-direction: row;
+}
 }
 
 
@@ -923,235 +940,249 @@ table.table2 th:last-child, table.table2 td:last-child {
 @media only screen and (min-width: 400px) and (max-width: 420px) {
 
   .container {
-    display: flex;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
-    overflow-y: hidden;
-  }
+      display: flex;
+      flex-direction: column; /* Switch to column layout */
+      align-items: center; /* Center align items */
+      overflow-y: hidden;
+    }
+  
+    .navbar{
+      background-size: 100%;
+      background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+      height: 40px;
+      
+    }
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+      justify-content: center; /* Center items in the navbar */
+      flex-grow: 1; /* Allow ul to grow and take available space */
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      margin-right: -10%;
+      }
+    .navbar ul li {
+      display: inline-block;
+      position: relative;
+      font-size: .8em;
+      padding: 10px 15px; /* Adjust padding for smaller buttons */
+      flex-wrap: nowrap; 
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .logo {
+      padding-right: calc(10px);
+      padding-left: calc(5px);
+      width: 60px;
+      height: 60px;
+      margin-left: 20px;
+    }
+    .odds{
+      margin-right: 0px;
+    }
+    .logor {
+      display: fixed;
+      padding-left: 0px;
+      margin-bottom: 50%;
+      height: 60px;
+      width: 60px;
+      margin-left: 50%;
+    }
+    .odds h4{
+      padding-left: 20px;
+      font-size: 10px;
+      margin-right: 0%;
+  
+    }
 
-  .navbar{
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
-  }
-  .navbar ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
-    justify-content: center; /* Center items in the navbar */
-    flex-grow: 1; /* Allow ul to grow and take available space */
-    margin: 0;
-    padding: 0;
-  }
-  .navbar ul li {
-    font-size: 2.3em;
-    padding: 15px 17.5px; /* Adjust padding for smaller buttons */
-  }
-  .logo {
-    padding-right: calc(20px);
-    padding-left: calc(5px);
-    width: 80px;
-    height: 80px;
-    margin-left: 20px;
-  }
-  .odds{
-    margin-right: 0px;
-  }
-  .logor {
-    display: fixed;
-    padding-left: 20px;
-    margin-bottom: 35px;
-    height: 80px;
-    width: 90px;
-    margin-right: 0px;
-  }
-  .odds h4{
-    padding-left: 20px;
-    font-size: 10px;
-    margin-left: 15px;
-  }
-  .tabletext{
-    display: none;
-  }
+
+/* MAIN */
+
+.banner {
+  height: 300vh;
+  top: 10px;
+  margin: -95%;
+  width: 105%; /* Ensure it takes full width */
+  overflow: hidden; /* Hide overflow to prevent stretching */
+  box-sizing: border-box; /* Include padding in width and height */
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+  overflow: hidden;
+}
+.content {
+  width: 100%; /* Full width */
+  padding: 20px; /* Add padding for better layout */
+  overflow: hidden;
+}
+
+.table2 {
+  display: block; /* Ensure it is displayed */
+  width: calc(110%); /* Ensure it is 100% wide */
+  background-color: #fff; /* Background color for visibility */ /* Padding for better layout */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
+  right: 5%;
+}
+.table2 span {
+  padding: 10px;
+  width: 85%;
+  font-size: 1em;
+  margin-left: 5%;
+  overflow: hidden;
+}
 
 
+/* Table header styles */
+table.table2 thead th {
+  font-size: 1.3em; /* Adjust as necessary */
+  text-align: center;
+  padding: 20px;
+}
 
-  /* MAIN */
+/* Table body styles */
+table.table2 tbody td {
+  font-size: 1em; /* Adjust as necessary */
+  text-align: center;
+}
+.matchupRow2 {
+  margin: 10px 7px; /* Margin between each row */
+  padding: 5px; /* Padding inside each row */
+  margin-left: 1%;
+  width: 93%;
+}
 
-  .banner {
-    height: 300vh;
-    top: 110px;
-    margin-left: -400px;
-    width: 100%; /* Ensure it takes full width */
-    overflow: hidden; /* Hide overflow to prevent stretching */
-    box-sizing: border-box; /* Include padding in width and height */
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-    overflow: visible;
-  }
-  .content {
-    margin-left: 0px;
-    width: 85%; /* Full width */
-    padding: 20px; /* Add padding for better layout */
-    overflow: visible;
-  }
+.header {
+  padding: 6px; /* Padding inside each row */
+  height: 90px;
+  width: calc(45px); /* Full width */
+  margin: 10px;
+  font-size: 5px;
+}
+.headerContainer h1 {
+  margin-top: 10px;
+  margin-left: calc(30%); /* Reset left margin */
+  width: 200%;
+  font-size: 2.5em;
+  z-index: 2;
+  padding: 10px; 
+}
 
-  .table2 {
-    display: block; /* Ensure it is displayed */
-    width: calc(225%); /* Ensure it is 100% wide */
-    background-color: #fff; /* Background color for visibility */ /* Padding for better layout */
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
-    right: calc(440px);
-  }
-
-  .table2 span {
-    padding: 10px;
-    width: 400px;
-    font-size: 1.5em;
-    margin-left: 30px;
-  }
-
-  /* Table header styles */
-  table.table2 thead th {
-    font-size: 1.3em; /* Adjust as necessary */
-    text-align: center;
-    padding: 20px;
-  }
-
-  /* Table body styles */
-  table.table2 tbody td {
-    font-size: 1em; /* Adjust as necessary */
-    text-align: center;
-  }
-  .matchupRow2 {
-    margin: 10px 7px; /* Margin between each row */
-    padding: 15px; /* Padding inside each row */
-    margin-left: calc(22px);
-  }
-  .matchupRow3 {
-    width: calc(50%);
-    margin-left: calc(150px);
-    font-size: 1.5em;
-    padding-left: calc(50px);
-    padding-right: calc(50px);
-    height: 100px;
-  }
-  .header {
-    padding: 6px; /* Padding inside each row */
-    height: 100px;
-    width: calc(115px); /* Full width */
-    margin: 10px;
-    font-size: .5em;
-  }
-  .table2 tbody tr:nth-child(even) {
-    background-color: #303030;
-    width: 90%; /* Color for even rows */
-  }
-  .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-90%); /* Reset left margin */
-    width: 130%;
-    font-size: 2.5em;
-    z-index: 2;
-    padding: 10px;
-    
-  }
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1.3em;   
-    margin-left: calc(-65%); /* Reset left margin */
-    width: 100%;
-  }
-  .chartButton{
-    top: 100px;
-    left: -100px;
-  }
+.results {
+  margin-left: 0; /* Reset left margin */
+  font-size: 1.3em;   
+  margin-left: calc(-0%); /* Reset left margin */
+  width: 100%;
+}
+.chartButton{
+  top: 120px;
+  left: -20%;
+}
+.chartButton .dropdown {
+  min-width: 120%; /* Match the width or exceed the button's width */
+  font-size: .7em;
+}
 .table2 th{
-  font-size: .25em;
+font-size: .25em;
 }
 
 .tabletext{
-  display: none;
+display: none;
 }
 .value{
-  margin-top: -10px;
-  font-size: 4em;
+  margin-top: -30%;
+  font-size: 6em;
 }
-  
-  /* SIDENAV */
-
-  .sideNav {
-    width: 100%;
-    height: 100px;
-    order: 1; /* Display below navbar */
-    flex-direction: row; /* Horizontal layout */
-    justify-content: space-around; /* Space items evenly */
-    overflow-x: auto; /* Allow horizontal scrolling */
-    margin-top: -5px;
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
-  }
-
-  .navlogo {
-    height: 60px;
-    width: 60px;
-    align-items: row;
-    padding: 5px;
-  }
-
-  .sideNav h3 {
-    display: none;
-  }
-
-  .atSymbol {
-    flex: none; /* Prevents '@' from stretching */
-    padding: 0 2px;
-    font-size: 10px; /* Increases font size for visibility */
-  }
-
-  .table {
-    width: 25%;
-    margin-top: 10; /* Moves table up and down */
-    overflow-x: hidden; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevents wrapping of items */
-    width: auto; /* Width auto to contain all children */
-  }
-
-  .total {
-    font-size: 1.2em;
-  }
-
-  .matchupRow {
-    margin: 5px 2px; /* Margin between each row */
-    display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 7.5px; /* Padding inside each row */
-    height: 50px;
-    margin-top: 37.5px;
-  }
-
-  .leaguelogo {
-    display: none;
-  }
-
-  .leaguelogo2 {
-    margin-left: calc(375px);
-    padding-right: 500px;
-    height: 20px;
-    width: 20px;
-  }
-
-  .secondSideNav {
-    display: none;
-  }
-
-  .bottomNav {
-    width: 100%;
-    order: 8; /* Display at the bottom */
-    flex-direction: row;
-  }
+.info{
+margin-left: calc(15%); /* Reset left margin */
+width: 50%;
 }
+
+/* SIDENAV */
+
+.sideNav {
+  width: 100%;
+  height: 70px;
+  order: 1; /* Display below navbar */
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  margin-top: -16%;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+}
+
+.navlogo {
+  height: 40px;
+  width: 40px;
+  align-items: row;
+  padding: 5px;
+}
+
+.sideNav h3 {
+  display: none;
+}
+
+.atSymbol {
+  flex: none; /* Prevents '@' from stretching */
+  padding: 0 2px;
+  font-size: 10px; /* Increases font size for visibility */
+}
+
+.table {
+  width: 25%;
+  margin-top: 10; /* Moves table up and down */
+  overflow-x: hidden; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping of items */
+  width: auto; /* Width auto to contain all children */
+}
+
+.total {
+  font-size: .5em;
+}
+
+.matchupRow {
+  margin: 5px 2px; /* Margin between each row */
+  display: inline-flex; /* Use flexbox to manage layout of cells */
+  padding: 7.5px; /* Padding inside each row */
+  height: 35px;
+  margin-top: 3%;
+}
+
+.leaguelogo {
+  display: none;
+}
+
+.leaguelogo2 {
+  margin-left: calc(375px);
+  padding-right: 500px;
+  height: 20px;
+  width: 20px;
+}
+
+.secondSideNav {
+  display: none;
+}
+
+.bottomNav {
+  width: 100%;
+  order: 8; /* Display at the bottom */
+  flex-direction: row;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1160,231 +1191,235 @@ table.table2 th:last-child, table.table2 td:last-child {
 @media only screen and (min-width: 420px) and (max-width: 600px) {
 
   .container {
-    display: flex;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
-    overflow-y: hidden;
-  }
+      display: flex;
+      flex-direction: column; /* Switch to column layout */
+      align-items: center; /* Center align items */
+      overflow-y: hidden;
+    }
+  
+    .navbar{
+      background-size: 100%;
+      background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+      height: 40px;
+      
+    }
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+      justify-content: center; /* Center items in the navbar */
+      flex-grow: 1; /* Allow ul to grow and take available space */
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      margin-right: -10%;
+      }
+    .navbar ul li {
+      display: inline-block;
+      position: relative;
+      font-size: .8em;
+      padding: 10px 15px; /* Adjust padding for smaller buttons */
+      flex-wrap: nowrap; 
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .logo {
+      padding-right: calc(10px);
+      padding-left: calc(5px);
+      width: 60px;
+      height: 60px;
+      margin-left: 20px;
+    }
+    .odds{
+      margin-right: 0px;
+    }
+    .logor {
+      display: fixed;
+      padding-left: 0px;
+      margin-bottom: 50%;
+      height: 60px;
+      width: 60px;
+      margin-left: 50%;
+    }
+    .odds h4{
+      padding-left: 20px;
+      font-size: 10px;
+      margin-right: 0%;
+  
+    }
 
-  .navbar{
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
-  }
-  .navbar ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
-    justify-content: center; /* Center items in the navbar */
-    flex-grow: 1; /* Allow ul to grow and take available space */
-    margin: 0;
-    padding: 0;
-  }
-  .navbar ul li {
-    font-size: 2.3em;
-    padding: 15px 17.5px; /* Adjust padding for smaller buttons */
-  }
-  .logo {
-    padding-right: calc(20px);
-    padding-left: calc(5px);
-    width: 80px;
-    height: 80px;
-    margin-left: 20px;
-  }
-  .odds{
-    margin-right: 0px;
-  }
-  .logor {
-    display: fixed;
-    padding-left: 20px;
-    margin-bottom: 35px;
-    height: 80px;
-    width: 90px;
-    margin-right: 0px;
-  }
-  .odds h4{
-    padding-left: 20px;
-    font-size: 10px;
-    margin-left: 15px;
-  }
+
+/* MAIN */
+
+.banner {
+  height: 300vh;
+  top: 10px;
+  margin: -95%;
+  width: 110%; /* Ensure it takes full width */
+  overflow: hidden; /* Hide overflow to prevent stretching */
+  box-sizing: border-box; /* Include padding in width and height */
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+  overflow: hidden;
+}
+.content {
+  width: 100%; /* Full width */
+  padding: 20px; /* Add padding for better layout */
+  overflow: hidden;
+}
+
+.table2 {
+  display: block; /* Ensure it is displayed */
+  width: calc(108%); /* Ensure it is 100% wide */
+  background-color: #fff; /* Background color for visibility */ /* Padding for better layout */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
+  right: 5%;
+}
+.table2 span {
+  padding: 10px;
+  width: 80%;
+  font-size: 1em;
+  margin-left: 5%;
+  overflow: hidden;
+}
 
 
-  /* MAIN */
+/* Table header styles */
+table.table2 thead th {
+  font-size: 1.3em; /* Adjust as necessary */
+  text-align: center;
+  padding: 20px;
+}
 
-  .banner {
-    height: 300vh;
-    top: 110px;
-    margin-left: -400px;
-    width: 100%; /* Ensure it takes full width */
-    overflow: hidden; /* Hide overflow to prevent stretching */
-    box-sizing: border-box; /* Include padding in width and height */
-    overflow: visible;
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
-  }
-  .content {
-    margin-left: 0px;
-    width: 80%; /* Full width */
-    padding: 20px; /* Add padding for better layout */
-    overflow: visible;
-  }
+/* Table body styles */
+table.table2 tbody td {
+  font-size: 1em; /* Adjust as necessary */
+  text-align: center;
+}
+.matchupRow2 {
+  margin: 10px 7px; /* Margin between each row */
+  padding: 5px; /* Padding inside each row */
+  margin-left: 1%;
+  width: 96%;
+}
 
-  .table2 {
-    display: block; /* Ensure it is displayed */
-    width: calc(230%); /* Ensure it is 100% wide */
-    background-color: #fff; /* Background color for visibility */ /* Padding for better layout */
-    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-    right: calc(450px);
-    background-size: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url('/blank.png');
-  }
+.header {
+  padding: 6px; /* Padding inside each row */
+  height: 90px;
+  width: calc(45px); /* Full width */
+  margin: 10px;
+  font-size: 5px;
+}
+.headerContainer h1 {
+  margin-top: 10px;
+  margin-left: calc(35%); /* Reset left margin */
+  width: 200%;
+  font-size: 2.5em;
+  z-index: 2;
+  padding: 10px; 
+}
 
-  .table2 span {
-    padding: 20px;
-    width: 420px;
-    font-size: 1.5em;
-    margin-left: 40px;
-  }
-
-  /* Table header styles */
-  table.table2 thead th {
-    font-size: 1.3em; /* Adjust as necessary */
-    text-align: center;
-    padding: 20px;
-  }
-
-  /* Table body styles */
-  table.table2 tbody td {
-    font-size: 1em; /* Adjust as necessary */
-    text-align: center;
-  }
-  .matchupRow2 {
-    margin: 10px 7px; /* Margin between each row */
-    padding: 15px; /* Padding inside each row */
-    width: calc(100%);
-    margin-left: 10px;
-  }
-  .matchupRow3 {
-    margin-left: calc(37px);
-    font-size: 1.5em;
-    padding-left: calc(35px);
-    padding-right: calc(35px);
-    height: 100px;
-  }
-  .header {
-    padding: 8px; /* Padding inside each row */
-    height: 100px;
-    width: calc(115px); /* Full width */
-    margin: 8px;
-    font-size: .7em;
-  }
-  .headerContainer h1 {
-    margin-top: 150px;
-    margin-left: calc(-90%); /* Reset left margin */
-    width: 130%;
-    font-size: 2.5em;
-    z-index: 2;
-    padding: 10px;
-    
-  }
-
-  .results {
-    margin-left: 0; /* Reset left margin */
-    font-size: 1.3em;   
-    margin-left: calc(-65%); /* Reset left margin */
-    width: 100%;
-  }
-  .chartButton{
-    top: 100px;
-    left: -100px;
-  }
+.results {
+  margin-left: 0; /* Reset left margin */
+  font-size: 1.3em;   
+  margin-left: calc(-0%); /* Reset left margin */
+  width: 100%;
+}
+.chartButton{
+  top: 120px;
+  left: -20%;
+}
+.chartButton .dropdown {
+  min-width: 120%; /* Match the width or exceed the button's width */
+  font-size: .7em;
+}
 .table2 th{
-  font-size: .25em;
-}
-.table2 tbody tr:nth-child(odd) {
-  background-color: #484848;
-  width: 100%; /* Color for odd rows */
+font-size: .25em;
 }
 
-.table2 tbody tr:nth-child(even) {
-  background-color: #303030;
-  width: calc(93%); /* Color for even rows */
-}
 .tabletext{
-  display: none;
+display: none;
 }
 .value{
-  margin-top: -10px;
-  font-size: 4em;
+  margin-top: -30%;
+  font-size: 6em;
+}
+.info{
+margin-left: calc(15%); /* Reset left margin */
+width: 50%;
 }
 
-  
-  /* SIDENAV */
+/* SIDENAV */
 
-  .sideNav {
-    width: 100%;
-    height: 100px;
-    order: 1; /* Display below navbar */
-    flex-direction: row; /* Horizontal layout */
-    justify-content: space-around; /* Space items evenly */
-    overflow-x: auto; /* Allow horizontal scrolling */
-    margin-top: -5px;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
-  }
+.sideNav {
+  width: 100%;
+  height: 70px;
+  order: 1; /* Display below navbar */
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  margin-top: -16%;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+}
 
-  .navlogo {
-    height: 60px;
-    width: 60px;
-    align-items: row;
-    padding: 5px;
-  }
+.navlogo {
+  height: 40px;
+  width: 40px;
+  align-items: row;
+  padding: 5px;
+}
 
-  .sideNav h3 {
-    display: none;
-  }
+.sideNav h3 {
+  display: none;
+}
 
-  .atSymbol {
-    flex: none; /* Prevents '@' from stretching */
-    padding: 0 2px;
-    font-size: 10px; /* Increases font size for visibility */
-  }
+.atSymbol {
+  flex: none; /* Prevents '@' from stretching */
+  padding: 0 2px;
+  font-size: 10px; /* Increases font size for visibility */
+}
 
-  .table {
-    width: 25%;
-    margin-top: 10; /* Moves table up and down */
-    overflow-x: hidden; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevents wrapping of items */
-    width: auto; /* Width auto to contain all children */
-  }
+.table {
+  width: 25%;
+  margin-top: 10; /* Moves table up and down */
+  overflow-x: hidden; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping of items */
+  width: auto; /* Width auto to contain all children */
+}
 
-  .total {
-    font-size: 1.2em;
-  }
+.total {
+  font-size: .5em;
+}
 
-  .matchupRow {
-    margin: 5px 2px; /* Margin between each row */
-    display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 7.5px; /* Padding inside each row */
-    height: 50px;
-    margin-top: 37.5px;
-  }
+.matchupRow {
+  margin: 5px 2px; /* Margin between each row */
+  display: inline-flex; /* Use flexbox to manage layout of cells */
+  padding: 7.5px; /* Padding inside each row */
+  height: 35px;
+  margin-top: 3%;
+}
 
-  .leaguelogo {
-    display: none;
-  }
+.leaguelogo {
+  display: none;
+}
 
-  .leaguelogo2 {
-    margin-left: calc(375px);
-    padding-right: 500px;
-    height: 20px;
-    width: 20px;
-  }
-  .secondSideNav {
-    display: none;
-  }
+.leaguelogo2 {
+  margin-left: calc(375px);
+  padding-right: 500px;
+  height: 20px;
+  width: 20px;
+}
 
-  .bottomNav {
-    width: 100%;
-    order: 8; /* Display at the bottom */
-    flex-direction: row;
-  }
+.secondSideNav {
+  display: none;
+}
+
+.bottomNav {
+  width: 100%;
+  order: 8; /* Display at the bottom */
+  flex-direction: row;
+}
 }

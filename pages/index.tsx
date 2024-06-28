@@ -151,24 +151,107 @@ const Home = () => {
         <Head>
           <title>BRETON</title>
         </Head>
-        <div className={styles.banner}>
-        <Image src="/betn.png" alt="Logo" width={350} height={200} className={styles.banimg} />
-          <div className={styles.contentSection}>
-            {/* Button sections here */}
-            {dataSections.map((section, index) => (
-              <div key={index} className={styles.dataSection}>
-                <h1>{section.text}</h1>
-                <div className={styles.buttonContainer}>
-                {section.buttons.map((button, idx) => (
-                  <Link key={idx} href={button.href} passHref>
-                    <button className={styles.button}>{button.label}
-                      <span className={styles.span}/>
-                    </button>
-                  </Link>
+        <div className={styles.navbar}>
+   
+   <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+   <Link href="/" passHref></Link>
+   <ul><li><Link href="/" passHref>HOME</Link></li>
+   <li
+       onMouseEnter={() => setIsMLBDropdownVisible(true)}
+       onMouseLeave={() => setIsMLBDropdownVisible(false)}
+     >
+       MLB Models
+       {isMLBDropdownVisible && (
+         <div className={styles.dropdown}>
+          <Link href="/mlb"><p>MLB O/U</p></Link>
+          <Link href="/mlbml"><p>MLB ML</p></Link>
+          <Link href="/nrfi"><p>NRFI</p></Link>
+         </div>
+       )}
+     </li>
+     <li
+       onMouseEnter={() => setIsMLBDropdownVisible(true)}
+       onMouseLeave={() => setIsMLBDropdownVisible(false)}
+     >
+       MLB Props
+       {isMLBDropdownVisible && (
+         <div className={styles.dropdown}>
+           <Link href="/pitchProp"><p>Strike Outs</p></Link>
+           <Link href="/bases"><p>Total Bases</p></Link>
+           <Link href="/hits"><p>Hits</p></Link>
+           <Link href="/rbi"><p>RBIs</p></Link>
+         </div>
+       )}
+     </li>
+     <li><Link href="/news" passHref>AI Picks</Link></li>
+   </ul>
+   <div className={styles.odds}>
+   <h4>Odds via:</h4>
+   <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor}/>
+   </div>
+ </div>
+ 
+
+ {/* Side Navigation content */}
+ <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
+   <div className={styles.leaguelogo}>
+     <Image src="/mlb.webp" alt="user-img"  width={110} height={60} />
+   </div>
+   <h3>MLB GAMES TODAY</h3>
+   <table className={styles.table} style={{ top: tableTopSpacing }}>
+     {/* Table content */}
+     <thead>
+       <tr>
+       </tr>
+     </thead>
+           <tbody>
+     {displayMatchups.length === 0 ? (
+       <tr>
+         <td colSpan={4}>No Games Today!</td>
+       </tr>
+     ) : (
+       displayMatchups.map((matchup) => (
+         <tr key={matchup.id} className={styles.matchupRow}>
+             <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
+           <td className={styles.atSymbol}>@</td>   
+             <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
+           <div className={styles.total}>O/U: {matchup.Total} </div>
+         </tr>
+         
+       ))
+     )}
+     
+   </tbody>
+   </table>
+   
+   {isVisible && (
+ <button onClick={handleNextGames} className={styles.nextButton} title="Next Games">
+ <Image
+   src="/right-arrow.png" // Update with your actual image path
+   alt="Next 5 Games"
+   width={30} // Set appropriate width
+   height={30} // Set appropriate height
+ />
+</button>
+)}</div>
+            <div className={styles.banner}>
+              <Image src="/betn.png" alt="Logo" width={350} height={200} className={styles.banimg} />
+              <div className={styles.contentSection}>
+                {dataSections.map((section, index) => (
+                  <div key={index} className={styles.dataSection}>
+                    <h1>{section.text}</h1>
+                    <div className={styles.buttonContainer}>
+                      {section.buttons.map((button, idx) => (
+                        <Link key={idx} href={button.href} passHref>
+                          <button className={styles.button}>
+                            <span className={styles.buttonText}>{button.label}</span>
+                            <span className={styles.span} />
+                          </button>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 ))}
-                </div>
-              </div>
-            ))}
         <div className={styles.tableContainer}>
           <table className={styles.stattable1}>
             <thead>
@@ -273,124 +356,52 @@ const Home = () => {
     </tbody>
   </table>
 </div>
-
-    <div className={styles.navbar}>
+ <div className={styles.secondSideNav}>
+   {rankings.length > 0 ? (
+     <div>
+     <div className={styles.ufclogo}>
+     <Image src="/ufc.png" alt="user-img" width={125} height={40} />
+   </div>
    
-      <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
-      <Link href="/" passHref></Link>
-      <ul><li><Link href="/" passHref>HOME</Link></li>
-      <li><Link href="/mlb">MLB O/U</Link></li>
-      <li><Link href="/mlbml">MLB ML</Link></li>
-      <li><Link href="/nrfi">NRFI</Link></li>
-        <li
-          onMouseEnter={() => setIsMLBDropdownVisible(true)}
-          onMouseLeave={() => setIsMLBDropdownVisible(false)}
-        >
-          MLB Props
-          {isMLBDropdownVisible && (
-            <div className={styles.dropdown}>
-              <Link href="/pitchProp"><p>Strike Outs</p></Link>
-              <Link href="/bases"><p>Total Bases</p></Link>
-              <Link href="/hits"><p>Hits</p></Link>
-              <Link href="/rbi"><p>RBIs</p></Link>
-              
-            </div>
-          )}
-        </li>
-      </ul>
-      <div className={styles.odds}>
-      <h4>Odds via:</h4>
-      <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor}/>
-      </div>
-    </div>
-    
-
-    {/* Side Navigation content */}
-    <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
-      <div className={styles.leaguelogo}>
-        <Image src="/mlb.webp" alt="user-img"  width={110} height={60} />
-      </div>
-      <h3>MLB GAMES TODAY</h3>
-      <table className={styles.table} style={{ top: tableTopSpacing }}>
-        {/* Table content */}
-        <thead>
-          <tr>
-          </tr>
-        </thead>
-              <tbody>
-        {displayMatchups.length === 0 ? (
-          <tr>
-            <td colSpan={4}>No Games Today!</td>
-          </tr>
-        ) : (
-          displayMatchups.map((matchup) => (
-            <tr key={matchup.id} className={styles.matchupRow}>
-                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
-              <td className={styles.atSymbol}>@</td>   
-                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
-              <div className={styles.total}>O/U: {matchup.Total} </div>
-            </tr>
-            
-          ))
-        )}
-        
-      </tbody>
-      </table>
-      
-      {isVisible && (
-    <button onClick={handleNextGames} className={styles.nextButton} title="Next Games">
-    <Image
-      src="/right-arrow.png" // Update with your actual image path
-      alt="Next 5 Games"
-      width={30} // Set appropriate width
-      height={30} // Set appropriate height
-    />
-  </button>
-  )}</div>
-    <div className={styles.secondSideNav}>
-      {rankings.length > 0 ? (
-        <div>
-        <div className={styles.ufclogo}>
-        <Image src="/ufc.png" alt="user-img" width={125} height={40} />
-      </div>
-          <h3>STANDINGS</h3>
-          <h4>{rankings[currentIndex].name}</h4>
-          <tr className={styles.headshotRow}>
-            <td colSpan={2}> {/* This will make the image span across all columns if there are more than one */}
-              <Image
-                src={rankings[currentIndex].imageUrl}
-                alt={`Image for ${rankings[currentIndex].name}`}
-                width={250}
-                height={140}
-                className={styles.headshot}
-              />
-            </td>
-          </tr>
-          <table className={styles.table4}>
-            <thead>
-            </thead>
-            <tbody>
-            {rankings[currentIndex].ranks.slice(0, 11).map((rank, index) => (
-              <tr key={index}>
-                <td>{rank.rank} {rank.name}</td>
-              </tr>
-            ))}
-            </tbody>
-          </table>
-          <button onClick={handlePrev} className={styles.backButton}>
-            <Image src="/left-arrow.png" alt="Next" width={20} height={20} />
-          </button>
-          <button onClick={handleNext} className={styles.nextButton}>
-            <Image src="/right-arrow.png" alt="Next" width={20} height={20} />
-          </button>
-        </div>
-      ) : (
-        <p>Loading rankings...</p>
-      )}
-    </div>
-      <div className={styles.bottomNav}>
-    <Link href="https://twitter.com/BretonPicks"><Image src="/x.png" alt="Logo" width={30} height={30} className={styles.bottomnavlogo} /></Link>
-    </div></>
+       <h3>STANDINGS</h3>
+       <h4>{rankings[currentIndex].name}</h4>
+       <tr className={styles.headshotRow}>
+         <td colSpan={2}> {/* This will make the image span across all columns if there are more than one */}
+           <Image
+             src={rankings[currentIndex].imageUrl}
+             alt={`Image for ${rankings[currentIndex].name}`}
+             width={250}
+             height={140}
+             className={styles.headshot}
+           />
+         </td>
+       </tr>
+       <table className={styles.table4}>
+         <thead>
+         </thead>
+         <tbody>
+         {rankings[currentIndex].ranks.slice(0, 11).map((rank, index) => (
+           <tr key={index}>
+             <td>{rank.rank} {rank.name}</td>
+           </tr>
+         ))}
+         </tbody>
+       </table>
+       <button onClick={handlePrev} className={styles.backButton}>
+         <Image src="/left-arrow.png" alt="Next" width={20} height={20} />
+       </button>
+       <button onClick={handleNext} className={styles.nextButton}>
+         <Image src="/right-arrow.png" alt="Next" width={20} height={20} />
+       </button>
+     </div>
+   ) : (
+     <p>Loading rankings...</p>
+   )}
+ </div>
+   <div className={styles.bottomNav}>
+ <Link href="https://twitter.com/BretonPicks"><Image src="/x.png" alt="Logo" width={30} height={30} className={styles.bottomnavlogo} /></Link>
+ </div>
+</>
       </>
     );
   };

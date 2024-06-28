@@ -1,5 +1,5 @@
-// pages/rbi.tsx
-import styles from '../styles/prop.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
+// pages/mlb.tsx
+import styles from '../styles/ncaab2.module.css'; // Ensure you have Ncaab.module.css with appropriate styles
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -17,18 +17,26 @@ type Matchup = {
 };
 
 type AdjMatchData = {
-  PlayerName: string;
-  Team: string;
-  teamLogo: string;
-  Line: string;
-  OverUnder: string;
-  HitRate: string;
-  Headshot: string;
-  Odds: string;
+  Team1: string;
+  Team2: string;
+  Total: number;
+  adj_total: number;
+  difference: number;
+  original_total: number;
+  Team1total: number;
+  Team2total: number;
+  Team1Pitcher: string;
+  Team2Pitcher: string;
 };
 
 type LogoUrls = { [team: string]: string };
 
+type TallyData = {
+  "2+": string;
+  "1_to_2": string;
+  "-1_to_-2": string;
+  "-2-": string;
+};
 
 const MLB = () => {
   const [adjMatchData, setAdjMatchData] = useState<AdjMatchData[]>([]);
@@ -39,7 +47,7 @@ const MLB = () => {
   const [currentMatchupIndex, setCurrentMatchupIndex] = useState(0);
   const [displayMatchups, setDisplayMatchups] = useState<Matchup[]>([]);
   const numGames = matchups.length;
-  const tableTopSpacing = `${455}px`;
+  const tableTopSpacing = `${480}px`;
   const [isLoading, setIsLoading] = useState(true);
   const [tableMarginTop, setTableMarginTop] = useState(0);
   const contentRef = useRef<HTMLParagraphElement>(null);
@@ -47,33 +55,39 @@ const MLB = () => {
   const [isMLBDropdownVisible, setIsMLBDropdownVisible] = useState(false);
   const [IsChartDropdownVisible, setIsChartDropdownVisible] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
-
+  const [tallies, setTallies] = useState<TallyData>({
+    "2+": "Loading...",
+    "1_to_2": "Loading...",
+    "-1_to_-2": "Loading...",
+    "-2-": "Loading...",
+  });
 
   useEffect(() => {
     Promise.all([
       fetch('/mlblogos.json').then((res) => res.json()),
       fetch('/mlbmatchups.json').then((res) => res.json()),
-      fetch('/rbiProp.json').then((res) => res.json())
+      fetch('/mlbordered.json').then((res) => res.json()),
+      fetch('/cumulative_tallies.json').then((res) => res.json())
     ])
-      .then(([logosData, matchupsData, adjMatchOrderData]) => {
+      .then(([logosData, matchupsData, adjMatchOrderData, tallyData]) => {
         setLogos(logosData);
         setMatchups(matchupsData);
-        // Add the team logos and headshots to adjMatchOrderData
-        const adjMatchDataWithLogos = adjMatchOrderData.map((item: AdjMatchData) => ({
-          ...item,
-          teamLogo: logosData[item.Team],
-          Headshot: item.Headshot  // Add this line
-        }));
-        setAdjMatchData(adjMatchDataWithLogos);
+        setAdjMatchData(adjMatchOrderData); // Ensure this contains Team1Pitcher and Team2Pitcher
+        setTallies(tallyData);
       })
       .catch((error) => {
         console.error('Error fetching data:', error);
+        setTallies({
+          "2+": "Error",
+          "1_to_2": "Error",
+          "-1_to_-2": "Error",
+          "-2-": "Error",
+        });
       })
       .finally(() => {
         setIsLoading(false);
       });
   }, []);
-  
 
   // Rotating Matchups
   const handleNextGames = () => {
@@ -138,7 +152,7 @@ const MLB = () => {
         <title>BRETON</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale= 1, user-scalable=yes" />
-      </Head>
+        </Head>
       <div className={styles.banner}></div>
       <div className={styles.navbar}>
    
@@ -181,7 +195,7 @@ const MLB = () => {
       </div>
       <div className={styles.content}>
         <div className={styles.headerContainer}>
-          <h1>RBI Props</h1>
+          <h1>MLB Over/Under</h1>
           <div
             className={styles.chartButton}
             onClick={() => setIsChartDropdownVisible(!IsChartDropdownVisible)}
@@ -190,21 +204,33 @@ const MLB = () => {
             <a>Select</a>
             {IsChartDropdownVisible && (
               <div className={styles.dropdown}>
-           <Link href="/pitchProp"><p>Strike Outs</p></Link>
-           <Link href="/bases"><p>Total Bases</p></Link>
-           <Link href="/hits"><p>Hits</p></Link>
-           <Link href="/rbi"><p>RBIs</p></Link>
+                <Link href="/mlb">
+                  <p>Over/Under</p>
+                </Link>
+                <Link href="/mlbml">
+                  <p>ML Picks</p>
+                </Link>
+                <Link href="/nrfi">
+                  <p>NRFI</p>
+                </Link>
               </div>
             )}
           </div>
         </div>
+        <div className={styles.info}><p>These projections are made by pulling in each Teams Offensive, Defensive, and Pitcher recent performance and modifying them against each other. </p></div>
         <div className={styles.results}><p ref={contentRef}>
-          Player RBI Props with highest Hit Rates based upon recent performance. RBI = Runs Batted In
+          Hit Rates (Difference): <br />
+          <span style={{ color: getPercentageColor(tallies["2+"]) }}> 2+: {tallies["2+"]}</span> <br />
+          <span style={{ color: getPercentageColor(tallies["1_to_2"]) }}>1-2: {tallies["1_to_2"]}</span> <br />
+          <span style={{ color: getPercentageColor(tallies["-1_to_-2"]) }}>(-1-2): {tallies["-1_to_-2"]}</span> <br />
+          <span style={{ color: getPercentageColor(tallies["-2-"]) }}>(-2+): {tallies["-2-"]}</span>
         </p>
+        
         </div>
+        
         <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
           <thead>
-          <tr><th>Props</th></tr> 
+            <th>Game</th>
           </thead>
           <tbody>
             {adjMatchData.length === 0 ? (
@@ -212,66 +238,80 @@ const MLB = () => {
                 <td colSpan={6}>No Games Today!</td>
               </tr>
             ) : isSubscribed ? (
-              adjMatchData.map((item) => (
-                <React.Fragment key={item.PlayerName}>
-                <tr className={styles.matchupRow2}>
-                  <td>
-                    <div className={styles.header}>
-                      <Image
-                        src={item.Headshot}  // Add this line
-                        alt={item.PlayerName}
-                        width={80}
-                        height={80}
-                        className={styles.headshot}  // Add appropriate CSS class if needed
-                      />
-                      <div className={styles.valueName}>{item.PlayerName}</div>
-                    </div>
+              adjMatchData.map((item, index) => (
+                <React.Fragment key={index}>
+                  <tr className={styles.tablelogo}>
+                    <td colSpan={6}>
+                      <span style={{ fontSize: '11px', display: 'inline-flex', alignItems: 'center' }}>
+                        {item.Team1} <br /> <br /> P: {item.Team1Pitcher}
+                        {logos[item.Team1] && (
+                          <Image
+                            src={logos[item.Team1]}
+                            alt={`logo`}
+                            width={60}
+                            height={50}
+                            style={{ marginLeft: '25px', marginRight: '25px' }}
+                          />
+                        )}
+                        <td className={styles.atSymbol2}>@</td>
+                        {logos[item.Team2] && (
+                          <Image
+                            src={logos[item.Team2]}
+                            alt={`logo`}
+                            width={60}
+                            height={50}
+                            style={{ marginLeft: '25px', marginRight: '25px' }}
+                          />
+                        )}
+                        {item.Team2} <br /> <br /> P: {item.Team2Pitcher}
+                      </span>
                     </td>
+                  </tr>
+                  <tr className={styles.matchupRow2}>
                     <td>
-                    <div className={styles.header}>
-                        <p>Team:</p>
-                        <div className={styles.value}>
-                            <Image
-                            src={item.teamLogo}
-                            alt={item.Team}
-                            width={55}
-                            height={55}
-                            className={styles.navlogo2}
-                            />
-                        </div>
-                        </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
+                      <div className={styles.header}>
                         <p>Line:</p>
-                        <div className={styles.value}>{0.5}</div>
-                      </div>
-                    </td>
-                    <td>
-                      <div className={styles.header}
-                        style={{
-                            backgroundColor: item.OverUnder === 'OVER' ? 'green' : 'UNDER' ? 'red' : 'transparent',
-                                          }}>
-                        <p>O/U:</p>
-                        <div className={styles.value}>{(item.OverUnder)}</div>
-                      </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
-                        <p>Odds:</p>
-                        <div className={styles.value}>{(item.Odds)}</div>
+                        <div className={styles.value}>{toFixed(item.original_total)}</div>
                       </div>
                     </td>
                     <td>
                       <div
                         className={styles.header}
                         style={{
-                          backgroundColor: item.OverUnder === 'OVER' ? 'green' : 'UNDER' ? 'red' : 'transparent',
-                                        }}>
-                        <p>Hit Rate:</p>
-                        <div className={styles.value}>{(item.HitRate)}</div>
+                          backgroundColor: item.Team1total > 4.5 ? 'green' : item.Team1total < 3 ? 'red' : 'transparent',
+                        }}
+                      >
+                        <p>Away Proj Runs:</p>
+                        <div className={styles.value}>{toFixed(item.Team1total)}</div>
+                      </div>
+                    </td>
+                    <td>
+                      <div
+                        className={styles.header}
+                        style={{
+                          backgroundColor: item.Team2total > 4.5 ? 'green' : item.Team2total < 3 ? 'red' : 'transparent',
+                        }}
+                      >
+                        <p>Home Proj Runs:</p>
+                        <div className={styles.value}>{toFixed(item.Team2total)}</div>
+                      </div>
+                    </td>
+                    <td>
+                      <div className={styles.header}>
+                        <p>Projected Total:</p>
+                        <div className={styles.value}>{toFixed(item.adj_total)}</div>
+                      </div>
+                    </td>
+                    <td>
+                      <div
+                        className={styles.header}
+                        style={{
+                          backgroundColor: item.difference > 1 ? 'green' : item.difference < -1 ? 'red' : 'orange',
+                          color: item.difference > 1 || item.difference < -1 ? 'white' : '',
+                        }}
+                      >
+                        <p>Difference:</p>
+                        <div className={styles.value}>{toFixed(item.difference)}</div>
                       </div>
                     </td>
                   </tr>
@@ -281,66 +321,50 @@ const MLB = () => {
     <>
       {adjMatchData.slice(0, 1).map((item, index) => (
         <tr key={index}>
-                <tr className={styles.matchupRow2}>
-                  <td>
-                    <div className={styles.header}>
-                    <p>Pitcher:</p>
-                      <Image
-                        src={item.Headshot}  // Add this line
-                        alt={item.PlayerName}
-                        width={60}
-                        height={60}
-                        className={styles.headshot}  // Add appropriate CSS class if needed
-                      />
-                      <div className={styles.valueName}>{item.PlayerName}</div>
-                    </div>
-                    </td>
-                    <td>
-                    <div className={styles.header}>
-                        <p>Team:</p>
-                        <div className={styles.value}>
-                            <Image
-                            src={item.teamLogo}
-                            alt={item.Team}
-                            width={55}
-                            height={55}
-                            className={styles.navlogo2}
-                            />
-                        </div>
-                        </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
-                        <p>Line:</p>
-                        <div className={styles.value}>{(item.Line)}</div>
-                      </div>
-                    </td>
-                    <td>
-                      <div className={styles.header}
-                        style={{
-                            backgroundColor: item.OverUnder === 'OVER' ? 'green' : 'UNDER' ? 'red' : 'transparent',
-                                          }}>
-                        <p>O/U:</p>
-                        <div className={styles.value}>{(item.OverUnder)}</div>
-                      </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
-                        <p>Odds:</p>
-                        <div className={styles.value}>{(item.Line)}</div>
-                      </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
-                        <p>Hit Rate:</p>
-                        <div className={styles.value}>{(item.HitRate)}</div>
-                      </div>
-                    </td>
-                    </tr>
-                  </tr>
+          <td>
+            <span style={{ fontSize: '11px', display: 'inline-flex', alignItems: 'center'}}>
+              {logos[item.Team1] && (
+                <Image
+                  src={logos[item.Team1]}
+                  alt={`${item.Team1} logo`}
+                  width={120}
+                  height={100}
+                  style={{ marginRight: '40px' }}
+                />
+              )}
+              {item.Team1}
+              <span style={{ fontSize: '15px', margin: '30px 30px', display: 'inline-flex', alignItems: 'center', color: '#89cff0' }}>@</span>
+              {logos[item.Team2] && (
+                <Image
+                  src={logos[item.Team2]}
+                  alt={`${item.Team2} logo`}
+                  width={120}
+                  height={100}
+                  style={{ marginRight: '30px' }}
+                />
+              )}
+              {item.Team2}
+            </span>
+          </td>
+          <td style={{width: 80}}>{toFixed(item.original_total)}</td>
+          <td style={{
+            backgroundColor: item.Team1total > 5 ? 'green' :
+                             item.Team1total < 3 ? 'red' : 'transparent' ,
+          }}>{toFixed(item.Team1total)}</td>
+          <td style={{
+            backgroundColor: item.Team2total > 5 ? 'green' :
+                             item.Team2total < 3 ? 'red' : 'transparent' ,
+          }}>{toFixed(item.Team2total)}</td>
+          <td>{toFixed(item.adj_total)}</td>
+          <td style={{
+            width: 110,
+            backgroundColor: item.difference > 1 ? 'green' :
+                             item.difference < -1 ? 'red' : 'orange' ,
+            color: item.difference > 1 || item.difference < -1 ? 'white' : '',
+          }}>
+            {toFixed(item.difference)}
+          </td>
+        </tr>
       ))}
       <tr className="blurOverlay">
         <td colSpan={6}>Free Pick of the Day! Subscribe for all Picks!<Link href="https://pay.bretonpicks.com/470c3a5c-ab5a-4369-98d4-baf" passHref>
@@ -396,6 +420,7 @@ const MLB = () => {
     />
   </button>
   )}
+
         </div>
       </>
     );
