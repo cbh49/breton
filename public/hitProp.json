@@ -1,8 +1,17 @@
 [
     {
-        "PlayerName": "Michael Busch",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683737/headshot/silo/current",
-        "Team": "Chicago Cubs",
+        "PlayerName": "Gabriel Arias",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672356/headshot/silo/current",
+        "Team": "Cleveland Guardians",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -125,
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "David Fry",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/681807/headshot/silo/current",
+        "Team": "Cleveland Guardians",
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -185,
@@ -14,16 +23,16 @@
         "Team": "New York Mets",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": -150,
+        "Odds": -175,
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "J.D. Martinez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/502110/headshot/silo/current",
-        "Team": "New York Mets",
+        "PlayerName": "Matt Chapman",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656305/headshot/silo/current",
+        "Team": "San Francisco Giants",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": -175,
+        "Odds": -140,
         "HitRate": "5/5"
     },
     {
@@ -41,24 +50,41 @@
         "Team": "Miami Marlins",
         "OverUnder": "OVER",
         "Line": 0.5,
+        "Odds": -170,
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Ryan Jeffers",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680777/headshot/silo/current",
+        "Team": "Minnesota Twins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -130,
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Daulton Varsho",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/662139/headshot/silo/current",
+        "Team": "Toronto Blue Jays",
+        "OverUnder": "UNDER",
+        "Line": -135,
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Kyle Higashioka",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543309/headshot/silo/current",
+        "Team": "San Diego Padres",
+        "OverUnder": "OVER",
+        "Line": 0.5,
         "Odds": -140,
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "J.P. Crawford",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641487/headshot/silo/current",
-        "Team": "Seattle Mariners",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": -185,
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Michael A. Taylor",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/572191/headshot/silo/current",
-        "Team": "Pittsburgh Pirates",
+        "PlayerName": "Dominic Smith",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/642086/headshot/silo/current",
+        "Team": "Boston Red Sox",
         "OverUnder": "UNDER",
-        "Line": -150,
+        "Line": -165,
         "HitRate": "5/5"
     },
     {
@@ -67,7 +93,16 @@
         "Team": "San Diego Padres",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": -185,
+        "Odds": -190,
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Ben Rortvedt",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666163/headshot/silo/current",
+        "Team": "Tampa Bay Rays",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -125,
         "HitRate": "5/5"
     }
 ]
