@@ -206,150 +206,152 @@ const MLB = () => {
           <thead>
           <tr><th>Props</th></tr>
           </thead>
-          <tbody>
-            {adjMatchData.length === 0 ? (
-              <tr>
-                <td colSpan={6}>No Games Today!</td>
-              </tr>
-            ) : isSubscribed ? (
-              adjMatchData.map((item) => (
-                <React.Fragment key={item.PlayerName}>
-                <tr className={styles.matchupRow2}>
-                  <td>
-                    <div className={styles.header}>
-                      <Image
-                        src={item.Headshot} // Add this line
-                        alt={item.PlayerName}
-                        width={80}
-                        height={80}
-                        className={styles.headshot} // Add appropriate CSS class if needed
-                      />
-                      <div className={styles.valueName}>{item.PlayerName}</div>
-                    </div>
-                  </td>
-                  <td>
-                    <div className={styles.header}>
-                      <p>Team:</p>
-                      <div className={styles.value}>
-                        <Image
-                          src={item.teamLogo}
-                          alt={item.team}
-                          width={55}
-                          height={55}
-                          className={styles.navlogo2}
-                        />
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <div className={styles.header}>
-                      <p>Line:</p>
-                      <div className={styles.value}>{item.Line}</div>
-                    </div>
-                  </td>
-                  <td>
-                    <div
-                      className={styles.header}
-                      style={{
-                        backgroundColor: item.OverUnder === 'OVER' ? 'green' : item.OverUnder === 'UNDER' ? 'red' : 'transparent',
-                      }}
-                    >
-                      <p>O/U:</p>
-                      <div className={styles.value}>{item.OverUnder}</div>
-                    </div>
-                  </td>
-                  <td>
-                    <div className={styles.header}>
-                      <p>Odds:</p>
-                      <div className={styles.value}>{item.Odds}</div>
-                    </div>
-                  </td>
-                  <td>
-                    <div className={styles.header}>
-                      <p>Hit Rate:</p>
-                      <div className={styles.value}>{item.HitRate}</div>
-                    </div>
-                  </td>
-                </tr>
-              </React.Fragment>
-
-              ))
-  ) : (
-    <>
-      {adjMatchData.slice(0, 1).map((item, index) => (
-        <tr key={index}>
-                <tr className={styles.matchupRow2}>
-                  <td>
-                    <div className={styles.header}>
-                    <p>Pitcher:</p>
-                      <Image
-                        src={item.Headshot}  // Add this line
-                        alt={item.PlayerName}
-                        width={60}
-                        height={60}
-                        className={styles.headshot}  // Add appropriate CSS class if needed
-                      />
-                      <div className={styles.valueName}>{item.PlayerName}</div>
-                    </div>
-                    </td>
-                    <td>
-                    <div className={styles.header}>
-                        <p>Team:</p>
-                        <div className={styles.value}>
-                            <Image
-                            src={item.teamLogo}
-                            alt={item.team}
-                            width={55}
-                            height={55}
-                            className={styles.navlogo2}
-                            />
-                        </div>
-                        </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
-                        <p>Line:</p>
-                        <div className={styles.value}>{(item.Line)}</div>
-                      </div>
-                    </td>
-                    <td>
-                      <div className={styles.header}
-                        style={{
-                            backgroundColor: item.OverUnder === 'OVER' ? 'green' : 'UNDER' ? 'red' : 'transparent',
-                                          }}>
-                        <p>O/U:</p>
-                        <div className={styles.value}>{(item.OverUnder)}</div>
-                      </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
-                        <p>Odds:</p>
-                        <div className={styles.value}>{(item.Odds)}</div>
-                      </div>
-                    </td>
-                    <td>
-                      <div
-                        className={styles.header}>
-                        <p>Hit Rate:</p>
-                        <div className={styles.value}>{(item.HitRate)}</div>
-                      </div>
-                    </td>
-                    </tr>
-                  </tr>
-      ))}
-      <tr className="blurOverlay">
-        <td colSpan={6}>Free Pick of the Day! Subscribe for all Picks!<Link href="https://pay.bretonpicks.com/470c3a5c-ab5a-4369-98d4-baf" passHref>
-    <button className={styles.button}>
-      <span className={styles.span}/> 
-      Subscribe Here
-      </button></Link></td>
+            <tbody>
+    {adjMatchData.length === 0 ? (
+      <tr>
+        <td colSpan={6}>No Games Today!</td>
       </tr>
+    ) : isSubscribed ? (
+      adjMatchData.map((item) => (
+        <React.Fragment key={item.PlayerName}>
+          <tr className={styles.matchupRow2}>
+            <td>
+              <div className={styles.header}>
+                <Image
+                  src={item.Headshot}
+                  alt={item.PlayerName}
+                  width={80}
+                  height={80}
+                  className={styles.headshot}
+                />
+                <div className={styles.valueName}>{item.PlayerName}</div>
+              </div>
+            </td>
+            <td>
+              <div className={styles.header}>
+                <p>Team:</p>
+                <div className={styles.value}>
+                  <Image
+                    src={item.teamLogo}
+                    alt={item.team}
+                    width={55}
+                    height={55}
+                    className={styles.navlogo2}
+                  />
+                </div>
+              </div>
+            </td>
+            <td>
+              <div className={styles.header}>
+                <p>Line:</p>
+                <div className={styles.value}>{item.Line}</div>
+              </div>
+            </td>
+            <td>
+              <div
+                className={styles.header}
+                style={{
+                  backgroundColor: item.OverUnder === 'OVER' ? 'green' : 'red',
+                }}
+              >
+                <p>O/U:</p>
+                <div className={styles.value}>{item.OverUnder}</div>
+              </div>
+            </td>
+            <td>
+              <div className={styles.header}>
+                <p>Odds:</p>
+                <div className={styles.value}>{item.Odds}</div>
+              </div>
+            </td>
+            <td>
+              <div className={styles.header}>
+                <p>Hit Rate:</p>
+                <div className={styles.value}>{item.HitRate}</div>
+              </div>
+            </td>
+          </tr>
+        </React.Fragment>
+      ))
+    ) : (
+      <>
+        {adjMatchData.slice(0, 1).map((item) => (
+          <tr key={item.PlayerName}>
+            <tr className={styles.matchupRow2}>
+              <td>
+                <div className={styles.header}>
+                  <p>Pitcher:</p>
+                  <Image
+                    src={item.Headshot}
+                    alt={item.PlayerName}
+                    width={60}
+                    height={60}
+                    className={styles.headshot}
+                  />
+                  <div className={styles.valueName}>{item.PlayerName}</div>
+                </div>
+              </td>
+              <td>
+                <div className={styles.header}>
+                  <p>Team:</p>
+                  <div className={styles.value}>
+                    <Image
+                      src={item.teamLogo}
+                      alt={item.team}
+                      width={55}
+                      height={55}
+                      className={styles.navlogo2}
+                    />
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div className={styles.header}>
+                  <p>Line:</p>
+                  <div className={styles.value}>{item.Line}</div>
+                </div>
+              </td>
+              <td>
+                <div
+                  className={styles.header}
+                  style={{
+                    backgroundColor: item.OverUnder === 'OVER' ? 'green' : 'red',
+                  }}
+                >
+                  <p>O/U:</p>
+                  <div className={styles.value}>{item.OverUnder}</div>
+                </div>
+              </td>
+              <td>
+                <div className={styles.header}>
+                  <p>Odds:</p>
+                  <div className={styles.value}>{item.Odds}</div>
+                </div>
+              </td>
+              <td>
+                <div className={styles.header}>
+                  <p>Hit Rate:</p>
+                  <div className={styles.value}>{item.HitRate}</div>
+                </div>
+              </td>
+            </tr>
+          </tr>
+        ))}
+        <tr className="blurOverlay">
+          <td colSpan={6}>
+            Free Pick of the Day! Subscribe for all Picks!
+            <Link href="https://pay.bretonpicks.com/470c3a5c-ab5a-4369-98d4-baf" passHref>
+              <button className={styles.button}>
+                <span className={styles.span} />
+                Subscribe Here
+              </button>
+            </Link>
+          </td>
+        </tr>
+      </>
+    )}
+  </tbody>
 
-    </>
-  )}
-</tbody>
 
       </table>
         </div>
@@ -364,24 +366,43 @@ const MLB = () => {
           <tr>
           </tr>
         </thead>
-              <tbody>
-        {displayMatchups.length === 0 ? (
-          <tr>
-            <td colSpan={4}>No Games Today!</td>
-          </tr>
-        ) : (
-          displayMatchups.map((matchup) => (
-            <tr key={matchup.id} className={styles.matchupRow}>
-                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
-              <td className={styles.atSymbol}>@</td>   
-                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
-              <div className={styles.total}>O/U: {matchup.Total}</div>
-            </tr>
-            
-          ))
-        )}
-        
-      </tbody>
+          <tbody>
+    {displayMatchups.length === 0 ? (
+      <tr>
+        <td colSpan={4}>No Games Today!</td>
+      </tr>
+    ) : (
+      displayMatchups.map((matchup) => (
+        <tr key={matchup.id} className={styles.matchupRow}>
+          <td>
+            <Image
+              src={logos[matchup.Team1]}
+              alt={matchup.Team1}
+              width={80}
+              height={70}
+              className={styles.navlogo}
+              layout="fixed"
+            />
+          </td>
+          <td className={styles.atSymbol}>@</td>
+          <td>
+            <Image
+              src={logos[matchup.Team2]}
+              alt={matchup.Team2}
+              width={80}
+              height={70}
+              className={styles.navlogo}
+              layout="fixed"
+            />
+          </td>
+          <td>
+            <div className={styles.total}>O/U: {matchup.Total}</div>
+          </td>
+        </tr>
+      ))
+    )}
+  </tbody>
+
       </table>
       {isVisible && (
     <button onClick={handleNextGames} className={styles.nextButton} title="Next Games">

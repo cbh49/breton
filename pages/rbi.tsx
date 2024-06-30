@@ -280,7 +280,7 @@ const MLB = () => {
   ) : (
     <>
       {adjMatchData.slice(0, 1).map((item, index) => (
-        <tr key={index}>
+        <tr key={item.PlayerName}>
                 <tr className={styles.matchupRow2}>
                   <td>
                     <div className={styles.header}>
