@@ -157,7 +157,7 @@ const Home = () => {
           <tbody>
             <tr>
               <td colSpan={2}>
-                <p>Our AI Model search 10 Mock Drafts to compile the most likely outcomes. <br /> Published: 6/26</p>
+                <p>Our AI Model searched 10 Mock Drafts to compile the most likely outcomes. <br /> Published: 6/26</p>
                 <button className={styles.button}><Link href="/nbadraft"><h4>Read More</h4><span className={styles.span}/></Link>
                 </button>
               </td>
