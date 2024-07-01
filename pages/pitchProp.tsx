@@ -366,43 +366,24 @@ const MLB = () => {
           <tr>
           </tr>
         </thead>
-          <tbody>
-    {displayMatchups.length === 0 ? (
-      <tr>
-        <td colSpan={4}>No Games Today!</td>
-      </tr>
-    ) : (
-      displayMatchups.map((matchup) => (
-        <tr key={matchup.id} className={styles.matchupRow}>
-          <td>
-            <Image
-              src={logos[matchup.Team1]}
-              alt={matchup.Team1}
-              width={80}
-              height={70}
-              className={styles.navlogo}
-              layout="fixed"
-            />
-          </td>
-          <td className={styles.atSymbol}>@</td>
-          <td>
-            <Image
-              src={logos[matchup.Team2]}
-              alt={matchup.Team2}
-              width={80}
-              height={70}
-              className={styles.navlogo}
-              layout="fixed"
-            />
-          </td>
-          <td>
-            <div className={styles.total}>O/U: {matchup.Total}</div>
-          </td>
-        </tr>
-      ))
-    )}
-  </tbody>
-
+              <tbody>
+        {displayMatchups.length === 0 ? (
+          <tr>
+            <td colSpan={4}>No Games Today!</td>
+          </tr>
+        ) : (
+          displayMatchups.map((matchup) => (
+            <tr key={matchup.id} className={styles.matchupRow}>
+                <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
+              <td className={styles.atSymbol}>@</td>   
+                <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
+              <div className={styles.total}>O/U: {matchup.Total}</div>
+            </tr>
+            
+          ))
+        )}
+        
+      </tbody>
       </table>
       {isVisible && (
     <button onClick={handleNextGames} className={styles.nextButton} title="Next Games">

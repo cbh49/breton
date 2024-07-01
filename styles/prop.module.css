@@ -9,16 +9,16 @@
   position: fixed;
 }
 .banner{
-  left: 402px;
+  left: 0%;
   margin-top: 130px;
-  border-radius: 2%;
+  border-radius: 0%;
   height: 100vh; /* This will make sure your banner covers the full viewport height */
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
   background-size: 8%;
   background-position: center;
   position: fixed;
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-  width: calc(78.5%);
+  width: calc(100%);
 }
 .banner2{
   left: 0px;
@@ -860,7 +860,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   .banner {
     height: 500vh;
     top: 10px;
-    margin: -105%;
+    margin: 0%;
     width: 115%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
@@ -1148,7 +1148,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   .banner {
     height: 500vh;
     top: 10px;
-    margin: -105%;
+    margin: 0%;
     width: 115%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
@@ -1424,7 +1424,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   .banner {
     height: 500vh;
     top: 10px;
-    margin: -105%;
+    margin: 0%;
     width: 135%; /* Ensure it takes full width */
     overflow: visible; /* Hide overflow to prevent stretching */
     box-sizing: border-box; /* Include padding in width and height */
@@ -1642,7 +1642,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     text-overflow: ellipsis;
   }  
   .banner{
-    margin-left: -30%;
+    margin-left: 0%;
     width: 105%;
   }
   .headerContainer h1 {

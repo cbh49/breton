@@ -1,74 +1,11 @@
 [
     {
-        "PlayerName": "Freddy Peralta",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/642547/headshot/silo/current",
-        "team": "Milwaukee Brewers",
-        "Line": 7.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-125"
-    },
-    {
-        "PlayerName": "Lance Lynn",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/458681/headshot/silo/current",
-        "team": "St. Louis Cardinals",
+        "PlayerName": "Hunter Brown",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686613/headshot/silo/current",
+        "team": "Houston Astros",
         "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-130"
-    },
-    {
-        "PlayerName": "Logan Allen",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/671106/headshot/silo/current",
-        "team": "Cleveland Guardians",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-129"
-    },
-    {
-        "PlayerName": "Kyle Freeland",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607536/headshot/silo/current",
-        "team": "Colorado Rockies",
-        "Line": 4.5,
-        "OverUnder": "UNDER",
+        "OverUnder": "OVER",
         "HitRate": "5/5",
-        "Odds": "-140"
-    },
-    {
-        "PlayerName": "Casey Mize",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663554/headshot/silo/current",
-        "team": "Detroit Tigers",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-155"
-    },
-    {
-        "PlayerName": "Luis Severino",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/622663/headshot/silo/current",
-        "team": "New York Mets",
-        "Line": 4.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-108"
-    },
-    {
-        "PlayerName": "Joe Ryan",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/657746/headshot/silo/current",
-        "team": "Minnesota Twins",
-        "Line": 7.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-130"
-    },
-    {
-        "PlayerName": "Josh Winckowski",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/670174/headshot/silo/current",
-        "team": "Boston Red Sox",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-139"
+        "Odds": "+138"
     }
 ]

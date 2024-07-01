@@ -813,7 +813,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .table2 span {
     padding: 15px;
-    width: 74%;
+    width: 73%;
     font-size: 1em;
     margin-left: -0%;
     overflow: hidden;
@@ -1070,7 +1070,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .table2 span {
     padding: 20px;
-    width: 80%;
+    width: 78%;
     font-size: .1em;
     margin-left: 2.5%;
     overflow: hidden;
@@ -1098,7 +1098,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   .matchupRow2 {
     margin: 10px 7px; /* Margin between each row */
     padding: 3px; /* Padding inside each row */
-    margin-left: 6%;
+    margin-left: 5%;
     width: 80%;
   }
   
@@ -1333,7 +1333,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .table2 span {
     padding: 15px;
-    width: 85%;
+    width: 83%;
     font-size: 1em;
     margin-left: 2%;
     overflow: hidden;
