@@ -1,26 +1,122 @@
 {
-    "Colorado Rockies": [
+    "Arizona Diamondbacks": [
         3.8,
-        6.3
+        5.7
+    ],
+    "Atlanta Braves": [
+        2.888888888888889,
+        2.888888888888889
+    ],
+    "Baltimore Orioles": [
+        4.8,
+        6.1
+    ],
+    "Boston Red Sox": [
+        4.222222222222222,
+        5.666666666666667
+    ],
+    "Chicago Cubs": [
+        3.2,
+        4.8
+    ],
+    "Chicago White Sox": [
+        3.2,
+        3.6
+    ],
+    "Cincinnati Reds": [
+        4.9,
+        4.4
+    ],
+    "Cleveland Guardians": [
+        4.7,
+        4.3
+    ],
+    "Colorado Rockies": [
+        3.9,
+        6.4
+    ],
+    "Detroit Tigers": [
+        3.5,
+        4.5
     ],
     "Houston Astros": [
-        6.9,
+        6.8,
         3.8
     ],
+    "Kansas City Royals": [
+        3.2,
+        3.3
+    ],
+    "Los Angeles Angels": [
+        4.4,
+        3.3
+    ],
+    "Los Angeles Dodgers": [
+        5.2,
+        4.0
+    ],
+    "Miami Marlins": [
+        2.9,
+        4.0
+    ],
     "Milwaukee Brewers": [
-        5.0,
-        4.1
+        5.1,
+        4.2
+    ],
+    "Minnesota Twins": [
+        6.1,
+        3.6
     ],
     "New York Mets": [
-        6.6,
-        5.2
+        6.8,
+        5.3
+    ],
+    "New York Yankees": [
+        5.3,
+        7.6
+    ],
+    "Oakland Athletics": [
+        2.8,
+        5.0
+    ],
+    "Philadelphia Phillies": [
+        5.0,
+        3.0
+    ],
+    "Pittsburgh Pirates": [
+        3.5,
+        4.3
+    ],
+    "San Diego Padres": [
+        6.9,
+        4.6
+    ],
+    "San Francisco Giants": [
+        5.1,
+        5.4
+    ],
+    "Seattle Mariners": [
+        3.6,
+        4.4
+    ],
+    "St. Louis Cardinals": [
+        3.888888888888889,
+        4.111111111111111
+    ],
+    "Tampa Bay Rays": [
+        4.9,
+        3.4
+    ],
+    "Texas Rangers": [
+        4.4,
+        3.8
     ],
     "Toronto Blue Jays": [
         5.333333333333333,
-        6.555555555555555
+        6.111111111111111
     ],
     "Washington Nationals": [
-        4.9,
-        5.2
+        5.4,
+        5.6
     ]
 }
