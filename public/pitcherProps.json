@@ -1,65 +1,101 @@
 [
     {
-        "PlayerName": "Gavin Stone",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694813/headshot/silo/current",
-        "team": "Los Angeles Dodgers",
+        "PlayerName": "Corbin Burnes",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669203/headshot/silo/current",
+        "team": "Baltimore Orioles",
+        "Line": 7.5,
+        "OverUnder": "UNDER",
+        "HitRate": "5/5",
+        "Odds": "-134"
+    },
+    {
+        "PlayerName": "Nick Pivetta",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/601713/headshot/silo/current",
+        "team": "Boston Red Sox",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "HitRate": "4/5",
+        "Odds": "-110"
+    },
+    {
+        "PlayerName": "Ben Lively",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/594902/headshot/silo/current",
+        "team": "Cleveland Guardians",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "4/5",
+        "Odds": "-132"
+    },
+    {
+        "PlayerName": "Marcus Stroman",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/573186/headshot/silo/current",
+        "team": "New York Yankees",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "4/5",
+        "Odds": "-137"
+    },
+    {
+        "PlayerName": "Framber Valdez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664285/headshot/silo/current",
+        "team": "Houston Astros",
         "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "-130"
+        "Odds": "+106"
     },
     {
-        "PlayerName": "Trevor Rogers",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669432/headshot/silo/current",
-        "team": "Miami Marlins",
+        "PlayerName": "Jake Irvin",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663623/headshot/silo/current",
+        "team": "Washington Nationals",
         "Line": 5.5,
         "OverUnder": "UNDER",
-        "HitRate": "5/5",
-        "Odds": "-136"
+        "HitRate": "4/5",
+        "Odds": "+120"
     },
     {
-        "PlayerName": "Erick Fedde",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607200/headshot/silo/current",
-        "team": "Chicago White Sox",
+        "PlayerName": "Jose Quintana",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/500779/headshot/silo/current",
+        "team": "New York Mets",
         "Line": 3.5,
         "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "-152"
+        "Odds": "-127"
     },
     {
-        "PlayerName": "Zack Wheeler",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/554430/headshot/silo/current",
+        "PlayerName": "Cristopher S\u00e1nchez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/650911/headshot/silo/current",
         "team": "Philadelphia Phillies",
-        "Line": 6.5,
+        "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "4/5",
-        "Odds": "+125"
+        "Odds": "+145"
     },
     {
-        "PlayerName": "Jon Gray",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592351/headshot/silo/current",
-        "team": "Texas Rangers",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
+        "PlayerName": "Jameson Taillon",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592791/headshot/silo/current",
+        "team": "Chicago Cubs",
+        "Line": 4.5,
+        "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "+130"
+        "Odds": "-137"
     },
     {
-        "PlayerName": "Adam Mazur",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/800049/headshot/silo/current",
+        "PlayerName": "Michael King",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/650633/headshot/silo/current",
         "team": "San Diego Padres",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
+        "Line": 5.5,
+        "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "-145"
+        "Odds": "+102"
     },
     {
-        "PlayerName": "Jared Jones",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683003/headshot/silo/current",
-        "team": "Pittsburgh Pirates",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
+        "PlayerName": "Andre Pallante",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669467/headshot/silo/current",
+        "team": "St. Louis Cardinals",
+        "Line": 3.5,
+        "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "+125"
+        "Odds": "-136"
     }
 ]

@@ -1,20 +1,29 @@
 [
     {
-        "PlayerName": "Connor Wong",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/657136/headshot/silo/current",
-        "Team": "Boston Red Sox",
+        "PlayerName": "Gabriel Moreno",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672515/headshot/silo/current",
+        "Team": "Arizona Diamondbacks",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+130",
+        "Odds": "+210",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Luis Robert Jr.",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673357/headshot/silo/current",
+        "PlayerName": "Rafael Devers",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/646240/headshot/silo/current",
+        "Team": "Boston Red Sox",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+105",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Andrew Vaughn",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683734/headshot/silo/current",
         "Team": "Chicago White Sox",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+135",
+        "Odds": "+185",
         "HitRate": "4/5"
     },
     {
@@ -23,16 +32,16 @@
         "Team": "New York Yankees",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "-105",
+        "Odds": "-130",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Carlos Correa",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621043/headshot/silo/current",
-        "Team": "Minnesota Twins",
+        "PlayerName": "Jake Meyers",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676694/headshot/silo/current",
+        "Team": "Houston Astros",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+135",
+        "Odds": "+180",
         "HitRate": "4/5"
     },
     {
@@ -41,16 +50,7 @@
         "Team": "Houston Astros",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+175",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Jose Iglesias",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/578428/headshot/silo/current",
-        "Team": "New York Mets",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+200",
+        "Odds": "+170",
         "HitRate": "4/5"
     },
     {
@@ -59,34 +59,43 @@
         "Team": "New York Mets",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+130",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Nathaniel Lowe",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663993/headshot/silo/current",
-        "Team": "Texas Rangers",
-        "OverUnder": "OVER",
-        "Line": 0.5,
         "Odds": "+150",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Harold Ram\u00edrez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/623912/headshot/silo/current",
+        "Team": "Washington Nationals",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+145",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Luis Matos",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682641/headshot/silo/current",
+        "PlayerName": "Matt Chapman",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656305/headshot/silo/current",
         "Team": "San Francisco Giants",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+210",
+        "Odds": "+135",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Jorge Soler",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/624585/headshot/silo/current",
-        "Team": "San Francisco Giants",
+        "PlayerName": "Alec Burleson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676475/headshot/silo/current",
+        "Team": "St. Louis Cardinals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+190",
+        "Odds": "+170",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Isaac Paredes",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/670623/headshot/silo/current",
+        "Team": "Tampa Bay Rays",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+135",
         "HitRate": "4/5"
     },
     {
@@ -95,16 +104,7 @@
         "Team": "Kansas City Royals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+135",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Brandon Lowe",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664040/headshot/silo/current",
-        "Team": "Tampa Bay Rays",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+140",
+        "Odds": "+125",
         "HitRate": "4/5"
     }
 ]
