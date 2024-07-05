@@ -150,6 +150,7 @@ const Home = () => {
       <>
         <Head>
           <title>BRETON</title>
+          <link rel="icon" href="/bretpng.png" />
         </Head>
         <div className={styles.navbar}>
    

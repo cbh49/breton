@@ -861,11 +861,20 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .results {
     margin-left: 0; /* Reset left margin */
-    font-size: 1.3em;   
-    margin-left: calc(2.5%); /* Reset left margin */
-    width: 95%;
+    font-size: 1em;   
+    margin-left: calc(4%); /* Reset left margin */
+    width: 88%;
+    padding: 2%;
   }
+  .info{
+    margin-left: calc(4%); /* Reset left margin */
+    margin-top: 14%;
+    width: 88%;
+    font-size: .5em;
+    height: 10%;
+    padding: 2%;
 
+  }
   .chartButton{
     margin-bottom: -85%;
     left: -41%;
@@ -885,12 +894,6 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin-top: -40%;
     font-size: 5.5em;
   }
-.info{
-  margin-left: calc(22.5%); /* Reset left margin */
-  margin-top: 20%;
-  width: 52%;
-  font-size: .5em;
-}
 
   /* SIDENAV */
 
@@ -1121,10 +1124,19 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .results {
     margin-left: 0; /* Reset left margin */
-    font-size: 1.3em;   
+    font-size: 1em;   
     margin-left: calc(5%); /* Reset left margin */
     width: 90%;
   }
+  .info{
+    margin-left: calc(5%); /* Reset left margin */
+    margin-top: 14%;
+    width: 90%;
+    font-size: .5em;
+    height: 10%;
+    padding: 0%;
+  }
+    
 
   .chartButton{
     margin-bottom: -75%;
@@ -1145,13 +1157,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin-top: -40%;
     font-size: 6em;
   }
-.info{
-  margin-left: calc(26%); /* Reset left margin */
-  margin-top: 20%;
-  width: 45%;
-  font-size: .5em;
-}
-  
+
   /* SIDENAV */
 
   .sideNav {
@@ -1381,9 +1387,17 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .results {
     margin-left: 0; /* Reset left margin */
-    font-size: 1.3em;   
+    font-size: 1em;   
     margin-left: calc(5%); /* Reset left margin */
     width: 90%;
+  }
+  .info{
+    margin-left: calc(5%); /* Reset left margin */
+    margin-top: 12%;
+    width: 90%;
+    font-size: .5em;
+    height: 10%;
+    padding: 0%;
   }
 
   .chartButton{
@@ -1405,12 +1419,6 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin-top: -30%;
     font-size: 6em;
   }
-.info{
-  margin-left: calc(26%); /* Reset left margin */
-  margin-top: 17%;
-  width: 45%;
-  font-size: .5em;
-}
   
   /* SIDENAV */
 

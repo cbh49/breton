@@ -199,20 +199,15 @@ const Home = () => {
             </p>
             <p>
               <strong>Important Considerations:</strong><br/>
-              Game 7 is unpredictable: Even with historical data and current trends, Game 7 of the Stanley Cup Final is a high-stakes game with the potential for unexpected outcomes.
+              Game 7 is unpredictable, even with historical data and current trends, Game 7 of the Stanley Cup Final is a high-stakes game with the potential for unexpected outcomes.
               <br/>
-              Individual player performance: The performances of key players like Connor McDavid and Sergei Bobrovsky will have a significant impact on the outcome of the game.
+              The performances of key players like Connor McDavid and Sergei Bobrovsky will have a significant impact on the outcome of the game.
               <br/>
-              Betting responsibly: All sports betting should be done responsibly, with a clear understanding of the risks involved.
+              Bet responsibly. All sports betting should be done responsibly, with a clear understanding of the risks involved.
             </p>
           </td>
         </tr>
         <tr>
-          <td colSpan={2}>
-            <p>
-              <strong>In summary:</strong> The Oilers moneyline (-110) and the Under 5 goals (+120) are the consensus picks for Game 7 of the Stanley Cup Final. However, the Panthers' moneyline (-110) is also a viable option, particularly considering the sharp action supporting them.
-            </p>
-          </td>
         </tr>
       </tbody>
     </table>

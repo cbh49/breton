@@ -322,15 +322,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between; /* Distributes space between the tables */
-  margin-left: 0%;
+  margin-left: 4%;
+  width: 95%;
   z-index: 100;
   overflow: visible;
 }
 .content2{
   position: absolute;
   top: 15vh; /* Example: Adjust based on your actual navbar height */
-  left: 40px; /* Push content to the right to account for sideNav width */
-  width: calc(95% ); /* Subtract sideNav width from total width */
+  left: 0%; /* Push content to the right to account for sideNav width */
+  width: calc(100% ); /* Subtract sideNav width from total width */
   z-index: 1; /* Lower z-index than sideNav so it scrolls under it */
   text-align: center;
   color: #fff;
@@ -339,13 +340,13 @@
   overflow-x: hidden;
 }
 .content2 h1{
-  font-size: 70px;
-  margin-top: 55px;
+  font-size: 4em;
+  margin-top: 6%;
   align-items: center;
   border-radius: 10px;
   box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
-  width: 1000px;
-  margin-left: 32%;
+  width: 62%;
+  margin-left: 20%;
 }
 .content2 p{
   margin: 10px 0 20px;
@@ -360,7 +361,7 @@ width: 90%;
 text-align: center;
 background-color: white;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin-left: calc(0%);
+margin-left: calc(-3%);
 margin-right: calc(0%);
 border-radius: 10px;
 margin-top: 0px;
@@ -403,7 +404,8 @@ background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between; /* Distributes space between the tables */
-  margin-left: 25%;
+  margin-left: -4%;
+  margin-right: 3%;
   z-index: 100;
   overflow: visible;
 }
@@ -411,12 +413,12 @@ background-color: white;
   flex: 1; /* Ensures the tables take equal space */
   margin: 10px; 
   color: #000;
-  width: 90%;
+  width: 70%;
   text-align: center;
   background-color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: calc(0%);
-  margin-right: calc(2.5%);
+  margin-left: calc(7%);
+  margin-right: calc(10%);
   border-radius: 10px;
   margin-top: 0px;
   background-color:rgba(238, 236, 236, 0.941);
@@ -479,10 +481,18 @@ background-color: white;
     color: black;
     border: none;
   }
+  .buttonText{
+    text-decoration: none;
+  }
+  .stattable2 .button a, 
+.stattable1 .button a {
+  text-decoration: none;
+}
   .button:hover .span {
     width: 100%;
     background-color: white;
     border: 2px solid black;
+    box-shadow: 0px 5px 5px rgba(0,0,0, .5);
   }
 .button h2{
   color: black;
@@ -516,16 +526,7 @@ background-color: white;
   position: fixed; /* Fixed position to keep it in place */
   width: 23.5%;
   left: 0;
-  background: linear-gradient(#68b42b, #ddd);
-  display: flex;
-  flex-direction: column;
-  overflow-y: hidden; 
-  z-index: 30; /* Ensure it's above other content */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('/pathex.avif');
-  background-size: 10%;
-  border-radius: 2%;
-  border: 1px solid white;
-  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+
 }
 .sideNav h3 {
   color: #fff;
@@ -579,20 +580,7 @@ background-color: white;
 }
 .total {
   font-size: 0.75rem;
-  box-shadow: 0 1px 2px rgba(0,0,0, 1);
-  padding: 3px;
-  border-radius: 10px;
-  color: black;
-}
-.matchupRow {
-  background-color: transparent; /* White background for the whole row */
-  border-radius: 10px; /* Rounded corners for the box */
-  box-shadow: 0 4px 8px rgba(0,0,0, 1); /* Shadow for 3D effect */
-  margin: 20px 0; /* Margin between each row */
-  display: flex; /* Use flexbox to manage layout of cells */
-  justify-content: space-around; /* Distribute space around cells */
-  align-items: center; /* Align items vertically in the center */
-  padding: 10px; /* Padding inside each row */
+
 }
 .user{
   display: flex;
@@ -630,72 +618,63 @@ background-color: white;
   box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Shadow for depth */
   z-index: 10;
 }
-.sideNav:hover .nextButton {
-  display: block; /* Show when sideNav is hovered */
-}
-.sideNav .nextButton:hover {
-  border-color: #68b42b; /* Change border color to white on hover */
-  box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
-}
+
 .leaguelogo{
   margin-left: 140px;
 }
-
-
-
-/* TABLE CONTENT*/
-
-.table2{
-  width: calc(100% - 20px); /* Adjust this percentage as needed to fit your design */
-  position: relative; /* Keep the table in the normal document flow */
-  border-collapse: collapse;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/pathex.avif');
-  background-size: 3%;
-  color: #fff;
-  text-align: center;
-  z-index: 1;
-  overflow-x: hidden; 
+.sideNav {
+  width: 100%;
+  height: 11%;
+  order: 1; /* Display below navbar */
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  margin-top: -1%;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+  scrollbar-width:none;
+  overflow-y: hidden; 
+  z-index: 30; /* Ensure it's above other content */
   border-radius: 2%;
-}
-.table2 tbody tr:nth-child(odd) {
-  background-color: #484848; /* Color for odd rows */
-}
-
-.table2 tbody tr:nth-child(even) {
-  background-color: #303030; /* Color for even rows */
-}
-
-/* Table header styles */
-table.table2 thead th {
-    font-size: 1.25em; /* Double the size, you may adjust as necessary */
-    text-align: center;
-}
-
-/* Table body styles */
-table.table2 tbody td {
-    font-size: .75em; /* Half the size of the header, adjust as necessary */
-    text-align: center;
-    overflow: hidden;
-}
-/* Table span styles */
-.table2 span {
-  text-align: center;
-  overflow: hidden;
-  gap: 2px;
-  margin-right: 40px;
-  padding: 15px;
-  border-radius: 5%;
-  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-  width: auto;
   border: 1px solid #68b42b;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
 }
-.atSymbol2 {
+
+.navlogo {
+  height: 40px;
+  width: 40px;
+  align-items: row;
+  padding: 5px;
+}
+
+.sideNav h3 {
+  display: none;
+}
+
+.atSymbol {
   flex: none; /* Prevents '@' from stretching */
-  padding: 5px 10px;
-  border-radius: 30%;
-  box-shadow: 0 4px 8px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  padding: 5px;
+  font-size: 1em; /* Increases font size for visibility */
 }
-.matchupRow2 {
+
+.table {
+  width: 100%;
+  height: 100%;
+  margin-top: -27.5%; /* Moves table up and down */
+  overflow-x: hidden; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping of items */
+  width: auto; /* Width auto to contain all children */
+}
+
+.total {
+  font-size: 1em;
+  box-shadow: 0 1px 2px rgba(0,0,0, 1);
+  padding: 3px;
+  border-radius: 10px;
+  color: black;
+}
+
+.matchupRow {
   background-color: transparent; /* White background for the whole row */
   border-radius: 10px; /* Rounded corners for the box */
   box-shadow: 0 4px 8px rgba(0,0,0, 1); /* Shadow for 3D effect */
@@ -703,123 +682,24 @@ table.table2 tbody td {
   display: flex; /* Use flexbox to manage layout of cells */
   justify-content: space-around; /* Distribute space around cells */
   align-items: center; /* Align items vertically in the center */
-  padding: 5px; /* Padding inside each row */
-  width: 97.5%;
-  margin-left: 10px;
-  border: 1px solid #68b42b;
-}
-.header{
-  background-color: transparent; /* White background for the whole row */
-  border-radius: 25%; /* Rounded corners for the box */
-  box-shadow: 0 2px 3px rgba(0,0,0, 1); /* Shadow for 3D effect */
-  padding: 5px; /* Padding inside each row */
-  height: 110px;
-  width: 130px;
-  border-bottom: 3px solid black;
-  font-size: 1em;
-  margin: 5px;
-}
-.value{
-  margin-top: -20px;
-  font-size: 2.5em;
-  margin-top: -10px;
-}
-.valueName{
-  margin-top: 0px;
-}
-.headshot{
-  margin-top: 10px;
-}
-.navlogo2{
-  margin-top: -10px;
-}
-/* Add left border to each table cell for column separation */
-table.table2 th, table.table2 td {
-    border-left: 0px solid #89cff0;
+  padding: 10px; /* Padding inside each row */
+  margin: 5px 2px; /* Margin between each row */
+  display: inline-flex; /* Use flexbox to manage layout of cells */
+  padding: 7.5px; /* Padding inside each row */
+  height: 30%;
+  margin-top: 37.5px;
+  width: 7%;
 }
 
-/* Remove left border from the first cell in the header and body to avoid double lines */
-table.table2 th:first-child, table.table2 td:first-child {
-    border-left: 0px solid #89cff0;
+.leaguelogo {
+  display: none;
 }
 
-/* Add right border to the last cell in the header and body for the last column */
-table.table2 th:last-child, table.table2 td:last-child {
-    padding: 1%;
-}
-/* Conditional coloring for table cells */
-.table2 .positive-difference {
-  background-color: green;
-  color: white; /* Adjust text color for visibility on the green background */
-  border-radius: 5%;
-}
-.table2 .negative-difference {
-  background-color: red;
-  color: white; /* Adjust text color for visibility on the red background */
-  border-radius: 5%;
-}
-/* Tooltip container (common styles) */
-#ptip, #ttip, #dtip {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-/* Tooltip container (common styles) */
-.tip {
-    position: relative;
-    cursor: pointer;
-  }
-  
-  /* Tooltip text */
-  .tip::after {
-    content: attr(data-tooltip); /* Use a custom attribute for tooltip text */
-    visibility: hidden;
-    width: 200px;
-    background-color: #68b42b;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 10px 15px;
-    font-size: 0.5em;
-  
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-  
-    /* Fade-in effect */
-    opacity: 0;
-    transition: visibility 0s, opacity 0.3s ease-in-out;
-  }
-  .subscribeButtonContainer {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px; /* Adjust this as needed */
-  }
-  /* CSS for blurring and showing the subscription message */
-.blurOverlay {
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  height: 100%; /* Adjust based on your needs */
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.table2 tbody tr:not(:first-child) {
-  filter: blur(0px);
-}
-.tip:hover::after {
-    visibility: visible;
-    opacity: 1;
+.leaguelogo2 {
+  margin-left: calc(375px);
+  padding-right: 500px;
+  height: 20px;
+  width: 20px;
 }
 
 
@@ -972,20 +852,21 @@ table.table2 th:last-child, table.table2 td:last-child {
   line-height: 25px;
 }
 .stattable1{
-  margin-right: 27.5%;
-  margin-left: -4%;
+  margin-right: 31%;
+  margin-left: -8%;
 }
 .statttable1 th, .stattable1 td {
-border-radius: 20px;
-color: #000;
-text-align: center;
-border-color:  rgba(0,0,0,0.2);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-border: 1px solid #68b42b;
-padding-top: 5px;
-font-size: 1.5em;
-color: black;
-background-color: white;
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: -0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: black;
+  
 }
 .stattable1 h3{
 border-radius: 10px;
@@ -993,26 +874,28 @@ padding: 2px;
 color: white;
 background-color: black;
 margin-bottom: 0px;
+font-size: .75em;
 }
 .stattable1 p{
-  font-size: .5em;
+  font-size: .4em;
 }
 
 .stattable2 {
-  margin-right: calc(5%);
-  margin-left: calc(-4%);
+  margin-right: calc(10%);
+  margin-left: calc(-2%);
   }
   .statttable2 th, .stattable2 td {
-  border-radius: 20px;
+  border-radius: 10px;
   color: #000;
   text-align: center;
   border-color:  rgba(0,0,0,0.2);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: 1px solid #68b42b;
-  padding-top: 5px;
+  padding-top: -0px;
+  margin-bottom: 0px;
   font-size: 1.5em;
   color: black;
-  background-color: white;
+  
   }
   .stattable2 h1{
     margin-top: calc(100%);
@@ -1023,9 +906,10 @@ margin-bottom: 0px;
   color: white;
   background-color: black;
   margin-bottom: 0px;
+  font-size: .75em;
   }
   .stattable2 p{
-    font-size: .5em;
+    font-size: .4em;
     padding: 1%;
   }
   .tableContainer2{
@@ -1059,15 +943,18 @@ margin-bottom: 0px;
 
 .tableContainer{
   width: calc(200%);
-  padding-left: calc(1%);
-  padding-right: calc(1%);
-  margin-left: calc(-20%);
+  padding-left: calc(3%);
+  padding-right: calc(3%);
+  margin-left: calc(-14%);
 }
 .tableImage{
   width: calc(90%);
   height: 15vh;
 }
-
+.stattable2 tbody {
+  height: 200px; /* Set the desired height */
+  overflow-y: auto; /* Add this if you want the content to scroll if it overflows */
+}
 
 
 
@@ -1077,7 +964,7 @@ margin-bottom: 0px;
 
   .sideNav {
     width: 100%;
-    height: 75px;
+    height: 65px;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
@@ -1110,6 +997,7 @@ margin-bottom: 0px;
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
+    margin-top: -112%;
   }
 
   .total {
@@ -1120,8 +1008,8 @@ margin-bottom: 0px;
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
     padding: 7.5px; /* Padding inside each row */
-    height: 30%;
-    margin-top: 37.5px;
+    height: 45%;
+    margin-top: 0%;
   }
 
   .leaguelogo {
@@ -1273,47 +1161,50 @@ margin-bottom: 0px;
   line-height: 25px;
 }
 .stattable1{
-  margin-right: 30%;
-  margin-left: -2.55%;
+  margin-right: 29%;
+  margin-left: -8%;
 }
 .statttable1 th, .stattable1 td {
-border-radius: 20px;
-color: #000;
-text-align: center;
-border-color:  rgba(0,0,0,0.2);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-border: 1px solid #68b42b;
-padding-top: 5px;
-font-size: 1.5em;
-color: black;
-background-color: white;
-}
-.stattable1 h3{
   border-radius: 10px;
-  padding: 2px;
-  color: white;
-  background-color: black;
-  margin-bottom: 0px;
-}
-.stattable1 p{
-  font-size: .5em;
-}
-
-.stattable2 {
-  margin-right: calc(5%);
-  margin-left: calc(-2%);
-  }
-  .statttable2 th, .stattable2 td {
-  border-radius: 20px;
   color: #000;
   text-align: center;
   border-color:  rgba(0,0,0,0.2);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: 1px solid #68b42b;
-  padding-top: 5px;
+  padding-top: -0px;
+  margin-bottom: 0px;
   font-size: 1.5em;
   color: black;
-  background-color: white;
+  
+}
+.stattable1 h3{
+border-radius: 10px;
+padding: 2px;
+color: white;
+background-color: black;
+margin-bottom: 0px;
+font-size: .75em;
+}
+.stattable1 p{
+  font-size: .4em;
+}
+
+.stattable2 {
+  margin-right: calc(10%);
+  margin-left: calc(-2%);
+  }
+  .statttable2 th, .stattable2 td {
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: -0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: black;
+  
   }
   .stattable2 h1{
     margin-top: calc(100%);
@@ -1324,24 +1215,15 @@ background-color: white;
   color: white;
   background-color: black;
   margin-bottom: 0px;
+  font-size: .75em;
   }
   .stattable2 p{
-    font-size: .5em;
+    font-size: .4em;
     padding: 1%;
   }
   .tableContainer2{
     margin-left: -18%;
     width: 200%;
-  }
-  .content2 h2{
-    font-size: 2.5em;
-    margin-top: 10%;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
-    width: 300px;
-    margin-left: -10%;
-    padding: 5%;
   }
   .button{
     width: 50%;
@@ -1360,10 +1242,10 @@ background-color: white;
 
 
 .tableContainer{
-  width: calc(200%);
-  padding-left: calc(1%);
-  padding-right: calc(1%);
-  margin-left: calc(-20%);
+  width: calc(190%);
+  padding-left: calc(3%);
+  padding-right: calc(3%);
+  margin-left: calc(-13%);
 }
 .tableImage{
   width: calc(90%);
@@ -1379,7 +1261,7 @@ background-color: white;
 
   .sideNav {
     width: 100%;
-    height: 80px;
+    height: 70px;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
@@ -1412,6 +1294,7 @@ background-color: white;
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
+    margin-top: -105.5%;
   }
 
   .total {
@@ -1422,8 +1305,8 @@ background-color: white;
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
     padding: 7.5px; /* Padding inside each row */
-    height: 30%;
-    margin-top: 37.5px;
+    height: 45%;
+    margin-top: 0%;
   }
 
   .leaguelogo {
@@ -1563,20 +1446,21 @@ background-color: white;
   line-height: 25px;
 }
 .stattable1{
-  margin-right: 30%;
-  margin-left: -2.55%;
+  margin-right: 28%;
+  margin-left: -8%;
 }
 .statttable1 th, .stattable1 td {
-border-radius: 20px;
-color: #000;
-text-align: center;
-border-color:  rgba(0,0,0,0.2);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-border: 1px solid #68b42b;
-padding-top: 5px;
-font-size: 1.5em;
-color: black;
-background-color: white;
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: -0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: black;
+  
 }
 .stattable1 h3{
 border-radius: 10px;
@@ -1584,26 +1468,28 @@ padding: 2px;
 color: white;
 background-color: black;
 margin-bottom: 0px;
+font-size: .75em;
 }
 .stattable1 p{
-  font-size: .5em;
+  font-size: .4em;
 }
 
 .stattable2 {
-  margin-right: calc(5%);
+  margin-right: calc(10%);
   margin-left: calc(-2%);
   }
   .statttable2 th, .stattable2 td {
-  border-radius: 20px;
+  border-radius: 10px;
   color: #000;
   text-align: center;
   border-color:  rgba(0,0,0,0.2);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: 1px solid #68b42b;
-  padding-top: 5px;
+  padding-top: -0px;
+  margin-bottom: 0px;
   font-size: 1.5em;
   color: black;
-  background-color: white;
+  
   }
   .stattable2 h1{
     margin-top: calc(100%);
@@ -1614,9 +1500,10 @@ margin-bottom: 0px;
   color: white;
   background-color: black;
   margin-bottom: 0px;
+  font-size: .75em;
   }
   .stattable2 p{
-    font-size: .5em;
+    font-size: .4em;
     padding: 1%;
   }
   .tableContainer2{
@@ -1641,10 +1528,10 @@ margin-bottom: 0px;
 }
 
 .tableContainer{
-  width: calc(200%);
-  padding-left: calc(1%);
-  padding-right: calc(1%);
-  margin-left: calc(-20%);
+  width: calc(182%);
+  padding-left: calc(3%);
+  padding-right: calc(3%);
+  margin-left: calc(-10%);
 }
 .tableImage{
   width: calc(90%);
@@ -1700,6 +1587,7 @@ margin-bottom: 0px;
     overflow-x: hidden; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevents wrapping of items */
     width: auto; /* Width auto to contain all children */
+    margin-top: -100.5%;
   }
 
   .total {
@@ -1710,8 +1598,8 @@ margin-bottom: 0px;
     margin: 5px 2px; /* Margin between each row */
     display: inline-flex; /* Use flexbox to manage layout of cells */
     padding: 7.5px; /* Padding inside each row */
-    height: 30%;
-    margin-top: 37.5px;
+    height: 45%;
+    margin-top: 0%;
   }
 
   .leaguelogo {

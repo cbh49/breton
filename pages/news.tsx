@@ -72,7 +72,7 @@ const Home = () => {
       });
     };
     useEffect(() => {
-      const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 6);
+      const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 100);
       setDisplayMatchups(newDisplayMatchups);
     }, [currentMatchupIndex, matchups]);
     
@@ -99,7 +99,7 @@ const Home = () => {
       <>
         <Head>
           <title>BRETON</title>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/bretpng.png" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale= 1, user-scalable=yes" />
         </Head>
         <div className={styles.banner}>
@@ -148,26 +148,7 @@ const Home = () => {
         <table className={styles.stattable2}>
           <thead>
             <tr>
-              <th colSpan={2}>
-                <Image src="/nbadraft.png" width={350} height={270} alt="Article Image" className={styles.tableImage} />
-                <h3>2024 NBA Draft Best Bets</h3>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td colSpan={2}>
-                <p>Our AI Model search 10 Mock Drafts to compile the most likely outcomes. <br /> Published: 6/26</p>
-                <button className={styles.button}><Link href="/nbadraft"><h4>Read More</h4><span className={styles.span}/></Link>
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table className={styles.stattable1}>
-          <thead>
-            <tr>
-              <th colSpan={2}>
+                <th colSpan={2}>
                 <Image src="/ufc303.jpg" width={350} height={270} alt="Article Image" className={styles.tableImage} />
                 <h3>UFC 303 Best Bets</h3>
               </th>
@@ -183,8 +164,69 @@ const Home = () => {
             </tr>
           </tbody>
         </table>
+        <table className={styles.stattable1}>
+          <thead>
+            <tr>
+            <th colSpan={2}>
+                <Image src="/nbadraft.png" width={350} height={270} alt="Article Image" className={styles.tableImage} />
+                <h3>2024 NBA Draft Best Bets</h3>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colSpan={2}>
+                <p>Our AI Model searched 10 Mock Drafts to compile the most likely outcomes. <br /> Published: 6/26</p>
+                <button className={styles.button}><Link href="/nbadraft"><h4>Read More</h4><span className={styles.span}/></Link>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    <div className={styles.tableContainer2}>
+    <table className={styles.stattable2}>
+          <thead>
+            <tr>
+              <th colSpan={2}>
+                <Image src="/mcdavid.webp" width={350} height={270} alt="Article Image" className={styles.tableImage} />
+                <h3>NHL Game 7 Best Bets</h3>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colSpan={2}>
+                <p>Our AI Model searched to find the best bets for the deciding game in the Stanley Cup. <br /> Published: 6/24</p>
+                <button className={styles.button}><Link href="/StanleyCupGame7"><h4>Read More</h4><span className={styles.span}/></Link>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table className={styles.stattable1}>
+          <thead>
+            <tr>
+              <th colSpan={2}>
+                <Image src="/ufcsaudi.webp" width={350} height={270} alt="Article Image" className={styles.tableImage} />
+                <h3>UFC Saudi Arabia Best Bets</h3>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colSpan={2}>
+                <p>Our AI Model searched the web to find the best bets for UFC Saudi Arabia <br />Published: 6/21</p>
+                <button className={styles.button}><Link href="/ufcsaudi"><h4>Read More</h4><span className={styles.span}/></Link>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
+    
+
 
 
         <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>

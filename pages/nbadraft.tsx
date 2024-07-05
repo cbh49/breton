@@ -99,7 +99,7 @@ const Home = () => {
       <>
         <Head>
           <title>BRETON</title>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/bretpng.png" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale= 1, user-scalable=yes" />
         </Head>
         <div className={styles.banner2}>
@@ -150,7 +150,7 @@ const Home = () => {
       <thead>
         <tr>
           <th colSpan={2}>
-            <Image src="/nba_draft.jpg" width={800} height={400} alt="NBA Draft" className={styles.tableImage} />
+            <Image src="/nbadraft.png" width={800} height={400} alt="NBA Draft" className={styles.tableImage} />
             <p>Summary of articles for NBA 2024 First Round Mock Draft Best Bets</p>
           </th>
         </tr>
