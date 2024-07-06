@@ -994,7 +994,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .sideNav {
     width: 100%;
-    height: 70px;
+    height: 75px;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
@@ -1279,7 +1279,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .sideNav {
     width: 100%;
-    height: 8.5%;
+    height: 9%;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
@@ -1555,7 +1555,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .sideNav {
     width: 100%;
-    height: 8.5%;
+    height: 9%;
     order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */

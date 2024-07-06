@@ -341,7 +341,7 @@
 }
 .content2 h1{
   font-size: 4em;
-  margin-top: 6%;
+  margin-top: 0%;
   align-items: center;
   border-radius: 10px;
   box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
@@ -526,7 +526,7 @@ background-color: white;
   position: fixed; /* Fixed position to keep it in place */
   width: 23.5%;
   left: 0;
-
+  display: none;
 }
 .sideNav h3 {
   color: #fff;
@@ -839,7 +839,7 @@ background-color: white;
 }
 .content2 h1{
   font-size: 3em;
-  margin-top: 35%;
+  margin-top: 20%;
   align-items: center;
   border-radius: 10px;
   box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
@@ -1148,7 +1148,7 @@ font-size: .75em;
 }
 .content2 h1{
   font-size: 3em;
-  margin-top: 35%;
+  margin-top: 20%;
   align-items: center;
   border-radius: 10px;
   box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
@@ -1433,7 +1433,7 @@ font-size: .75em;
 }
 .content2 h1{
   font-size: 3em;
-  margin-top: 35%;
+  margin-top: 20%;
   align-items: center;
   border-radius: 10px;
   box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
@@ -1646,7 +1646,7 @@ font-size: .75em;
     width: 105%;
   }
   .content2 h1 {
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 40%;
     margin-right: -10%;
     width: 50%;
