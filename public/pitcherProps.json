@@ -1,92 +1,38 @@
 [
     {
-        "PlayerName": "Luis Gil",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/661563/headshot/silo/current",
-        "team": "New York Yankees",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "5/5",
-        "Odds": "+125"
-    },
-    {
-        "PlayerName": "Kutter Crawford",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676710/headshot/silo/current",
-        "team": "Boston Red Sox",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
-        "Odds": "-114"
-    },
-    {
-        "PlayerName": "Jonathan Cannon",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686563/headshot/silo/current",
-        "team": "Chicago White Sox",
-        "Line": 4.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "+125"
-    },
-    {
-        "PlayerName": "Tarik Skubal",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669373/headshot/silo/current",
-        "team": "Detroit Tigers",
+        "PlayerName": "Chris Sale",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/519242/headshot/silo/current",
+        "team": "Atlanta Braves",
         "Line": 7.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-135"
-    },
-    {
-        "PlayerName": "Graham Ashcraft",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668933/headshot/silo/current",
-        "team": "Cincinnati Reds",
-        "Line": 4.5,
-        "OverUnder": "UNDER",
-        "HitRate": "5/5",
-        "Odds": "+150"
-    },
-    {
-        "PlayerName": "Simeon Woods Richardson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680573/headshot/silo/current",
-        "team": "Minnesota Twins",
-        "Line": 3.5,
         "OverUnder": "OVER",
-        "HitRate": "5/5",
-        "Odds": "-148"
+        "HitRate": "4/5",
+        "Odds": "+115"
     },
     {
-        "PlayerName": "Brady Singer",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663903/headshot/silo/current",
-        "team": "Kansas City Royals",
+        "PlayerName": "Andrew Abbott",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/671096/headshot/silo/current",
+        "team": "Cincinnati Reds",
         "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "4/5",
-        "Odds": "+125"
+        "Odds": "-112"
     },
     {
-        "PlayerName": "DJ Herz",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/687792/headshot/silo/current",
-        "team": "Washington Nationals",
-        "Line": 4.5,
-        "OverUnder": "OVER",
+        "PlayerName": "Chris Flexen",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/623167/headshot/silo/current",
+        "team": "Chicago White Sox",
+        "Line": 3.5,
+        "OverUnder": "UNDER",
         "HitRate": "4/5",
-        "Odds": "-141"
+        "Odds": "-108"
     },
     {
-        "PlayerName": "Kyle Gibson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/502043/headshot/silo/current",
-        "team": "St. Louis Cardinals",
-        "Line": 4.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
-        "Odds": "+102"
-    },
-    {
-        "PlayerName": "Nathan Eovaldi",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543135/headshot/silo/current",
+        "PlayerName": "Jon Gray",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592351/headshot/silo/current",
         "team": "Texas Rangers",
-        "Line": 6.5,
+        "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "5/5",
-        "Odds": "+128"
+        "Odds": "-105"
     }
 ]

@@ -1,20 +1,11 @@
 [
     {
-        "PlayerName": "Kyle Isbel",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664728/headshot/silo/current",
-        "Team": "Kansas City Royals",
+        "PlayerName": "Elly De La Cruz",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682829/headshot/silo/current",
+        "Team": "Cincinnati Reds",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-170",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Brenton Doyle",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686668/headshot/silo/current",
-        "Team": "Colorado Rockies",
-        "OverUnder": "OVER",
-        "Line": 1.5,
-        "Odds": "+114",
+        "Odds": "-141",
         "HitRate": "5/5"
     },
     {
@@ -23,16 +14,34 @@
         "Team": "Colorado Rockies",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-148",
+        "Odds": "-182",
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "Salvador Perez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/521692/headshot/silo/current",
-        "Team": "Kansas City Royals",
+        "PlayerName": "Trevor Larnach",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663616/headshot/silo/current",
+        "Team": "Minnesota Twins",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "+104",
+        "Odds": "-180",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Brooks Lee",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686797/headshot/silo/current",
+        "Team": "Minnesota Twins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-175",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Byron Buxton",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621439/headshot/silo/current",
+        "Team": "Minnesota Twins",
+        "OverUnder": "OVER",
+        "Line": 1.5,
+        "Odds": "-105",
         "HitRate": "5/5"
     },
     {
@@ -41,25 +50,7 @@
         "Team": "Los Angeles Angels",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-195",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Brandon Drury",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592273/headshot/silo/current",
-        "Team": "Los Angeles Angels",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-182",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Jos\u00e9 Ram\u00edrez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608070/headshot/silo/current",
-        "Team": "Cleveland Guardians",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-148",
+        "Odds": "-200",
         "HitRate": "5/5"
     },
     {
@@ -68,16 +59,7 @@
         "Team": "Texas Rangers",
         "OverUnder": "OVER",
         "Line": 1.5,
-        "Odds": "-115",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Dominic Canzone",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686527/headshot/silo/current",
-        "Team": "Seattle Mariners",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-182",
+        "Odds": "-132",
         "HitRate": "5/5"
     }
 ]
