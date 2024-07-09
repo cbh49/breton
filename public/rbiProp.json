@@ -1,11 +1,20 @@
 [
     {
+        "PlayerName": "Lourdes Gurriel Jr.",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666971/headshot/silo/current",
+        "Team": "Arizona Diamondbacks",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+195",
+        "HitRate": "4/5"
+    },
+    {
         "PlayerName": "Josh Naylor",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/647304/headshot/silo/current",
         "Team": "Cleveland Guardians",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+115",
+        "Odds": "-105",
         "HitRate": "4/5"
     },
     {
@@ -14,34 +23,25 @@
         "Team": "Minnesota Twins",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+190",
+        "Odds": "+185",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Andrew Vaughn",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683734/headshot/silo/current",
-        "Team": "Chicago White Sox",
+        "PlayerName": "Rafael Devers",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/646240/headshot/silo/current",
+        "Team": "Boston Red Sox",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+155",
+        "Odds": "-135",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Dylan Carlson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666185/headshot/silo/current",
-        "Team": "St. Louis Cardinals",
+        "PlayerName": "Jurickson Profar",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/595777/headshot/silo/current",
+        "Team": "San Diego Padres",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+160",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Willson Contreras",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/575929/headshot/silo/current",
-        "Team": "St. Louis Cardinals",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+100",
+        "Odds": "+240",
         "HitRate": "4/5"
     }
 ]
