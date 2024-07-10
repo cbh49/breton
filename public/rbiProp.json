@@ -1,11 +1,11 @@
 [
     {
-        "PlayerName": "Lourdes Gurriel Jr.",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666971/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
+        "PlayerName": "Nico Hoerner",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663538/headshot/silo/current",
+        "Team": "Chicago Cubs",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+195",
+        "Odds": "+220",
         "HitRate": "4/5"
     },
     {
@@ -14,7 +14,7 @@
         "Team": "Cleveland Guardians",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "-105",
+        "Odds": "+110",
         "HitRate": "4/5"
     },
     {
@@ -23,7 +23,16 @@
         "Team": "Minnesota Twins",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+185",
+        "Odds": "+210",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Shea Langeliers",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669127/headshot/silo/current",
+        "Team": "Oakland Athletics",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+145",
         "HitRate": "4/5"
     },
     {
@@ -32,7 +41,16 @@
         "Team": "Boston Red Sox",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "-135",
+        "Odds": "-105",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Rowdy Tellez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/642133/headshot/silo/current",
+        "Team": "Pittsburgh Pirates",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+175",
         "HitRate": "4/5"
     },
     {
@@ -41,7 +59,7 @@
         "Team": "San Diego Padres",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+240",
+        "Odds": "+195",
         "HitRate": "4/5"
     }
 ]
