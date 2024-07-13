@@ -18,6 +18,33 @@
         "MLdifference": 2.019450000000001
     },
     {
+        "Team1": "Minnesota Twins",
+        "Team2": "San Francisco Giants",
+        "Team1total": 5.55016,
+        "Team2total": 3.58512,
+        "Team1Pitcher": "Simeon Woods Richardson",
+        "Team2Pitcher": "Hayden Birdsong",
+        "MLdifference": 1.9650400000000001
+    },
+    {
+        "Team1": "Oakland Athletics",
+        "Team2": "Philadelphia Phillies",
+        "Team1total": 5.099599999999999,
+        "Team2total": 3.9732,
+        "Team1Pitcher": "Mitch Spence",
+        "Team2Pitcher": "Tyler Phillips",
+        "MLdifference": 1.126399999999999
+    },
+    {
+        "Team1": "Pittsburgh Pirates",
+        "Team2": "Chicago White Sox",
+        "Team1total": 4.1078,
+        "Team2total": 2.992,
+        "Team1Pitcher": "Luis L. Ortiz",
+        "Team2Pitcher": "Chris Flexen",
+        "MLdifference": 1.1158000000000001
+    },
+    {
         "Team1": "New York Yankees",
         "Team2": "Baltimore Orioles",
         "Team1total": 4.0972800000000005,
