@@ -39,6 +39,19 @@
         "Team2Pitcher": "Miles Mikolas"
     },
     {
+        "Team1": "Texas Rangers",
+        "Team2": "Houston Astros",
+        "original_total": 8,
+        "adj_total": 9.52936,
+        "Team1Runs": 4.6,
+        "Team2Runs": 5.8,
+        "Team1total": 3.92656,
+        "Team2total": 5.6028,
+        "difference": 1.5293600000000005,
+        "Team1Pitcher": "Max Scherzer",
+        "Team2Pitcher": "Ronel Blanco"
+    },
+    {
         "Team1": "Miami Marlins",
         "Team2": "Cincinnati Reds",
         "original_total": 9,
@@ -102,6 +115,19 @@
         "difference": -1.1157599999999999,
         "Team1Pitcher": "Jake Irvin",
         "Team2Pitcher": "Colin Rea"
+    },
+    {
+        "Team1": "Pittsburgh Pirates",
+        "Team2": "Chicago White Sox",
+        "original_total": 8.5,
+        "adj_total": 6.737360000000001,
+        "Team1Runs": 5.1,
+        "Team2Runs": 3.111111111111111,
+        "Team1total": 4.08408,
+        "Team2total": 2.6532800000000005,
+        "difference": -1.7626399999999993,
+        "Team1Pitcher": "Mitch Keller",
+        "Team2Pitcher": "Jared Shuster"
     },
     {
         "Team1": "New York Yankees",

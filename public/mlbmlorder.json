@@ -27,6 +27,24 @@
         "MLdifference": 2.113655111111112
     },
     {
+        "Team1": "Texas Rangers",
+        "Team2": "Houston Astros",
+        "Team1total": 3.92656,
+        "Team2total": 5.6028,
+        "Team1Pitcher": "Max Scherzer",
+        "Team2Pitcher": "Ronel Blanco",
+        "MLdifference": 1.6762400000000004
+    },
+    {
+        "Team1": "Pittsburgh Pirates",
+        "Team2": "Chicago White Sox",
+        "Team1total": 4.08408,
+        "Team2total": 2.6532800000000005,
+        "Team1Pitcher": "Mitch Keller",
+        "Team2Pitcher": "Jared Shuster",
+        "MLdifference": 1.4307999999999996
+    },
+    {
         "Team1": "Chicago Cubs",
         "Team2": "St. Louis Cardinals",
         "Team1total": 4.63008,

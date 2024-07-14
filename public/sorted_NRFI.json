@@ -1,5 +1,22 @@
 [
     {
+        "Team1": "Texas Rangers",
+        "Team2": "Houston Astros",
+        "Team1Pitcher": "Max Scherzer",
+        "Team1PitcherGames": 4.0,
+        "Team1PitcherER": 0.0,
+        "Team1PitcherWHIP": 0.5,
+        "Team1Runs": 0.55,
+        "Team2Pitcher": "Ronel Blanco",
+        "Team2PitcherGames": 17.0,
+        "Team2PitcherER": 8.0,
+        "Team2PitcherWHIP": 1.471,
+        "Team2Runs": 0.59,
+        "PRA1": 0.0,
+        "PRA2": 0.47058823529411764,
+        "Total": 0.5969313725490196
+    },
+    {
         "Team1": "Cleveland Guardians",
         "Team2": "Tampa Bay Rays",
         "Team1Pitcher": "Ben Lively",
@@ -117,5 +134,22 @@
         "PRA1": 0.625,
         "PRA2": 0.5714285714285714,
         "Total": 0.8209047619047619
+    },
+    {
+        "Team1": "Pittsburgh Pirates",
+        "Team2": "Chicago White Sox",
+        "Team1Pitcher": "Mitch Keller",
+        "Team1PitcherGames": 18.0,
+        "Team1PitcherER": 4.0,
+        "Team1PitcherWHIP": 1.0,
+        "Team1Runs": 0.36,
+        "Team2Pitcher": "Jared Shuster",
+        "Team2PitcherGames": 1.0,
+        "Team2PitcherER": 1.0,
+        "Team2PitcherWHIP": 3.0,
+        "Team2Runs": 0.32,
+        "PRA1": 0.2222222222222222,
+        "PRA2": 1.0,
+        "Total": 0.9837037037037039
     }
 ]
