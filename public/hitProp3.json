@@ -6,7 +6,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": 100,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Kyle Higashioka",
@@ -15,16 +15,16 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -120,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Ha-Seong Kim",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673490/headshot/silo/current",
         "Team": "San Diego Padres",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -145,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Xander Bogaerts",
@@ -33,7 +33,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -155,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jake Cronenworth",
@@ -42,7 +42,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -155,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Adam Duvall",
@@ -51,7 +51,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jackson Merrill",
@@ -60,16 +60,16 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Orlando Arcia",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/606115/headshot/silo/current",
         "Team": "Atlanta Braves",
-        "OverUnder": "UNDER",
+        "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -170,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Travis d'Arnaud",
@@ -78,7 +78,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -170,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Eddie Rosario",
@@ -87,7 +87,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jurickson Profar",
@@ -96,16 +96,16 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Manny Machado",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592518/headshot/silo/current",
         "Team": "San Diego Padres",
-        "OverUnder": "UNDER",
+        "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -195,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Miguel Amaya",
@@ -114,7 +114,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -140,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Nolan Gorman",
@@ -123,7 +123,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Michael Siani",
@@ -132,7 +132,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "3/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Lars Nootbaar",
@@ -141,7 +141,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -190,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Bo Naylor",
@@ -150,7 +150,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -110,
-        "HitRate": "3/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Taylor Walls",
@@ -159,7 +159,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -135,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Ben Rortvedt",
@@ -168,7 +168,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -140,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jose Siri",
@@ -177,16 +177,16 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -140,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Angel Mart\u00ednez",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682657/headshot/silo/current",
         "Team": "Cleveland Guardians",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "David Fry",
@@ -195,16 +195,16 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Andr\u00e9s Gim\u00e9nez",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665926/headshot/silo/current",
         "Team": "Cleveland Guardians",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Daniel Schneemann",
@@ -213,7 +213,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Brandon Lowe",
@@ -222,7 +222,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "5/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Isaac Paredes",
@@ -231,7 +231,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -185,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Randy Arozarena",
@@ -240,7 +240,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -200,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Josh Naylor",
@@ -249,7 +249,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -200,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Sam Hilliard",
@@ -258,7 +258,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -120,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Michael Toglia",
@@ -267,7 +267,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -135,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Hunter Goodman",
@@ -276,7 +276,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -140,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Ryan McMahon",
@@ -285,7 +285,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Brenton Doyle",
@@ -294,7 +294,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Harrison Bader",
@@ -303,7 +303,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Mark Vientos",
@@ -312,7 +312,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Pete Alonso",
@@ -321,7 +321,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -185,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Ezequiel Tovar",
@@ -330,7 +330,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -200,
-        "HitRate": "5/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Kyle Isbel",
@@ -339,7 +339,16 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -185,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
+    },
+    {
+        "PlayerName": "Ryan Vilade",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668723/headshot/silo/current",
+        "Team": "Detroit Tigers",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -130,
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "James Outman",
@@ -348,7 +357,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Chris Taylor",
@@ -357,16 +366,16 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Zach McKinstry",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656716/headshot/silo/current",
         "Team": "Detroit Tigers",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Carson Kelly",
@@ -375,7 +384,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -170,
-        "HitRate": "5/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Gavin Lux",
@@ -384,7 +393,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "3/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Ali S\u00e1nchez",
@@ -393,7 +402,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -120,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Austin Slater",
@@ -402,16 +411,25 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -155,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
+    },
+    {
+        "PlayerName": "Austin Wynns",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/642851/headshot/silo/current",
+        "Team": "Cincinnati Reds",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -155,
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Vidal Bruj\u00e1n",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/660644/headshot/silo/current",
         "Team": "Miami Marlins",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Dane Myers",
@@ -420,7 +438,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "5/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Emmanuel Rivera",
@@ -429,7 +447,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Xavier Edwards",
@@ -438,7 +456,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -200,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Curt Casali",
@@ -447,16 +465,16 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -125,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Christian V\u00e1zquez",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543877/headshot/silo/current",
         "Team": "Minnesota Twins",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -140,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Matt Wallner",
@@ -465,7 +483,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "5/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Mike Yastrzemski",
@@ -474,7 +492,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "3/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Michael Conforto",
@@ -483,7 +501,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Max Kepler",
@@ -492,16 +510,16 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -170,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Manuel Margot",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/622534/headshot/silo/current",
         "Team": "Minnesota Twins",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -170,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Byron Buxton",
@@ -510,7 +528,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "5/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Ryan Jeffers",
@@ -519,7 +537,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Brooks Lee",
@@ -528,7 +546,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Thairo Estrada",
@@ -537,7 +555,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Matt Chapman",
@@ -546,7 +564,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -185,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Carlos Santana",
@@ -555,7 +573,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -195,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Colton Cowser",
@@ -564,7 +582,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -135,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "James McCann",
@@ -573,7 +591,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -155,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Trent Grisham",
@@ -582,7 +600,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Oswaldo Cabrera",
@@ -591,7 +609,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "3/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Anthony Santander",
@@ -600,7 +618,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Gunnar Henderson",
@@ -609,7 +627,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -190,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Austin Hays",
@@ -618,7 +636,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -200,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Max Schuemann",
@@ -627,16 +645,16 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -140,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Brett Harris",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/695391/headshot/silo/current",
         "Team": "Oakland Athletics",
-        "OverUnder": "UNDER",
+        "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Johan Rojas",
@@ -645,7 +663,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -155,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Seth Brown",
@@ -654,16 +672,16 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "3/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Lawrence Butler",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/671732/headshot/silo/current",
         "Team": "Oakland Athletics",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Zack Gelof",
@@ -672,7 +690,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -170,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Garrett Stubbs",
@@ -681,7 +699,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -170,
-        "HitRate": "5/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Brandon Marsh",
@@ -690,7 +708,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Mart\u00edn Maldonado",
@@ -699,7 +717,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": 110,
-        "HitRate": "5/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Joey Bart",
@@ -708,16 +726,16 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Paul DeJong",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/657557/headshot/silo/current",
         "Team": "Chicago White Sox",
-        "OverUnder": "UNDER",
+        "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Nicky Lopez",
@@ -726,7 +744,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -155,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jack Suwinski",
@@ -735,7 +753,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -155,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Gavin Sheets",
@@ -744,16 +762,16 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Lenyn Sosa",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672820/headshot/silo/current",
         "Team": "Chicago White Sox",
-        "OverUnder": "UNDER",
+        "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -200,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jo Adell",
@@ -762,7 +780,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -120,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Dylan Moore",
@@ -771,7 +789,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -140,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Zach Neto",
@@ -780,7 +798,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Josh Rojas",
@@ -789,7 +807,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Mitch Garver",
@@ -798,7 +816,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Mickey Moniak",
@@ -807,7 +825,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Brandon Drury",
@@ -816,7 +834,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Luke Raley",
@@ -825,7 +843,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Ty France",
@@ -834,16 +852,16 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jorge Polanco",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/593871/headshot/silo/current",
         "Team": "Seattle Mariners",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Taylor Ward",
@@ -852,7 +870,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Logan O'Hoppe",
@@ -861,25 +879,25 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -195,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Nolan Schanuel",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694384/headshot/silo/current",
         "Team": "Los Angeles Angels",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -200,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Chas McCormick",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676801/headshot/silo/current",
         "Team": "Houston Astros",
-        "OverUnder": "UNDER",
+        "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -140,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jon Singleton",
@@ -888,7 +906,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -145,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Travis Jankowski",
@@ -897,7 +915,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Adolis Garc\u00eda",
@@ -906,7 +924,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -155,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jonah Heim",
@@ -915,7 +933,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jake Meyers",
@@ -924,7 +942,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Leody Taveras",
@@ -933,7 +951,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Nathaniel Lowe",
@@ -942,7 +960,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Josh Smith",
@@ -951,16 +969,16 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -185,
-        "HitRate": "3/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Geraldo Perdomo",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672695/headshot/silo/current",
         "Team": "Arizona Diamondbacks",
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -150,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Davis Schneider",
@@ -969,7 +987,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -155,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Eugenio Su\u00e1rez",
@@ -978,7 +996,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Daulton Varsho",
@@ -987,7 +1005,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -165,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Danny Jansen",
@@ -996,7 +1014,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -170,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jake McCarthy",
@@ -1005,7 +1023,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -195,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Ernie Clement",
@@ -1014,7 +1032,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -200,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Justin Turner",
@@ -1023,16 +1041,16 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -200,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     },
     {
         "PlayerName": "Garrett Mitchell",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669003/headshot/silo/current",
         "Team": "Milwaukee Brewers",
-        "OverUnder": "UNDER",
+        "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -160,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jacob Young",
@@ -1041,7 +1059,7 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -175,
-        "HitRate": "4/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Trey Lipscomb",
@@ -1050,7 +1068,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -180,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Jackson Chourio",
@@ -1059,7 +1077,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -190,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Rhys Hoskins",
@@ -1068,7 +1086,7 @@
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -195,
-        "HitRate": "3/5"
+        "HitRate": "2/3"
     },
     {
         "PlayerName": "Joey Ortiz",
@@ -1077,6 +1095,6 @@
         "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -200,
-        "HitRate": "4/5"
+        "HitRate": "3/3"
     }
 ]

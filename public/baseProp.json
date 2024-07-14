@@ -1,38 +1,11 @@
 [
     {
-        "PlayerName": "DJ Stewart",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621466/headshot/silo/current",
-        "Team": "New York Mets",
-        "OverUnder": "UNDER",
-        "Line": 0.5,
-        "Odds": "+110",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Teoscar Hern\u00e1ndez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/606192/headshot/silo/current",
-        "Team": "Los Angeles Dodgers",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-139",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Rece Hinds",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/677956/headshot/silo/current",
-        "Team": "Cincinnati Reds",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "-145",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Byron Buxton",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621439/headshot/silo/current",
-        "Team": "Minnesota Twins",
+        "PlayerName": "Marcell Ozuna",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/542303/headshot/silo/current",
+        "Team": "Atlanta Braves",
         "OverUnder": "OVER",
         "Line": 1.5,
-        "Odds": "+133",
+        "Odds": "-105",
         "HitRate": "5/5"
     },
     {
@@ -41,52 +14,43 @@
         "Team": "Minnesota Twins",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+120",
+        "Odds": "+125",
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "Max Schuemann",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680474/headshot/silo/current",
-        "Team": "Oakland Athletics",
+        "PlayerName": "Alex Verdugo",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/657077/headshot/silo/current",
+        "Team": "New York Yankees",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-186",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Marcus Semien",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543760/headshot/silo/current",
+        "Team": "Texas Rangers",
         "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "-155",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Nick Castellanos",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592206/headshot/silo/current",
-        "Team": "Philadelphia Phillies",
-        "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-159",
+        "Odds": "+140",
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "Joc Pederson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592626/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-175",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "CJ Abrams",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682928/headshot/silo/current",
+        "PlayerName": "James Wood",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/695578/headshot/silo/current",
         "Team": "Washington Nationals",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-177",
+        "Odds": "-195",
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "Harold Ram\u00edrez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/623912/headshot/silo/current",
-        "Team": "Washington Nationals",
+        "PlayerName": "Brice Turang",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668930/headshot/silo/current",
+        "Team": "Milwaukee Brewers",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-182",
+        "Odds": "-167",
         "HitRate": "5/5"
     }
 ]

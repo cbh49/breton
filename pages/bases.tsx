@@ -47,32 +47,38 @@ const MLB = () => {
   const [isMLBDropdownVisible, setIsMLBDropdownVisible] = useState(false);
   const [IsChartDropdownVisible, setIsChartDropdownVisible] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
+  const [IsGameChartDropdownVisible, setIsGameChartDropdownVisible] = useState(false);
+  const [selectedGames, setSelectedGames] = useState(5);
 
 
   useEffect(() => {
-    Promise.all([
-      fetch('/mlblogos.json').then((res) => res.json()),
-      fetch('/mlbmatchups.json').then((res) => res.json()),
-      fetch('/baseProp.json').then((res) => res.json())
-    ])
-      .then(([logosData, matchupsData, adjMatchOrderData]) => {
+    const fetchData = async () => {
+      try {
+        const [logosData, matchupsData, adjMatchOrderData] = await Promise.all([
+          fetch('/mlblogos.json').then((res) => res.json()),
+          fetch('/mlbmatchups.json').then((res) => res.json()),
+          fetch(`/baseProp${selectedGames === 5 ? '' : selectedGames}.json`).then((res) => res.json())
+        ]);
+  
         setLogos(logosData);
         setMatchups(matchupsData);
-        // Add the team logos and headshots to adjMatchOrderData
+  
         const adjMatchDataWithLogos = adjMatchOrderData.map((item: AdjMatchData) => ({
           ...item,
           teamLogo: logosData[item.Team],
-          Headshot: item.Headshot  // Add this line
+          Headshot: item.Headshot
         }));
         setAdjMatchData(adjMatchDataWithLogos);
-      })
-      .catch((error) => {
+      } catch (error) {
         console.error('Error fetching data:', error);
-      })
-      .finally(() => {
+      } finally {
         setIsLoading(false);
-      });
-  }, []);
+      }
+    };
+  
+    fetchData();
+  }, [selectedGames]);
+  
   
 
   // Rotating Matchups
@@ -206,6 +212,20 @@ const MLB = () => {
           <table className={styles.table2} style={{ marginTop: `${tableMarginTop}px` }}>
             <thead>
             <tr><th>Props</th></tr>
+            <div
+        className={styles.chartButton2}
+            onClick={() => setIsGameChartDropdownVisible(!IsGameChartDropdownVisible)}
+            onMouseLeave={() => setIsGameChartDropdownVisible(false)}
+          >
+            <a>Number of Games</a>
+            {IsGameChartDropdownVisible && (
+        <div className={styles.dropdown}>
+        <button onClick={() => setSelectedGames(3)}><p>3 Games</p></button>
+        <button onClick={() => setSelectedGames(5)}><p>5 Games</p></button>
+        <button onClick={() => setSelectedGames(10)}><p>10 Games</p></button>
+      </div>
+            )}
+      </div>
             </thead>
             <tbody>
     {adjMatchData.length === 0 ? (
@@ -266,10 +286,14 @@ const MLB = () => {
               </div>
             </td>
             <td>
-              <div className={styles.header}>
-                <p>Hit Rate:</p>
-                <div className={styles.value}>{item.HitRate}</div>
-              </div>
+            <div
+                        className={styles.header}
+                        style={{
+                          backgroundColor: item.OverUnder === 'OVER' ? 'green' : 'UNDER' ? 'red' : 'transparent',
+                                        }}>
+                        <p>Hit Rate:</p>
+                        <div className={styles.value}>{(item.HitRate)}</div>
+                      </div>
             </td>
           </tr>
         </React.Fragment>
