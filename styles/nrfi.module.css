@@ -234,7 +234,7 @@
   align-items: center;
   border: 1px solid #68b42b; 
   background-color: #303030;
-  margin-left: calc(42%);
+  margin-left: calc(38%);
 }
 .results{
   border-radius: 10%;
@@ -249,7 +249,7 @@
   font-size: 1.5em;
 }
 .results p{
-  color: #68b42b;
+  color: green;
 }
 .info{
   border-radius: 10%;

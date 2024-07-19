@@ -1008,6 +1008,15 @@ table.table2 th:last-child, table.table2 td:last-child {
     top: 100px;
     left: -100px;
   }
+  .chartbutton2{
+    width: 150%;
+  }
+  .chartButton2 a{
+    font-size: .4em;
+  }
+  .chartButton2 p{
+    font-size: .7em;
+  }
 .table2 th{
   font-size: .25em;
 }
@@ -1274,6 +1283,13 @@ table.table2 th:last-child, table.table2 td:last-child {
     .chartButton .dropdown {
     min-width: 120%; /* Match the width or exceed the button's width */
     font-size: .7em;
+    }
+
+    .chartButton2 a{
+      font-size: .5em;
+    }
+    .chartButton2 p{
+      font-size: .7em;
     }
   .navlogo2 {
     height: 30px;
@@ -1556,6 +1572,12 @@ table.table2 th:last-child, table.table2 td:last-child {
     width: 30px;
     align-items: row;
     padding: 0px;
+  }
+  .chartButton2 a{
+    font-size: .5em;
+  }
+  .chartButton2 p{
+    font-size: .7em;
   }
 
   .results {
