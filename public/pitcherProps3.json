@@ -6,7 +6,7 @@
         "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "2/3",
-        "Odds": "-110"
+        "Odds": "-108"
     },
     {
         "PlayerName": "Austin Gomber",
@@ -15,7 +15,7 @@
         "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "2/3",
-        "Odds": "-148"
+        "Odds": "+145"
     },
     {
         "PlayerName": "Michael Lorenzen",
@@ -114,7 +114,7 @@
         "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "2/3",
-        "Odds": "-127"
+        "Odds": "-130"
     },
     {
         "PlayerName": "Andre Pallante",
@@ -123,7 +123,7 @@
         "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "+114"
+        "Odds": "+118"
     },
     {
         "PlayerName": "Zack Littell",
@@ -132,6 +132,6 @@
         "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "2/3",
-        "Odds": "+143"
+        "Odds": "+145"
     }
 ]
