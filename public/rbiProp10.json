@@ -1,11 +1,29 @@
 [
     {
+        "PlayerName": "Shea Langeliers",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669127/headshot/silo/current",
+        "Team": "Oakland Athletics",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+160",
+        "HitRate": "7/10"
+    },
+    {
+        "PlayerName": "Jo Adell",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666176/headshot/silo/current",
+        "Team": "Los Angeles Angels",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+280",
+        "HitRate": "7/10"
+    },
+    {
         "PlayerName": "Seiya Suzuki",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673548/headshot/silo/current",
         "Team": "Chicago Cubs",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+150",
+        "Odds": "+140",
         "HitRate": "7/10"
     },
     {
@@ -16,5 +34,14 @@
         "Line": 0.5,
         "Odds": "+145",
         "HitRate": "7/10"
+    },
+    {
+        "PlayerName": "Alec Burleson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676475/headshot/silo/current",
+        "Team": "St. Louis Cardinals",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+175",
+        "HitRate": "9/10"
     }
 ]
