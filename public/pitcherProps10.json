@@ -1,11 +1,74 @@
 [
     {
-        "PlayerName": "Tyler Anderson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/542881/headshot/silo/current",
-        "team": "Los Angeles Angels",
-        "Line": 5.5,
+        "PlayerName": "Jordan Montgomery",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656756/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
+        "Line": 2.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "-170"
+    },
+    {
+        "PlayerName": "Ty Blach",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621389/headshot/silo/current",
+        "team": "Colorado Rockies",
+        "Line": 3.5,
         "OverUnder": "UNDER",
-        "HitRate": "9/10",
-        "Odds": "+123"
+        "HitRate": "8/10",
+        "Odds": "-185"
+    },
+    {
+        "PlayerName": "Jon Gray",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592351/headshot/silo/current",
+        "team": "Texas Rangers",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "10/10",
+        "Odds": "-130"
+    },
+    {
+        "PlayerName": "Chris Sale",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/519242/headshot/silo/current",
+        "team": "Atlanta Braves",
+        "Line": 7.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "-105"
+    },
+    {
+        "PlayerName": "Jordan Hicks",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663855/headshot/silo/current",
+        "team": "San Francisco Giants",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "-170"
+    },
+    {
+        "PlayerName": "Paul Skenes",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694973/headshot/silo/current",
+        "team": "Pittsburgh Pirates",
+        "Line": 7.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "+104"
+    },
+    {
+        "PlayerName": "Lance Lynn",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/458681/headshot/silo/current",
+        "team": "St. Louis Cardinals",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "8/10",
+        "Odds": "-134"
+    },
+    {
+        "PlayerName": "Shawn Armstrong",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/542888/headshot/silo/current",
+        "team": "Tampa Bay Rays",
+        "Line": 1.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "-215"
     }
 ]
