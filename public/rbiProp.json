@@ -5,16 +5,16 @@
         "Team": "Kansas City Royals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+145",
+        "Odds": "+165",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Corbin Carroll",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682998/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
+        "PlayerName": "Bobby Witt Jr.",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/677951/headshot/silo/current",
+        "Team": "Kansas City Royals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+155",
+        "Odds": "+110",
         "HitRate": "4/5"
     },
     {
@@ -23,16 +23,7 @@
         "Team": "Baltimore Orioles",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+110",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Brenton Doyle",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686668/headshot/silo/current",
-        "Team": "Colorado Rockies",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+130",
+        "Odds": "+120",
         "HitRate": "4/5"
     },
     {
@@ -50,16 +41,7 @@
         "Team": "Oakland Athletics",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+200",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Jo Adell",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666176/headshot/silo/current",
-        "Team": "Los Angeles Angels",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+290",
+        "Odds": "+210",
         "HitRate": "4/5"
     },
     {
@@ -68,25 +50,7 @@
         "Team": "New York Mets",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+210",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Tyler Fitzgerald",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666149/headshot/silo/current",
-        "Team": "San Francisco Giants",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+250",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Teoscar Hern\u00e1ndez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/606192/headshot/silo/current",
-        "Team": "Los Angeles Dodgers",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+140",
+        "Odds": "+240",
         "HitRate": "4/5"
     },
     {
@@ -95,16 +59,16 @@
         "Team": "St. Louis Cardinals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+185",
+        "Odds": "+165",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Oneil Cruz",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665833/headshot/silo/current",
-        "Team": "Pittsburgh Pirates",
+        "PlayerName": "Vladimir Guerrero Jr.",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665489/headshot/silo/current",
+        "Team": "Toronto Blue Jays",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+125",
+        "Odds": "+135",
         "HitRate": "4/5"
     }
 ]

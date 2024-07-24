@@ -1,20 +1,11 @@
 [
     {
-        "PlayerName": "Eugenio Su\u00e1rez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/553993/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
+        "PlayerName": "Salvador Perez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/521692/headshot/silo/current",
+        "Team": "Kansas City Royals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+170",
-        "HitRate": "7/10"
-    },
-    {
-        "PlayerName": "Brenton Doyle",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686668/headshot/silo/current",
-        "Team": "Colorado Rockies",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+130",
+        "Odds": "+105",
         "HitRate": "7/10"
     },
     {
@@ -23,26 +14,8 @@
         "Team": "Los Angeles Angels",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+290",
+        "Odds": "+260",
         "HitRate": "7/10"
-    },
-    {
-        "PlayerName": "Trea Turner",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607208/headshot/silo/current",
-        "Team": "Philadelphia Phillies",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+165",
-        "HitRate": "7/10"
-    },
-    {
-        "PlayerName": "Alec Burleson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676475/headshot/silo/current",
-        "Team": "St. Louis Cardinals",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+185",
-        "HitRate": "8/10"
     },
     {
         "PlayerName": "Oneil Cruz",
@@ -52,5 +25,14 @@
         "Line": 0.5,
         "Odds": "+125",
         "HitRate": "7/10"
+    },
+    {
+        "PlayerName": "Alec Burleson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676475/headshot/silo/current",
+        "Team": "St. Louis Cardinals",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+165",
+        "HitRate": "8/10"
     }
 ]

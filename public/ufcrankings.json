@@ -10,15 +10,15 @@
                 },
                 {
                     "rank": "2",
-                    "name": "Jon Jones"
+                    "name": "Alex Pereira"
                 },
                 {
                     "rank": "3",
-                    "name": "Leon Edwards"
+                    "name": "Jon Jones"
                 },
                 {
                     "rank": "4",
-                    "name": "Alex Pereira"
+                    "name": "Leon Edwards"
                 },
                 {
                     "rank": "5",
@@ -92,7 +92,7 @@
                 },
                 {
                     "rank": "5",
-                    "name": "Alex Perez"
+                    "name": "Tatsuro Taira"
                 },
                 {
                     "rank": "6",
@@ -100,11 +100,11 @@
                 },
                 {
                     "rank": "7",
-                    "name": "Manel Kape"
+                    "name": "Alex Perez"
                 },
                 {
                     "rank": "8",
-                    "name": "Matheus Nicolau"
+                    "name": "Manel Kape"
                 },
                 {
                     "rank": "9",
@@ -112,27 +112,27 @@
                 },
                 {
                     "rank": "10",
-                    "name": "Tim Elliott"
+                    "name": "Matheus Nicolau"
                 },
                 {
                     "rank": "11",
-                    "name": "Matt Schnell"
+                    "name": "Tim Elliott"
                 },
                 {
                     "rank": "12",
-                    "name": "Tagir Ulanbekov"
+                    "name": "Matt Schnell"
                 },
                 {
                     "rank": "13",
-                    "name": "Tatsuro Taira"
+                    "name": "Tagir Ulanbekov"
                 },
                 {
                     "rank": "14",
-                    "name": "Sumudaerji"
+                    "name": "David Dvorak"
                 },
                 {
                     "rank": "15",
-                    "name": "David Dvorak"
+                    "name": "Cody Durden"
                 }
             ]
         },
@@ -248,31 +248,31 @@
                 },
                 {
                     "rank": "9",
-                    "name": "Giga Chikadze"
-                },
-                {
-                    "rank": "10",
                     "name": "Calvin Kattar"
                 },
                 {
+                    "rank": "10",
+                    "name": "Giga Chikadze"
+                },
+                {
                     "rank": "11",
-                    "name": "Bryce Mitchell"
+                    "name": "Lerone Murphy"
                 },
                 {
                     "rank": "12",
-                    "name": "Edson Barboza"
-                },
-                {
-                    "rank": "13",
-                    "name": "Dan Ige"
-                },
-                {
-                    "rank": "14",
                     "name": "Diego Lopes"
                 },
                 {
+                    "rank": "13",
+                    "name": "Bryce Mitchell"
+                },
+                {
+                    "rank": "14",
+                    "name": "Dan Ige"
+                },
+                {
                     "rank": "15",
-                    "name": "Sodiq Yusuff"
+                    "name": "Edson Barboza"
                 }
             ]
         },
@@ -348,7 +348,7 @@
         },
         {
             "name": "Welterweight",
-            "imageUrl": "https://a.espncdn.com/i/headshots/mma/players/full/3152929.png",
+            "imageUrl": " https://a.espncdn.com/i/headshots/mma/players/full/3152929.png",
             "ranks": [
                 {
                     "rank": "C",
@@ -438,23 +438,23 @@
                 },
                 {
                     "rank": "4",
-                    "name": "Jared Cannonier"
+                    "name": "Nassourdine Imavov" 
                 },
                 {
                     "rank": "5",
-                    "name": "Marvin Vettori"
+                    "name":  "Jared Cannonier"
                 },
                 {
                     "rank": "6",
-                    "name": "Brendan Allen"
+                    "name":  "Marvin Vettori"
                 },
                 {
                     "rank": "7",
-                    "name": "Paulo Costa"
+                    "name":  "Brendan Allen"
                 },
                 {
                     "rank": "8",
-                    "name": "Nassourdine Imavov"
+                    "name": "Paulo Costa"
                 },
                 {
                     "rank": "9",
@@ -462,11 +462,11 @@
                 },
                 {
                     "rank": "10",
-                    "name": "Khamzat Chimaev"
+                    "name": "Roman Dolidze"
                 },
                 {
                     "rank": "11",
-                    "name": "Roman Dolidze"
+                    "name": "Khamzat Chimaev" 
                 },
                 {
                     "rank": "12",
@@ -516,11 +516,11 @@
                 },
                 {
                     "rank": "6",
-                    "name": "Nikita Krylov"
+                    "name": "Nikita Krylov" 
                 },
                 {
                     "rank": "7",
-                    "name": "Johnny Walker"
+                    "name": "Volkan Oezdemir"
                 },
                 {
                     "rank": "8",
@@ -528,15 +528,15 @@
                 },
                 {
                     "rank": "9",
-                    "name": "Volkan Oezdemir"
+                    "name": "Johnny Walker"
                 },
                 {
                     "rank": "10",
-                    "name": "Anthony Smith"
+                    "name": "Carlos Ulberg"
                 },
                 {
                     "rank": "11",
-                    "name": "Carlos Ulberg"
+                    "name": "Anthony Smith" 
                 },
                 {
                     "rank": "12",
@@ -574,7 +574,7 @@
                 },
                 {
                     "rank": "3",
-                    "name": "Sergei Pavlovich"
+                    "name": "Alexander Volkov"
                 },
                 {
                     "rank": "4",
@@ -582,7 +582,7 @@
                 },
                 {
                     "rank": "5",
-                    "name": "Alexander Volkov"
+                    "name": "Sergei Pavlovich" 
                 },
                 {
                     "rank": "6",
@@ -602,11 +602,11 @@
                 },
                 {
                     "rank": "10",
-                    "name": "Derrick Lewis"
+                    "name": "Tai Tuivasa"
                 },
                 {
                     "rank": "11",
-                    "name": "Tai Tuivasa"
+                    "name": "Derrick Lewis" 
                 },
                 {
                     "rank": "12",
@@ -648,11 +648,11 @@
                 },
                 {
                     "rank": "5",
-                    "name": "Raquel Pennington"
+                    "name": "Julianna Pe\u00f1a"
                 },
                 {
                     "rank": "5",
-                    "name": "Julianna Pe\u00f1a"
+                    "name": "Raquel Pennington"
                 },
                 {
                     "rank": "7",
@@ -710,7 +710,7 @@
                 },
                 {
                     "rank": "3",
-                    "name": "Amanda Lemos"
+                    "name":  "Virna Jandiroba"
                 },
                 {
                     "rank": "4",
@@ -718,7 +718,7 @@
                 },
                 {
                     "rank": "5",
-                    "name": "Virna Jandiroba"
+                    "name": "Amanda Lemos"
                 },
                 {
                     "rank": "6",
@@ -788,11 +788,11 @@
                 },
                 {
                     "rank": "5",
-                    "name": "J\u00e9ssica Andrade"
+                    "name": "Rose Namajunas"
                 },
                 {
                     "rank": "6",
-                    "name": "Rose Namajunas"
+                    "name": "J\u00e9ssica Andrade"
                 },
                 {
                     "rank": "7",
@@ -850,23 +850,23 @@
                 },
                 {
                     "rank": "3",
-                    "name": "Mayra Bueno Silva"
-                },
-                {
-                    "rank": "4",
                     "name": "Kayla Harrison"
                 },
                 {
-                    "rank": "5",
+                    "rank": "4",
                     "name": "Irene Aldana"
                 },
                 {
+                    "rank": "5",
+                    "name": "Macy Chiasson"
+                },
+                {
                     "rank": "6",
-                    "name": "Holly Holm"
+                    "name": "Mayra Bueno Silva"
                 },
                 {
                     "rank": "7",
-                    "name": "Macy Chiasson"
+                    "name": "Holly Holm"
                 },
                 {
                     "rank": "8",
