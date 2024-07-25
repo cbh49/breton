@@ -1,101 +1,56 @@
 [
     {
-        "PlayerName": "Michael Wacha",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608379/headshot/silo/current",
-        "team": "Kansas City Royals",
-        "Line": 4.5,
+        "PlayerName": "Chris Sale",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/519242/headshot/silo/current",
+        "team": "Atlanta Braves",
+        "Line": 7.5,
         "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "+117"
+        "Odds": "-110"
     },
     {
-        "PlayerName": "Nathan Eovaldi",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543135/headshot/silo/current",
+        "PlayerName": "Corbin Burnes",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669203/headshot/silo/current",
+        "team": "Baltimore Orioles",
+        "Line": 6.5,
+        "OverUnder": "UNDER",
+        "HitRate": "5/5",
+        "Odds": "-139"
+    },
+    {
+        "PlayerName": "Max Scherzer",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/453286/headshot/silo/current",
         "team": "Texas Rangers",
         "Line": 6.5,
         "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "+110"
-    },
-    {
-        "PlayerName": "Frankie Montas",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/593423/headshot/silo/current",
-        "team": "Cincinnati Reds",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "+117"
-    },
-    {
-        "PlayerName": "Jack Flaherty",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656427/headshot/silo/current",
-        "team": "Detroit Tigers",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
+        "HitRate": "5/5",
         "Odds": "+123"
     },
     {
-        "PlayerName": "Hunter Brown",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686613/headshot/silo/current",
-        "team": "Houston Astros",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-134"
-    },
-    {
-        "PlayerName": "JP Sears",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676664/headshot/silo/current",
+        "PlayerName": "Ross Stripling",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/548389/headshot/silo/current",
         "team": "Oakland Athletics",
         "Line": 3.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
-        "Odds": "-134"
-    },
-    {
-        "PlayerName": "Griffin Canning",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656288/headshot/silo/current",
-        "team": "Los Angeles Angels",
-        "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "5/5",
-        "Odds": "-143"
+        "Odds": "-200"
     },
     {
-        "PlayerName": "Luis Castillo",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/622491/headshot/silo/current",
-        "team": "Seattle Mariners",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
+        "PlayerName": "Dylan Cease",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656302/headshot/silo/current",
+        "team": "San Diego Padres",
+        "Line": 6.5,
+        "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "+116"
+        "Odds": "-136"
     },
     {
-        "PlayerName": "Mitchell Parker",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680730/headshot/silo/current",
+        "PlayerName": "Patrick Corbin",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571578/headshot/silo/current",
         "team": "Washington Nationals",
         "Line": 3.5,
         "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "-129"
-    },
-    {
-        "PlayerName": "Matthew Liberatore",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669461/headshot/silo/current",
-        "team": "St. Louis Cardinals",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "5/5",
-        "Odds": "-113"
-    },
-    {
-        "PlayerName": "Zach Eflin",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621107/headshot/silo/current",
-        "team": "Tampa Bay Rays",
-        "Line": 4.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
-        "Odds": "+140"
+        "Odds": "+100"
     }
 ]
