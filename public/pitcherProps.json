@@ -1,56 +1,65 @@
 [
     {
-        "PlayerName": "Chris Sale",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/519242/headshot/silo/current",
+        "PlayerName": "Charlie Morton",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/450203/headshot/silo/current",
         "team": "Atlanta Braves",
-        "Line": 7.5,
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "HitRate": "4/5",
+        "Odds": "+138"
+    },
+    {
+        "PlayerName": "Kyle Hendricks",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543294/headshot/silo/current",
+        "team": "Chicago Cubs",
+        "Line": 3.5,
+        "OverUnder": "UNDER",
+        "HitRate": "4/5",
+        "Odds": "-315"
+    },
+    {
+        "PlayerName": "Kyle Harrison",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/690986/headshot/silo/current",
+        "team": "San Francisco Giants",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "HitRate": "4/5",
+        "Odds": "+125"
+    },
+    {
+        "PlayerName": "Keider Montero",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672456/headshot/silo/current",
+        "team": "Detroit Tigers",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "4/5",
+        "Odds": "-105"
+    },
+    {
+        "PlayerName": "Grayson Rodriguez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680570/headshot/silo/current",
+        "team": "Baltimore Orioles",
+        "Line": 5.5,
         "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "-110"
-    },
-    {
-        "PlayerName": "Corbin Burnes",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669203/headshot/silo/current",
-        "team": "Baltimore Orioles",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "5/5",
-        "Odds": "-139"
-    },
-    {
-        "PlayerName": "Max Scherzer",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/453286/headshot/silo/current",
-        "team": "Texas Rangers",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "5/5",
         "Odds": "+123"
     },
     {
-        "PlayerName": "Ross Stripling",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/548389/headshot/silo/current",
-        "team": "Oakland Athletics",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "5/5",
-        "Odds": "-200"
-    },
-    {
-        "PlayerName": "Dylan Cease",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656302/headshot/silo/current",
-        "team": "San Diego Padres",
-        "Line": 6.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
-        "Odds": "-136"
-    },
-    {
-        "PlayerName": "Patrick Corbin",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571578/headshot/silo/current",
+        "PlayerName": "MacKenzie Gore",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669022/headshot/silo/current",
         "team": "Washington Nationals",
-        "Line": 3.5,
-        "OverUnder": "OVER",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
         "HitRate": "4/5",
-        "Odds": "+100"
+        "Odds": "+130"
+    },
+    {
+        "PlayerName": "Sonny Gray",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543243/headshot/silo/current",
+        "team": "St. Louis Cardinals",
+        "Line": 5.5,
+        "OverUnder": "OVER",
+        "HitRate": "5/5",
+        "Odds": "-132"
     }
 ]

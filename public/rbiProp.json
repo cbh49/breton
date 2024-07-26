@@ -1,20 +1,20 @@
 [
     {
-        "PlayerName": "Eddie Rosario",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592696/headshot/silo/current",
-        "Team": "Atlanta Braves",
+        "PlayerName": "Francisco Lindor",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/596019/headshot/silo/current",
+        "Team": "New York Mets",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+210",
+        "Odds": "+165",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Miguel Andujar",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/609280/headshot/silo/current",
-        "Team": "Oakland Athletics",
+        "PlayerName": "Hunter Renfroe",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592669/headshot/silo/current",
+        "Team": "Kansas City Royals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+155",
+        "Odds": "+165",
         "HitRate": "4/5"
     },
     {
@@ -23,16 +23,34 @@
         "Team": "San Francisco Giants",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+220",
+        "Odds": "+185",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Vladimir Guerrero Jr.",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665489/headshot/silo/current",
-        "Team": "Toronto Blue Jays",
+        "PlayerName": "Ezequiel Tovar",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/678662/headshot/silo/current",
+        "Team": "Colorado Rockies",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+145",
+        "Odds": "+210",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Jeremy Pe\u00f1a",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665161/headshot/silo/current",
+        "Team": "Houston Astros",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+180",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Jazz Chisholm Jr.",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665862/headshot/silo/current",
+        "Team": "Miami Marlins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+230",
         "HitRate": "4/5"
     }
 ]
