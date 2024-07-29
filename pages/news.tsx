@@ -146,12 +146,51 @@ const Home = () => {
       <h1>AI Picks</h1>
       <div className={styles.tableContainer2}>
         <table className={styles.stattable2}>
-          
           <thead>
-            <tr>
+          <tr>
                 <th colSpan={2}>
-                <Image src="/ufcdenver.jpeg" width={350} height={270} alt="Article Image" className={styles.tableImage} />
-                <h3>UFC Denver Best Bets</h3>
+                <Image src="/ufc304.webp" width={350} height={270} alt="Article Image" className={styles.tableImage} />
+                <h3>UFC 304 Best Bets</h3>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colSpan={2}>
+                <p>Our AI Model searched the web to find the best bets for UFC 304 <br />Published: 7/27</p>
+                <button className={styles.button}><Link href="/ufc304"><h4>Read More</h4><span className={styles.span}/></Link>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table className={styles.stattable1}>
+          <thead>
+          <tr>
+                <th colSpan={2}>
+                <Image src="/homerunderby.jpg" width={350} height={270} alt="Article Image" className={styles.tableImage} />
+                <h3>Home Run Derby Best Bets</h3>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colSpan={2}>
+                <p>Our AI Model searched the web to find the best bets for the MLB Home Run Derby <br />Published: 7/15</p>
+                <button className={styles.button}><Link href="/homerunderby"><h4>Read More</h4><span className={styles.span}/></Link>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    <div className={styles.tableContainer2}>
+    <table className={styles.stattable2}>
+          <thead>
+          <tr>
+            <th colSpan={2}>
+              <Image src="/ufcdenver.jpeg" width={350} height={270} alt="Article Image" className={styles.tableImage} />
+              <h3>UFC Denver Best Bets</h3>
               </th>
             </tr>
           </thead>
@@ -168,8 +207,8 @@ const Home = () => {
         <table className={styles.stattable1}>
           <thead>
           <tr>
-                <th colSpan={2}>
-                <Image src="/ufc303.jpg" width={350} height={270} alt="Article Image" className={styles.tableImage} />
+            <th colSpan={2}>
+              <Image src="/ufc303.jpg" width={350} height={270} alt="Article Image" className={styles.tableImage} />
                 <h3>UFC 303 Best Bets</h3>
               </th>
             </tr>
@@ -179,46 +218,6 @@ const Home = () => {
               <td colSpan={2}>
                 <p>Our AI Model searched the web to find the best bets for UFC 303 <br />Published: 6/29</p>
                 <button className={styles.button}><Link href="/ufc303"><h4>Read More</h4><span className={styles.span}/></Link>
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    <div className={styles.tableContainer2}>
-    <table className={styles.stattable2}>
-          <thead>
-          <tr>
-            <th colSpan={2}>
-                <Image src="/nbadraft.png" width={350} height={270} alt="Article Image" className={styles.tableImage} />
-                <h3>2024 NBA Draft Best Bets</h3>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td colSpan={2}>
-                <p>Our AI Model searched 10 Mock Drafts to compile the most likely outcomes. <br /> Published: 6/26</p>
-                <button className={styles.button}><Link href="/nbadraft"><h4>Read More</h4><span className={styles.span}/></Link>
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <table className={styles.stattable1}>
-          <thead>
-          <tr>
-              <th colSpan={2}>
-                <Image src="/mcdavid.webp" width={350} height={270} alt="Article Image" className={styles.tableImage} />
-                <h3>NHL Game 7 Best Bets</h3>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td colSpan={2}>
-                <p>Our AI Model searched to find the best bets for the deciding game in the Stanley Cup. <br /> Published: 6/24</p>
-                <button className={styles.button}><Link href="/StanleyCupGame7"><h4>Read More</h4><span className={styles.span}/></Link>
                 </button>
               </td>
             </tr>
