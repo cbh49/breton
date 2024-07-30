@@ -1,65 +1,65 @@
 [
     {
-        "PlayerName": "Tanner Bibee",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676440/headshot/silo/current",
-        "team": "Cleveland Guardians",
+        "PlayerName": "Griffin Canning",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656288/headshot/silo/current",
+        "team": "Los Angeles Angels",
         "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "7/10",
-        "Odds": "-107"
-    },
-    {
-        "PlayerName": "Jack Flaherty",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656427/headshot/silo/current",
-        "team": "Detroit Tigers",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "8/10",
-        "Odds": "+102"
-    },
-    {
-        "PlayerName": "Zack Wheeler",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/554430/headshot/silo/current",
-        "team": "Philadelphia Phillies",
-        "Line": 7.5,
         "OverUnder": "UNDER",
-        "HitRate": "8/10",
-        "Odds": "+108"
+        "HitRate": "9/10",
+        "Odds": "-137"
     },
     {
-        "PlayerName": "Luis Gil",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/661563/headshot/silo/current",
-        "team": "New York Yankees",
+        "PlayerName": "Tyler Glasnow",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607192/headshot/silo/current",
+        "team": "Los Angeles Dodgers",
+        "Line": 5.5,
+        "OverUnder": "OVER",
+        "HitRate": "8/10",
+        "Odds": "-141"
+    },
+    {
+        "PlayerName": "Aaron Nola",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605400/headshot/silo/current",
+        "team": "Philadelphia Phillies",
         "Line": 6.5,
         "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "+125"
+        "Odds": "+123"
     },
     {
-        "PlayerName": "Paul Skenes",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694973/headshot/silo/current",
-        "team": "Pittsburgh Pirates",
-        "Line": 7.5,
-        "OverUnder": "OVER",
-        "HitRate": "8/10",
-        "Odds": "+110"
+        "PlayerName": "James Paxton",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/572020/headshot/silo/current",
+        "team": "Boston Red Sox",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "+128"
     },
     {
-        "PlayerName": "Andre Pallante",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669467/headshot/silo/current",
+        "PlayerName": "Lance Lynn",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/458681/headshot/silo/current",
         "team": "St. Louis Cardinals",
-        "Line": 3.5,
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "-106"
+    },
+    {
+        "PlayerName": "Chris Bassitt",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605135/headshot/silo/current",
+        "team": "Toronto Blue Jays",
+        "Line": 5.5,
         "OverUnder": "OVER",
         "HitRate": "7/10",
         "Odds": "+130"
     },
     {
-        "PlayerName": "Mitchell Parker",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680730/headshot/silo/current",
+        "PlayerName": "Patrick Corbin",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571578/headshot/silo/current",
         "team": "Washington Nationals",
         "Line": 3.5,
         "OverUnder": "OVER",
-        "HitRate": "7/10",
-        "Odds": "-143"
+        "HitRate": "8/10",
+        "Odds": "-139"
     }
 ]
