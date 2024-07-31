@@ -5,16 +5,16 @@
         "Team": "Kansas City Royals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+150",
+        "Odds": "+140",
         "HitRate": "7/10"
     },
     {
-        "PlayerName": "Tyler Fitzgerald",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666149/headshot/silo/current",
-        "Team": "San Francisco Giants",
+        "PlayerName": "Brent Rooker",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/667670/headshot/silo/current",
+        "Team": "Oakland Athletics",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+155",
+        "Odds": "+160",
         "HitRate": "7/10"
     },
     {
@@ -23,7 +23,7 @@
         "Team": "Arizona Diamondbacks",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+105",
+        "Odds": "+125",
         "HitRate": "7/10"
     }
 ]
