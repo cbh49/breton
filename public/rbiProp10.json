@@ -1,20 +1,20 @@
 [
     {
-        "PlayerName": "MJ Melendez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669004/headshot/silo/current",
-        "Team": "Kansas City Royals",
+        "PlayerName": "Ketel Marte",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/606466/headshot/silo/current",
+        "Team": "Arizona Diamondbacks",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+165",
+        "Odds": "+125",
         "HitRate": "7/10"
     },
     {
-        "PlayerName": "Hunter Renfroe",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592669/headshot/silo/current",
-        "Team": "Kansas City Royals",
+        "PlayerName": "Gavin Lux",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666158/headshot/silo/current",
+        "Team": "Los Angeles Dodgers",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+165",
+        "Odds": "+150",
         "HitRate": "7/10"
     }
 ]

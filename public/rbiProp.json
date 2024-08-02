@@ -1,20 +1,137 @@
 [
     {
-        "PlayerName": "Ryan O'Hearn",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656811/headshot/silo/current",
-        "Team": "Baltimore Orioles",
+        "PlayerName": "Bryan De La Cruz",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/650559/headshot/silo/current",
+        "Team": "Miami Marlins",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+130",
+        "Odds": "+195",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Hunter Renfroe",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592669/headshot/silo/current",
-        "Team": "Kansas City Royals",
+        "PlayerName": "Josh Bell",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605137/headshot/silo/current",
+        "Team": "Miami Marlins",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+165",
+        "Odds": "+115",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Ketel Marte",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/606466/headshot/silo/current",
+        "Team": "Arizona Diamondbacks",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+125",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Anthony Santander",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/623993/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+105",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Josh Naylor",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/647304/headshot/silo/current",
+        "Team": "Cleveland Guardians",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+105",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Tyler O'Neill",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641933/headshot/silo/current",
+        "Team": "Boston Red Sox",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+135",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Jackson Merrill",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/701538/headshot/silo/current",
+        "Team": "San Diego Padres",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+145",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Jurickson Profar",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/595777/headshot/silo/current",
+        "Team": "San Diego Padres",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+170",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Xander Bogaerts",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/593428/headshot/silo/current",
+        "Team": "San Diego Padres",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+135",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Gavin Lux",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666158/headshot/silo/current",
+        "Team": "Los Angeles Dodgers",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+150",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Austin Riley",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663586/headshot/silo/current",
+        "Team": "Atlanta Braves",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+110",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Dylan Moore",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664238/headshot/silo/current",
+        "Team": "Seattle Mariners",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+180",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Yainer Diaz",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673237/headshot/silo/current",
+        "Team": "Houston Astros",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+125",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Austin Wells",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669224/headshot/silo/current",
+        "Team": "New York Yankees",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+155",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Vladimir Guerrero Jr.",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665489/headshot/silo/current",
+        "Team": "Toronto Blue Jays",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+135",
         "HitRate": "4/5"
     }
 ]

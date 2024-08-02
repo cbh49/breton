@@ -1,20 +1,74 @@
 [
     {
-        "PlayerName": "Carson Fulmer",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608334/headshot/silo/current",
-        "team": "Milwuakee Brewers",
-        "Line": 5.5,
+        "PlayerName": "Dean Kremer",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665152/headshot/silo/current",
+        "team": "Baltimore Orioles",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "-150"
+    },
+    {
+        "PlayerName": "Cole Ragans",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666142/headshot/silo/current",
+        "team": "Kansas City Royals",
+        "Line": 7.5,
         "OverUnder": "UNDER",
-        "HitRate": "9/10",
+        "HitRate": "7/10",
+        "Odds": "+120"
+    },
+    {
+        "PlayerName": "Tarik Skubal",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669373/headshot/silo/current",
+        "team": "Detroit Tigers",
+        "Line": 6.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "-134"
+    },
+    {
+        "PlayerName": "Joey Estes",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683155/headshot/silo/current",
+        "team": "Oakland Athletics",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
         "Odds": "-165"
     },
     {
-        "PlayerName": "Ryan Feltner",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663372/headshot/silo/current",
-        "team": "Colorado Rockies",
-        "Line": 4.5,
-        "OverUnder": "OVER",
+        "PlayerName": "Jake Irvin",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663623/headshot/silo/current",
+        "team": "Washington Nationals",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "-140"
+        "Odds": "+108"
+    },
+    {
+        "PlayerName": "Frankie Montas",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/593423/headshot/silo/current",
+        "team": "Milwaukee Brewers",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "8/10",
+        "Odds": "-132"
+    },
+    {
+        "PlayerName": "Andrew Abbott",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/671096/headshot/silo/current",
+        "team": "Cincinnati Reds",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "-165"
+    },
+    {
+        "PlayerName": "Marcus Stroman",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/573186/headshot/silo/current",
+        "team": "New York Yankees",
+        "Line": 3.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "-122"
     }
 ]
