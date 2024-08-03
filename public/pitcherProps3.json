@@ -1,38 +1,56 @@
 [
     {
-        "PlayerName": "Austin Gomber",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/596295/headshot/silo/current",
-        "team": "Colorado Rockies",
-        "Line": 3.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "+105"
-    },
-    {
-        "PlayerName": "Cole Ragans",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666142/headshot/silo/current",
-        "team": "Kansas City Royals",
-        "Line": 7.5,
+        "PlayerName": "Jordan Montgomery",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656756/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
+        "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
         "Odds": "+120"
     },
     {
-        "PlayerName": "Gavin Stone",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694813/headshot/silo/current",
-        "team": "Los Angeles Dodgers",
+        "PlayerName": "Zach Eflin",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621107/headshot/silo/current",
+        "team": "Baltimore Orioles",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-140"
+    },
+    {
+        "PlayerName": "Tanner Houck",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656557/headshot/silo/current",
+        "team": "Boston Red Sox",
         "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "+110"
+        "Odds": "-135"
     },
     {
-        "PlayerName": "Andrew Abbott",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/671096/headshot/silo/current",
+        "PlayerName": "Tanner Gordon",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/685299/headshot/silo/current",
+        "team": "Colorado Rockies",
+        "Line": 2.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-140"
+    },
+    {
+        "PlayerName": "Hunter Greene",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668881/headshot/silo/current",
         "team": "Cincinnati Reds",
-        "Line": 5.5,
+        "Line": 7.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-165"
+        "Odds": "-113"
+    },
+    {
+        "PlayerName": "Jameson Taillon",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592791/headshot/silo/current",
+        "team": "Chicago Cubs",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "-121"
     }
 ]
