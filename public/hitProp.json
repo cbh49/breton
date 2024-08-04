@@ -1,74 +1,56 @@
 [
     {
-        "PlayerName": "Eugenio Su\u00e1rez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/553993/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
+        "PlayerName": "Austin Barnes",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605131/headshot/silo/current",
+        "Team": "Los Angeles Dodgers",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": -170,
+        "Odds": -200,
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "Colton Cowser",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/681297/headshot/silo/current",
-        "Team": "Baltimore Orioles",
-        "OverUnder": "OVER",
+        "PlayerName": "Ali S\u00e1nchez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/645305/headshot/silo/current",
+        "Team": "Miami Marlins",
+        "OverUnder": "UNDER",
         "Line": 0.5,
-        "Odds": -175,
+        "Odds": -120,
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "Ceddanne Rafaela",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/678882/headshot/silo/current",
-        "Team": "Boston Red Sox",
+        "PlayerName": "Cristian Pache",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665506/headshot/silo/current",
+        "Team": "Philadelphia Phillies",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -135,
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Alex Call",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669743/headshot/silo/current",
+        "Team": "Washington Nationals",
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -165,
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "Andrew Benintendi",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/643217/headshot/silo/current",
-        "Team": "Chicago White Sox",
+        "PlayerName": "Josh Rojas",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668942/headshot/silo/current",
+        "Team": "Seattle Mariners",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": -185,
+        "Odds": -130,
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "Zach McKinstry",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656716/headshot/silo/current",
-        "Team": "Detroit Tigers",
+        "PlayerName": "Luke Maile",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571912/headshot/silo/current",
+        "Team": "Cincinnati Reds",
         "OverUnder": "UNDER",
         "Line": 0.5,
-        "Odds": -140,
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Mark Vientos",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668901/headshot/silo/current",
-        "Team": "New York Mets",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": -185,
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Michael Siani",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672279/headshot/silo/current",
-        "Team": "St. Louis Cardinals",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": -145,
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Anthony Volpe",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683011/headshot/silo/current",
-        "Team": "New York Yankees",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": -180,
+        "Odds": -135,
         "HitRate": "5/5"
     }
 ]
