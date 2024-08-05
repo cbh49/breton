@@ -1,122 +1,122 @@
 {
     "Arizona Diamondbacks": [
         7.4,
-        4.6
+        4.9
     ],
     "Atlanta Braves": [
-        4.5,
-        3.3
+        4.3,
+        3.7
     ],
     "Baltimore Orioles": [
-        6.1,
-        6.2
+        6.6,
+        6.1
     ],
     "Boston Red Sox": [
         7.111111111111111,
-        8.666666666666666
+        6.666666666666667
     ],
     "Chicago Cubs": [
-        5.0,
-        4.5
+        5.4,
+        4.4
     ],
     "Chicago White Sox": [
-        2.4,
-        7.2
+        2.9,
+        7.5
     ],
     "Cincinnati Reds": [
-        4.0,
-        4.0
+        3.2222222222222223,
+        4.444444444444445
     ],
     "Cleveland Guardians": [
-        4.4,
-        3.4
+        4.7,
+        4.2
     ],
     "Colorado Rockies": [
-        5.0,
-        5.2
+        3.2,
+        5.5
     ],
     "Detroit Tigers": [
-        2.7,
-        5.2
+        2.8,
+        5.3
     ],
     "Houston Astros": [
-        3.8,
-        4.4
+        3.6,
+        3.7
     ],
     "Kansas City Royals": [
-        6.2,
-        4.4
+        5.9,
+        3.8
     ],
     "Los Angeles Angels": [
-        4.1,
-        4.4
+        4.2,
+        4.5
     ],
     "Los Angeles Dodgers": [
-        4.7,
+        4.5,
         4.8
     ],
     "Miami Marlins": [
-        4.5,
-        4.4
-    ],
-    "Milwaukee Brewers": [
-        3.8,
-        4.0
-    ],
-    "Minnesota Twins": [
-        4.7,
+        4.6,
         4.1
     ],
+    "Milwaukee Brewers": [
+        4.0,
+        4.4
+    ],
+    "Minnesota Twins": [
+        6.0,
+        4.5
+    ],
     "New York Mets": [
-        5.4,
+        4.4,
         3.8
     ],
     "New York Yankees": [
-        7.1,
+        7.3,
         6.0
     ],
     "Oakland Athletics": [
-        4.0,
-        4.6
+        3.4,
+        4.7
     ],
     "Philadelphia Phillies": [
-        4.1,
+        4.4,
         5.5
     ],
     "Pittsburgh Pirates": [
-        4.7,
-        4.1
+        5.1,
+        4.5
     ],
     "San Diego Padres": [
-        5.9,
-        3.2
+        6.5,
+        3.4
     ],
     "San Francisco Giants": [
         4.7,
-        2.9
+        2.8
     ],
     "Seattle Mariners": [
-        5.9,
-        4.3
+        5.8,
+        4.4
     ],
     "St. Louis Cardinals": [
-        4.8,
-        5.5
+        5.0,
+        5.6
     ],
     "Tampa Bay Rays": [
-        4.7,
-        2.5
+        4.4,
+        2.3
     ],
     "Texas Rangers": [
-        4.4,
-        5.9
+        3.6,
+        6.4
     ],
     "Toronto Blue Jays": [
-        5.555555555555555,
-        6.111111111111111
+        5.222222222222222,
+        6.0
     ],
     "Washington Nationals": [
-        5.1,
-        7.3
+        5.2,
+        6.4
     ]
 }
