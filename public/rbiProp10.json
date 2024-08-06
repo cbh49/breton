@@ -1,1 +1,47 @@
-[]
+[
+    {
+        "PlayerName": "Josh Naylor",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/647304/headshot/silo/current",
+        "Team": "Cleveland Guardians",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+115",
+        "HitRate": "7/10"
+    },
+    {
+        "PlayerName": "Ketel Marte",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/606466/headshot/silo/current",
+        "Team": "Arizona Diamondbacks",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+145",
+        "HitRate": "9/10"
+    },
+    {
+        "PlayerName": "Jake Burger",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669394/headshot/silo/current",
+        "Team": "Miami Marlins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+150",
+        "HitRate": "7/10"
+    },
+    {
+        "PlayerName": "Austin Wells",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669224/headshot/silo/current",
+        "Team": "New York Yankees",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+115",
+        "HitRate": "7/10"
+    },
+    {
+        "PlayerName": "Jackson Merrill",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/701538/headshot/silo/current",
+        "Team": "San Diego Padres",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+145",
+        "HitRate": "7/10"
+    }
+]

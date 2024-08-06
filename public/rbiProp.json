@@ -1,1 +1,110 @@
-[]
+[
+    {
+        "PlayerName": "Joc Pederson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592626/headshot/silo/current",
+        "Team": "Arizona Diamondbacks",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+135",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Josh Naylor",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/647304/headshot/silo/current",
+        "Team": "Cleveland Guardians",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+115",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Jos\u00e9 Ram\u00edrez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608070/headshot/silo/current",
+        "Team": "Cleveland Guardians",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+120",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Ketel Marte",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/606466/headshot/silo/current",
+        "Team": "Arizona Diamondbacks",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+145",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Jackson Holliday",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/702616/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+220",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Gunnar Henderson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683002/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+125",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Vinnie Pasquantino",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686469/headshot/silo/current",
+        "Team": "Kansas City Royals",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+150",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Jake Burger",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669394/headshot/silo/current",
+        "Team": "Miami Marlins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+150",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Ryan Jeffers",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680777/headshot/silo/current",
+        "Team": "Minnesota Twins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+230",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Royce Lewis",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668904/headshot/silo/current",
+        "Team": "Minnesota Twins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+190",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Alec Bohm",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664761/headshot/silo/current",
+        "Team": "Philadelphia Phillies",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+135",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Jackson Merrill",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/701538/headshot/silo/current",
+        "Team": "San Diego Padres",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+145",
+        "HitRate": "4/5"
+    }
+]
