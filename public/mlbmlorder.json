@@ -9,24 +9,6 @@
         "MLdifference": 5.813866666666667
     },
     {
-        "Team1": "Los Angeles Angels",
-        "Team2": "New York Yankees",
-        "Team1total": 3.6177777777777775,
-        "Team2total": 9.431644444444444,
-        "Team1Pitcher": "Davis Daniel",
-        "Team2Pitcher": "Luis Gil",
-        "MLdifference": 5.813866666666667
-    },
-    {
-        "Team1": "Arizona Diamondbacks",
-        "Team2": "Cleveland Guardians",
-        "Team1total": 8.533000000000001,
-        "Team2total": 5.493333333333333,
-        "Team1Pitcher": "Brandon Pfaadt",
-        "Team2Pitcher": "Carlos Carrasco",
-        "MLdifference": 3.039666666666668
-    },
-    {
         "Team1": "Arizona Diamondbacks",
         "Team2": "Cleveland Guardians",
         "Team1total": 8.533000000000001,
