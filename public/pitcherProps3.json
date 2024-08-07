@@ -1,74 +1,38 @@
 [
     {
-        "PlayerName": "Brayan Bello",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/678394/headshot/silo/current",
+        "PlayerName": "Bowden Francis",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/670102/headshot/silo/current",
         "team": "Boston Red Sox",
         "Line": 3.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "-150"
-    },
-    {
-        "PlayerName": "Ross Stripling",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/548389/headshot/silo/current",
-        "team": "Oakland Athletics",
-        "Line": 3.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-110"
+        "Odds": "-118"
     },
     {
-        "PlayerName": "Framber Valdez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664285/headshot/silo/current",
-        "team": "Houston Astros",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "-115"
-    },
-    {
-        "PlayerName": "Colin Rea",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607067/headshot/silo/current",
-        "team": "Milwaukee Brewers",
-        "Line": 4.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "+118"
-    },
-    {
-        "PlayerName": "Pablo L\u00f3pez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641154/headshot/silo/current",
-        "team": "Minnesota Twins",
-        "Line": 6.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "-103"
-    },
-    {
-        "PlayerName": "Kyle Freeland",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607536/headshot/silo/current",
-        "team": "Colorado Rockies",
-        "Line": 3.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "-113"
-    },
-    {
-        "PlayerName": "MacKenzie Gore",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669022/headshot/silo/current",
-        "team": "Washington Nationals",
-        "Line": 6.5,
+        "PlayerName": "Cole Ragans",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666142/headshot/silo/current",
+        "team": "Kansas City Royals",
+        "Line": 7.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-120"
+        "Odds": "+112"
     },
     {
-        "PlayerName": "Sonny Gray",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543243/headshot/silo/current",
+        "PlayerName": "Tarik Skubal",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669373/headshot/silo/current",
+        "team": "Detroit Tigers",
+        "Line": 8.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "+108"
+    },
+    {
+        "PlayerName": "Erick Fedde",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607200/headshot/silo/current",
         "team": "St. Louis Cardinals",
-        "Line": 6.5,
-        "OverUnder": "OVER",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-137"
+        "Odds": "-143"
     }
 ]
