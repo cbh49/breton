@@ -1,110 +1,65 @@
 [
     {
-        "PlayerName": "Brandon Pfaadt",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694297/headshot/silo/current",
-        "team": "Arizona Diamondbacks",
-        "Line": 3.5,
-        "OverUnder": "OVER",
-        "HitRate": "7/10",
-        "Odds": "-143"
-    },
-    {
-        "PlayerName": "Bowden Francis",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/670102/headshot/silo/current",
-        "team": "Boston Red Sox",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "9/10",
-        "Odds": "-118"
-    },
-    {
-        "PlayerName": "Cole Ragans",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666142/headshot/silo/current",
-        "team": "Kansas City Royals",
+        "PlayerName": "Hunter Greene",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668881/headshot/silo/current",
+        "team": "Cincinnati Reds",
         "Line": 7.5,
         "OverUnder": "UNDER",
-        "HitRate": "8/10",
-        "Odds": "+112"
+        "HitRate": "7/10",
+        "Odds": "+132"
     },
     {
-        "PlayerName": "Kutter Crawford",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676710/headshot/silo/current",
-        "team": "Boston Red Sox",
-        "Line": 3.5,
-        "OverUnder": "OVER",
-        "HitRate": "8/10",
-        "Odds": "-150"
-    },
-    {
-        "PlayerName": "Joey Estes",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683155/headshot/silo/current",
-        "team": "Oakland Athletics",
-        "Line": 4.5,
+        "PlayerName": "Bryan Woo",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/693433/headshot/silo/current",
+        "team": "Seattle Mariners",
+        "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "-130"
+        "Odds": "-127"
     },
     {
-        "PlayerName": "Tarik Skubal",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669373/headshot/silo/current",
-        "team": "Detroit Tigers",
-        "Line": 8.5,
+        "PlayerName": "Charlie Morton",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/450203/headshot/silo/current",
+        "team": "Atlanta Braves",
+        "Line": 6.5,
         "OverUnder": "UNDER",
-        "HitRate": "9/10",
+        "HitRate": "8/10",
+        "Odds": "+107"
+    },
+    {
+        "PlayerName": "David Peterson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656849/headshot/silo/current",
+        "team": "New York Mets",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
         "Odds": "+108"
     },
     {
-        "PlayerName": "Luis Gil",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/661563/headshot/silo/current",
-        "team": "New York Yankees",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "7/10",
-        "Odds": "-139"
-    },
-    {
-        "PlayerName": "Carson Fulmer",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608334/headshot/silo/current",
-        "team": "Milwaukee Brewers",
+        "PlayerName": "Jordan Montgomery",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656756/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
         "Line": 4.5,
-        "OverUnder": "UNDER",
-        "HitRate": "7/10",
-        "Odds": "-136"
-    },
-    {
-        "PlayerName": "Ryan Feltner",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663372/headshot/silo/current",
-        "team": "Colorado Rockies",
-        "Line": 4.5,
-        "OverUnder": "OVER",
-        "HitRate": "7/10",
-        "Odds": "+112"
-    },
-    {
-        "PlayerName": "Jake Irvin",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663623/headshot/silo/current",
-        "team": "Washington Nationals",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "7/10",
-        "Odds": "+140"
-    },
-    {
-        "PlayerName": "Taj Bradley",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/671737/headshot/silo/current",
-        "team": "Tampa Bay Rays",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "7/10",
-        "Odds": "+125"
-    },
-    {
-        "PlayerName": "Erick Fedde",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607200/headshot/silo/current",
-        "team": "St. Louis Cardinals",
-        "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "8/10",
+        "Odds": "+123"
+    },
+    {
+        "PlayerName": "Kyle Harrison",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/690986/headshot/silo/current",
+        "team": "San Francisco Giants",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
         "Odds": "-143"
+    },
+    {
+        "PlayerName": "Kyle Gibson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/502043/headshot/silo/current",
+        "team": "St. Louis Cardinals",
+        "Line": 5.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "+123"
     }
 ]
