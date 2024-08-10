@@ -1,47 +1,47 @@
 [
     {
-        "PlayerName": "Jameson Taillon",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592791/headshot/silo/current",
-        "team": "Chicago Cubs",
+        "PlayerName": "Cal Quantrill",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/615698/headshot/silo/current",
+        "team": "Colorado Rockies",
         "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-143"
+        "Odds": "N/A"
     },
     {
-        "PlayerName": "Aaron Civale",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/650644/headshot/silo/current",
-        "team": "Milwaukee Brewers",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+125"
-    },
-    {
-        "PlayerName": "Zack Wheeler",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/554430/headshot/silo/current",
-        "team": "Philadelphia Phillies",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "-145"
-    },
-    {
-        "PlayerName": "Edward Cabrera",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665795/headshot/silo/current",
-        "team": "Miami Marlins",
-        "Line": 4.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "-122"
-    },
-    {
-        "PlayerName": "Miles Mikolas",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571945/headshot/silo/current",
-        "team": "St. Louis Cardinals",
+        "PlayerName": "Chris Flexen",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/623167/headshot/silo/current",
+        "team": "Chicago White Sox",
         "Line": 3.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-195"
+        "Odds": "+105"
+    },
+    {
+        "PlayerName": "Gavin Williams",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668909/headshot/silo/current",
+        "team": "Cleveland Guardians",
+        "Line": 5.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-165"
+    },
+    {
+        "PlayerName": "Griffin Canning",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656288/headshot/silo/current",
+        "team": "Los Angeles Angels",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-139"
+    },
+    {
+        "PlayerName": "Osvaldo Bido",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/674370/headshot/silo/current",
+        "team": "Oakland Athletics",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "+112"
     }
 ]
