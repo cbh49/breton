@@ -1,29 +1,38 @@
 [
     {
-        "PlayerName": "Luis Severino",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/622663/headshot/silo/current",
-        "team": "New York Mets",
+        "PlayerName": "Brandon Pfaadt",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694297/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
+        "Line": 7.5,
+        "OverUnder": "UNDER",
+        "HitRate": "8/10",
+        "Odds": "-170"
+    },
+    {
+        "PlayerName": "Brady Singer",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663903/headshot/silo/current",
+        "team": "Kansas City Royals",
         "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "+145"
+        "Odds": "+135"
     },
     {
-        "PlayerName": "Chris Bassitt",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605135/headshot/silo/current",
-        "team": "Toronto Blue Jays",
+        "PlayerName": "Luis Gil",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/661563/headshot/silo/current",
+        "team": "New York Yankees",
         "Line": 6.5,
         "OverUnder": "UNDER",
-        "HitRate": "8/10",
-        "Odds": "+120"
+        "HitRate": "7/10",
+        "Odds": "+105"
     },
     {
-        "PlayerName": "Marcus Stroman",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/573186/headshot/silo/current",
-        "team": "New York Yankees",
-        "Line": 3.5,
+        "PlayerName": "Bowden Francis",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/670102/headshot/silo/current",
+        "team": "Boston Red Sox",
+        "Line": 4.5,
         "OverUnder": "UNDER",
-        "HitRate": "7/10",
-        "Odds": "+107"
+        "HitRate": "9/10",
+        "Odds": "-170"
     }
 ]

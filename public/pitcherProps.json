@@ -1,74 +1,29 @@
 [
     {
-        "PlayerName": "Kyle Freeland",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607536/headshot/silo/current",
-        "team": "Colorado Rockies",
-        "Line": 4.5,
+        "PlayerName": "Blake Snell",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605483/headshot/silo/current",
+        "team": "San Francisco Giants",
+        "Line": 7.5,
         "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "+112"
+        "Odds": "-130"
     },
     {
-        "PlayerName": "David Festa",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/701581/headshot/silo/current",
-        "team": "Minnesota Twins",
-        "Line": 4.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
-        "Odds": "-112"
-    },
-    {
-        "PlayerName": "MacKenzie Gore",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669022/headshot/silo/current",
-        "team": "Washington Nationals",
-        "Line": 5.5,
+        "PlayerName": "Brandon Pfaadt",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694297/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
+        "Line": 7.5,
         "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-127"
+        "HitRate": "5/5",
+        "Odds": "-170"
     },
     {
-        "PlayerName": "Chris Bassitt",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605135/headshot/silo/current",
-        "team": "Toronto Blue Jays",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "+120"
-    },
-    {
-        "PlayerName": "Cristopher S\u00e1nchez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/650911/headshot/silo/current",
-        "team": "Philadelphia Phillies",
+        "PlayerName": "Bowden Francis",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/670102/headshot/silo/current",
+        "team": "Boston Red Sox",
         "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "4/5",
-        "Odds": "-148"
-    },
-    {
-        "PlayerName": "Tyler Glasnow",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607192/headshot/silo/current",
-        "team": "Los Angeles Dodgers",
-        "Line": 8.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "+130"
-    },
-    {
-        "PlayerName": "Bailey Falter",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663559/headshot/silo/current",
-        "team": "Pittsburgh Pirates",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-157"
-    },
-    {
-        "PlayerName": "Andrew Heaney",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571760/headshot/silo/current",
-        "team": "Texas Rangers",
-        "Line": 4.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-143"
+        "Odds": "-170"
     }
 ]

@@ -1,56 +1,20 @@
 [
     {
-        "PlayerName": "Spencer Schwellenbach",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680885/headshot/silo/current",
-        "team": "Atlanta Braves",
-        "Line": 6.5,
+        "PlayerName": "Blake Snell",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605483/headshot/silo/current",
+        "team": "San Francisco Giants",
+        "Line": 7.5,
         "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "+130"
+        "Odds": "-130"
     },
     {
-        "PlayerName": "Kyle Freeland",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607536/headshot/silo/current",
-        "team": "Colorado Rockies",
-        "Line": 4.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "+112"
-    },
-    {
-        "PlayerName": "Tanner Bibee",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676440/headshot/silo/current",
-        "team": "Cleveland Guardians",
-        "Line": 5.5,
+        "PlayerName": "Brandon Pfaadt",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694297/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
+        "Line": 7.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-110"
-    },
-    {
-        "PlayerName": "David Festa",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/701581/headshot/silo/current",
-        "team": "Minnesota Twins",
-        "Line": 4.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "-112"
-    },
-    {
-        "PlayerName": "Bailey Falter",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663559/headshot/silo/current",
-        "team": "Pittsburgh Pirates",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "-157"
-    },
-    {
-        "PlayerName": "Andrew Heaney",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571760/headshot/silo/current",
-        "team": "Texas Rangers",
-        "Line": 4.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "-143"
+        "Odds": "-170"
     }
 ]
