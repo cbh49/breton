@@ -157,7 +157,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 90vh;
+  height: 80vh;
   top: 15vh;
   width: calc(100%); /* Subtracting 400px from each side */
   border-radius: 2%;;
@@ -217,7 +217,7 @@
 .tagLine h1{
   color: white;
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
 }
 .tagLine p{
@@ -239,7 +239,7 @@
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
   z-index: 0;
   margin-left: 20%;
-  margin-top: -29%;
+  margin-top: -27%;
 }
 .statttable1 th, .stattable1 td {
   border-radius: 20px;
@@ -268,7 +268,7 @@
 }
 .tableImage{
   border-radius: 20px;
-  height: 20vh;
+  height: 17vh;
   width: 100%;
   margin-bottom: -15px;
 }
@@ -345,7 +345,7 @@
 }
 .phone{
   margin-left: 80%;
-  margin-top: -40%;
+  margin-top: -45%;
 }
 .xLogo{
   margin-left: 0%;
@@ -366,7 +366,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 75vh;
+  height: 65vh;
   border-radius: 2%;
   position: relative;
   overflow: hidden;
@@ -374,7 +374,7 @@
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-bottom: 1px solid #68b42b;
   border-top: 1px solid #68b42b;
-  margin-top: 2.5%;
+  margin-top: 2%;
   background-size: 8%;
   width: calc(100%); /* Subtracting 400px from each side */
   border-radius: 2%;;
@@ -433,6 +433,9 @@
   align-items: center;
   text-align: center;
   box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5); /* Glowing effect */
+}
+.aboutlogo{
+  margin-top: -7vh;
 }
 
 /* FAQ BANNER CONTENT*/
@@ -700,7 +703,7 @@
 
 .secondSideNav {
   width: 98%;
-  height: 105vh;
+  height: 95vh;
   top: 0px;
   right: 0px;
   padding: 0px 15px;
@@ -762,7 +765,7 @@
   border-spacing: 0 5px; /* Horizontal and vertical spacing */
 }
 .table4 th, .table4 td {
-  padding: 10px; /* Add padding to each table cell */
+  padding: 5px; /* Add padding to each table cell */
   border-radius: 30px;
   color: #000;
   text-align: center;
@@ -814,7 +817,7 @@
 .secondSideNav .nextButton {
   display: none; /* Initially hidden */
   position: absolute;
-  top: 280%; /* Adjust to center vertically relative to the parent */
+  top: 265%; /* Adjust to center vertically relative to the parent */
   left: 80%;/* Center horizontally */
   transform: translate(-50%, -50%); /* Perfect center alignment */
   background-color: darkgrey; /* Transparent background */
@@ -836,7 +839,7 @@
 .secondSideNav .backButton {
   display: none; /* Initially hidden */
   position: absolute;
-  top: 280%; /* Adjust to center vertically relative to the parent */
+  top: 265%; /* Adjust to center vertically relative to the parent */
   left: 20%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Perfect center alignment */
   background-color: darkgrey; /* Transparent background */
@@ -1150,6 +1153,7 @@
 .aboutlogo{
 height: 70px;
 width: 70px;
+margin-top: 0px;
 }
 
 
@@ -1245,7 +1249,7 @@ width: 70px;
 
 .secondSideNav {
   width: 97%;
-  height: 120vh; /* Adjust the height as needed */
+  height: 100vh; /* Adjust the height as needed */
   display: flex;
   flex-direction: row; /* Horizontal layout */
   justify-content: space-around; /* Space items evenly */
@@ -1266,13 +1270,13 @@ width: 70px;
 }
 .secondSideNav .nextButton{
   display: block;
-  margin-top: -315vh;
-  scale: 50%;
+  margin-top: -245vh;
+  scale: 40%;
 }
 .secondSideNav .backButton{
   display: block;
-  margin-top: -315vh;
-  scale: 50%;
+  margin-top: -245vh;
+  scale: 40%;
   margin-left: -10%;
 }
 
@@ -1567,6 +1571,7 @@ width: 70px;
 .aboutlogo{
 height: 70px;
 width: 70px;
+margin-top: 0px;
 }
 
 
@@ -1662,7 +1667,7 @@ width: 70px;
 
 .secondSideNav {
   width: 92%;
-  height: 95vh; /* Adjust the height as needed */
+  height: 85vh; /* Adjust the height as needed */
   display: flex;
   flex-direction: row; /* Horizontal layout */
   justify-content: space-around; /* Space items evenly */
@@ -1683,13 +1688,13 @@ width: 70px;
 }
 .secondSideNav .nextButton{
   display: block;
-  margin-top: -247vh;
-  scale: 50%;
+  margin-top: -207vh;
+  scale: 40%;
 }
 .secondSideNav .backButton{
   display: block;
-  margin-top: -247vh;
-  scale: 50%;
+  margin-top: -207vh;
+  scale: 40%;
   margin-left: -10%;
 }
 
@@ -1994,6 +1999,7 @@ width: 70px;
   .aboutlogo{
   height: 70px;
   width: 70px;
+  margin-top: 0px;
   }
   
   
@@ -2089,7 +2095,7 @@ width: 70px;
   
   .secondSideNav {
     width: 92%;
-    height: 95vh; /* Adjust the height as needed */
+    height: 80vh; /* Adjust the height as needed */
     display: flex;
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
@@ -2110,12 +2116,12 @@ width: 70px;
   }
   .secondSideNav .nextButton{
     display: block;
-    margin-top: -247vh;
+    margin-top: -195vh;
     scale: 50%;
   }
   .secondSideNav .backButton{
     display: block;
-    margin-top: -247vh;
+    margin-top: -195vh;
     scale: 50%;
     margin-left: -10%;
   }
@@ -2409,6 +2415,7 @@ width: 70px;
 .aboutlogo{
 height: 70px;
 width: 70px;
+margin-top: 0px;
 }
 
 
@@ -2641,7 +2648,7 @@ width: 70px;
     /* MAIN */
 
   .banner {
-    height: 80vh;
+    height: 85vh;
     top: 135px;
     width: 100%;
     order: 2; /* Main content */
@@ -2654,6 +2661,9 @@ width: 70px;
     order: 2; /* Main content */
     margin: 0; /* Remove margin */
     
+  }
+  .tagLine{
+    margin-top: -3vh;
   }
 
   .dataSection {
@@ -2754,7 +2764,7 @@ width: 70px;
   display: block; /* Ensure it is not set to 'none' */
   width: 100%;
   height: 50vh;
-  margin-top: 8vh;
+  margin-top: 3vh;
   margin-left: 0px;
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('/blank.png');
   background-size: 100%;
@@ -2785,8 +2795,8 @@ width: 70px;
 .aboutlogo{
 height: 90px;
 width: 90px;
+margin-top: 0px;
 }
-
 
 
 
@@ -2829,7 +2839,7 @@ width: 90px;
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
-    margin-top: -12vh;
+    margin-top: -14vh;
     background-size: 120%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
     z-index: 10;
@@ -2903,7 +2913,7 @@ width: 90px;
 }
 .secondSideNav .nextButton{
   display: block;
-  margin-top: -180vh;
+  margin-top: -170vh;
   margin-left: -5vh;
   scale: 40%;
 }
@@ -2914,7 +2924,7 @@ width: 90px;
 }
 .secondSideNav .backButton{
   display: block;
-  margin-top: -180vh;
+  margin-top: -170vh;
   scale: 40%;
 }
 
@@ -2936,7 +2946,7 @@ width: 90px;
   height: 100px;
   width: 225px;
   margin-top: -15px;
-  margin-right: -18vh;
+  margin-right: -20vh;
 }
 
   .bottomNav {
@@ -3033,6 +3043,9 @@ width: 90px;
     margin: 0; /* Remove margin */
     
   }
+  .tagLine{
+    margin-top: -3vh;
+  }
 
   .dataSection {
     display: flex;
@@ -3132,7 +3145,7 @@ width: 90px;
   display: block; /* Ensure it is not set to 'none' */
   width: 100%;
   height: 50vh;
-  margin-top: 8vh;
+  margin-top: 11vh;
   margin-left: 0px;
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('/blank.png');
   background-size: 100%;
@@ -3163,6 +3176,7 @@ width: 90px;
 .aboutlogo{
 height: 90px;
 width: 90px;
+margin-top: 0px;
 }
 
 
