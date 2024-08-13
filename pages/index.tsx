@@ -1,5 +1,5 @@
 // pages/index.tsx
-import styles from '../styles/home.module.css';
+import styles from '../styles/home2.module.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -31,17 +31,6 @@ type LogoUrls = { [team: string]: string };
 
 type RunsData = { [team: string]: number[] };
 
-const dataSections = [
-  {
-    text: 'MLB',
-    buttons: [
-      { label: 'OVER/UNDER', href: '/mlb' },
-      { label: 'MONEYLINE', href: '/mlbml' },
-      { label: 'NRFI', href: '/nrfi' },
-      { label: 'Strikeouts', href: '/pitchProp' },
-    ]
-  }
-];
 
 const Home = () => {
   const [matchups, setMatchups] = useState<Matchup[]>([]);
@@ -117,7 +106,7 @@ const Home = () => {
       });
     };
     useEffect(() => {
-      const newDisplayMatchups = matchups.slice(currentMatchupIndex, currentMatchupIndex + 6);
+      const newDisplayMatchups = matchups.slice(currentMatchupIndex);
       setDisplayMatchups(newDisplayMatchups);
     }, [currentMatchupIndex, matchups]);
 
@@ -151,10 +140,11 @@ const Home = () => {
         <Head>
           <title>BRETON</title>
           <link rel="icon" href="/bretpng.png" />
+          <meta name="viewport" content="width=device-width, initial-scale=.99" />
         </Head>
         <div className={styles.navbar}>
    
-   <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
+   <Image src="/bretpngw.png" alt="Logo" width={80} height={80} className={styles.logo} />
    <Link href="/" passHref></Link>
    <ul><li><Link href="/" passHref>HOME</Link></li>
    <li
@@ -191,10 +181,8 @@ const Home = () => {
    <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor}/>
    </div>
  </div>
- 
-
  {/* Side Navigation content */}
- <div className={styles.sideNav} onMouseEnter={() => setIsVisible(true)} onMouseLeave={() => setIsVisible(false)}>
+ <div className={styles.sideNav} onMouseEnter={() => setIsVisible(false)} onMouseLeave={() => setIsVisible(false)}>
    <div className={styles.leaguelogo}>
      <Image src="/mlb.webp" alt="user-img"  width={110} height={60} />
    </div>
@@ -213,9 +201,9 @@ const Home = () => {
      ) : (
        displayMatchups.map((matchup) => (
          <tr key={matchup.id} className={styles.matchupRow}>
-             <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={80} height={70} className={styles.navlogo} layout="fixed" />  
+             <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={100} height={100} className={styles.navlogo} layout="fixed" />  
            <td className={styles.atSymbol}>@</td>   
-             <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={80} height={70} className={styles.navlogo} layout="fixed" />
+             <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={100} height={100} className={styles.navlogo} layout="fixed" />
            <div className={styles.total}>O/U: {matchup.Total} </div>
          </tr>
          
@@ -236,29 +224,29 @@ const Home = () => {
 </button>
 )}</div>
             <div className={styles.banner}>
-              <Image src="/betn.png" alt="Logo" width={350} height={200} className={styles.banimg} />
               <div className={styles.contentSection}>
-                {dataSections.map((section, index) => (
-                  <div key={index} className={styles.dataSection}>
-                    <h1>{section.text}</h1>
-                    <div className={styles.buttonContainer}>
-                      {section.buttons.map((button, idx) => (
-                        <Link key={idx} href={button.href} passHref>
-                          <button className={styles.button}>
-                            <span className={styles.buttonText}>{button.label}</span>
-                            <span className={styles.span} />
-                          </button>
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                ))}
-        <div className={styles.tableContainer}>
+            <div className={styles.tagLine}>
+              <h1>Breton AI Picks</h1>
+              <p>Your home for Advanced Sports Data</p>
+              </div>
+
+          <div className={styles.followBanner}>
+            <h2>Follow Breton on</h2><br />
+            <Link href="https://twitter.com/BretonPicks">
+              <Image src="/xWhite.png" alt="Logo" width={40} height={40} className={styles.xLogo} />
+            </Link>
+          </div>
+          <Link href="https://twitter.com/BretonPicks">
+          <Image src="/xPhone.png" alt="Logo" width={350} height={550} className={styles.phone} />
+        </Link>
+        </div>
+      </div>      
+      <div className={styles.tableContainer}>
           <table className={styles.stattable1}>
             <thead>
               <tr>
                 <th colSpan={2}>
-                  <Image src="/bohm.avif" width={125} height={115}  alt="Highest Runs Per Game" className={styles.tableImage} />
+                  <Image src="/bohm.avif" width={125} height={75}  alt="Highest Runs Per Game" className={styles.tableImage} />
                   <h3>Runs Scored Leaders (Last 10)</h3>
                 </th>
               </tr>
@@ -293,25 +281,23 @@ const Home = () => {
             ))}
             </tbody>
           </table>
-        </div>
-      </div>         
-    </div>
+        </div>      
     
         <>
 <div className={styles.about}>
     <h2>What is Breton?</h2>
     <div className={styles.imageContainer}>
       <div className={styles.imageTextContainer}>
-        <Image src="/stats.png" alt="Logo" className={styles.aboutlogo} width={125} height={115} />
-        <p>Our site pulls in advanced analytics of teams and players recent results. These metrics allow us to identify best &amp; worst performers.</p>
+        <Image src="/stats.png" alt="Logo" className={styles.aboutlogo} width={175} height={150} />
+        <p>Our platform pulls in advanced analytics of teams and players' recent performances. We use this data to highlight trends and identify which teams and players are currently excelling or struggling. This insight allows you to make informed decisions, understanding the strengths and weaknesses in every matchup.</p>
       </div>
       <div className={styles.imageTextContainer}>
-        <Image src="/monitor.png" alt="Logo"  className={styles.aboutlogo} width={125} height={120} />
-        <p>We use software engineered to modify values based upon matchups. After modifications, we find new values that give us deeper insights.</p>
+        <Image src="/monitor.png" alt="Logo"  className={styles.aboutlogo} width={175} height={150} />
+        <p>Our software is designed to adjust values based on the specific details of each matchup. By recalculating metrics with these factors in mind, we uncover deeper insights that go beyond basic statistics. This approach helps you see where opportunities might exist, giving you a clearer edge.</p>
       </div>
       <div className={styles.imageTextContainer}>
-        <Image src="/money.png" alt="Logo"  className={styles.aboutlogo} width={125} height={120} />
-        <p>All of our data gets posted and tracked daily. Use our data, find the plays you like best, and beat the books. It&apos;s just that easy.</p>
+        <Image src="/money.png" alt="Logo"  className={styles.aboutlogo} width={175} height={150} />
+        <p>We update and track all of our data daily, ensuring you have the latest insights at your fingertips. Use this data to identify the plays that align with your strategy, making informed decisions. While we highlight potential opportunities, the final choice is yours to make, helping you stay in control.</p>
       </div>
     </div>
   </div>
@@ -371,8 +357,8 @@ const Home = () => {
            <Image
              src={rankings[currentIndex].imageUrl}
              alt={`Image for ${rankings[currentIndex].name}`}
-             width={250}
-             height={140}
+             width={300}
+             height={200}
              className={styles.headshot}
            />
          </td>
@@ -389,10 +375,10 @@ const Home = () => {
          </tbody>
        </table>
        <button onClick={handlePrev} className={styles.backButton}>
-         <Image src="/left-arrow.png" alt="Next" width={20} height={20} />
+         <Image src="/left-arrow.png" alt="Next" width={80} height={80} />
        </button>
        <button onClick={handleNext} className={styles.nextButton}>
-         <Image src="/right-arrow.png" alt="Next" width={20} height={20} />
+         <Image src="/right-arrow.png" alt="Next" width={80} height={80} />
        </button>
      </div>
    ) : (

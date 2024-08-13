@@ -16,7 +16,7 @@
   width: 100%;
   top: 0;
   right: 0;
-  height: 105px;
+  height: 80px;
   position: fixed;
   margin: auto;
   padding: 15px 15px 15px 0px;
@@ -32,6 +32,7 @@
   background-size: 120%;
   z-index: 100;
   font-size: .7em;
+  position: sticky;
 }
 
 .navbar p {
@@ -138,7 +139,7 @@
   cursor: pointer;
   color: #fff;
   margin-right: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .odds h4 {
@@ -156,17 +157,18 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 95vh;
-  top: 132px;
-  width: calc(100% - 780px); /* Subtracting 400px from each side */
+  height: 90vh;
+  top: 15vh;
+  width: calc(100%); /* Subtracting 400px from each side */
   border-radius: 2%;;
-  margin-left: 400px;
+  margin-left: 0px;
   position: relative;
   overflow: hidden;
   border-bottom: 1px solid #68b42b;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/pathex.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('/betn.png');
   background-size: 8%;
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  
 }
 
 .dataSection {
@@ -188,32 +190,56 @@
   border-radius: 10%;
   padding: 5px;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-  margin-right: 400px;
+  margin-left: -200%;
   border: 1px solid #68b42b;
 }
 
-.buttonContainer {
+.tableContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center buttons horizontally */
-  gap: 10px; /* Spacing between buttons */
-  width: 100%; /* Ensure buttons take full width for centering */
-  margin-right: 400px;
-  
+  flex-direction: column; /* Stack tables on top of each other */
+  align-items: flex-start; /* Align tables to the left */
+  margin-right: auto; /* Ensure the tables are left-aligned */
+  margin-left: 0; /* Adjust as needed */
 }
 
+.tablesWrapper {
+  display: flex;
+  flex-direction: column; /* Stack tables vertically */
+  gap: 10px; /* Space between tables */
+}
+.tagLine{
+  border-radius: 10px;
+  width: 130%;
+  margin-left: -17%;
+  border-bottom: 1px solid #68b42b;
+  margin-top: -7.5%;
+}
+.tagLine h1{
+  color: white;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4em;
+  text-align: center;
+}
+.tagLine p{
+  color: white;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
 .stattable1{
   color: #000;
-  width: 70%;
+  width: 25%;
   text-align: center;
   background-color: white;
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 180px;
+  margin-left: 0px;
   border-radius: 10px;
-  margin-top: -600px;
+  margin-top: 5%;
   background-color:rgba(238, 236, 236, 0.941);
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-  z-index: 10;
+  z-index: 0;
+  margin-left: 20%;
+  margin-top: -29%;
 }
 .statttable1 th, .stattable1 td {
   border-radius: 20px;
@@ -233,16 +259,17 @@
   color: white;
   background-color: black;
   margin-bottom: 0px;
+  font-size: 1em;
 }
 .logostat {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   padding-right: 25px;
 }
 .tableImage{
   border-radius: 20px;
-  height: 230px;
-  width: 375px;
+  height: 20vh;
+  width: 100%;
   margin-bottom: -15px;
 }
 .button {
@@ -290,7 +317,7 @@
   padding: 20px;
 }
 .banimg{
-  margin-right: 400px;
+  margin-left: -60%;
   margin-top: 50px;
   z-index: 0;
   border-radius: 30px;
@@ -298,7 +325,38 @@
   margin-bottom: 0px;
   border: 2px solid #68b42b
 }
-
+.followBanner{
+  color: white;
+  background-image: transparent;
+  padding: 2%;
+  align-items: center;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 120%;
+  margin-top: 35%;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+.followBanner p {
+  margin: 0; /* Reset any default margins */
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 3em;
+}
+.phone{
+  margin-left: 80%;
+  margin-top: -40%;
+}
+.xLogo{
+  margin-left: 0%;
+  margin-top: -5%;
+}
+.phoneContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Optional: Center-aligns the text and image */
+  margin-left: 20%;
+}
 
 
 /* ABOUT BANNER CONTENT*/
@@ -308,44 +366,45 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 60vh;
+  height: 75vh;
   border-radius: 2%;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url('/pathex.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .3)), url('/pathex.avif');
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-bottom: 1px solid #68b42b;
   border-top: 1px solid #68b42b;
-  margin-top: 134px;
+  margin-top: 2.5%;
   background-size: 8%;
-  width: calc(100% - 780px); /* Subtracting 400px from each side */
+  width: calc(100%); /* Subtracting 400px from each side */
   border-radius: 2%;;
-  margin-left: 400px;
+  margin-left: 0px;
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
 }
 .about h2{
   font-size: 3rem; /* Larger font size for headers */
-  color: #fff;
+  color: black;
   text-align: center;
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
   background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/pathex.avif');
   border-radius: 10px;
   padding: 5px;
+  width: 30%;
 }
 .about p{
-  color: white;
+  color: black;
   font-size: .8rem;
   line-height: 1.5; /* Spacing between lines for better readability */
   text-align: center;
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: white;
+  border: black;
   font-size: 1em;
 }
 .about .imageContainer {
   display: flex;
   justify-content: space-between; /* This keeps the images spaced out evenly */
   align-items: center;
-  gap: 15px;
+  gap: 2%;
   background-color: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)), url('/pathex.avif');
 }
 
@@ -354,17 +413,19 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 15px;
-  height: 280px; /* example fixed height */
-  width: 230px; /* example fixed width */
+  padding: 70px;
+  height: 70%; /* example fixed height */
+  width: 100%; /* example fixed width */
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
   gap: 10px;
   background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/pathex.avif');
+  margin-top: -2%;
 }
 .imageTextContainer p {
-  max-width: 250px; /* Set a max-width for the text */
+  max-width: 320px; /* Set a max-width for the text */
   width: 100%; /* Ensure the text can expand to the max-width */
   padding: 0 20px; /* Optional: Add padding to control text from hitting the edges */
+  font-size: 1em;
 }
 .imageTextContainer:hover {
   display: flex;
@@ -381,20 +442,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 50vh;
+  height: 55vh;
   width: 100%;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url('/pathex.avif');
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-bottom: 1px solid #68b42b;
   border-top: 1px solid #68b42b;
   box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
   background-size: 8%;
-  width: calc(100% - 780px); /* Subtracting 400px from each side */
   border-radius: 2%;;
-  margin-left: 400px;
-  margin-top: 1px;
+  margin-top: 5px;
   box-shadow: 0px 10px 20px rgba(0,0,0, 30); 
 }
 .faqs h3 {
@@ -491,7 +550,7 @@
 
 
 .sideNav{
-  height: calc(100vh - 100px);
+  height: calc(100vh);
   top: 140px;
   position: fixed; /* Fixed position to keep it in place */
   width: 23.7%;
@@ -558,7 +617,7 @@
   font-size: 20px; /* Increases font size for visibility */
 }
 .total {
-  font-size: 0.75rem;
+  font-size: 1rem;
   box-shadow: 0 1px 2px rgba(0,0,0, 1);
   padding: 3px;
   border-radius: 10px;
@@ -575,57 +634,85 @@
   padding: 10px; /* Padding inside each row */
 }
 
-.sideNav .nextButton {
-  display: none; /* Initially hidden */
-  position: absolute;
-  top: 5%; /* Adjust to center vertically relative to the parent */
-  left: 90%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Perfect center alignment */
-  background-color: transparent; /* Transparent background */
-  border: 1px solid white; /* Visible border with a light blue color */
-  color: #fff; /* White text color */
-  padding: 5px 5px; /* Padding for better touch area and visibility */
-  border-radius: 30px;
-  cursor: pointer; /* Cursor indicates clickable item */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Shadow for depth */
-  z-index: 10;
-}
-.sideNav:hover .nextButton {
-  display: block; /* Show when sideNav is hovered */
-}
-.sideNav .nextButton:hover {
-  border-color: #68b42b; /* Change border color to white on hover */
-  box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
-}
-.leaguelogo{
-  margin-left: 140px;
-  margin-top: 5px;
-}
 
 
 
 
+/* TRIAL SIDENAV */
+
+
+.sideNav {
+    width: 100%;
+    height: 11%;
+    order: 1; /* Display below navbar */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    overflow-x: scroll;
+    margin-top: -9%;
+    background-size: 120%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+    z-index: 10;
+    border-bottom: 2px solid #68b42b;
+    border-top: 2px solid #68b42b;
+    scrollbar-width: none;
+    position: relative; /* Make sure it's part of the normal flow */
+    z-index: 10; /* Ensure it stays under the navbar when scrolling */
+  }
+  .navlogo {
+    height: 40px;
+    width: 40px;
+    align-items: row;
+    padding: 5px;
+  }
+  .sideNav h3 {
+    display: none;
+  }
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
+  }
+  .table{
+    width: 25%;
+    margin-bottom: 12vh; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
+    z-index: 10;
+  }
+  .total{
+    font-size: 1em;
+  }
+  .matchupRow {
+    margin: 5px 2px; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    padding: 7.5px; /* Padding inside each row */
+    height: 100%;
+    margin-top: 2%;
+  }
+  .leaguelogo {
+    display: none;
+}
 
 
 /* SECOND SIDENAV */
 
 
 .secondSideNav {
-  width: 20.7%;
-  height: calc(100vh - 100px);
-  position: fixed;
-  top: 140px;
+  width: 98%;
+  height: 105vh;
+  top: 0px;
   right: 0px;
   padding: 0px 15px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url('/pathex.avif');
-  background-size: 10%;
-  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url('/ufcGlove.jpg');
+  background-size: 100%;
   flex-direction: column;
   border-radius: 2%;
   border: white 1px solid;
   overflow-y: auto; /* Change to auto to allow scrolling */
   z-index: 2;
   box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  margin-top: 0.2%;
 }
 .secondSideNav h3 {
   color: #fff;
@@ -636,6 +723,9 @@
   box-sizing: border-box;
   width: 100%;
   box-shadow: 0 1.5px 1.5px rgba(255, 255, 255, .7); /* Shadow for 3D effect */
+  font-size: 1.5em;
+  width: 80%;
+  margin-left: 10%;
 }
 .secondSideNav h4 {
   color: #fff;
@@ -646,17 +736,20 @@
   box-sizing: border-box;
   width: 100%;
   box-shadow: 0 1.5px 1.5px rgba(255, 255, 255, .7); /* Shadow for 3D effect */
+  font-size: 1.5em;
+  width: 80%;
+  margin-left: 10%;
 }
 .secondSideNav .user{
   padding-right: 20px;
 }
 .table4{
   color: #000;
-  left: 10px;
+  left: 7%;
   top: 100px;
-  width: 95%;
+  width: 85%;
   position: relative;
-  right: 10px;
+  right: 0px;
   text-align: center;
   padding-top: 10px;
   margin-top: 10;
@@ -676,12 +769,15 @@
   border-color: rgba(0,0,0,0.2);
   box-shadow: 0 1px 2px rgba(0,0,0, 1);
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5em;
+  width: 50%;
 }
 .table4 tr {
   background-color: #fff;
   border-radius: 20px;
   box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
   margin-bottom: 10px; /* Add space between rows */
+  
 }
 .table4 th {
   background-color: transparent;
@@ -718,10 +814,10 @@
 .secondSideNav .nextButton {
   display: none; /* Initially hidden */
   position: absolute;
-  top: 4%; /* Adjust to center vertically relative to the parent */
-  left: 90%; /* Center horizontally */
+  top: 280%; /* Adjust to center vertically relative to the parent */
+  left: 80%;/* Center horizontally */
   transform: translate(-50%, -50%); /* Perfect center alignment */
-  background-color: transparent; /* Transparent background */
+  background-color: darkgrey; /* Transparent background */
   border: 1px solid #fff; /* Visible border with a light blue color */
   color: #fff; /* White text color */
   padding: 5px 10px; /* Padding for better touch area and visibility */
@@ -740,10 +836,10 @@
 .secondSideNav .backButton {
   display: none; /* Initially hidden */
   position: absolute;
-  top: 4%; /* Adjust to center vertically relative to the parent */
-  left: 10%; /* Center horizontally */
+  top: 280%; /* Adjust to center vertically relative to the parent */
+  left: 20%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Perfect center alignment */
-  background-color: transparent; /* Transparent background */
+  background-color: darkgrey; /* Transparent background */
   border: 1px solid white; /* Visible border with a light blue color */
   color: #fff; /* White text color */
   padding: 5px 10px; /* Padding for better touch area and visibility */
@@ -760,10 +856,10 @@
   box-shadow: 0 6px 12px rgba(0,0,0,0.75); /* Intensify the shadow for a raised effect */
 }
 .headshot {
-  margin-left: 52px;
+  margin-left: 220%;
 }
 .ufclogo {
-  margin-left: calc(32.5%);
+  margin-left: 47%;
   margin-top: calc(10px);
 }
 
@@ -815,8 +911,13 @@
 @media only screen and (max-width: 379.99px)  {
   .container {
     display: flex;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
+    flex-direction: column; /* Or row depending on your layout */
+    flex-wrap: nowrap; /* Prevents wrapping which can cause overflow */
+    overflow-x: hidden; /* Ensure no horizontal scroll */
+    transform: scale(0.9); /* Ensures the container doesn’t exceed viewport width */
+  }
+  .content{
+    overflow-x: hidden;
   }
 
   /* NAVBAR */
@@ -824,6 +925,9 @@
   height: 30px;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
   background-size: 100%;
+  width: 105%;
+  margin-top: -2%;
+  margin-left: -2%;
 }
   .navbar ul {
     display: flex;
@@ -847,7 +951,7 @@
   }
   
   .logo {
-    margin-left: 25px;
+    margin-left: 10px;
     padding-right: calc(10px);
     width: 40px;
     height: 40px;
@@ -873,9 +977,9 @@
     /* MAIN */
 
   .banner {
-    height: 85vh;
+    height: 100vh;
     top: 115px;
-    width: 100%;
+    width: 105%;
     order: 2; /* Main content */
     margin: 0; /* Remove margin */
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
@@ -886,6 +990,25 @@
     width: 100%;
     order: 2; /* Main content */
     margin: 0; /* Remove margin */
+  }
+  .tagLine{
+    border-radius: 10px;
+    width: 130%;
+    margin-left: -17%;
+    border-bottom: 1px solid #68b42b;
+    margin-top: 0%;
+  }
+  .tagLine h1{
+    color: white;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+  .tagLine p{
+    color: white;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .75em;
+    text-align: center;
   }
 
   .dataSection {
@@ -924,8 +1047,9 @@
   
   .stattable1{
     width: 0%;
-    margin-left: 170px;
-    margin-top: -425px;
+    margin-left: 10%;
+    margin-top: -420px;
+    width: 12%;
   }
   .statttable1 th, .stattable1 td {
     padding-top: 5px;
@@ -933,6 +1057,7 @@
   }
   .stattable1 h3{
     padding: 1px;
+    font-size: .75em;
   }
   .logostat {
     width: 15px;
@@ -941,9 +1066,9 @@
   }
   .tableImage{
     border-radius: 20px;
-    height: 120px;
-    width: 160px;
-    margin-bottom: -15px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 0px;
   }
   .button {
     width: 100px;
@@ -966,7 +1091,23 @@
     width: 40px;
     height: 50px;
   }
-
+.phone{
+  width: 50%;
+  height: 60%;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+.followBanner{
+  margin-left: 15%;
+  font-size: .75em;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.xLogo{
+  width: 10%;
+  height: 35%;
+  margin-top: -5%;
+}
 
 
 /* ABOUT */
@@ -975,12 +1116,12 @@
   
 .about {
   display: block; /* Ensure it is not set to 'none' */
-  width: 100%;
+  width: 105%;
   height: 450px;
-  margin-top: 120px;
+  margin-top: 5vh;
   margin-left: 0px;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
-  background-size: 100%;
+  background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/pathex.avif');
+  background-size: 2%;
   order: 2;
 
 }
@@ -995,8 +1136,8 @@
 }
 .imageTextContainer {
   padding: 25px;
-  height: 230px; /* example fixed height */
-  width: 55px;  /* example fixed width */
+  height: 42.5vh; /* example fixed height */
+  width: 62px;  /* example fixed width */
   border-radius: 5%;
   margin-left: 0px;
 }
@@ -1004,7 +1145,424 @@
   max-width: 250px; /* Set a max-width for the text */
   width: 150%; /* Ensure the text can expand to the max-width */
   padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
-  font-size: .6em;
+  font-size: .5em;
+}
+.aboutlogo{
+height: 70px;
+width: 70px;
+}
+
+
+
+
+
+
+
+/* FAQS */
+
+
+.faqs {
+  order: 2;
+  display: block; /* Ensure it is not set to 'none' */
+  width: 105%;
+  height: 500px;
+  margin-top: 5px;
+  margin-left: 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
+  background-size: 100%;
+}
+.faqs h3 {
+  width: 90%;
+  margin-left: 17px;
+}
+.faqlogo{
+  margin-left: 40%;
+}
+.table3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/blank.png');
+  background-size: 100%;
+}
+
+
+
+
+
+
+
+    /* SIDENAV */
+
+    .sideNav {
+      width: 108%;
+      height: 55px;
+      order: 1; /* Display below navbar */
+      flex-direction: row; /* Horizontal layout */
+      justify-content: space-around; /* Space items evenly */
+      overflow-x: scroll;
+      margin-top: -40%;
+      background-size: 120%;
+      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+      z-index: 10;
+      border-bottom: 2px solid #68b42b;
+      margin-left: -2%;
+    }
+    .navlogo {
+      height: 25px;
+      width: 25px;
+      align-items: row;
+      padding: 5px;
+    }
+    .sideNav h3 {
+      display: none;
+    }
+    .atSymbol {
+      flex: none; /* Prevents '@' from stretching */
+      padding: 0 2px;
+      font-size: 10px; /* Increases font size for visibility */
+    }
+    .table{
+      width: 25%;
+      margin-top: -92.5px; /* Moves table up and down */
+      overflow-x: hidden; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevents wrapping of items */
+      width: auto; /* Width auto to contain all children */
+    }
+    .total{
+      font-size: .6em;
+    }
+    .matchupRow {
+      margin: 5px 2px; /* Margin between each row */
+      display: inline-flex; /* Use flexbox to manage layout of cells */
+      padding: 7.5px; /* Padding inside each row */
+      height: 20px;
+      margin-top: 2.5px;
+    }
+    .leaguelogo {
+      display: none;
+  }
+  
+  
+
+
+.secondSideNav {
+  width: 97%;
+  height: 120vh; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  background-size: 100%;
+  border-color:#68b42b;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url('/ufcGlove.jpg');
+  z-index: 10;
+  margin-bottom: 0px; /* Add some margin to separate from the faqs section */
+  margin-top: 0px;
+  position: relative; /* Ensure it is positioned in the document flow */
+  z-index: 1;
+  overflow-y: none;
+}
+.table4{
+  width: 115%;
+  margin-left: -30px;
+  font-size: .7em;
+}
+.secondSideNav .nextButton{
+  display: block;
+  margin-top: -315vh;
+  scale: 50%;
+}
+.secondSideNav .backButton{
+  display: block;
+  margin-top: -315vh;
+  scale: 50%;
+  margin-left: -10%;
+}
+
+/* Additional styles for elements inside secondSideNav if needed */
+.ufclogo {
+  height: 1px;
+  width: 0px;
+  align-items: row;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: calc(-0px);
+}
+.secondSideNav h3{
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 0px;
+}
+.headshot{
+  height: 100px;
+  width: 180px;
+  margin-top: -15px;
+  margin-right: -23.5vh;
+}
+  .bottomNav {
+    width: 105%;
+    order: 8; /* Display at the bottom */
+    flex-direction: row;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (phones, 400px and down) */
+
+@media only screen and (min-width: 380px) and (max-width: 400px) {
+  .container {
+    display: flex;
+    flex-direction: column; /* Or row depending on your layout */
+    flex-wrap: nowrap; /* Prevents wrapping which can cause overflow */
+    overflow-x: hidden; /* Ensure no horizontal scroll */
+    transform: scale(0.9); /* Ensures the container doesn’t exceed viewport width */
+  }
+  .content{
+    overflow-x: hidden;
+  }
+
+  /* NAVBAR */
+.navbar{
+  height: 30px;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+  background-size: 100%;
+  width: 100%;
+  margin-top: -2%;
+  margin-left: -2%;
+}
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
+  }
+  .navbar ul li {
+    font-size: .9em;
+    padding: 7px 10px; /* Adjust padding for smaller buttons */
+    border: 1.5px solid white;
+    box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
+    white-space: nowrap;
+  }
+  .navbar ul li .dropdown{
+    font-size: 1.25em;
+    min-width: 100px;
+  }
+  
+  .logo {
+    margin-left: 10px;
+    padding-right: calc(10px);
+    width: 40px;
+    height: 40px;
+  }
+  .odds{
+    margin-right: 0px;
+  }
+  .logor {
+    display: fixed;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 40px;
+  }
+  .odds h4{
+    padding-left: calc(15px);
+    padding-right: calc(20px);
+    font-size: 5px;
+    margin-left: 10%;
+  }
+
+
+    /* MAIN */
+
+  .banner {
+    height: 85vh;
+    top: 115px;
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
+    background-size: 25%;
+    order: 2;
+  }
+  .contentSection {
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+  }
+  .tagLine{
+    border-radius: 10px;
+    width: 130%;
+    margin-left: -17%;
+    border-bottom: 1px solid #68b42b;
+    margin-top: 0%;
+  }
+  .tagLine h1{
+    color: white;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+  .tagLine p{
+    color: white;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .75em;
+    text-align: center;
+  }
+
+  .dataSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .dataSection h1 {
+    margin-bottom: 12px; /* Add spacing between h1 and buttons */
+    border-radius: 10%;
+    padding: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-right: 180px;
+    width: 100px;
+    border: 1px solid #68b42b;
+  }
+
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center buttons horizontally */
+    gap: 10px; /* Spacing between buttons */
+    width: 100%; /* Ensure buttons take full width for centering */
+    margin-right: 330px;
+  }
+  
+  .stattable1{
+    width: 0%;
+    margin-left: 10%;
+    margin-top: -420px;
+    width: 12%;
+  }
+  .statttable1 th, .stattable1 td {
+    padding-top: 5px;
+    font-size: 1em;
+  }
+  .stattable1 h3{
+    padding: 1px;
+    font-size: .5em;
+  }
+  .logostat {
+    width: 15px;
+    height: 15px;
+    padding-right: 20px;
+  }
+  .tableImage{
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 0px;
+  }
+  .button {
+    width: 100px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    margin-left: 150px;
+  }
+  .banimg{
+    margin-right: 180px;
+    margin-top: 30px;
+    z-index: 0;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+    margin-bottom: 0px;
+    width: 150px;
+    height: 125px;
+  }
+  .table3 span{
+    border: none;
+    width: 40px;
+    height: 50px;
+  }
+.phone{
+  width: 50%;
+  height: 60%;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+.followBanner{
+  margin-left: 15%;
+  font-size: .75em;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.xLogo{
+  width: 10%;
+  height: 35%;
+  margin-top: -5%;
+}
+
+
+/* ABOUT */
+
+
+  
+.about {
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 450px;
+  margin-top: 4vh;
+  margin-left: 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.3)), url('/blank.png');
+  background-size: 100%;
+  order: 2;
+
+}
+.about h2{
+  font-size: 2rem;
+  width: 90%;
+  margin-left: 15px;
+}
+.imageContainer{
+  width: calc(50%);
+  margin-left: 2.5px;
+}
+.imageTextContainer {
+  padding: 25px;
+  height: 32vh; /* example fixed height */
+  width: 65px;  /* example fixed width */
+  border-radius: 5%;
+  margin-left: 5px;
+}
+.imageTextContainer p {
+  max-width: 200px; /* Set a max-width for the text */
+  width: 150%; /* Ensure the text can expand to the max-width */
+  padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
+  font-size: .5em;
 }
 .aboutlogo{
 height: 70px;
@@ -1051,17 +1609,18 @@ width: 70px;
     /* SIDENAV */
 
     .sideNav {
-      width: 100%;
+      width: 104%;
       height: 55px;
       order: 1; /* Display below navbar */
       flex-direction: row; /* Horizontal layout */
       justify-content: space-around; /* Space items evenly */
       overflow-x: scroll;
-      margin-top: -80px;
+      margin-top: -38%;
       background-size: 120%;
       background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
       z-index: 10;
       border-bottom: 2px solid #68b42b;
+      margin-left: -2%;
     }
     .navlogo {
       height: 25px;
@@ -1103,32 +1662,35 @@ width: 70px;
 
 .secondSideNav {
   width: 92%;
-  height: 700px; /* Adjust the height as needed */
+  height: 95vh; /* Adjust the height as needed */
   display: flex;
   flex-direction: row; /* Horizontal layout */
   justify-content: space-around; /* Space items evenly */
-  overflow-x: scroll;
-  background-size: 120%;
+  background-size: 100%;
   border-color:#68b42b;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url('/ufcGlove.jpg');
   z-index: 10;
-  margin-bottom: 140px; /* Add some margin to separate from the faqs section */
-  margin-top: -135px;
+  margin-bottom: 0px; /* Add some margin to separate from the faqs section */
+  margin-top: 0px;
   position: relative; /* Ensure it is positioned in the document flow */
   z-index: 1;
+  overflow-y: none;
 }
 .table4{
   width: 115%;
   margin-left: -30px;
-  font-size: 1em;
+  font-size: .7em;
 }
 .secondSideNav .nextButton{
   display: block;
-  margin-top: 120px;
+  margin-top: -247vh;
+  scale: 50%;
 }
 .secondSideNav .backButton{
   display: block;
-  margin-top: 121px;
+  margin-top: -247vh;
+  scale: 50%;
+  margin-left: -10%;
 }
 
 /* Additional styles for elements inside secondSideNav if needed */
@@ -1149,7 +1711,7 @@ width: 70px;
   height: 100px;
   width: 180px;
   margin-top: -15px;
-  margin-right: 50px;
+  margin-right: -18vh;
 }
   .bottomNav {
     width: 100%;
@@ -1170,6 +1732,7 @@ width: 70px;
 
 
 
+/* 600PX */
 
 
 
@@ -1178,21 +1741,451 @@ width: 70px;
 
 
 
-/* Small devices (phones, 400px and down) */
 
-@media only screen and (min-width: 380px) and (max-width: 400px) {
+
+
+
+
+
+
+
+
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) and (max-width: 500px)  {
+    .container {
+      display: flex;
+      flex-direction: column; /* Or row depending on your layout */
+      flex-wrap: nowrap; /* Prevents wrapping which can cause overflow */
+      overflow-x: hidden; /* Ensure no horizontal scroll */
+      transform: scale(0.9); /* Ensures the container doesn’t exceed viewport width */
+    }
+    .content{
+      overflow-x: hidden;
+    }
+  
+    /* NAVBAR */
+  .navbar{
+    height: 30px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+    background-size: 100%;
+    width: 100%;
+    margin-top: -2%;
+    margin-left: -2%;
+  }
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+      justify-content: center; /* Center items in the navbar */
+      flex-grow: 1; /* Allow ul to grow and take available space */
+      margin: 0;
+      padding: 0;
+    }
+    .navbar ul li {
+      font-size: .9em;
+      padding: 7px 10px; /* Adjust padding for smaller buttons */
+      border: 1.5px solid white;
+      box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
+      white-space: nowrap;
+    }
+    .navbar ul li .dropdown{
+      font-size: 1.25em;
+      min-width: 100px;
+    }
+    
+    .logo {
+      margin-left: 10px;
+      padding-right: calc(10px);
+      width: 40px;
+      height: 40px;
+    }
+    .odds{
+      margin-right: 0px;
+    }
+    .logor {
+      display: fixed;
+      margin-left: 20%;
+      margin-bottom: 30px;
+      height: 40px;
+      width: 40px;
+    }
+    .odds h4{
+      padding-left: calc(15px);
+      padding-right: calc(20px);
+      font-size: 5px;
+      margin-left: 10%;
+    }
+  
+  
+      /* MAIN */
+  
+    .banner {
+      height: 85vh;
+      top: 115px;
+      width: 100%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
+      background-size: 25%;
+      order: 2;
+    }
+    .contentSection {
+      width: 100%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+    }
+    .tagLine{
+      border-radius: 10px;
+      width: 130%;
+      margin-left: -17%;
+      border-bottom: 1px solid #68b42b;
+      margin-top: 0%;
+    }
+    .tagLine h1{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 2em;
+      text-align: center;
+    }
+    .tagLine p{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: .75em;
+      text-align: center;
+    }
+  
+    .dataSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center children horizontally */
+      justify-content: center; /* Center children vertically */
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+      text-align: center;
+      color: #fff;
+      font-size: 1rem;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .dataSection h1 {
+      margin-bottom: 12px; /* Add spacing between h1 and buttons */
+      border-radius: 10%;
+      padding: 5px;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+      margin-right: 180px;
+      width: 100px;
+      border: 1px solid #68b42b;
+    }
+  
+    
+    .buttonContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center buttons horizontally */
+      gap: 10px; /* Spacing between buttons */
+      width: 100%; /* Ensure buttons take full width for centering */
+      margin-right: 330px;
+    }
+    
+    .stattable1{
+      width: 0%;
+      margin-left: 10%;
+      margin-top: -420px;
+      width: 12%;
+    }
+    .statttable1 th, .stattable1 td {
+      padding-top: 5px;
+      font-size: 1em;
+    }
+    .stattable1 h3{
+      padding: 1px;
+      font-size: .5em;
+    }
+    .logostat {
+      width: 15px;
+      height: 15px;
+      padding-right: 20px;
+    }
+    .tableImage{
+      border-radius: 20px;
+      height: 100px;
+      width: 100px;
+      margin-bottom: 0px;
+    }
+    .button {
+      width: 100px;
+      padding: 10px 0;
+      margin-bottom: 5px;
+      margin-left: 150px;
+    }
+    .banimg{
+      margin-right: 180px;
+      margin-top: 30px;
+      z-index: 0;
+      border-radius: 30px;
+      box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+      margin-bottom: 0px;
+      width: 150px;
+      height: 125px;
+    }
+    .table3 span{
+      border: none;
+      width: 40px;
+      height: 50px;
+    }
+  .phone{
+    width: 50%;
+    height: 60%;
+    margin-left: 45%;
+    margin-top: 5%;
+  }
+  .followBanner{
+    margin-left: 15%;
+    font-size: .75em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .xLogo{
+    width: 10%;
+    height: 35%;
+    margin-top: -5%;
+  }
+  
+  
+  /* ABOUT */
+  
+  
+    
+  .about {
+    display: block; /* Ensure it is not set to 'none' */
+    width: 100%;
+    height: 450px;
+    margin-top: 4vh;
+    margin-left: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.3)), url('/blank.png');
+    background-size: 100%;
+    order: 2;
+  
+  }
+  .about h2{
+    font-size: 2rem;
+    width: 90%;
+    margin-left: 15px;
+  }
+  .imageContainer{
+    width: calc(90%);
+    margin-left: 5px;
+  }
+  .imageTextContainer {
+    padding: 25px;
+    height: 34vh; /* example fixed height */
+    width: 75px;  /* example fixed width */
+    border-radius: 5%;
+    margin-left: 5px;
+  }
+  .imageTextContainer p {
+    max-width: 200px; /* Set a max-width for the text */
+    width: 150%; /* Ensure the text can expand to the max-width */
+    padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
+    font-size: .5em;
+  }
+  .aboutlogo{
+  height: 70px;
+  width: 70px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* FAQS */
+  
+  
+  .faqs {
+    order: 2;
+    display: block; /* Ensure it is not set to 'none' */
+    width: 100%;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
+    background-size: 100%;
+  }
+  .faqs h3 {
+    width: 90%;
+    margin-left: 17px;
+  }
+  .faqlogo{
+    margin-left: 40%;
+  }
+  .table3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/blank.png');
+    background-size: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  
+      /* SIDENAV */
+  
+      .sideNav {
+        width: 104%;
+        height: 55px;
+        order: 1; /* Display below navbar */
+        flex-direction: row; /* Horizontal layout */
+        justify-content: space-around; /* Space items evenly */
+        overflow-x: scroll;
+        margin-top: -35%;
+        background-size: 120%;
+        background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+        z-index: 10;
+        border-bottom: 2px solid #68b42b;
+        margin-left: -2%;
+      }
+      .navlogo {
+        height: 25px;
+        width: 25px;
+        align-items: row;
+        padding: 5px;
+      }
+      .sideNav h3 {
+        display: none;
+      }
+      .atSymbol {
+        flex: none; /* Prevents '@' from stretching */
+        padding: 0 2px;
+        font-size: 10px; /* Increases font size for visibility */
+      }
+      .table{
+        width: 25%;
+        margin-top: -92.5px; /* Moves table up and down */
+        overflow-x: hidden; /* Enable horizontal scrolling */
+        white-space: nowrap; /* Prevents wrapping of items */
+        width: auto; /* Width auto to contain all children */
+      }
+      .total{
+        font-size: .6em;
+      }
+      .matchupRow {
+        margin: 5px 2px; /* Margin between each row */
+        display: inline-flex; /* Use flexbox to manage layout of cells */
+        padding: 7.5px; /* Padding inside each row */
+        height: 20px;
+        margin-top: 2.5px;
+      }
+      .leaguelogo {
+        display: none;
+    }
+    
+    
+  
+  
+  .secondSideNav {
+    width: 92%;
+    height: 95vh; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    background-size: 100%;
+    border-color:#68b42b;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url('/ufcGlove.jpg');
+    z-index: 10;
+    margin-bottom: 0px; /* Add some margin to separate from the faqs section */
+    margin-top: 0px;
+    position: relative; /* Ensure it is positioned in the document flow */
+    z-index: 1;
+    overflow-y: none;
+  }
+  .table4{
+    width: 115%;
+    margin-left: -30px;
+    font-size: .7em;
+  }
+  .secondSideNav .nextButton{
+    display: block;
+    margin-top: -247vh;
+    scale: 50%;
+  }
+  .secondSideNav .backButton{
+    display: block;
+    margin-top: -247vh;
+    scale: 50%;
+    margin-left: -10%;
+  }
+  
+  /* Additional styles for elements inside secondSideNav if needed */
+  .ufclogo {
+    height: 1px;
+    width: 0px;
+    align-items: row;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: calc(-0px);
+  }
+  .secondSideNav h3{
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 0px;
+  }
+  .headshot{
+    height: 100px;
+    width: 180px;
+    margin-top: -15px;
+    margin-right: -18vh;
+  }
+    .bottomNav {
+      width: 100%;
+      order: 8; /* Display at the bottom */
+      flex-direction: row;
+      background-size: 100%;
+      background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
+    }
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (min-width: 500px) and (max-width: 750px)  {
  
   .container {
     display: flex;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
+    flex-direction: column; /* Or row depending on your layout */
+    flex-wrap: nowrap; /* Prevents wrapping which can cause overflow */
+    overflow-x: hidden; /* Ensure no horizontal scroll */
+    transform: scale(0.9); /* Ensures the container doesn’t exceed viewport width */
+  }
+  .content{
+    overflow-x: hidden;
   }
 
   /* NAVBAR */
 .navbar{
-  height: 35px;
+  height: 30px;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
   background-size: 100%;
+  width: 100%;
+  margin-top: -2%;
+  margin-left: -2%;
 }
   .navbar ul {
     display: flex;
@@ -1202,12 +2195,11 @@ width: 70px;
     flex-grow: 1; /* Allow ul to grow and take available space */
     margin: 0;
     padding: 0;
-    margin-left: 2%;
   }
   .navbar ul li {
     font-size: .9em;
-    padding: 8px 12px; /* Adjust padding for smaller buttons */
-    border: 2px solid white;
+    padding: 7px 10px; /* Adjust padding for smaller buttons */
+    border: 1.5px solid white;
     box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
     white-space: nowrap;
   }
@@ -1217,7 +2209,7 @@ width: 70px;
   }
   
   .logo {
-    margin-left: 25px;
+    margin-left: 10px;
     padding-right: calc(10px);
     width: 40px;
     height: 40px;
@@ -1227,14 +2219,15 @@ width: 70px;
   }
   .logor {
     display: fixed;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-bottom: 30px;
     height: 40px;
     width: 40px;
   }
   .odds h4{
     padding-left: calc(15px);
-    font-size: 4px;
+    padding-right: calc(20px);
+    font-size: 5px;
     margin-left: 10%;
   }
 
@@ -1242,7 +2235,7 @@ width: 70px;
     /* MAIN */
 
   .banner {
-    height: 80vh;
+    height: 100vh;
     top: 115px;
     width: 100%;
     order: 2; /* Main content */
@@ -1255,6 +2248,25 @@ width: 70px;
     width: 100%;
     order: 2; /* Main content */
     margin: 0; /* Remove margin */
+  }
+  .tagLine{
+    border-radius: 10px;
+    width: 130%;
+    margin-left: -17%;
+    border-bottom: 1px solid #68b42b;
+    margin-top: 0%;
+  }
+  .tagLine h1{
+    color: white;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+  }
+  .tagLine p{
+    color: white;
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .75em;
+    text-align: center;
   }
 
   .dataSection {
@@ -1276,7 +2288,7 @@ width: 70px;
     border-radius: 10%;
     padding: 5px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-right: 200px;
+    margin-right: 180px;
     width: 100px;
     border: 1px solid #68b42b;
   }
@@ -1288,13 +2300,14 @@ width: 70px;
     align-items: center; /* Center buttons horizontally */
     gap: 10px; /* Spacing between buttons */
     width: 100%; /* Ensure buttons take full width for centering */
-    margin-right: 350px;
+    margin-right: 330px;
   }
   
   .stattable1{
     width: 0%;
-    margin-left: 180px;
-    margin-top: -425px;
+    margin-left: 10%;
+    margin-top: -420px;
+    width: 20%;
   }
   .statttable1 th, .stattable1 td {
     padding-top: 5px;
@@ -1302,6 +2315,7 @@ width: 70px;
   }
   .stattable1 h3{
     padding: 1px;
+    font-size: .75em;
   }
   .logostat {
     width: 15px;
@@ -1310,9 +2324,9 @@ width: 70px;
   }
   .tableImage{
     border-radius: 20px;
-    height: 120px;
-    width: 160px;
-    margin-bottom: -15px;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 0px;
   }
   .button {
     width: 100px;
@@ -1321,7 +2335,7 @@ width: 70px;
     margin-left: 150px;
   }
   .banimg{
-    margin-right: 200px;
+    margin-right: 180px;
     margin-top: 30px;
     z-index: 0;
     border-radius: 30px;
@@ -1335,7 +2349,23 @@ width: 70px;
     width: 40px;
     height: 50px;
   }
-
+.phone{
+  width: 50%;
+  height: 60%;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+.followBanner{
+  margin-left: 15%;
+  font-size: .75em;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.xLogo{
+  width: 10%;
+  height: 35%;
+  margin-top: -5%;
+}
 
 
 /* ABOUT */
@@ -1346,10 +2376,10 @@ width: 70px;
   display: block; /* Ensure it is not set to 'none' */
   width: 100%;
   height: 450px;
-  margin-top: 120px;
+  margin-top: 95px;
   margin-left: 0px;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
-  background-size: 100%;
+  background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
+  background-size: 2%;
   order: 2;
 
 }
@@ -1364,16 +2394,17 @@ width: 70px;
 }
 .imageTextContainer {
   padding: 25px;
-  height: 230px; /* example fixed height */
-  width: 60px;  /* example fixed width */
+  height: 30vh; /* example fixed height */
+  width: 120px;  /* example fixed width */
   border-radius: 5%;
-  margin-left: 0px;
+  margin-left: 25px;
+  margin-right: -10px;
 }
 .imageTextContainer p {
-  max-width: 250px; /* Set a max-width for the text */
+  max-width: 200px; /* Set a max-width for the text */
   width: 150%; /* Ensure the text can expand to the max-width */
   padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
-  font-size: .6em;
+  font-size: .5em;
 }
 .aboutlogo{
 height: 70px;
@@ -1420,17 +2451,18 @@ width: 70px;
     /* SIDENAV */
 
     .sideNav {
-      width: 100%;
+      width: 104%;
       height: 55px;
       order: 1; /* Display below navbar */
       flex-direction: row; /* Horizontal layout */
       justify-content: space-around; /* Space items evenly */
       overflow-x: scroll;
-      margin-top: -80px;
+      margin-top: -35%;
       background-size: 120%;
       background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
       z-index: 10;
       border-bottom: 2px solid #68b42b;
+      margin-left: -2%;
     }
     .navlogo {
       height: 25px;
@@ -1459,9 +2491,9 @@ width: 70px;
     .matchupRow {
       margin: 5px 2px; /* Margin between each row */
       display: inline-flex; /* Use flexbox to manage layout of cells */
-      padding: 5px; /* Padding inside each row */
-      height: 22.5px;
-      margin-top: 5px;
+      padding: 7.5px; /* Padding inside each row */
+      height: 20px;
+      margin-top: 2.5px;
     }
     .leaguelogo {
       display: none;
@@ -1471,33 +2503,36 @@ width: 70px;
 
 
 .secondSideNav {
-  width: 92%;
-  height: 700px; /* Adjust the height as needed */
+  width: 94.5%;
+  height: 105vh; /* Adjust the height as needed */
   display: flex;
   flex-direction: row; /* Horizontal layout */
   justify-content: space-around; /* Space items evenly */
-  overflow-x: scroll;
-  background-size: 120%;
+  background-size: 100%;
   border-color:#68b42b;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url('/ufcGlove.jpg');
   z-index: 10;
-  margin-bottom: 140px; /* Add some margin to separate from the faqs section */
-  margin-top: -135px;
+  margin-bottom: 0px; /* Add some margin to separate from the faqs section */
+  margin-top: 0px;
   position: relative; /* Ensure it is positioned in the document flow */
   z-index: 1;
+  overflow-y: none;
 }
 .table4{
   width: 115%;
   margin-left: -30px;
-  font-size: 1em;
+  font-size: .7em;
 }
 .secondSideNav .nextButton{
   display: block;
-  margin-top: 120px;
+  margin-top: -270vh;
+  scale: 50%;
 }
 .secondSideNav .backButton{
   display: block;
-  margin-top: 121px;
+  margin-top: -270vh;
+  scale: 50%;
+  margin-left: -10%;
 }
 
 /* Additional styles for elements inside secondSideNav if needed */
@@ -1518,776 +2553,13 @@ width: 70px;
   height: 100px;
   width: 180px;
   margin-top: -15px;
-  margin-right: 50px;
+  margin-right: -21.5vh;
 }
   .bottomNav {
     width: 100%;
     order: 8; /* Display at the bottom */
     flex-direction: row;
     background-size: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* 600PX */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Small devices (phones, 600px and down) */
-@media only screen and (min-width: 400px) and (max-width: 500px)  {
- 
-  .container {
-    display: flex;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-
-  /* NAVBAR */
-
-  .navbar {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
-    background-size: 100%;
-    height: 35px;
-  }
-  
-  .navbar ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
-    justify-content: center; /* Center items in the navbar */
-    flex-grow: 1; /* Allow ul to grow and take available space */
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar ul li {
-    font-size: 1em;
-    padding: 8px 12px; /* Adjust padding for smaller buttons */
-    border: 2px solid white;
-    box-shadow: 0 2px 2px rgba(255, 255, 255, 0.7);
-    white-space: nowrap; /* Prevent text from wrapping */
-    height: 100%; /* Ensure li elements take the full height of the navbar */
-    display: flex;
-    align-items: center; /* Vertically center the text */
-  }
-  .navbar ul li .dropdown{
-    font-size: 1.25em;
-    min-width: 100px;
-  }
-  .logo {
-    margin-left: 27.5px;
-    padding-right: calc(10px);
-    width: 45px;
-    height: 45px;
-  }
-  .odds{
-    margin-right: 0px;
-  }
-  .logor {
-    display: fixed;
-    margin-left: 20%;
-    margin-bottom: 32.5px;
-    height: 45px;
-    width: 45px;
-  }
-  .odds h4{
-    padding-left: calc(20px);
-    padding-left: calc(10px);
-    font-size: 5px;
-    margin-left: 20%;
-  }
-
-
-    /* MAIN */
-
-  .banner {
-    height: 80vh;
-    top: 120px;
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
-    background-size: 120%;
-  }
-  .contentSection {
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-    
-  }
-
-  .dataSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center children horizontally */
-    justify-content: center; /* Center children vertically */
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  .dataSection h1 {
-    margin-bottom: 12px; /* Add spacing between h1 and buttons */
-    border-radius: 10%;
-    padding: 5px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-right: 52.5%;
-    width: 100px;
-    border: 1px solid #68b42b;
-  }
-
-  
-  .buttonContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center buttons horizontally */
-    gap: 10px; /* Spacing between buttons */
-    width: 100%; /* Ensure buttons take full width for centering */
-    margin-right: 89%;
-  }
-  
-  .stattable1{
-    width: 45%;
-    margin-left: 47.5%;
-    margin-top: -100%;
-  }
-  .statttable1 th, .stattable1 td {
-    padding-top: 5px;
-    font-size: 1em;
-  }
-  .stattable1 h3{
-    padding: 2px;
-  }
-  .logostat {
-    width: 15px;
-    height: 15px;
-    padding-right: 20px;
-  }
-  .tableImage{
-    border-radius: 20px;
-    height: 120px;
-    width: 180px;
-    margin-bottom: -15px;
-  }
-  .button {
-    width: 100px;
-    padding: 10px 0;
-    margin-bottom: 5px;
-    margin-left: 150px;
-  }
-  .banimg{
-    margin-right: 220px;
-    margin-top: 30px;
-    z-index: 0;
-    border-radius: 30px;
-    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-    margin-bottom: 0px;
-    width: 150px;
-    height: 125px;
-  }
-  .table3 span{
-    border: none;
-    width: 40px;
-    height: 50px;
-  }
-
-
-
-/* ABOUT */
-
-
-  
-.about {
-  display: block; /* Ensure it is not set to 'none' */
-  width: 100%;
-  height: 450px;
-  margin-top: 125px;
-  margin-left: 0px;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
-  background-size: 100%;
-  order: 2;
-
-}
-.about h2{
-  font-size: 2rem;
-  width: 90%;
-  margin-left: 15px;
-}
-.imageContainer{
-  width: calc(95%);
-  margin-left: 9px;
-}
-.imageTextContainer {
-  padding: 25px;
-  height: 230px; /* example fixed height */
-  width: 67px;  /* example fixed width */
-  border-radius: 5%;
-  margin-left: 0px;
-}
-.imageTextContainer p {
-  max-width: 250px; /* Set a max-width for the text */
-  width: 150%; /* Ensure the text can expand to the max-width */
-  padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
-  font-size: .65em;
-}
-.aboutlogo{
-height: 70px;
-width: 70px;
-}
-
-
-
-
-
-
-
-/* FAQS */
-
-
-.faqs {
-  display: block; /* Ensure it is not set to 'none' */
-  width: 100%;
-  height: 500px;
-  margin-top: 5px;
-  margin-left: 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('/blank.png');
-  background-size: 100%;
-}
-.faqs h3 {
-  width: 90%;
-  margin-left: 17px;
-}
-.faqlogo{
-  margin-left: 40%;
-}
-.table3{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/blank.png');
-  background-size: 100%;
-}
-
-
-
-
-    /* SIDENAV */
-
-  .sideNav {
-    width: 100%;
-    height: 55px;
-    order: 1; /* Display below navbar */
-    flex-direction: row; /* Horizontal layout */
-    justify-content: space-around; /* Space items evenly */
-    overflow-x: scroll;
-    margin-top: -74px;
-    background-size: 120%;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
-    z-index: 10;
-    border-bottom: 2px solid #68b42b;
-    border-top: 2px solid #68b42b;
-  }
-  .navlogo {
-    height: 30px;
-    width: 30px;
-    align-items: row;
-    padding: 5px;
-  }
-  .sideNav h3 {
-    display: none;
-  }
-  .atSymbol {
-    flex: none; /* Prevents '@' from stretching */
-    padding: 0 2px;
-    font-size: 10px; /* Increases font size for visibility */
-  }
-  .table{
-    width: 25%;
-    margin-top: -92.5px; /* Moves table up and down */
-    overflow-x: hidden; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevents wrapping of items */
-    width: auto; /* Width auto to contain all children */
-  }
-  .total{
-    font-size: .6em;
-  }
-  .matchupRow {
-    margin: 5px 2px; /* Margin between each row */
-    display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 7px; /* Padding inside each row */
-    height: 25px;
-    margin-top: -1px;
-  }
-  .leaguelogo {
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-.secondSideNav {
-  width: 92%;
-  height: 700px; /* Adjust the height as needed */
-  display: flex;
-  flex-direction: row; /* Horizontal layout */
-  justify-content: space-around; /* Space items evenly */
-  overflow-x: scroll;
-  background-size: 120%;
-  border-color:#68b42b;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
-  z-index: 10;
-  margin-bottom: 140px; /* Add some margin to separate from the faqs section */
-  margin-top: -135px;
-  position: relative; /* Ensure it is positioned in the document flow */
-  z-index: 1;
-}
-.table4{
-  width: 115%;
-  margin-left: -30px;
-  font-size: 1em;
-}
-.secondSideNav .nextButton{
-  display: block;
-  margin-top: 120px;
-}
-.secondSideNav .backButton{
-  display: block;
-  margin-top: 121px;
-}
-
-/* Additional styles for elements inside secondSideNav if needed */
-.ufclogo {
-  height: 1px;
-  width: 0px;
-  align-items: row;
-  padding: 5px;
-  margin-top: 5px;
-  margin-left: calc(-0px);
-}
-.secondSideNav h3{
-  width: 50%;
-  margin-left: 150px;
-  margin-top: 0px;
-}
-.headshot{
-  height: 100px;
-  width: 180px;
-  margin-top: -15px;
-  margin-right: 50px;
-}
-
-  .bottomNav {
-    width: 105%;
-    order: 8; /* Display at the bottom */
-    flex-direction: row;
-    background-size: 100%;
-    margin-left: -10px;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Small devices (phones, 600px and down) */
-@media only screen and (min-width: 500px) and (max-width: 750px)  {
- 
-  .container {
-    display: grid;
-    flex-direction: column; /* Switch to column layout */
-    align-items: center; /* Center align items */
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-
-  /* NAVBAR */
-
-  .navbar{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
-    background-size: 100%;
-    height: 40px;
-    }
-  .navbar ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
-    justify-content: center; /* Center items in the navbar */
-    flex-grow: 1; /* Allow ul to grow and take available space */
-    margin: 0;
-    padding: 0;
-  }
-  .navbar ul li {
-    font-size: 1.25em;
-    padding: 8px 15px; /* Adjust padding for smaller buttons */
-    border: 2px solid white;
-    box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
-    white-space: nowrap; /* Prevents wrapping of items */
-    max-width: 100px;
-  }
-  .navbar ul li .dropdown{
-    font-size: 1.25em;
-    min-width: 100px;
-  }
-  .logo {
-    margin-left: 27.5px;
-    padding-right: calc(20px);
-    width: 45px;
-    height: 45px;
-  }
-  .odds{
-    margin-right: 0px;
-  }
-  .logor {
-    display: fixed;
-    padding-left: calc(20px);
-    padding-left: calc(20px);
-    margin-bottom: 32.5px;
-    height: 45px;
-    width: 45px;
-  }
-  .odds h4{
-    padding-left: calc(20px);
-    padding-left: calc(20px);
-    font-size: 4px;
-    margin-left: 10px;
-  }
-
-
-    /* MAIN */
-
-  .banner {
-    height: 80vh;
-    top: 135px;
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
-    background-size: 120%;
-  }
-  .contentSection {
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-    
-  }
-
-  .dataSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center children horizontally */
-    justify-content: center; /* Center children vertically */
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  .dataSection h1 {
-    margin-bottom: 12px; /* Add spacing between h1 and buttons */
-    border-radius: 10%;
-    padding: 5px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-right: 250px;
-    width: 100px;
-    border: 1px solid #68b42b;
-  }
-
-  
-  .buttonContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center buttons horizontally */
-    gap: 10px; /* Spacing between buttons */
-    width: 100%; /* Ensure buttons take full width for centering */
-    margin-right: 400px;
-  }
-  
-  .stattable1{
-    width: 45%;
-    margin-left: 250px;
-    margin-top: -400px;
-  }
-  .statttable1 th, .stattable1 td {
-    padding-top: 5px;
-    font-size: 1em;
-  }
-  .stattable1 h3{
-    padding: 2px;
-  }
-  .logostat {
-    width: 15px;
-    height: 15px;
-    padding-right: 20px;
-  }
-  .tableImage{
-    border-radius: 20px;
-    height: 150px;
-    width: 230px;
-    margin-bottom: -15px;
-  }
-  .button {
-    width: 100px;
-    padding: 10px 0;
-    margin-bottom: 5px;
-    margin-left: 150px;
-  }
-  .banimg{
-    margin-right: 250px;
-    margin-top: 30px;
-    z-index: 0;
-    border-radius: 30px;
-    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-    margin-bottom: 0px;
-    width: 180px;
-    height: 130px;
-  }
-  .table3 span{
-    border: none;
-    width: 40px;
-    height: 50px;
-  }
-
-
-
-/* ABOUT */
-
-
-  
-.about {
-  display: block; /* Ensure it is not set to 'none' */
-  width: 100%;
-  height: 450px;
-  margin-top: 140px;
-  margin-left: 0px;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
-  background-size: 100%;
-  order: 2;
-
-}
-.about h2{
-  font-size: 2rem;
-  width: 92.5%;
-  margin-left: 15px;
-}
-.imageContainer{
-  width: calc(92%);
-  margin-left: 20px;
-}
-.imageTextContainer {
-  padding: 25px;
-  height: 230px; /* example fixed height */
-  width: 100px;  /* example fixed width */
-  border-radius: 5%;
-  margin-left: 0px;
-}
-.imageTextContainer p {
-  max-width: 250px; /* Set a max-width for the text */
-  width: 150%; /* Ensure the text can expand to the max-width */
-  font-size: .75em;
-}
-.aboutlogo{
-height: 70px;
-width: 70px;
-}
-
-
-
-
-
-
-
-/* FAQS */
-
-
-.faqs {
-  display: block; /* Ensure it is not set to 'none' */
-  width: 100%;
-  height: 500px;
-  margin-top: 5px;
-  margin-left: 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('/blank.png');
-  background-size: 100%;
-}
-.faqs h3 {
-  width: 90%;
-  margin-left: 17px;
-}
-.faqlogo{
-  margin-left: 40%;
-}
-.table3{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/blank.png');
-  background-size: 100%;
-}
-
-
-
-
-    /* SIDENAV */
-
-  .sideNav {
-    width: 100%;
-    height: 60px;
-    order: 1; /* Display below navbar */
-    flex-direction: row; /* Horizontal layout */
-    justify-content: space-around; /* Space items evenly */
-    overflow-x: scroll;
-    margin-top: -68px;
-    background-size: 120%;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
-    z-index: 10;
-    border-bottom: 2px solid #68b42b;
-    border-top: 2px solid #68b42b;
-  }
-  .navlogo {
-    height: 30px;
-    width: 30px;
-    align-items: row;
-    padding: 5px;
-  }
-  .sideNav h3 {
-    display: none;
-  }
-  .atSymbol {
-    flex: none; /* Prevents '@' from stretching */
-    padding: 0 2px;
-    font-size: 10px; /* Increases font size for visibility */
-  }
-  .table{
-    width: 25%;
-    margin-top: -92.5px; /* Moves table up and down */
-    overflow-x: hidden; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevents wrapping of items */
-    width: auto; /* Width auto to contain all children */
-  }
-  .total{
-    font-size: .6em;
-  }
-  .matchupRow {
-    margin: 5px 2px; /* Margin between each row */
-    display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 7.5px; /* Padding inside each row */
-    height: 25px;
-    margin-top: 0px;
-  }
-  .leaguelogo {
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-.secondSideNav {
-  width: 94%;
-  height: 700px; /* Adjust the height as needed */
-  display: flex;
-  flex-direction: row; /* Horizontal layout */
-  justify-content: space-around; /* Space items evenly */
-  overflow-x: scroll;
-  background-size: 120%;
-  border-color:#68b42b;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
-  z-index: 10;
-  margin-bottom: 140px; /* Add some margin to separate from the faqs section */
-  margin-top: -135px;
-  position: relative; /* Ensure it is positioned in the document flow */
-  z-index: 1;
-}
-.table4{
-  width: 115%;
-  margin-left: -30px;
-  font-size: 1em;
-}
-.secondSideNav .nextButton{
-  display: block;
-  margin-top: 120px;
-}
-.secondSideNav .backButton{
-  display: block;
-  margin-top: 121px;
-}
-
-/* Additional styles for elements inside secondSideNav if needed */
-.ufclogo {
-  height: 1px;
-  width: 0px;
-  align-items: row;
-  padding: 5px;
-  margin-top: 5px;
-  margin-left: calc(-0px);
-}
-.secondSideNav h3{
-  width: 50%;
-  margin-left: 150px;
-  margin-top: 0px;
-}
-.headshot{
-  height: 100px;
-  width: 180px;
-  margin-top: -15px;
-  margin-right: 50px;
-}
-
-  .bottomNav {
-    width: 105%;
-    order: 8; /* Display at the bottom */
-    flex-direction: row;
-    background-size: 100%;
-    margin-left: -10px;
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
   }
 
@@ -2369,7 +2641,7 @@ width: 70px;
     /* MAIN */
 
   .banner {
-    height: 200vh;
+    height: 80vh;
     top: 135px;
     width: 100%;
     order: 2; /* Main content */
@@ -2419,9 +2691,9 @@ width: 70px;
   }
   
   .stattable1{
-    width: 45%;
-    margin-left: 375px;
-    margin-top: -400px;
+    width: 35%;
+    margin-left: 5vh;
+    margin-top: -50vh;
   }
   .statttable1 th, .stattable1 td {
     padding-top: 5px;
@@ -2438,7 +2710,7 @@ width: 70px;
   .tableImage{
     border-radius: 20px;
     height: 200px;
-    width: 330px;
+    width: 280px;
     margin-bottom: -15px;
   }
   .button {
@@ -2462,7 +2734,16 @@ width: 70px;
     width: 40px;
     height: 50px;
   }
-
+.phone{
+  margin-left: 35vh;
+  width: 40%;
+  height: 70%;
+  margin-top: 0vh;
+}
+.followBanner{
+  margin-left: 14vh;
+  margin-top: -1vh;
+}
 
 
 /* ABOUT */
@@ -2472,10 +2753,10 @@ width: 70px;
 .about {
   display: block; /* Ensure it is not set to 'none' */
   width: 100%;
-  height: 450px;
-  margin-top: 140px;
+  height: 50vh;
+  margin-top: 8vh;
   margin-left: 0px;
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('/blank.png');
   background-size: 100%;
   order: 2;
 
@@ -2487,11 +2768,11 @@ width: 70px;
 }
 .imageContainer{
   width: calc(92%);
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .imageTextContainer {
   padding: 25px;
-  height: 230px; /* example fixed height */
+  height: 35vh; /* example fixed height */
   width: 100%;  /* example fixed width */
   border-radius: 5%;
   margin-left: 0px;
@@ -2502,8 +2783,8 @@ width: 70px;
   font-size: .9em;
 }
 .aboutlogo{
-height: 70px;
-width: 70px;
+height: 90px;
+width: 90px;
 }
 
 
@@ -2548,7 +2829,7 @@ width: 70px;
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
-    margin-top: -68px;
+    margin-top: -12vh;
     background-size: 120%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
     z-index: 10;
@@ -2601,7 +2882,7 @@ width: 70px;
 
 .secondSideNav {
   width: 96%;
-  height: 700px; /* Adjust the height as needed */
+  height: 70vh; /* Adjust the height as needed */
   display: flex;
   flex-direction: row; /* Horizontal layout */
   justify-content: space-around; /* Space items evenly */
@@ -2610,8 +2891,8 @@ width: 70px;
   border-color:#68b42b;
   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
   z-index: 10;
-  margin-bottom: 140px; /* Add some margin to separate from the faqs section */
-  margin-top: -135px;
+  margin-bottom: 0px; /* Add some margin to separate from the faqs section */
+  margin-top: 1vh;
   position: relative; /* Ensure it is positioned in the document flow */
   z-index: 1;
 }
@@ -2622,7 +2903,9 @@ width: 70px;
 }
 .secondSideNav .nextButton{
   display: block;
-  margin-top: 120px;
+  margin-top: -180vh;
+  margin-left: -5vh;
+  scale: 40%;
 }
 .secondSideNav h4{
   width: 150%;
@@ -2631,7 +2914,8 @@ width: 70px;
 }
 .secondSideNav .backButton{
   display: block;
-  margin-top: 121px;
+  margin-top: -180vh;
+  scale: 40%;
 }
 
 /* Additional styles for elements inside secondSideNav if needed */
@@ -2650,9 +2934,9 @@ width: 70px;
 }
 .headshot{
   height: 100px;
-  width: 180px;
+  width: 225px;
   margin-top: -15px;
-  margin-right: 50px;
+  margin-right: -18vh;
 }
 
   .bottomNav {
@@ -2672,28 +2956,82 @@ width: 70px;
 
 
 
- /*NAVBAR*/
+  .container {
+    display: grid;
+    flex-direction: column; /* Switch to column layout */
+    align-items: center; /* Center align items */
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  /* NAVBAR */
+
   .navbar{
-    white-space: nowrap;
-    max-width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+    background-size: 100%;
+    height: 40px;
+    }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
   }
-  .navbar ul li{
-    padding: 10px 30px;
+  .navbar ul li {
+    font-size: 1.75em;
+    padding: 8px 15px; /* Adjust padding for smaller buttons */
+    border: 2px solid white;
+    box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
+    white-space: nowrap; /* Prevents wrapping of items */
+    max-width: 100px;
   }
-  .logo{
-    padding-right: calc(5%);
+  .navbar ul li .dropdown{
+    font-size: 1.25em;
+    min-width: 100px;
+  }
+  .logo {
+    margin-left: 27.5px;
+    padding-right: calc(20px);
+    width: 45px;
+    height: 45px;
+  }
+  .odds{
+    margin-right: 0px;
+  }
+  .logor {
+    display: fixed;
+    padding-left: calc(20px);
+    padding-left: calc(20px);
+    margin-bottom: 32.5px;
+    height: 45px;
+    width: 45px;
+  }
+  .odds h4{
+    padding-left: calc(20px);
+    padding-left: calc(20px);
+    font-size: 4px;
+    margin-left: 10px;
   }
 
 
+    /* MAIN */
 
-
-
-
-
-  .banner{
-    width: calc(70%);
-    margin-left: calc(30%);
+  .banner {
     height: 80vh;
+    top: 145px;
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
+    background-size: 120%;
+  }
+  .contentSection {
+    width: 100%;
+    order: 2; /* Main content */
+    margin: 0; /* Remove margin */
+    
   }
 
   .dataSection {
@@ -2715,10 +3053,9 @@ width: 70px;
     border-radius: 10%;
     padding: 5px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-right: 300px;
-    width: 50%;
+    margin-right: 400px;
+    width: 20%;
     border: 1px solid #68b42b;
-    font-size: 3em;
   }
 
   
@@ -2727,14 +3064,14 @@ width: 70px;
     flex-direction: column;
     align-items: center; /* Center buttons horizontally */
     gap: 10px; /* Spacing between buttons */
-    width: 120%; /* Ensure buttons take full width for centering */
-    margin-right: 300px;
+    width: 100%; /* Ensure buttons take full width for centering */
+    margin-right: 400px;
   }
   
   .stattable1{
-    width: 30%;
-    margin-left: 110px;
-    margin-top: -550px;
+    width: 35%;
+    margin-left: 5vh;
+    margin-top: -50vh;
   }
   .statttable1 th, .stattable1 td {
     padding-top: 5px;
@@ -2750,162 +3087,243 @@ width: 70px;
   }
   .tableImage{
     border-radius: 20px;
-    height: 145px;
-    width: 275px;
+    height: 200px;
+    width: 280px;
     margin-bottom: -15px;
   }
   .button {
-    width: 140px;
-    height: 70px;
+    width: 120px;
     padding: 10px 0;
     margin-bottom: 5px;
     margin-left: 0px;
   }
   .banimg{
-    margin-right: 300px;
+    margin-right: 400px;
     margin-top: 30px;
     z-index: 0;
     border-radius: 30px;
     box-shadow: 0px 10px 20px rgba(0,0,0, 30);
     margin-bottom: 0px;
-    width: 250px;
-    height: 150px;
+    width: 180px;
+    height: 130px;
   }
   .table3 span{
     border: none;
     width: 40px;
     height: 50px;
   }
+.phone{
+  margin-left: 35vh;
+  width: 40%;
+  height: 70%;
+  margin-top: 0vh;
+}
+.followBanner{
+  margin-left: 14vh;
+  margin-top: -1vh;
+}
 
-  .about {
-    display: block; /* Ensure it is not set to 'none' */
-    width: 70%;
-    height: 500px;
-    margin-top: 140px;
-    margin-left: 30%;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('/blank.png');
-    background-size: 100%;
-    order: 2;
+
+/* ABOUT */
+
+
   
-  }
+.about {
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 50vh;
+  margin-top: 8vh;
+  margin-left: 0px;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('/blank.png');
+  background-size: 100%;
+  order: 2;
 
-  .imageTextContainer {
-    height: 250px; /* example fixed height */
-  }
-  .imageTextContainer p{
-    font-size: .75em;
-  }
-
-  .faqs {
-    display: block; /* Ensure it is not set to 'none' */
-    width: 70%;
-    height: 500px;
-    margin-top: 5px;
-    margin-left: 30%;
-    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('/blank.png');
-    background-size: 100%;
-  }
-  .faqlogo{
-    margin-left: 40%;
-  }
-
-
-
-
-
-
-
-
- /*SIDENAV*/
-
-  .sideNav{
-    width: 30%;
-  }
-  .navlogo{
-    width: 70px;
-    height: 70px;
-    padding: 8%;
-    margin-left: -10px;
-  }
-  .leaguelogo{
-    margin-left: 30%;
-  }
-  .matchupRow{
-    padding: 5%;
-    margin-top: 20px;
-  }
-  .table{
-    padding: 100px;
-  }
-  .atSymbol{
-    padding: 2%;
-
-  }
+}
+.about h2{
+  font-size: 2rem;
+  width: 92.5%;
+  margin-left: 15px;
+}
+.imageContainer{
+  width: calc(92%);
+  margin-left: 25px;
+}
+.imageTextContainer {
+  padding: 25px;
+  height: 35vh; /* example fixed height */
+  width: 100%;  /* example fixed width */
+  border-radius: 5%;
+  margin-left: 0px;
+}
+.imageTextContainer p {
+  max-width: 250px; /* Set a max-width for the text */
+  width: 95%; /* Ensure the text can expand to the max-width */
+  font-size: .9em;
+}
+.aboutlogo{
+height: 90px;
+width: 90px;
+}
 
 
-   /*SECOND SIDENAV*/
-   .secondSideNav {
-    width: 67%;
-    height: 700px; /* Adjust the height as needed */
-    display: flex;
+
+
+
+
+
+/* FAQS */
+
+
+.faqs {
+  display: block; /* Ensure it is not set to 'none' */
+  width: 100%;
+  height: 500px;
+  margin-top: 5px;
+  margin-left: 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('/blank.png');
+  background-size: 100%;
+}
+.faqs h3 {
+  width: 90%;
+  margin-left: 35px;
+}
+.faqlogo{
+  margin-left: 45%;
+}
+.table3{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('/blank.png');
+  background-size: 100%;
+}
+
+
+
+
+    /* SIDENAV */
+
+  .sideNav {
+    width: 105%;
+    height: 60px;
+    order: 1; /* Display below navbar */
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
+    margin-top: -10vh;
     background-size: 120%;
-    border-color:#68b42b;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
     z-index: 10;
-    margin-bottom: 140px; /* Add some margin to separate from the faqs section */
-    margin-top: -135px;
-    position: relative; /* Ensure it is positioned in the document flow */
-    z-index: 1;
-    margin-left: 30%;
+    border-bottom: 2px solid #68b42b;
+    border-top: 2px solid #68b42b;
+    scrollbar-width: none;
   }
-  .table4{
-    width: 140%;
-    margin-left: -25%;
-    font-size: 1em;
-  }
-  .secondSideNav .nextButton{
-    display: block;
-    margin-top: 120px;
-  }
-  .secondSideNav h4{
-    width: 150%;
-    font-size: 1.5em;
-    margin-left: calc(-26%);
-  }
-  .secondSideNav .backButton{
-    display: block;
-    margin-top: 121px;
-  }
-  
-  /* Additional styles for elements inside secondSideNav if needed */
-  .ufclogo {
-    height: 1px;
-    width: 0px;
+  .navlogo {
+    height: 30px;
+    width: 30px;
     align-items: row;
     padding: 5px;
-    margin-top: 5px;
-    margin-left: calc(-0px);
   }
-  .secondSideNav h3{
-    width: 50%;
-    margin-left: 150px;
+  .sideNav h3 {
+    display: none;
+  }
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
+  }
+  .table{
+    width: 25%;
+    margin-top: -92.5px; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
+  }
+  .total{
+    font-size: .6em;
+  }
+  .matchupRow {
+    margin: 5px 2px; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    padding: 7.5px; /* Padding inside each row */
+    height: 25px;
     margin-top: 0px;
   }
-  .headshot{
-    height: 100px;
-    width: 180px;
-    margin-top: -15px;
-    margin-right: 50px;
+  .leaguelogo {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+.secondSideNav {
+  width: 96%;
+  height: 70vh; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: scroll;
+  background-size: 120%;
+  border-color:#68b42b;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1)), url('/blank.png');
+  z-index: 10;
+  margin-bottom: 0px; /* Add some margin to separate from the faqs section */
+  margin-top: 1vh;
+  position: relative; /* Ensure it is positioned in the document flow */
+  z-index: 1;
+}
+.table4{
+  width: 140%;
+  margin-left: -25%;
+  font-size: 1em;
+}
+.secondSideNav .nextButton{
+  display: block;
+  margin-top: -180vh;
+  margin-left: -5vh;
+  scale: 40%;
+}
+.secondSideNav h4{
+  width: 150%;
+  font-size: 1.5em;
+  margin-left: calc(-26%);
+}
+.secondSideNav .backButton{
+  display: block;
+  margin-top: -180vh;
+  scale: 40%;
+}
+
+/* Additional styles for elements inside secondSideNav if needed */
+.ufclogo {
+  height: 1px;
+  width: 0px;
+  align-items: row;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: calc(-0px);
+}
+.secondSideNav h3{
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 0px;
+}
+.headshot{
+  height: 100px;
+  width: 225px;
+  margin-top: -15px;
+  margin-right: -18vh;
+}
+
+  .bottomNav {
+    width: 105%;
+    order: 8; /* Display at the bottom */
+    flex-direction: row;
+    background-size: 100%;
+    margin-left: -10px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.8)), url('/blank.png');
   }
-
-
-
-
-
-
-
 
 }
