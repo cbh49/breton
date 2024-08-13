@@ -1121,10 +1121,10 @@
   display: block; /* Ensure it is not set to 'none' */
   width: 105%;
   height: 450px;
-  margin-top: 5vh;
+  margin-top: 13.5vh;
   margin-left: 0px;
-  background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/pathex.avif');
-  background-size: 2%;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
+  background-size: 100%;
   order: 2;
 
 }
@@ -1539,7 +1539,7 @@ margin-top: 0px;
   display: block; /* Ensure it is not set to 'none' */
   width: 100%;
   height: 450px;
-  margin-top: 4vh;
+  margin-top: 13.5vh;
   margin-left: 0px;
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.3)), url('/blank.png');
   background-size: 100%;
@@ -1967,7 +1967,7 @@ margin-top: 0px;
     display: block; /* Ensure it is not set to 'none' */
     width: 100%;
     height: 450px;
-    margin-top: 4vh;
+    margin-top: 13vh;
     margin-left: 0px;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.3)), url('/blank.png');
     background-size: 100%;
