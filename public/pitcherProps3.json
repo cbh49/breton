@@ -1,20 +1,47 @@
 [
     {
-        "PlayerName": "Blake Snell",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605483/headshot/silo/current",
-        "team": "San Francisco Giants",
+        "PlayerName": "Seth Lugo",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607625/headshot/silo/current",
+        "team": "Kansas City Royals",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "+138"
+    },
+    {
+        "PlayerName": "Colin Rea",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607067/headshot/silo/current",
+        "team": "Milwaukee Brewers",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "+100"
+    },
+    {
+        "PlayerName": "Tarik Skubal",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669373/headshot/silo/current",
+        "team": "Detroit Tigers",
         "Line": 7.5,
         "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "-130"
+        "Odds": "+100"
     },
     {
-        "PlayerName": "Brandon Pfaadt",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694297/headshot/silo/current",
-        "team": "Arizona Diamondbacks",
-        "Line": 7.5,
+        "PlayerName": "Kutter Crawford",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676710/headshot/silo/current",
+        "team": "Boston Red Sox",
+        "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-170"
+        "Odds": "+114"
+    },
+    {
+        "PlayerName": "Trevor Rogers",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669432/headshot/silo/current",
+        "team": "Baltimore Orioles",
+        "Line": 3.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "+102"
     }
 ]

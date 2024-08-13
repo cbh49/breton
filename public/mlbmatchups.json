@@ -2,7 +2,7 @@
     {
         "Team1": "Atlanta Braves",
         "Team2": "San Francisco Giants",
-        "Total": 7
+        "Total": 8.5
     },
     {
         "Team1": "Pittsburgh Pirates",
@@ -12,7 +12,7 @@
     {
         "Team1": "Colorado Rockies",
         "Team2": "Arizona Diamondbacks",
-        "Total": 8.5
+        "Total": 9
     },
     {
         "Team1": "Toronto Blue Jays",
@@ -27,17 +27,22 @@
     {
         "Team1": "Los Angeles Dodgers",
         "Team2": "Milwaukee Brewers",
-        "Total": 8
+        "Total": 8.5
     },
     {
         "Team1": "Kansas City Royals",
         "Team2": "Minnesota Twins",
+        "Total": 8.5
+    },
+    {
+        "Team1": "Oakland Athletics",
+        "Team2": "New York Mets",
         "Total": 8
     },
     {
         "Team1": "Texas Rangers",
         "Team2": "Boston Red Sox",
-        "Total": 9.5
+        "Total": 10
     },
     {
         "Team1": "Houston Astros",
@@ -45,13 +50,28 @@
         "Total": 7.5
     },
     {
+        "Team1": "Seattle Mariners",
+        "Team2": "Detroit Tigers",
+        "Total": 7
+    },
+    {
         "Team1": "Chicago Cubs",
         "Team2": "Cleveland Guardians",
         "Total": 8.5
     },
     {
+        "Team1": "Miami Marlins",
+        "Team2": "Philadelphia Phillies",
+        "Total": 8.5
+    },
+    {
         "Team1": "St. Louis Cardinals",
         "Team2": "Cincinnati Reds",
+        "Total": 8.5
+    },
+    {
+        "Team1": "Washington Nationals",
+        "Team2": "Baltimore Orioles",
         "Total": 9
     }
 ]
