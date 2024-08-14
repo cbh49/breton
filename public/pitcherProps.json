@@ -3,10 +3,10 @@
         "PlayerName": "Jordan Montgomery",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656756/headshot/silo/current",
         "team": "Arizona Diamondbacks",
-        "Line": 4.5,
+        "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "5/5",
-        "Odds": "+106"
+        "Odds": "+108"
     },
     {
         "PlayerName": "Tanner Gordon",
@@ -15,7 +15,16 @@
         "Line": 3.5,
         "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "-134"
+        "Odds": "-124"
+    },
+    {
+        "PlayerName": "Louie Varland",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686973/headshot/silo/current",
+        "team": "Minnesota Twins",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "4/5",
+        "Odds": "+140"
     },
     {
         "PlayerName": "Walker Buehler",
@@ -33,7 +42,7 @@
         "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "-121"
+        "Odds": "-124"
     },
     {
         "PlayerName": "Tyler Phillips",
@@ -69,6 +78,6 @@
         "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "4/5",
-        "Odds": "-125"
+        "Odds": "-127"
     }
 ]

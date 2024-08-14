@@ -6,16 +6,16 @@
         "Line": 3.5,
         "OverUnder": "OVER",
         "HitRate": "7/10",
-        "Odds": "-113"
+        "Odds": "+100"
     },
     {
         "PlayerName": "Jordan Montgomery",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656756/headshot/silo/current",
         "team": "Arizona Diamondbacks",
-        "Line": 4.5,
+        "Line": 5.5,
         "OverUnder": "UNDER",
-        "HitRate": "8/10",
-        "Odds": "+106"
+        "HitRate": "9/10",
+        "Odds": "+108"
     },
     {
         "PlayerName": "David Peterson",

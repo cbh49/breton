@@ -18,6 +18,15 @@
         "MLdifference": 1.9405520000000003
     },
     {
+        "Team1": "Kansas City Royals",
+        "Team2": "Minnesota Twins",
+        "Team1total": 6.427512000000001,
+        "Team2total": 5.258176,
+        "Team1Pitcher": "Cole Ragans",
+        "Team2Pitcher": "Louie Varland",
+        "MLdifference": 1.1693360000000013
+    },
+    {
         "Team1": "Toronto Blue Jays",
         "Team2": "Los Angeles Angels",
         "Team1total": 3.1535777777777776,

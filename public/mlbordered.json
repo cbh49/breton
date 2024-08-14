@@ -1,14 +1,27 @@
 [
     {
+        "Team1": "Kansas City Royals",
+        "Team2": "Minnesota Twins",
+        "original_total": 8,
+        "adj_total": 11.685688,
+        "Team1Runs": 5.4,
+        "Team2Runs": 5.6,
+        "Team1total": 6.427512000000001,
+        "Team2total": 5.258176,
+        "difference": 3.6856880000000007,
+        "Team1Pitcher": "Cole Ragans",
+        "Team2Pitcher": "Louie Varland"
+    },
+    {
         "Team1": "Colorado Rockies",
         "Team2": "Arizona Diamondbacks",
-        "original_total": 9.5,
+        "original_total": 9,
         "adj_total": 11.985639111111112,
         "Team1Runs": 4.4,
         "Team2Runs": 6.444444444444445,
         "Team1total": 4.834368000000001,
         "Team2total": 7.151271111111112,
-        "difference": 2.4856391111111122,
+        "difference": 2.9856391111111122,
         "Team1Pitcher": "Tanner Gordon",
         "Team2Pitcher": "Jordan Montgomery"
     },

@@ -34,6 +34,23 @@
         "Total": 0.7043888888888888
     },
     {
+        "Team1": "Kansas City Royals",
+        "Team2": "Minnesota Twins",
+        "Team1Pitcher": "Cole Ragans",
+        "Team1PitcherGames": 24.0,
+        "Team1PitcherER": 8.0,
+        "Team1PitcherWHIP": 0.958,
+        "Team1Runs": 0.51,
+        "Team2Pitcher": "Louie Varland",
+        "Team2PitcherGames": 6.0,
+        "Team2PitcherER": 2.0,
+        "Team2PitcherWHIP": 1.667,
+        "Team2Runs": 0.52,
+        "PRA1": 0.3333333333333333,
+        "PRA2": 0.3333333333333333,
+        "Total": 0.7202777777777779
+    },
+    {
         "Team1": "Colorado Rockies",
         "Team2": "Arizona Diamondbacks",
         "Team1Pitcher": "Tanner Gordon",
