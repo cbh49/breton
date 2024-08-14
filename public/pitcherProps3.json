@@ -1,47 +1,56 @@
 [
     {
-        "PlayerName": "Seth Lugo",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607625/headshot/silo/current",
-        "team": "Kansas City Royals",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
+        "PlayerName": "Jameson Taillon",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592791/headshot/silo/current",
+        "team": "Chicago Cubs",
+        "Line": 3.5,
+        "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "+138"
+        "Odds": "-113"
     },
     {
-        "PlayerName": "Colin Rea",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607067/headshot/silo/current",
+        "PlayerName": "Jordan Montgomery",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656756/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "+106"
+    },
+    {
+        "PlayerName": "Tanner Gordon",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/685299/headshot/silo/current",
+        "team": "Colorado Rockies",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-134"
+    },
+    {
+        "PlayerName": "Walker Buehler",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621111/headshot/silo/current",
+        "team": "Los Angeles Dodgers",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "-143"
+    },
+    {
+        "PlayerName": "Frankie Montas",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/593423/headshot/silo/current",
         "team": "Milwaukee Brewers",
         "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "+100"
+        "Odds": "-121"
     },
     {
-        "PlayerName": "Tarik Skubal",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669373/headshot/silo/current",
-        "team": "Detroit Tigers",
-        "Line": 7.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "+100"
-    },
-    {
-        "PlayerName": "Kutter Crawford",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676710/headshot/silo/current",
-        "team": "Boston Red Sox",
-        "Line": 5.5,
+        "PlayerName": "Tyler Phillips",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663969/headshot/silo/current",
+        "team": "Philadelphia Phillies",
+        "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "+114"
-    },
-    {
-        "PlayerName": "Trevor Rogers",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669432/headshot/silo/current",
-        "team": "Baltimore Orioles",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+102"
+        "Odds": "-115"
     }
 ]
