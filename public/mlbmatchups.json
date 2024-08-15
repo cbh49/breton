@@ -1,77 +1,37 @@
 [
     {
-        "Team1": "Atlanta Braves",
-        "Team2": "San Francisco Giants",
-        "Total": 7.5
-    },
-    {
-        "Team1": "Toronto Blue Jays",
-        "Team2": "Los Angeles Angels",
-        "Total": 8.5
-    },
-    {
-        "Team1": "Los Angeles Dodgers",
-        "Team2": "Milwaukee Brewers",
-        "Total": 9
-    },
-    {
-        "Team1": "New York Yankees",
-        "Team2": "Chicago White Sox",
-        "Total": 9.5
-    },
-    {
-        "Team1": "Oakland Athletics",
-        "Team2": "New York Mets",
-        "Total": 8.5
-    },
-    {
-        "Team1": "Houston Astros",
-        "Team2": "Tampa Bay Rays",
-        "Total": 8
-    },
-    {
-        "Team1": "Miami Marlins",
-        "Team2": "Philadelphia Phillies",
-        "Total": 9
-    },
-    {
-        "Team1": "St. Louis Cardinals",
-        "Team2": "Cincinnati Reds",
-        "Total": 9.5
-    },
-    {
-        "Team1": "Seattle Mariners",
-        "Team2": "Detroit Tigers",
-        "Total": 8
-    },
-    {
-        "Team1": "Chicago Cubs",
-        "Team2": "Cleveland Guardians",
+        "Team1": "Minnesota Twins",
+        "Team2": "Texas Rangers",
         "Total": 8.5
     },
     {
         "Team1": "Washington Nationals",
+        "Team2": "Philadelphia Phillies",
+        "Total": 8
+    },
+    {
+        "Team1": "Boston Red Sox",
         "Team2": "Baltimore Orioles",
         "Total": 8.5
     },
     {
-        "Team1": "Texas Rangers",
-        "Team2": "Boston Red Sox",
-        "Total": 9.5
+        "Team1": "Atlanta Braves",
+        "Team2": "San Francisco Giants",
+        "Total": 7
     },
     {
-        "Team1": "Pittsburgh Pirates",
-        "Team2": "San Diego Padres",
+        "Team1": "Los Angeles Dodgers",
+        "Team2": "Milwaukee Brewers",
         "Total": 8
     },
     {
-        "Team1": "Colorado Rockies",
-        "Team2": "Arizona Diamondbacks",
+        "Team1": "Oakland Athletics",
+        "Team2": "New York Mets",
         "Total": 9
     },
     {
-        "Team1": "Kansas City Royals",
-        "Team2": "Minnesota Twins",
+        "Team1": "Seattle Mariners",
+        "Team2": "Detroit Tigers",
         "Total": 8
     }
 ]
