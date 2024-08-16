@@ -1,11 +1,92 @@
 [
     {
-        "PlayerName": "Bailey Ober",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641927/headshot/silo/current",
-        "team": "Minnesota Twins",
+        "PlayerName": "Ryne Nelson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669194/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
         "Line": 5.5,
         "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "-134"
+        "Odds": "+105"
+    },
+    {
+        "PlayerName": "Spencer Schwellenbach",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680885/headshot/silo/current",
+        "team": "Atlanta Braves",
+        "Line": 6.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-112"
+    },
+    {
+        "PlayerName": "Spencer Arrighetti",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/681293/headshot/silo/current",
+        "team": "Houston Astros",
+        "Line": 6.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-137"
+    },
+    {
+        "PlayerName": "Garrett Crochet",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676979/headshot/silo/current",
+        "team": "Chicago White Sox",
+        "Line": 6.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "-146"
+    },
+    {
+        "PlayerName": "Miles Mikolas",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571945/headshot/silo/current",
+        "team": "St. Louis Cardinals",
+        "Line": 3.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "-127"
+    },
+    {
+        "PlayerName": "Andrew Heaney",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571760/headshot/silo/current",
+        "team": "Texas Rangers",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "-109"
+    },
+    {
+        "PlayerName": "Matt Waldron",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663362/headshot/silo/current",
+        "team": "San Diego Padres",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-127"
+    },
+    {
+        "PlayerName": "Paul Skenes",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694973/headshot/silo/current",
+        "team": "Pittsburgh Pirates",
+        "Line": 8.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "+138"
+    },
+    {
+        "PlayerName": "Kyle Hendricks",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543294/headshot/silo/current",
+        "team": "Chicago Cubs",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "+112"
+    },
+    {
+        "PlayerName": "Aaron Nola",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605400/headshot/silo/current",
+        "team": "Philadelphia Phillies",
+        "Line": 6.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "+115"
     }
 ]

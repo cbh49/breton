@@ -643,60 +643,58 @@
 
 /* TRIAL SIDENAV */
 
-
 .sideNav {
-    width: 100%;
-    height: 11%;
-    order: 1; /* Display below navbar */
-    flex-direction: row; /* Horizontal layout */
-    justify-content: space-around; /* Space items evenly */
-    overflow-x: scroll;
-    margin-top: -9%;
-    background-size: 120%;
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
-    z-index: 10;
-    border-bottom: 2px solid #68b42b;
-    border-top: 2px solid #68b42b;
-    scrollbar-width: none;
-    position: relative; /* Make sure it's part of the normal flow */
-    z-index: 10; /* Ensure it stays under the navbar when scrolling */
-  }
-  .navlogo {
-    height: 40px;
-    width: 40px;
-    align-items: row;
-    padding: 5px;
-  }
-  .sideNav h3 {
-    display: none;
-  }
-  .atSymbol {
-    flex: none; /* Prevents '@' from stretching */
-    padding: 0 2px;
-    font-size: 10px; /* Increases font size for visibility */
-  }
-  .table{
-    width: 25%;
-    margin-bottom: 12vh; /* Moves table up and down */
-    overflow-x: hidden; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevents wrapping of items */
-    width: auto; /* Width auto to contain all children */
-    z-index: 10;
-  }
-  .total{
-    font-size: 1em;
-  }
-  .matchupRow {
-    margin: 5px 2px; /* Margin between each row */
-    display: inline-flex; /* Use flexbox to manage layout of cells */
-    padding: 7.5px; /* Padding inside each row */
-    height: 100%;
-    margin-top: 2%;
-  }
-  .leaguelogo {
-    display: none;
+  width: 100%;
+  height: 25%;
+  order: 1; /* Display below navbar */
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: scroll;
+  margin-top: -8.5%;
+  background-size: 120%;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+  z-index: 10;
+  border-bottom: 2px solid #68b42b;
+  border-top: 2px solid #68b42b;
+  scrollbar-width: none;
+  position: relative; /* Make sure it's part of the normal flow */
+  z-index: 10; /* Ensure it stays under the navbar when scrolling */
 }
-
+.navlogo {
+  height: 40px;
+  width: 40px;
+  align-items: row;
+  padding: 5px;
+}
+.sideNav h3 {
+  display: none;
+}
+.atSymbol {
+  flex: none; /* Prevents '@' from stretching */
+  padding: 0 2px;
+  font-size: 10px; /* Increases font size for visibility */
+}
+.table{
+  width: 25%;
+  margin-bottom: 12vh; /* Moves table up and down */
+  overflow-x: hidden; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping of items */
+  width: auto; /* Width auto to contain all children */
+  z-index: 10;
+}
+.total{
+  font-size: 1em;
+}
+.matchupRow {
+  margin: 5px 2px; /* Margin between each row */
+  display: inline-flex; /* Use flexbox to manage layout of cells */
+  padding: 10px; /* Padding inside each row */
+  height: 100%;
+  margin-top: 3%;
+}
+.leaguelogo {
+  display: none;
+}
 
 /* SECOND SIDENAV */
 

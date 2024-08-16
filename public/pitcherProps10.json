@@ -1,29 +1,92 @@
 [
     {
-        "PlayerName": "Max Fried",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608331/headshot/silo/current",
-        "team": "Atlanta Braves",
+        "PlayerName": "Corbin Burnes",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669203/headshot/silo/current",
+        "team": "Baltimore Orioles",
+        "Line": 6.5,
+        "OverUnder": "UNDER",
+        "HitRate": "9/10",
+        "Odds": "-155"
+    },
+    {
+        "PlayerName": "Garrett Crochet",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676979/headshot/silo/current",
+        "team": "Chicago White Sox",
         "Line": 6.5,
         "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "+123"
+        "Odds": "-146"
     },
     {
-        "PlayerName": "Tobias Myers",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668964/headshot/silo/current",
-        "team": "Milwaukee Brewers",
+        "PlayerName": "Michael Lorenzen",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/547179/headshot/silo/current",
+        "team": "Kansas City Royals",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "+125"
+    },
+    {
+        "PlayerName": "Nick Martinez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607259/headshot/silo/current",
+        "team": "Cincinnati Reds",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "8/10",
+        "Odds": "+120"
+    },
+    {
+        "PlayerName": "Miles Mikolas",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571945/headshot/silo/current",
+        "team": "St. Louis Cardinals",
+        "Line": 3.5,
+        "OverUnder": "UNDER",
+        "HitRate": "8/10",
+        "Odds": "-127"
+    },
+    {
+        "PlayerName": "Sean Manaea",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/640455/headshot/silo/current",
+        "team": "New York Mets",
+        "Line": 6.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "+138"
+    },
+    {
+        "PlayerName": "Matt Waldron",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663362/headshot/silo/current",
+        "team": "San Diego Padres",
         "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "7/10",
-        "Odds": "-108"
+        "Odds": "-127"
     },
     {
-        "PlayerName": "Bailey Ober",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641927/headshot/silo/current",
-        "team": "Minnesota Twins",
-        "Line": 5.5,
-        "OverUnder": "OVER",
+        "PlayerName": "Paul Skenes",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694973/headshot/silo/current",
+        "team": "Pittsburgh Pirates",
+        "Line": 8.5,
+        "OverUnder": "UNDER",
         "HitRate": "8/10",
-        "Odds": "-134"
+        "Odds": "+138"
+    },
+    {
+        "PlayerName": "Aaron Nola",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605400/headshot/silo/current",
+        "team": "Philadelphia Phillies",
+        "Line": 6.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "+115"
+    },
+    {
+        "PlayerName": "Patrick Corbin",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571578/headshot/silo/current",
+        "team": "Washington Nationals",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "+105"
     }
 ]
