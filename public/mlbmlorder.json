@@ -1,1 +1,92 @@
-[]
+[
+    {
+        "Team1": "San Diego Padres",
+        "Team2": "Colorado Rockies",
+        "Team1total": 6.760511999999999,
+        "Team2total": 4.843524,
+        "Team1Pitcher": "Matt Waldron",
+        "Team2Pitcher": "Cal Quantrill",
+        "MLdifference": 1.916987999999999
+    },
+    {
+        "Team1": "Washington Nationals",
+        "Team2": "Philadelphia Phillies",
+        "Team1total": 4.81344,
+        "Team2total": 6.548256000000002,
+        "Team1Pitcher": "Patrick Corbin",
+        "Team2Pitcher": "Aaron Nola",
+        "MLdifference": 1.7348160000000021
+    },
+    {
+        "Team1": "Cleveland Guardians",
+        "Team2": "Milwaukee Brewers",
+        "Team1total": 3.772222222222222,
+        "Team2total": 5.467308,
+        "Team1Pitcher": "Gavin Williams",
+        "Team2Pitcher": "Aaron Civale",
+        "MLdifference": 1.695085777777778
+    },
+    {
+        "Team1": "Toronto Blue Jays",
+        "Team2": "Chicago Cubs",
+        "Team1total": 4.676186666666666,
+        "Team2total": 3.8411999999999997,
+        "Team1Pitcher": "Yariel Rodr\u00c3\u0192\u00c2\u00adguez",
+        "Team2Pitcher": "Kyle Hendricks",
+        "MLdifference": 0.8349866666666665
+    },
+    {
+        "Team1": "Boston Red Sox",
+        "Team2": "Baltimore Orioles",
+        "Team1total": 5.147706666666667,
+        "Team2total": 4.507008,
+        "Team1Pitcher": "Cooper Criswell",
+        "Team2Pitcher": "Corbin Burnes",
+        "MLdifference": 0.6406986666666672
+    },
+    {
+        "Team1": "Chicago White Sox",
+        "Team2": "Houston Astros",
+        "Team1total": 3.7206,
+        "Team2total": 4.131582000000001,
+        "Team1Pitcher": "Garrett Crochet",
+        "Team2Pitcher": "Spencer Arrighetti",
+        "MLdifference": 0.4109820000000006
+    },
+    {
+        "Team1": "Seattle Mariners",
+        "Team2": "Pittsburgh Pirates",
+        "Team1total": 2.757128,
+        "Team2total": 3.143778,
+        "Team1Pitcher": "Logan Gilbert",
+        "Team2Pitcher": "Paul Skenes",
+        "MLdifference": 0.3866500000000004
+    },
+    {
+        "Team1": "Kansas City Royals",
+        "Team2": "Cincinnati Reds",
+        "Team1total": 4.935084000000001,
+        "Team2total": 5.2666319999999995,
+        "Team1Pitcher": "Michael Lorenzen",
+        "Team2Pitcher": "Nick Martinez",
+        "MLdifference": 0.33154799999999884
+    },
+    {
+        "Team1": "Minnesota Twins",
+        "Team2": "Texas Rangers",
+        "Team1total": 4.319216000000001,
+        "Team2total": 4.568311111111111,
+        "Team1Pitcher": "Simeon Woods Richardson",
+        "Team2Pitcher": "Andrew Heaney",
+        "MLdifference": 0.24909511111111016
+    },
+    {
+        "Team1": "Miami Marlins",
+        "Team2": "New York Mets",
+        "Team1total": 4.465076000000001,
+        "Team2total": 4.4644319999999995,
+        "Team1Pitcher": "Roddery Mu\u00c3\u0192\u00c2\u00b1oz",
+        "Team2Pitcher": "Sean Manaea",
+        "MLdifference": 0.0006440000000011992
+    }
+]
