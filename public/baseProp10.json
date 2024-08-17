@@ -1,65 +1,83 @@
 [
     {
-        "PlayerName": "Christopher Morel",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666624/headshot/silo/current",
-        "Team": "Tampa Bay Rays",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-177",
-        "HitRate": "10/10"
-    },
-    {
         "PlayerName": "Yandy D\u00edaz",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/650490/headshot/silo/current",
         "Team": "Tampa Bay Rays",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-137",
+        "Odds": "-170",
         "HitRate": "10/10"
     },
     {
-        "PlayerName": "Jo Adell",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666176/headshot/silo/current",
+        "PlayerName": "Taylor Ward",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621493/headshot/silo/current",
         "Team": "Los Angeles Angels",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "-135",
+        "Odds": "-190",
+        "HitRate": "9/10"
+    },
+    {
+        "PlayerName": "Ram\u00f3n Laureano",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/657656/headshot/silo/current",
+        "Team": "Atlanta Braves",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-165",
         "HitRate": "8/10"
     },
     {
-        "PlayerName": "Brooks Baldwin",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/681460/headshot/silo/current",
+        "PlayerName": "James McCann",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543510/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-175",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Nicky Lopez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/670032/headshot/silo/current",
         "Team": "Chicago White Sox",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "-120",
+        "Odds": "-170",
         "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Andrew Benintendi",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/643217/headshot/silo/current",
+        "Team": "Chicago White Sox",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-170",
+        "HitRate": "9/10"
     },
     {
         "PlayerName": "Mauricio Dub\u00f3n",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/643289/headshot/silo/current",
         "Team": "Houston Astros",
         "OverUnder": "UNDER",
-        "Line": 0.5,
-        "Odds": "+135",
+        "Line": 1.5,
+        "Odds": "-195",
         "HitRate": "8/10"
     },
     {
-        "PlayerName": "Luis Robert Jr.",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673357/headshot/silo/current",
+        "PlayerName": "Paul DeJong",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/657557/headshot/silo/current",
         "Team": "Chicago White Sox",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-186",
-        "HitRate": "9/10"
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-165",
+        "HitRate": "8/10"
     },
     {
-        "PlayerName": "Alex Bregman",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608324/headshot/silo/current",
-        "Team": "Houston Astros",
-        "OverUnder": "OVER",
+        "PlayerName": "Miguel Rojas",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/500743/headshot/silo/current",
+        "Team": "Los Angeles Dodgers",
+        "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "+133",
+        "Odds": "-200",
         "HitRate": "8/10"
     },
     {
@@ -68,35 +86,152 @@
         "Team": "Los Angeles Dodgers",
         "OverUnder": "UNDER",
         "Line": 1.5,
+        "Odds": "-150",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Francisco Alvarez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682626/headshot/silo/current",
+        "Team": "New York Mets",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-200",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Pete Alonso",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/624413/headshot/silo/current",
+        "Team": "New York Mets",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-159",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Jake Burger",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669394/headshot/silo/current",
+        "Team": "Miami Marlins",
+        "OverUnder": "OVER",
+        "Line": 1.5,
+        "Odds": "+110",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Matt Wallner",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/670242/headshot/silo/current",
+        "Team": "Minnesota Twins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
         "Odds": "-155",
         "HitRate": "8/10"
     },
     {
-        "PlayerName": "Kyle Higashioka",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543309/headshot/silo/current",
-        "Team": "San Diego Padres",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-185",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Ryan McMahon",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641857/headshot/silo/current",
-        "Team": "Colorado Rockies",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
+        "PlayerName": "Josh Jung",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673962/headshot/silo/current",
+        "Team": "Texas Rangers",
+        "OverUnder": "OVER",
+        "Line": 0.5,
         "Odds": "-190",
         "HitRate": "8/10"
     },
     {
-        "PlayerName": "Joey Loperfido",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/694388/headshot/silo/current",
-        "Team": "Toronto Blue Jays",
+        "PlayerName": "Adolis Garc\u00eda",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666969/headshot/silo/current",
+        "Team": "Texas Rangers",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-180",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Christian V\u00e1zquez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543877/headshot/silo/current",
+        "Team": "Minnesota Twins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-160",
+        "HitRate": "9/10"
+    },
+    {
+        "PlayerName": "Andy Ib\u00e1\u00f1ez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/628451/headshot/silo/current",
+        "Team": "Detroit Tigers",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-185",
+        "Odds": "-175",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Michael Toglia",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669911/headshot/silo/current",
+        "Team": "Colorado Rockies",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-135",
         "HitRate": "9/10"
+    },
+    {
+        "PlayerName": "Brendan Rodgers",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663898/headshot/silo/current",
+        "Team": "Colorado Rockies",
+        "OverUnder": "OVER",
+        "Line": 1.5,
+        "Odds": "+125",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Randy Arozarena",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668227/headshot/silo/current",
+        "Team": "Seattle Mariners",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-132",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Victor Robles",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/645302/headshot/silo/current",
+        "Team": "Seattle Mariners",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-143",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Joey Bart",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663698/headshot/silo/current",
+        "Team": "Pittsburgh Pirates",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-165",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Mitch Garver",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641598/headshot/silo/current",
+        "Team": "Seattle Mariners",
+        "OverUnder": "UNDER",
+        "Line": 0.5,
+        "Odds": "+110",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "JJ Bleday",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668709/headshot/silo/current",
+        "Team": "Oakland Athletics",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-180",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Tyler Fitzgerald",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666149/headshot/silo/current",
+        "Team": "San Francisco Giants",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-185",
+        "HitRate": "8/10"
     },
     {
         "PlayerName": "Cody Bellinger",
@@ -104,8 +239,8 @@
         "Team": "Chicago Cubs",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-180",
-        "HitRate": "9/10"
+        "Odds": "-182",
+        "HitRate": "8/10"
     },
     {
         "PlayerName": "George Springer",
@@ -113,8 +248,26 @@
         "Team": "Toronto Blue Jays",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-110",
-        "HitRate": "9/10"
+        "Odds": "-195",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Seiya Suzuki",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673548/headshot/silo/current",
+        "Team": "Chicago Cubs",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-162",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "CJ Abrams",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682928/headshot/silo/current",
+        "Team": "Washington Nationals",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-200",
+        "HitRate": "8/10"
     },
     {
         "PlayerName": "Juan Yepez",

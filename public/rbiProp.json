@@ -1,56 +1,20 @@
 [
     {
-        "PlayerName": "Jake McCarthy",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664983/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
+        "PlayerName": "Danny Jansen",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/643376/headshot/silo/current",
+        "Team": "Boston Red Sox",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+185",
+        "Odds": "+165",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Alex Bregman",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608324/headshot/silo/current",
-        "Team": "Houston Astros",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+170",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Kyle Isbel",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664728/headshot/silo/current",
+        "PlayerName": "Bobby Witt Jr.",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/677951/headshot/silo/current",
         "Team": "Kansas City Royals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+210",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Michael Massey",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686681/headshot/silo/current",
-        "Team": "Kansas City Royals",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+145",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Enrique Hern\u00e1ndez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571771/headshot/silo/current",
-        "Team": "Los Angeles Dodgers",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+195",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Jonah Bride",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/681146/headshot/silo/current",
-        "Team": "Miami Marlins",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+230",
+        "Odds": "-110",
         "HitRate": "4/5"
     },
     {
@@ -59,7 +23,7 @@
         "Team": "Miami Marlins",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+190",
+        "Odds": "+170",
         "HitRate": "4/5"
     },
     {
@@ -68,16 +32,7 @@
         "Team": "Miami Marlins",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+130",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Adolis Garc\u00eda",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666969/headshot/silo/current",
-        "Team": "Texas Rangers",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+130",
+        "Odds": "+165",
         "HitRate": "4/5"
     },
     {
@@ -86,25 +41,16 @@
         "Team": "New York Yankees",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+200",
+        "Odds": "+170",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Kerry Carpenter",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/681481/headshot/silo/current",
-        "Team": "Detroit Tigers",
+        "PlayerName": "Aaron Judge",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592450/headshot/silo/current",
+        "Team": "New York Yankees",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+175",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Weston Wilson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/642215/headshot/silo/current",
-        "Team": "Philadelphia Phillies",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+150",
+        "Odds": "-135",
         "HitRate": "4/5"
     }
 ]
