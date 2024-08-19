@@ -1,21 +1,84 @@
 [
     {
-        "PlayerName": "Christopher Morel",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666624/headshot/silo/current",
-        "Team": "Tampa Bay Rays",
-        "OverUnder": "UNDER",
+        "PlayerName": "Jake Burger",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669394/headshot/silo/current",
+        "Team": "Miami Marlins",
+        "OverUnder": "OVER",
         "Line": 1.5,
-        "Odds": "-200",
+        "Odds": "+128",
         "HitRate": "9/10"
     },
     {
-        "PlayerName": "Yandy D\u00edaz",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/650490/headshot/silo/current",
-        "Team": "Tampa Bay Rays",
+        "PlayerName": "Otto Lopez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672640/headshot/silo/current",
+        "Team": "Miami Marlins",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-200",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Chas McCormick",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676801/headshot/silo/current",
+        "Team": "Houston Astros",
+        "OverUnder": "UNDER",
+        "Line": 0.5,
+        "Odds": "+105",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Jarren Duran",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680776/headshot/silo/current",
+        "Team": "Boston Red Sox",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-200",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Masataka Yoshida",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/807799/headshot/silo/current",
+        "Team": "Boston Red Sox",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-180",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Luis Robert Jr.",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673357/headshot/silo/current",
+        "Team": "Chicago White Sox",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-190",
+        "HitRate": "9/10"
+    },
+    {
+        "PlayerName": "Mike Yastrzemski",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/573262/headshot/silo/current",
+        "Team": "San Francisco Giants",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-180",
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Matt Chapman",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656305/headshot/silo/current",
+        "Team": "San Francisco Giants",
         "OverUnder": "UNDER",
         "Line": 1.5,
         "Odds": "-148",
-        "HitRate": "9/10"
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Lenyn Sosa",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672820/headshot/silo/current",
+        "Team": "Chicago White Sox",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-155",
+        "HitRate": "10/10"
     },
     {
         "PlayerName": "Logan O'Hoppe",
@@ -23,107 +86,8 @@
         "Team": "Los Angeles Angels",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-182",
+        "Odds": "-167",
         "HitRate": "9/10"
-    },
-    {
-        "PlayerName": "Jarred Kelenic",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672284/headshot/silo/current",
-        "Team": "Atlanta Braves",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-177",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Mauricio Dub\u00f3n",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/643289/headshot/silo/current",
-        "Team": "Houston Astros",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-195",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Sal Frelick",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686217/headshot/silo/current",
-        "Team": "Milwaukee Brewers",
-        "OverUnder": "UNDER",
-        "Line": 0.5,
-        "Odds": "+120",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Andr\u00e9s Gim\u00e9nez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665926/headshot/silo/current",
-        "Team": "Cleveland Guardians",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-195",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Jake Burger",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669394/headshot/silo/current",
-        "Team": "Miami Marlins",
-        "OverUnder": "OVER",
-        "Line": 1.5,
-        "Odds": "+107",
-        "HitRate": "9/10"
-    },
-    {
-        "PlayerName": "Francisco Lindor",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/596019/headshot/silo/current",
-        "Team": "New York Mets",
-        "OverUnder": "OVER",
-        "Line": 1.5,
-        "Odds": "+100",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Austin Wells",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669224/headshot/silo/current",
-        "Team": "New York Yankees",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "-165",
-        "HitRate": "9/10"
-    },
-    {
-        "PlayerName": "Gleyber Torres",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/650402/headshot/silo/current",
-        "Team": "New York Yankees",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-200",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Oswaldo Cabrera",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665828/headshot/silo/current",
-        "Team": "New York Yankees",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "-155",
-        "HitRate": "9/10"
-    },
-    {
-        "PlayerName": "Ryan McMahon",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641857/headshot/silo/current",
-        "Team": "Colorado Rockies",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-190",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Kyle Higashioka",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543309/headshot/silo/current",
-        "Team": "San Diego Padres",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-170",
-        "HitRate": "8/10"
     },
     {
         "PlayerName": "Jurickson Profar",
@@ -131,7 +95,7 @@
         "Team": "San Diego Padres",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-110",
+        "Odds": "-200",
         "HitRate": "8/10"
     },
     {
@@ -140,16 +104,16 @@
         "Team": "San Diego Padres",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "+115",
+        "Odds": "-186",
         "HitRate": "8/10"
     },
     {
-        "PlayerName": "Dominic Canzone",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686527/headshot/silo/current",
-        "Team": "Seattle Mariners",
+        "PlayerName": "Josh Jung",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673962/headshot/silo/current",
+        "Team": "Texas Rangers",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-175",
+        "Odds": "-186",
         "HitRate": "8/10"
     },
     {
@@ -158,61 +122,16 @@
         "Team": "Seattle Mariners",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-167",
+        "Odds": "-186",
         "HitRate": "8/10"
     },
     {
-        "PlayerName": "Mark Canha",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592192/headshot/silo/current",
-        "Team": "Detroit Tigers",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-195",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "George Springer",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543807/headshot/silo/current",
-        "Team": "Toronto Blue Jays",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-200",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Seiya Suzuki",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673548/headshot/silo/current",
-        "Team": "Chicago Cubs",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-182",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Cody Bellinger",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641355/headshot/silo/current",
-        "Team": "Chicago Cubs",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-200",
-        "HitRate": "8/10"
-    },
-    {
-        "PlayerName": "Juan Yepez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/660766/headshot/silo/current",
-        "Team": "Washington Nationals",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-195",
-        "HitRate": "9/10"
-    },
-    {
-        "PlayerName": "CJ Abrams",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682928/headshot/silo/current",
-        "Team": "Washington Nationals",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-139",
+        "PlayerName": "Dylan Carlson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666185/headshot/silo/current",
+        "Team": "Tampa Bay Rays",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-165",
         "HitRate": "8/10"
     }
 ]

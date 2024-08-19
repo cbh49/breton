@@ -1,11 +1,38 @@
 [
     {
-        "PlayerName": "Sal Frelick",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686217/headshot/silo/current",
-        "Team": "Milwaukee Brewers",
-        "OverUnder": "UNDER",
+        "PlayerName": "Masataka Yoshida",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/807799/headshot/silo/current",
+        "Team": "Boston Red Sox",
+        "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+120",
+        "Odds": "-180",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Mike Yastrzemski",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/573262/headshot/silo/current",
+        "Team": "San Francisco Giants",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-180",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Lenyn Sosa",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672820/headshot/silo/current",
+        "Team": "Chicago White Sox",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-155",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Jurickson Profar",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/595777/headshot/silo/current",
+        "Team": "San Diego Padres",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-200",
         "HitRate": "5/5"
     },
     {
@@ -14,52 +41,7 @@
         "Team": "Los Angeles Dodgers",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-182",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Jake Burger",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669394/headshot/silo/current",
-        "Team": "Miami Marlins",
-        "OverUnder": "OVER",
-        "Line": 1.5,
-        "Odds": "+107",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Aaron Judge",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592450/headshot/silo/current",
-        "Team": "New York Yankees",
-        "OverUnder": "OVER",
-        "Line": 1.5,
-        "Odds": "-106",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Oswaldo Cabrera",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665828/headshot/silo/current",
-        "Team": "New York Yankees",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "-155",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Michael Toglia",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669911/headshot/silo/current",
-        "Team": "Colorado Rockies",
-        "OverUnder": "OVER",
-        "Line": 1.5,
-        "Odds": "+130",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Kyle Higashioka",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543309/headshot/silo/current",
-        "Team": "San Diego Padres",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-170",
+        "Odds": "-200",
         "HitRate": "5/5"
     },
     {
@@ -68,34 +50,7 @@
         "Team": "Seattle Mariners",
         "OverUnder": "UNDER",
         "Line": 1.5,
-        "Odds": "-167",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Max Schuemann",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680474/headshot/silo/current",
-        "Team": "Oakland Athletics",
-        "OverUnder": "UNDER",
-        "Line": 0.5,
-        "Odds": "-130",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Alejandro Kirk",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672386/headshot/silo/current",
-        "Team": "Toronto Blue Jays",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-190",
-        "HitRate": "5/5"
-    },
-    {
-        "PlayerName": "Juan Yepez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/660766/headshot/silo/current",
-        "Team": "Washington Nationals",
-        "OverUnder": "UNDER",
-        "Line": 1.5,
-        "Odds": "-195",
+        "Odds": "-186",
         "HitRate": "5/5"
     }
 ]

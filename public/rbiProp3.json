@@ -1,20 +1,20 @@
 [
     {
-        "PlayerName": "Wilyer Abreu",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/677800/headshot/silo/current",
-        "Team": "Boston Red Sox",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+145",
-        "HitRate": "3/3"
-    },
-    {
         "PlayerName": "Gunnar Henderson",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683002/headshot/silo/current",
         "Team": "Baltimore Orioles",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+130",
+        "Odds": "+150",
+        "HitRate": "3/3"
+    },
+    {
+        "PlayerName": "Francisco Lindor",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/596019/headshot/silo/current",
+        "Team": "New York Mets",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+150",
         "HitRate": "3/3"
     },
     {
@@ -27,21 +27,12 @@
         "HitRate": "3/3"
     },
     {
-        "PlayerName": "Isiah Kiner-Falefa",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/643396/headshot/silo/current",
-        "Team": "Pittsburgh Pirates",
+        "PlayerName": "Salvador Perez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/521692/headshot/silo/current",
+        "Team": "Kansas City Royals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+230",
-        "HitRate": "3/3"
-    },
-    {
-        "PlayerName": "Nick Castellanos",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592206/headshot/silo/current",
-        "Team": "Philadelphia Phillies",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+125",
+        "Odds": "+100",
         "HitRate": "3/3"
     }
 ]
