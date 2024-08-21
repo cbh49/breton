@@ -5,7 +5,7 @@
         "Team": "Arizona Diamondbacks",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+120",
+        "Odds": "+110",
         "HitRate": "3/3"
     },
     {
@@ -14,34 +14,25 @@
         "Team": "Houston Astros",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+145",
+        "Odds": "+125",
         "HitRate": "3/3"
     },
     {
-        "PlayerName": "Salvador Perez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/521692/headshot/silo/current",
-        "Team": "Kansas City Royals",
+        "PlayerName": "Heliot Ramos",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/671218/headshot/silo/current",
+        "Team": "San Francisco Giants",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+100",
+        "Odds": "+130",
         "HitRate": "3/3"
     },
     {
-        "PlayerName": "Jarred Kelenic",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672284/headshot/silo/current",
-        "Team": "Atlanta Braves",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+230",
-        "HitRate": "3/3"
-    },
-    {
-        "PlayerName": "Nick Castellanos",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592206/headshot/silo/current",
+        "PlayerName": "J.T. Realmuto",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592663/headshot/silo/current",
         "Team": "Philadelphia Phillies",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+135",
+        "Odds": "+175",
         "HitRate": "3/3"
     }
 ]

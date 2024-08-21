@@ -2,32 +2,17 @@
     {
         "Team1": "Seattle Mariners",
         "Team2": "Los Angeles Dodgers",
-        "Total": 8.5
-    },
-    {
-        "Team1": "Chicago White Sox",
-        "Team2": "San Francisco Giants",
         "Total": 7.5
     },
     {
         "Team1": "Tampa Bay Rays",
         "Team2": "Oakland Athletics",
-        "Total": 8
-    },
-    {
-        "Team1": "Minnesota Twins",
-        "Team2": "San Diego Padres",
         "Total": 7.5
-    },
-    {
-        "Team1": "Boston Red Sox",
-        "Team2": "Houston Astros",
-        "Total": 8.5
     },
     {
         "Team1": "Los Angeles Angels",
         "Team2": "Kansas City Royals",
-        "Total": 8.5
+        "Total": 9.5
     },
     {
         "Team1": "Detroit Tigers",
@@ -35,24 +20,14 @@
         "Total": 7.5
     },
     {
-        "Team1": "Pittsburgh Pirates",
-        "Team2": "Texas Rangers",
-        "Total": 8
-    },
-    {
         "Team1": "Milwaukee Brewers",
         "Team2": "St. Louis Cardinals",
-        "Total": 8
+        "Total": 7.5
     },
     {
         "Team1": "Philadelphia Phillies",
         "Team2": "Atlanta Braves",
-        "Total": 8.5
-    },
-    {
-        "Team1": "Baltimore Orioles",
-        "Team2": "New York Mets",
-        "Total": 8.5
+        "Total": 8
     },
     {
         "Team1": "Cincinnati Reds",
@@ -67,11 +42,36 @@
     {
         "Team1": "Colorado Rockies",
         "Team2": "Washington Nationals",
-        "Total": 8
+        "Total": 8.5
     },
     {
         "Team1": "Arizona Diamondbacks",
         "Team2": "Miami Marlins",
-        "Total": 7.5
+        "Total": 8
+    },
+    {
+        "Team1": "Minnesota Twins",
+        "Team2": "San Diego Padres",
+        "Total": 8.5
+    },
+    {
+        "Team1": "Chicago White Sox",
+        "Team2": "San Francisco Giants",
+        "Total": 7
+    },
+    {
+        "Team1": "Pittsburgh Pirates",
+        "Team2": "Texas Rangers",
+        "Total": 8.5
+    },
+    {
+        "Team1": "Boston Red Sox",
+        "Team2": "Houston Astros",
+        "Total": 8.5
+    },
+    {
+        "Team1": "Baltimore Orioles",
+        "Team2": "New York Mets",
+        "Total": 8.5
     }
 ]
