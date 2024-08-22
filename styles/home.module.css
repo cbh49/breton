@@ -681,6 +681,7 @@
   white-space: nowrap; /* Prevents wrapping of items */
   width: auto; /* Width auto to contain all children */
   z-index: 10;
+  margin-top: -17.5vh; /* Moves table up and down */
 }
 .total{
   font-size: 1em;
