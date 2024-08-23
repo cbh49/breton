@@ -1,18 +1,58 @@
 [
     {
+        "Team1": "Tampa Bay Rays",
+        "Team2": "Los Angeles Dodgers",
+        "Total": 8.5
+    },
+    {
+        "Team1": "San Francisco Giants",
+        "Team2": "Seattle Mariners",
+        "Total": 7
+    },
+    {
+        "Team1": "Milwaukee Brewers",
+        "Team2": "Oakland Athletics",
+        "Total": 7.5
+    },
+    {
         "Team1": "New York Mets",
         "Team2": "San Diego Padres",
         "Total": 7.5
     },
     {
+        "Team1": "St. Louis Cardinals",
+        "Team2": "Minnesota Twins",
+        "Total": 8.5
+    },
+    {
         "Team1": "Philadelphia Phillies",
+        "Team2": "Kansas City Royals",
+        "Total": 9.5
+    },
+    {
+        "Team1": "Detroit Tigers",
+        "Team2": "Chicago White Sox",
+        "Total": 8.5
+    },
+    {
+        "Team1": "Washington Nationals",
         "Team2": "Atlanta Braves",
+        "Total": 7.5
+    },
+    {
+        "Team1": "Arizona Diamondbacks",
+        "Team2": "Boston Red Sox",
+        "Total": 9.5
+    },
+    {
+        "Team1": "Chicago Cubs",
+        "Team2": "Miami Marlins",
         "Total": 8
     },
     {
-        "Team1": "Houston Astros",
-        "Team2": "Baltimore Orioles",
-        "Total": 8
+        "Team1": "Texas Rangers",
+        "Team2": "Cleveland Guardians",
+        "Total": 7.5
     },
     {
         "Team1": "Los Angeles Angels",
@@ -20,33 +60,18 @@
         "Total": 9
     },
     {
-        "Team1": "Cincinnati Reds",
-        "Team2": "Pittsburgh Pirates",
-        "Total": 7.5
-    },
-    {
-        "Team1": "Tampa Bay Rays",
-        "Team2": "Oakland Athletics",
-        "Total": 7.5
-    },
-    {
-        "Team1": "Detroit Tigers",
-        "Team2": "Chicago Cubs",
-        "Total": 7.5
-    },
-    {
-        "Team1": "Milwaukee Brewers",
-        "Team2": "St. Louis Cardinals",
-        "Total": 8
+        "Team1": "Houston Astros",
+        "Team2": "Baltimore Orioles",
+        "Total": 8.5
     },
     {
         "Team1": "Colorado Rockies",
-        "Team2": "Washington Nationals",
-        "Total": 9
+        "Team2": "New York Yankees",
+        "Total": 8.5
     },
     {
-        "Team1": "Cleveland Guardians",
-        "Team2": "New York Yankees",
-        "Total": 8
+        "Team1": "Cincinnati Reds",
+        "Team2": "Pittsburgh Pirates",
+        "Total": 8.5
     }
 ]
