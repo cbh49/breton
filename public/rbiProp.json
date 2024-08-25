@@ -1,56 +1,38 @@
 [
     {
-        "PlayerName": "Joc Pederson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592626/headshot/silo/current",
+        "PlayerName": "Jake McCarthy",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664983/headshot/silo/current",
         "Team": "Arizona Diamondbacks",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+115",
+        "Odds": "+140",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Jacob Stallings",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607732/headshot/silo/current",
-        "Team": "Colorado Rockies",
+        "PlayerName": "Tyler Stephenson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663886/headshot/silo/current",
+        "Team": "Cincinnati Reds",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+290",
+        "Odds": "+130",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "Kevin Pillar",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607680/headshot/silo/current",
-        "Team": "Los Angeles Angels",
+        "PlayerName": "Aaron Judge",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592450/headshot/silo/current",
+        "Team": "New York Yankees",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+150",
+        "Odds": "-130",
         "HitRate": "4/5"
     },
     {
-        "PlayerName": "J.D. Martinez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/502110/headshot/silo/current",
-        "Team": "New York Mets",
+        "PlayerName": "Ernie Clement",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676391/headshot/silo/current",
+        "Team": "Toronto Blue Jays",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+180",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "J.T. Realmuto",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592663/headshot/silo/current",
-        "Team": "Philadelphia Phillies",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+150",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Keibert Ruiz",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/660688/headshot/silo/current",
-        "Team": "Washington Nationals",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+230",
+        "Odds": "+165",
         "HitRate": "4/5"
     }
 ]

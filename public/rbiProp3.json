@@ -1,74 +1,38 @@
 [
     {
-        "PlayerName": "Xavier Edwards",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669364/headshot/silo/current",
-        "Team": "Miami Marlins",
+        "PlayerName": "Jake McCarthy",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664983/headshot/silo/current",
+        "Team": "Arizona Diamondbacks",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+210",
+        "Odds": "+140",
         "HitRate": "3/3"
     },
     {
-        "PlayerName": "Aaron Judge",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592450/headshot/silo/current",
-        "Team": "New York Yankees",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "-125",
-        "HitRate": "3/3"
-    },
-    {
-        "PlayerName": "Ernie Clement",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676391/headshot/silo/current",
-        "Team": "Toronto Blue Jays",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+130",
-        "HitRate": "3/3"
-    },
-    {
-        "PlayerName": "George Springer",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543807/headshot/silo/current",
-        "Team": "Toronto Blue Jays",
+        "PlayerName": "Pete Crow-Armstrong",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/691718/headshot/silo/current",
+        "Team": "Chicago Cubs",
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": "+145",
         "HitRate": "3/3"
     },
     {
-        "PlayerName": "J.D. Martinez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/502110/headshot/silo/current",
-        "Team": "New York Mets",
+        "PlayerName": "Tyler Stephenson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663886/headshot/silo/current",
+        "Team": "Cincinnati Reds",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+180",
+        "Odds": "+130",
         "HitRate": "3/3"
     },
     {
-        "PlayerName": "Mark Vientos",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668901/headshot/silo/current",
-        "Team": "New York Mets",
+        "PlayerName": "Alejandro Kirk",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672386/headshot/silo/current",
+        "Team": "Toronto Blue Jays",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+185",
-        "HitRate": "3/3"
-    },
-    {
-        "PlayerName": "Ryan Jeffers",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680777/headshot/silo/current",
-        "Team": "Minnesota Twins",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+155",
-        "HitRate": "3/3"
-    },
-    {
-        "PlayerName": "Keibert Ruiz",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/660688/headshot/silo/current",
-        "Team": "Washington Nationals",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+230",
+        "Odds": "+150",
         "HitRate": "3/3"
     }
 ]
