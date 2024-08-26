@@ -1,74 +1,47 @@
 [
     {
-        "PlayerName": "Tanner Houck",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656557/headshot/silo/current",
-        "team": "Boston Red Sox",
-        "Line": 4.5,
+        "PlayerName": "Zack Wheeler",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/554430/headshot/silo/current",
+        "team": "Philadelphia Phillies",
+        "Line": 6.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "-104"
+    },
+    {
+        "PlayerName": "Edward Cabrera",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665795/headshot/silo/current",
+        "team": "Miami Marlins",
+        "Line": 6.5,
         "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "-115"
+        "Odds": "+105"
     },
     {
-        "PlayerName": "Javier Assad",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665871/headshot/silo/current",
-        "team": "Chicago Cubs",
-        "Line": 4.5,
-        "OverUnder": "UNDER",
-        "HitRate": "7/10",
-        "Odds": "-127"
-    },
-    {
-        "PlayerName": "Nick Martinez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607259/headshot/silo/current",
-        "team": "Cincinnati Reds",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "7/10",
-        "Odds": "+102"
-    },
-    {
-        "PlayerName": "Marcus Stroman",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/573186/headshot/silo/current",
-        "team": "New York Yankees",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "8/10",
-        "Odds": "+112"
-    },
-    {
-        "PlayerName": "Jonathan Cannon",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686563/headshot/silo/current",
-        "team": "Chicago White Sox",
-        "Line": 4.5,
-        "OverUnder": "UNDER",
-        "HitRate": "9/10",
-        "Odds": "-129"
-    },
-    {
-        "PlayerName": "Kevin Gausman",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592332/headshot/silo/current",
-        "team": "Toronto Blue Jays",
+        "PlayerName": "Mitchell Parker",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680730/headshot/silo/current",
+        "team": "Washington Nationals",
         "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "7/10",
-        "Odds": "+100"
+        "Odds": "+114"
     },
     {
-        "PlayerName": "Jose Quintana",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/500779/headshot/silo/current",
-        "team": "New York Mets",
-        "Line": 3.5,
+        "PlayerName": "Kyle Gibson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/502043/headshot/silo/current",
+        "team": "St. Louis Cardinals",
+        "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "7/10",
-        "Odds": "-127"
+        "Odds": "+145"
     },
     {
-        "PlayerName": "Bryan Woo",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/693433/headshot/silo/current",
+        "PlayerName": "Bryce Miller",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682243/headshot/silo/current",
         "team": "Seattle Mariners",
         "Line": 6.5,
         "OverUnder": "UNDER",
         "HitRate": "9/10",
-        "Odds": "+120"
+        "Odds": "-135"
     }
 ]

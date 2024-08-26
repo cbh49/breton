@@ -1,20 +1,47 @@
 [
     {
-        "PlayerName": "Merrill Kelly",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/518876/headshot/silo/current",
-        "team": "Arizona Diamondbacks",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
+        "PlayerName": "Cole Ragans",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666142/headshot/silo/current",
+        "team": "Kansas City Royals",
+        "Line": 6.5,
+        "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "+117"
+        "Odds": "+123"
     },
     {
-        "PlayerName": "Marcus Stroman",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/573186/headshot/silo/current",
-        "team": "New York Yankees",
-        "Line": 5.5,
+        "PlayerName": "Edward Cabrera",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665795/headshot/silo/current",
+        "team": "Miami Marlins",
+        "Line": 6.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "+112"
+        "Odds": "+105"
+    },
+    {
+        "PlayerName": "Mitchell Parker",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680730/headshot/silo/current",
+        "team": "Washington Nationals",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "+114"
+    },
+    {
+        "PlayerName": "Kyle Gibson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/502043/headshot/silo/current",
+        "team": "St. Louis Cardinals",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "+145"
+    },
+    {
+        "PlayerName": "Ryan Pepiot",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686752/headshot/silo/current",
+        "team": "Tampa Bay Rays",
+        "Line": 6.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "+100"
     }
 ]

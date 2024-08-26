@@ -1,20 +1,11 @@
 [
     {
-        "PlayerName": "Jake McCarthy",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664983/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
+        "PlayerName": "Travis d'Arnaud",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/518595/headshot/silo/current",
+        "Team": "Atlanta Braves",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+140",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Tyler Stephenson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663886/headshot/silo/current",
-        "Team": "Cincinnati Reds",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+130",
+        "Odds": "+180",
         "HitRate": "4/5"
     },
     {
@@ -23,16 +14,7 @@
         "Team": "New York Yankees",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "-130",
-        "HitRate": "4/5"
-    },
-    {
-        "PlayerName": "Ernie Clement",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676391/headshot/silo/current",
-        "Team": "Toronto Blue Jays",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+165",
+        "Odds": "-140",
         "HitRate": "4/5"
     }
 ]

@@ -1,38 +1,20 @@
 [
     {
-        "PlayerName": "Jake McCarthy",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664983/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+140",
-        "HitRate": "3/3"
-    },
-    {
-        "PlayerName": "Pete Crow-Armstrong",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/691718/headshot/silo/current",
-        "Team": "Chicago Cubs",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+145",
-        "HitRate": "3/3"
-    },
-    {
-        "PlayerName": "Tyler Stephenson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663886/headshot/silo/current",
-        "Team": "Cincinnati Reds",
+        "PlayerName": "Colt Keith",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/690993/headshot/silo/current",
+        "Team": "Detroit Tigers",
         "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": "+130",
         "HitRate": "3/3"
     },
     {
-        "PlayerName": "Alejandro Kirk",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672386/headshot/silo/current",
-        "Team": "Toronto Blue Jays",
+        "PlayerName": "Giancarlo Stanton",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/519317/headshot/silo/current",
+        "Team": "New York Yankees",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+150",
+        "Odds": "-130",
         "HitRate": "3/3"
     }
 ]
