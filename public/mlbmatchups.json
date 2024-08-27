@@ -1,23 +1,38 @@
 [
     {
+        "Team1": "Baltimore Orioles",
+        "Team2": "Los Angeles Dodgers",
+        "Total": 9
+    },
+    {
         "Team1": "Tampa Bay Rays",
         "Team2": "Seattle Mariners",
-        "Total": 7
+        "Total": 6.5
+    },
+    {
+        "Team1": "New York Mets",
+        "Team2": "Arizona Diamondbacks",
+        "Total": 8.5
     },
     {
         "Team1": "Miami Marlins",
         "Team2": "Colorado Rockies",
-        "Total": 10.5
+        "Total": 11
     },
     {
-        "Team1": "Detroit Tigers",
+        "Team1": "San Francisco Giants",
+        "Team2": "Milwaukee Brewers",
+        "Total": 7.5
+    },
+    {
+        "Team1": "Texas Rangers",
         "Team2": "Chicago White Sox",
-        "Total": 9
+        "Total": 8.5
     },
     {
         "Team1": "San Diego Padres",
         "Team2": "St. Louis Cardinals",
-        "Total": 9
+        "Total": 8
     },
     {
         "Team1": "Atlanta Braves",
@@ -27,7 +42,7 @@
     {
         "Team1": "Toronto Blue Jays",
         "Team2": "Boston Red Sox",
-        "Total": 9
+        "Total": 10
     },
     {
         "Team1": "New York Yankees",
@@ -35,28 +50,28 @@
         "Total": 9
     },
     {
+        "Team1": "Los Angeles Angels",
+        "Team2": "Detroit Tigers",
+        "Total": 9.5
+    },
+    {
         "Team1": "Chicago Cubs",
         "Team2": "Pittsburgh Pirates",
-        "Total": 8.5
+        "Total": 8
+    },
+    {
+        "Team1": "Oakland Athletics",
+        "Team2": "Cincinnati Reds",
+        "Total": 9.5
     },
     {
         "Team1": "Kansas City Royals",
         "Team2": "Cleveland Guardians",
-        "Total": 8.5
+        "Total": 9
     },
     {
         "Team1": "Houston Astros",
         "Team2": "Philadelphia Phillies",
-        "Total": 8
-    },
-    {
-        "Team1": "Toronto Blue Jays",
-        "Team2": "Boston Red Sox",
-        "Total": "Not Found"
-    },
-    {
-        "Team1": "Kansas City Royals",
-        "Team2": "Cleveland Guardians",
-        "Total": 8.5
+        "Total": 9
     }
 ]
