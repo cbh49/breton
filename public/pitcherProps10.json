@@ -1,74 +1,74 @@
 [
     {
-        "PlayerName": "Spencer Schwellenbach",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680885/headshot/silo/current",
+        "PlayerName": "Chris Sale",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/519242/headshot/silo/current",
         "team": "Atlanta Braves",
-        "Line": 6.5,
+        "Line": 7.5,
         "OverUnder": "OVER",
         "HitRate": "7/10",
-        "Odds": "+102"
+        "Odds": "+120"
     },
     {
-        "PlayerName": "Jack Flaherty",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656427/headshot/silo/current",
+        "PlayerName": "Walker Buehler",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621111/headshot/silo/current",
         "team": "Los Angeles Dodgers",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "8/10",
+        "Odds": "+120"
+    },
+    {
+        "PlayerName": "Spencer Arrighetti",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/681293/headshot/silo/current",
+        "team": "Houston Astros",
         "Line": 5.5,
         "OverUnder": "OVER",
-        "HitRate": "8/10",
-        "Odds": "-155"
-    },
-    {
-        "PlayerName": "Cole Irvin",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608344/headshot/silo/current",
-        "team": "Baltimore Orioles",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "-155"
+        "Odds": "-109"
     },
     {
-        "PlayerName": "Gavin Williams",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668909/headshot/silo/current",
-        "team": "Cleveland Guardians",
+        "PlayerName": "Michael Wacha",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608379/headshot/silo/current",
+        "team": "Kansas City Royals",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "+108"
+    },
+    {
+        "PlayerName": "MacKenzie Gore",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669022/headshot/silo/current",
+        "team": "Washington Nationals",
         "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "7/10",
         "Odds": "+114"
     },
     {
-        "PlayerName": "Miles Mikolas",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571945/headshot/silo/current",
+        "PlayerName": "Andre Pallante",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669467/headshot/silo/current",
         "team": "St. Louis Cardinals",
-        "Line": 2.5,
+        "Line": 3.5,
         "OverUnder": "OVER",
         "HitRate": "8/10",
-        "Odds": "-175"
+        "Odds": "+116"
     },
     {
-        "PlayerName": "Logan Gilbert",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669302/headshot/silo/current",
-        "team": "Seattle Mariners",
+        "PlayerName": "Freddy Peralta",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/642547/headshot/silo/current",
+        "team": "Milwaukee Brewers",
         "Line": 7.5,
         "OverUnder": "UNDER",
         "HitRate": "8/10",
-        "Odds": "-105"
+        "Odds": "-137"
     },
     {
-        "PlayerName": "Garrett Crochet",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676979/headshot/silo/current",
-        "team": "Chicago White Sox",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "7/10",
-        "Odds": "-150"
-    },
-    {
-        "PlayerName": "Cooper Criswell",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/681867/headshot/silo/current",
+        "PlayerName": "Brayan Bello",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/678394/headshot/silo/current",
         "team": "Boston Red Sox",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
+        "Line": 4.5,
+        "OverUnder": "OVER",
         "HitRate": "7/10",
-        "Odds": "-240"
+        "Odds": "-120"
     }
 ]
