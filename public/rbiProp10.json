@@ -5,16 +5,7 @@
         "Team": "Atlanta Braves",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+145",
-        "HitRate": "7/10"
-    },
-    {
-        "PlayerName": "Corbin Carroll",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682998/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": "+155",
+        "Odds": "+160",
         "HitRate": "7/10"
     }
 ]
