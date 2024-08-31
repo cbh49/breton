@@ -233,56 +233,14 @@ const Home = () => {
           <div className={styles.followBanner}>
             <h2>Follow Breton on</h2><br />
             <Link href="https://twitter.com/BretonPicks">
-              <Image src="/xWhite.png" alt="Logo" width={40} height={40} className={styles.xLogo} />
+              <Image src="/xWhite.png" alt="Logo" width={70} height={70} className={styles.xLogo} />
             </Link>
           </div>
           <Link href="https://twitter.com/BretonPicks">
-          <Image src="/xPhone.png" alt="Logo" width={350} height={550} className={styles.phone} />
+          <Image src="/xPhone.png" alt="Logo" width={300} height={500} className={styles.phone} />
         </Link>
         </div>
-      </div>      
-      <div className={styles.tableContainer}>
-          <table className={styles.stattable1}>
-            <thead>
-              <tr>
-                <th colSpan={2}>
-                  <Image src="/bohm.avif" width={125} height={75}  alt="Highest Runs Per Game" className={styles.tableImage} />
-                  <h3>Runs Scored Leaders (Last 10)</h3>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-            {getHighestRuns().map(([team, values]) => (
-              <tr key={team}>
-                <td>
-                  <Image src={logos[team]} alt={team} className={styles.logostat} width={80} height={80} />
-                  {values[0].toFixed(2)}
-                </td>
-              </tr>
-            ))}
-            </tbody>
-            <thead>
-              <tr>
-                <th colSpan={2}>
-                  <h3>Runs Allowed Leaders (Last 10)</h3>
-                </th>
-              </tr>
-              <tr>
-              </tr>
-            </thead>
-            <tbody>
-            {getLowestRunsAllowed().map(([team, values]) => (
-              <tr key={team}>
-                <td>
-                  <Image src={logos[team]} alt={team} className={styles.logostat} width={80} height={80} />
-                  {values[1].toFixed(2)}
-                </td>
-              </tr>
-            ))}
-            </tbody>
-          </table>
-        </div>      
-    
+      </div>          
         <>
 <div className={styles.about}>
     <h2>What is Breton?</h2>

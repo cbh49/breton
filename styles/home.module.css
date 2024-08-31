@@ -157,7 +157,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 80vh;
+  height: 85vh;
   top: 15vh;
   width: calc(100%); /* Subtracting 400px from each side */
   border-radius: 2%;;
@@ -331,25 +331,27 @@
   padding: 2%;
   align-items: center;
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 130%;
-  margin-top: 35%;
+  margin-left: -70%;
+  margin-top: 20%;
   width: 100%;
   height: 10%;
   text-align: center;
+  font-size: 2em;
 }
 .followBanner p {
   margin: 0; /* Reset any default margins */
   padding-right: 5%;
-  padding-left: 5%;
-  font-size: 3em;
+  padding-left: 0%;
+  font-size: 5ch;
 }
 .phone{
   margin-left: 80%;
-  margin-top: -45%;
+  margin-top: -25%;
 }
 .xLogo{
   margin-left: 0%;
-  margin-top: -5%;
+  margin-top: -10%;
+
 }
 .phoneContainer {
   display: flex;
@@ -374,7 +376,7 @@
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-bottom: 1px solid #68b42b;
   border-top: 1px solid #68b42b;
-  margin-top: 2%;
+  margin-top: 8.5%;
   background-size: 8%;
   width: calc(100%); /* Subtracting 400px from each side */
   border-radius: 2%;;
@@ -594,8 +596,7 @@
   border-collapse: collapse; 
   border-spacing: 0;
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: -125px; /* Moves table up and down */
-  
+  margin-top: -17.5vh; /* Moves table up and down */
 }
 .table th, .table td {
   border-radius: 30px;
@@ -643,59 +644,61 @@
 
 /* TRIAL SIDENAV */
 
+
 .sideNav {
-  width: 100%;
-  height: 25%;
-  order: 1; /* Display below navbar */
-  flex-direction: row; /* Horizontal layout */
-  justify-content: space-around; /* Space items evenly */
-  overflow-x: scroll;
-  margin-top: -8.5%;
-  background-size: 120%;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
-  z-index: 10;
-  border-bottom: 2px solid #68b42b;
-  border-top: 2px solid #68b42b;
-  scrollbar-width: none;
-  position: relative; /* Make sure it's part of the normal flow */
-  z-index: 10; /* Ensure it stays under the navbar when scrolling */
+    width: 100%;
+    height: 25%;
+    order: 1; /* Display below navbar */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    overflow-x: scroll;
+    margin-top: -8.5%;
+    background-size: 120%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+    z-index: 10;
+    border-bottom: 2px solid #68b42b;
+    border-top: 2px solid #68b42b;
+    scrollbar-width: none;
+    position: relative; /* Make sure it's part of the normal flow */
+    z-index: 10; /* Ensure it stays under the navbar when scrolling */
+  }
+  .navlogo {
+    height: 40px;
+    width: 40px;
+    align-items: row;
+    padding: 5px;
+  }
+  .sideNav h3 {
+    display: none;
+  }
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
+  }
+  .table{
+    width: 25%;
+    margin-bottom: 12vh; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
+    z-index: 10;
+    margin-top: -17.5vh; /* Moves table up and down */
+  }
+  .total{
+    font-size: 1em;
+  }
+  .matchupRow {
+    margin: 5px 2px; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    padding: 10px; /* Padding inside each row */
+    height: 100%;
+    margin-top: 3%;
+  }
+  .leaguelogo {
+    display: none;
 }
-.navlogo {
-  height: 40px;
-  width: 40px;
-  align-items: row;
-  padding: 5px;
-}
-.sideNav h3 {
-  display: none;
-}
-.atSymbol {
-  flex: none; /* Prevents '@' from stretching */
-  padding: 0 2px;
-  font-size: 10px; /* Increases font size for visibility */
-}
-.table{
-  width: 25%;
-  margin-bottom: 12vh; /* Moves table up and down */
-  overflow-x: hidden; /* Enable horizontal scrolling */
-  white-space: nowrap; /* Prevents wrapping of items */
-  width: auto; /* Width auto to contain all children */
-  z-index: 10;
-  margin-top: -17.5vh; /* Moves table up and down */
-}
-.total{
-  font-size: 1em;
-}
-.matchupRow {
-  margin: 5px 2px; /* Margin between each row */
-  display: inline-flex; /* Use flexbox to manage layout of cells */
-  padding: 10px; /* Padding inside each row */
-  height: 100%;
-  margin-top: 3%;
-}
-.leaguelogo {
-  display: none;
-}
+
 
 /* SECOND SIDENAV */
 
@@ -979,13 +982,13 @@
     /* MAIN */
 
   .banner {
-    height: 100vh;
+    height: 70vh;
     top: 115px;
     width: 105%;
     order: 2; /* Main content */
     margin: 0; /* Remove margin */
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
-    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
+    background-size: 25%;
     order: 2;
   }
   .contentSection {
@@ -1096,13 +1099,13 @@
 .phone{
   width: 50%;
   height: 60%;
-  margin-left: 45%;
+  margin-left: 26%;
   margin-top: 5%;
 }
 .followBanner{
-  margin-left: 15%;
-  font-size: .75em;
-  margin-top: 0%;
+  margin-left: 0%;
+  font-size: .65em;
+  margin-top: 5%;
   margin-bottom: 0%;
 }
 .xLogo{
@@ -1120,7 +1123,7 @@
   display: block; /* Ensure it is not set to 'none' */
   width: 105%;
   height: 450px;
-  margin-top: 10vh;
+  margin-top: 12.5vh;
   margin-left: 0px;
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
   background-size: 100%;
@@ -1396,155 +1399,155 @@ margin-top: 0px;
 
     /* MAIN */
 
-  .banner {
-    height: 85vh;
-    top: 115px;
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
-    background-size: 25%;
+    .banner {
+      height: 70vh;
+      top: 115px;
+      width: 105%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
+      background-size: 25%;
+      order: 2;
+    }
+    .contentSection {
+      width: 100%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+    }
+    .tagLine{
+      border-radius: 10px;
+      width: 130%;
+      margin-left: -17%;
+      border-bottom: 1px solid #68b42b;
+      margin-top: 0%;
+    }
+    .tagLine h1{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 2em;
+      text-align: center;
+    }
+    .tagLine p{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: .75em;
+      text-align: center;
+    }
+  
+    .dataSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center children horizontally */
+      justify-content: center; /* Center children vertically */
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+      text-align: center;
+      color: #fff;
+      font-size: 1rem;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .dataSection h1 {
+      margin-bottom: 12px; /* Add spacing between h1 and buttons */
+      border-radius: 10%;
+      padding: 5px;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+      margin-right: 180px;
+      width: 100px;
+      border: 1px solid #68b42b;
+    }
+  
+    
+    .buttonContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center buttons horizontally */
+      gap: 10px; /* Spacing between buttons */
+      width: 100%; /* Ensure buttons take full width for centering */
+      margin-right: 330px;
+    }
+    
+    .stattable1{
+      width: 0%;
+      margin-left: 10%;
+      margin-top: -420px;
+      width: 12%;
+    }
+    .statttable1 th, .stattable1 td {
+      padding-top: 5px;
+      font-size: 1em;
+    }
+    .stattable1 h3{
+      padding: 1px;
+      font-size: .75em;
+    }
+    .logostat {
+      width: 15px;
+      height: 15px;
+      padding-right: 20px;
+    }
+    .tableImage{
+      border-radius: 20px;
+      height: 100px;
+      width: 100px;
+      margin-bottom: 0px;
+    }
+    .button {
+      width: 100px;
+      padding: 10px 0;
+      margin-bottom: 5px;
+      margin-left: 150px;
+    }
+    .banimg{
+      margin-right: 180px;
+      margin-top: 30px;
+      z-index: 0;
+      border-radius: 30px;
+      box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+      margin-bottom: 0px;
+      width: 150px;
+      height: 125px;
+    }
+    .table3 span{
+      border: none;
+      width: 40px;
+      height: 50px;
+    }
+  .phone{
+    width: 50%;
+    height: 60%;
+    margin-left: 26%;
+    margin-top: 5%;
+  }
+  .followBanner{
+    margin-left: 0%;
+    font-size: .65em;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+  .xLogo{
+    width: 10%;
+    height: 35%;
+    margin-top: -5%;
+  }
+  
+  
+  /* ABOUT */
+  
+  
+    
+  .about {
+    display: block; /* Ensure it is not set to 'none' */
+    width: 105%;
+    height: 450px;
+    margin-top: 12.5vh;
+    margin-left: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
+    background-size: 100%;
     order: 2;
-  }
-  .contentSection {
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-  }
-  .tagLine{
-    border-radius: 10px;
-    width: 130%;
-    margin-left: -17%;
-    border-bottom: 1px solid #68b42b;
-    margin-top: 0%;
-  }
-  .tagLine h1{
-    color: white;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-    text-align: center;
-  }
-  .tagLine p{
-    color: white;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: .75em;
-    text-align: center;
-  }
-
-  .dataSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center children horizontally */
-    justify-content: center; /* Center children vertically */
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
   
-  .dataSection h1 {
-    margin-bottom: 12px; /* Add spacing between h1 and buttons */
-    border-radius: 10%;
-    padding: 5px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-right: 180px;
-    width: 100px;
-    border: 1px solid #68b42b;
   }
-
-  
-  .buttonContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center buttons horizontally */
-    gap: 10px; /* Spacing between buttons */
-    width: 100%; /* Ensure buttons take full width for centering */
-    margin-right: 330px;
-  }
-  
-  .stattable1{
-    width: 0%;
-    margin-left: 10%;
-    margin-top: -420px;
-    width: 12%;
-  }
-  .statttable1 th, .stattable1 td {
-    padding-top: 5px;
-    font-size: 1em;
-  }
-  .stattable1 h3{
-    padding: 1px;
-    font-size: .5em;
-  }
-  .logostat {
-    width: 15px;
-    height: 15px;
-    padding-right: 20px;
-  }
-  .tableImage{
-    border-radius: 20px;
-    height: 100px;
-    width: 100px;
-    margin-bottom: 0px;
-  }
-  .button {
-    width: 100px;
-    padding: 10px 0;
-    margin-bottom: 5px;
-    margin-left: 150px;
-  }
-  .banimg{
-    margin-right: 180px;
-    margin-top: 30px;
-    z-index: 0;
-    border-radius: 30px;
-    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-    margin-bottom: 0px;
-    width: 150px;
-    height: 125px;
-  }
-  .table3 span{
-    border: none;
-    width: 40px;
-    height: 50px;
-  }
-.phone{
-  width: 50%;
-  height: 60%;
-  margin-left: 45%;
-  margin-top: 5%;
-}
-.followBanner{
-  margin-left: 15%;
-  font-size: .75em;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-.xLogo{
-  width: 10%;
-  height: 35%;
-  margin-top: -5%;
-}
-
-
-/* ABOUT */
-
-
-  
-.about {
-  display: block; /* Ensure it is not set to 'none' */
-  width: 100%;
-  height: 450px;
-  margin-top: 10vh;
-  margin-left: 0px;
-  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.3)), url('/blank.png');
-  background-size: 100%;
-  order: 2;
-
-}
 .about h2{
   font-size: 2rem;
   width: 90%;
@@ -1823,156 +1826,155 @@ margin-top: 0px;
   
   
       /* MAIN */
-  
-    .banner {
-      height: 85vh;
-      top: 115px;
-      width: 100%;
-      order: 2; /* Main content */
-      margin: 0; /* Remove margin */
-      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
-      background-size: 25%;
+      .banner {
+        height: 80vh;
+        top: 115px;
+        width: 105%;
+        order: 2; /* Main content */
+        margin: 0; /* Remove margin */
+        background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
+        background-size: 25%;
+        order: 2;
+      }
+      .contentSection {
+        width: 100%;
+        order: 2; /* Main content */
+        margin: 0; /* Remove margin */
+      }
+      .tagLine{
+        border-radius: 10px;
+        width: 130%;
+        margin-left: -17%;
+        border-bottom: 1px solid #68b42b;
+        margin-top: 0%;
+      }
+      .tagLine h1{
+        color: white;
+        font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2em;
+        text-align: center;
+      }
+      .tagLine p{
+        color: white;
+        font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: .75em;
+        text-align: center;
+      }
+    
+      .dataSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center children horizontally */
+        justify-content: center; /* Center children vertically */
+        margin: 0;
+        padding: 0;
+        z-index: 1;
+        text-align: center;
+        color: #fff;
+        font-size: 1rem;
+        font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      
+      .dataSection h1 {
+        margin-bottom: 12px; /* Add spacing between h1 and buttons */
+        border-radius: 10%;
+        padding: 5px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+        margin-right: 180px;
+        width: 100px;
+        border: 1px solid #68b42b;
+      }
+    
+      
+      .buttonContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center buttons horizontally */
+        gap: 10px; /* Spacing between buttons */
+        width: 100%; /* Ensure buttons take full width for centering */
+        margin-right: 330px;
+      }
+      
+      .stattable1{
+        width: 0%;
+        margin-left: 10%;
+        margin-top: -420px;
+        width: 12%;
+      }
+      .statttable1 th, .stattable1 td {
+        padding-top: 5px;
+        font-size: 1em;
+      }
+      .stattable1 h3{
+        padding: 1px;
+        font-size: .75em;
+      }
+      .logostat {
+        width: 15px;
+        height: 15px;
+        padding-right: 20px;
+      }
+      .tableImage{
+        border-radius: 20px;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 0px;
+      }
+      .button {
+        width: 100px;
+        padding: 10px 0;
+        margin-bottom: 5px;
+        margin-left: 150px;
+      }
+      .banimg{
+        margin-right: 180px;
+        margin-top: 30px;
+        z-index: 0;
+        border-radius: 30px;
+        box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+        margin-bottom: 0px;
+        width: 150px;
+        height: 125px;
+      }
+      .table3 span{
+        border: none;
+        width: 40px;
+        height: 50px;
+      }
+    .phone{
+      width: 50%;
+      height: 60%;
+      margin-left: 26%;
+      margin-top: 5%;
+    }
+    .followBanner{
+      margin-left: 0%;
+      font-size: .65em;
+      margin-top: 5%;
+      margin-bottom: 0%;
+    }
+    .xLogo{
+      width: 10%;
+      height: 35%;
+      margin-top: -5%;
+    }
+    
+    
+    /* ABOUT */
+    
+    
+      
+    .about {
+      display: block; /* Ensure it is not set to 'none' */
+      width: 105%;
+      height: 450px;
+      margin-top: 12.5vh;
+      margin-left: 0px;
+      background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
+      background-size: 100%;
       order: 2;
-    }
-    .contentSection {
-      width: 100%;
-      order: 2; /* Main content */
-      margin: 0; /* Remove margin */
-    }
-    .tagLine{
-      border-radius: 10px;
-      width: 130%;
-      margin-left: -17%;
-      border-bottom: 1px solid #68b42b;
-      margin-top: 0%;
-    }
-    .tagLine h1{
-      color: white;
-      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 2em;
-      text-align: center;
-    }
-    .tagLine p{
-      color: white;
-      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: .75em;
-      text-align: center;
-    }
-  
-    .dataSection {
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* Center children horizontally */
-      justify-content: center; /* Center children vertically */
-      margin: 0;
-      padding: 0;
-      z-index: 1;
-      text-align: center;
-      color: #fff;
-      font-size: 1rem;
-      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
     
-    .dataSection h1 {
-      margin-bottom: 12px; /* Add spacing between h1 and buttons */
-      border-radius: 10%;
-      padding: 5px;
-      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-      margin-right: 180px;
-      width: 100px;
-      border: 1px solid #68b42b;
     }
-  
-    
-    .buttonContainer {
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* Center buttons horizontally */
-      gap: 10px; /* Spacing between buttons */
-      width: 100%; /* Ensure buttons take full width for centering */
-      margin-right: 330px;
-    }
-    
-    .stattable1{
-      width: 0%;
-      margin-left: 10%;
-      margin-top: -420px;
-      width: 12%;
-    }
-    .statttable1 th, .stattable1 td {
-      padding-top: 5px;
-      font-size: 1em;
-    }
-    .stattable1 h3{
-      padding: 1px;
-      font-size: .5em;
-    }
-    .logostat {
-      width: 15px;
-      height: 15px;
-      padding-right: 20px;
-    }
-    .tableImage{
-      border-radius: 20px;
-      height: 100px;
-      width: 100px;
-      margin-bottom: 0px;
-    }
-    .button {
-      width: 100px;
-      padding: 10px 0;
-      margin-bottom: 5px;
-      margin-left: 150px;
-    }
-    .banimg{
-      margin-right: 180px;
-      margin-top: 30px;
-      z-index: 0;
-      border-radius: 30px;
-      box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-      margin-bottom: 0px;
-      width: 150px;
-      height: 125px;
-    }
-    .table3 span{
-      border: none;
-      width: 40px;
-      height: 50px;
-    }
-  .phone{
-    width: 50%;
-    height: 60%;
-    margin-left: 45%;
-    margin-top: 5%;
-  }
-  .followBanner{
-    margin-left: 15%;
-    font-size: .75em;
-    margin-top: 0%;
-    margin-bottom: 0%;
-  }
-  .xLogo{
-    width: 10%;
-    height: 35%;
-    margin-top: -5%;
-  }
-  
-  
-  /* ABOUT */
-  
-  
-    
-  .about {
-    display: block; /* Ensure it is not set to 'none' */
-    width: 100%;
-    height: 450px;
-    margin-top: 10vh;
-    margin-left: 0px;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.3)), url('/blank.png');
-    background-size: 100%;
-    order: 2;
-  
-  }
   .about h2{
     font-size: 2rem;
     width: 90%;
@@ -1984,7 +1986,7 @@ margin-top: 0px;
   }
   .imageTextContainer {
     padding: 25px;
-    height: 34vh; /* example fixed height */
+    height: 32vh; /* example fixed height */
     width: 75px;  /* example fixed width */
     border-radius: 5%;
     margin-left: 5px;
@@ -2169,10 +2171,6 @@ margin-top: 0px;
 
 
 
-
-
-
-
 /* Small devices (phones, 600px and down) */
 @media only screen and (min-width: 500px) and (max-width: 750px)  {
  
@@ -2243,155 +2241,155 @@ margin-top: 0px;
 
     /* MAIN */
 
-  .banner {
-    height: 100vh;
-    top: 115px;
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
+    .banner {
+      height: 120vh;
+      top: 115px;
+      width: 105%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
+      background-size: 25%;
+      order: 2;
+    }
+    .contentSection {
+      width: 100%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+    }
+    .tagLine{
+      border-radius: 10px;
+      width: 130%;
+      margin-left: -17%;
+      border-bottom: 1px solid #68b42b;
+      margin-top: 0%;
+    }
+    .tagLine h1{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 2em;
+      text-align: center;
+    }
+    .tagLine p{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: .75em;
+      text-align: center;
+    }
+  
+    .dataSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center children horizontally */
+      justify-content: center; /* Center children vertically */
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+      text-align: center;
+      color: #fff;
+      font-size: 1rem;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .dataSection h1 {
+      margin-bottom: 12px; /* Add spacing between h1 and buttons */
+      border-radius: 10%;
+      padding: 5px;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+      margin-right: 180px;
+      width: 100px;
+      border: 1px solid #68b42b;
+    }
+  
+    
+    .buttonContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center buttons horizontally */
+      gap: 10px; /* Spacing between buttons */
+      width: 100%; /* Ensure buttons take full width for centering */
+      margin-right: 330px;
+    }
+    
+    .stattable1{
+      width: 0%;
+      margin-left: 10%;
+      margin-top: -420px;
+      width: 12%;
+    }
+    .statttable1 th, .stattable1 td {
+      padding-top: 5px;
+      font-size: 1em;
+    }
+    .stattable1 h3{
+      padding: 1px;
+      font-size: .75em;
+    }
+    .logostat {
+      width: 15px;
+      height: 15px;
+      padding-right: 20px;
+    }
+    .tableImage{
+      border-radius: 20px;
+      height: 100px;
+      width: 100px;
+      margin-bottom: 0px;
+    }
+    .button {
+      width: 100px;
+      padding: 10px 0;
+      margin-bottom: 5px;
+      margin-left: 150px;
+    }
+    .banimg{
+      margin-right: 180px;
+      margin-top: 30px;
+      z-index: 0;
+      border-radius: 30px;
+      box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+      margin-bottom: 0px;
+      width: 150px;
+      height: 125px;
+    }
+    .table3 span{
+      border: none;
+      width: 40px;
+      height: 50px;
+    }
+  .phone{
+    width: 50%;
+    height: 60%;
+    margin-left: 26%;
+    margin-top: 5%;
+  }
+  .followBanner{
+    margin-left: 0%;
+    font-size: 1em;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+  .xLogo{
+    width: 10%;
+    height: 35%;
+    margin-top: -5%;
+  }
+  
+  
+  /* ABOUT */
+  
+  
+    
+  .about {
+    display: block; /* Ensure it is not set to 'none' */
+    width: 105%;
+    height: 450px;
+    margin-top: 12.5vh;
+    margin-left: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
     background-size: 100%;
     order: 2;
-  }
-  .contentSection {
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-  }
-  .tagLine{
-    border-radius: 10px;
-    width: 130%;
-    margin-left: -17%;
-    border-bottom: 1px solid #68b42b;
-    margin-top: 0%;
-  }
-  .tagLine h1{
-    color: white;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-    text-align: center;
-  }
-  .tagLine p{
-    color: white;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: .75em;
-    text-align: center;
-  }
-
-  .dataSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center children horizontally */
-    justify-content: center; /* Center children vertically */
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
   
-  .dataSection h1 {
-    margin-bottom: 12px; /* Add spacing between h1 and buttons */
-    border-radius: 10%;
-    padding: 5px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-right: 180px;
-    width: 100px;
-    border: 1px solid #68b42b;
   }
-
-  
-  .buttonContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center buttons horizontally */
-    gap: 10px; /* Spacing between buttons */
-    width: 100%; /* Ensure buttons take full width for centering */
-    margin-right: 330px;
-  }
-  
-  .stattable1{
-    width: 0%;
-    margin-left: 10%;
-    margin-top: -420px;
-    width: 20%;
-  }
-  .statttable1 th, .stattable1 td {
-    padding-top: 5px;
-    font-size: 1em;
-  }
-  .stattable1 h3{
-    padding: 1px;
-    font-size: .75em;
-  }
-  .logostat {
-    width: 15px;
-    height: 15px;
-    padding-right: 20px;
-  }
-  .tableImage{
-    border-radius: 20px;
-    height: 100px;
-    width: 150px;
-    margin-bottom: 0px;
-  }
-  .button {
-    width: 100px;
-    padding: 10px 0;
-    margin-bottom: 5px;
-    margin-left: 150px;
-  }
-  .banimg{
-    margin-right: 180px;
-    margin-top: 30px;
-    z-index: 0;
-    border-radius: 30px;
-    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-    margin-bottom: 0px;
-    width: 150px;
-    height: 125px;
-  }
-  .table3 span{
-    border: none;
-    width: 40px;
-    height: 50px;
-  }
-.phone{
-  width: 50%;
-  height: 60%;
-  margin-left: 45%;
-  margin-top: 5%;
-}
-.followBanner{
-  margin-left: 15%;
-  font-size: .75em;
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-.xLogo{
-  width: 10%;
-  height: 35%;
-  margin-top: -5%;
-}
-
-
-/* ABOUT */
-
-
-  
-.about {
-  display: block; /* Ensure it is not set to 'none' */
-  width: 100%;
-  height: 450px;
-  margin-top: 95px;
-  margin-left: 0px;
-  background-color: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
-  background-size: 2%;
-  order: 2;
-
-}
 .about h2{
   font-size: 2rem;
   width: 90%;
@@ -2410,10 +2408,10 @@ margin-top: 0px;
   margin-right: -10px;
 }
 .imageTextContainer p {
-  max-width: 200px; /* Set a max-width for the text */
+  max-width: 150px; /* Set a max-width for the text */
   width: 150%; /* Ensure the text can expand to the max-width */
   padding: 0 0px; /* Optional: Add padding to control text from hitting the edges */
-  font-size: .5em;
+  font-size: .6em;
 }
 .aboutlogo{
 height: 70px;
@@ -2467,7 +2465,7 @@ margin-top: 0px;
       flex-direction: row; /* Horizontal layout */
       justify-content: space-around; /* Space items evenly */
       overflow-x: scroll;
-      margin-top: -35%;
+      margin-top: -30%;
       background-size: 120%;
       background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
       z-index: 10;
@@ -2650,130 +2648,155 @@ margin-top: 0px;
 
     /* MAIN */
 
-  .banner {
-    height: 85vh;
-    top: 135px;
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
-    background-size: 120%;
-  }
-  .contentSection {
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
+    .banner {
+      height: 150vh;
+      top: 115px;
+      width: 105%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
+      background-size: 25%;
+      order: 2;
+    }
+    .contentSection {
+      width: 100%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+    }
+    .tagLine{
+      border-radius: 10px;
+      width: 130%;
+      margin-left: -17%;
+      border-bottom: 1px solid #68b42b;
+      margin-top: 0%;
+    }
+    .tagLine h1{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 2em;
+      text-align: center;
+    }
+    .tagLine p{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: .75em;
+      text-align: center;
+    }
+  
+    .dataSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center children horizontally */
+      justify-content: center; /* Center children vertically */
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+      text-align: center;
+      color: #fff;
+      font-size: 1rem;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
     
+    .dataSection h1 {
+      margin-bottom: 12px; /* Add spacing between h1 and buttons */
+      border-radius: 10%;
+      padding: 5px;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+      margin-right: 180px;
+      width: 100px;
+      border: 1px solid #68b42b;
+    }
+  
+    
+    .buttonContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center buttons horizontally */
+      gap: 10px; /* Spacing between buttons */
+      width: 100%; /* Ensure buttons take full width for centering */
+      margin-right: 330px;
+    }
+    
+    .stattable1{
+      width: 0%;
+      margin-left: 10%;
+      margin-top: -420px;
+      width: 12%;
+    }
+    .statttable1 th, .stattable1 td {
+      padding-top: 5px;
+      font-size: 1em;
+    }
+    .stattable1 h3{
+      padding: 1px;
+      font-size: .75em;
+    }
+    .logostat {
+      width: 15px;
+      height: 15px;
+      padding-right: 20px;
+    }
+    .tableImage{
+      border-radius: 20px;
+      height: 100px;
+      width: 100px;
+      margin-bottom: 0px;
+    }
+    .button {
+      width: 100px;
+      padding: 10px 0;
+      margin-bottom: 5px;
+      margin-left: 150px;
+    }
+    .banimg{
+      margin-right: 180px;
+      margin-top: 30px;
+      z-index: 0;
+      border-radius: 30px;
+      box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+      margin-bottom: 0px;
+      width: 150px;
+      height: 125px;
+    }
+    .table3 span{
+      border: none;
+      width: 40px;
+      height: 50px;
+    }
+  .phone{
+    width: 50%;
+    height: 60%;
+    margin-left: 26%;
+    margin-top: 5%;
   }
-  .tagLine{
-    margin-top: -3vh;
+  .followBanner{
+    margin-left: 0%;
+    font-size: 1.5em;
+    margin-top: 5%;
+    margin-bottom: 0%;
   }
-
-  .dataSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center children horizontally */
-    justify-content: center; /* Center children vertically */
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  .xLogo{
+    width: 10%;
+    height: 35%;
+    margin-top: -5%;
   }
   
-  .dataSection h1 {
-    margin-bottom: 12px; /* Add spacing between h1 and buttons */
-    border-radius: 10%;
-    padding: 5px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-right: 400px;
-    width: 20%;
-    border: 1px solid #68b42b;
-  }
-
   
-  .buttonContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center buttons horizontally */
-    gap: 10px; /* Spacing between buttons */
-    width: 100%; /* Ensure buttons take full width for centering */
-    margin-right: 400px;
-  }
+  /* ABOUT */
   
-  .stattable1{
-    width: 35%;
-    margin-left: 5vh;
-    margin-top: -50vh;
-  }
-  .statttable1 th, .stattable1 td {
-    padding-top: 5px;
-    font-size: 1em;
-  }
-  .stattable1 h3{
-    padding: 2px;
-  }
-  .logostat {
-    width: 25px;
-    height: 25px;
-    padding-right: 20px;
-  }
-  .tableImage{
-    border-radius: 20px;
-    height: 200px;
-    width: 280px;
-    margin-bottom: -15px;
-  }
-  .button {
-    width: 120px;
-    padding: 10px 0;
-    margin-bottom: 5px;
+  
+    
+  .about {
+    display: block; /* Ensure it is not set to 'none' */
+    width: 105%;
+    height: 550px;
+    margin-top: 12.5vh;
     margin-left: 0px;
-  }
-  .banimg{
-    margin-right: 400px;
-    margin-top: 30px;
-    z-index: 0;
-    border-radius: 30px;
-    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-    margin-bottom: 0px;
-    width: 180px;
-    height: 130px;
-  }
-  .table3 span{
-    border: none;
-    width: 40px;
-    height: 50px;
-  }
-.phone{
-  margin-left: 35vh;
-  width: 40%;
-  height: 70%;
-  margin-top: 0vh;
-}
-.followBanner{
-  margin-left: 14vh;
-  margin-top: -1vh;
-}
-
-
-/* ABOUT */
-
-
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
+    background-size: 100%;
+    order: 2;
   
-.about {
-  display: block; /* Ensure it is not set to 'none' */
-  width: 100%;
-  height: 50vh;
-  margin-top: 3vh;
-  margin-left: 0px;
-  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('/blank.png');
-  background-size: 100%;
-  order: 2;
-
-}
+  }
 .about h2{
   font-size: 2rem;
   width: 92.5%;
@@ -2785,7 +2808,7 @@ margin-top: 0px;
 }
 .imageTextContainer {
   padding: 25px;
-  height: 35vh; /* example fixed height */
+  height: 40vh; /* example fixed height */
   width: 100%;  /* example fixed width */
   border-radius: 5%;
   margin-left: 0px;
@@ -2793,7 +2816,7 @@ margin-top: 0px;
 .imageTextContainer p {
   max-width: 250px; /* Set a max-width for the text */
   width: 95%; /* Ensure the text can expand to the max-width */
-  font-size: .9em;
+  font-size: .8em;
 }
 .aboutlogo{
 height: 90px;
@@ -3031,130 +3054,156 @@ margin-top: 0px;
 
     /* MAIN */
 
-  .banner {
-    height: 80vh;
-    top: 145px;
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/blank.png');
-    background-size: 120%;
-  }
-  .contentSection {
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
+    .banner {
+      height: 150vh;
+      top: 115px;
+      width: 105%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
+      background-size: 25%;
+      order: 2;
+    }
+    .contentSection {
+      width: 100%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+    }
+    .tagLine{
+      border-radius: 10px;
+      width: 130%;
+      margin-left: -17%;
+      border-bottom: 1px solid #68b42b;
+      margin-top: 0%;
+    }
+    .tagLine h1{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 3em;
+      text-align: center;
+    }
+    .tagLine p{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1em;
+      text-align: center;
+    }
+  
+    .dataSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center children horizontally */
+      justify-content: center; /* Center children vertically */
+      margin: 0;
+      padding: 0;
+      z-index: 1;
+      text-align: center;
+      color: #fff;
+      font-size: 1rem;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
     
-  }
-  .tagLine{
-    margin-top: -3vh;
-  }
+    .dataSection h1 {
+      margin-bottom: 12px; /* Add spacing between h1 and buttons */
+      border-radius: 10%;
+      padding: 5px;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+      margin-right: 180px;
+      width: 100px;
+      border: 1px solid #68b42b;
+    }
+  
+    
+    .buttonContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center buttons horizontally */
+      gap: 10px; /* Spacing between buttons */
+      width: 100%; /* Ensure buttons take full width for centering */
+      margin-right: 330px;
+    }
+    
+    .stattable1{
+      width: 0%;
+      margin-left: 10%;
+      margin-top: -420px;
+      width: 12%;
+    }
+    .statttable1 th, .stattable1 td {
+      padding-top: 5px;
+      font-size: 1em;
+    }
+    .stattable1 h3{
+      padding: 1px;
+      font-size: .75em;
+    }
+    .logostat {
+      width: 15px;
+      height: 15px;
+      padding-right: 20px;
+    }
+    .tableImage{
+      border-radius: 20px;
+      height: 100px;
+      width: 100px;
+      margin-bottom: 0px;
+    }
+    .button {
+      width: 100px;
+      padding: 10px 0;
+      margin-bottom: 5px;
+      margin-left: 150px;
+    }
+    .banimg{
+      margin-right: 180px;
+      margin-top: 30px;
+      z-index: 0;
+      border-radius: 30px;
+      box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+      margin-bottom: 0px;
+      width: 150px;
+      height: 125px;
+    }
+    .table3 span{
+      border: none;
+      width: 40px;
+      height: 50px;
+    }
+  .phone{
+    width: 40%;
+    height: 50%;
+    margin-left: 28%;
+    margin-top: 5%;
 
-  .dataSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center children horizontally */
-    justify-content: center; /* Center children vertically */
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-    text-align: center;
-    color: #fff;
-    font-size: 1rem;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .followBanner{
+    margin-left: -3%;
+    font-size: 2em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .xLogo{
+    width: 10%;
+    height: 35%;
+    margin-top: -5%;
   }
   
-  .dataSection h1 {
-    margin-bottom: 12px; /* Add spacing between h1 and buttons */
-    border-radius: 10%;
-    padding: 5px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-right: 400px;
-    width: 20%;
-    border: 1px solid #68b42b;
-  }
-
   
-  .buttonContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center buttons horizontally */
-    gap: 10px; /* Spacing between buttons */
-    width: 100%; /* Ensure buttons take full width for centering */
-    margin-right: 400px;
-  }
+  /* ABOUT */
   
-  .stattable1{
-    width: 35%;
-    margin-left: 5vh;
-    margin-top: -50vh;
-  }
-  .statttable1 th, .stattable1 td {
-    padding-top: 5px;
-    font-size: 1em;
-  }
-  .stattable1 h3{
-    padding: 2px;
-  }
-  .logostat {
-    width: 25px;
-    height: 25px;
-    padding-right: 20px;
-  }
-  .tableImage{
-    border-radius: 20px;
-    height: 200px;
-    width: 280px;
-    margin-bottom: -15px;
-  }
-  .button {
-    width: 120px;
-    padding: 10px 0;
-    margin-bottom: 5px;
+  
+    
+  .about {
+    display: block; /* Ensure it is not set to 'none' */
+    width: 105%;
+    height: 450px;
+    margin-top: 12.5vh;
     margin-left: 0px;
-  }
-  .banimg{
-    margin-right: 400px;
-    margin-top: 30px;
-    z-index: 0;
-    border-radius: 30px;
-    box-shadow: 0px 10px 20px rgba(0,0,0, 30);
-    margin-bottom: 0px;
-    width: 180px;
-    height: 130px;
-  }
-  .table3 span{
-    border: none;
-    width: 40px;
-    height: 50px;
-  }
-.phone{
-  margin-left: 35vh;
-  width: 40%;
-  height: 70%;
-  margin-top: 0vh;
-}
-.followBanner{
-  margin-left: 14vh;
-  margin-top: -1vh;
-}
-
-
-/* ABOUT */
-
-
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
+    background-size: 100%;
+    order: 2;
   
-.about {
-  display: block; /* Ensure it is not set to 'none' */
-  width: 100%;
-  height: 50vh;
-  margin-top: 11vh;
-  margin-left: 0px;
-  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('/blank.png');
-  background-size: 100%;
-  order: 2;
-
-}
+  }
 .about h2{
   font-size: 2rem;
   width: 92.5%;
@@ -3173,8 +3222,8 @@ margin-top: 0px;
 }
 .imageTextContainer p {
   max-width: 250px; /* Set a max-width for the text */
-  width: 95%; /* Ensure the text can expand to the max-width */
-  font-size: .9em;
+  width: 90%; /* Ensure the text can expand to the max-width */
+  font-size: .8em;
 }
 .aboutlogo{
 height: 90px;
