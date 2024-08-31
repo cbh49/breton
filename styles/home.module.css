@@ -982,7 +982,7 @@
     /* MAIN */
 
   .banner {
-    height: 70vh;
+    height: 72vh;
     top: 115px;
     width: 105%;
     order: 2; /* Main content */
@@ -1123,7 +1123,7 @@
   display: block; /* Ensure it is not set to 'none' */
   width: 105%;
   height: 450px;
-  margin-top: 12.5vh;
+  margin-top: 13.5vh;
   margin-left: 0px;
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
   background-size: 100%;
@@ -1400,7 +1400,7 @@ margin-top: 0px;
     /* MAIN */
 
     .banner {
-      height: 70vh;
+      height: 72vh;
       top: 115px;
       width: 105%;
       order: 2; /* Main content */
@@ -1541,7 +1541,7 @@ margin-top: 0px;
     display: block; /* Ensure it is not set to 'none' */
     width: 105%;
     height: 450px;
-    margin-top: 12.5vh;
+    margin-top: 14vh;
     margin-left: 0px;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
     background-size: 100%;
@@ -1827,7 +1827,7 @@ margin-top: 0px;
   
       /* MAIN */
       .banner {
-        height: 80vh;
+        height: 82vh;
         top: 115px;
         width: 105%;
         order: 2; /* Main content */
@@ -1968,7 +1968,7 @@ margin-top: 0px;
       display: block; /* Ensure it is not set to 'none' */
       width: 105%;
       height: 450px;
-      margin-top: 12.5vh;
+      margin-top: 15vh;
       margin-left: 0px;
       background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
       background-size: 100%;
@@ -2383,7 +2383,7 @@ margin-top: 0px;
     display: block; /* Ensure it is not set to 'none' */
     width: 105%;
     height: 450px;
-    margin-top: 12.5vh;
+    margin-top: 15vh;
     margin-left: 0px;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
     background-size: 100%;
@@ -2790,7 +2790,7 @@ margin-top: 0px;
     display: block; /* Ensure it is not set to 'none' */
     width: 105%;
     height: 550px;
-    margin-top: 12.5vh;
+    margin-top: 15vh;
     margin-left: 0px;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
     background-size: 100%;
@@ -3197,7 +3197,7 @@ margin-top: 0px;
     display: block; /* Ensure it is not set to 'none' */
     width: 105%;
     height: 450px;
-    margin-top: 12.5vh;
+    margin-top: 15vh;
     margin-left: 0px;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
     background-size: 100%;
