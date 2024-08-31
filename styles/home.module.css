@@ -157,7 +157,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 85vh;
+  height: 50vh;
   top: 15vh;
   width: calc(100%); /* Subtracting 400px from each side */
   border-radius: 2%;;
@@ -209,21 +209,21 @@
 }
 .tagLine{
   border-radius: 10px;
-  width: 130%;
-  margin-left: -17%;
+  width: 200%;
   border-bottom: 1px solid #68b42b;
-  margin-top: -7.5%;
+  margin-top: 0%;
+  margin-left: -45%;
 }
 .tagLine h1{
   color: white;
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 3em;
+  font-size: 7em;
   text-align: center;
 }
 .tagLine p{
   color: white;
   font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1em;
+  font-size: 2.5em;
   text-align: center;
 }
 .stattable1{
@@ -652,7 +652,7 @@
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
-    margin-top: -8.5%;
+    margin-top: -15vh;
     background-size: 120%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
     z-index: 10;
@@ -981,40 +981,42 @@
 
     /* MAIN */
 
-  .banner {
-    height: 72vh;
-    top: 115px;
-    width: 105%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
-    background-size: 25%;
-    order: 2;
-  }
-  .contentSection {
-    width: 100%;
-    order: 2; /* Main content */
-    margin: 0; /* Remove margin */
-  }
-  .tagLine{
-    border-radius: 10px;
-    width: 130%;
-    margin-left: -17%;
-    border-bottom: 1px solid #68b42b;
-    margin-top: 0%;
-  }
-  .tagLine h1{
-    color: white;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
-    text-align: center;
-  }
-  .tagLine p{
-    color: white;
-    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: .75em;
-    text-align: center;
-  }
+
+    .banner {
+      height: 30vh;
+      top: 115px;
+      width: 105%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+      background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url('/betn.png');
+      background-size: 25%;
+      order: 2;
+    }
+    .contentSection {
+      width: 100%;
+      order: 2; /* Main content */
+      margin: 0; /* Remove margin */
+    }
+    .tagLine{
+      border-radius: 10px;
+      width: 130%;
+      margin-left: -17%;
+      border-bottom: 1px solid #68b42b;
+      margin-top: 20%;
+    }
+    .tagLine h1{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 2.5em;
+      text-align: center;
+    }
+    .tagLine p{
+      color: white;
+      font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1em;
+      text-align: center;
+    }
+  
 
   .dataSection {
     display: flex;
@@ -1123,7 +1125,7 @@
   display: block; /* Ensure it is not set to 'none' */
   width: 105%;
   height: 450px;
-  margin-top: 13.5vh;
+  margin-top: 12.5vh;
   margin-left: 0px;
   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
   background-size: 100%;
@@ -1204,7 +1206,7 @@ margin-top: 0px;
       flex-direction: row; /* Horizontal layout */
       justify-content: space-around; /* Space items evenly */
       overflow-x: scroll;
-      margin-top: -40%;
+      margin-top: -15vh;
       background-size: 120%;
       background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
       z-index: 10;
@@ -1399,8 +1401,9 @@ margin-top: 0px;
 
     /* MAIN */
 
+
     .banner {
-      height: 72vh;
+      height: 40vh;
       top: 115px;
       width: 105%;
       order: 2; /* Main content */
@@ -1419,20 +1422,21 @@ margin-top: 0px;
       width: 130%;
       margin-left: -17%;
       border-bottom: 1px solid #68b42b;
-      margin-top: 0%;
+      margin-top: 20%;
     }
     .tagLine h1{
       color: white;
       font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 2em;
+      font-size: 2.5em;
       text-align: center;
     }
     .tagLine p{
       color: white;
       font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: .75em;
+      font-size: 1em;
       text-align: center;
     }
+  
   
     .dataSection {
       display: flex;
@@ -1541,7 +1545,7 @@ margin-top: 0px;
     display: block; /* Ensure it is not set to 'none' */
     width: 105%;
     height: 450px;
-    margin-top: 14vh;
+    margin-top: 13vh;
     margin-left: 0px;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
     background-size: 100%;
@@ -1622,7 +1626,7 @@ margin-top: 0px;
       flex-direction: row; /* Horizontal layout */
       justify-content: space-around; /* Space items evenly */
       overflow-x: scroll;
-      margin-top: -38%;
+      margin-top: -15vh;
       background-size: 120%;
       background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
       z-index: 10;
@@ -1826,8 +1830,9 @@ margin-top: 0px;
   
   
       /* MAIN */
+ 
       .banner {
-        height: 82vh;
+        height: 45vh;
         top: 115px;
         width: 105%;
         order: 2; /* Main content */
@@ -1846,18 +1851,18 @@ margin-top: 0px;
         width: 130%;
         margin-left: -17%;
         border-bottom: 1px solid #68b42b;
-        margin-top: 0%;
+        margin-top: 20%;
       }
       .tagLine h1{
         color: white;
         font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2em;
+        font-size: 3em;
         text-align: center;
       }
       .tagLine p{
         color: white;
         font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: .75em;
+        font-size: 1.25em;
         text-align: center;
       }
     
@@ -1968,7 +1973,7 @@ margin-top: 0px;
       display: block; /* Ensure it is not set to 'none' */
       width: 105%;
       height: 450px;
-      margin-top: 15vh;
+      margin-top: 13.5vh;
       margin-left: 0px;
       background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
       background-size: 100%;
@@ -2049,7 +2054,7 @@ margin-top: 0px;
         flex-direction: row; /* Horizontal layout */
         justify-content: space-around; /* Space items evenly */
         overflow-x: scroll;
-        margin-top: -35%;
+        margin-top: -15vh;
         background-size: 120%;
         background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
         z-index: 10;
@@ -2242,7 +2247,7 @@ margin-top: 0px;
     /* MAIN */
 
     .banner {
-      height: 120vh;
+      height: 45vh;
       top: 115px;
       width: 105%;
       order: 2; /* Main content */
@@ -2261,18 +2266,18 @@ margin-top: 0px;
       width: 130%;
       margin-left: -17%;
       border-bottom: 1px solid #68b42b;
-      margin-top: 0%;
+      margin-top: 20%;
     }
     .tagLine h1{
       color: white;
       font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 2em;
+      font-size: 3.5em;
       text-align: center;
     }
     .tagLine p{
       color: white;
       font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: .75em;
+      font-size: 1.5em;
       text-align: center;
     }
   
@@ -2383,7 +2388,7 @@ margin-top: 0px;
     display: block; /* Ensure it is not set to 'none' */
     width: 105%;
     height: 450px;
-    margin-top: 15vh;
+    margin-top: 12.5vh;
     margin-left: 0px;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
     background-size: 100%;
@@ -2465,7 +2470,7 @@ margin-top: 0px;
       flex-direction: row; /* Horizontal layout */
       justify-content: space-around; /* Space items evenly */
       overflow-x: scroll;
-      margin-top: -30%;
+      margin-top: -15vh;
       background-size: 120%;
       background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
       z-index: 10;
@@ -2649,7 +2654,7 @@ margin-top: 0px;
     /* MAIN */
 
     .banner {
-      height: 150vh;
+      height: 45vh;
       top: 115px;
       width: 105%;
       order: 2; /* Main content */
@@ -2668,20 +2673,21 @@ margin-top: 0px;
       width: 130%;
       margin-left: -17%;
       border-bottom: 1px solid #68b42b;
-      margin-top: 0%;
+      margin-top: 10%;
     }
     .tagLine h1{
       color: white;
       font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 2em;
+      font-size: 4em;
       text-align: center;
     }
     .tagLine p{
       color: white;
       font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: .75em;
+      font-size: 2em;
       text-align: center;
     }
+  
   
     .dataSection {
       display: flex;
@@ -2790,7 +2796,7 @@ margin-top: 0px;
     display: block; /* Ensure it is not set to 'none' */
     width: 105%;
     height: 550px;
-    margin-top: 15vh;
+    margin-top: 12.5vh;
     margin-left: 0px;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
     background-size: 100%;
@@ -2865,7 +2871,7 @@ margin-top: 0px;
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
-    margin-top: -14vh;
+    margin-top: -15vh;
     background-size: 120%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
     z-index: 10;
@@ -3055,7 +3061,7 @@ margin-top: 0px;
     /* MAIN */
 
     .banner {
-      height: 150vh;
+      height: 45vh;
       top: 115px;
       width: 105%;
       order: 2; /* Main content */
@@ -3074,18 +3080,18 @@ margin-top: 0px;
       width: 130%;
       margin-left: -17%;
       border-bottom: 1px solid #68b42b;
-      margin-top: 0%;
+      margin-top: 10%;
     }
     .tagLine h1{
       color: white;
       font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 3em;
+      font-size: 4em;
       text-align: center;
     }
     .tagLine p{
       color: white;
       font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 1em;
+      font-size: 2em;
       text-align: center;
     }
   
@@ -3197,7 +3203,7 @@ margin-top: 0px;
     display: block; /* Ensure it is not set to 'none' */
     width: 105%;
     height: 450px;
-    margin-top: 15vh;
+    margin-top: 12.5vh;
     margin-left: 0px;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,.1)), url('/blank.png');
     background-size: 100%;
@@ -3273,7 +3279,7 @@ margin-top: 0px;
     flex-direction: row; /* Horizontal layout */
     justify-content: space-around; /* Space items evenly */
     overflow-x: scroll;
-    margin-top: -10vh;
+    margin-top: -15vh;
     background-size: 120%;
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
     z-index: 10;

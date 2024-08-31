@@ -1,5 +1,5 @@
 // pages/index.tsx
-import styles from '../styles/home.module.css';
+import styles from '../styles/home2.module.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -229,16 +229,6 @@ const Home = () => {
               <h1>Breton AI Picks</h1>
               <p>Your home for Advanced Sports Data</p>
               </div>
-
-          <div className={styles.followBanner}>
-            <h2>Follow Breton on</h2><br />
-            <Link href="https://twitter.com/BretonPicks">
-              <Image src="/xWhite.png" alt="Logo" width={70} height={70} className={styles.xLogo} />
-            </Link>
-          </div>
-          <Link href="https://twitter.com/BretonPicks">
-          <Image src="/xPhone.png" alt="Logo" width={300} height={500} className={styles.phone} />
-        </Link>
         </div>
       </div>          
         <>
