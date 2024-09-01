@@ -2,82 +2,91 @@
     {
         "Team1": "Chicago Cubs",
         "Team2": "Washington Nationals",
-        "Team1total": 8.703660000000001,
-        "Team2total": 3.7229639999999997,
-        "Team1Pitcher": "Javier Assad",
-        "Team2Pitcher": "DJ Herz",
-        "MLdifference": 4.980696000000002
+        "Team1total": 9.6831,
+        "Team2total": 3.532708,
+        "Team1Pitcher": "Jordan Wicks",
+        "Team2Pitcher": "Mitchell Parker",
+        "MLdifference": 6.150392
+    },
+    {
+        "Team1": "New York Mets",
+        "Team2": "Chicago White Sox",
+        "Team1total": 4.4710160000000005,
+        "Team2total": 2.3506560000000003,
+        "Team1Pitcher": "Sean Manaea",
+        "Team2Pitcher": "Garrett Crochet",
+        "MLdifference": 2.1203600000000002
+    },
+    {
+        "Team1": "Baltimore Orioles",
+        "Team2": "Colorado Rockies",
+        "Team1total": 3.7524960000000007,
+        "Team2total": 5.713344000000001,
+        "Team1Pitcher": "Zach Eflin",
+        "Team2Pitcher": "Ty Blach",
+        "MLdifference": 1.9608480000000004
     },
     {
         "Team1": "Boston Red Sox",
         "Team2": "Detroit Tigers",
-        "Team1total": 2.9568000000000003,
-        "Team2total": 5.08668,
-        "Team1Pitcher": "Nick Pivetta",
-        "Team2Pitcher": "Tarik Skubal",
-        "MLdifference": 2.12988
+        "Team1total": 2.891416,
+        "Team2total": 4.55124,
+        "Team1Pitcher": "Cooper Criswell",
+        "Team2Pitcher": "Beau Brieske",
+        "MLdifference": 1.659824
     },
     {
-        "Team1": "Miami Marlins",
-        "Team2": "San Francisco Giants",
-        "Team1total": 5.532840000000001,
-        "Team2total": 3.42992,
-        "Team1Pitcher": "Edward Cabrera",
-        "Team2Pitcher": "Mason Black",
-        "MLdifference": 2.102920000000001
+        "Team1": "St. Louis Cardinals",
+        "Team2": "New York Yankees",
+        "Team1total": 3.3616319999999997,
+        "Team2total": 4.863936,
+        "Team1Pitcher": "Miles Mikolas",
+        "Team2Pitcher": "Nestor Cortes",
+        "MLdifference": 1.502304
     },
     {
         "Team1": "San Diego Padres",
         "Team2": "Tampa Bay Rays",
         "Team1total": 4.885496000000001,
-        "Team2total": 2.8180799999999997,
-        "Team1Pitcher": "Randy V\u00c3\u0192\u00c2\u00a1squez",
-        "Team2Pitcher": "Shane Baz",
-        "MLdifference": 2.067416000000001
-    },
-    {
-        "Team1": "Kansas City Royals",
-        "Team2": "Houston Astros",
-        "Team1total": 4.377912000000001,
-        "Team2total": 3.447444,
-        "Team1Pitcher": "Cole Ragans",
-        "Team2Pitcher": "Yusei Kikuchi",
-        "MLdifference": 0.9304680000000012
-    },
-    {
-        "Team1": "Seattle Mariners",
-        "Team2": "Los Angeles Angels",
-        "Team1total": 3.405864,
-        "Team2total": 2.669348,
-        "Team1Pitcher": "Bryan Woo",
-        "Team2Pitcher": "Tyler Anderson",
-        "MLdifference": 0.736516
-    },
-    {
-        "Team1": "Baltimore Orioles",
-        "Team2": "Colorado Rockies",
-        "Team1total": 4.224,
-        "Team2total": 4.843524,
-        "Team1Pitcher": "Dean Kremer",
-        "Team2Pitcher": "Ryan Feltner",
-        "MLdifference": 0.6195240000000002
+        "Team2total": 3.70576,
+        "Team1Pitcher": "Dylan Cease",
+        "Team2Pitcher": "Ryan Pepiot",
+        "MLdifference": 1.1797360000000006
     },
     {
         "Team1": "Los Angeles Dodgers",
         "Team2": "Arizona Diamondbacks",
-        "Team1total": 6.547112000000001,
-        "Team2total": 6.983812000000001,
-        "Team1Pitcher": "Gavin Stone",
-        "Team2Pitcher": "Merrill Kelly",
-        "MLdifference": 0.4367000000000001
+        "Team1total": 6.758400000000001,
+        "Team2total": 7.163904000000001,
+        "Team1Pitcher": "Justin Wrobleski",
+        "Team2Pitcher": "Brandon Pfaadt",
+        "MLdifference": 0.40550400000000053
+    },
+    {
+        "Team1": "Toronto Blue Jays",
+        "Team2": "Minnesota Twins",
+        "Team1total": 4.311216000000001,
+        "Team2total": 4.02864,
+        "Team1Pitcher": "Yariel Rodr\u00c3\u0192\u00c2\u00adguez",
+        "Team2Pitcher": "Bailey Ober",
+        "MLdifference": 0.2825760000000006
+    },
+    {
+        "Team1": "Kansas City Royals",
+        "Team2": "Houston Astros",
+        "Team1total": 4.2115920000000004,
+        "Team2total": 4.12776,
+        "Team1Pitcher": "Alec Marsh",
+        "Team2Pitcher": "Ronel Blanco",
+        "MLdifference": 0.08383200000000013
     },
     {
         "Team1": "Atlanta Braves",
         "Team2": "Philadelphia Phillies",
-        "Team1total": 4.267788,
-        "Team2total": 4.319216,
-        "Team1Pitcher": "Max Fried",
-        "Team2Pitcher": "Zack Wheeler",
-        "MLdifference": 0.051427999999999585
+        "Team1total": 4.26384,
+        "Team2total": 4.310292,
+        "Team1Pitcher": "Spencer Schwellenbach",
+        "Team2Pitcher": "Aaron Nola",
+        "MLdifference": 0.046451999999999494
     }
 ]
