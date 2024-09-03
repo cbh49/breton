@@ -1,74 +1,83 @@
 [
     {
-        "PlayerName": "Corbin Burnes",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669203/headshot/silo/current",
-        "team": "Baltimore Orioles",
-        "Line": 6.5,
+        "PlayerName": "David Peterson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656849/headshot/silo/current",
+        "team": "New York Mets",
+        "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "8/10",
-        "Odds": "-129"
+        "Odds": "+100"
     },
     {
-        "PlayerName": "Michael Wacha",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608379/headshot/silo/current",
+        "PlayerName": "Kutter Crawford",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676710/headshot/silo/current",
+        "team": "Boston Red Sox",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "8/10",
+        "Odds": "-103"
+    },
+    {
+        "PlayerName": "Cade Povich",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/700249/headshot/silo/current",
+        "team": "Baltimore Orioles",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "+117"
+    },
+    {
+        "PlayerName": "Brady Singer",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663903/headshot/silo/current",
         "team": "Kansas City Royals",
         "Line": 4.5,
         "OverUnder": "OVER",
-        "HitRate": "7/10",
-        "Odds": "+104"
+        "HitRate": "8/10",
+        "Odds": "-139"
     },
     {
-        "PlayerName": "Joe Musgrove",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605397/headshot/silo/current",
-        "team": "San Diego Padres",
-        "Line": 6.5,
+        "PlayerName": "Chris Sale",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/519242/headshot/silo/current",
+        "team": "Atlanta Braves",
+        "Line": 9.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "+115"
+    },
+    {
+        "PlayerName": "Walker Buehler",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621111/headshot/silo/current",
+        "team": "Los Angeles Dodgers",
+        "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "8/10",
-        "Odds": "+118"
+        "Odds": "-120"
     },
     {
-        "PlayerName": "Justin Verlander",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/434378/headshot/silo/current",
-        "team": "Houston Astros",
-        "Line": 6.5,
+        "PlayerName": "Andrew Heaney",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571760/headshot/silo/current",
+        "team": "Texas Rangers",
+        "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "+110"
+        "Odds": "+120"
     },
     {
-        "PlayerName": "Jack Flaherty",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656427/headshot/silo/current",
-        "team": "Los Angeles Dodgers",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "7/10",
-        "Odds": "-125"
-    },
-    {
-        "PlayerName": "Jameson Taillon",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592791/headshot/silo/current",
+        "PlayerName": "Kyle Hendricks",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543294/headshot/silo/current",
         "team": "Chicago Cubs",
-        "Line": 5.5,
+        "Line": 3.5,
         "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "+133"
+        "Odds": "-148"
     },
     {
-        "PlayerName": "Logan Gilbert",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669302/headshot/silo/current",
-        "team": "Seattle Mariners",
-        "Line": 7.5,
+        "PlayerName": "Max Meyer",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676974/headshot/silo/current",
+        "team": "Miami Marlins",
+        "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "+128"
-    },
-    {
-        "PlayerName": "Freddy Peralta",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/642547/headshot/silo/current",
-        "team": "Milwaukee Brewers",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "7/10",
-        "Odds": "+105"
+        "Odds": "-114"
     }
 ]

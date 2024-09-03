@@ -1,29 +1,56 @@
 [
     {
-        "PlayerName": "Michael Wacha",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608379/headshot/silo/current",
+        "PlayerName": "Kutter Crawford",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676710/headshot/silo/current",
+        "team": "Boston Red Sox",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "-103"
+    },
+    {
+        "PlayerName": "Tanner Bibee",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676440/headshot/silo/current",
+        "team": "Cleveland Guardians",
+        "Line": 5.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "+123"
+    },
+    {
+        "PlayerName": "Brady Singer",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663903/headshot/silo/current",
         "team": "Kansas City Royals",
         "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "+104"
+        "Odds": "-139"
     },
     {
-        "PlayerName": "Justin Verlander",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/434378/headshot/silo/current",
-        "team": "Houston Astros",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+110"
-    },
-    {
-        "PlayerName": "Jack Leiter",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/683004/headshot/silo/current",
-        "team": "New York Yankees",
+        "PlayerName": "Walker Buehler",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621111/headshot/silo/current",
+        "team": "Los Angeles Dodgers",
         "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-135"
+        "Odds": "-120"
+    },
+    {
+        "PlayerName": "Kyle Hendricks",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543294/headshot/silo/current",
+        "team": "Chicago Cubs",
+        "Line": 3.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "-148"
+    },
+    {
+        "PlayerName": "Steven Matz",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571927/headshot/silo/current",
+        "team": "St. Louis Cardinals",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "+120"
     }
 ]

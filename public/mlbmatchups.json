@@ -1,17 +1,7 @@
 [
     {
-        "Team1": "New York Yankees",
-        "Team2": "Texas Rangers",
-        "Total": 8.5
-    },
-    {
-        "Team1": "Pittsburgh Pirates",
-        "Team2": "Chicago Cubs",
-        "Total": 7.5
-    },
-    {
-        "Team1": "Boston Red Sox",
-        "Team2": "New York Mets",
+        "Team1": "Arizona Diamondbacks",
+        "Team2": "San Francisco Giants",
         "Total": 7.5
     },
     {
@@ -20,24 +10,19 @@
         "Total": 7.5
     },
     {
-        "Team1": "Minnesota Twins",
-        "Team2": "Tampa Bay Rays",
-        "Total": 7.5
-    },
-    {
-        "Team1": "Detroit Tigers",
-        "Team2": "San Diego Padres",
-        "Total": 8
-    },
-    {
         "Team1": "Los Angeles Dodgers",
-        "Team2": "Arizona Diamondbacks",
-        "Total": 8.5
+        "Team2": "Los Angeles Angels",
+        "Total": 9.5
     },
     {
-        "Team1": "Houston Astros",
-        "Team2": "Cincinnati Reds",
+        "Team1": "New York Yankees",
+        "Team2": "Texas Rangers",
         "Total": 9
+    },
+    {
+        "Team1": "St. Louis Cardinals",
+        "Team2": "Milwaukee Brewers",
+        "Total": 8.5
     },
     {
         "Team1": "Cleveland Guardians",
@@ -45,13 +30,38 @@
         "Total": 8
     },
     {
-        "Team1": "Chicago White Sox",
-        "Team2": "Baltimore Orioles",
+        "Team1": "Pittsburgh Pirates",
+        "Team2": "Chicago Cubs",
+        "Total": 7
+    },
+    {
+        "Team1": "Colorado Rockies",
+        "Team2": "Atlanta Braves",
+        "Total": 7.5
+    },
+    {
+        "Team1": "Boston Red Sox",
+        "Team2": "New York Mets",
+        "Total": 8
+    },
+    {
+        "Team1": "Philadelphia Phillies",
+        "Team2": "Toronto Blue Jays",
+        "Total": 9
+    },
+    {
+        "Team1": "Minnesota Twins",
+        "Team2": "Tampa Bay Rays",
+        "Total": 7.5
+    },
+    {
+        "Team1": "Washington Nationals",
+        "Team2": "Miami Marlins",
         "Total": 8.5
     },
     {
-        "Team1": "St. Louis Cardinals",
-        "Team2": "Milwaukee Brewers",
-        "Total": 7.5
+        "Team1": "Chicago White Sox",
+        "Team2": "Baltimore Orioles",
+        "Total": 9
     }
 ]
