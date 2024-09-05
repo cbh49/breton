@@ -1,65 +1,20 @@
 [
     {
-        "PlayerName": "Hayden Birdsong",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/806185/headshot/silo/current",
-        "team": "San Francisco Giants",
-        "Line": 4.5,
-        "OverUnder": "OVER",
+        "PlayerName": "Merrill Kelly",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/518876/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-140"
+        "Odds": "-120"
     },
     {
-        "PlayerName": "Tylor Megill",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656731/headshot/silo/current",
-        "team": "New York Mets",
+        "PlayerName": "Taj Bradley",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/671737/headshot/silo/current",
+        "team": "Tampa Bay Rays",
         "Line": 6.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "+108"
-    },
-    {
-        "PlayerName": "Nick Martinez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607259/headshot/silo/current",
-        "team": "Cincinnati Reds",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "-139"
-    },
-    {
-        "PlayerName": "Marcus Stroman",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/573186/headshot/silo/current",
-        "team": "New York Yankees",
-        "Line": 4.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "+130"
-    },
-    {
-        "PlayerName": "George Kirby",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669923/headshot/silo/current",
-        "team": "Seattle Mariners",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "-115"
-    },
-    {
-        "PlayerName": "Colin Rea",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607067/headshot/silo/current",
-        "team": "Milwaukee Brewers",
-        "Line": 4.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "+100"
-    },
-    {
-        "PlayerName": "MacKenzie Gore",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669022/headshot/silo/current",
-        "team": "Washington Nationals",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+107"
+        "Odds": "-155"
     }
 ]
