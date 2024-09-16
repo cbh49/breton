@@ -1,47 +1,11 @@
 [
     {
-        "PlayerName": "Framber Valdez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664285/headshot/silo/current",
-        "team": "Houston Astros",
-        "Line": 6.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "+132"
-    },
-    {
-        "PlayerName": "Frankie Montas",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/593423/headshot/silo/current",
-        "team": "Milwaukee Brewers",
-        "Line": 7.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+117"
-    },
-    {
-        "PlayerName": "Jordan Wicks",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/696136/headshot/silo/current",
-        "team": "Chicago Cubs",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+108"
-    },
-    {
-        "PlayerName": "Michael King",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/650633/headshot/silo/current",
-        "team": "San Diego Padres",
-        "Line": 7.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "-150"
-    },
-    {
-        "PlayerName": "Luis L. Ortiz",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/682847/headshot/silo/current",
-        "team": "Pittsburgh Pirates",
+        "PlayerName": "Jonathan Cannon",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686563/headshot/silo/current",
+        "team": "Chicago White Sox",
         "Line": 4.5,
-        "OverUnder": "OVER",
+        "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-137"
+        "Odds": "-143"
     }
 ]
