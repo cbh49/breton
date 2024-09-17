@@ -1,11 +1,65 @@
 [
     {
-        "PlayerName": "Jonathan Cannon",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686563/headshot/silo/current",
-        "team": "Chicago White Sox",
+        "PlayerName": "Jordan Montgomery",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656756/headshot/silo/current",
+        "team": "Arizona Diamondbacks",
         "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "-143"
+        "Odds": "+110"
+    },
+    {
+        "PlayerName": "Ryan Feltner",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/663372/headshot/silo/current",
+        "team": "Colorado Rockies",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-132"
+    },
+    {
+        "PlayerName": "Shane Baz",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669358/headshot/silo/current",
+        "team": "Tampa Bay Rays",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "-139"
+    },
+    {
+        "PlayerName": "Gavin Williams",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668909/headshot/silo/current",
+        "team": "Cleveland Guardians",
+        "Line": 6.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "-134"
+    },
+    {
+        "PlayerName": "Jordan Wicks",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/696136/headshot/silo/current",
+        "team": "Chicago Cubs",
+        "Line": 4.5,
+        "OverUnder": "UNDER",
+        "HitRate": "3/3",
+        "Odds": "+100"
+    },
+    {
+        "PlayerName": "Nathan Eovaldi",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543135/headshot/silo/current",
+        "team": "Texas Rangers",
+        "Line": 5.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-103"
+    },
+    {
+        "PlayerName": "Mitchell Parker",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/680730/headshot/silo/current",
+        "team": "Washington Nationals",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "3/3",
+        "Odds": "-121"
     }
 ]
