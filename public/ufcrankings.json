@@ -26,23 +26,23 @@
                 },
                 {
                     "rank": "6",
-                    "name": "Sean O'Malley"
+                    "name": "Dricus Du Plessis"
                 },
                 {
                     "rank": "7",
-                    "name": "Leon Edwards"
+                    "name": "Merab Dvalishvili"
                 },
                 {
                     "rank": "8",
-                    "name": "Alexander Volkanovski"
-                },
-                {
-                    "rank": "9",
                     "name": "Tom Aspinall"
                 },
                 {
+                    "rank": "9",
+                    "name": "Leon Edwards"
+                },
+                {
                     "rank": "10",
-                    "name": "Max Holloway"
+                    "name": "Alexander Volkanovski"
                 },
                 {
                     "rank": "11",
@@ -54,7 +54,7 @@
                 },
                 {
                     "rank": "13",
-                    "name": "Israel Adesanya"
+                    "name": "Sean O'Malley"
                 },
                 {
                     "rank": "14",
@@ -138,15 +138,15 @@
         },
         {
             "name": "Bantamweight",
-            "imageUrl": "https://a.espncdn.com/i/headshots/mma/players/full/4205093.png",
+            "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3948572.png&w=350&h=254",
             "ranks": [
                 {
                     "rank": "C",
-                    "name": "Sean O'Malley"
+                    "name": "Merab Dvalishvili"
                 },
                 {
                     "rank": "1",
-                    "name": "Merab Dvalishvili"
+                    "name": "Sean O'Malley"
                 },
                 {
                     "rank": "2",
@@ -224,7 +224,7 @@
                 },
                 {
                     "rank": "3",
-                    "name": "Brian Ortega"
+                    "name": "Diego Lopes"
                 },
                 {
                     "rank": "4",
@@ -232,7 +232,7 @@
                 },
                 {
                     "rank": "5",
-                    "name": "Arnold Allen"
+                    "name": "Brian Ortega"
                 },
                 {
                     "rank": "6",
@@ -240,27 +240,27 @@
                 },
                 {
                     "rank": "7",
-                    "name": "Josh Emmett"
+                    "name": "Arnold Allen"
                 },
                 {
                     "rank": "8",
-                    "name": "Aljamain Sterling"
+                    "name": "Josh Emmett"
                 },
                 {
                     "rank": "9",
-                    "name": "Calvin Kattar"
+                    "name": "Aljamain Sterling"
                 },
                 {
                     "rank": "10",
-                    "name": "Giga Chikadze"
+                    "name": "Calvin Kattar"
                 },
                 {
                     "rank": "11",
-                    "name": "Lerone Murphy"
+                    "name": "Giga Chikadze"
                 },
                 {
                     "rank": "12",
-                    "name": "Diego Lopes"
+                    "name": "Lerone Murphy"
                 },
                 {
                     "rank": "13",
@@ -628,11 +628,11 @@
         },
         {
             "name": "Women's Pound-for-Pound",
-            "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3136287.png&w=350&h=254",
+            "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2554705.png&w=350&h=254",
             "ranks": [
                 {
                     "rank": "1",
-                    "name": "Alexa Grasso"
+                    "name": "Valentina Shevchenko"
                 },
                 {
                     "rank": "2",
@@ -640,7 +640,7 @@
                 },
                 {
                     "rank": "3",
-                    "name": "Valentina Shevchenko"
+                    "name": "Alexa Grasso"
                 },
                 {
                     "rank": "4",
@@ -764,15 +764,15 @@
         },
         {
             "name": "Women's Flyweight",
-            "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/3136287.png&w=350&h=254",
+            "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/2554705.png&w=350&h=254",
             "ranks": [
                 {
                     "rank": "C",
-                    "name": "Alexa Grasso"
+                    "name": "Valentina Shevchenko"
                 },
                 {
                     "rank": "1",
-                    "name": "Valentina Shevchenko"
+                    "name": "Alexa Grasso"
                 },
                 {
                     "rank": "2",
