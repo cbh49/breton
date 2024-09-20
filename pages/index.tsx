@@ -1,5 +1,5 @@
 // pages/index.tsx
-import styles from '../styles/home2.module.css';
+import styles from '../styles/home.module.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
