@@ -1,9 +1,380 @@
 [
     {
+        "team_1": "Boston College",
+        "team_2": "Michigan State",
+        "point_total": 45.5,
+        "point_spread": -6.5,
+        "favorite": "Boston College"
+    },
+    {
+        "team_1": "Baylor",
+        "team_2": "Colorado",
+        "point_total": 54,
+        "point_spread": -1,
+        "favorite": "Colorado"
+    },
+    {
+        "team_1": "Texas",
+        "team_2": "Louisiana\u2013Monroe",
+        "point_total": 52.5,
+        "point_spread": -45,
+        "favorite": "Texas"
+    },
+    {
+        "team_1": "Georgia Southern",
+        "team_2": "Ole Miss",
+        "point_total": 64,
+        "point_spread": -35.5,
+        "favorite": "Ole Miss"
+    },
+    {
+        "team_1": "Tennessee",
+        "team_2": "Oklahoma",
+        "point_total": 58.5,
+        "point_spread": -7.5,
+        "favorite": "Tennessee"
+    },
+    {
+        "team_1": "Iowa",
+        "team_2": "Minnesota",
+        "point_total": 36.5,
+        "point_spread": -2.5,
+        "favorite": "Iowa"
+    },
+    {
+        "team_1": "Bowling Green",
+        "team_2": "Texas A&M",
+        "point_total": 52.5,
+        "point_spread": -23.5,
+        "favorite": "Texas A&M"
+    },
+    {
+        "team_1": "South Carolina",
+        "team_2": "Akron",
+        "point_total": 46.5,
+        "point_spread": -27.5,
+        "favorite": "South Carolina"
+    },
+    {
+        "team_1": "Florida State",
+        "team_2": "California",
+        "point_total": 45,
+        "point_spread": -2.5,
+        "favorite": "Florida State"
+    },
+    {
+        "team_1": "Washington",
+        "team_2": "Northwestern",
+        "point_total": 43.5,
+        "point_spread": -10,
+        "favorite": "Washington"
+    },
+    {
+        "team_1": "Miami (FL)",
+        "team_2": "South Florida",
+        "point_total": 64.5,
+        "point_spread": -17.5,
+        "favorite": "Miami (FL)"
+    },
+    {
+        "team_1": "Western Kentucky",
+        "team_2": "Toledo",
+        "point_total": 59,
+        "point_spread": -1.5,
+        "favorite": "Toledo"
+    },
+    {
+        "team_1": "Sam Houston",
+        "team_2": "New Mexico State",
+        "point_total": 44.5,
+        "point_spread": -12.5,
+        "favorite": "Sam Houston"
+    },
+    {
+        "team_1": "Louisiana Tech",
+        "team_2": "Tulsa",
+        "point_total": 57.5,
+        "point_spread": -1.5,
+        "favorite": "Louisiana Tech"
+    },
+    {
+        "team_1": "Florida Atlantic",
+        "team_2": "UConn",
+        "point_total": 46.5,
+        "point_spread": -2,
+        "favorite": "Florida Atlantic"
+    },
+    {
+        "team_1": "Wyoming",
+        "team_2": "North Texas",
+        "point_total": 55.5,
+        "point_spread": -9.5,
+        "favorite": "North Texas"
+    },
+    {
+        "team_1": "Liberty",
+        "team_2": "East Carolina",
+        "point_total": 52.5,
+        "point_spread": -6.5,
+        "favorite": "Liberty"
+    },
+    {
+        "team_1": "TCU",
+        "team_2": "SMU",
+        "point_total": 57.5,
+        "point_spread": -2.5,
+        "favorite": "TCU"
+    },
+    {
+        "team_1": "UTEP",
+        "team_2": "Colorado State",
+        "point_total": 50.5,
+        "point_spread": -10,
+        "favorite": "Colorado State"
+    },
+    {
+        "team_1": "Oklahoma State",
+        "team_2": "Utah",
+        "point_total": 51.5,
+        "point_spread": -2.5,
+        "favorite": "Oklahoma State"
+    },
+    {
+        "team_1": "Duke",
+        "team_2": "Middle Tennessee",
+        "point_total": 54.5,
+        "point_spread": -14,
+        "favorite": "Duke"
+    },
+    {
+        "team_1": "LSU",
+        "team_2": "UCLA",
+        "point_total": 56.5,
+        "point_spread": -22.5,
+        "favorite": "LSU"
+    },
+    {
+        "team_1": "Vanderbilt",
+        "team_2": "Missouri",
+        "point_total": 53.5,
+        "point_spread": -21,
+        "favorite": "Missouri"
+    },
+    {
+        "team_1": "Kent State",
+        "team_2": "Penn State",
+        "point_total": 54.5,
+        "point_spread": -48.5,
+        "favorite": "Penn State"
+    },
+    {
+        "team_1": "Louisville",
+        "team_2": "Georgia Tech",
+        "point_total": 57.5,
+        "point_spread": -10,
+        "favorite": "Louisville"
+    },
+    {
+        "team_1": "Miami (OH)",
+        "team_2": "Notre Dame",
+        "point_total": 44.5,
+        "point_spread": -26.5,
+        "favorite": "Notre Dame"
+    },
+    {
+        "team_1": "Arizona State",
+        "team_2": "Texas Tech",
+        "point_total": 59.5,
+        "point_spread": -3,
+        "favorite": "Texas Tech"
+    },
+    {
+        "team_1": "Auburn",
+        "team_2": "Arkansas",
+        "point_total": 58,
+        "point_spread": -4,
+        "favorite": "Auburn"
+    },
+    {
+        "team_1": "Memphis",
+        "team_2": "Navy",
+        "point_total": 50.5,
+        "point_spread": -11.5,
+        "favorite": "Memphis"
+    },
+    {
+        "team_1": "Rutgers",
+        "team_2": "Virginia Tech",
+        "point_total": 47.5,
+        "point_spread": -4.5,
+        "favorite": "Virginia Tech"
+    },
+    {
+        "team_1": "Northern Illinois",
+        "team_2": "Buffalo",
+        "point_total": null,
+        "point_spread": null,
+        "favorite": null
+    },
+    {
+        "team_1": "Michigan",
+        "team_2": "USC",
+        "point_total": 45.5,
+        "point_spread": -8.5,
+        "favorite": "Michigan"
+    },
+    {
+        "team_1": "Southern Miss",
+        "team_2": "Jacksonville State",
+        "point_total": 60.5,
+        "point_spread": -7,
+        "favorite": "Jacksonville State"
+    },
+    {
+        "team_1": "Arkansas State",
+        "team_2": "Iowa State",
+        "point_total": 51.5,
+        "point_spread": -20.5,
+        "favorite": "Iowa State"
+    },
+    {
+        "team_1": "Coastal Carolina",
+        "team_2": "Virginia",
+        "point_total": 55,
+        "point_spread": -3,
+        "favorite": "Virginia"
+    },
+    {
+        "team_1": "Temple",
+        "team_2": "Utah State",
+        "point_total": 51.5,
+        "point_spread": -6.5,
+        "favorite": "Utah State"
+    },
+    {
+        "team_1": "Oklahoma State",
+        "team_2": "Utah",
+        "point_total": null,
+        "point_spread": -1.5,
+        "favorite": "Utah"
+    },
+    {
+        "team_1": "Central Michigan",
+        "team_2": "Ball State",
+        "point_total": 53.5,
+        "point_spread": -6.5,
+        "favorite": "Central Michigan"
+    },
+    {
+        "team_1": "Clemson",
+        "team_2": "NC State",
+        "point_total": 47.5,
+        "point_spread": -7.5,
+        "favorite": "Clemson"
+    },
+    {
+        "team_1": "Ohio",
+        "team_2": "Kentucky",
+        "point_total": 42.5,
+        "point_spread": -18.5,
+        "favorite": "Kentucky"
+    },
+    {
+        "team_1": "Tennessee",
+        "team_2": "Oklahoma",
+        "point_total": 58.5,
+        "point_spread": -3.5,
+        "favorite": "Oklahoma"
+    },
+    {
+        "team_1": "North Carolina",
+        "team_2": "James Madison",
+        "point_total": 47.5,
+        "point_spread": -10.5,
+        "favorite": "North Carolina"
+    },
+    {
+        "team_1": "Ohio State",
+        "team_2": "Marshall",
+        "point_total": 51.5,
+        "point_spread": -39.5,
+        "favorite": "Ohio State"
+    },
+    {
+        "team_1": "Mississippi State",
+        "team_2": "Florida",
+        "point_total": 56.5,
+        "point_spread": -6,
+        "favorite": "Florida"
+    },
+    {
+        "team_1": "Houston",
+        "team_2": "Cincinnati",
+        "point_total": 48.5,
+        "point_spread": -5.5,
+        "favorite": "Cincinnati"
+    },
+    {
+        "team_1": "Charlotte",
+        "team_2": "Indiana",
+        "point_total": 50.5,
+        "point_spread": -27.5,
+        "favorite": "Indiana"
+    },
+    {
+        "team_1": "Army",
+        "team_2": "Rice",
+        "point_total": null,
+        "point_spread": null,
+        "favorite": null
+    },
+    {
+        "team_1": "Tulane",
+        "team_2": "Louisiana",
+        "point_total": 55.5,
+        "point_spread": -3.5,
+        "favorite": "Tulane"
+    },
+    {
+        "team_1": "Kansas",
+        "team_2": "West Virginia",
+        "point_total": 56.5,
+        "point_spread": -2.5,
+        "favorite": "West Virginia"
+    },
+    {
+        "team_1": "Clemson",
+        "team_2": "NC State",
+        "point_total": null,
+        "point_spread": null,
+        "favorite": null
+    },
+    {
+        "team_1": "San Jose State",
+        "team_2": "Washington State",
+        "point_total": 55.5,
+        "point_spread": -14.5,
+        "favorite": "Washington State"
+    },
+    {
+        "team_1": "Illinois",
+        "team_2": "Nebraska",
+        "point_total": 43.5,
+        "point_spread": -8.5,
+        "favorite": "Nebraska"
+    },
+    {
+        "team_1": "Stanford",
+        "team_2": "Syracuse",
+        "point_total": null,
+        "point_spread": null,
+        "favorite": null
+    },
+    {
         "team_1": "Appalachian State",
         "team_2": "South Alabama",
-        "point_total": "A9aH-yjpr-2DuN",
-        "point_spread": "Q23j-yjpr-Uzwm",
-        "moneyline": null
+        "point_total": 62.5,
+        "point_spread": -7.5,
+        "favorite": "Appalachian State"
     }
 ]

@@ -711,7 +711,43 @@ table.table2 th:last-child, table.table2 td:last-child {
     opacity: 1;
 }
 
-
+.stattable1{
+  color: #000;
+  width: 75%;
+  text-align: center;
+  background-color: white;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 400px;
+  border-radius: 10px;
+  margin-top: 0px;
+  background-color:rgba(238, 236, 236, 0.941);
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  z-index: 10;
+}
+.statttable1 th, .stattable1 td {
+  border-radius: 20px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: 5px;
+  font-size: 1.5em;
+  color: black;
+  background-color: white;
+}
+.stattable1 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
+}
+.logostat {
+  width: 30px;
+  height: 30px;
+  padding-right: 25px;
+}
 
 
 /* DYNAMIC SPACING CONTENT*/
@@ -787,7 +823,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   .banner {
     height: 300vh;
-    top: 10px;
+    top: 0px;
     margin: 0%;
     width: 112%; /* Ensure it takes full width */
     overflow: hidden; /* Hide overflow to prevent stretching */
@@ -850,10 +886,9 @@ table.table2 th:last-child, table.table2 td:last-child {
     font-size: 4px;
   }
   .headerContainer h1 {
-    margin-top: 20%;
-    margin-left: 2.5%;
-    margin-right: -55%;
-    width: 200%;
+    margin-top: -5%;
+    margin-left: 25%;
+    width: 100%;
     font-size: 2.5em;
     z-index: 2;
     padding: 10px; 
@@ -876,6 +911,7 @@ table.table2 th:last-child, table.table2 td:last-child {
 
   }
   .chartButton{
+    display: none;
     margin-bottom: -85%;
     left: -41%;
   }
@@ -898,6 +934,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   /* SIDENAV */
 
   .sideNav {
+    display: none;
     width: 100%;
     height: 70px;
     order: 1; /* Display below navbar */
@@ -1113,7 +1150,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     font-size: 4px;
   }
   .headerContainer h1 {
-    margin-top: 10%;
+    margin-top: -5%;
     margin-left: 12%;
     margin-right: -40%;
     width: 200%;
@@ -1139,6 +1176,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     
 
   .chartButton{
+    display: none;
     margin-bottom: -75%;
     left: -42.5%;
   }
@@ -1161,6 +1199,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   /* SIDENAV */
 
   .sideNav {
+    display: none;
     width: 100%;
     height: 70px;
     order: 1; /* Display below navbar */
@@ -1376,8 +1415,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     font-size: 4px;
   }
   .headerContainer h1 {
-    margin-top: 10%;
-    margin-left: 27.5%;
+    margin-top: -5%;
+    margin-left: 15%;
     margin-right: -25%;
     width: 200%;
     font-size: 2.5em;
@@ -1401,8 +1440,10 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
 
   .chartButton{
-    margin-bottom: -80%;
+    display: none;
+    margin-bottom: -60%;
     left: -42.5%;
+    scale: 70%;
   }
   .chartButton .dropdown {
     min-width: 120%; /* Match the width or exceed the button's width */
@@ -1423,6 +1464,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   /* SIDENAV */
 
   .sideNav {
+    display: none;
     width: 100%;
     height: 70px;
     order: 1; /* Display below navbar */
@@ -1511,6 +1553,11 @@ table.table2 th:last-child, table.table2 td:last-child {
     
 
   }  
+  .logo{
+    scale: 80%;
+  }
+
+
   .headerContainer h1 {
     margin-top: 10%;
     margin-left: 50%;
@@ -1529,6 +1576,7 @@ table.table2 th:last-child, table.table2 td:last-child {
     margin-left: 37.5%;
   }
 .chartButton{
+  display: none;
   margin-bottom: -50%;
   right: -5%;
 }

@@ -1,5 +1,5 @@
 // pages/index.tsx
-import styles from '../styles/home.module.css';
+import styles from '../styles/home2.module.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,12 +8,14 @@ import { useEffect, useState } from 'react';
 type Matchup = {
   id: number;
   team1Logo: string;
-  Team1: string;
+  team_1: string;
   team2Logo: string;
-  Team2: string;
-  Total: number;
+  team_2: string;
+  point_total: number;
   name: string;
   rank: number;
+  point_spread: number;
+  fav_abb: string;
 };
 
 type Rank = {
@@ -48,22 +50,18 @@ const Home = () => {
 
 
   useEffect(() => {
-    fetch('/mlblogos.json')
+    fetch('/nflLogos.json')
       .then(response => response.json())
       .then(data => setLogos(data))
       .catch(error => console.error('Error fetching logos:', error));
 
-    fetch('/mlbmatchups.json')
+    fetch('/nflMatchups.json')
       .then(response => response.json())
       .then((data: Matchup[]) => {
         setMatchups(data);
-
-    fetch('/runs.json')
-      .then(response => response.json())
-      .then(data => setRunsData(data))
-      .catch(error => console.error('Error fetching runs data:', error));
       });
 
+      
       // load rankings
         const loadRankings = async () => {
           try {
@@ -201,10 +199,13 @@ const Home = () => {
      ) : (
        displayMatchups.map((matchup) => (
          <tr key={matchup.id} className={styles.matchupRow}>
-             <Image src={logos[matchup.Team1]} alt={matchup.Team1} width={100} height={100} className={styles.navlogo} layout="fixed" />  
+             <Image src={logos[matchup.team_1]} alt={matchup.team_1} width={100} height={100} className={styles.navlogo} layout="fixed" />  
            <td className={styles.atSymbol}>@</td>   
-             <Image src={logos[matchup.Team2]} alt={matchup.Team2} width={100} height={100} className={styles.navlogo} layout="fixed" />
-           <div className={styles.total}>O/U: {matchup.Total} </div>
+             <Image src={logos[matchup.team_2]} alt={matchup.team_2} width={100} height={100} className={styles.navlogo} layout="fixed" />
+             <td>
+            <div className={styles.point_total}>O/U: {matchup.point_total}</div>
+            <div className={styles.point_spread}>{matchup.fav_abb} {matchup.point_spread}</div>
+          </td>
          </tr>
          
        ))
@@ -291,6 +292,7 @@ const Home = () => {
     </tbody>
   </table>
 </div>
+{/* 
  <div className={styles.secondSideNav}>
    {rankings.length > 0 ? (
      <div>
@@ -301,7 +303,7 @@ const Home = () => {
        <h3>STANDINGS</h3>
        <h4>{rankings[currentIndex].name}</h4>
        <tr className={styles.headshotRow}>
-         <td colSpan={2}> {/* This will make the image span across all columns if there are more than one */}
+         <td colSpan={2}> 
            <Image
              src={rankings[currentIndex].imageUrl}
              alt={`Image for ${rankings[currentIndex].name}`}
@@ -311,6 +313,7 @@ const Home = () => {
            />
          </td>
        </tr>
+       
        <table className={styles.table4}>
          <thead>
          </thead>
@@ -333,6 +336,8 @@ const Home = () => {
      <p>Loading rankings...</p>
    )}
  </div>
+ */}
+ 
    <div className={styles.bottomNav}>
  <Link href="https://twitter.com/BretonPicks"><Image src="/x.png" alt="Logo" width={30} height={30} className={styles.bottomnavlogo} /></Link>
  </div>
