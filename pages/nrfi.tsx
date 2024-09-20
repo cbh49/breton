@@ -333,7 +333,7 @@ const MLB = () => {
             <div
               className={styles.header}
               style={{
-                backgroundColor: item.Total < .75 ? 'green' : item.Total > 1 ? 'red' : 'orange',
+                backgroundColor: item.Total < .99 ? 'green' : 'red',
                 color: item.Total > 1 || item.Total < -1 ? 'white' : '',
               }}
             >

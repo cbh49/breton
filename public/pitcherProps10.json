@@ -1,47 +1,29 @@
 [
     {
-        "PlayerName": "Zack Littell",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641793/headshot/silo/current",
-        "team": "Tampa Bay Rays",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "9/10",
-        "Odds": "+107"
-    },
-    {
-        "PlayerName": "Clarke Schmidt",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/657376/headshot/silo/current",
-        "team": "New York Yankees",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "7/10",
-        "Odds": "+115"
-    },
-    {
-        "PlayerName": "Taijuan Walker",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592836/headshot/silo/current",
-        "team": "Philadelphia Phillies",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "7/10",
-        "Odds": "-177"
-    },
-    {
-        "PlayerName": "Kevin Gausman",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592332/headshot/silo/current",
-        "team": "Toronto Blue Jays",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "8/10",
-        "Odds": "-121"
-    },
-    {
-        "PlayerName": "Patrick Corbin",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/571578/headshot/silo/current",
-        "team": "Washington Nationals",
+        "PlayerName": "Kyle Gibson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/502043/headshot/silo/current",
+        "team": "St. Louis Cardinals",
         "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "7/10",
-        "Odds": "-110"
+        "Odds": "-125"
+    },
+    {
+        "PlayerName": "Justin Verlander",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/434378/headshot/silo/current",
+        "team": "Houston Astros",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "-118"
+    },
+    {
+        "PlayerName": "George Kirby",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669923/headshot/silo/current",
+        "team": "Seattle Mariners",
+        "Line": 5.5,
+        "OverUnder": "UNDER",
+        "HitRate": "7/10",
+        "Odds": "+145"
     }
 ]
