@@ -1,5 +1,5 @@
 // pages/index.tsx
-import styles from '../styles/home.module.css';
+import styles from '../styles/home2.module.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -238,7 +238,7 @@ const Home = () => {
     <div className={styles.imageContainer}>
       <div className={styles.imageTextContainer}>
         <Image src="/stats.png" alt="Logo" className={styles.aboutlogo} width={175} height={150} />
-        <p>Our platform pulls in advanced analytics of teams and players' recent performances. We use this data to highlight trends and identify which teams and players are currently excelling or struggling. This insight allows you to make informed decisions, understanding the strengths and weaknesses in every matchup.</p>
+        <p>Our platform pulls in advanced analytics of teams and players' recent performances. We use this data to highlight trends and identify which teams and players are currently excelling or struggling. This insight allows you to make informed decisions, understanding every matchup in depth.</p>
       </div>
       <div className={styles.imageTextContainer}>
         <Image src="/monitor.png" alt="Logo"  className={styles.aboutlogo} width={175} height={150} />
