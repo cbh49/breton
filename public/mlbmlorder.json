@@ -1,83 +1,20 @@
 [
     {
-        "Team1": "Arizona Diamondbacks",
-        "Team2": "Milwaukee Brewers",
-        "Team1total": 7.835520000000001,
-        "Team2total": 4.477410000000001,
-        "Team1Pitcher": "Zac Gallen",
-        "Team2Pitcher": "Colin Rea",
-        "MLdifference": 3.35811
+        "Team1": "Boston Red Sox",
+        "Team2": "Toronto Blue Jays",
+        "Team1total": 3.910817777777778,
+        "Team2total": 2.957724,
+        "Team1Pitcher": "Tanner Houck",
+        "Team2Pitcher": "Chris Bassitt",
+        "MLdifference": 0.9530937777777782
     },
     {
-        "Team1": "Washington Nationals",
-        "Team2": "Chicago Cubs",
-        "Team1total": 2.84928,
-        "Team2total": 6.072528000000001,
-        "Team1Pitcher": "Trevor Williams",
-        "Team2Pitcher": "Jameson Taillon",
-        "MLdifference": 3.2232480000000012
-    },
-    {
-        "Team1": "Philadelphia Phillies",
-        "Team2": "New York Mets",
-        "Team1total": 3.7752,
-        "Team2total": 5.669664000000001,
-        "Team1Pitcher": "Cristopher S\u00c3\u0192\u00c2\u00a1nchez",
-        "Team2Pitcher": "David Peterson",
-        "MLdifference": 1.894464000000001
-    },
-    {
-        "Team1": "Pittsburgh Pirates",
-        "Team2": "Cincinnati Reds",
-        "Team1total": 2.4244,
-        "Team2total": 3.841488,
-        "Team1Pitcher": "Mitch Keller",
-        "Team2Pitcher": "Nick Martinez",
-        "MLdifference": 1.4170880000000001
-    },
-    {
-        "Team1": "Toronto Blue Jays",
-        "Team2": "Tampa Bay Rays",
-        "Team1total": 3.306342,
-        "Team2total": 2.2407839999999997,
-        "Team1Pitcher": "Jos\u00c3\u0192\u00c2\u00a9 Berr\u00c3\u0192\u00c2\u00ados",
-        "Team2Pitcher": "Tyler Alexander",
-        "MLdifference": 1.0655580000000002
-    },
-    {
-        "Team1": "Chicago White Sox",
-        "Team2": "San Diego Padres",
-        "Team1total": 2.9808000000000003,
-        "Team2total": 3.7674000000000007,
-        "Team1Pitcher": "Garrett Crochet",
-        "Team2Pitcher": "Joe Musgrove",
-        "MLdifference": 0.7866000000000004
-    },
-    {
-        "Team1": "San Francisco Giants",
-        "Team2": "Kansas City Royals",
-        "Team1total": 3.83732,
-        "Team2total": 4.289922,
-        "Team1Pitcher": "Mason Black",
-        "Team2Pitcher": "Michael Wacha",
-        "MLdifference": 0.4526019999999997
-    },
-    {
-        "Team1": "Los Angeles Angels",
+        "Team1": "Seattle Mariners",
         "Team2": "Houston Astros",
-        "Team1total": 3.6635039999999996,
-        "Team2total": 3.213672,
-        "Team1Pitcher": "Tyler Anderson",
-        "Team2Pitcher": "Justin Verlander",
-        "MLdifference": 0.4498319999999998
-    },
-    {
-        "Team1": "Cleveland Guardians",
-        "Team2": "St. Louis Cardinals",
-        "Team1total": 2.9302,
-        "Team2total": 2.9888040000000005,
-        "Team1Pitcher": "Ben Lively",
-        "Team2Pitcher": "Kyle Gibson",
-        "MLdifference": 0.05860400000000032
+        "Team1total": 4.28352,
+        "Team2total": 5.1408,
+        "Team1Pitcher": "Bryce Miller",
+        "Team2Pitcher": "Hunter Brown",
+        "MLdifference": 0.8572799999999994
     }
 ]

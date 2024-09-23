@@ -1,83 +1,11 @@
 [
     {
-        "PlayerName": "Zac Gallen",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668678/headshot/silo/current",
-        "team": "Arizona Diamondbacks",
-        "Line": 6.5,
-        "OverUnder": "OVER",
-        "HitRate": "5/5",
-        "Odds": "+130"
-    },
-    {
-        "PlayerName": "Joe Musgrove",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605397/headshot/silo/current",
-        "team": "San Diego Padres",
-        "Line": 6.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
-        "Odds": "+115"
-    },
-    {
-        "PlayerName": "Garrett Crochet",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/676979/headshot/silo/current",
-        "team": "Chicago White Sox",
-        "Line": 4.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-106"
-    },
-    {
-        "PlayerName": "Ben Lively",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/594902/headshot/silo/current",
-        "team": "Cleveland Guardians",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "-150"
-    },
-    {
-        "PlayerName": "Justin Verlander",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/434378/headshot/silo/current",
+        "PlayerName": "Hunter Brown",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686613/headshot/silo/current",
         "team": "Houston Astros",
-        "Line": 5.5,
+        "Line": 6.5,
         "OverUnder": "UNDER",
         "HitRate": "4/5",
-        "Odds": "-118"
-    },
-    {
-        "PlayerName": "Cristopher S\u00e1nchez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/650911/headshot/silo/current",
-        "team": "Philadelphia Phillies",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
-        "Odds": "+128"
-    },
-    {
-        "PlayerName": "Mitch Keller",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656605/headshot/silo/current",
-        "team": "Pittsburgh Pirates",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
-        "Odds": "-103"
-    },
-    {
-        "PlayerName": "George Kirby",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669923/headshot/silo/current",
-        "team": "Seattle Mariners",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "+145"
-    },
-    {
-        "PlayerName": "Tyler Alexander",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/641302/headshot/silo/current",
-        "team": "Tampa Bay Rays",
-        "Line": 3.5,
-        "OverUnder": "UNDER",
-        "HitRate": "4/5",
-        "Odds": "+102"
+        "Odds": "-114"
     }
 ]

@@ -1,122 +1,122 @@
 {
     "Arizona Diamondbacks": [
-        7.0,
-        5.3
+        5.9,
+        5.7
     ],
     "Atlanta Braves": [
-        5.8,
-        3.7
+        5.9,
+        4.1
     ],
     "Baltimore Orioles": [
-        2.5,
-        4.7
+        3.1,
+        4.1
     ],
     "Boston Red Sox": [
-        3.9,
-        3.5
+        4.111111111111111,
+        3.3333333333333335
     ],
     "Chicago Cubs": [
-        6.2,
-        5.1
+        4.7,
+        4.0
     ],
     "Chicago White Sox": [
-        3.6,
-        4.2
+        3.2,
+        4.3
     ],
     "Cincinnati Reds": [
-        3.7,
-        4.9
+        4.7,
+        5.3
     ],
     "Cleveland Guardians": [
-        3.5,
+        3.3,
         2.6
     ],
     "Colorado Rockies": [
-        4.4,
-        5.0
+        5.1,
+        4.6
     ],
     "Detroit Tigers": [
-        5.0,
-        2.4
-    ],
-    "Houston Astros": [
-        3.7,
+        3.4,
         3.3
     ],
-    "Kansas City Royals": [
-        3.9,
-        3.6
-    ],
-    "Los Angeles Angels": [
-        3.9,
-        4.8
-    ],
-    "Los Angeles Dodgers": [
-        7.5,
-        6.1
-    ],
-    "Miami Marlins": [
-        3.7,
-        6.4
-    ],
-    "Milwaukee Brewers": [
-        4.5,
-        4.8
-    ],
-    "Minnesota Twins": [
-        4.5,
-        4.9
-    ],
-    "New York Mets": [
-        5.9,
-        2.9
-    ],
-    "New York Yankees": [
-        4.2,
-        3.2
-    ],
-    "Oakland Athletics": [
-        3.5,
-        4.8
-    ],
-    "Philadelphia Phillies": [
-        3.9,
-        4.2
-    ],
-    "Pittsburgh Pirates": [
-        2.9,
-        4.2
-    ],
-    "San Diego Padres": [
-        4.5,
-        2.9
-    ],
-    "San Francisco Giants": [
-        4.3,
-        3.9
-    ],
-    "Seattle Mariners": [
-        4.5,
+    "Houston Astros": [
+        5.1,
         4.1
     ],
-    "St. Louis Cardinals": [
-        3.4,
-        2.8
+    "Kansas City Royals": [
+        2.9,
+        3.9
     ],
-    "Tampa Bay Rays": [
-        2.7,
-        3.0
-    ],
-    "Texas Rangers": [
-        3.9,
+    "Los Angeles Angels": [
+        4.4,
         5.7
     ],
+    "Los Angeles Dodgers": [
+        7.3,
+        5.2
+    ],
+    "Miami Marlins": [
+        4.0,
+        6.6
+    ],
+    "Milwaukee Brewers": [
+        5.1,
+        5.4
+    ],
+    "Minnesota Twins": [
+        3.4444444444444446,
+        5.0
+    ],
+    "New York Mets": [
+        5.8,
+        3.5
+    ],
+    "New York Yankees": [
+        4.9,
+        2.6
+    ],
+    "Oakland Athletics": [
+        3.1,
+        5.3
+    ],
+    "Philadelphia Phillies": [
+        4.1,
+        4.5
+    ],
+    "Pittsburgh Pirates": [
+        2.3,
+        5.0
+    ],
+    "San Diego Padres": [
+        4.2,
+        1.9
+    ],
+    "San Francisco Giants": [
+        3.4,
+        2.9
+    ],
+    "Seattle Mariners": [
+        4.8,
+        4.0
+    ],
+    "St. Louis Cardinals": [
+        3.5,
+        3.4
+    ],
+    "Tampa Bay Rays": [
+        2.8,
+        2.1
+    ],
+    "Texas Rangers": [
+        4.0,
+        5.4
+    ],
     "Toronto Blue Jays": [
-        3.9,
-        3.7
+        3.3,
+        3.6
     ],
     "Washington Nationals": [
-        2.8,
-        5.3
+        2.6,
+        4.3
     ]
 }

@@ -1,5 +1,26 @@
 [
     {
+        "team_1": "Kansas State",
+        "team_2": "BYU",
+        "point_total": 47.5,
+        "point_spread": -7,
+        "favorite": "Kansas State"
+    },
+    {
+        "team_1": "Purdue",
+        "team_2": "Oregon State",
+        "point_total": 50.5,
+        "point_spread": -5.5,
+        "favorite": "Oregon State"
+    },
+    {
+        "team_1": "Fresno State",
+        "team_2": "New Mexico",
+        "point_total": 61.5,
+        "point_spread": -15.5,
+        "favorite": "Fresno State"
+    },
+    {
         "team_1": "Boston College",
         "team_2": "Michigan State",
         "point_total": 45.5,
@@ -35,13 +56,6 @@
         "favorite": "Tennessee"
     },
     {
-        "team_1": "Iowa",
-        "team_2": "Minnesota",
-        "point_total": 36.5,
-        "point_spread": -2.5,
-        "favorite": "Iowa"
-    },
-    {
         "team_1": "Bowling Green",
         "team_2": "Texas A&M",
         "point_total": 52.5,
@@ -56,11 +70,18 @@
         "favorite": "South Carolina"
     },
     {
-        "team_1": "Florida State",
-        "team_2": "California",
-        "point_total": 45,
+        "team_1": "Iowa",
+        "team_2": "Minnesota",
+        "point_total": 36.5,
         "point_spread": -2.5,
-        "favorite": "Florida State"
+        "favorite": "Iowa"
+    },
+    {
+        "team_1": "Sam Houston",
+        "team_2": "New Mexico State",
+        "point_total": 44.5,
+        "point_spread": -12.5,
+        "favorite": "Sam Houston"
     },
     {
         "team_1": "Washington",
@@ -68,6 +89,13 @@
         "point_total": 43.5,
         "point_spread": -10,
         "favorite": "Washington"
+    },
+    {
+        "team_1": "Florida State",
+        "team_2": "California",
+        "point_total": 45,
+        "point_spread": -2.5,
+        "favorite": "Florida State"
     },
     {
         "team_1": "Miami (FL)",
@@ -82,13 +110,6 @@
         "point_total": 59,
         "point_spread": -1.5,
         "favorite": "Toledo"
-    },
-    {
-        "team_1": "Sam Houston",
-        "team_2": "New Mexico State",
-        "point_total": 44.5,
-        "point_spread": -12.5,
-        "favorite": "Sam Houston"
     },
     {
         "team_1": "Louisiana Tech",
@@ -147,11 +168,18 @@
         "favorite": "Duke"
     },
     {
-        "team_1": "LSU",
-        "team_2": "UCLA",
-        "point_total": 56.5,
-        "point_spread": -22.5,
-        "favorite": "LSU"
+        "team_1": "Kent State",
+        "team_2": "Penn State",
+        "point_total": 54.5,
+        "point_spread": -48.5,
+        "favorite": "Penn State"
+    },
+    {
+        "team_1": "Auburn",
+        "team_2": "Arkansas",
+        "point_total": 58,
+        "point_spread": -4,
+        "favorite": "Auburn"
     },
     {
         "team_1": "Vanderbilt",
@@ -161,11 +189,11 @@
         "favorite": "Missouri"
     },
     {
-        "team_1": "Kent State",
-        "team_2": "Penn State",
-        "point_total": 54.5,
-        "point_spread": -48.5,
-        "favorite": "Penn State"
+        "team_1": "LSU",
+        "team_2": "UCLA",
+        "point_total": 56.5,
+        "point_spread": -22.5,
+        "favorite": "LSU"
     },
     {
         "team_1": "Louisville",
@@ -187,13 +215,6 @@
         "point_total": 59.5,
         "point_spread": -3,
         "favorite": "Texas Tech"
-    },
-    {
-        "team_1": "Auburn",
-        "team_2": "Arkansas",
-        "point_total": 58,
-        "point_spread": -4,
-        "favorite": "Auburn"
     },
     {
         "team_1": "Memphis",
@@ -308,13 +329,6 @@
         "favorite": "Florida"
     },
     {
-        "team_1": "Houston",
-        "team_2": "Cincinnati",
-        "point_total": 48.5,
-        "point_spread": -5.5,
-        "favorite": "Cincinnati"
-    },
-    {
         "team_1": "Charlotte",
         "team_2": "Indiana",
         "point_total": 50.5,
@@ -334,6 +348,13 @@
         "point_total": 55.5,
         "point_spread": -3.5,
         "favorite": "Tulane"
+    },
+    {
+        "team_1": "Houston",
+        "team_2": "Cincinnati",
+        "point_total": 48.5,
+        "point_spread": -5.5,
+        "favorite": "Cincinnati"
     },
     {
         "team_1": "Kansas",
@@ -362,19 +383,5 @@
         "point_total": 43.5,
         "point_spread": -8.5,
         "favorite": "Nebraska"
-    },
-    {
-        "team_1": "Stanford",
-        "team_2": "Syracuse",
-        "point_total": null,
-        "point_spread": null,
-        "favorite": null
-    },
-    {
-        "team_1": "Appalachian State",
-        "team_2": "South Alabama",
-        "point_total": 62.5,
-        "point_spread": -7.5,
-        "favorite": "Appalachian State"
     }
 ]
