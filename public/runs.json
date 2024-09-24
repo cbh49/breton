@@ -1,7 +1,7 @@
 {
     "Arizona Diamondbacks": [
-        5.9,
-        5.7
+        6.1,
+        6.1
     ],
     "Atlanta Braves": [
         5.9,
@@ -13,11 +13,11 @@
     ],
     "Boston Red Sox": [
         4.111111111111111,
-        3.3333333333333335
+        2.888888888888889
     ],
     "Chicago Cubs": [
-        4.7,
-        4.0
+        4.4,
+        3.7
     ],
     "Chicago White Sox": [
         3.2,
@@ -40,8 +40,8 @@
         3.3
     ],
     "Houston Astros": [
-        5.1,
-        4.1
+        4.7,
+        4.4
     ],
     "Kansas City Royals": [
         2.9,
@@ -80,8 +80,8 @@
         5.3
     ],
     "Philadelphia Phillies": [
-        4.1,
-        4.5
+        4.4,
+        3.6
     ],
     "Pittsburgh Pirates": [
         2.3,
@@ -92,12 +92,12 @@
         1.9
     ],
     "San Francisco Giants": [
-        3.4,
+        4.0,
         2.9
     ],
     "Seattle Mariners": [
-        4.8,
-        4.0
+        5.0,
+        3.6
     ],
     "St. Louis Cardinals": [
         3.5,
@@ -112,8 +112,8 @@
         5.4
     ],
     "Toronto Blue Jays": [
-        3.3,
-        3.6
+        3.2,
+        3.4
     ],
     "Washington Nationals": [
         2.6,
