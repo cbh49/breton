@@ -203,8 +203,8 @@ const Home = () => {
            <td className={styles.atSymbol}>@</td>   
              <Image src={logos[matchup.team_2]} alt={matchup.team_2} width={100} height={100} className={styles.navlogo} layout="fixed" />
              <td>
-            <div className={styles.point_total}>O/U: {matchup.point_total}</div>
-            <div className={styles.point_spread}>{matchup.fav_abb} {matchup.point_spread}</div>
+            <div className={styles.total}>O/U: {matchup.point_total}</div>
+            <div className={styles.total}>{matchup.fav_abb} {matchup.point_spread}</div>
           </td>
          </tr>
          
