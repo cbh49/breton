@@ -1,20 +1,29 @@
 [
     {
-        "PlayerName": "Dansby Swanson",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621020/headshot/silo/current",
-        "Team": "Chicago Cubs",
+        "PlayerName": "Jack L\u00f3pez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605346/headshot/silo/current",
+        "Team": "Los Angeles Angels",
         "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -140,
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Edouard Julien",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666397/headshot/silo/current",
+        "Team": "Minnesota Twins",
+        "OverUnder": "UNDER",
         "Line": 0.5,
         "Odds": -190,
         "HitRate": "5/5"
     },
     {
-        "PlayerName": "Eugenio Su\u00e1rez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/553993/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
+        "PlayerName": "Aaron Schunk",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668845/headshot/silo/current",
+        "Team": "Colorado Rockies",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": -200,
+        "Odds": -125,
         "HitRate": "5/5"
     }
 ]

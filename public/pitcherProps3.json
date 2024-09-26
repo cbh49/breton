@@ -1,65 +1,20 @@
 [
     {
-        "PlayerName": "Zach Eflin",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621107/headshot/silo/current",
-        "team": "Baltimore Orioles",
+        "PlayerName": "Joe Musgrove",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605397/headshot/silo/current",
+        "team": "San Diego Padres",
         "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+123"
-    },
-    {
-        "PlayerName": "Kevin Gausman",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592332/headshot/silo/current",
-        "team": "Toronto Blue Jays",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+115"
-    },
-    {
-        "PlayerName": "Javier Assad",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/665871/headshot/silo/current",
-        "team": "Chicago Cubs",
-        "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "+120"
+        "Odds": "-112"
     },
     {
-        "PlayerName": "DJ Herz",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/687792/headshot/silo/current",
-        "team": "Washington Nationals",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+107"
-    },
-    {
-        "PlayerName": "Chris Sale",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/519242/headshot/silo/current",
-        "team": "Atlanta Braves",
-        "Line": 7.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+114"
-    },
-    {
-        "PlayerName": "George Kirby",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669923/headshot/silo/current",
-        "team": "Seattle Mariners",
-        "Line": 5.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "+108"
-    },
-    {
-        "PlayerName": "Erick Fedde",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607200/headshot/silo/current",
-        "team": "St. Louis Cardinals",
+        "PlayerName": "Reese Olson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/681857/headshot/silo/current",
+        "team": "Detroit Tigers",
         "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "3/3",
-        "Odds": "+100"
+        "Odds": "-124"
     }
 ]

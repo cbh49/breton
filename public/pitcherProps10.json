@@ -1,47 +1,20 @@
 [
     {
-        "PlayerName": "Kevin Gausman",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592332/headshot/silo/current",
-        "team": "Toronto Blue Jays",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "8/10",
-        "Odds": "+115"
-    },
-    {
-        "PlayerName": "Dylan Cease",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656302/headshot/silo/current",
-        "team": "San Diego Padres",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "8/10",
-        "Odds": "+110"
-    },
-    {
-        "PlayerName": "George Kirby",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669923/headshot/silo/current",
-        "team": "Seattle Mariners",
+        "PlayerName": "Chris Flexen",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/623167/headshot/silo/current",
+        "team": "Chicago White Sox",
         "Line": 5.5,
         "OverUnder": "UNDER",
         "HitRate": "8/10",
-        "Odds": "+108"
+        "Odds": "+130"
     },
     {
-        "PlayerName": "Erick Fedde",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/607200/headshot/silo/current",
-        "team": "St. Louis Cardinals",
+        "PlayerName": "Walker Buehler",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621111/headshot/silo/current",
+        "team": "Los Angeles Dodgers",
         "Line": 4.5,
         "OverUnder": "UNDER",
         "HitRate": "7/10",
-        "Odds": "+100"
-    },
-    {
-        "PlayerName": "Austin Gomber",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/596295/headshot/silo/current",
-        "team": "Colorado Rockies",
-        "Line": 3.5,
-        "OverUnder": "OVER",
-        "HitRate": "8/10",
-        "Odds": "+106"
+        "Odds": "+130"
     }
 ]

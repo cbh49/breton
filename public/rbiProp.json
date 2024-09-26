@@ -1,11 +1,20 @@
 [
     {
-        "PlayerName": "Ketel Marte",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/606466/headshot/silo/current",
-        "Team": "Arizona Diamondbacks",
+        "PlayerName": "Aaron Judge",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/592450/headshot/silo/current",
+        "Team": "New York Yankees",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": "+145",
+        "Odds": "+115",
+        "HitRate": "4/5"
+    },
+    {
+        "PlayerName": "Hunter Goodman",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/696100/headshot/silo/current",
+        "Team": "Colorado Rockies",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "+140",
         "HitRate": "4/5"
     }
 ]
