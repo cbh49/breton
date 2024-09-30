@@ -1,74 +1,11 @@
 [
     {
-        "Team1": "Pittsburgh Pirates",
-        "Team2": "New York Yankees",
-        "Team1total": 2.07648,
-        "Team2total": 6.350344000000001,
-        "Team1Pitcher": "Jared Jones",
-        "Team2Pitcher": "Carlos Rod\u00c3\u0192\u00c2\u00b3n",
-        "MLdifference": 4.2738640000000006
-    },
-    {
-        "Team1": "Kansas City Royals",
-        "Team2": "Atlanta Braves",
-        "Team1total": 1.98528,
-        "Team2total": 5.387865000000001,
-        "Team1Pitcher": "Brady Singer",
-        "Team2Pitcher": "Max Fried",
-        "MLdifference": 3.4025850000000006
-    },
-    {
-        "Team1": "Philadelphia Phillies",
-        "Team2": "Washington Nationals",
-        "Team1total": 4.663428000000001,
-        "Team2total": 1.549944,
-        "Team1Pitcher": "Ranger Su\u00c3\u0192\u00c2\u00a1rez",
-        "Team2Pitcher": "Trevor Williams",
-        "MLdifference": 3.1134840000000006
-    },
-    {
         "Team1": "New York Mets",
-        "Team2": "Milwaukee Brewers",
-        "Team1total": 5.255459999999999,
-        "Team2total": 3.316236,
-        "Team1Pitcher": "Sean Manaea",
-        "Team2Pitcher": "Frankie Montas",
-        "MLdifference": 1.9392239999999994
-    },
-    {
-        "Team1": "Tampa Bay Rays",
-        "Team2": "Boston Red Sox",
-        "Team1total": 1.9918079999999998,
-        "Team2total": 3.860266666666666,
-        "Team1Pitcher": "Taj Bradley",
-        "Team2Pitcher": "Nick Pivetta",
-        "MLdifference": 1.8684586666666663
-    },
-    {
-        "Team1": "San Diego Padres",
-        "Team2": "Arizona Diamondbacks",
-        "Team1total": 3.315312000000001,
-        "Team2total": 4.9852,
-        "Team1Pitcher": "Yu Darvish",
-        "Team2Pitcher": "Merrill Kelly",
-        "MLdifference": 1.669887999999999
-    },
-    {
-        "Team1": "Cincinnati Reds",
-        "Team2": "Chicago Cubs",
-        "Team1total": 4.380768,
-        "Team2total": 4.5276000000000005,
-        "Team1Pitcher": "Nick Martinez",
-        "Team2Pitcher": "Jameson Taillon",
-        "MLdifference": 0.14683200000000074
-    },
-    {
-        "Team1": "Baltimore Orioles",
-        "Team2": "Minnesota Twins",
-        "Team1total": 4.167072,
-        "Team2total": 4.28274,
-        "Team1Pitcher": "Cade Povich",
-        "Team2Pitcher": "Pablo L\u00c3\u0192\u00c2\u00b3pez",
-        "MLdifference": 0.11566800000000033
+        "Team2": "Atlanta Braves",
+        "Team1total": 3.83985,
+        "Team2total": 4.701060000000001,
+        "Team1Pitcher": "Tylor Megill",
+        "Team2Pitcher": "Spencer Schwellenbach",
+        "MLdifference": 0.8612100000000007
     }
 ]

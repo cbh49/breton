@@ -9,15 +9,6 @@
         "Cover": "yes"
     },
     {
-        "Team1": "Tennessee",
-        "Team2": "Oklahoma",
-        "point_spread": -3.5,
-        "favorite": "Oklahoma",
-        "team_1_pointsPG3": 63.94752000000001,
-        "team_2_pointsPG3": 33.41152800000001,
-        "Cover": "no"
-    },
-    {
         "Team1": "Rutgers",
         "Team2": "Virginia Tech",
         "point_spread": -4.5,
