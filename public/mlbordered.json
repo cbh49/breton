@@ -1,15 +1,1 @@
-[
-    {
-        "Team1": "New York Mets",
-        "Team2": "Atlanta Braves",
-        "original_total": 7.5,
-        "adj_total": 8.54091,
-        "Team1Runs": 3.75,
-        "Team2Runs": 5.125,
-        "Team1total": 3.83985,
-        "Team2total": 4.701060000000001,
-        "difference": 1.0409100000000002,
-        "Team1Pitcher": "Tylor Megill",
-        "Team2Pitcher": "Spencer Schwellenbach"
-    }
-]
+[]

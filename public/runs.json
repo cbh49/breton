@@ -3,14 +3,6 @@
         5.1,
         4.6
     ],
-    "Atlanta Braves": [
-        5.125,
-        2.375
-    ],
-    "Baltimore Orioles": [
-        5.6,
-        4.0
-    ],
     "Boston Red Sox": [
         4.0,
         3.3333333333333335
@@ -35,18 +27,6 @@
         4.1,
         7.0
     ],
-    "Detroit Tigers": [
-        3.7,
-        3.5
-    ],
-    "Houston Astros": [
-        5.0,
-        4.777777777777778
-    ],
-    "Kansas City Royals": [
-        1.9,
-        2.8
-    ],
     "Los Angeles Angels": [
         3.6,
         6.6
@@ -59,17 +39,9 @@
         5.5,
         5.6
     ],
-    "Milwaukee Brewers": [
-        4.2,
-        4.1
-    ],
     "Minnesota Twins": [
         3.2222222222222223,
         6.222222222222222
-    ],
-    "New York Mets": [
-        3.75,
-        5.125
     ],
     "New York Yankees": [
         5.5,
@@ -86,10 +58,6 @@
     "Pittsburgh Pirates": [
         3.2,
         4.2
-    ],
-    "San Diego Padres": [
-        3.8,
-        3.3
     ],
     "San Francisco Giants": [
         4.5,

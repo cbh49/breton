@@ -1,1 +1,53 @@
-[]
+[
+    {
+        "Team1": "Detroit Tigers",
+        "Team2": "Houston Astros",
+        "Team1Pitcher": "Tarik Skubal",
+        "Team1PitcherGames": 31.0,
+        "Team1PitcherER": 7.0,
+        "Team1PitcherWHIP": 0.807,
+        "Team1Runs": 0.44,
+        "Team2Pitcher": "Framber Valdez",
+        "Team2PitcherGames": 28.0,
+        "Team2PitcherER": 7.0,
+        "Team2PitcherWHIP": 1.179,
+        "Team2Runs": 0.45,
+        "PRA1": 0.22580645161290322,
+        "PRA2": 0.25,
+        "Total": 0.8379516129032258
+    },
+    {
+        "Team1": "New York Mets",
+        "Team2": "Milwaukee Brewers",
+        "Team1Pitcher": "Luis Severino",
+        "Team1PitcherGames": 31.0,
+        "Team1PitcherER": 3.0,
+        "Team1PitcherWHIP": 0.774,
+        "Team1Runs": 0.41,
+        "Team2Pitcher": "Freddy Peralta",
+        "Team2PitcherGames": 32.0,
+        "Team2PitcherER": 18.0,
+        "Team2PitcherWHIP": 1.281,
+        "Team2Runs": 0.48,
+        "PRA1": 0.0967741935483871,
+        "PRA2": 0.5625,
+        "Total": 0.9010685483870967
+    },
+    {
+        "Team1": "Kansas City Royals",
+        "Team2": "Baltimore Orioles",
+        "Team1Pitcher": "Cole Ragans",
+        "Team1PitcherGames": 32.0,
+        "Team1PitcherER": 9.0,
+        "Team1PitcherWHIP": 0.969,
+        "Team1Runs": 0.44,
+        "Team2Pitcher": "Corbin Burnes",
+        "Team2PitcherGames": 32.0,
+        "Team2PitcherER": 9.0,
+        "Team2PitcherWHIP": 1.156,
+        "Team2Runs": 0.53,
+        "PRA1": 0.28125,
+        "PRA2": 0.28125,
+        "Total": 0.9143749999999999
+    }
+]
