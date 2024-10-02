@@ -1,29 +1,56 @@
 [
     {
+        "PlayerName": "Matt Olson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621566/headshot/silo/current",
+        "Team": "Atlanta Braves",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -175,
+        "HitRate": "8/10"
+    },
+    {
         "PlayerName": "Victor Caratini",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605170/headshot/silo/current",
         "Team": "Houston Astros",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": -140,
+        "Odds": -160,
+        "HitRate": "9/10"
+    },
+    {
+        "PlayerName": "Cedric Mullins",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656775/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -145,
         "HitRate": "8/10"
     },
     {
-        "PlayerName": "Maikel Garcia",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672580/headshot/silo/current",
-        "Team": "Kansas City Royals",
-        "OverUnder": "UNDER",
+        "PlayerName": "Ryan O'Hearn",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656811/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -155,
+        "HitRate": "8/10"
+    },
+    {
+        "PlayerName": "Ram\u00f3n Ur\u00edas",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/602104/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
         "Line": 0.5,
         "Odds": -160,
         "HitRate": "8/10"
     },
     {
-        "PlayerName": "Tommy Pham",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/502054/headshot/silo/current",
+        "PlayerName": "Michael Massey",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/686681/headshot/silo/current",
         "Team": "Kansas City Royals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": -185,
+        "Odds": -200,
         "HitRate": "8/10"
     }
 ]

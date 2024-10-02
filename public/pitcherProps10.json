@@ -1,20 +1,38 @@
 [
     {
-        "PlayerName": "Tarik Skubal",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669373/headshot/silo/current",
-        "team": "Detroit Tigers",
+        "PlayerName": "Joe Musgrove",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605397/headshot/silo/current",
+        "team": "San Diego Padres",
         "Line": 5.5,
         "OverUnder": "OVER",
-        "HitRate": "9/10",
-        "Odds": "-155"
+        "HitRate": "7/10",
+        "Odds": "-112"
     },
     {
-        "PlayerName": "Cole Ragans",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666142/headshot/silo/current",
-        "team": "Kansas City Royals",
+        "PlayerName": "Max Fried",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608331/headshot/silo/current",
+        "team": "Atlanta Braves",
+        "Line": 4.5,
+        "OverUnder": "OVER",
+        "HitRate": "8/10",
+        "Odds": "-106"
+    },
+    {
+        "PlayerName": "Zach Eflin",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621107/headshot/silo/current",
+        "team": "Baltimore Orioles",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "7/10",
+        "Odds": "+100"
+    },
+    {
+        "PlayerName": "Frankie Montas",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/593423/headshot/silo/current",
+        "team": "Milwaukee Brewers",
         "Line": 5.5,
         "OverUnder": "OVER",
-        "HitRate": "9/10",
-        "Odds": "-135"
+        "HitRate": "7/10",
+        "Odds": "+135"
     }
 ]

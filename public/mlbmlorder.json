@@ -1,1 +1,29 @@
-[]
+[
+    {
+        "Team1": "New York Mets",
+        "Team2": "Milwaukee Brewers",
+        "Team1total": 7.82208,
+        "Team2total": 4.02864,
+        "Team1Pitcher": "Sean Manaea",
+        "Team2Pitcher": "Frankie Montas",
+        "MLdifference": 3.7934399999999995
+    },
+    {
+        "Team1": "Atlanta Braves",
+        "Team2": "San Diego Padres",
+        "Team1total": 0.0,
+        "Team2total": 3.2032000000000003,
+        "Team1Pitcher": "Max Fried",
+        "Team2Pitcher": "Joe Musgrove",
+        "MLdifference": 3.2032000000000003
+    },
+    {
+        "Team1": "Kansas City Royals",
+        "Team2": "Baltimore Orioles",
+        "Team1total": 0.91728,
+        "Team2total": 0.0,
+        "Team1Pitcher": "Seth Lugo",
+        "Team2Pitcher": "Zach Eflin",
+        "MLdifference": 0.91728
+    }
+]

@@ -1,38 +1,20 @@
 [
     {
-        "PlayerName": "Tarik Skubal",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669373/headshot/silo/current",
-        "team": "Detroit Tigers",
+        "PlayerName": "Joe Musgrove",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605397/headshot/silo/current",
+        "team": "San Diego Padres",
         "Line": 5.5,
         "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "-155"
+        "Odds": "-112"
     },
     {
-        "PlayerName": "Framber Valdez",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/664285/headshot/silo/current",
-        "team": "Houston Astros",
-        "Line": 6.5,
-        "OverUnder": "UNDER",
-        "HitRate": "3/3",
-        "Odds": "-140"
-    },
-    {
-        "PlayerName": "Corbin Burnes",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669203/headshot/silo/current",
-        "team": "Baltimore Orioles",
+        "PlayerName": "Max Fried",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/608331/headshot/silo/current",
+        "team": "Atlanta Braves",
         "Line": 4.5,
         "OverUnder": "OVER",
         "HitRate": "3/3",
-        "Odds": "-150"
-    },
-    {
-        "PlayerName": "Cole Ragans",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/666142/headshot/silo/current",
-        "team": "Kansas City Royals",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "3/3",
-        "Odds": "-135"
+        "Odds": "-106"
     }
 ]

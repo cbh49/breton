@@ -1,1 +1,74 @@
-[]
+[
+    {
+        "PlayerName": "Jurickson Profar",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/595777/headshot/silo/current",
+        "Team": "San Diego Padres",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "+145",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Marcell Ozuna",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/542303/headshot/silo/current",
+        "Team": "Atlanta Braves",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-145",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Spencer Torkelson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/679529/headshot/silo/current",
+        "Team": "Detroit Tigers",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "+100",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Victor Caratini",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605170/headshot/silo/current",
+        "Team": "Houston Astros",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": "-170",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Yainer Diaz",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/673237/headshot/silo/current",
+        "Team": "Houston Astros",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-185",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Bobby Witt Jr.",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/677951/headshot/silo/current",
+        "Team": "Kansas City Royals",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "-115",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "Pete Alonso",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/624413/headshot/silo/current",
+        "Team": "New York Mets",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "+120",
+        "HitRate": "5/5"
+    },
+    {
+        "PlayerName": "William Contreras",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/661388/headshot/silo/current",
+        "Team": "Milwaukee Brewers",
+        "OverUnder": "UNDER",
+        "Line": 1.5,
+        "Odds": "+135",
+        "HitRate": "5/5"
+    }
+]

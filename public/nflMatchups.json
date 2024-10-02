@@ -1,106 +1,93 @@
 [
     {
-        "team_1": "Kansas City Chiefs",
-        "team_2": "Los Angeles Chargers",
-        "point_total": 39,
-        "point_spread": -9.5,
-        "favorite": "Kansas City Chiefs",
-        "fav_abb": "KC"
-    },
-    {
-        "team_1": "Cleveland Browns",
-        "team_2": "Las Vegas Raiders",
-        "point_total": 39.5,
-        "point_spread": -1.5,
-        "favorite": "Cleveland Browns",
-        "fav_abb": "CLE"
-    },
-    {
-        "team_1": "New England Patriots",
-        "team_2": "San Francisco 49ers",
-        "point_total": 40,
-        "point_spread": -10.5,
-        "favorite": "San Francisco 49ers",
-        "fav_abb": "SF"
-    },
-    {
-        "team_1": "Arizona Cardinals",
-        "team_2": "Washington Commanders",
-        "point_total": 49,
-        "point_spread": -5,
-        "favorite": "Arizona Cardinals",
-        "fav_abb": "AZ"
-    },
-    {
-        "team_1": "Philadelphia Eagles",
-        "team_2": "Tampa Bay Buccaneers",
-        "point_total": 46.5,
-        "point_spread": -2.5,
-        "favorite": "Philadelphia Eagles",
-        "fav_abb": "PHI"
-    },
-    {
-        "team_1": "Atlanta Falcons",
-        "team_2": "New Orleans Saints",
-        "point_total": 45.5,
-        "point_spread": -1.5,
-        "favorite": "Atlanta Falcons",
-        "fav_abb": "ATL"
-    },
-    {
-        "team_1": "Indianapolis Colts",
+        "team_1": "Dallas Cowboys",
         "team_2": "Pittsburgh Steelers",
-        "point_total": 39.5,
+        "point_total": 41,
         "point_spread": -1.5,
-        "favorite": "Pittsburgh Steelers",
-        "fav_abb": "PIT"
+        "favorite": "Pittsburgh Steelers"
     },
     {
         "team_1": "Green Bay Packers",
-        "team_2": "Minnesota Vikings",
-        "point_total": 43.5,
-        "point_spread": -2.5,
-        "favorite": "Green Bay Packers",
-        "fav_abb": "GB"
+        "team_2": "Los Angeles Rams",
+        "point_total": 46.5,
+        "point_spread": -3.5,
+        "favorite": "Green Bay Packers"
+    },
+    {
+        "team_1": "New York Giants",
+        "team_2": "Seattle Seahawks",
+        "point_total": 42,
+        "point_spread": -6.5,
+        "favorite": "Seattle Seahawks"
     },
     {
         "team_1": "Denver Broncos",
-        "team_2": "New York Jets",
-        "point_total": 38.5,
-        "point_spread": -8,
-        "favorite": "New York Jets",
-        "fav_abb": "NYJ"
-    },
-    {
-        "team_1": "Chicago Bears",
-        "team_2": "Los Angeles Rams",
-        "point_total": 41.5,
+        "team_2": "Las Vegas Raiders",
+        "point_total": 37,
         "point_spread": -1.5,
-        "favorite": "Chicago Bears",
-        "fav_abb": "CHI"
+        "favorite": "Denver Broncos"
     },
     {
-        "team_1": "Houston Texans",
-        "team_2": "Jacksonville Jaguars",
-        "point_total": 45.5,
-        "point_spread": -4.5,
-        "favorite": "Houston Texans",
-        "fav_abb": "HOU"
+        "team_1": "Arizona Cardinals",
+        "team_2": "San Francisco 49ers",
+        "point_total": 48.5,
+        "point_spread": -7,
+        "favorite": "San Francisco 49ers"
     },
     {
         "team_1": "Carolina Panthers",
-        "team_2": "Cincinnati Bengals",
-        "point_total": 44.5,
-        "point_spread": -6.5,
-        "favorite": "Cincinnati Bengals",
-        "fav_abb": "CIN"
+        "team_2": "Chicago Bears",
+        "point_total": 43.5,
+        "point_spread": -4.5,
+        "favorite": "Chicago Bears"
     },
     {
-        "team_1": "Dallas Cowboys",
-        "team_2": "New York Giants",
-        "point_total": 44.5,
-        "point_spread": -5.5,
-        "favorite": "Dallas Cowboys",
-        "fav_abb": "DAL"
+        "team_1": "Cleveland Browns",
+        "team_2": "Washington Commanders",
+        "point_total": 43.5,
+        "point_spread": -2.5,
+        "favorite": "Washington Commanders"
+    },
+    {
+        "team_1": "Baltimore Ravens",
+        "team_2": "Cincinnati Bengals",
+        "point_total": 48.5,
+        "point_spread": -1.5,
+        "favorite": "Baltimore Ravens"
+    },
+    {
+        "team_1": "Buffalo Bills",
+        "team_2": "Houston Texans",
+        "point_total": 46.5,
+        "point_spread": -2.5,
+        "favorite": "Buffalo Bills"
+    },
+    {
+        "team_1": "New England Patriots",
+        "team_2": "Miami Dolphins",
+        "point_total": 35.5,
+        "point_spread": -1,
+        "favorite": "New England Patriots"
+    },
+    {
+        "team_1": "Indianapolis Colts",
+        "team_2": "Jacksonville Jaguars",
+        "point_total": 45.5,
+        "point_spread": -2.5,
+        "favorite": "Jacksonville Jaguars"
+    },
+    {
+        "team_1": "Minnesota Vikings",
+        "team_2": "New York Jets",
+        "point_total": null,
+        "point_spread": null,
+        "favorite": null
+    },
+    {
+        "team_1": "Atlanta Falcons",
+        "team_2": "Tampa Bay Buccaneers",
+        "point_total": 42.5,
+        "point_spread": -2.5,
+        "favorite": "Atlanta Falcons"
     }
 ]

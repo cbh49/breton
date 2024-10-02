@@ -1,29 +1,56 @@
 [
     {
+        "PlayerName": "Kyle Higashioka",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/543309/headshot/silo/current",
+        "Team": "San Diego Padres",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -120,
+        "HitRate": "3/3"
+    },
+    {
+        "PlayerName": "Orlando Arcia",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/606115/headshot/silo/current",
+        "Team": "Atlanta Braves",
+        "OverUnder": "UNDER",
+        "Line": 0.5,
+        "Odds": -130,
+        "HitRate": "3/3"
+    },
+    {
+        "PlayerName": "Matt Olson",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621566/headshot/silo/current",
+        "Team": "Atlanta Braves",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -175,
+        "HitRate": "3/3"
+    },
+    {
+        "PlayerName": "Ozzie Albies",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/645277/headshot/silo/current",
+        "Team": "Atlanta Braves",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -195,
+        "HitRate": "3/3"
+    },
+    {
+        "PlayerName": "Wenceel P\u00e9rez",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672761/headshot/silo/current",
+        "Team": "Detroit Tigers",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -155,
+        "HitRate": "3/3"
+    },
+    {
         "PlayerName": "Victor Caratini",
         "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605170/headshot/silo/current",
         "Team": "Houston Astros",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": -140,
-        "HitRate": "3/3"
-    },
-    {
-        "PlayerName": "Justyn-Henry Malloy",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/669234/headshot/silo/current",
-        "Team": "Detroit Tigers",
-        "OverUnder": "UNDER",
-        "Line": 0.5,
-        "Odds": -145,
-        "HitRate": "3/3"
-    },
-    {
-        "PlayerName": "Mauricio Dub\u00f3n",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/643289/headshot/silo/current",
-        "Team": "Houston Astros",
-        "OverUnder": "OVER",
-        "Line": 0.5,
-        "Odds": -150,
+        "Odds": -160,
         "HitRate": "3/3"
     },
     {
@@ -32,7 +59,16 @@
         "Team": "Kansas City Royals",
         "OverUnder": "UNDER",
         "Line": 0.5,
-        "Odds": -105,
+        "Odds": -115,
+        "HitRate": "3/3"
+    },
+    {
+        "PlayerName": "Cedric Mullins",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656775/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -145,
         "HitRate": "3/3"
     },
     {
@@ -41,7 +77,16 @@
         "Team": "Kansas City Royals",
         "OverUnder": "UNDER",
         "Line": 0.5,
-        "Odds": -115,
+        "Odds": -155,
+        "HitRate": "3/3"
+    },
+    {
+        "PlayerName": "Ryan O'Hearn",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/656811/headshot/silo/current",
+        "Team": "Baltimore Orioles",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -155,
         "HitRate": "3/3"
     },
     {
@@ -50,16 +95,25 @@
         "Team": "Kansas City Royals",
         "OverUnder": "OVER",
         "Line": 0.5,
-        "Odds": -150,
+        "Odds": -200,
         "HitRate": "3/3"
     },
     {
-        "PlayerName": "Maikel Garcia",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/672580/headshot/silo/current",
-        "Team": "Kansas City Royals",
+        "PlayerName": "Starling Marte",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/516782/headshot/silo/current",
+        "Team": "New York Mets",
         "OverUnder": "UNDER",
         "Line": 0.5,
-        "Odds": -160,
+        "Odds": -180,
+        "HitRate": "3/3"
+    },
+    {
+        "PlayerName": "Brice Turang",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/668930/headshot/silo/current",
+        "Team": "Milwaukee Brewers",
+        "OverUnder": "OVER",
+        "Line": 0.5,
+        "Odds": -185,
         "HitRate": "3/3"
     }
 ]
