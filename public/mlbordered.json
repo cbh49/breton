@@ -3,39 +3,13 @@
         "Team1": "New York Mets",
         "Team2": "Milwaukee Brewers",
         "original_total": 7.5,
-        "adj_total": 11.850719999999999,
-        "Team1Runs": 8.0,
-        "Team2Runs": 4.0,
-        "Team1total": 7.82208,
-        "Team2total": 4.02864,
-        "difference": 4.350719999999999,
-        "Team1Pitcher": "Sean Manaea",
-        "Team2Pitcher": "Frankie Montas"
-    },
-    {
-        "Team1": "Atlanta Braves",
-        "Team2": "San Diego Padres",
-        "original_total": 6.5,
-        "adj_total": 3.2032000000000003,
-        "Team1Runs": 0.0,
-        "Team2Runs": 4.0,
-        "Team1total": 0.0,
-        "Team2total": 3.2032000000000003,
-        "difference": -3.2967999999999997,
-        "Team1Pitcher": "Max Fried",
-        "Team2Pitcher": "Joe Musgrove"
-    },
-    {
-        "Team1": "Kansas City Royals",
-        "Team2": "Baltimore Orioles",
-        "original_total": 7.5,
-        "adj_total": 0.91728,
-        "Team1Runs": 1.0,
-        "Team2Runs": 0.0,
-        "Team1total": 0.91728,
-        "Team2total": 0.0,
-        "difference": -6.58272,
-        "Team1Pitcher": "Seth Lugo",
-        "Team2Pitcher": "Zach Eflin"
+        "adj_total": 9.689820000000001,
+        "Team1Runs": 5.5,
+        "Team2Runs": 4.5,
+        "Team1total": 5.082000000000001,
+        "Team2total": 4.60782,
+        "difference": 2.189820000000001,
+        "Team1Pitcher": "Jose Quintana",
+        "Team2Pitcher": "Tobias Myers"
     }
 ]

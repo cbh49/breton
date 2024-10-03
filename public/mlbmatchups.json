@@ -1,22 +1,12 @@
 [
     {
-        "Team1": "Atlanta Braves",
-        "Team2": "San Diego Padres",
-        "Total": 6.5
-    },
-    {
         "Team1": "New York Mets",
         "Team2": "Milwaukee Brewers",
         "Total": 7.5
     },
     {
-        "Team1": "Kansas City Royals",
-        "Team2": "Baltimore Orioles",
-        "Total": 7.5
-    },
-    {
-        "Team1": "Detroit Tigers",
-        "Team2": "Houston Astros",
-        "Total": 7.5
+        "Team1": "New York Mets",
+        "Team2": "Milwaukee Brewers",
+        "Total": "Not Found"
     }
 ]
