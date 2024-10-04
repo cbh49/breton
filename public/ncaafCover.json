@@ -6,7 +6,7 @@
         "favorite": "Ohio State",
         "team_1_pointsPG3": 24.386976,
         "team_2_pointsPG3": 51.767856,
-        "Cover": "Close game brotha!"
+        "Cover": "yes"
     },
     {
         "Team1": "Pittsburgh",
@@ -24,7 +24,7 @@
         "favorite": "Alabama",
         "team_1_pointsPG3": 48.548808000000015,
         "team_2_pointsPG3": 30.9876,
-        "Cover": "Close game brotha!"
+        "Cover": "no"
     },
     {
         "Team1": "South Carolina",
@@ -33,7 +33,7 @@
         "favorite": "Ole Miss",
         "team_1_pointsPG3": 36.99072,
         "team_2_pointsPG3": 39.395664,
-        "Cover": "Close game brotha!"
+        "Cover": "no"
     },
     {
         "Team1": "Louisville",
@@ -105,7 +105,7 @@
         "favorite": "Texas A&M",
         "team_1_pointsPG3": 33.198776,
         "team_2_pointsPG3": 30.681504000000004,
-        "Cover": "Close game brotha!"
+        "Cover": "no"
     },
     {
         "Team1": "Temple",
@@ -150,7 +150,7 @@
         "favorite": "Oregon",
         "team_1_pointsPG3": 46.0992,
         "team_2_pointsPG3": 15.958319999999999,
-        "Cover": "Close game brotha!"
+        "Cover": "yes"
     },
     {
         "Team1": "Syracuse",
@@ -159,7 +159,7 @@
         "favorite": "UNLV",
         "team_1_pointsPG3": 27.682999999999996,
         "team_2_pointsPG3": 39.6396,
-        "Cover": "Close game brotha!"
+        "Cover": "yes"
     },
     {
         "Team1": "Michigan",
@@ -168,7 +168,7 @@
         "favorite": "Washington",
         "team_1_pointsPG3": 28.040922,
         "team_2_pointsPG3": 20.60856,
-        "Cover": "Close game brotha!"
+        "Cover": "no"
     },
     {
         "Team1": "Minnesota",
@@ -177,7 +177,7 @@
         "favorite": "USC",
         "team_1_pointsPG3": 22.165247999999995,
         "team_2_pointsPG3": 37.9478,
-        "Cover": "Close game brotha!"
+        "Cover": "yes"
     },
     {
         "Team1": "Duke",
@@ -186,7 +186,7 @@
         "favorite": "Georgia Tech",
         "team_1_pointsPG3": 29.694882,
         "team_2_pointsPG3": 31.83180000000001,
-        "Cover": "Close game brotha!"
+        "Cover": "no"
     },
     {
         "Team1": "Michigan",
@@ -195,7 +195,7 @@
         "favorite": "Washington",
         "team_1_pointsPG3": 28.040922,
         "team_2_pointsPG3": 20.60856,
-        "Cover": "Close game brotha!"
+        "Cover": "no"
     },
     {
         "Team1": "Wake Forest",
@@ -204,7 +204,7 @@
         "favorite": "NC State",
         "team_1_pointsPG3": 22.98582,
         "team_2_pointsPG3": 38.2536,
-        "Cover": "Close game brotha!"
+        "Cover": "yes"
     },
     {
         "Team1": "UCLA",
@@ -249,7 +249,7 @@
         "favorite": "Virginia Tech",
         "team_1_pointsPG3": 37.18440000000001,
         "team_2_pointsPG3": 22.0101,
-        "Cover": "Close game brotha!"
+        "Cover": "yes"
     },
     {
         "Team1": "Auburn",
@@ -276,7 +276,7 @@
         "favorite": "TCU",
         "team_1_pointsPG3": 12.569040000000001,
         "team_2_pointsPG3": 36.11520000000001,
-        "Cover": "Close game brotha!"
+        "Cover": "yes"
     },
     {
         "Team1": "Texas State",
@@ -285,7 +285,7 @@
         "favorite": "Texas State",
         "team_1_pointsPG3": 38.210832,
         "team_2_pointsPG3": 17.1444,
-        "Cover": "Close game brotha!"
+        "Cover": "yes"
     },
     {
         "Team1": "Oklahoma State",
@@ -321,7 +321,7 @@
         "favorite": "Wisconsin",
         "team_1_pointsPG3": 13.947648,
         "team_2_pointsPG3": 19.138943999999995,
-        "Cover": "Close game brotha!"
+        "Cover": "no"
     },
     {
         "Team1": "Arkansas State",
@@ -357,6 +357,6 @@
         "favorite": "Western Michigan",
         "team_1_pointsPG3": 12.16332,
         "team_2_pointsPG3": 12.755247999999998,
-        "Cover": "Close game brotha!"
+        "Cover": "no"
     }
 ]
