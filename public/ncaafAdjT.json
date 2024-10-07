@@ -2,352 +2,441 @@
     {
         "Team1": "Iowa",
         "Team2": "Ohio State",
+        "point_total": 44.5,
         "point_spread": -20.5,
         "favorite": "Ohio State",
         "team_1_pointsPG3": 24.386976,
         "team_2_pointsPG3": 51.767856,
-        "Cover": "yes"
+        "adjTotal": 76.154832,
+        "difference": 31.654832
     },
     {
         "Team1": "Pittsburgh",
         "Team2": "North Carolina",
+        "point_total": 64,
         "point_spread": -2.5,
         "favorite": "Pittsburgh",
         "team_1_pointsPG3": 49.830144,
         "team_2_pointsPG3": 44.07480000000001,
-        "Cover": "Close game brotha!"
+        "adjTotal": 93.904944,
+        "difference": 29.904944
     },
     {
         "Team1": "Alabama",
         "Team2": "Vanderbilt",
+        "point_total": 54.5,
         "point_spread": -24,
         "favorite": "Alabama",
         "team_1_pointsPG3": 48.548808000000015,
         "team_2_pointsPG3": 30.9876,
-        "Cover": "no"
+        "adjTotal": 79.53640800000002,
+        "difference": 25.036408000000023
     },
     {
         "Team1": "South Carolina",
         "Team2": "Ole Miss",
+        "point_total": 51.5,
         "point_spread": -9,
         "favorite": "Ole Miss",
         "team_1_pointsPG3": 36.99072,
         "team_2_pointsPG3": 39.395664,
-        "Cover": "no"
+        "adjTotal": 76.38638399999999,
+        "difference": 24.886383999999993
     },
     {
         "Team1": "Louisville",
         "Team2": "SMU",
+        "point_total": 58.5,
         "point_spread": -7,
         "favorite": "Louisville",
         "team_1_pointsPG3": 41.681640000000016,
         "team_2_pointsPG3": 39.36,
-        "Cover": "Close game brotha!"
+        "adjTotal": 81.04164000000002,
+        "difference": 22.541640000000015
     },
     {
         "Team1": "Tennessee",
         "Team2": "Arkansas",
+        "point_total": 61.5,
         "point_spread": -13.5,
         "favorite": "Tennessee",
         "team_1_pointsPG3": 58.212,
         "team_2_pointsPG3": 25.300080000000005,
-        "Cover": "yes"
+        "adjTotal": 83.51208000000001,
+        "difference": 22.01208000000001
     },
     {
         "Team1": "Clemson",
         "Team2": "Florida State",
+        "point_total": 48,
         "point_spread": -14.5,
         "favorite": "Clemson",
         "team_1_pointsPG3": 55.968,
         "team_2_pointsPG3": 13.994399999999999,
-        "Cover": "yes"
+        "adjTotal": 69.9624,
+        "difference": 21.962400000000002
     },
     {
         "Team1": "Northwestern",
         "Team2": "Indiana",
+        "point_total": 42,
         "point_spread": -12.5,
         "favorite": "Indiana",
         "team_1_pointsPG3": 11.8872,
         "team_2_pointsPG3": 47.8368,
-        "Cover": "yes"
+        "adjTotal": 59.724,
+        "difference": 17.723999999999997
     },
     {
         "Team1": "Air Force",
         "Team2": "Navy",
+        "point_total": 35.5,
         "point_spread": -9,
         "favorite": "Navy",
         "team_1_pointsPG3": 8.06652,
         "team_2_pointsPG3": 44.4528,
-        "Cover": "yes"
+        "adjTotal": 52.51932000000001,
+        "difference": 17.019320000000008
     },
     {
         "Team1": "Rutgers",
         "Team2": "Nebraska",
+        "point_total": 42.5,
         "point_spread": -7,
         "favorite": "Nebraska",
         "team_1_pointsPG3": 30.98368,
         "team_2_pointsPG3": 27.778679999999998,
-        "Cover": "no"
+        "adjTotal": 58.76236,
+        "difference": 16.26236
     },
     {
         "Team1": "Florida",
         "Team2": "UCF",
+        "point_total": 59.5,
         "point_spread": -1.5,
         "favorite": "Florida",
         "team_1_pointsPG3": 36.324288,
         "team_2_pointsPG3": 39.06504000000001,
-        "Cover": "Close game brotha!"
+        "adjTotal": 75.389328,
+        "difference": 15.889328000000006
     },
     {
         "Team1": "Missouri",
         "Team2": "Texas A&M",
+        "point_total": 49.5,
         "point_spread": -2.5,
         "favorite": "Texas A&M",
         "team_1_pointsPG3": 33.198776,
         "team_2_pointsPG3": 30.681504000000004,
-        "Cover": "no"
+        "adjTotal": 63.880280000000006,
+        "difference": 14.380280000000006
     },
     {
         "Team1": "Temple",
         "Team2": "UConn",
+        "point_total": 50.5,
         "point_spread": -14,
         "favorite": "UConn",
         "team_1_pointsPG3": 24.185480000000005,
         "team_2_pointsPG3": 40.161311999999995,
-        "Cover": "Close game brotha!"
+        "adjTotal": 64.346792,
+        "difference": 13.846791999999994
     },
     {
         "Team1": "Baylor",
         "Team2": "Iowa State",
+        "point_total": 46.5,
         "point_spread": -12.5,
         "favorite": "Iowa State",
         "team_1_pointsPG3": 24.4494,
         "team_2_pointsPG3": 34.852482,
-        "Cover": "Close game brotha!"
+        "adjTotal": 59.301882000000006,
+        "difference": 12.801882000000006
     },
     {
         "Team1": "Kansas",
         "Team2": "Arizona State",
+        "point_total": 50.5,
         "point_spread": -2.5,
         "favorite": "Arizona State",
         "team_1_pointsPG3": 30.618000000000002,
         "team_2_pointsPG3": 31.079400000000003,
-        "Cover": "Close game brotha!"
+        "adjTotal": 61.6974,
+        "difference": 11.197400000000002
     },
     {
         "Team1": "Boise State",
         "Team2": "Utah State",
+        "point_total": 65.5,
         "point_spread": -27.5,
         "favorite": "Boise State",
         "team_1_pointsPG3": 57.0078,
         "team_2_pointsPG3": 18.068063999999996,
-        "Cover": "yes"
+        "adjTotal": 75.075864,
+        "difference": 9.575863999999996
     },
     {
         "Team1": "Oregon",
         "Team2": "Michigan State",
+        "point_total": 52.5,
         "point_spread": -24.5,
         "favorite": "Oregon",
         "team_1_pointsPG3": 46.0992,
         "team_2_pointsPG3": 15.958319999999999,
-        "Cover": "yes"
+        "adjTotal": 62.057520000000004,
+        "difference": 9.557520000000004
     },
     {
         "Team1": "Syracuse",
         "Team2": "UNLV",
+        "point_total": 58.5,
         "point_spread": -6.5,
         "favorite": "UNLV",
         "team_1_pointsPG3": 27.682999999999996,
         "team_2_pointsPG3": 39.6396,
-        "Cover": "yes"
-    },
-    {
-        "Team1": "Minnesota",
-        "Team2": "USC",
-        "point_spread": -9,
-        "favorite": "USC",
-        "team_1_pointsPG3": 22.165247999999995,
-        "team_2_pointsPG3": 37.9478,
-        "Cover": "yes"
-    },
-    {
-        "Team1": "Duke",
-        "Team2": "Georgia Tech",
-        "point_spread": -8.5,
-        "favorite": "Georgia Tech",
-        "team_1_pointsPG3": 29.694882,
-        "team_2_pointsPG3": 31.83180000000001,
-        "Cover": "no"
+        "adjTotal": 67.3226,
+        "difference": 8.822599999999994
     },
     {
         "Team1": "Michigan",
         "Team2": "Washington",
+        "point_total": 40.5,
         "point_spread": -2.5,
         "favorite": "Washington",
         "team_1_pointsPG3": 28.040922,
         "team_2_pointsPG3": 20.60856,
-        "Cover": "no"
+        "adjTotal": 48.649482,
+        "difference": 8.149481999999999
+    },
+    {
+        "Team1": "Minnesota",
+        "Team2": "USC",
+        "point_total": 52.5,
+        "point_spread": -9,
+        "favorite": "USC",
+        "team_1_pointsPG3": 22.165247999999995,
+        "team_2_pointsPG3": 37.9478,
+        "adjTotal": 60.11304799999999,
+        "difference": 7.613047999999992
+    },
+    {
+        "Team1": "Duke",
+        "Team2": "Georgia Tech",
+        "point_total": 54,
+        "point_spread": -8.5,
+        "favorite": "Georgia Tech",
+        "team_1_pointsPG3": 29.694882,
+        "team_2_pointsPG3": 31.83180000000001,
+        "adjTotal": 61.52668200000001,
+        "difference": 7.526682000000008
+    },
+    {
+        "Team1": "Michigan",
+        "Team2": "Washington",
+        "point_total": 41.5,
+        "point_spread": -2.5,
+        "favorite": "Washington",
+        "team_1_pointsPG3": 28.040922,
+        "team_2_pointsPG3": 20.60856,
+        "adjTotal": 48.649482,
+        "difference": 7.149481999999999
     },
     {
         "Team1": "Wake Forest",
         "Team2": "NC State",
+        "point_total": 54.5,
         "point_spread": -5.5,
         "favorite": "NC State",
         "team_1_pointsPG3": 22.98582,
         "team_2_pointsPG3": 38.2536,
-        "Cover": "yes"
+        "adjTotal": 61.239419999999996,
+        "difference": 6.7394199999999955
     },
     {
         "Team1": "UCLA",
         "Team2": "Penn State",
+        "point_total": 45.5,
         "point_spread": -27.5,
         "favorite": "Penn State",
         "team_1_pointsPG3": 11.882728,
         "team_2_pointsPG3": 40.11392000000001,
-        "Cover": "Close game brotha!"
+        "adjTotal": 51.99664800000001,
+        "difference": 6.4966480000000075
     },
     {
         "Team1": "Tulane",
         "Team2": "UAB",
+        "point_total": 55.5,
         "point_spread": -14,
         "favorite": "Tulane",
         "team_1_pointsPG3": 43.53439999999999,
         "team_2_pointsPG3": 17.478720000000003,
-        "Cover": "yes"
+        "adjTotal": 61.013119999999994,
+        "difference": 5.513119999999994
     },
     {
         "Team1": "Old Dominion",
         "Team2": "Coastal Carolina",
+        "point_total": 55.5,
         "point_spread": -5,
         "favorite": "Coastal Carolina",
         "team_1_pointsPG3": 20.097,
         "team_2_pointsPG3": 40.856508000000005,
-        "Cover": "yes"
+        "adjTotal": 60.95350800000001,
+        "difference": 5.4535080000000065
     },
     {
         "Team1": "Boston College",
         "Team2": "Virginia",
+        "point_total": 50.5,
         "point_spread": -3.5,
         "favorite": "Virginia",
         "team_1_pointsPG3": 26.084268,
         "team_2_pointsPG3": 29.195460000000004,
-        "Cover": "Close game brotha!"
+        "adjTotal": 55.279728000000006,
+        "difference": 4.779728000000006
     },
     {
         "Team1": "Virginia Tech",
         "Team2": "Stanford",
+        "point_total": 54.5,
         "point_spread": -6.5,
         "favorite": "Virginia Tech",
         "team_1_pointsPG3": 37.18440000000001,
         "team_2_pointsPG3": 22.0101,
-        "Cover": "yes"
+        "adjTotal": 59.19450000000001,
+        "difference": 4.694500000000012
     },
     {
         "Team1": "Auburn",
         "Team2": "Georgia",
+        "point_total": 51.5,
         "point_spread": -23.5,
         "favorite": "Georgia",
         "team_1_pointsPG3": 23.863391999999997,
         "team_2_pointsPG3": 31.449600000000004,
-        "Cover": "no"
+        "adjTotal": 55.312992,
+        "difference": 3.8129920000000013
     },
     {
         "Team1": "Nevada",
         "Team2": "San Jose State",
+        "point_total": 48.5,
         "point_spread": -7.5,
         "favorite": "San Jose State",
         "team_1_pointsPG3": 14.742,
         "team_2_pointsPG3": 34.909056,
-        "Cover": "yes"
+        "adjTotal": 49.651056,
+        "difference": 1.151055999999997
     },
     {
         "Team1": "Houston",
         "Team2": "TCU",
+        "point_total": 49.5,
         "point_spread": -17,
         "favorite": "TCU",
         "team_1_pointsPG3": 12.569040000000001,
         "team_2_pointsPG3": 36.11520000000001,
-        "Cover": "yes"
+        "adjTotal": 48.68424000000001,
+        "difference": -0.8157599999999903
     },
     {
         "Team1": "Texas State",
         "Team2": "Troy",
+        "point_total": 57.5,
         "point_spread": -15,
         "favorite": "Texas State",
         "team_1_pointsPG3": 38.210832,
         "team_2_pointsPG3": 17.1444,
-        "Cover": "yes"
+        "adjTotal": 55.355232,
+        "difference": -2.144767999999999
     },
     {
         "Team1": "Oklahoma State",
         "Team2": "West Virginia",
+        "point_total": 65.5,
         "point_spread": -5,
         "favorite": "Oklahoma State",
         "team_1_pointsPG3": 32.67264000000001,
         "team_2_pointsPG3": 30.674280000000003,
-        "Cover": "Close game brotha!"
+        "adjTotal": 63.34692000000001,
+        "difference": -2.1530799999999886
     },
     {
         "Team1": "Charlotte",
         "Team2": "East Carolina",
+        "point_total": 46.5,
         "point_spread": -7.5,
         "favorite": "East Carolina",
         "team_1_pointsPG3": 17.247384,
         "team_2_pointsPG3": 22.624272,
-        "Cover": "Close game brotha!"
+        "adjTotal": 39.871656,
+        "difference": -6.6283439999999985
     },
     {
         "Team1": "Oregon State",
         "Team2": "Colorado State",
+        "point_total": 47.5,
         "point_spread": -13.5,
         "favorite": "Oregon State",
         "team_1_pointsPG3": 28.291032000000005,
         "team_2_pointsPG3": 12.247200000000003,
-        "Cover": "Close game brotha!"
+        "adjTotal": 40.53823200000001,
+        "difference": -6.961767999999992
     },
     {
         "Team1": "Purdue",
         "Team2": "Wisconsin",
+        "point_total": 46.5,
         "point_spread": -12.5,
         "favorite": "Wisconsin",
         "team_1_pointsPG3": 13.947648,
         "team_2_pointsPG3": 19.138943999999995,
-        "Cover": "no"
+        "adjTotal": 33.086591999999996,
+        "difference": -13.413408000000004
     },
     {
         "Team1": "Arkansas State",
         "Team2": "South Alabama",
+        "point_total": 62.5,
         "point_spread": -3.5,
         "favorite": "South Alabama",
         "team_1_pointsPG3": 16.7265,
         "team_2_pointsPG3": 32.32788,
-        "Cover": "yes"
+        "adjTotal": 49.05438,
+        "difference": -13.445619999999998
     },
     {
         "Team1": "Akron",
         "Team2": "Bowling Green",
+        "point_total": 52.5,
         "point_spread": -14,
         "favorite": "Bowling Green",
         "team_1_pointsPG3": 11.187000000000003,
         "team_2_pointsPG3": 26.075789999999998,
-        "Cover": "Close game brotha!"
+        "adjTotal": 37.26279,
+        "difference": -15.237209999999997
     },
     {
         "Team1": "Appalachian State",
         "Team2": "Marshall",
+        "point_total": 57.5,
         "point_spread": -1.5,
         "favorite": "Marshall",
         "team_1_pointsPG3": 18.149208000000005,
         "team_2_pointsPG3": 20.455740000000002,
-        "Cover": "Close game brotha!"
+        "adjTotal": 38.60494800000001,
+        "difference": -18.895051999999993
     },
     {
         "Team1": "Western Michigan",
         "Team2": "Ball State",
+        "point_total": 56.5,
         "point_spread": -7.5,
         "favorite": "Western Michigan",
         "team_1_pointsPG3": 12.16332,
         "team_2_pointsPG3": 12.755247999999998,
-        "Cover": "no"
+        "adjTotal": 24.918568,
+        "difference": -31.581432
     }
 ]

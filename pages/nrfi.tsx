@@ -146,36 +146,49 @@ const MLB = () => {
    
    <Image src="/bretpngw.png" alt="Logo" width={100} height={100} className={styles.logo} />
    <Link href="/" passHref></Link>
-   <ul><li><Link href="/" passHref>HOME</Link></li>
-   <li
-       onMouseEnter={() => setIsMLBDropdownVisible(true)}
-       onMouseLeave={() => setIsMLBDropdownVisible(false)}
-     >
-       MLB Models
-       {isMLBDropdownVisible && (
-         <div className={styles.dropdown}>
-          <Link href="/mlb"><p>MLB O/U</p></Link>
-          <Link href="/mlbml"><p>MLB ML</p></Link>
-          <Link href="/nrfi"><p>NRFI</p></Link>
-         </div>
-       )}
-     </li>
-     <li
-       onMouseEnter={() => setIsMLBDropdownVisible(true)}
-       onMouseLeave={() => setIsMLBDropdownVisible(false)}
-     >
-       MLB Props
-       {isMLBDropdownVisible && (
-         <div className={styles.dropdown}>
-           <Link href="/pitchProp"><p>Strike Outs</p></Link>
-           <Link href="/bases"><p>Total Bases</p></Link>
-           <Link href="/hits"><p>Hits</p></Link>
-           <Link href="/rbi"><p>RBIs</p></Link>
-         </div>
-       )}
-     </li>
-     <li><Link href="/news" passHref>AI Picks</Link></li>
-   </ul>
+   <ul>
+            <li><Link href="/">HOME</Link></li>
+            <li
+              onMouseEnter={() => setIsMLBDropdownVisible(true)}
+              onMouseLeave={() => setIsMLBDropdownVisible(false)}
+            >
+              MLB
+              {isMLBDropdownVisible && (
+                <div className={styles.dropdown}>
+                  <Link href="/mlb"><p>MLB O/U</p></Link>
+                  <Link href="/mlbml"><p>MLB ML</p></Link>
+                  <Link href="/nrfi"><p>NRFI</p></Link>
+                  <Link href="/pitchProp"><p>Strikeouts</p></Link>
+                  <Link href="/hits"><p>Hits</p></Link>
+                  <Link href="/bases"><p>Bases</p></Link>
+                  <Link href="/rbi"><p>RBIs</p></Link>
+                </div>
+              )}
+            </li>
+            <li
+              onMouseEnter={() => setIsMLBDropdownVisible(true)}
+              onMouseLeave={() => setIsMLBDropdownVisible(false)}
+            >
+            NCAAF
+              {isMLBDropdownVisible && (
+                <div className={styles.dropdown}>
+                  <Link href="/ncaafOu"><p>NCAAF O/U</p></Link>
+                  <Link href="/ncaafCover"><p>NCAAF Spread</p></Link>
+                </div>
+              )}
+              </li>
+              <li
+              onMouseEnter={() => setIsMLBDropdownVisible(true)}
+              onMouseLeave={() => setIsMLBDropdownVisible(false)}
+            >
+            NFL
+              {isMLBDropdownVisible && (
+                <div className={styles.dropdown}>
+                 <p> Coming Soon...</p>
+                </div>
+              )}
+              </li>
+          </ul>
    <div className={styles.odds}>
    <h4>Odds via:</h4>
    <Image src="/dkvert.png" alt="Logo" width={80} height={70} className={styles.logor}/>
