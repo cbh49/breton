@@ -271,7 +271,7 @@ return (
                           backgroundColor: 'green'
                           }}
                         >
-                        <p>Projected Margin</p>
+                        <p>Proj Margin</p>
                         <p>{toFixed(item.margin)}</p>
                       </div>
                       <div
@@ -342,7 +342,7 @@ return (
                           backgroundColor: 'green'
                           }}
                         >
-                        <p>Projected Margin</p>
+                        <p>Proj Margin</p>
                         <p>{toFixed(item.margin)}</p>
                       </div>
                     {/* Condition for Upset Alert */}

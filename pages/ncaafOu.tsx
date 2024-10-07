@@ -286,7 +286,7 @@ return (
                           backgroundColor: 'green'
                           }}
                         >
-                        <p>Projected points:</p>
+                        <p>Proj points:</p>
                         <p>{toFixed(item.adjTotal)}</p>
                       </div>
                     <div
@@ -363,7 +363,7 @@ return (
                           backgroundColor: 'green'
                           }}
                         >
-                        <p>Projected points:</p>
+                        <p>Proj points:</p>
                         <p>{toFixed(item.adjTotal)}</p>
                       </div>
                     <div
@@ -439,7 +439,7 @@ return (
                           backgroundColor: 'red'
                           }}
                         >
-                        <p>Projected points:</p>
+                        <p>Proj points:</p>
                         <p>{toFixed(item.adjTotal)}</p>
                       </div>
                     <div
@@ -516,7 +516,7 @@ return (
                           backgroundColor: 'red'
                           }}
                         >
-                        <p>Projected points:</p>
+                        <p>Proj points:</p>
                         <p>{toFixed(item.adjTotal)}</p>
                       </div>
                     <div
