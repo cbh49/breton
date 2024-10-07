@@ -871,8 +871,8 @@ table.table2 th:last-child, table.table2 td:last-child {
 }
 .header {
   padding: 6px; /* Padding inside each row */
-  height: 35px;
-  width: calc(30px); /* Full width */
+  height: 45px;
+  width: calc(40px); /* Full width */
   margin: 10px;
   font-size: .1em;
   margin-left: 3%;
@@ -1148,8 +1148,8 @@ table.table2 th:last-child, table.table2 td:last-child {
     }
     .header {
       padding: 6px; /* Padding inside each row */
-      height: 50px;
-      width: calc(40px); /* Full width */
+      height: 60px;
+      width: calc(50px); /* Full width */
       margin: 10px;
       font-size: .2em;
       margin-left: 3%;
@@ -1220,8 +1220,8 @@ table.table2 th:last-child, table.table2 td:last-child {
 }
 .header {
   padding: 6px; /* Padding inside each row */
-  height: 80px;
-  width: calc(50px); /* Full width */
+  height: 85px;
+  width: calc(65px); /* Full width */
   margin: 10px;
   font-size: .5em;
   margin-left: 3%;
@@ -1297,8 +1297,8 @@ table.table2 th:last-child, table.table2 td:last-child {
 }
 .header {
   padding: 6px; /* Padding inside each row */
-  height: 80px;
-  width: calc(50px); /* Full width */
+  height: 85px;
+  width: calc(60px); /* Full width */
   margin: 10px;
   font-size: .6em;
   margin-left: 3%;
