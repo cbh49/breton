@@ -779,7 +779,9 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .banner{
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+    background-size: 100%;
   }
+
 
   .navbar{
     background-size: 100%;
@@ -873,7 +875,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   height: 35px;
   width: calc(30px); /* Full width */
   margin: 10px;
-  font-size: .2em;
+  font-size: .1em;
   margin-left: 3%;
 }
 .table2 span{
@@ -916,6 +918,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   }
   .banner{
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+    background-size: 100%;
   }
 
   .navbar{
@@ -1010,7 +1013,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   height: 35px;
   width: calc(30px); /* Full width */
   margin: 10px;
-  font-size: .2em;
+  font-size: .1em;
   margin-left: 3%;
 }
 .table2 span{
@@ -1054,6 +1057,7 @@ table.table2 th:last-child, table.table2 td:last-child {
       }
       .banner{
         background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+        background-size: 100%;
       }
     
       .navbar{
@@ -1148,7 +1152,7 @@ table.table2 th:last-child, table.table2 td:last-child {
       height: 50px;
       width: calc(40px); /* Full width */
       margin: 10px;
-      font-size: .3em;
+      font-size: .2em;
       margin-left: 3%;
     }
     .table2 span{
@@ -1220,7 +1224,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   height: 80px;
   width: calc(50px); /* Full width */
   margin: 10px;
-  font-size: .6em;
+  font-size: .5em;
   margin-left: 3%;
 }
 .table2 span{
@@ -1297,7 +1301,7 @@ table.table2 th:last-child, table.table2 td:last-child {
   height: 80px;
   width: calc(50px); /* Full width */
   margin: 10px;
-  font-size: .7em;
+  font-size: .6em;
   margin-left: 3%;
 }
 .table2 span{
