@@ -782,7 +782,6 @@ table.table2 th:last-child, table.table2 td:last-child {
     background-size: 100%;
   }
 
-
   .navbar{
     background-size: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
