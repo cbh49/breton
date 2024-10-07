@@ -32,7 +32,7 @@ type AdjMatchData = {
 
 type LogoUrls = { [team: string]: string };
 
-const ncaafOu = () => {
+const NcaafCover = () => {
   const [adjMatchData, setAdjMatchData] = useState<AdjMatchData[]>([]);
   // State for the logos and matchups for the sideNav
   const [logos, setLogos] = useState<LogoUrls>({});
@@ -378,4 +378,4 @@ return (
   </>
 );
 }
- export default ncaafOu;
+ export default NcaafCover;

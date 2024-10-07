@@ -35,7 +35,7 @@ type TallyData = {
   "-2-": string;
 };
 
-const ncaafOu = () => {
+const NcaafOu = () => {
   const [adjMatchData, setAdjMatchData] = useState<AdjMatchData[]>([]);
   // State for the logos and matchups for the sideNav
   const [logos, setLogos] = useState<LogoUrls>({});
@@ -547,4 +547,4 @@ return (
   </>
 );
 }
- export default ncaafOu;
+ export default NcaafOu;
