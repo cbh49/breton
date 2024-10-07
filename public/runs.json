@@ -27,25 +27,33 @@
         2.5,
         4.3
     ],
+    "Cleveland Guardians": [
+        7.0,
+        0.0
+    ],
     "Colorado Rockies": [
         4.1,
         7.0
     ],
     "Detroit Tigers": [
-        4.0,
-        1.5
+        2.6666666666666665,
+        3.3333333333333335
     ],
     "Houston Astros": [
         1.5,
         4.0
     ],
     "Kansas City Royals": [
-        1.5,
-        0.5
+        2.6666666666666665,
+        2.3333333333333335
     ],
     "Los Angeles Angels": [
         3.6,
         6.6
+    ],
+    "Los Angeles Dodgers": [
+        4.5,
+        7.5
     ],
     "Miami Marlins": [
         5.5,
@@ -60,20 +68,28 @@
         6.222222222222222
     ],
     "New York Mets": [
-        5.0,
-        3.6666666666666665
+        5.4,
+        4.0
+    ],
+    "New York Yankees": [
+        6.0,
+        5.0
     ],
     "Oakland Athletics": [
         3.0,
         5.0
+    ],
+    "Philadelphia Phillies": [
+        4.5,
+        6.0
     ],
     "Pittsburgh Pirates": [
         3.2,
         4.2
     ],
     "San Diego Padres": [
-        4.5,
-        2.0
+        6.0,
+        3.25
     ],
     "San Francisco Giants": [
         4.5,

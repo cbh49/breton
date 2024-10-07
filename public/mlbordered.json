@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "Team1": "Kansas City Royals",
+        "Team2": "New York Yankees",
+        "original_total": 7.5,
+        "adj_total": 8.428320000000001,
+        "Team1Runs": 2.6666666666666665,
+        "Team2Runs": 6.0,
+        "Team1total": 2.44608,
+        "Team2total": 5.982240000000001,
+        "difference": 0.9283200000000011,
+        "Team1Pitcher": "Cole Ragans",
+        "Team2Pitcher": "Carlos Rod\u00c3\u00b3n"
+    }
+]

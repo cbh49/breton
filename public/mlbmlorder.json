@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "Team1": "Kansas City Royals",
+        "Team2": "New York Yankees",
+        "Team1total": 2.44608,
+        "Team2total": 5.982240000000001,
+        "Team1Pitcher": "Cole Ragans",
+        "Team2Pitcher": "Carlos Rod\u00c3\u0192\u00c2\u00b3n",
+        "MLdifference": 3.536160000000001
+    }
+]
