@@ -347,16 +347,14 @@ return (
                     </div>
                     </td>
                     <td>
-                      <div
+                    <div
                         className={styles.header}
                         style={{
                           backgroundColor: 'green'
                         }}
                       >
                         <p>Line:</p>
-                        <div className={styles.value}>
                         <p>{toFixed(item.point_total)}</p>
-                        </div>
                       </div>
                     </td>
                     <div
@@ -425,16 +423,14 @@ return (
                     </div>
                     </td>
                     <td>
-                      <div
+                    <div
                         className={styles.header}
                         style={{
-                          backgroundColor: 'red'
+                          backgroundColor: 'green'
                         }}
                       >
                         <p>Line:</p>
-                        <div className={styles.value}>
-                          <p>{toFixed(item.point_total)}</p>
-                          </div>
+                        <p>{toFixed(item.point_total)}</p>
                       </div>
                     </td>
                     <div
@@ -504,16 +500,14 @@ return (
                     </div>
                     </td>
                     <td>
-                      <div
+                    <div
                         className={styles.header}
                         style={{
-                          backgroundColor: 'red'
+                          backgroundColor: 'green'
                         }}
                       >
                         <p>Line:</p>
-                        <div className={styles.value}>
                         <p>{toFixed(item.point_total)}</p>
-                        </div>
                       </div>
                     </td>
                     <div
