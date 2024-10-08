@@ -1,12 +1,12 @@
 [
     {
-        "Team1": "Kansas City Royals",
-        "Team2": "New York Yankees",
+        "Team1": "Los Angeles Dodgers",
+        "Team2": "San Diego Padres",
         "Total": 7.5
     },
     {
-        "Team1": "Detroit Tigers",
-        "Team2": "Cleveland Guardians",
-        "Total": 6
+        "Team1": "Philadelphia Phillies",
+        "Team2": "New York Mets",
+        "Total": 7
     }
 ]

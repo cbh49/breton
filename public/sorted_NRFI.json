@@ -1,1 +1,36 @@
-[]
+[
+    {
+        "Team1": "Philadelphia Phillies",
+        "Team2": "New York Mets",
+        "Team1Pitcher": "Aaron Nola",
+        "Team1PitcherGames": 33.0,
+        "Team1PitcherER": 12.0,
+        "Team1PitcherWHIP": 1.03,
+        "Team1Runs": 0.64,
+        "Team2Pitcher": "Sean Manaea",
+        "Team2PitcherGames": 32.0,
+        "Team2PitcherER": 11.0,
+        "Team2PitcherWHIP": 1.063,
+        "Team2Runs": 0.41,
+        "PRA1": 0.36363636363636365,
+        "PRA2": 0.34375,
+        "Total": 0.962596590909091
+    },
+    {
+        "Team1": "Los Angeles Dodgers",
+        "Team2": "San Diego Padres",
+        "Team1Pitcher": "Walker Buehler",
+        "Team1PitcherGames": 16.0,
+        "Team1PitcherER": 15.0,
+        "Team1PitcherWHIP": 2.188,
+        "Team1Runs": 0.63,
+        "Team2Pitcher": "Michael King",
+        "Team2PitcherGames": 30.0,
+        "Team2PitcherER": 6.0,
+        "Team2PitcherWHIP": 1.033,
+        "Team2Runs": 0.61,
+        "PRA1": 0.9375,
+        "PRA2": 0.2,
+        "Total": 1.3996250000000001
+    }
+]

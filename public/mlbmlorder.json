@@ -1,11 +1,11 @@
 [
     {
-        "Team1": "Kansas City Royals",
-        "Team2": "New York Yankees",
-        "Team1total": 2.44608,
-        "Team2total": 5.982240000000001,
-        "Team1Pitcher": "Cole Ragans",
-        "Team2Pitcher": "Carlos Rod\u00c3\u0192\u00c2\u00b3n",
-        "MLdifference": 3.536160000000001
+        "Team1": "Philadelphia Phillies",
+        "Team2": "New York Mets",
+        "Team1total": 3.8847600000000004,
+        "Team2total": 4.525632,
+        "Team1Pitcher": "Aaron Nola",
+        "Team2Pitcher": "Sean Manaea",
+        "MLdifference": 0.6408719999999994
     }
 ]
