@@ -1,20 +1,11 @@
 [
     {
-        "PlayerName": "Walker Buehler",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/621111/headshot/silo/current",
-        "team": "Los Angeles Dodgers",
+        "PlayerName": "Clarke Schmidt",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/657376/headshot/silo/current",
+        "team": "New York Yankees",
         "Line": 3.5,
         "OverUnder": "OVER",
         "HitRate": "4/5",
-        "Odds": "+148"
-    },
-    {
-        "PlayerName": "Aaron Nola",
-        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/605400/headshot/silo/current",
-        "team": "Philadelphia Phillies",
-        "Line": 5.5,
-        "OverUnder": "OVER",
-        "HitRate": "4/5",
-        "Odds": "-104"
+        "Odds": "-143"
     }
 ]

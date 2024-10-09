@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "PlayerName": "Clarke Schmidt",
+        "Headshot": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:silo:current.png/r_max/w_180,q_auto:best/v1/people/657376/headshot/silo/current",
+        "team": "New York Yankees",
+        "Line": 3.5,
+        "OverUnder": "OVER",
+        "HitRate": "9/10",
+        "Odds": "-143"
+    }
+]

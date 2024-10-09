@@ -3,13 +3,26 @@
         "Team1": "Philadelphia Phillies",
         "Team2": "New York Mets",
         "original_total": 7,
-        "adj_total": 8.410392,
-        "Team1Runs": 4.5,
-        "Team2Runs": 5.4,
-        "Team1total": 3.8847600000000004,
-        "Team2total": 4.525632,
-        "difference": 1.4103919999999999,
-        "Team1Pitcher": "Aaron Nola",
-        "Team2Pitcher": "Sean Manaea"
+        "adj_total": 8.727986666666668,
+        "Team1Runs": 3.6666666666666665,
+        "Team2Runs": 5.666666666666667,
+        "Team1total": 3.16536,
+        "Team2total": 5.5626266666666675,
+        "difference": 1.7279866666666681,
+        "Team1Pitcher": "Ranger Su\u00c3\u00a1rez",
+        "Team2Pitcher": "Jose Quintana"
+    },
+    {
+        "Team1": "New York Yankees",
+        "Team2": "Kansas City Royals",
+        "original_total": 8,
+        "adj_total": 6.034160000000001,
+        "Team1Runs": 4.0,
+        "Team2Runs": 3.0,
+        "Team1total": 3.8720000000000003,
+        "Team2total": 2.1621600000000005,
+        "difference": -1.9658399999999991,
+        "Team1Pitcher": "Clarke Schmidt",
+        "Team2Pitcher": "Seth Lugo"
     }
 ]
