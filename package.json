@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "build:check": "tsc --noEmit",
     "preview": "vite preview",
     "generate": "tsx scripts/generateImage.ts",
     "generate:png": "tsx scripts/generateImagePuppeteer.ts"
