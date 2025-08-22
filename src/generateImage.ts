@@ -1,34 +1,19 @@
-import { toPng } from 'html-to-image';
 import fs from 'fs';
 import path from 'path';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import NCAAFImage from './components/NCAAFImage';
+import { type Matchup, type TeamStats } from './functions/types';
 import './styles/NCAAFImage.css';
 
-interface TeamStats {
-  pointsPG: number;
-  pointsAllowed: number;
-  pointsPG_ranking: number;
-  pointsAllowed_ranking: number;
-}
 
-interface MatchupData {
-  Team1: string;
-  Team2: string;
-  Team1Spread: string;
-  Team2Spread: string;
-  Total: string;
-  Team1ML: string;
-  Team2ML: string;
-}
 
 // Load data from JSON files
 function loadData() {
   try {
     // Load public bets data
     const publicBetsPath = path.join(__dirname, '../../json-data/publicBets.json');
-    const publicBetsData: MatchupData[] = JSON.parse(fs.readFileSync(publicBetsPath, 'utf8'));
+    const publicBetsData: Matchup[] = JSON.parse(fs.readFileSync(publicBetsPath, 'utf8'));
     
     // Load team stats data
     const teamStatsPath = path.join(__dirname, '../../teamStats.json');
@@ -65,7 +50,7 @@ function loadData() {
 
 // Create HTML string from React component
 function createHTMLString(data: {
-  publicBetsData: MatchupData[];
+  publicBetsData: Matchup[];
   teamStatsData: Record<string, TeamStats>;
   logoMapping: Record<string, string>;
 }) {
@@ -74,7 +59,7 @@ function createHTMLString(data: {
   const reactElement = React.createElement(NCAAFImage, {
     matchups: publicBetsData,
     teamStats: teamStatsData,
-    logoMapping: logoMapping
+    logoMappings: logoMapping
   });
   
   const htmlString = ReactDOMServer.renderToString(reactElement);

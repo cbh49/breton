@@ -4,47 +4,43 @@ import path from 'path';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import NCAAFImage from './components/NCAAFImage';
+import { generateBettingAnalysis, getBettingLean, type TeamStats } from './functions';
 
-interface TeamStats {
-  pointsPG: number;
-  pointsAllowed: number;
-  pace: number;
-  pace_ranking: number;
-  passYards: number;
-  passYards_ranking: number;
-  passYardsAllowed: number;
-  passYardsAllowed_ranking: number;
-  rushYards: number;
-  rushYards_ranking: number;
-  rushYardsAllowed: number;
-  rushYardsAllowed_ranking: number;
-  thirdOffense: number;
-  thirdOffense_ranking: number;
-  thirdDefense: number;
-  thirdDefense_ranking: number;
-  redzoneOffense: number;
-  redzoneOffense_ranking: number;
-  redzoneDefense: number;
-  redzoneDefense_ranking: number;
-  pointsPG_ranking: number;
-  pointsAllowed_ranking: number;
-  scheduleStrength: number;
-  scheduleStrength_ranking: number;
-}
 
-interface MatchupData {
-  Team1: string;
-  Team2: string;
-  Team1Spread: string;
-  Team2Spread: string;
-  Total: string;
-  Favorite: string;
-  Team1ML: string;
-  Team2ML: string;
+
+
+
+// Generate AI analysis for a matchup
+async function generateMatchupAnalysis(
+  matchup: any,
+  team1Stats: any,
+  team2Stats: any,
+  logoMappings: Record<string, string>
+) {
+  try {
+    console.log(`🤖 Generating AI analysis for ${matchup.Team1} vs ${matchup.Team2}...`);
+    
+    // Get betting lean
+    const bettingLean = getBettingLean(team1Stats, team2Stats, matchup, logoMappings);
+    
+    if (!bettingLean) {
+      console.log(`⚠️ No betting lean for ${matchup.Team1} vs ${matchup.Team2}`);
+      return 'AI analysis unavailable';
+    }
+    
+    // Generate AI analysis
+    const analysis = await generateBettingAnalysis(matchup, team1Stats, team2Stats, bettingLean);
+    console.log(`✅ AI analysis generated for ${matchup.Team1} vs ${matchup.Team2}`);
+    
+    return analysis;
+  } catch (error) {
+    console.error(`❌ Error generating AI analysis for ${matchup.Team1} vs ${matchup.Team2}:`, error);
+    return 'AI analysis temporarily unavailable';
+  }
 }
 
 // Load data from JSON files
-function loadData() {
+async function loadData() {
   try {
     // Load public bets data
     const publicBetsPath = path.join(process.cwd(), 'json-data/publicBets.json');
@@ -52,19 +48,13 @@ function loadData() {
     
     // Transform the data to match our new interface
     const matchups = publicBetsData.map((bet: any) => {
-      // Determine favorite team and spread
-      const team1Spread = parseFloat(bet.Team1Spread);
-      const team2Spread = parseFloat(bet.Team2Spread);
-      const favoriteTeam = team1Spread < 0 ? bet.Team1 : bet.Team2;
-      const favoriteSpread = team1Spread < 0 ? bet.Team1Spread : bet.Team2Spread;
-      
       return {
         Team1: bet.Team1,
         Team2: bet.Team2,
         Team1Spread: bet.Team1Spread,
         Team2Spread: bet.Team2Spread,
         Total: bet.Total,
-        Favorite: favoriteTeam,
+        Favorite: bet.Team1Spread < 0 ? bet.Team1 : bet.Team2,
         Team1ML: bet.Team1ML,
         Team2ML: bet.Team2ML
       };
@@ -96,7 +86,26 @@ function loadData() {
       }
     }
     
-    return { matchups, teamStatsData, logoMapping };
+    // Generate AI analysis for each matchup
+    console.log('🤖 Generating AI analysis for all matchups...');
+    const matchupsWithAI = await Promise.all(
+      matchups.map(async (matchup: any) => {
+        const team1Stats = teamStatsData[matchup.Team1];
+        const team2Stats = teamStatsData[matchup.Team2];
+        
+        if (!team1Stats || !team2Stats) {
+          console.log(`⚠️ Missing stats for ${matchup.Team1} or ${matchup.Team2}`);
+          return { ...matchup, aiAnalysis: 'AI analysis unavailable' };
+        }
+        
+        const aiAnalysis = await generateMatchupAnalysis(matchup, team1Stats, team2Stats, logoMapping);
+        return { ...matchup, aiAnalysis };
+      })
+    );
+    
+    console.log(`✅ Generated AI analysis for ${matchupsWithAI.length} matchups`);
+    
+    return { matchups: matchupsWithAI, teamStatsData, logoMapping };
   } catch (error) {
     console.error('Error loading data:', error);
     throw error;
@@ -114,7 +123,11 @@ function createHTMLString(data: {
   const reactElement = React.createElement(NCAAFImage, {
     matchups: matchups,
     teamStats: teamStatsData,
-    logoMappings: logoMapping
+    logoMappings: logoMapping,
+    aiAnalysisData: matchups.reduce((acc, matchup) => {
+      acc[`${matchup.Team1}-${matchup.Team2}`] = matchup.aiAnalysis || 'AI analysis unavailable';
+      return acc;
+    }, {} as Record<string, string>)
   });
   
   const htmlString = ReactDOMServer.renderToString(reactElement);
@@ -171,7 +184,7 @@ async function generatePNG() {
     console.log('🚀 Starting NCAAF image generation with Puppeteer...');
     
     // Load data
-    const data = loadData();
+    const data = await loadData();
     console.log(`✅ Loaded ${data.matchups.length} matchups`);
     console.log(`✅ Loaded stats for ${Object.keys(data.teamStatsData).length} teams`);
     console.log(`✅ Loaded ${Object.keys(data.logoMapping).length} logo mappings`);

@@ -2,19 +2,16 @@ import React from 'react';
 import { 
   getFavoriteInfo, 
   getFavoriteLogo, 
-  getAdvantage, 
   getAdvantageLogo, 
   getRankColorClass,
   getOverallAdvantage,
-  type Matchup,
-  type TeamStats,
   type MatchupRowProps
 } from '../functions';
 import BettingLean from './BettingLean';
 
 
 
-const MatchupRow: React.FC<MatchupRowProps> = ({ matchup, teamStats, logoMappings }) => {
+const MatchupRow: React.FC<MatchupRowProps> = ({ matchup, teamStats, logoMappings, aiAnalysis }) => {
   const team1Stats = teamStats[matchup.Team1];
   const team2Stats = teamStats[matchup.Team2];
   
@@ -370,8 +367,18 @@ const MatchupRow: React.FC<MatchupRowProps> = ({ matchup, teamStats, logoMapping
         </div>
       </div>
       
+            {/* AI Analysis Display */}
+      {aiAnalysis && (
+        <div className="ai-analysis-display">
+          <div className="ai-label">AI Analysis:</div>
+          <div className="ai-content">
+            <p className="ai-text">{aiAnalysis}</p>
+          </div>
+        </div>
+      )}
+      
       {/* Betting Lean Component */}
-      <BettingLean 
+      <BettingLean
         matchup={matchup}
         teamStats={teamStats}
         logoMappings={logoMappings}

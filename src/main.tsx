@@ -8,14 +8,19 @@ const sampleMatchups = [
   {
     Team1: "Kansas State",
     Team2: "Iowa State",
-    Spread: "Kansas State -3",
+    Team1Spread: "-3",
+    Team2Spread: "+3",
     Total: "49.5",
-    Favorite: "Kansas State"
+    Favorite: "Kansas State",
+    Team1ML: "-148",
+    Team2ML: "+124"
   }
 ];
 
 const sampleTeamStats = {
   "Kansas State": {
+    O_Score: null,
+    D_Score: null,
     pointsPG: 30.0,
     pointsAllowed: 24.8,
     pace: 66.4,
@@ -37,9 +42,13 @@ const sampleTeamStats = {
     redzoneDefense: 82.5,
     redzoneDefense_ranking: 58,
     pointsPG_ranking: 41,
-    pointsAllowed_ranking: 56
+    pointsAllowed_ranking: 56,
+    scheduleStrength: 27,
+    scheduleStrength_ranking: 7
   },
   "Iowa State": {
+    O_Score: null,
+    D_Score: null,
     pointsPG: 31.8,
     pointsAllowed: 24.5,
     pace: 73.5,
@@ -61,7 +70,9 @@ const sampleTeamStats = {
     redzoneDefense: 87.5,
     redzoneDefense_ranking: 98,
     pointsPG_ranking: 31,
-    pointsAllowed_ranking: 52
+    pointsAllowed_ranking: 52,
+    scheduleStrength: 29,
+    scheduleStrength_ranking: 7
   }
 };
 

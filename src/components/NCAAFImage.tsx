@@ -1,45 +1,12 @@
 import React from 'react';
 import MatchupRow from './MatchupRow';
-
-interface TeamStats {
-  pointsPG: number;
-  pointsAllowed: number;
-  pace: number;
-  pace_ranking: number;
-  passYards: number;
-  passYards_ranking: number;
-  passYardsAllowed: number;
-  passYardsAllowed_ranking: number;
-  rushYards: number;
-  rushYards_ranking: number;
-  rushYardsAllowed: number;
-  rushYardsAllowed_ranking: number;
-  thirdOffense: number;
-  thirdOffense_ranking: number;
-  thirdDefense: number;
-  thirdDefense_ranking: number;
-  redzoneOffense: number;
-  redzoneOffense_ranking: number;
-  redzoneDefense: number;
-  redzoneDefense_ranking: number;
-  pointsPG_ranking: number;
-  pointsAllowed_ranking: number;
-  scheduleStrength: number;
-  scheduleStrength_ranking: number;
-}
-
-interface Matchup {
-  Team1: string;
-  Team2: string;
-  Spread: string;
-  Total: string;
-  Favorite: string;
-}
+import { type Matchup, type TeamStats } from '../functions/types';
 
 interface NCAAFImageProps {
   matchups: Matchup[];
   teamStats: Record<string, TeamStats>;
   logoMappings: Record<string, string>;
+  aiAnalysisData?: Record<string, string>;
 }
 
 const NCAAFImage: React.FC<NCAAFImageProps> = ({ matchups, teamStats, logoMappings }) => {
@@ -64,6 +31,7 @@ const NCAAFImage: React.FC<NCAAFImageProps> = ({ matchups, teamStats, logoMappin
           matchup={matchup}
           teamStats={teamStats}
           logoMappings={logoMappings}
+          aiAnalysis={matchup.aiAnalysis || 'AI analysis unavailable'}
         />
       </div>
 

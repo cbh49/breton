@@ -3,17 +3,18 @@ export interface Matchup {
   Team2: string;
   Team1Spread: string;
   Team2Spread: string;
-  Team1SpreadHandle: string;
-  Team1SpreadBets: string;
-  Team2SpreadHandle: string;
-  Team2SpreadBets: string;
+  Team1SpreadHandle?: string;
+  Team1SpreadBets?: string;
+  Team2SpreadHandle?: string;
+  Team2SpreadBets?: string;
   Total: string;
-  Team1TotalHandle: string;
-  Team1TotalBets: string;
-  Team2TotalHandle: string;
-  Team2TotalBets: string;
+  Team1TotalHandle?: string;
+  Team1TotalBets?: string;
+  Team2TotalHandle?: string;
+  Team2TotalBets?: string;
   Team1ML: string;
   Team2ML: string;
+  aiAnalysis?: string;
 }
 
 export interface TeamStats {
@@ -54,4 +55,5 @@ export interface MatchupRowProps {
   matchup: Matchup;
   teamStats: Record<string, TeamStats>;
   logoMappings: Record<string, string>;
+  aiAnalysis?: string;
 }

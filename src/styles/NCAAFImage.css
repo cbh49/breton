@@ -499,6 +499,42 @@ body {
   font-style: italic;
 }
 
+/* AI Analysis Display (for PNG generation) */
+.ai-analysis-display {
+  margin: 20px 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  border: 2px solid #4a5568;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.ai-analysis-display .ai-label {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.ai-analysis-display .ai-content {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ai-analysis-display .ai-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+  margin: 0;
+  text-align: left;
+  font-weight: 500;
+}
+
 .stat-comparison {
   padding: 8px 6px;
 }
