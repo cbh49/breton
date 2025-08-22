@@ -3,8 +3,8 @@ import fs from 'fs';
 import path from 'path';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import NCAAFImage from './components/NCAAFImage';
-import { generateBettingAnalysis, getBettingLean, type TeamStats } from './functions';
+import NCAAFImage from '../src/components/NCAAFImage';
+import { generateBettingAnalysis, getBettingLean, type TeamStats } from '../src/functions';
 
 
 

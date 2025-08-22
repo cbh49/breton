@@ -2,9 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import NCAAFImage from './components/NCAAFImage';
-import { type Matchup, type TeamStats } from './functions/types';
-import './styles/NCAAFImage.css';
+import NCAAFImage from '../src/components/NCAAFImage';
+import { type Matchup, type TeamStats } from '../src/functions/types';
+import '../src/styles/NCAAFImage.css';
 
 
 
