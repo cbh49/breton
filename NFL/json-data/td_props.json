@@ -1,0 +1,933 @@
+[
+  {
+    "name": "Jonathan Taylor",
+    "team": "Indianapolis Colts",
+    "position": "RB",
+    "opponent": [
+      "LV",
+      "LAR",
+      "TEN",
+      "DEN",
+      "MIA"
+    ],
+    "current_opponent": "ARI",
+    "receiving_touchdowns": [
+      3,
+      0,
+      3,
+      0,
+      0
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "total_touchdowns": [
+      3,
+      0,
+      3,
+      1,
+      0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": -270,
+    "two_td_line": 1.5,
+    "two_td_odds": "+210",
+    "three_td_line": 2.5,
+    "three_td_odds": "+900",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "Javonte Williams",
+    "team": "Dallas Cowboys",
+    "position": "RB",
+    "opponent": [
+      "NYJ",
+      "GB",
+      "CHI",
+      "NYG",
+      "PHI"
+    ],
+    "current_opponent": "CAR",
+    "receiving_touchdowns": [
+      1,
+      1,
+      0,
+      1,
+      2
+    ],
+    "rushing_touchdowns": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      2,
+      1,
+      0,
+      1,
+      2
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": -210,
+    "two_td_line": 1.5,
+    "two_td_odds": "+280",
+    "three_td_line": 2.5,
+    "three_td_odds": "+1300",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "4/5"
+  },
+  {
+    "name": "Kyren Williams",
+    "team": "Los Angeles Rams",
+    "position": "RB",
+    "opponent": [
+      "SF",
+      "IND",
+      "PHI",
+      "TEN",
+      "HOU"
+    ],
+    "current_opponent": "BAL",
+    "receiving_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "rushing_touchdowns": [
+      2,
+      0,
+      1,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      2,
+      0,
+      1,
+      0,
+      1
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": -185,
+    "two_td_line": 1.5,
+    "two_td_odds": "+330",
+    "three_td_line": 2.5,
+    "three_td_odds": "+1700",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "Christian McCaffrey",
+    "team": "San Francisco 49ers",
+    "position": "RB",
+    "opponent": [
+      "LAR",
+      "JAC",
+      "ARI",
+      "NO",
+      "SEA"
+    ],
+    "current_opponent": "TB",
+    "receiving_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rushing_touchdowns": [
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": null,
+    "two_td_line": 1.5,
+    "two_td_odds": null,
+    "three_td_line": 2.5,
+    "three_td_odds": null,
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "Derrick Henry",
+    "team": "Baltimore Ravens",
+    "position": "RB",
+    "opponent": [
+      "HOU",
+      "KC",
+      "DET",
+      "CLE",
+      "BUF"
+    ],
+    "current_opponent": "LAR",
+    "receiving_touchdowns": [
+      1,
+      0,
+      1,
+      0,
+      2
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      0,
+      1,
+      0,
+      2
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": -120,
+    "two_td_line": 1.5,
+    "two_td_odds": "+550",
+    "three_td_line": 2.5,
+    "three_td_odds": "+3000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "J.K. Dobbins",
+    "team": "Denver Broncos",
+    "position": "RB",
+    "opponent": [
+      "PHI",
+      "CIN",
+      "LAC",
+      "IND",
+      "TEN"
+    ],
+    "current_opponent": "NYJ",
+    "receiving_touchdowns": [
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": -120,
+    "two_td_line": 1.5,
+    "two_td_odds": "+550",
+    "three_td_line": 2.5,
+    "three_td_odds": "+3000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "4/5"
+  },
+  {
+    "name": "Puka Nacua",
+    "team": "Los Angeles Rams",
+    "position": "WR",
+    "opponent": [
+      "SF",
+      "IND",
+      "PHI",
+      "TEN",
+      "HOU"
+    ],
+    "current_opponent": "BAL",
+    "receiving_touchdowns": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": -125,
+    "two_td_line": 1.5,
+    "two_td_odds": "+500",
+    "three_td_line": 2.5,
+    "three_td_odds": "+3000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "Travis Etienne",
+    "team": "Jacksonville Jaguars",
+    "position": "RB",
+    "opponent": [
+      "KC",
+      "SF",
+      "HOU",
+      "CIN",
+      "CAR"
+    ],
+    "current_opponent": "SEA",
+    "receiving_touchdowns": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "total_touchdowns": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": -130,
+    "two_td_line": 1.5,
+    "two_td_odds": "+500",
+    "three_td_line": 2.5,
+    "three_td_odds": "+3000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "De'Von Achane",
+    "team": "Miami Dolphins",
+    "position": "RB",
+    "opponent": [
+      "CAR",
+      "NYJ",
+      "BUF",
+      "NE",
+      "IND"
+    ],
+    "current_opponent": "LAC",
+    "receiving_touchdowns": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rushing_touchdowns": [
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "total_touchdowns": [
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": -115,
+    "two_td_line": 1.5,
+    "two_td_odds": "+650",
+    "three_td_line": 2.5,
+    "three_td_odds": "+3500",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "4/5"
+  },
+  {
+    "name": "Davante Adams",
+    "team": "Los Angeles Rams",
+    "position": "WR",
+    "opponent": [
+      "SF",
+      "IND",
+      "PHI",
+      "TEN",
+      "HOU"
+    ],
+    "current_opponent": "BAL",
+    "receiving_touchdowns": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+100",
+    "two_td_line": 1.5,
+    "two_td_odds": "+700",
+    "three_td_line": 2.5,
+    "three_td_odds": "+4000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "Emeka Egbuka",
+    "team": "Tampa Bay Buccaneers",
+    "position": "WR",
+    "opponent": [
+      "SEA",
+      "PHI",
+      "NYJ",
+      "HOU",
+      "ATL"
+    ],
+    "current_opponent": "SF",
+    "receiving_touchdowns": [
+      1,
+      1,
+      0,
+      1,
+      2
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      1,
+      0,
+      1,
+      2
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": null,
+    "two_td_line": 1.5,
+    "two_td_odds": null,
+    "three_td_line": 2.5,
+    "three_td_odds": null,
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "4/5"
+  },
+  {
+    "name": "George Pickens",
+    "team": "Dallas Cowboys",
+    "position": "WR",
+    "opponent": [
+      "NYJ",
+      "GB",
+      "CHI",
+      "NYG",
+      "PHI"
+    ],
+    "current_opponent": "CAR",
+    "receiving_touchdowns": [
+      1,
+      2,
+      1,
+      1,
+      0
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      2,
+      1,
+      1,
+      0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+115",
+    "two_td_line": 1.5,
+    "two_td_odds": "+800",
+    "three_td_line": 2.5,
+    "three_td_odds": "+5000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "4/5"
+  },
+  {
+    "name": "Courtland Sutton",
+    "team": "Denver Broncos",
+    "position": "WR",
+    "opponent": [
+      "PHI",
+      "CIN",
+      "LAC",
+      "IND",
+      "TEN"
+    ],
+    "current_opponent": "NYJ",
+    "receiving_touchdowns": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+130",
+    "two_td_line": 1.5,
+    "two_td_odds": "+950",
+    "three_td_line": 2.5,
+    "three_td_odds": "+6500",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "Zach Charbonnet",
+    "team": "Seattle Seahawks",
+    "position": "RB",
+    "opponent": [
+      "TB",
+      "ARI",
+      "NO",
+      "PIT",
+      "SF"
+    ],
+    "current_opponent": "JAX",
+    "receiving_touchdowns": [
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+135",
+    "two_td_line": 1.5,
+    "two_td_odds": "+950",
+    "three_td_line": 2.5,
+    "three_td_odds": "+6000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "Jaylen Waddle",
+    "team": "Miami Dolphins",
+    "position": "WR",
+    "opponent": [
+      "CAR",
+      "NYJ",
+      "BUF",
+      "NE",
+      "IND"
+    ],
+    "current_opponent": "LAC",
+    "receiving_touchdowns": [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+145",
+    "two_td_line": 1.5,
+    "two_td_odds": "+1100",
+    "three_td_line": 2.5,
+    "three_td_odds": "+8000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "Quentin Johnston",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "WAS",
+      "NYG",
+      "DEN",
+      "LV",
+      "KC"
+    ],
+    "current_opponent": "MIA",
+    "receiving_touchdowns": [
+      0,
+      1,
+      0,
+      1,
+      2
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      0,
+      1,
+      0,
+      1,
+      2
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+190",
+    "two_td_line": 1.5,
+    "two_td_odds": "+1600",
+    "three_td_line": 2.5,
+    "three_td_odds": "+12500",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "Garrett Wilson",
+    "team": "New York Jets",
+    "position": "WR",
+    "opponent": [
+      "DAL",
+      "MIA",
+      "TB",
+      "BUF",
+      "PIT"
+    ],
+    "current_opponent": "DEN",
+    "receiving_touchdowns": [
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+175",
+    "two_td_line": 1.5,
+    "two_td_odds": "+1500",
+    "three_td_line": 2.5,
+    "three_td_odds": "+10000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "4/5"
+  },
+  {
+    "name": "Keenan Allen",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "WAS",
+      "NYG",
+      "DEN",
+      "LV",
+      "KC"
+    ],
+    "current_opponent": "MIA",
+    "receiving_touchdowns": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+175",
+    "two_td_line": 1.5,
+    "two_td_odds": "+1500",
+    "three_td_line": 2.5,
+    "three_td_odds": "+10000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  },
+  {
+    "name": "Tory Horton",
+    "team": "Seattle Seahawks",
+    "position": "WR",
+    "opponent": [
+      "TB",
+      "ARI",
+      "NO",
+      "PIT",
+      "SF"
+    ],
+    "current_opponent": "JAX",
+    "receiving_touchdowns": [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+500",
+    "two_td_line": 1.5,
+    "two_td_odds": "+6000",
+    "three_td_line": 2.5,
+    "three_td_odds": null,
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "3/5"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Keenan Allen",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "LV",
+      "LV",
+      "LV",
+      "LV"
+    ],
+    "years": [
+      2023,
+      2023,
+      2022,
+      2022
+    ],
+    "total_touchdowns": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+270",
+    "two_td_line": 1.5,
+    "two_td_odds": "+2700",
+    "three_td_line": 2.5,
+    "three_td_odds": null,
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "2/4"
+  },
+  {
+    "name": "Ladd McConkey",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "LV",
+      "LV"
+    ],
+    "years": [
+      2024,
+      2024
+    ],
+    "total_touchdowns": [
+      0,
+      1
+    ],
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+140",
+    "two_td_line": 1.5,
+    "two_td_odds": "+1000",
+    "three_td_line": 2.5,
+    "three_td_odds": "+8000",
+    "touchdowns_trend": "OVER",
+    "touchdowns_rate": "1/2"
+  }
+]

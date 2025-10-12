@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Tory Horton",
+    "team": "Seattle Seahawks",
+    "position": "WR",
+    "opponent": [
+      "NO",
+      "PIT",
+      "SF"
+    ],
+    "current_opponent": "ARI",
+    "receptions": [
+      44,
+      31,
+      17
+    ],
+    "rec_yards": [
+      9,
+      9,
+      0
+    ],
+    "rec_avg": [
+      3.0,
+      2.0,
+      0.0
+    ],
+    "rec_touchdowns": [
+      10,
+      16,
+      0
+    ],
+    "longest_rec": [
+      32,
+      32,
+      0
+    ],
+    "rec_fumbles": [
+      14,
+      21,
+      0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 2.5,
+    "receptions_alt_line": 2.5,
+    "receptions_over": "+145",
+    "receptions_under": -190,
+    "receptions_trend": "OVER",
+    "receptions_rate": "3/3"
+  },
+  {
+    "name": "Michael Wilson",
+    "team": "Arizona Cardinals",
+    "position": "WR",
+    "opponent": [
+      "SF",
+      "CAR",
+      "NO"
+    ],
+    "current_opponent": "SEA",
+    "receptions": [
+      16,
+      27,
+      20
+    ],
+    "rec_yards": [
+      0,
+      7,
+      0
+    ],
+    "rec_avg": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rec_touchdowns": [
+      5,
+      11,
+      5
+    ],
+    "longest_rec": [
+      5,
+      11,
+      5
+    ],
+    "rec_fumbles": [
+      5,
+      11,
+      5
+    ],
+    "years": [
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 2.5,
+    "receptions_alt_line": 2.5,
+    "receptions_over": "+135",
+    "receptions_under": -175,
+    "receptions_trend": "OVER",
+    "receptions_rate": "3/3"
+  },
+  {
+    "name": "Cooper Kupp",
+    "team": "Seattle Seahawks",
+    "position": "WR",
+    "opponent": [
+      "NO",
+      "PIT",
+      "SF"
+    ],
+    "current_opponent": "ARI",
+    "receptions": [
+      44,
+      31,
+      17
+    ],
+    "rec_yards": [
+      3,
+      9,
+      1
+    ],
+    "rec_avg": [
+      2.0,
+      7.0,
+      2.0
+    ],
+    "rec_touchdowns": [
+      15,
+      12,
+      7
+    ],
+    "longest_rec": [
+      31,
+      90,
+      15
+    ],
+    "rec_fumbles": [
+      23,
+      17,
+      9
+    ],
+    "years": [
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 3.5,
+    "receptions_alt_line": 2.0,
+    "receptions_over": -145,
+    "receptions_under": "+110",
+    "receptions_trend": "OVER",
+    "receptions_rate": "3/3"
+  },
+  {
+    "name": "Marvin Harrison",
+    "team": "Arizona Cardinals",
+    "position": "WR",
+    "opponent": [
+      "SF",
+      "CAR",
+      "NO"
+    ],
+    "current_opponent": "SEA",
+    "receptions": [
+      16,
+      27,
+      20
+    ],
+    "rec_yards": [
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      3.0,
+      2.0,
+      5.0
+    ],
+    "rec_touchdowns": [
+      14,
+      13,
+      14
+    ],
+    "longest_rec": [
+      44,
+      27,
+      71
+    ],
+    "rec_fumbles": [
+      32,
+      15,
+      45
+    ],
+    "years": [
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 3.5,
+    "receptions_alt_line": 2.0,
+    "receptions_over": -135,
+    "receptions_under": "+105",
+    "receptions_trend": "OVER",
+    "receptions_rate": "3/3"
+  },
+  {
+    "name": "Jaxon Smith-Njigba",
+    "team": "Seattle Seahawks",
+    "position": "WR",
+    "opponent": [
+      "NO",
+      "PIT",
+      "SF"
+    ],
+    "current_opponent": "ARI",
+    "receptions": [
+      44,
+      31,
+      17
+    ],
+    "rec_yards": [
+      15,
+      10,
+      10
+    ],
+    "rec_avg": [
+      5.0,
+      8.0,
+      9.0
+    ],
+    "rec_touchdowns": [
+      19,
+      12,
+      13
+    ],
+    "longest_rec": [
+      96,
+      103,
+      124
+    ],
+    "rec_fumbles": [
+      45,
+      43,
+      40
+    ],
+    "years": [
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 6.5,
+    "receptions_alt_line": 5.0,
+    "receptions_over": -130,
+    "receptions_under": -105,
+    "receptions_trend": "OVER",
+    "receptions_rate": "3/3"
+  },
+  {
+    "name": "Trey McBride",
+    "team": "Arizona Cardinals",
+    "position": "TE",
+    "opponent": [
+      "SF",
+      "CAR",
+      "NO"
+    ],
+    "current_opponent": "SEA",
+    "receptions": [
+      16,
+      27,
+      20
+    ],
+    "rec_yards": [
+      10,
+      7,
+      6
+    ],
+    "rec_avg": [
+      5.0,
+      6.0,
+      6.0
+    ],
+    "rec_touchdowns": [
+      43,
+      78,
+      61
+    ],
+    "longest_rec": [
+      17,
+      31,
+      25
+    ],
+    "rec_fumbles": [
+      1,
+      0,
+      0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 6.5,
+    "receptions_alt_line": 5.0,
+    "receptions_over": -110,
+    "receptions_under": -120,
+    "receptions_trend": "OVER",
+    "receptions_rate": "3/3"
+  }
+]

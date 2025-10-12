@@ -1,0 +1,273 @@
+{
+  "performance": {
+    "total_games": 14,
+    "matched_games": 14,
+    "spread_mae": 12.844285714285714,
+    "spread_rmse": 15.724612191447795,
+    "spread_accuracy": 0.7857142857142857,
+    "spread_edge_accuracy": 0.7,
+    "total_mae": 8.678571428571429,
+    "total_rmse": 10.965237278391587,
+    "total_accuracy": 0.5,
+    "confidence_calibration": {
+      "low": {
+        "actual_accuracy": 0.0,
+        "avg_confidence": 0.551,
+        "games_count": 3,
+        "calibration_error": 0.551
+      },
+      "medium": {
+        "actual_accuracy": 0.2,
+        "avg_confidence": 0.7035,
+        "games_count": 5,
+        "calibration_error": 0.5035000000000001
+      },
+      "high": {
+        "actual_accuracy": 0.5,
+        "avg_confidence": 0.9324166666666668,
+        "games_count": 6,
+        "calibration_error": 0.4324166666666668
+      }
+    },
+    "signal_performance": {
+      "epa": {
+        "correlation": 0.09815406073994902,
+        "games_count": 14,
+        "avg_signal": -0.016071428571428577,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "epa_pass": {
+        "correlation": 0.2981577783929546,
+        "games_count": 14,
+        "avg_signal": -0.039142857142857146,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "pace": {
+        "correlation": 0.541035913219895,
+        "games_count": 14,
+        "avg_signal": 0.5034285714285713,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "redzone_td": {
+        "correlation": 0.05107528783136827,
+        "games_count": 14,
+        "avg_signal": -0.0022857142857142915,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "penalties": {
+        "correlation": 0.11290831290898676,
+        "games_count": 14,
+        "avg_signal": -0.12449999999999999,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "rush_mismatch": {
+        "correlation": -0.2857433520038244,
+        "games_count": 14,
+        "avg_signal": -0.08078571428571427,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "third_down": {
+        "correlation": 0.5392710595058727,
+        "games_count": 14,
+        "avg_signal": 0.11757142857142858,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "epa_rush": {
+        "correlation": -0.3395973533587058,
+        "games_count": 14,
+        "avg_signal": -0.09200000000000001,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "td_efficiency": {
+        "correlation": 0.3003142302477316,
+        "games_count": 14,
+        "avg_signal": 0.018285714285714287,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "completion_eff": {
+        "correlation": -0.10738672937224224,
+        "games_count": 14,
+        "avg_signal": -0.01835714285714287,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "turnovers": {
+        "correlation": -0.06540559497427158,
+        "games_count": 14,
+        "avg_signal": -0.11514285714285714,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "redzone": {
+        "correlation": -0.038359050235490806,
+        "games_count": 14,
+        "avg_signal": 0.02535714285714284,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "pass_mismatch": {
+        "correlation": 0.24251928526488195,
+        "games_count": 14,
+        "avg_signal": 0.06692857142857142,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "play_success": {
+        "correlation": -0.18924346841456546,
+        "games_count": 14,
+        "avg_signal": -0.24421428571428572,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "interception": {
+        "correlation": -0.19440799321670102,
+        "games_count": 14,
+        "avg_signal": -0.2879999999999999,
+        "avg_accuracy": 0.4257499999999999
+      },
+      "core": {
+        "correlation": 0.21027093641611647,
+        "games_count": 14,
+        "avg_signal": 0.00914285714285715,
+        "avg_accuracy": 0.4257499999999999
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "matchup": "San Francisco 49ers vs Los Angeles Rams",
+      "pred_margin": -9.56,
+      "actual_margin": 3,
+      "spread_error": -12.56,
+      "pred_total": 41.8,
+      "actual_total": 49,
+      "total_error": -7.200000000000003,
+      "confidence": 0.553
+    },
+    {
+      "matchup": "Minnesota Vikings vs Cleveland Browns",
+      "pred_margin": 7.94,
+      "actual_margin": 4,
+      "spread_error": 3.9400000000000004,
+      "pred_total": 48.3,
+      "actual_total": 38,
+      "total_error": 10.299999999999997,
+      "confidence": 0.672
+    },
+    {
+      "matchup": "Miami Dolphins vs Carolina Panthers",
+      "pred_margin": -7.53,
+      "actual_margin": -3,
+      "spread_error": -4.53,
+      "pred_total": 42.9,
+      "actual_total": 51,
+      "total_error": -8.100000000000001,
+      "confidence": 0.9515
+    },
+    {
+      "matchup": "Dallas Cowboys vs New York Jets",
+      "pred_margin": 1.7,
+      "actual_margin": 15,
+      "spread_error": -13.3,
+      "pred_total": 51.6,
+      "actual_total": 59,
+      "total_error": -7.399999999999999,
+      "confidence": 0.54
+    },
+    {
+      "matchup": "Las Vegas Raiders vs Indianapolis Colts",
+      "pred_margin": -18.74,
+      "actual_margin": -34,
+      "spread_error": 15.260000000000002,
+      "pred_total": 40.3,
+      "actual_total": 46,
+      "total_error": -5.700000000000003,
+      "confidence": 0.99
+    },
+    {
+      "matchup": "Denver Broncos vs Philadelphia Eagles",
+      "pred_margin": 3.08,
+      "actual_margin": 4,
+      "spread_error": -0.9199999999999999,
+      "pred_total": 47.9,
+      "actual_total": 38,
+      "total_error": 9.899999999999999,
+      "confidence": 0.829
+    },
+    {
+      "matchup": "New York Giants vs New Orleans Saints",
+      "pred_margin": -5.0,
+      "actual_margin": -12,
+      "spread_error": 7.0,
+      "pred_total": 45.3,
+      "actual_total": 40,
+      "total_error": 5.299999999999997,
+      "confidence": 0.675
+    },
+    {
+      "matchup": "Houston Texans vs Baltimore Ravens",
+      "pred_margin": 0.3,
+      "actual_margin": 34,
+      "spread_error": -33.7,
+      "pred_total": 44.5,
+      "actual_total": 54,
+      "total_error": -9.5,
+      "confidence": 0.56
+    },
+    {
+      "matchup": "Tennessee Titans vs Arizona Cardinals",
+      "pred_margin": -18.7,
+      "actual_margin": 1,
+      "spread_error": -19.7,
+      "pred_total": 35.4,
+      "actual_total": 43,
+      "total_error": -7.600000000000001,
+      "confidence": 0.99
+    },
+    {
+      "matchup": "Tampa Bay Buccaneers vs Seattle Seahawks",
+      "pred_margin": -8.19,
+      "actual_margin": 3,
+      "spread_error": -11.19,
+      "pred_total": 44.1,
+      "actual_total": 73,
+      "total_error": -28.9,
+      "confidence": 0.7344999999999999
+    },
+    {
+      "matchup": "Detroit Lions vs Cincinnati Bengals",
+      "pred_margin": 30.62,
+      "actual_margin": 13,
+      "spread_error": 17.62,
+      "pred_total": 60.0,
+      "actual_total": 61,
+      "total_error": -1.0,
+      "confidence": 0.99
+    },
+    {
+      "matchup": "Washington Commanders vs Los Angeles Chargers",
+      "pred_margin": -8.33,
+      "actual_margin": 17,
+      "spread_error": -25.33,
+      "pred_total": 42.0,
+      "actual_total": 37,
+      "total_error": 5.0,
+      "confidence": 0.7915
+    },
+    {
+      "matchup": "New England Patriots vs Buffalo Bills",
+      "pred_margin": -11.39,
+      "actual_margin": 3,
+      "spread_error": -14.39,
+      "pred_total": 43.2,
+      "actual_total": 43,
+      "total_error": 0.20000000000000284,
+      "confidence": 0.6445000000000001
+    },
+    {
+      "matchup": "Kansas City Chiefs vs Jacksonville Jaguars",
+      "pred_margin": -3.38,
+      "actual_margin": -3,
+      "spread_error": -0.3799999999999999,
+      "pred_total": 43.6,
+      "actual_total": 59,
+      "total_error": -15.399999999999999,
+      "confidence": 0.844
+    }
+  ]
+}

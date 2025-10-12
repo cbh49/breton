@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Quentin Johnston",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "LV",
+      "LV",
+      "LV",
+      "LV"
+    ],
+    "years": [
+      2024,
+      2024,
+      2023,
+      2023
+    ],
+    "receptions": [
+      13,
+      3,
+      2,
+      1
+    ],
+    "receptions_line": 3.5,
+    "receptions_over": -130,
+    "receptions_under": "+100",
+    "receptions_trend": "UNDER",
+    "receptions_rate": "3/4",
+    "rec_yards": [
+      186.0,
+      38.0,
+      23.0,
+      18.0
+    ],
+    "rec_yards_line": 41.5,
+    "rec_yards_over": -110,
+    "rec_yards_under": -118,
+    "rec_yards_trend": "UNDER",
+    "rec_yards_rate": "3/4"
+  },
+  {
+    "name": "Keenan Allen",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "LV",
+      "LV",
+      "LV"
+    ],
+    "years": [
+      2023,
+      2022,
+      2022
+    ],
+    "receptions": [
+      3,
+      6,
+      4
+    ],
+    "receptions_line": 5.5,
+    "receptions_over": "+125",
+    "receptions_under": -165,
+    "receptions_trend": "UNDER",
+    "receptions_rate": "2/3",
+    "rec_yards": [
+      32.0,
+      88.0,
+      66.0
+    ],
+    "rec_yards_line": 53.5,
+    "rec_yards_over": -110,
+    "rec_yards_under": -118,
+    "rec_yards_trend": "OVER",
+    "rec_yards_rate": "2/3"
+  },
+  {
+    "name": "Ladd McConkey",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "LV",
+      "LV"
+    ],
+    "years": [
+      2024,
+      2024
+    ],
+    "receptions": [
+      5,
+      5
+    ],
+    "receptions_line": 5.5,
+    "receptions_over": -130,
+    "receptions_under": "+100",
+    "receptions_trend": "UNDER",
+    "receptions_rate": "2/2"
+  },
+  {
+    "name": "Dalton Schultz",
+    "team": "Houston Texans",
+    "position": "TE",
+    "opponent": [
+      "TB",
+      "TB",
+      "TB"
+    ],
+    "years": [
+      2023,
+      2022,
+      2022
+    ],
+    "receptions": [
+      10,
+      7,
+      7
+    ],
+    "receptions_line": 3.5,
+    "receptions_over": -145,
+    "receptions_under": "+110",
+    "receptions_trend": "OVER",
+    "receptions_rate": "3/3",
+    "rec_yards": [
+      130.0,
+      95.0,
+      62.0
+    ],
+    "rec_yards_line": 35.5,
+    "rec_yards_over": -115,
+    "rec_yards_under": -115,
+    "rec_yards_trend": "OVER",
+    "rec_yards_rate": "3/3"
+  }
+]

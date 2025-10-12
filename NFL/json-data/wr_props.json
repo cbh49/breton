@@ -1,0 +1,924 @@
+[
+  {
+    "name": "George Pickens",
+    "team": "Dallas Cowboys",
+    "position": "WR",
+    "opponent": [
+      "NYJ",
+      "GB",
+      "CHI",
+      "NYG",
+      "PHI"
+    ],
+    "current_opponent": "CAR",
+    "receptions": [
+      2,
+      8,
+      5,
+      5,
+      3
+    ],
+    "rec_yards": [
+      57.0,
+      134.0,
+      68.0,
+      68.0,
+      30.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rec_yards_line": 71.5,
+    "rec_yards_over": -115,
+    "rec_yards_under": -115,
+    "rec_yards_trend": "UNDER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Jake Ferguson",
+    "team": "Dallas Cowboys",
+    "position": "TE",
+    "opponent": [
+      "NYJ",
+      "GB",
+      "CHI",
+      "NYG",
+      "PHI"
+    ],
+    "current_opponent": "CAR",
+    "receptions": [
+      7,
+      7,
+      13,
+      9,
+      5
+    ],
+    "rec_yards": [
+      49.0,
+      40.0,
+      82.0,
+      78.0,
+      23.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 6.5,
+    "receptions_over": "+110",
+    "receptions_under": -145,
+    "receptions_trend": "OVER",
+    "receptions_rate": "4/5"
+  },
+  {
+    "name": "Quentin Johnston",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "WAS",
+      "NYG",
+      "DEN",
+      "LV",
+      "KC"
+    ],
+    "current_opponent": "MIA",
+    "receptions": [
+      4,
+      8,
+      6,
+      3,
+      5
+    ],
+    "rec_yards": [
+      40.0,
+      98.0,
+      89.0,
+      71.0,
+      79.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rec_yards_line": 55.5,
+    "rec_yards_over": -115,
+    "rec_yards_under": -115,
+    "rec_yards_trend": "OVER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Keenan Allen",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "WAS",
+      "NYG",
+      "DEN",
+      "LV",
+      "KC"
+    ],
+    "current_opponent": "MIA",
+    "receptions": [
+      5,
+      5,
+      7,
+      5,
+      7
+    ],
+    "rec_yards": [
+      58.0,
+      37.0,
+      65.0,
+      61.0,
+      68.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rec_yards_line": 54.5,
+    "rec_yards_over": -118,
+    "rec_yards_under": -110,
+    "rec_yards_trend": "OVER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Ladd McConkey",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "WAS",
+      "NYG",
+      "DEN",
+      "LV",
+      "KC"
+    ],
+    "current_opponent": "MIA",
+    "receptions": [
+      5,
+      1,
+      4,
+      5,
+      6
+    ],
+    "rec_yards": [
+      39.0,
+      11.0,
+      41.0,
+      48.0,
+      74.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rec_yards_line": 54.5,
+    "rec_yards_over": -110,
+    "rec_yards_under": -118,
+    "rec_yards_trend": "UNDER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Malik Washington",
+    "team": "Miami Dolphins",
+    "position": "WR",
+    "opponent": [
+      "CAR",
+      "NYJ",
+      "BUF",
+      "NE",
+      "IND"
+    ],
+    "current_opponent": "LAC",
+    "receptions": [
+      4,
+      2,
+      3,
+      1,
+      2
+    ],
+    "rec_yards": [
+      0.0,
+      13.0,
+      12.0,
+      2.0,
+      20.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 3.5,
+    "receptions_over": "+130",
+    "receptions_under": -175,
+    "receptions_trend": "UNDER",
+    "receptions_rate": "4/5",
+    "rec_yards_line": 23.5,
+    "rec_yards_over": -110,
+    "rec_yards_under": -118,
+    "rec_yards_trend": "UNDER",
+    "rec_yards_rate": "5/5"
+  },
+  {
+    "name": "Rashid Shaheed",
+    "team": "New Orleans Saints",
+    "position": "WR",
+    "opponent": [
+      "NYG",
+      "BUF",
+      "SEA",
+      "SF",
+      "ARI"
+    ],
+    "current_opponent": "NE",
+    "receptions": [
+      4,
+      4,
+      4,
+      4,
+      6
+    ],
+    "rec_yards": [
+      114.0,
+      47.0,
+      42.0,
+      52.0,
+      33.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 3.5,
+    "receptions_over": -135,
+    "receptions_under": "+100",
+    "receptions_trend": "OVER",
+    "receptions_rate": "5/5"
+  },
+  {
+    "name": "Michael Wilson",
+    "team": "Arizona Cardinals",
+    "position": "WR",
+    "opponent": [
+      "TEN",
+      "SEA",
+      "SF",
+      "CAR",
+      "NO"
+    ],
+    "current_opponent": "IND",
+    "receptions": [
+      2,
+      3,
+      1,
+      1,
+      1
+    ],
+    "rec_yards": [
+      16.0,
+      15.0,
+      5.0,
+      11.0,
+      5.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rec_yards_line": 25.5,
+    "rec_yards_over": -118,
+    "rec_yards_under": -110,
+    "rec_yards_trend": "UNDER",
+    "rec_yards_rate": "5/5"
+  },
+  {
+    "name": "Marvin Mims",
+    "team": "Denver Broncos",
+    "position": "WR",
+    "opponent": [
+      "PHI",
+      "CIN",
+      "LAC",
+      "IND",
+      "TEN"
+    ],
+    "current_opponent": "NYJ",
+    "receptions": [
+      2,
+      6,
+      1,
+      2,
+      3
+    ],
+    "rec_yards": [
+      10.0,
+      69.0,
+      4.0,
+      24.0,
+      12.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rec_yards_line": 26.5,
+    "rec_yards_over": -118,
+    "rec_yards_under": -110,
+    "rec_yards_trend": "UNDER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Emeka Egbuka",
+    "team": "Tampa Bay Buccaneers",
+    "position": "WR",
+    "opponent": [
+      "SEA",
+      "PHI",
+      "NYJ",
+      "HOU",
+      "ATL"
+    ],
+    "current_opponent": "SF",
+    "receptions": [
+      7,
+      4,
+      6,
+      4,
+      4
+    ],
+    "rec_yards": [
+      163.0,
+      101.0,
+      85.0,
+      29.0,
+      67.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 6.5,
+    "receptions_over": "+100",
+    "receptions_under": -135,
+    "receptions_trend": "UNDER",
+    "receptions_rate": "4/5"
+  },
+  {
+    "name": "Zay Flowers",
+    "team": "Baltimore Ravens",
+    "position": "WR",
+    "opponent": [
+      "HOU",
+      "KC",
+      "DET",
+      "CLE",
+      "BUF"
+    ],
+    "current_opponent": "LAR",
+    "receptions": [
+      5,
+      7,
+      2,
+      7,
+      7
+    ],
+    "rec_yards": [
+      72.0,
+      74.0,
+      13.0,
+      75.0,
+      143.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rec_yards_line": 52.5,
+    "rec_yards_over": -115,
+    "rec_yards_under": -115,
+    "rec_yards_trend": "OVER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Travis Hunter",
+    "team": "Jacksonville Jaguars",
+    "position": "WR",
+    "opponent": [
+      "KC",
+      "SF",
+      "HOU",
+      "CIN",
+      "CAR"
+    ],
+    "current_opponent": "SEA",
+    "receptions": [
+      3,
+      3,
+      1,
+      3,
+      6
+    ],
+    "rec_yards": [
+      64.0,
+      42.0,
+      21.0,
+      22.0,
+      33.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 3.5,
+    "receptions_over": -110,
+    "receptions_under": -120,
+    "receptions_trend": "UNDER",
+    "receptions_rate": "4/5"
+  },
+  {
+    "name": "Tee Higgins",
+    "team": "Cincinnati Bengals",
+    "position": "WR",
+    "opponent": [
+      "DET",
+      "DEN",
+      "MIN",
+      "JAC",
+      "CLE"
+    ],
+    "current_opponent": "GB",
+    "receptions": [
+      3,
+      3,
+      1,
+      3,
+      3
+    ],
+    "rec_yards": [
+      22.0,
+      32.0,
+      15.0,
+      56.0,
+      33.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 3.5,
+    "receptions_over": -155,
+    "receptions_under": "+120",
+    "receptions_trend": "UNDER",
+    "receptions_rate": "5/5",
+    "rec_yards_line": 39.5,
+    "rec_yards_over": -115,
+    "rec_yards_under": -115,
+    "rec_yards_trend": "UNDER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Puka Nacua",
+    "team": "Los Angeles Rams",
+    "position": "WR",
+    "opponent": [
+      "SF",
+      "IND",
+      "PHI",
+      "TEN",
+      "HOU"
+    ],
+    "current_opponent": "BAL",
+    "receptions": [
+      10,
+      13,
+      11,
+      8,
+      10
+    ],
+    "rec_yards": [
+      85.0,
+      170.0,
+      112.0,
+      91.0,
+      130.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 8.5,
+    "receptions_over": "+105",
+    "receptions_under": -145,
+    "receptions_trend": "OVER",
+    "receptions_rate": "4/5"
+  },
+  {
+    "name": "Brian Thomas",
+    "team": "Jacksonville Jaguars",
+    "position": "WR",
+    "opponent": [
+      "KC",
+      "SF",
+      "HOU",
+      "CIN",
+      "CAR"
+    ],
+    "current_opponent": "SEA",
+    "receptions": [
+      4,
+      5,
+      2,
+      4,
+      1
+    ],
+    "rec_yards": [
+      80.0,
+      49.0,
+      55.0,
+      49.0,
+      11.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 4.5,
+    "receptions_over": -160,
+    "receptions_under": "+120",
+    "receptions_trend": "UNDER",
+    "receptions_rate": "4/5",
+    "rec_yards_line": 57.5,
+    "rec_yards_over": -115,
+    "rec_yards_under": -115,
+    "rec_yards_trend": "UNDER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Ja'Marr Chase",
+    "team": "Cincinnati Bengals",
+    "position": "WR",
+    "opponent": [
+      "DET",
+      "DEN",
+      "MIN",
+      "JAC",
+      "CLE"
+    ],
+    "current_opponent": "GB",
+    "receptions": [
+      6,
+      5,
+      5,
+      14,
+      2
+    ],
+    "rec_yards": [
+      110.0,
+      23.0,
+      50.0,
+      165.0,
+      26.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 6.5,
+    "receptions_over": "+110",
+    "receptions_under": -145,
+    "receptions_trend": "UNDER",
+    "receptions_rate": "4/5"
+  },
+  {
+    "name": "Jaxon Smith-Njigba",
+    "team": "Seattle Seahawks",
+    "position": "WR",
+    "opponent": [
+      "TB",
+      "ARI",
+      "NO",
+      "PIT",
+      "SF"
+    ],
+    "current_opponent": "JAX",
+    "receptions": [
+      8,
+      4,
+      5,
+      8,
+      9
+    ],
+    "rec_yards": [
+      132.0,
+      79.0,
+      96.0,
+      103.0,
+      124.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rec_yards_line": 76.5,
+    "rec_yards_over": -140,
+    "rec_yards_under": "+105",
+    "rec_yards_trend": "OVER",
+    "rec_yards_rate": "5/5"
+  },
+  {
+    "name": "Courtland Sutton",
+    "team": "Denver Broncos",
+    "position": "WR",
+    "opponent": [
+      "PHI",
+      "CIN",
+      "LAC",
+      "IND",
+      "TEN"
+    ],
+    "current_opponent": "NYJ",
+    "receptions": [
+      8,
+      5,
+      6,
+      1,
+      6
+    ],
+    "rec_yards": [
+      99.0,
+      81.0,
+      118.0,
+      6.0,
+      61.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 4.5,
+    "receptions_over": -110,
+    "receptions_under": -118,
+    "receptions_trend": "OVER",
+    "receptions_rate": "4/5",
+    "rec_yards_line": 60.5,
+    "rec_yards_over": -118,
+    "rec_yards_under": -115,
+    "rec_yards_trend": "OVER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Jaylen Waddle",
+    "team": "Miami Dolphins",
+    "position": "WR",
+    "opponent": [
+      "CAR",
+      "NYJ",
+      "BUF",
+      "NE",
+      "IND"
+    ],
+    "current_opponent": "LAC",
+    "receptions": [
+      6,
+      3,
+      5,
+      5,
+      4
+    ],
+    "rec_yards": [
+      110.0,
+      48.0,
+      39.0,
+      68.0,
+      30.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 5.5,
+    "receptions_over": -115,
+    "receptions_under": -118,
+    "receptions_trend": "UNDER",
+    "receptions_rate": "4/5"
+  },
+  {
+    "name": "Garrett Wilson",
+    "team": "New York Jets",
+    "position": "WR",
+    "opponent": [
+      "DAL",
+      "MIA",
+      "TB",
+      "BUF",
+      "PIT"
+    ],
+    "current_opponent": "DEN",
+    "receptions": [
+      6,
+      6,
+      10,
+      4,
+      7
+    ],
+    "rec_yards": [
+      71.0,
+      82.0,
+      84.0,
+      50.0,
+      95.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 5.5,
+    "receptions_over": "+115",
+    "receptions_under": -155,
+    "receptions_trend": "OVER",
+    "receptions_rate": "4/5",
+    "rec_yards_line": 55.5,
+    "rec_yards_over": -115,
+    "rec_yards_under": -115,
+    "rec_yards_trend": "OVER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Chig Okonkwo",
+    "team": "Tennessee Titans",
+    "position": "TE",
+    "opponent": [
+      "ARI",
+      "HOU",
+      "IND",
+      "LAR",
+      "DEN"
+    ],
+    "current_opponent": "LV",
+    "receptions": [
+      4,
+      1,
+      5,
+      4,
+      3
+    ],
+    "rec_yards": [
+      48.0,
+      4.0,
+      66.0,
+      35.0,
+      19.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "receptions_line": 2.5,
+    "receptions_over": -165,
+    "receptions_under": "+125",
+    "receptions_trend": "OVER",
+    "receptions_rate": "4/5"
+  },
+  {
+    "name": "David Njoku",
+    "team": "Cleveland Browns",
+    "position": "TE",
+    "opponent": [
+      "MIN",
+      "DET",
+      "GB",
+      "BAL",
+      "CIN"
+    ],
+    "current_opponent": "PIT",
+    "receptions": [
+      6,
+      2,
+      5,
+      4,
+      3
+    ],
+    "rec_yards": [
+      67.0,
+      11.0,
+      40.0,
+      40.0,
+      37.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rec_yards_line": 34.5,
+    "rec_yards_over": -110,
+    "rec_yards_under": -118,
+    "rec_yards_trend": "OVER",
+    "rec_yards_rate": "4/5"
+  },
+  {
+    "name": "Trey McBride",
+    "team": "Arizona Cardinals",
+    "position": "TE",
+    "opponent": [
+      "TEN",
+      "SEA",
+      "SF",
+      "CAR",
+      "NO"
+    ],
+    "current_opponent": "IND",
+    "receptions": [
+      5,
+      7,
+      5,
+      6,
+      6
+    ],
+    "rec_yards": [
+      41.0,
+      52.0,
+      43.0,
+      78.0,
+      61.0
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rec_yards_line": 63.5,
+    "rec_yards_over": -115,
+    "rec_yards_under": -115,
+    "rec_yards_trend": "UNDER",
+    "rec_yards_rate": "4/5"
+  }
+]

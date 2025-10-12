@@ -1,0 +1,330 @@
+{
+  "games": [
+    {
+      "Team1": "Kansas City Chiefs",
+      "Team1Score": 28,
+      "Team2": "Jacksonville Jaguars",
+      "Team2Score": 31,
+      "Team1Record": "2-3",
+      "Team2Record": "4-1",
+      "Team1QuarterScores": [
+        7,
+        7,
+        0,
+        14
+      ],
+      "Team2QuarterScores": [
+        0,
+        7,
+        14,
+        10
+      ],
+      "MatchupKey": "Kansas City Chiefs vs Jacksonville Jaguars",
+      "Team1Original": "Chiefs",
+      "Team2Original": "Jaguars"
+    },
+    {
+      "Team1": "Minnesota Vikings",
+      "Team1Score": 21,
+      "Team2": "Cleveland Browns",
+      "Team2Score": 17,
+      "Team1Record": "3-2",
+      "Team2Record": "1-4",
+      "Team1QuarterScores": [
+        7,
+        0,
+        7,
+        7
+      ],
+      "Team2QuarterScores": [
+        7,
+        3,
+        7,
+        0
+      ],
+      "MatchupKey": "Minnesota Vikings vs Cleveland Browns",
+      "Team1Original": "Vikings",
+      "Team2Original": "Browns"
+    },
+    {
+      "Team1": "Dallas Cowboys",
+      "Team1Score": 37,
+      "Team2": "New York Jets",
+      "Team2Score": 22,
+      "Team1Record": "2-2-1",
+      "Team2Record": "0-5",
+      "Team1QuarterScores": [
+        3,
+        20,
+        7,
+        7
+      ],
+      "Team2QuarterScores": [
+        3,
+        0,
+        3,
+        16
+      ],
+      "MatchupKey": "Dallas Cowboys vs New York Jets",
+      "Team1Original": "Cowboys",
+      "Team2Original": "Jets"
+    },
+    {
+      "Team1": "Denver Broncos",
+      "Team1Score": 21,
+      "Team2": "Philadelphia Eagles",
+      "Team2Score": 17,
+      "Team1Record": "3-2",
+      "Team2Record": "4-1",
+      "Team1QuarterScores": [
+        3,
+        0,
+        0,
+        18
+      ],
+      "Team2QuarterScores": [
+        3,
+        7,
+        7,
+        0
+      ],
+      "MatchupKey": "Denver Broncos vs Philadelphia Eagles",
+      "Team1Original": "Broncos",
+      "Team2Original": "Eagles"
+    },
+    {
+      "Team1": "Houston Texans",
+      "Team1Score": 44,
+      "Team2": "Baltimore Ravens",
+      "Team2Score": 10,
+      "Team1Record": "2-3",
+      "Team2Record": "1-4",
+      "Team1QuarterScores": [
+        7,
+        17,
+        10,
+        10
+      ],
+      "Team2QuarterScores": [
+        3,
+        0,
+        7,
+        0
+      ],
+      "MatchupKey": "Houston Texans vs Baltimore Ravens",
+      "Team1Original": "Texans",
+      "Team2Original": "Ravens"
+    },
+    {
+      "Team1": "Las Vegas Raiders",
+      "Team1Score": 6,
+      "Team2": "Indianapolis Colts",
+      "Team2Score": 40,
+      "Team1Record": "1-4",
+      "Team2Record": "4-1",
+      "Team1QuarterScores": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "Team2QuarterScores": [
+        0,
+        20,
+        20,
+        0
+      ],
+      "MatchupKey": "Las Vegas Raiders vs Indianapolis Colts",
+      "Team1Original": "Raiders",
+      "Team2Original": "Colts"
+    },
+    {
+      "Team1": "Miami Dolphins",
+      "Team1Score": 24,
+      "Team2": "Carolina Panthers",
+      "Team2Score": 27,
+      "Team1Record": "1-4",
+      "Team2Record": "2-3",
+      "Team1QuarterScores": [
+        3,
+        14,
+        0,
+        7
+      ],
+      "Team2QuarterScores": [
+        0,
+        10,
+        3,
+        14
+      ],
+      "MatchupKey": "Miami Dolphins vs Carolina Panthers",
+      "Team1Original": "Dolphins",
+      "Team2Original": "Panthers"
+    },
+    {
+      "Team1": "New York Giants",
+      "Team1Score": 14,
+      "Team2": "New Orleans Saints",
+      "Team2Score": 26,
+      "Team1Record": "1-4",
+      "Team2Record": "1-4",
+      "Team1QuarterScores": [
+        7,
+        7,
+        0,
+        0
+      ],
+      "Team2QuarterScores": [
+        3,
+        13,
+        3,
+        7
+      ],
+      "MatchupKey": "New York Giants vs New Orleans Saints",
+      "Team1Original": "Giants",
+      "Team2Original": "Saints"
+    },
+    {
+      "Team1": "Tampa Bay Buccaneers",
+      "Team1Score": 38,
+      "Team2": "Seattle Seahawks",
+      "Team2Score": 35,
+      "Team1Record": "4-1",
+      "Team2Record": "3-2",
+      "Team1QuarterScores": [
+        3,
+        10,
+        15,
+        10
+      ],
+      "Team2QuarterScores": [
+        0,
+        7,
+        14,
+        14
+      ],
+      "MatchupKey": "Tampa Bay Buccaneers vs Seattle Seahawks",
+      "Team1Original": "Buccaneers",
+      "Team2Original": "Seahawks"
+    },
+    {
+      "Team1": "Tennessee Titans",
+      "Team1Score": 22,
+      "Team2": "Arizona Cardinals",
+      "Team2Score": 21,
+      "Team1Record": "1-4",
+      "Team2Record": "2-3",
+      "Team1QuarterScores": [
+        3,
+        3,
+        0,
+        16
+      ],
+      "Team2QuarterScores": [
+        14,
+        7,
+        0,
+        0
+      ],
+      "MatchupKey": "Tennessee Titans vs Arizona Cardinals",
+      "Team1Original": "Titans",
+      "Team2Original": "Cardinals"
+    },
+    {
+      "Team1": "Detroit Lions",
+      "Team1Score": 37,
+      "Team2": "Cincinnati Bengals",
+      "Team2Score": 24,
+      "Team1Record": "4-1",
+      "Team2Record": "2-3",
+      "Team1QuarterScores": [
+        7,
+        7,
+        14,
+        9
+      ],
+      "Team2QuarterScores": [
+        0,
+        3,
+        0,
+        21
+      ],
+      "MatchupKey": "Detroit Lions vs Cincinnati Bengals",
+      "Team1Original": "Lions",
+      "Team2Original": "Bengals"
+    },
+    {
+      "Team1": "Washington Commanders",
+      "Team1Score": 27,
+      "Team2": "Los Angeles Chargers",
+      "Team2Score": 10,
+      "Team1Record": "3-2",
+      "Team2Record": "3-2",
+      "Team1QuarterScores": [
+        0,
+        10,
+        10,
+        7
+      ],
+      "Team2QuarterScores": [
+        10,
+        0,
+        0,
+        0
+      ],
+      "MatchupKey": "Washington Commanders vs Los Angeles Chargers",
+      "Team1Original": "Commanders",
+      "Team2Original": "Chargers"
+    },
+    {
+      "Team1": "New England Patriots",
+      "Team1Score": 23,
+      "Team2": "Buffalo Bills",
+      "Team2Score": 20,
+      "Team1Record": "3-2",
+      "Team2Record": "4-1",
+      "Team1QuarterScores": [
+        3,
+        3,
+        7,
+        10
+      ],
+      "Team2QuarterScores": [
+        0,
+        3,
+        7,
+        10
+      ],
+      "MatchupKey": "New England Patriots vs Buffalo Bills",
+      "Team1Original": "Patriots",
+      "Team2Original": "Bills"
+    },
+    {
+      "Team1": "San Francisco 49ers",
+      "Team1Score": 26,
+      "Team2": "Los Angeles Rams",
+      "Team2Score": 23,
+      "Team1Record": "4-1",
+      "Team2Record": "3-2",
+      "Team1QuarterScores": [
+        7,
+        10,
+        3,
+        3,
+        3
+      ],
+      "Team2QuarterScores": [
+        0,
+        7,
+        7,
+        9,
+        0
+      ],
+      "MatchupKey": "San Francisco 49ers vs Los Angeles Rams",
+      "Team1Original": "49ers",
+      "Team2Original": "Rams"
+    }
+  ],
+  "total_games": 14,
+  "scraped_at": "2025-10-08T21:22:35.410181"
+}

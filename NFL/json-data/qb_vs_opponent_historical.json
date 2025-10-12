@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Justin Herbert",
+    "team": "Los Angeles Chargers",
+    "position": "QB",
+    "opponent": [
+      "LV",
+      "LV",
+      "LV",
+      "LV",
+      "LV"
+    ],
+    "pass_attempts": [
+      36,
+      26,
+      24,
+      47,
+      34
+    ],
+    "pass_completions": [
+      28,
+      17,
+      13,
+      28,
+      26
+    ],
+    "pass_yards": [
+      346,
+      144,
+      167,
+      335,
+      279
+    ],
+    "pass_touchdowns": [
+      2,
+      1,
+      1,
+      1,
+      3
+    ],
+    "interceptions": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "passer_rating": [
+      125.2,
+      92.5,
+      72.7,
+      88.5,
+      129.4
+    ],
+    "completion_pct": [
+      77.8,
+      65.4,
+      54.2,
+      59.6,
+      76.5
+    ],
+    "yards_per_attempt": [
+      9.61,
+      5.54,
+      6.96,
+      7.13,
+      8.21
+    ],
+    "years": [
+      2024,
+      2024,
+      2023,
+      2022,
+      2022
+    ],
+    "completions_line": 22.5,
+    "completions_over": -125,
+    "pass_attempts_line": 33.5,
+    "pass_attempts_over": -125,
+    "pass_yards_line": 253.5,
+    "pass_yards_over": -115,
+    "pass_touchdowns_line": 1.5,
+    "pass_touchdowns_over": -115,
+    "interceptions_line": 0.5,
+    "interceptions_over": -155,
+    "completions_trend": null,
+    "pass_attempts_trend": null,
+    "pass_yards_trend": null,
+    "pass_touchdowns_trend": null,
+    "interceptions_trend": "UNDER",
+    "completions_rate": "3/5",
+    "pass_attempts_rate": "3/5",
+    "pass_yards_rate": "3/5",
+    "pass_touchdowns_rate": "3/5",
+    "interceptions_rate": "4/5"
+  }
+]

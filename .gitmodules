@@ -1,0 +1,6 @@
+[submodule "MLB"]
+	path = MLB
+	url = https://github.com/cbh49/MLB.git
+[submodule "NCAAF"]
+	path = NCAAF
+	url = https://github.com/cbh49/breton.git

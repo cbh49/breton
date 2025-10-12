@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Najee Harris",
+    "team": "Los Angeles Chargers",
+    "position": "RB",
+    "opponent": [
+      "LV",
+      "LV",
+      "LV"
+    ],
+    "years": [
+      2024,
+      2023,
+      2022
+    ],
+    "rush_yards": [
+      106,
+      65,
+      53
+    ],
+    "rush_yards_line": 15.5,
+    "rush_yards_over": -110,
+    "rush_yards_under": -118,
+    "rush_yards_trend": "OVER",
+    "rush_yards_rate": "3/3"
+  }
+]

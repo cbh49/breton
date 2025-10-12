@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "es6"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "typeRoots": ["./node_modules/@types", "./scripts/node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "react": ["./node_modules/react", "./scripts/node_modules/react"],
+      "react-dom": ["./node_modules/react-dom", "./scripts/node_modules/react-dom"]
+    }
+  },
+  "include": ["scripts/**/*", "components/**/*"]
+}

@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Kyler Murray",
+    "team": "Arizona Cardinals",
+    "position": "QB",
+    "opponent": [
+      "SF",
+      "CAR",
+      "NO"
+    ],
+    "current_opponent": "SEA",
+    "rush_attempts": [
+      6,
+      7,
+      7
+    ],
+    "rush_yards": [
+      37,
+      32,
+      38
+    ],
+    "longest_rush": [
+      9,
+      30,
+      13
+    ],
+    "rush_touchdowns": [
+      0,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      6.2,
+      4.6,
+      5.4
+    ],
+    "receptions": [
+      0,
+      0,
+      0
+    ],
+    "rec_yards": [
+      0,
+      0,
+      0
+    ],
+    "longest_rec": [
+      0,
+      0,
+      0
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rushrec_yards": [
+      37,
+      32,
+      38
+    ],
+    "years": [
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 28.5,
+    "rush_yards_alt_line": 15.0,
+    "rush_yards_over": -115,
+    "rush_yards_under": -115,
+    "rush_yards_trend": "OVER",
+    "rush_yards_rate": "3/3"
+  }
+]

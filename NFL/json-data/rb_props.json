@@ -1,0 +1,2271 @@
+[
+  {
+    "name": "Christian McCaffrey",
+    "team": "San Francisco 49ers",
+    "position": "RB",
+    "opponent": [
+      "LAR",
+      "JAC",
+      "ARI",
+      "NO",
+      "SEA"
+    ],
+    "current_opponent": "TB",
+    "rush_attempts": [
+      22,
+      17,
+      17,
+      13,
+      22
+    ],
+    "rush_yards": [
+      57,
+      49,
+      52,
+      55,
+      69
+    ],
+    "longest_rush": [
+      8,
+      11,
+      15,
+      10,
+      13
+    ],
+    "rush_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      2.6,
+      2.9,
+      3.1,
+      4.2,
+      3.1
+    ],
+    "receptions": [
+      8,
+      6,
+      10,
+      6,
+      9
+    ],
+    "rec_yards": [
+      82,
+      92,
+      88,
+      52,
+      73
+    ],
+    "longest_rec": [
+      16,
+      29,
+      20,
+      14,
+      25
+    ],
+    "rec_touchdowns": [
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      10.3,
+      15.3,
+      8.8,
+      8.7,
+      8.1
+    ],
+    "rushrec_yards": [
+      139,
+      141,
+      140,
+      107,
+      142
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rushrec_line": 109.5,
+    "rushrec_over": -110,
+    "rushrec_under": -118,
+    "rushrec_trend": "OVER",
+    "rushrec_rate": "4/5"
+  },
+  {
+    "name": "Derrick Henry",
+    "team": "Baltimore Ravens",
+    "position": "RB",
+    "opponent": [
+      "HOU",
+      "KC",
+      "DET",
+      "CLE",
+      "BUF"
+    ],
+    "current_opponent": "LAR",
+    "rush_attempts": [
+      15,
+      8,
+      12,
+      11,
+      18
+    ],
+    "rush_yards": [
+      33,
+      42,
+      50,
+      23,
+      169
+    ],
+    "longest_rush": [
+      7,
+      14,
+      28,
+      8,
+      49
+    ],
+    "rush_touchdowns": [
+      1,
+      0,
+      1,
+      0,
+      2
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "rush_avg": [
+      2.2,
+      5.3,
+      4.2,
+      2.1,
+      9.4
+    ],
+    "receptions": [
+      0,
+      2,
+      1,
+      0,
+      1
+    ],
+    "rec_yards": [
+      0,
+      16,
+      7,
+      0,
+      13
+    ],
+    "longest_rec": [
+      0,
+      10,
+      7,
+      0,
+      13
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      0.0,
+      8.0,
+      7.0,
+      0.0,
+      13.0
+    ],
+    "rushrec_yards": [
+      33,
+      58,
+      57,
+      23,
+      182
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 73.5,
+    "rush_yards_over": -115,
+    "rush_yards_under": -115,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "4/5",
+    "rushrec_line": 81.5,
+    "rushrec_over": -110,
+    "rushrec_under": -118,
+    "rushrec_trend": "UNDER",
+    "rushrec_rate": "4/5"
+  },
+  {
+    "name": "Breece Hall",
+    "team": "New York Jets",
+    "position": "RB",
+    "opponent": [
+      "DAL",
+      "MIA",
+      "TB",
+      "BUF",
+      "PIT"
+    ],
+    "current_opponent": "DEN",
+    "rush_attempts": [
+      14,
+      14,
+      9,
+      10,
+      19
+    ],
+    "rush_yards": [
+      113,
+      81,
+      21,
+      29,
+      107
+    ],
+    "longest_rush": [
+      22,
+      23,
+      17,
+      12,
+      18
+    ],
+    "rush_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      8.1,
+      5.8,
+      2.3,
+      2.9,
+      5.6
+    ],
+    "receptions": [
+      4,
+      5,
+      4,
+      2,
+      2
+    ],
+    "rec_yards": [
+      42,
+      30,
+      31,
+      9,
+      38
+    ],
+    "longest_rec": [
+      16,
+      8,
+      12,
+      7,
+      33
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      10.5,
+      6.0,
+      7.8,
+      4.5,
+      19.0
+    ],
+    "rushrec_yards": [
+      155,
+      111,
+      52,
+      38,
+      145
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "long_rush_line": 15.5,
+    "long_rush_over": -110,
+    "long_rush_under": -118,
+    "long_rush_trend": "OVER",
+    "long_rush_rate": "4/5"
+  },
+  {
+    "name": "Javonte Williams",
+    "team": "Dallas Cowboys",
+    "position": "RB",
+    "opponent": [
+      "NYJ",
+      "GB",
+      "CHI",
+      "NYG",
+      "PHI"
+    ],
+    "current_opponent": "CAR",
+    "rush_attempts": [
+      16,
+      20,
+      10,
+      18,
+      15
+    ],
+    "rush_yards": [
+      135,
+      85,
+      76,
+      97,
+      54
+    ],
+    "longest_rush": [
+      66,
+      13,
+      22,
+      30,
+      11
+    ],
+    "rush_touchdowns": [
+      1,
+      1,
+      0,
+      1,
+      2
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "rush_avg": [
+      8.4,
+      4.3,
+      7.6,
+      5.4,
+      3.6
+    ],
+    "receptions": [
+      1,
+      3,
+      5,
+      6,
+      2
+    ],
+    "rec_yards": [
+      4,
+      15,
+      16,
+      33,
+      10
+    ],
+    "longest_rec": [
+      4,
+      9,
+      6,
+      11,
+      7
+    ],
+    "rec_touchdowns": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      4.0,
+      5.0,
+      3.2,
+      5.5,
+      5.0
+    ],
+    "rushrec_yards": [
+      139,
+      100,
+      92,
+      130,
+      64
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 75.5,
+    "rush_yards_over": -118,
+    "rush_yards_under": -110,
+    "rush_yards_trend": "OVER",
+    "rush_yards_rate": "4/5"
+  },
+  {
+    "name": "Rachaad White",
+    "team": "Tampa Bay Buccaneers",
+    "position": "RB",
+    "opponent": [
+      "SEA",
+      "PHI",
+      "NYJ",
+      "HOU",
+      "ATL"
+    ],
+    "current_opponent": "SF",
+    "rush_attempts": [
+      14,
+      6,
+      5,
+      10,
+      2
+    ],
+    "rush_yards": [
+      41,
+      17,
+      12,
+      65,
+      14
+    ],
+    "longest_rush": [
+      12,
+      5,
+      7,
+      16,
+      11
+    ],
+    "rush_touchdowns": [
+      2,
+      0,
+      0,
+      1,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      2.9,
+      2.8,
+      2.4,
+      6.5,
+      7.0
+    ],
+    "receptions": [
+      4,
+      4,
+      1,
+      2,
+      1
+    ],
+    "rec_yards": [
+      30,
+      29,
+      2,
+      1,
+      2
+    ],
+    "longest_rec": [
+      14,
+      12,
+      2,
+      2,
+      2
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      7.5,
+      7.3,
+      2.0,
+      0.5,
+      2.0
+    ],
+    "rushrec_yards": [
+      71,
+      46,
+      14,
+      66,
+      16
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 52.5,
+    "rush_yards_over": -115,
+    "rush_yards_under": -115,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "4/5",
+    "rushrec_line": 80.5,
+    "rushrec_over": -110,
+    "rushrec_under": -118,
+    "rushrec_trend": "UNDER",
+    "rushrec_rate": "5/5",
+    "long_rush_line": 12.5,
+    "long_rush_over": -115,
+    "long_rush_under": -115,
+    "long_rush_trend": "UNDER",
+    "long_rush_rate": "4/5"
+  },
+  {
+    "name": "Justice Hill",
+    "team": "Baltimore Ravens",
+    "position": "RB",
+    "opponent": [
+      "HOU",
+      "KC",
+      "DET",
+      "CLE",
+      "BUF"
+    ],
+    "current_opponent": "LAR",
+    "rush_attempts": [
+      1,
+      3,
+      0,
+      3,
+      2
+    ],
+    "rush_yards": [
+      3,
+      76,
+      0,
+      7,
+      -14
+    ],
+    "longest_rush": [
+      3,
+      71,
+      0,
+      6,
+      1
+    ],
+    "rush_touchdowns": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "rush_avg": [
+      3.0,
+      25.3,
+      0.0,
+      2.3,
+      -7.0
+    ],
+    "receptions": [
+      1,
+      5,
+      3,
+      3,
+      1
+    ],
+    "rec_yards": [
+      9,
+      41,
+      45,
+      18,
+      3
+    ],
+    "longest_rec": [
+      9,
+      13,
+      37,
+      8,
+      3
+    ],
+    "rec_touchdowns": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      9.0,
+      8.2,
+      15.0,
+      6.0,
+      3.0
+    ],
+    "rushrec_yards": [
+      12,
+      117,
+      45,
+      25,
+      -11
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 7.5,
+    "rush_yards_over": -110,
+    "rush_yards_under": -120,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "4/5"
+  },
+  {
+    "name": "Rhamondre Stevenson",
+    "team": "New England Patriots",
+    "position": "RB",
+    "opponent": [
+      "BUF",
+      "CAR",
+      "PIT",
+      "MIA",
+      "LV"
+    ],
+    "current_opponent": "NO",
+    "rush_attempts": [
+      7,
+      9,
+      4,
+      11,
+      7
+    ],
+    "rush_yards": [
+      14,
+      38,
+      18,
+      54,
+      15
+    ],
+    "longest_rush": [
+      7,
+      22,
+      10,
+      21,
+      6
+    ],
+    "rush_touchdowns": [
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    "rush_avg": [
+      2.0,
+      4.2,
+      4.5,
+      4.9,
+      2.1
+    ],
+    "receptions": [
+      2,
+      1,
+      3,
+      5,
+      2
+    ],
+    "rec_yards": [
+      13,
+      3,
+      38,
+      88,
+      12
+    ],
+    "longest_rec": [
+      7,
+      3,
+      23,
+      55,
+      7
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      6.5,
+      3.0,
+      12.7,
+      17.6,
+      6.0
+    ],
+    "rushrec_yards": [
+      27,
+      41,
+      56,
+      142,
+      27
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 44.5,
+    "rush_yards_over": -118,
+    "rush_yards_under": -110,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "4/5",
+    "rushrec_line": 63.5,
+    "rushrec_over": -115,
+    "rushrec_under": -118,
+    "rushrec_trend": "UNDER",
+    "rushrec_rate": "4/5"
+  },
+  {
+    "name": "J.K. Dobbins",
+    "team": "Denver Broncos",
+    "position": "RB",
+    "opponent": [
+      "PHI",
+      "CIN",
+      "LAC",
+      "IND",
+      "TEN"
+    ],
+    "current_opponent": "NYJ",
+    "rush_attempts": [
+      20,
+      16,
+      11,
+      14,
+      16
+    ],
+    "rush_yards": [
+      79,
+      101,
+      83,
+      76,
+      63
+    ],
+    "longest_rush": [
+      17,
+      16,
+      41,
+      23,
+      19
+    ],
+    "rush_touchdowns": [
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      4.0,
+      6.3,
+      7.5,
+      5.4,
+      3.9
+    ],
+    "receptions": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "rec_yards": [
+      5,
+      4,
+      0,
+      9,
+      5
+    ],
+    "longest_rec": [
+      5,
+      4,
+      0,
+      9,
+      3
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      5.0,
+      4.0,
+      0.0,
+      9.0,
+      2.5
+    ],
+    "rushrec_yards": [
+      84,
+      105,
+      83,
+      85,
+      68
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 67.5,
+    "rush_yards_over": -115,
+    "rush_yards_under": -115,
+    "rush_yards_trend": "OVER",
+    "rush_yards_rate": "4/5",
+    "rushrec_line": 74.5,
+    "rushrec_over": -115,
+    "rushrec_under": -115,
+    "rushrec_trend": "OVER",
+    "rushrec_rate": "4/5",
+    "long_rush_line": 15.5,
+    "long_rush_over": -120,
+    "long_rush_under": -110,
+    "long_rush_trend": "OVER",
+    "long_rush_rate": "5/5"
+  },
+  {
+    "name": "Alvin Kamara",
+    "team": "New Orleans Saints",
+    "position": "RB",
+    "opponent": [
+      "NYG",
+      "BUF",
+      "SEA",
+      "SF",
+      "ARI"
+    ],
+    "current_opponent": "NE",
+    "rush_attempts": [
+      8,
+      15,
+      18,
+      21,
+      11
+    ],
+    "rush_yards": [
+      27,
+      70,
+      42,
+      99,
+      45
+    ],
+    "longest_rush": [
+      11,
+      17,
+      8,
+      15,
+      18
+    ],
+    "rush_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      3.4,
+      4.7,
+      2.3,
+      4.7,
+      4.1
+    ],
+    "receptions": [
+      4,
+      4,
+      1,
+      6,
+      2
+    ],
+    "rec_yards": [
+      28,
+      2,
+      14,
+      21,
+      12
+    ],
+    "longest_rec": [
+      12,
+      4,
+      14,
+      6,
+      7
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "rec_avg": [
+      7.0,
+      0.5,
+      14.0,
+      3.5,
+      6.0
+    ],
+    "rushrec_yards": [
+      55,
+      72,
+      56,
+      120,
+      57
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 39.5,
+    "rush_yards_over": -115,
+    "rush_yards_under": -115,
+    "rush_yards_trend": "OVER",
+    "rush_yards_rate": "4/5"
+  },
+  {
+    "name": "Tony Pollard",
+    "team": "Tennessee Titans",
+    "position": "RB",
+    "opponent": [
+      "ARI",
+      "HOU",
+      "IND",
+      "LAR",
+      "DEN"
+    ],
+    "current_opponent": "LV",
+    "rush_attempts": [
+      14,
+      14,
+      16,
+      20,
+      18
+    ],
+    "rush_yards": [
+      67,
+      64,
+      45,
+      92,
+      60
+    ],
+    "longest_rush": [
+      14,
+      21,
+      10,
+      10,
+      9
+    ],
+    "rush_touchdowns": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "rush_avg": [
+      4.8,
+      4.6,
+      2.8,
+      4.6,
+      3.3
+    ],
+    "receptions": [
+      3,
+      3,
+      2,
+      0,
+      1
+    ],
+    "rec_yards": [
+      11,
+      12,
+      14,
+      0,
+      29
+    ],
+    "longest_rec": [
+      4,
+      8,
+      11,
+      0,
+      29
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      3.7,
+      4.0,
+      7.0,
+      0.0,
+      29.0
+    ],
+    "rushrec_yards": [
+      78,
+      76,
+      59,
+      92,
+      89
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 52.5,
+    "rush_yards_over": -115,
+    "rush_yards_under": -115,
+    "rush_yards_trend": "OVER",
+    "rush_yards_rate": "4/5",
+    "rushrec_line": 67.5,
+    "rushrec_over": -118,
+    "rushrec_under": -110,
+    "rushrec_trend": "OVER",
+    "rushrec_rate": "4/5"
+  },
+  {
+    "name": "Chase Brown",
+    "team": "Cincinnati Bengals",
+    "position": "RB",
+    "opponent": [
+      "DET",
+      "DEN",
+      "MIN",
+      "JAC",
+      "CLE"
+    ],
+    "current_opponent": "GB",
+    "rush_attempts": [
+      8,
+      10,
+      10,
+      16,
+      21
+    ],
+    "rush_yards": [
+      27,
+      40,
+      3,
+      47,
+      43
+    ],
+    "longest_rush": [
+      6,
+      6,
+      4,
+      11,
+      8
+    ],
+    "rush_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "rush_avg": [
+      3.4,
+      4.0,
+      0.3,
+      2.9,
+      2.0
+    ],
+    "receptions": [
+      7,
+      3,
+      4,
+      2,
+      2
+    ],
+    "rec_yards": [
+      21,
+      31,
+      17,
+      18,
+      8
+    ],
+    "longest_rec": [
+      9,
+      12,
+      9,
+      13,
+      7
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      3.0,
+      10.3,
+      4.3,
+      9.0,
+      4.0
+    ],
+    "rushrec_yards": [
+      48,
+      71,
+      20,
+      65,
+      51
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 45.5,
+    "rush_yards_over": -110,
+    "rush_yards_under": -118,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "4/5",
+    "rushrec_line": 69.5,
+    "rushrec_over": -118,
+    "rushrec_under": -110,
+    "rushrec_trend": "UNDER",
+    "rushrec_rate": "4/5",
+    "long_rush_line": 10.5,
+    "long_rush_over": -130,
+    "long_rush_under": -105,
+    "long_rush_trend": "UNDER",
+    "long_rush_rate": "4/5"
+  },
+  {
+    "name": "Ashton Jeanty",
+    "team": "Las Vegas Raiders",
+    "position": "RB",
+    "opponent": [
+      "IND",
+      "CHI",
+      "WAS",
+      "LAC",
+      "NE"
+    ],
+    "current_opponent": "TEN",
+    "rush_attempts": [
+      14,
+      21,
+      17,
+      11,
+      19
+    ],
+    "rush_yards": [
+      67,
+      138,
+      63,
+      43,
+      38
+    ],
+    "longest_rush": [
+      12,
+      64,
+      18,
+      13,
+      9
+    ],
+    "rush_touchdowns": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "rush_fumbles": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      4.8,
+      6.6,
+      3.7,
+      3.9,
+      2.0
+    ],
+    "receptions": [
+      5,
+      2,
+      0,
+      3,
+      2
+    ],
+    "rec_yards": [
+      42,
+      17,
+      0,
+      1,
+      2
+    ],
+    "longest_rec": [
+      29,
+      9,
+      0,
+      4,
+      4
+    ],
+    "rec_touchdowns": [
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      8.4,
+      8.5,
+      0.0,
+      0.3,
+      1.0
+    ],
+    "rushrec_yards": [
+      109,
+      155,
+      63,
+      44,
+      40
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 76.5,
+    "rush_yards_over": -110,
+    "rush_yards_under": -118,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "4/5"
+  },
+  {
+    "name": "Rico Dowdle",
+    "team": "Carolina Panthers",
+    "position": "RB",
+    "opponent": [
+      "MIA",
+      "NE",
+      "ATL",
+      "ARI",
+      "JAC"
+    ],
+    "current_opponent": "DAL",
+    "rush_attempts": [
+      23,
+      9,
+      10,
+      6,
+      3
+    ],
+    "rush_yards": [
+      206,
+      32,
+      30,
+      9,
+      12
+    ],
+    "longest_rush": [
+      53,
+      10,
+      8,
+      5,
+      9
+    ],
+    "rush_touchdowns": [
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      9.0,
+      3.6,
+      3.0,
+      1.5,
+      4.0
+    ],
+    "receptions": [
+      3,
+      1,
+      1,
+      1,
+      2
+    ],
+    "rec_yards": [
+      28,
+      -2,
+      8,
+      10,
+      4
+    ],
+    "longest_rec": [
+      13,
+      -2,
+      8,
+      10,
+      3
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      9.3,
+      -2.0,
+      8.0,
+      10.0,
+      2.0
+    ],
+    "rushrec_yards": [
+      234,
+      30,
+      38,
+      19,
+      16
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 76.5,
+    "rush_yards_over": -118,
+    "rush_yards_under": -110,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "4/5",
+    "rushrec_line": 96.5,
+    "rushrec_over": -115,
+    "rushrec_under": -115,
+    "rushrec_trend": "UNDER",
+    "rushrec_rate": "4/5",
+    "long_rush_line": 15.5,
+    "long_rush_over": -105,
+    "long_rush_under": -130,
+    "long_rush_trend": "UNDER",
+    "long_rush_rate": "4/5"
+  },
+  {
+    "name": "Ollie Gordon",
+    "team": "Miami Dolphins",
+    "position": "RB",
+    "opponent": [
+      "CAR",
+      "NYJ",
+      "BUF",
+      "NE",
+      "IND"
+    ],
+    "current_opponent": "LAC",
+    "rush_attempts": [
+      3,
+      6,
+      9,
+      1,
+      2
+    ],
+    "rush_yards": [
+      -2,
+      10,
+      38,
+      8,
+      4
+    ],
+    "longest_rush": [
+      3,
+      7,
+      16,
+      8,
+      3
+    ],
+    "rush_touchdowns": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      -0.7,
+      1.7,
+      4.2,
+      8.0,
+      2.0
+    ],
+    "receptions": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "rec_yards": [
+      0,
+      0,
+      0,
+      5,
+      -1
+    ],
+    "longest_rec": [
+      0,
+      0,
+      0,
+      5,
+      -1
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      0.0,
+      0.0,
+      0.0,
+      5.0,
+      -1.0
+    ],
+    "rushrec_yards": [
+      -2,
+      10,
+      38,
+      13,
+      3
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 13.5,
+    "rush_yards_over": -120,
+    "rush_yards_under": -110,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "4/5"
+  },
+  {
+    "name": "TreVeyon Henderson",
+    "team": "New England Patriots",
+    "position": "RB",
+    "opponent": [
+      "BUF",
+      "CAR",
+      "PIT",
+      "MIA",
+      "LV"
+    ],
+    "current_opponent": "NO",
+    "rush_attempts": [
+      6,
+      7,
+      11,
+      3,
+      5
+    ],
+    "rush_yards": [
+      24,
+      32,
+      28,
+      10,
+      27
+    ],
+    "longest_rush": [
+      13,
+      11,
+      5,
+      6,
+      14
+    ],
+    "rush_touchdowns": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      4.0,
+      4.6,
+      2.5,
+      3.3,
+      5.4
+    ],
+    "receptions": [
+      2,
+      2,
+      3,
+      2,
+      6
+    ],
+    "rec_yards": [
+      3,
+      14,
+      19,
+      30,
+      24
+    ],
+    "longest_rec": [
+      4,
+      9,
+      8,
+      15,
+      13
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      1.5,
+      7.0,
+      6.3,
+      15.0,
+      4.0
+    ],
+    "rushrec_yards": [
+      27,
+      46,
+      47,
+      40,
+      51
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 36.5,
+    "rush_yards_over": -115,
+    "rush_yards_under": -118,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "5/5",
+    "rushrec_line": 57.5,
+    "rushrec_over": -110,
+    "rushrec_under": -118,
+    "rushrec_trend": "UNDER",
+    "rushrec_rate": "5/5"
+  },
+  {
+    "name": "RJ Harvey",
+    "team": "Denver Broncos",
+    "position": "RB",
+    "opponent": [
+      "PHI",
+      "CIN",
+      "LAC",
+      "IND",
+      "TEN"
+    ],
+    "current_opponent": "NYJ",
+    "rush_attempts": [
+      4,
+      14,
+      2,
+      5,
+      6
+    ],
+    "rush_yards": [
+      12,
+      58,
+      2,
+      8,
+      70
+    ],
+    "longest_rush": [
+      8,
+      9,
+      4,
+      3,
+      50
+    ],
+    "rush_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      3.0,
+      4.1,
+      1.0,
+      1.6,
+      11.7
+    ],
+    "receptions": [
+      3,
+      4,
+      3,
+      1,
+      1
+    ],
+    "rec_yards": [
+      18,
+      40,
+      14,
+      16,
+      -1
+    ],
+    "longest_rec": [
+      11,
+      14,
+      9,
+      16,
+      -1
+    ],
+    "rec_touchdowns": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      6.0,
+      10.0,
+      4.7,
+      16.0,
+      -1.0
+    ],
+    "rushrec_yards": [
+      30,
+      98,
+      16,
+      24,
+      69
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "long_rush_line": 9.5,
+    "long_rush_over": -125,
+    "long_rush_under": -105,
+    "long_rush_trend": "UNDER",
+    "long_rush_rate": "4/5"
+  },
+  {
+    "name": "Justin Herbert",
+    "team": "Los Angeles Chargers",
+    "position": "QB",
+    "opponent": [
+      "WAS",
+      "NYG",
+      "DEN",
+      "LV",
+      "KC"
+    ],
+    "current_opponent": "MIA",
+    "rush_attempts": [
+      4,
+      1,
+      2,
+      9,
+      7
+    ],
+    "rush_yards": [
+      60,
+      24,
+      6,
+      31,
+      32
+    ],
+    "longest_rush": [
+      41,
+      24,
+      4,
+      12,
+      19
+    ],
+    "rush_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      15.0,
+      24.0,
+      3.0,
+      3.4,
+      4.6
+    ],
+    "receptions": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_yards": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "longest_rec": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rushrec_yards": [
+      60,
+      24,
+      6,
+      31,
+      32
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 17.5,
+    "rush_yards_over": -110,
+    "rush_yards_under": -118,
+    "rush_yards_trend": "OVER",
+    "rush_yards_rate": "4/5"
+  },
+  {
+    "name": "Trevor Lawrence",
+    "team": "Jacksonville Jaguars",
+    "position": "QB",
+    "opponent": [
+      "KC",
+      "SF",
+      "HOU",
+      "CIN",
+      "CAR"
+    ],
+    "current_opponent": "SEA",
+    "rush_attempts": [
+      10,
+      7,
+      2,
+      2,
+      4
+    ],
+    "rush_yards": [
+      54,
+      7,
+      9,
+      4,
+      12
+    ],
+    "longest_rush": [
+      16,
+      6,
+      10,
+      3,
+      10
+    ],
+    "rush_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      5.4,
+      1.0,
+      4.5,
+      2.0,
+      3.0
+    ],
+    "receptions": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_yards": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "longest_rec": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rushrec_yards": [
+      54,
+      7,
+      9,
+      4,
+      12
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 15.5,
+    "rush_yards_over": -110,
+    "rush_yards_under": -118,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "4/5"
+  },
+  {
+    "name": "Bryce Young",
+    "team": "Carolina Panthers",
+    "position": "QB",
+    "opponent": [
+      "MIA",
+      "NE",
+      "ATL",
+      "ARI",
+      "JAC"
+    ],
+    "current_opponent": "DAL",
+    "rush_attempts": [
+      3,
+      1,
+      2,
+      2,
+      5
+    ],
+    "rush_yards": [
+      1,
+      3,
+      8,
+      2,
+      40
+    ],
+    "longest_rush": [
+      4,
+      3,
+      4,
+      3,
+      22
+    ],
+    "rush_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rush_avg": [
+      0.3,
+      3.0,
+      4.0,
+      1.0,
+      8.0
+    ],
+    "receptions": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_yards": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "longest_rec": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_touchdowns": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_fumbles": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rec_avg": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rushrec_yards": [
+      1,
+      3,
+      8,
+      2,
+      40
+    ],
+    "years": [
+      2025,
+      2025,
+      2025,
+      2025,
+      2025
+    ],
+    "rush_yards_line": 8.5,
+    "rush_yards_over": -120,
+    "rush_yards_under": -110,
+    "rush_yards_trend": "UNDER",
+    "rush_yards_rate": "4/5",
+    "long_rush_line": 7.5,
+    "long_rush_over": -105,
+    "long_rush_under": -130,
+    "long_rush_trend": "UNDER",
+    "long_rush_rate": "4/5"
+  }
+]

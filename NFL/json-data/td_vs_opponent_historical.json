@@ -1,0 +1,324 @@
+[
+  {
+    "name": "Quentin Johnston",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "LV",
+      "LV",
+      "LV"
+    ],
+    "receiving_touchdowns": [
+      0,
+      0,
+      1
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      0,
+      0,
+      1
+    ],
+    "years": [
+      2024,
+      2024,
+      2023
+    ],
+    "trend_info": {
+      "trend": "OVER",
+      "games_count": 3,
+      "over_count": 1,
+      "required": 1,
+      "line": 0.5,
+      "trend_games_indices": [
+        0,
+        1,
+        2
+      ],
+      "trend_games_values": [
+        0,
+        0,
+        1
+      ],
+      "trend_games_years": [
+        2024,
+        2024,
+        2023
+      ]
+    },
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+260",
+    "two_td_line": 1.5,
+    "two_td_odds": "+2500",
+    "three_td_line": 2.5,
+    "three_td_odds": null,
+    "touchdowns_rate": "2/3"
+  },
+  {
+    "name": "Keenan Allen",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "LV",
+      "LV"
+    ],
+    "receiving_touchdowns": [
+      0,
+      1
+    ],
+    "rushing_touchdowns": [
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      0,
+      1
+    ],
+    "years": [
+      2023,
+      2023
+    ],
+    "trend_info": {
+      "trend": "OVER",
+      "games_count": 2,
+      "over_count": 1,
+      "required": 1,
+      "line": 0.5,
+      "trend_games_indices": [
+        0,
+        1
+      ],
+      "trend_games_values": [
+        0,
+        1
+      ],
+      "trend_games_years": [
+        2023,
+        2023
+      ]
+    },
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+270",
+    "two_td_line": 1.5,
+    "two_td_odds": "+2700",
+    "three_td_line": 2.5,
+    "three_td_odds": null,
+    "touchdowns_rate": "1/2"
+  },
+  {
+    "name": "Ladd McConkey",
+    "team": "Los Angeles Chargers",
+    "position": "WR",
+    "opponent": [
+      "LV",
+      "LV"
+    ],
+    "receiving_touchdowns": [
+      0,
+      1
+    ],
+    "rushing_touchdowns": [
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      0,
+      1
+    ],
+    "years": [
+      2024,
+      2024
+    ],
+    "trend_info": {
+      "trend": "OVER",
+      "games_count": 2,
+      "over_count": 1,
+      "required": 1,
+      "line": 0.5,
+      "trend_games_indices": [
+        0,
+        1
+      ],
+      "trend_games_values": [
+        0,
+        1
+      ],
+      "trend_games_years": [
+        2024,
+        2024
+      ]
+    },
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+140",
+    "two_td_line": 1.5,
+    "two_td_odds": "+1000",
+    "three_td_line": 2.5,
+    "three_td_odds": "+8000",
+    "touchdowns_rate": "1/2"
+  },
+  {
+    "name": "Dalton Schultz",
+    "team": "Houston Texans",
+    "position": "TE",
+    "opponent": [
+      "TB",
+      "TB"
+    ],
+    "receiving_touchdowns": [
+      1,
+      0
+    ],
+    "rushing_touchdowns": [
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      0
+    ],
+    "years": [
+      2023,
+      2022
+    ],
+    "trend_info": {
+      "trend": "OVER",
+      "games_count": 2,
+      "over_count": 1,
+      "required": 1,
+      "line": 0.5,
+      "trend_games_indices": [
+        0,
+        1
+      ],
+      "trend_games_values": [
+        1,
+        0
+      ],
+      "trend_games_years": [
+        2023,
+        2022
+      ]
+    },
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+250",
+    "two_td_line": 1.5,
+    "two_td_odds": "+2500",
+    "three_td_line": 2.5,
+    "three_td_odds": null,
+    "touchdowns_rate": "1/2"
+  },
+  {
+    "name": "Najee Harris",
+    "team": "Los Angeles Chargers",
+    "position": "RB",
+    "opponent": [
+      "LV",
+      "LV"
+    ],
+    "receiving_touchdowns": [
+      1,
+      0
+    ],
+    "rushing_touchdowns": [
+      0,
+      0
+    ],
+    "total_touchdowns": [
+      1,
+      0
+    ],
+    "years": [
+      2024,
+      2023
+    ],
+    "trend_info": {
+      "trend": "OVER",
+      "games_count": 2,
+      "over_count": 1,
+      "required": 1,
+      "line": 0.5,
+      "trend_games_indices": [
+        0,
+        1
+      ],
+      "trend_games_values": [
+        1,
+        0
+      ],
+      "trend_games_years": [
+        2024,
+        2023
+      ]
+    },
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+280",
+    "two_td_line": 1.5,
+    "two_td_odds": "+2700",
+    "three_td_line": 2.5,
+    "three_td_odds": null,
+    "touchdowns_rate": "1/2"
+  },
+  {
+    "name": "Justin Herbert",
+    "team": "Los Angeles Chargers",
+    "position": "QB",
+    "opponent": [
+      "LV",
+      "LV",
+      "LV"
+    ],
+    "receiving_touchdowns": [
+      0,
+      0,
+      0
+    ],
+    "rushing_touchdowns": [
+      0,
+      0,
+      2
+    ],
+    "total_touchdowns": [
+      0,
+      0,
+      2
+    ],
+    "years": [
+      2024,
+      2024,
+      2023
+    ],
+    "trend_info": {
+      "trend": "OVER",
+      "games_count": 3,
+      "over_count": 1,
+      "required": 1,
+      "line": 0.5,
+      "trend_games_indices": [
+        0,
+        1,
+        2
+      ],
+      "trend_games_values": [
+        0,
+        0,
+        2
+      ],
+      "trend_games_years": [
+        2024,
+        2024,
+        2023
+      ]
+    },
+    "touchdowns_line": 0.5,
+    "touchdown_odds": "+500",
+    "two_td_line": 1.5,
+    "two_td_odds": "+7000",
+    "three_td_line": 2.5,
+    "three_td_odds": null,
+    "touchdowns_rate": "2/3"
+  }
+]

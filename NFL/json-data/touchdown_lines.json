@@ -1,0 +1,3602 @@
+[
+    {
+        "name": "Jonathan Taylor",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -270,
+        "two_td_line": 1.5,
+        "two_td_odds": "+210",
+        "three_td_line": 2.5,
+        "three_td_odds": "+900"
+    },
+    {
+        "name": "Josh Jacobs",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -240,
+        "two_td_line": 1.5,
+        "two_td_odds": "+230",
+        "three_td_line": 2.5,
+        "three_td_odds": "+1000"
+    },
+    {
+        "name": "Javonte Williams",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -210,
+        "two_td_line": 1.5,
+        "two_td_odds": "+280",
+        "three_td_line": 2.5,
+        "three_td_odds": "+1300"
+    },
+    {
+        "name": "Kyren Williams",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -185,
+        "two_td_line": 1.5,
+        "two_td_odds": "+330",
+        "three_td_line": 2.5,
+        "three_td_odds": "+1700"
+    },
+    {
+        "name": "Bijan Robinson",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -180,
+        "two_td_line": 1.5,
+        "two_td_odds": "+340",
+        "three_td_line": 2.5,
+        "three_td_odds": "+1800"
+    },
+    {
+        "name": "Jahmyr Gibbs",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -155,
+        "two_td_line": 1.5,
+        "two_td_odds": "+420",
+        "three_td_line": 2.5,
+        "three_td_odds": "+2200"
+    },
+    {
+        "name": "James Cook",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -160,
+        "two_td_line": 1.5,
+        "two_td_odds": "+390",
+        "three_td_line": 2.5,
+        "three_td_odds": "+2000"
+    },
+    {
+        "name": "Ashton Jeanty",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -155,
+        "two_td_line": 1.5,
+        "two_td_odds": "+400",
+        "three_td_line": 2.5,
+        "three_td_odds": "+2000"
+    },
+    {
+        "name": "Christian McCaffrey",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Derrick Henry",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -120,
+        "two_td_line": 1.5,
+        "two_td_odds": "+550",
+        "three_td_line": 2.5,
+        "three_td_odds": "+3000"
+    },
+    {
+        "name": "J.K. Dobbins",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -120,
+        "two_td_line": 1.5,
+        "two_td_odds": "+550",
+        "three_td_line": 2.5,
+        "three_td_odds": "+3000"
+    },
+    {
+        "name": "Jacory Croskey-Merritt",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -135,
+        "two_td_line": 1.5,
+        "two_td_odds": "+460",
+        "three_td_line": 2.5,
+        "three_td_odds": "+2200"
+    },
+    {
+        "name": "Puka Nacua",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -125,
+        "two_td_line": 1.5,
+        "two_td_odds": "+500",
+        "three_td_line": 2.5,
+        "three_td_odds": "+3000"
+    },
+    {
+        "name": "Travis Etienne",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -130,
+        "two_td_line": 1.5,
+        "two_td_odds": "+500",
+        "three_td_line": 2.5,
+        "three_td_odds": "+3000"
+    },
+    {
+        "name": "David Montgomery",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -110,
+        "two_td_line": 1.5,
+        "two_td_odds": "+650",
+        "three_td_line": 2.5,
+        "three_td_odds": "+3300"
+    },
+    {
+        "name": "Rachaad White",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Josh Allen",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -105,
+        "two_td_line": 1.5,
+        "two_td_odds": "+650",
+        "three_td_line": 2.5,
+        "three_td_odds": "+3500"
+    },
+    {
+        "name": "Rico Dowdle",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -120,
+        "two_td_line": 1.5,
+        "two_td_odds": "+550",
+        "three_td_line": 2.5,
+        "three_td_odds": "+3000"
+    },
+    {
+        "name": "De'Von Achane",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": -115,
+        "two_td_line": 1.5,
+        "two_td_odds": "+650",
+        "three_td_line": 2.5,
+        "three_td_odds": "+3500"
+    },
+    {
+        "name": "Kenneth Walker",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+115",
+        "two_td_line": 1.5,
+        "two_td_odds": "+800",
+        "three_td_line": 2.5,
+        "three_td_odds": "+5000"
+    },
+    {
+        "name": "Quinshon Judkins",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+105",
+        "two_td_line": 1.5,
+        "two_td_odds": "+700",
+        "three_td_line": 2.5,
+        "three_td_odds": "+4000"
+    },
+    {
+        "name": "Davante Adams",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+100",
+        "two_td_line": 1.5,
+        "two_td_odds": "+700",
+        "three_td_line": 2.5,
+        "three_td_odds": "+4000"
+    },
+    {
+        "name": "Amon-Ra St. Brown",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+105",
+        "two_td_line": 1.5,
+        "two_td_odds": "+750",
+        "three_td_line": 2.5,
+        "three_td_odds": "+4500"
+    },
+    {
+        "name": "Emeka Egbuka",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Rhamondre Stevenson",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+110",
+        "two_td_line": 1.5,
+        "two_td_odds": "+750",
+        "three_td_line": 2.5,
+        "three_td_odds": "+5000"
+    },
+    {
+        "name": "Jaylen Warren",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+110",
+        "two_td_line": 1.5,
+        "two_td_odds": "+750",
+        "three_td_line": 2.5,
+        "three_td_odds": "+4500"
+    },
+    {
+        "name": "George Pickens",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+115",
+        "two_td_line": 1.5,
+        "two_td_odds": "+800",
+        "three_td_line": 2.5,
+        "three_td_odds": "+5000"
+    },
+    {
+        "name": "Tony Pollard",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+110",
+        "two_td_line": 1.5,
+        "two_td_odds": "+750",
+        "three_td_line": 2.5,
+        "three_td_odds": "+5000"
+    },
+    {
+        "name": "D'Andre Swift",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+110",
+        "two_td_line": 1.5,
+        "two_td_odds": "+800",
+        "three_td_line": 2.5,
+        "three_td_odds": "+4500"
+    },
+    {
+        "name": "Jaxon Smith-Njigba",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+125",
+        "two_td_line": 1.5,
+        "two_td_odds": "+900",
+        "three_td_line": 2.5,
+        "three_td_odds": "+6500"
+    },
+    {
+        "name": "Deebo Samuel",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+115",
+        "two_td_line": 1.5,
+        "two_td_odds": "+900",
+        "three_td_line": 2.5,
+        "three_td_odds": "+6000"
+    },
+    {
+        "name": "Chase Brown",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+145",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1100",
+        "three_td_line": 2.5,
+        "three_td_odds": "+8000"
+    },
+    {
+        "name": "Chuba Hubbard",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Alvin Kamara",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+120",
+        "two_td_line": 1.5,
+        "two_td_odds": "+850",
+        "three_td_line": 2.5,
+        "three_td_odds": "+5000"
+    },
+    {
+        "name": "Kendre Miller",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+120",
+        "two_td_line": 1.5,
+        "two_td_odds": "+850",
+        "three_td_line": 2.5,
+        "three_td_odds": "+5000"
+    },
+    {
+        "name": "Jayden Daniels",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+125",
+        "two_td_line": 1.5,
+        "two_td_odds": "+950",
+        "three_td_line": 2.5,
+        "three_td_odds": "+6000"
+    },
+    {
+        "name": "TreVeyon Henderson",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+125",
+        "two_td_line": 1.5,
+        "two_td_odds": "+900",
+        "three_td_line": 2.5,
+        "three_td_odds": "+5000"
+    },
+    {
+        "name": "Kareem Hunt",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+130",
+        "two_td_line": 1.5,
+        "two_td_odds": "+850",
+        "three_td_line": 2.5,
+        "three_td_odds": "+5500"
+    },
+    {
+        "name": "Brian Thomas",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+160",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1200",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Travis Kelce",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+130",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1000",
+        "three_td_line": 2.5,
+        "three_td_odds": "+7000"
+    },
+    {
+        "name": "Courtland Sutton",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+130",
+        "two_td_line": 1.5,
+        "two_td_odds": "+950",
+        "three_td_line": 2.5,
+        "three_td_odds": "+6500"
+    },
+    {
+        "name": "Hassan Haskins",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+165",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1200",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Zach Charbonnet",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+135",
+        "two_td_line": 1.5,
+        "two_td_odds": "+950",
+        "three_td_line": 2.5,
+        "three_td_odds": "+6000"
+    },
+    {
+        "name": "Rome Odunze",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+135",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1000",
+        "three_td_line": 2.5,
+        "three_td_odds": "+7000"
+    },
+    {
+        "name": "Xavier Worthy",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+145",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1100",
+        "three_td_line": 2.5,
+        "three_td_odds": "+8000"
+    },
+    {
+        "name": "Drake London",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+140",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1100",
+        "three_td_line": 2.5,
+        "three_td_odds": "+7500"
+    },
+    {
+        "name": "Jaylen Waddle",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+145",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1100",
+        "three_td_line": 2.5,
+        "three_td_odds": "+8000"
+    },
+    {
+        "name": "Tetairoa McMillan",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+145",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1100",
+        "three_td_line": 2.5,
+        "three_td_odds": "+8000"
+    },
+    {
+        "name": "Tyquan Thornton",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+145",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1100",
+        "three_td_line": 2.5,
+        "three_td_odds": "+8000"
+    },
+    {
+        "name": "Stefon Diggs",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+170",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1300",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Romeo Doubs",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+150",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1100",
+        "three_td_line": 2.5,
+        "three_td_odds": "+8000"
+    },
+    {
+        "name": "Tyler Warren",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+160",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1200",
+        "three_td_line": 2.5,
+        "three_td_odds": "+8000"
+    },
+    {
+        "name": "Jake Ferguson",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+155",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1300",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Michael Pittman",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+160",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1300",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Breece Hall",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+170",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1300",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Hunter Henry",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+185",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1600",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "DK Metcalf",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+160",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1300",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "RJ Harvey",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+200",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1600",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Quentin Johnston",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+190",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1600",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "Garrett Wilson",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+175",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1500",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Michael Carter",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+170",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1300",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Tucker Kraft",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+180",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1500",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Keenan Allen",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+175",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1500",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Matthew Golden",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+190",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1500",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Chris Olave",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+190",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1700",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Brock Bowers",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+180",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1500",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Michael Mayer",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+180",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1500",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Trey McBride",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+180",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1600",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "Ladd McConkey",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+200",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1700",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "Jeremy McNichols",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+180",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1400"
+    },
+    {
+        "name": "Jakobi Meyers",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+180",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1600",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "DJ Moore",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+195",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1700",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "Chris Rodriguez",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+180",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1400",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Marvin Harrison",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+190",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1700",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "Taysom Hill",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+185",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1500",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Tyler Allgeier",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+200",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1600",
+        "three_td_line": 2.5,
+        "three_td_odds": "+10000"
+    },
+    {
+        "name": "Ja'Marr Chase",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+230",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2000",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "Jauan Jennings",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Keon Coleman",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+200",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1800",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "Kenneth Gainwell",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+220",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1900",
+        "three_td_line": 2.5,
+        "three_td_odds": "+15000"
+    },
+    {
+        "name": "Daniel Jones",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+200",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1600",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "Khalil Shakir",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+200",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1700",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "Jameson Williams",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+210",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1800",
+        "three_td_line": 2.5,
+        "three_td_odds": "+15000"
+    },
+    {
+        "name": "Kendrick Bourne",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Tyler Higbee",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+380",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Hollywood Brown",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+210",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1800",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "Zach Ertz",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+210",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1900",
+        "three_td_line": 2.5,
+        "three_td_odds": "+17500"
+    },
+    {
+        "name": "Kimani Vidal",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+220",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2000",
+        "three_td_line": 2.5,
+        "three_td_odds": "+15000"
+    },
+    {
+        "name": "Sam LaPorta",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+230",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1900",
+        "three_td_line": 2.5,
+        "three_td_odds": "+15000"
+    },
+    {
+        "name": "Cade Otton",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Isiah Pacheco",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+230",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2000",
+        "three_td_line": 2.5,
+        "three_td_odds": "+17500"
+    },
+    {
+        "name": "Dalton Kincaid",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+220",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2200"
+    },
+    {
+        "name": "Dawson Knox",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+220",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2200"
+    },
+    {
+        "name": "Darnell Mooney",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+220",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1900",
+        "three_td_line": 2.5,
+        "three_td_odds": "+15000"
+    },
+    {
+        "name": "Kyle Pitts",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+220",
+        "two_td_line": 1.5,
+        "two_td_odds": "+1900",
+        "three_td_line": 2.5,
+        "three_td_odds": "+15000"
+    },
+    {
+        "name": "Rashid Shaheed",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+230",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2200"
+    },
+    {
+        "name": "Sterling Shepard",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Cooper Kupp",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+290",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2700",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Drake Maye",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+230",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2200"
+    },
+    {
+        "name": "Bo Nix",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+240",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2200",
+        "three_td_line": 2.5,
+        "three_td_odds": "+17500"
+    },
+    {
+        "name": "Calvin Ridley",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+330",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3500"
+    },
+    {
+        "name": "Dontayvion Wicks",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+230",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2000",
+        "three_td_line": 2.5,
+        "three_td_odds": "+17500"
+    },
+    {
+        "name": "Davis Allen",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+380",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Zay Flowers",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+230",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2000",
+        "three_td_line": 2.5,
+        "three_td_odds": "+12500"
+    },
+    {
+        "name": "JuJu Smith-Schuster",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+230",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2000"
+    },
+    {
+        "name": "Justin Fields",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+270",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2700",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "AJ Barner",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+300",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Travis Hunter",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+270",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Calvin Austin",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+260",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2700"
+    },
+    {
+        "name": "Troy Franklin",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+250",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Jake Tonges",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Tre Tucker",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+250",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2500"
+    },
+    {
+        "name": "Darren Waller",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+290",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Roman Wilson",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+260",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2700",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Josh Downs",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+280",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Alec Pierce",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+350",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Tyjae Spears",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+310",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3000"
+    },
+    {
+        "name": "Patrick Mahomes",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+270",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2500"
+    },
+    {
+        "name": "Mason Taylor",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+300",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Jerry Jeudy",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+310",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Juwan Johnson",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+290",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3000"
+    },
+    {
+        "name": "Marvin Mims",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+300",
+        "two_td_line": 1.5,
+        "two_td_odds": "+2700",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Kayshon Boutte",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+310",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3000"
+    },
+    {
+        "name": "Blake Corum",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+330",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3300",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Cole Kmet",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+300",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3300"
+    },
+    {
+        "name": "Ryan Flournoy",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+300",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3000"
+    },
+    {
+        "name": "Tee Higgins",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+380",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000"
+    },
+    {
+        "name": "Trevor Lawrence",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+340",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3300",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Xavier Legette",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+330",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Colston Loveland",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+300",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3300"
+    },
+    {
+        "name": "Demarcus Robinson",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Sean Tucker",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Bhayshul Tuten",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+330",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Evan Engram",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+330",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Roschon Johnson",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+320",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3300"
+    },
+    {
+        "name": "Kyle Monangai",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+320",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3300"
+    },
+    {
+        "name": "Parker Washington",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Baker Mayfield",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Foster Moreau",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+5500"
+    },
+    {
+        "name": "Brian Robinson",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Jalen Tolbert",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+360",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Caleb Williams",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+340",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3500"
+    },
+    {
+        "name": "Dyami Brown",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+340",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Mark Andrews",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+340",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Ja'Tavion Sanders",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+340",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Emari Demercado",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+360",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Miles Sanders",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+360",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Jonnu Smith",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+370",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Olamide Zaccheaus",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+350",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000"
+    },
+    {
+        "name": "Elic Ayomanor",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+370",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000"
+    },
+    {
+        "name": "Jaydon Blue",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+360",
+        "two_td_line": 1.5,
+        "two_td_odds": "+3500"
+    },
+    {
+        "name": "DeMario Douglas",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+7000"
+    },
+    {
+        "name": "Justin Herbert",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+400",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Kyler Murray",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Michael Wilson",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+420",
+        "two_td_line": 1.5,
+        "two_td_odds": "+5000"
+    },
+    {
+        "name": "Tutu Atwell",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+370",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000"
+    },
+    {
+        "name": "Noah Brown",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+370",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000"
+    },
+    {
+        "name": "Oronde Gadsden",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+400",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000"
+    },
+    {
+        "name": "Hunter Long",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+390",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Luke McCaffrey",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+370",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000"
+    },
+    {
+        "name": "Jordan Whittington",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+370",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4000"
+    },
+    {
+        "name": "Ollie Gordon",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+450",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4500"
+    },
+    {
+        "name": "Tory Horton",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Joshua Palmer",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+480",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6000"
+    },
+    {
+        "name": "Brashard Smith",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+410",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4500"
+    },
+    {
+        "name": "Tez Johnson",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "David Njoku",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+470",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Rashod Bateman",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+400",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Isaiah Bond",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+7000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Payne Durham",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Savion Williams",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+800"
+    },
+    {
+        "name": "Malik Heath",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+700",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Chig Okonkwo",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+600",
+        "two_td_line": 1.5,
+        "two_td_odds": "+8000"
+    },
+    {
+        "name": "Malik Washington",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+410",
+        "two_td_line": 1.5,
+        "two_td_odds": "+5000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Pat Freiermuth",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+420",
+        "two_td_line": 1.5,
+        "two_td_odds": "+5000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Jalen Coker",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+430",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4500"
+    },
+    {
+        "name": "Hunter Renfrow",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+7500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Emanuel Wilson",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+450",
+        "two_td_line": 1.5,
+        "two_td_odds": "+5000"
+    },
+    {
+        "name": "Chris Moore",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+440",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4500"
+    },
+    {
+        "name": "Adonai Mitchell",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Jaylen Wright",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+450",
+        "two_td_line": 1.5,
+        "two_td_odds": "+4500"
+    },
+    {
+        "name": "Bryce Young",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+490",
+        "two_td_line": 1.5,
+        "two_td_odds": "+5500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Tyler Johnson",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Ray-Ray McCloud",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+470",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6500"
+    },
+    {
+        "name": "Josh Reynolds",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6500"
+    },
+    {
+        "name": "Greg Dortch",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+600",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Ashton Dulin",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Harold Fannin",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+7500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "DeAndre Hopkins",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+850",
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Cam Ward",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Casey Washington",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+490",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6500"
+    },
+    {
+        "name": "Trevor Etienne",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6000"
+    },
+    {
+        "name": "Dillon Gabriel",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+7000"
+    },
+    {
+        "name": "Jackson Hawes",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+8000"
+    },
+    {
+        "name": "Justice Hill",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+7500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Bam Knight",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6500"
+    },
+    {
+        "name": "Isaiah Likely",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+8000"
+    },
+    {
+        "name": "Elijah Moore",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6000"
+    },
+    {
+        "name": "Curtis Samuel",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+500",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6000"
+    },
+    {
+        "name": "Isaac TeSlaa",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+7500"
+    },
+    {
+        "name": "Dont'e Thornton",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+600",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Tommy Tremble",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+700",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Mack Hollins",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Jordan Love",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+7000"
+    },
+    {
+        "name": "Elijah Arroyo",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+8000"
+    },
+    {
+        "name": "Luther Burden",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+8000"
+    },
+    {
+        "name": "Tyler Conklin",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+600",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Noah Gray",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+7000"
+    },
+    {
+        "name": "Zay Jones",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+700",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Jaylin Lane",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+8000"
+    },
+    {
+        "name": "Ryan Miller",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Dak Prescott",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+6500"
+    },
+    {
+        "name": "Kalif Raymond",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+550",
+        "two_td_line": 1.5,
+        "two_td_odds": "+7500"
+    },
+    {
+        "name": "Marquez Valdes-Scantling",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Chimere Dike",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+600",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Mike Gesicki",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+700",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Brandin Cooks",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": "+8000"
+    },
+    {
+        "name": "Will Dissly",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+600",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Jerome Ford",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "DJ Giddens",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Gunnar Helm",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+600",
+        "two_td_line": 1.5,
+        "two_td_odds": "+8000"
+    },
+    {
+        "name": "Austin Hooper",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+750",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Raheem Mostert",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": "+8000"
+    },
+    {
+        "name": "Luke Musgrave",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+750",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Colby Parkinson",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Michael Penix",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+700",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Zamir White",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": "+8000"
+    },
+    {
+        "name": "Sam Darnold",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Anthony Gould",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Isaac Guerendo",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Tre' Harris",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+650",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Andrei Iosivas",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000"
+    },
+    {
+        "name": "Kaleb Johnson",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+850",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500",
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Ty Johnson",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+800",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Spencer Rattler",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+800",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Jack Stoll",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+950"
+    },
+    {
+        "name": "Adam Trautman",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+800",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Jack Bech",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+700",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Luke Farrell",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Terrance Ferguson",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+700",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Kyle Juszczyk",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Samaje Perine",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+800",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Geno Smith",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+750",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Darnell Washington",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+850",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Nick Westbrook-Ikhine",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+750",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Nate Adkins",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1300",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Pat Bryant",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1100",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Isaiah Davis",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+750",
+        "two_td_line": 1.5,
+        "two_td_odds": "+10000"
+    },
+    {
+        "name": "Ray Davis",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+950",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Jimmy Horn",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+750"
+    },
+    {
+        "name": "Kameron Johnson",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Mac Jones",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Arian Smith",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1200",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Nathan Carter",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3300"
+    },
+    {
+        "name": "Tyler Lockett",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Tim Patrick",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1300",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Jacoby Brissett",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+850",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Chris Brooks",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000"
+    },
+    {
+        "name": "John FitzPatrick",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+850",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Connor Heyward",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+850",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Julian Hill",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+850",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Scotty Miller",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+850",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Johnny Mundt",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Ben Sims",
+        "team": "Green Bay Packers",
+        "opponent": "Cincinnati Bengals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+850",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Ben Skowronek",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+850",
+        "two_td_line": 1.5,
+        "two_td_odds": "+12500"
+    },
+    {
+        "name": "Tylan Wallace",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1500",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Xavier Weaver",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1400"
+    },
+    {
+        "name": "Tyler Goodson",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Cooper Rush",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Devin Culp",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Noah Fant",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000"
+    },
+    {
+        "name": "Luke Schoonmaker",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+950",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Ian Thomas",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Tyler Badie",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1600",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "John Bates",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000"
+    },
+    {
+        "name": "Julius Chestnut",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2700"
+    },
+    {
+        "name": "DeeJay Dallas",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200"
+    },
+    {
+        "name": "Mitchell Evans",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1300",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Elijah Higgins",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1900",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Charlie Kolar",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200"
+    },
+    {
+        "name": "Jaleel McLaughlin",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Keaton Mitchell",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800"
+    },
+    {
+        "name": "Zaire Mitchell-Paden",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200"
+    },
+    {
+        "name": "Skyy Moore",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null,
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Konata Mumpfield",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000"
+    },
+    {
+        "name": "Drew Ogletree",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Albert Okwuegbunam",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Jeremy Ruckert",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1200",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Dylan Sampson",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1400",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Tyrell Shavers",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1200"
+    },
+    {
+        "name": "Trent Sherfield",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1400",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Ben Sinnott",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000"
+    },
+    {
+        "name": "Xavier Smith",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1000"
+    },
+    {
+        "name": "Jamari Thrash",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Brayden Willis",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "LeQuint Allen",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1300",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Charlie Woerner",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1300"
+    },
+    {
+        "name": "Brock Wright",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1100",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Jason Brownlee",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1900"
+    },
+    {
+        "name": "Dee Eskridge",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Jarquez Hunter",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3000"
+    },
+    {
+        "name": "KeAndre Lambert-Smith",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1200",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Allen Lazard",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Tay Martin",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1100"
+    },
+    {
+        "name": "David Sills",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Brycen Tremayne",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1100",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Cedrick Wilson",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1300"
+    },
+    {
+        "name": "Mo Alie-Cox",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1300",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Derius Davis",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1200"
+    },
+    {
+        "name": "Alec Ingold",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Dylan Laube",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1600"
+    },
+    {
+        "name": "Craig Reynolds",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2000"
+    },
+    {
+        "name": "Aaron Rodgers",
+        "team": "Pittsburgh Steelers",
+        "opponent": "Cleveland Browns",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1500",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Durham Smythe",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1200"
+    },
+    {
+        "name": "Matthew Stafford",
+        "team": "Los Angeles Rams",
+        "opponent": "Baltimore Ravens",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1900"
+    },
+    {
+        "name": "Jordan Watkins",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Kyle Williams",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1700"
+    },
+    {
+        "name": "Simi Fehoko",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1400"
+    },
+    {
+        "name": "George Holani",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1500",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Van Jefferson",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1900",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Scott Matlock",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "James Mitchell",
+        "team": "Carolina Panthers",
+        "opponent": "Dallas Cowboys",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1300"
+    },
+    {
+        "name": "Tahj Washington",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1300"
+    },
+    {
+        "name": "Dareke Young",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Rasheen Ali",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800"
+    },
+    {
+        "name": "Tanner Conner",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "KhaDarel Hodge",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800"
+    },
+    {
+        "name": "Nikko Remigio",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2700"
+    },
+    {
+        "name": "Brady Russell",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3500"
+    },
+    {
+        "name": "Drew Sample",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800"
+    },
+    {
+        "name": "Devaughn Vele",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1700"
+    },
+    {
+        "name": "Alex Bachman",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1900"
+    },
+    {
+        "name": "Efton Chism",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Jared Goff",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Tanner Hudson",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800"
+    },
+    {
+        "name": "Jordan James",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Tua Tagovailoa",
+        "team": "Miami Dolphins",
+        "opponent": "Los Angeles Chargers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Devontez Walker",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1500",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Ameer Abdullah",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1600"
+    },
+    {
+        "name": "Charlie Jones",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200"
+    },
+    {
+        "name": "Brevyn Spann-Ford",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2000",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Travis Vokolek",
+        "team": "Arizona Cardinals",
+        "opponent": "Indianapolis Colts",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2700"
+    },
+    {
+        "name": "Jamal Agnew",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800"
+    },
+    {
+        "name": "Tahj Brooks",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3300"
+    },
+    {
+        "name": "Reggie Gilliam",
+        "team": "Buffalo Bills",
+        "opponent": "Atlanta Falcons",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3000"
+    },
+    {
+        "name": "Bryce Oliver",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1900"
+    },
+    {
+        "name": "Jalen Royals",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1900"
+    },
+    {
+        "name": "Eric Saubert",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Robert Tonyan",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Devin Duvernay",
+        "team": "Chicago Bears",
+        "opponent": "Washington Commanders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800"
+    },
+    {
+        "name": "Joe Flacco",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3000"
+    },
+    {
+        "name": "Nick Kallerup",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800"
+    },
+    {
+        "name": "Hunter Luepke",
+        "team": "Dallas Cowboys",
+        "opponent": "Carolina Panthers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1800",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Quintin Morris",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Raheim Sanders",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "LaJohntay Wester",
+        "team": "Baltimore Ravens",
+        "opponent": "Los Angeles Rams",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3300"
+    },
+    {
+        "name": "Jake Bobo",
+        "team": "Seattle Seahawks",
+        "opponent": "Jacksonville Jaguars",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1900",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Adam Prentice",
+        "team": "Denver Broncos",
+        "opponent": "New York Jets",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1900",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Cody Schrader",
+        "team": "Jacksonville Jaguars",
+        "opponent": "Seattle Seahawks",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Justin Shorter",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+1900"
+    },
+    {
+        "name": "Jared Wiley",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200"
+    },
+    {
+        "name": "Jelani Woods",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Colson Yankoff",
+        "team": "Washington Commanders",
+        "opponent": "Chicago Bears",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2000"
+    },
+    {
+        "name": "Khalil Herbert",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Will Mallory",
+        "team": "Indianapolis Colts",
+        "opponent": "Arizona Cardinals",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2000"
+    },
+    {
+        "name": "Andrew Beck",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200"
+    },
+    {
+        "name": "Malachi Corley",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2500",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Gage Larvadain",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2500"
+    },
+    {
+        "name": "Elijah Mitchell",
+        "team": "Kansas City Chiefs",
+        "opponent": "Detroit Lions",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": null
+    },
+    {
+        "name": "Kene Nwangwu",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Carter Runyon",
+        "team": "Las Vegas Raiders",
+        "opponent": "Tennessee Titans",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2200"
+    },
+    {
+        "name": "Jacob Saylors",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2500"
+    },
+    {
+        "name": "Feleipe Franks",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3000"
+    },
+    {
+        "name": "Dominic Lovett",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2500",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    },
+    {
+        "name": "Ross Dwelley",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3000"
+    },
+    {
+        "name": "Tucker Fisk",
+        "team": "Los Angeles Chargers",
+        "opponent": "Miami Dolphins",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2500"
+    },
+    {
+        "name": "David Martin-Robinson",
+        "team": "Tennessee Titans",
+        "opponent": "Las Vegas Raiders",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+6500"
+    },
+    {
+        "name": "Teagan Quitoriano",
+        "team": "Atlanta Falcons",
+        "opponent": "Buffalo Bills",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3000"
+    },
+    {
+        "name": "Stone Smartt",
+        "team": "New York Jets",
+        "opponent": "Denver Broncos",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2700"
+    },
+    {
+        "name": "Sione Vaki",
+        "team": "Detroit Lions",
+        "opponent": "Kansas City Chiefs",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2500"
+    },
+    {
+        "name": "Jack Westover",
+        "team": "New England Patriots",
+        "opponent": "New Orleans Saints",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3500"
+    },
+    {
+        "name": "Mason Tipton",
+        "team": "New Orleans Saints",
+        "opponent": "New England Patriots",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+2700"
+    },
+    {
+        "name": "Jermaine Burton",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3000"
+    },
+    {
+        "name": "Mitchell Tinsley",
+        "team": "Cincinnati Bengals",
+        "opponent": "Green Bay Packers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+3000"
+    },
+    {
+        "name": "Blake Whiteheart",
+        "team": "Cleveland Browns",
+        "opponent": "Pittsburgh Steelers",
+        "touchdowns_line": 0.5,
+        "touchdown_odds": "+5000"
+    },
+    {
+        "name": "Chris Godwin",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Ricky Pearsall",
+        "team": "San Francisco 49ers",
+        "opponent": "Tampa Bay Buccaneers",
+        "two_td_line": 1.5,
+        "two_td_odds": null,
+        "three_td_line": 2.5,
+        "three_td_odds": null
+    },
+    {
+        "name": "Josh Williams",
+        "team": "Tampa Bay Buccaneers",
+        "opponent": "San Francisco 49ers",
+        "two_td_line": 1.5,
+        "two_td_odds": null
+    }
+]
