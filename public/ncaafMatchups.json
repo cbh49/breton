@@ -1,0 +1,30 @@
+[
+    {
+        "team_1": "Liberty",
+        "team_2": "Buffalo",
+        "point_total": 51.5,
+        "point_spread": -3.5,
+        "favorite": "Liberty"
+    },
+    {
+        "team_1": "Minnesota",
+        "team_2": "Virginia Tech",
+        "point_total": 42.5,
+        "point_spread": -4.5,
+        "favorite": "Minnesota"
+    },
+    {
+        "team_1": "Texas State",
+        "team_2": "North Texas",
+        "point_total": 66.5,
+        "point_spread": -7.5,
+        "favorite": "Texas State"
+    },
+    {
+        "team_1": "Duke",
+        "team_2": "Ole Miss",
+        "point_total": 53.5,
+        "point_spread": -14,
+        "favorite": "Ole Miss"
+    }
+]

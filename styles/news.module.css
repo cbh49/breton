@@ -1,0 +1,1730 @@
+@font-face {
+  font-family: 'VTFRedzone-Classic';
+  src: url('../fonts/VTFRedzone-Classic.ttf') format('truetype');
+}
+.container{
+  margin: 0;
+  padding: 0;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: fixed;
+}
+.banner{
+  left: 0%;
+  margin-top: 130px;
+  border-radius: 0%;
+  height: 100vh; /* This will make sure your banner covers the full viewport height */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
+  background-size: 8%;
+  background-position: center;
+  position: fixed;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  width: calc(100%);
+}
+.banner2{
+  left: 0px;
+  margin-top: 130px;
+  border-radius: 0%;
+  height: 100vh; /* This will make sure your banner covers the full viewport height */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('/pathex.avif');
+  background-size: 8%;
+  background-position: center;
+  position: fixed;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  width: calc(100%);
+}
+
+
+
+/* NAVBAR CONTENT */
+
+.navbar {
+  width: 100%;
+  top: 0;
+  right: 0;
+  height: 105px;
+  position: fixed;
+  margin: auto;
+  padding: 15px 15px 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: top 0.3s;
+  border-bottom: #68b42b 2px solid;
+  box-shadow: 0px 10px 20px rgba(0,0,0, .5);
+  background-color: #68b42b;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.9)), url('/blank.png');
+  background-size: 120%;
+  z-index: 100;
+  font-size: .7em;
+}
+
+.navbar p {
+  color: black;
+  font-size: .75em;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-right: 75px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  position: relative;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  padding: 20px 80px;
+  background: transparent;
+  box-shadow: 0 3px 3px rgba(255, 255, 255, .7);
+  border: 3px solid white;
+  margin-left: 0px; /* Space between items */
+} 
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  width: 0%;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.2s;
+}
+
+.navbar ul li:hover {
+  background-color: #68b42b;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.navbar ul li .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  border-left: 4px solid #68b42b; /* Accent color */
+  box-shadow: none;
+  top: 100%; /* Aligns the dropdown right below the nav item */
+  left: 0;
+  border-radius: 4px;
+  font-size: 1em;
+  overflow: hidden; /* Keeps the child elements inside the rounded corners */
+  z-index: 20;
+  border-top: 1px solid white;
+}
+
+.navbar ul li:hover .dropdown {
+  display: block;
+  z-index: 100;
+}
+
+.navbar ul li .dropdown a {
+  color: #0b0b0b;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #e7e7e7; /* Separator */
+  z-index: 20;
+  cursor: pointer;
+}
+
+.navbar ul li .dropdown a:last-child {
+  border-bottom: none; /* Removes border from the last link */
+  z-index: 20;
+  cursor: pointer;
+}
+
+.navbar ul li .dropdown a:hover {
+  background-color: #68b42b;
+  color: white;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.logo {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.logor {
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+
+.odds h4 {
+  color: #fff;
+  margin-left: 15px;
+  font-size: .75em;
+  margin-top: 25px;
+}
+
+
+
+/* MAIN CONTENT*/
+
+
+
+.content{
+  position: absolute;
+  top: 15vh; /* Example: Adjust based on your actual navbar height */
+  left: 460px; /* Push content to the right to account for sideNav width */
+  width: calc(100% - 500px); /* Subtract sideNav width from total width */
+  z-index: 1; /* Lower z-index than sideNav so it scrolls under it */
+  text-align: center;
+  color: #fff;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 55px;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  width: 500px;
+  margin-left: 325px;
+}
+.content p{
+  margin: 10px 0 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.button{
+  width: 200px;
+  padding: 25px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #68b42b;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.span{
+  background: #68b42b;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+.button:hover span{
+  width: 100%
+}
+.button:hover{
+  border: none;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+.headerContainer h1 {
+  align-items: center;
+  border: 1px solid #68b42b; 
+  background-color: #303030;
+  margin-left: calc(42%);
+}
+.results{
+  border-radius: 10%;
+  box-shadow: 0 1px 3px rgba(0,0,0, 1); /* Shadow for 3D effect */;
+  margin-bottom: 10px;
+  width: 200px;
+  align-content: center;
+  margin-left: 475px;
+  border: 1px solid #68b42b;
+  background-color: #303030;
+  padding: 5px;
+  margin-left: calc(40%);
+}
+.results p{
+  color: #fff;
+}
+.chartButton {
+  position: relative;
+  cursor: pointer;
+  margin-right: -100px; /* Ensuring some space on the right if needed */
+  padding-bottom: 9px;
+  transform: translateY(-10px);
+  z-index: 10;
+  padding-left: 20px;
+}
+.chartButton a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  background-color: #fff; /* Button background to blue */
+  border-radius: 5px;
+  text-transform: uppercase; /* Keeping the style consistent with navbar */
+}
+.chartButton:hover::after {
+  width: 100%;
+}
+.chartButton .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f0f0f0;
+  border-top: 4px solid #68b42b;
+  border-left: 4px solid #68b42b;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  min-width: 160px; /* Match the width or exceed the button's width */
+}
+.chartButton:hover .dropdown {
+  display: block;
+}
+.dropdown a {
+  color: black;
+  padding: 1px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #e7e7e7;
+}
+.dropdown a:last-child {
+  border-bottom: none;
+}
+.dropdown a:hover {
+  background-color: #68b42b;
+  color: white;
+}
+.innerTable{
+  width: 100%;
+}
+
+/*NEWS PAGE TABLE*/
+
+.tableContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Distributes space between the tables */
+  margin-left: 4%;
+  width: 95%;
+  z-index: 100;
+  overflow: visible;
+}
+.content2{
+  position: absolute;
+  top: 15vh; /* Example: Adjust based on your actual navbar height */
+  left: 0%; /* Push content to the right to account for sideNav width */
+  width: calc(100% ); /* Subtract sideNav width from total width */
+  z-index: 1; /* Lower z-index than sideNav so it scrolls under it */
+  text-align: center;
+  color: #fff;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.content2 h1{
+  font-size: 4em;
+  margin-top: 0%;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  width: 62%;
+  margin-left: 20%;
+}
+.content2 p{
+  margin: 10px 0 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.stattable1 {
+flex: 1; /* Ensures the tables take equal space */
+margin: 10px; 
+color: #000;
+width: 90%;
+text-align: center;
+background-color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: calc(-3%);
+margin-right: calc(0%);
+border-radius: 10px;
+margin-top: 0px;
+background-color:rgba(238, 236, 236, 0.941);
+box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+z-index: 10;
+}
+.statttable1 th, .stattable1 td {
+border-radius: 20px;
+color: #000;
+text-align: center;
+border-color:  rgba(0,0,0,0.2);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 1px solid #68b42b;
+padding-top: 5px;
+font-size: 1.5em;
+color: black;
+background-color: white;
+}
+.stattable1 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-top: 5.5%;
+  font-size: 1.75em;
+  margin-bottom: -0%;
+}
+.stattable1 p{
+  font-size: .75em;
+}
+.button h4{
+  font-size: 3em;
+  color: black;
+  border: none;
+}
+
+/* FOR HOME NEWS PAGE */
+.tableContainer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Distributes space between the tables */
+  margin-left: -4%;
+  margin-right: 3%;
+  z-index: 100;
+  overflow: visible;
+}
+.stattable2 {
+  flex: 1; /* Ensures the tables take equal space */
+  margin: 10px; 
+  color: #000;
+  width: 70%;
+  text-align: center;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: calc(7%);
+  margin-right: calc(10%);
+  border-radius: 10px;
+  margin-top: 0px;
+  background-color:rgba(238, 236, 236, 0.941);
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+  z-index: 10;
+  }
+  .statttable2 th, .stattable2 td {
+  border-radius: 20px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: 5px;
+  font-size: 1.5em;
+  color: black;
+  background-color: white;
+  }
+  .stattable2 h3{
+    border-radius: 10px;
+    padding: 2px;
+    color: white;
+    background-color: black;
+    margin-top: 5.5%;
+    font-size: 1.75em;
+    margin-bottom: -0%;
+  }
+  .stattable2 p{
+    font-size: .75em;
+  }
+  .content2 h2{
+    font-size: 70px;
+    margin-top: 55px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+    width: 800px;
+    margin-left: 35%;
+  }
+  .button {
+    position: relative;
+    width: 300px;
+    padding: 0px 0;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px rgba(0,0,0, .5);
+    font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .5em;
+    margin-top: -20px;
+  }
+  .button h4{
+    font-size: 3em;
+    color: black;
+    border: none;
+  }
+  .buttonText{
+    text-decoration: none;
+  }
+  .stattable2 .button a, 
+.stattable1 .button a {
+  text-decoration: none;
+}
+  .button:hover .span {
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0px 5px 5px rgba(0,0,0, .5);
+  }
+.button h2{
+  color: black;
+  text-decoration: none;
+}
+.span {
+  background: black;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.tableImage{
+  border-radius: 5%;
+  box-shadow: 0px 5px 5px rgba(0,0,0, .5);
+  border: 3px solid white;
+}
+
+
+
+/* SIDENAV CONTENT */
+
+
+.sideNav{
+  height: calc(100vh - 100px);
+  top: 140px;
+  position: fixed; /* Fixed position to keep it in place */
+  width: 23.5%;
+  left: 0;
+  display: none;
+}
+.sideNav h3 {
+  color: #fff;
+  text-align: center;
+  border: 5px solid white;
+  display: block;
+  padding: 0px 10px;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+  width: 95%;
+  box-shadow: 0 1.5px 1.5px rgba(255, 255, 255, .7);
+  margin-left: 10px; /* Pushes the h3 to the right */
+}
+.table{
+  color: #000;
+  left: 10px;
+  width: 95%;
+  position: relative;
+  right: 10px;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0;
+  background-color: transparent;
+  border-collapse: collapse; 
+  border-spacing: 0;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -475px; /* Moves table up and down */
+  
+}
+.table th, .table td {
+  border-radius: 30px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px rgba(0,0,0, 1);
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table tr{
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgba(255, 255, 255, .7);
+}
+.table th {
+  background-color: transparent;
+  font-family: 'VTFRedzone-Classic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.atSymbol {
+  flex: none; /* Prevents '@' from stretching */
+  padding: 0 20px;
+  font-size: 20px; /* Increases font size for visibility */
+}
+.total {
+  font-size: 0.75rem;
+
+}
+.user{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto
+}
+.user h3{
+  font-size: 15px;
+  white-space: nowrap;
+}
+.user-img{
+  width: 100px;
+  border-radius: 100%;
+  margin: auto;
+  cursor: pointer;
+}
+.sideNav .nextButton {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 5%; /* Adjust to center vertically relative to the parent */
+  left: 90%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Perfect center alignment */
+  background-color: transparent; /* Transparent background */
+  border: 1px solid white; /* Visible border with a light blue color */
+  color: #fff; /* White text color */
+  padding: 5px 5px; /* Padding for better touch area and visibility */
+  border-radius: 30px;
+  cursor: pointer; /* Cursor indicates clickable item */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Shadow for depth */
+  z-index: 10;
+}
+
+.leaguelogo{
+  margin-left: 140px;
+}
+.sideNav {
+  width: 100%;
+  height: 11%;
+  order: 1; /* Display below navbar */
+  flex-direction: row; /* Horizontal layout */
+  justify-content: space-around; /* Space items evenly */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  margin-top: -1%;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+  scrollbar-width:none;
+  overflow-y: hidden; 
+  z-index: 30; /* Ensure it's above other content */
+  border-radius: 2%;
+  border: 1px solid #68b42b;
+  box-shadow: 0px 10px 20px rgba(0,0,0, 30);
+}
+
+.navlogo {
+  height: 40px;
+  width: 40px;
+  align-items: row;
+  padding: 5px;
+}
+
+.sideNav h3 {
+  display: none;
+}
+
+.atSymbol {
+  flex: none; /* Prevents '@' from stretching */
+  padding: 5px;
+  font-size: 1em; /* Increases font size for visibility */
+}
+
+.table {
+  width: 100%;
+  height: 100%;
+  margin-top: -27.5%; /* Moves table up and down */
+  overflow-x: hidden; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping of items */
+  width: auto; /* Width auto to contain all children */
+}
+
+.total {
+  font-size: 1em;
+  box-shadow: 0 1px 2px rgba(0,0,0, 1);
+  padding: 3px;
+  border-radius: 10px;
+  color: black;
+}
+
+.matchupRow {
+  background-color: transparent; /* White background for the whole row */
+  border-radius: 10px; /* Rounded corners for the box */
+  box-shadow: 0 4px 8px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  margin: 20px 0; /* Margin between each row */
+  display: flex; /* Use flexbox to manage layout of cells */
+  justify-content: space-around; /* Distribute space around cells */
+  align-items: center; /* Align items vertically in the center */
+  padding: 10px; /* Padding inside each row */
+  margin: 5px 2px; /* Margin between each row */
+  display: inline-flex; /* Use flexbox to manage layout of cells */
+  padding: 7.5px; /* Padding inside each row */
+  height: 30%;
+  margin-top: 37.5px;
+  width: 7%;
+}
+
+.leaguelogo {
+  display: none;
+}
+
+.leaguelogo2 {
+  margin-left: calc(375px);
+  padding-right: 500px;
+  height: 20px;
+  width: 20px;
+}
+
+
+/* BOTTOM NAV */
+
+
+.bottomNav {
+  position: relative; /* Absolute positioning relative to the nearest positioned ancestor (page-container) */
+  left: 0;            /* Align to the left edge of the container */
+  right: 0;           /* Align to the right edge of the container */
+  bottom: 0;          /* Align to the bottom of the container */
+  height: 50px;       /* Height of the bar */
+  background-color: white;
+  color: white;       /* Text color */
+  text-align: center; /* Center the text */
+  padding: 10px 0;    /* Padding for some space inside the bar */
+  flex-direction: row;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.8)), url('/pathex.avif');
+  background-size: 5%;
+  z-index: 1;
+  border-bottom: 10px solid rgba(0,0,0,.8); 
+}
+.bottomnavlogo{
+  align-items: center;
+  padding: 15px;
+}
+
+
+
+
+/* DYNAMIC SPACING CONTENT*/
+
+
+
+/* ADJUSTED SCREEN SIZE */
+
+/* Small devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Ensure container does not cause horizontal overflow */
+  }
+  .navbar{
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+    height: 40px;
+    width: 100%;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    margin-left: 3%;
+    }
+  .navbar ul li {
+    display: inline-block;
+    position: relative;
+    font-size: .8em;
+    padding: 8px 12px; /* Adjust padding for smaller buttons */
+    flex-wrap: nowrap; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .logo {
+    padding-right: calc(1%);
+    padding-left: calc(5px);
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .odds{
+    margin-right: 0px;
+  }
+  .logor {
+    display: fixed;
+    padding-left: 0px;
+    margin-bottom: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 12.5%;
+  }
+  .odds h4{
+    padding-left: 20px;
+    font-size: 4px;
+    margin-top: 45%;
+    margin-left: 7.5%;
+
+  }
+
+
+
+  /* MAIN */
+
+  .banner {
+    height: 500vh;
+    top: 10px;
+    margin: 0%;
+    width: 115%; /* Ensure it takes full width */
+    overflow: hidden; /* Hide overflow to prevent stretching */
+    box-sizing: border-box; /* Include padding in width and height */
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+    }
+    .content {
+      width: 92%; /* Full width */
+      padding: 20px; /* Add padding for better layout */
+      overflow: hidden;
+      position: sticky;
+      }
+
+  .banner2 {
+    height: 500vh;
+    top: 10px;
+    margin: 0%;
+    width: 100%; /* Ensure it takes full width */
+    overflow: hidden; /* Hide overflow to prevent stretching */
+    box-sizing: border-box; /* Include padding in width and height */
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+    }
+
+
+/* NEWS PAGES */
+.content2 {
+  width: 65%; /* Full width */
+  padding: 67px; /* Add padding for better layout */
+  overflow: hidden;
+  position: sticky;
+}
+.content2 h1{
+  font-size: 3em;
+  margin-top: 20%;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  width: 100%;
+  margin-left: -0%;
+}
+.content2 p{
+  margin: 10px 0 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.stattable1{
+  margin-right: 31%;
+  margin-left: -8%;
+}
+.statttable1 th, .stattable1 td {
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: -0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: black;
+  
+}
+.stattable1 h3{
+border-radius: 10px;
+padding: 2px;
+color: white;
+background-color: black;
+margin-bottom: 0px;
+font-size: .75em;
+}
+.stattable1 p{
+  font-size: .4em;
+}
+
+.stattable2 {
+  margin-right: calc(10%);
+  margin-left: calc(-2%);
+  }
+  .statttable2 th, .stattable2 td {
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: -0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: black;
+  
+  }
+  .stattable2 h1{
+    margin-top: calc(100%);
+  }
+  .stattable2 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
+  font-size: .75em;
+  }
+  .stattable2 p{
+    font-size: .4em;
+    padding: 1%;
+  }
+  .tableContainer2{
+    margin-left: -18%;
+    width: 200%;
+  }
+  .content2 h2{
+    font-size: 2.5em;
+    margin-top: 10%;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+    width: 300px;
+    margin-left: -10%;
+    padding: 5%;
+  }
+  .button{
+    width: 50%;
+  }
+.button h4{
+  font-size: 1em;
+}
+.innerTable th, .innerTable  td{
+  font-size: .45em;
+}
+.notesText{
+  font-size: .4em;
+  margin-right: 10%;
+}
+
+
+.tableContainer{
+  width: calc(200%);
+  padding-left: calc(3%);
+  padding-right: calc(3%);
+  margin-left: calc(-14%);
+}
+.tableImage{
+  width: calc(90%);
+  height: 15vh;
+}
+.stattable2 tbody {
+  height: 200px; /* Set the desired height */
+  overflow-y: auto; /* Add this if you want the content to scroll if it overflows */
+}
+
+
+
+
+
+  /* SIDENAV */
+
+  .sideNav {
+    width: 100%;
+    height: 65px;
+    order: 1; /* Display below navbar */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    margin-top: -20%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+  }
+
+  .navlogo {
+    height: 30px;
+    width: 30px;
+    align-items: row;
+    padding: 5px;
+  }
+
+  .sideNav h3 {
+    display: none;
+  }
+
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
+  }
+
+  .table {
+    width: 25%;
+    margin-top: 10; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
+    margin-top: -112%;
+  }
+
+  .total {
+    font-size: .75em;
+  }
+
+  .matchupRow {
+    margin: 5px 2px; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    padding: 7.5px; /* Padding inside each row */
+    height: 45%;
+    margin-top: 0%;
+  }
+
+  .leaguelogo {
+    display: none;
+  }
+
+  .leaguelogo2 {
+    margin-left: calc(375px);
+    padding-right: 500px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .secondSideNav {
+    display: none;
+  }
+
+  .bottomNav {
+    width: 100%;
+    order: 8; /* Display at the bottom */
+    flex-direction: row;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* 400PX-420 */
+
+
+
+
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) and (max-width: 420px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Ensure container does not cause horizontal overflow */
+  }
+  .navbar{
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+    height: 40px;
+    width: 100%;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    margin-left: 3%;
+    }
+  .navbar ul li {
+    display: inline-block;
+    position: relative;
+    font-size: .8em;
+    padding: 8px 15px; /* Adjust padding for smaller buttons */
+    flex-wrap: nowrap; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .logo {
+    padding-right: calc(1%);
+    padding-left: calc(5px);
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .odds{
+    margin-right: 0px;
+  }
+  .logor {
+    display: fixed;
+    padding-left: 0px;
+    margin-bottom: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10%;
+  }
+  .odds h4{
+    padding-left: 20px;
+    font-size: 4px;
+    margin-top: 45%;
+    margin-left: 5%;
+
+  }
+
+
+
+  /* MAIN */
+
+  .banner {
+    height: 500vh;
+    top: 10px;
+    margin: -0%;
+    width: 115%; /* Ensure it takes full width */
+    overflow: hidden; /* Hide overflow to prevent stretching */
+    box-sizing: border-box; /* Include padding in width and height */
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+    }
+    .content {
+      width: 92%; /* Full width */
+      padding: 20px; /* Add padding for better layout */
+      overflow: hidden;
+      position: sticky;
+      }
+  .banner2 {
+    height: 500vh;
+    top: 10px;
+    margin: 0%;
+    width: 100%; /* Ensure it takes full width */
+    overflow: hidden; /* Hide overflow to prevent stretching */
+    box-sizing: border-box; /* Include padding in width and height */
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+    }
+
+/* NEWS PAGES */
+.content2 {
+  width: 65%; /* Full width */
+  padding: 67px; /* Add padding for better layout */
+  overflow: hidden;
+  position: sticky;
+}
+.content2 h1{
+  font-size: 3em;
+  margin-top: 20%;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  width: 100%;
+  margin-left: -0%;
+}
+.content2 p{
+  margin: 10px 0 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.stattable1{
+  margin-right: 29%;
+  margin-left: -8%;
+}
+.statttable1 th, .stattable1 td {
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: -0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: black;
+  
+}
+.stattable1 h3{
+border-radius: 10px;
+padding: 2px;
+color: white;
+background-color: black;
+margin-bottom: 0px;
+font-size: .75em;
+}
+.stattable1 p{
+  font-size: .4em;
+}
+
+.stattable2 {
+  margin-right: calc(10%);
+  margin-left: calc(-2%);
+  }
+  .statttable2 th, .stattable2 td {
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: -0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: black;
+  
+  }
+  .stattable2 h1{
+    margin-top: calc(100%);
+  }
+  .stattable2 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
+  font-size: .75em;
+  }
+  .stattable2 p{
+    font-size: .4em;
+    padding: 1%;
+  }
+  .tableContainer2{
+    margin-left: -18%;
+    width: 200%;
+  }
+  .button{
+    width: 50%;
+  }
+.button h4{
+  font-size: 1em;
+}
+.innerTable th, .innerTable  td{
+  font-size: .45em;
+}
+.notesText{
+  font-size: .4em;
+  margin-right: 10%;
+}
+
+
+
+.tableContainer{
+  width: calc(190%);
+  padding-left: calc(3%);
+  padding-right: calc(3%);
+  margin-left: calc(-13%);
+}
+.tableImage{
+  width: calc(90%);
+  height: 15vh;
+}
+
+
+
+
+
+
+  /* SIDENAV */
+
+  .sideNav {
+    width: 100%;
+    height: 70px;
+    order: 1; /* Display below navbar */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    margin-top: -18.5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+  }
+
+  .navlogo {
+    height: 30px;
+    width: 30px;
+    align-items: row;
+    padding: 5px;
+  }
+
+  .sideNav h3 {
+    display: none;
+  }
+
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
+  }
+
+  .table {
+    width: 25%;
+    margin-top: 10; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
+    margin-top: -105.5%;
+  }
+
+  .total {
+    font-size: .75em;
+  }
+
+  .matchupRow {
+    margin: 5px 2px; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    padding: 7.5px; /* Padding inside each row */
+    height: 45%;
+    margin-top: 0%;
+  }
+
+  .leaguelogo {
+    display: none;
+  }
+
+  .leaguelogo2 {
+    margin-left: calc(375px);
+    padding-right: 500px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .secondSideNav {
+    display: none;
+  }
+
+  .bottomNav {
+    width: 100%;
+    order: 8; /* Display at the bottom */
+    flex-direction: row;
+  }
+}
+
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (min-width: 420px) and (max-width: 600px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Ensure container does not cause horizontal overflow */
+  }
+  .navbar{
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url('/blank.png');
+    height: 40px;
+    width: 100%;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure items don't wrap to the next line */
+    justify-content: center; /* Center items in the navbar */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    margin-left: 3%;
+    }
+  .navbar ul li {
+    display: inline-block;
+    position: relative;
+    font-size: .8em;
+    padding: 8px 15px; /* Adjust padding for smaller buttons */
+    flex-wrap: nowrap; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .logo {
+    padding-right: calc(1%);
+    padding-left: calc(5px);
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .odds{
+    margin-right: 0px;
+  }
+  .logor {
+    display: fixed;
+    padding-left: 0px;
+    margin-bottom: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10%;
+  }
+  .odds h4{
+    padding-left: 20px;
+    font-size: 4px;
+    margin-top: 45%;
+    margin-left: 5%;
+
+  }
+
+
+
+  /* MAIN */
+
+  .banner {
+    height: 500vh;
+    top: 10px;
+    margin: -0%;
+    width: 115%; /* Ensure it takes full width */
+    overflow: hidden; /* Hide overflow to prevent stretching */
+    box-sizing: border-box; /* Include padding in width and height */
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+    }
+    .content {
+      width: 92%; /* Full width */
+      padding: 20px; /* Add padding for better layout */
+      overflow: hidden;
+      position: sticky;
+      }
+  .banner2 {
+    height: 500vh;
+    top: 10px;
+    margin: 0%;
+    width: 100%; /* Ensure it takes full width */
+    overflow: hidden; /* Hide overflow to prevent stretching */
+    box-sizing: border-box; /* Include padding in width and height */
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url('/blank.png');
+    }
+
+/* NEWS PAGES */
+.content2 {
+  width: 65%; /* Full width */
+  padding: 67px; /* Add padding for better layout */
+  overflow: hidden;
+  position: sticky;
+}
+.content2 h1{
+  font-size: 3em;
+  margin-top: 20%;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+  width: 100%;
+  margin-left: -0%;
+}
+.content2 p{
+  margin: 10px 0 20px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.stattable1{
+  margin-right: 28%;
+  margin-left: -8%;
+}
+.statttable1 th, .stattable1 td {
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: -0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: black;
+  
+}
+.stattable1 h3{
+border-radius: 10px;
+padding: 2px;
+color: white;
+background-color: black;
+margin-bottom: 0px;
+font-size: .75em;
+}
+.stattable1 p{
+  font-size: .4em;
+}
+
+.stattable2 {
+  margin-right: calc(10%);
+  margin-left: calc(-2%);
+  }
+  .statttable2 th, .stattable2 td {
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  border-color:  rgba(0,0,0,0.2);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #68b42b;
+  padding-top: -0px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: black;
+  
+  }
+  .stattable2 h1{
+    margin-top: calc(100%);
+  }
+  .stattable2 h3{
+  border-radius: 10px;
+  padding: 2px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
+  font-size: .75em;
+  }
+  .stattable2 p{
+    font-size: .4em;
+    padding: 1%;
+  }
+  .tableContainer2{
+    margin-left: -18%;
+    width: 200%;
+  }
+  .content2 h2{
+    font-size: 2.5em;
+    margin-top: 10%;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0, 1); /* Shadow for 3D effect */
+    width: 300px;
+    margin-left: -10%;
+    padding: 5%;
+  }
+  .button{
+    width: 50%;
+  }
+.button h4{
+  font-size: 1em;
+}
+
+.tableContainer{
+  width: calc(182%);
+  padding-left: calc(3%);
+  padding-right: calc(3%);
+  margin-left: calc(-10%);
+}
+.tableImage{
+  width: calc(90%);
+  height: 15vh;
+}
+.innerTable th, .innerTable  td{
+  font-size: .45em;
+}
+.notesText{
+  font-size: .4em;
+  margin-right: 10%;
+}
+
+
+
+
+
+
+  /* SIDENAV */
+
+  .sideNav {
+    width: 100%;
+    height: 80px;
+    order: 1; /* Display below navbar */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: space-around; /* Space items evenly */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    margin-top: -18.5%;
+    background-size: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url('/blank.png');
+  }
+
+  .navlogo {
+    height: 30px;
+    width: 30px;
+    align-items: row;
+    padding: 5px;
+  }
+
+  .sideNav h3 {
+    display: none;
+  }
+
+  .atSymbol {
+    flex: none; /* Prevents '@' from stretching */
+    padding: 0 2px;
+    font-size: 10px; /* Increases font size for visibility */
+  }
+
+  .table {
+    width: 25%;
+    margin-top: 10; /* Moves table up and down */
+    overflow-x: hidden; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of items */
+    width: auto; /* Width auto to contain all children */
+    margin-top: -100.5%;
+  }
+
+  .total {
+    font-size: .75em;
+  }
+
+  .matchupRow {
+    margin: 5px 2px; /* Margin between each row */
+    display: inline-flex; /* Use flexbox to manage layout of cells */
+    padding: 7.5px; /* Padding inside each row */
+    height: 45%;
+    margin-top: 0%;
+  }
+
+  .leaguelogo {
+    display: none;
+  }
+
+  .leaguelogo2 {
+    margin-left: calc(375px);
+    padding-right: 500px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .secondSideNav {
+    display: none;
+  }
+
+  .bottomNav {
+    width: 100%;
+    order: 8; /* Display at the bottom */
+    flex-direction: row;
+  }
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+
+  .navbar{
+    width:100%;
+  }
+  .navbar ul{
+    margin-left: -15%;
+  }
+  .navbar ul li{
+    padding: 4% 4%;
+    font-size: 1.7em; 
+    flex-wrap: nowrap; 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }  
+  .banner{
+    margin-left: 0%;
+    width: 105%;
+  }
+  .content2 h1 {
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-right: -10%;
+    width: 50%;
+    font-size: 2.5em;
+    z-index: 2;
+    padding: 10px; 
+  }
+  .content{
+    margin-left: 0%;
+    width: 100%;
+    position: sticky;
+  }
+
+  .info{
+    width: 30%;
+    margin-left: 47%;
+  }
+  .results{
+    width: 50%;
+    margin-left: 37.5%;
+  }
+.chartButton{
+  display: none;
+}
+.header {
+  padding: 6px; /* Padding inside each row */
+  height: 80px;
+  width: calc(40px); /* Full width */
+  margin: 10px;
+  font-size: 7px;
+  margin-left: 3%;
+}
+.table2 span{
+  margin-left: 5%;
+  width: 82.5%;
+}
+ .table2{
+  width: calc(75%);
+  margin-left: 25%;
+ }
+ .matchupRow2{
+  width: 90%;
+  margin-left: 3%;
+ }
+ .value{
+  font-size: 2em;
+ }
+
+ .stattable2 {
+  margin-right: calc(5%);
+  margin-left: calc(-6%);
+  }
+  .stattable1 {
+    margin-right: calc(35%);
+    margin-left: calc(0%);
+    width: 100%;
+    }
+  .tableImage{
+    width: 70%;
+  }
+  .navlogo{
+    width: 20%;
+    height: 20%;
+  }
+  .navlogo2{
+    width: 85%;
+    height: 85%;
+  }
+  .headshot{
+    height: 65%;
+    width: 100%;
+  }
+  .atSymbol{
+    padding: 2%;
+    font-size: .3em;
+  }
+  .leaguelogo{
+    margin-left: 20%;
+  }
+
+}

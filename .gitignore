@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 */node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
 
 # Logs
 *.log
@@ -16,6 +19,7 @@ pids
 
 # Coverage directory used by tools like istanbul
 coverage/
+/coverage
 
 # nyc test coverage
 .nyc_output
@@ -55,6 +59,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.env*.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -62,6 +67,8 @@ typings/
 
 # next.js build output
 .next
+/.next/
+/out/
 
 # nuxt.js build output
 .nuxt
@@ -134,3 +141,13 @@ ENV/
 # Temporary files
 *.tmp
 *.temp
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+*.pem

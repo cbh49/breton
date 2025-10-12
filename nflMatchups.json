@@ -1,0 +1,98 @@
+[
+    {
+        "team_1": "Baltimore Ravens",
+        "team_2": "Dallas Cowboys",
+        "point_total": 48,
+        "point_spread": -1,
+        "favorite": "Dallas Cowboys",
+        "fav_abb": "DAL"
+    },
+    {
+        "team_1": "Arizona Cardinals",
+        "team_2": "Detroit Lions",
+        "point_total": 51.5,
+        "point_spread": -3.5,
+        "favorite": "Detroit Lions",
+        "fav_abb": "DET"
+    },
+    {
+        "team_1": "Los Angeles Rams",
+        "team_2": "San Francisco 49ers",
+        "point_total": 47.5,
+        "point_spread": -6.5,
+        "favorite": "San Francisco 49ers",
+        "fav_abb": "SF"
+    },
+    {
+        "team_1": "Carolina Panthers",
+        "team_2": "Las Vegas Raiders",
+        "point_total": 38.5,
+        "point_spread": -7,
+        "favorite": "Las Vegas Raiders",
+        "fav_abb": "LV"
+    },
+    {
+        "team_1": "Miami Dolphins",
+        "team_2": "Seattle Seahawks",
+        "point_total": 41.5,
+        "point_spread": -6.5,
+        "favorite": "Seattle Seahawks",
+        "fav_abb": "SEA"
+    },
+    {
+        "team_1": "New Orleans Saints",
+        "team_2": "Philadelphia Eagles",
+        "point_total": 47.5,
+        "point_spread": -3,
+        "favorite": "Philadelphia Eagles",
+        "fav_abb": "PHI"
+    },
+    {
+        "team_1": "Denver Broncos",
+        "team_2": "Tampa Bay Buccaneers",
+        "point_total": 40.5,
+        "point_spread": -5.5,
+        "favorite": "Tampa Bay Buccaneers",
+        "fav_abb": "TB"
+    },
+    {
+        "team_1": "Pittsburgh Steelers",
+        "team_2": "Los Angeles Chargers",
+        "point_total": 38.5,
+        "point_spread": -2.5,
+        "favorite": "Pittsburgh Steelers",
+        "fav_abb": "PIT"
+    },
+    {
+        "team_1": "Houston Texans",
+        "team_2": "Minnesota Vikings",
+        "point_total": 46.5,
+        "point_spread": -3.5,
+        "favorite": "Houston Texans",
+        "fav_abb": "HOU"
+    }, 
+    {
+        "team_1": "Cleveland Browns",
+        "team_2": "New York Giants",
+        "point_total": 39,
+        "point_spread": -6.5,
+        "favorite": "Cleveland Browns",
+        "fav_abb": "CLE"
+    },
+    {
+        "team_1": "Green Bay Packers",
+        "team_2": "Tennessee Titans",
+        "point_total": 38,
+        "point_spread": -2.5,
+        "favorite": "Tennessee Titans",
+        "fav_abb": "TEN"
+    },
+    {
+        "team_1": "Chicago Bears",
+        "team_2": "Indianapolis Colts",
+        "point_total": 45.5,
+        "point_spread": -1,
+        "favorite": "Indianapolis Colts",
+        "fav_abb": "IND"
+    }
+]

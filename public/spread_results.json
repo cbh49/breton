@@ -1,0 +1,10 @@
+{
+    "yes": {
+        "matches": 3,
+        "total": 6
+    },
+    "no": {
+        "matches": 8,
+        "total": 14
+    }
+}

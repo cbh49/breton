@@ -1,0 +1,22 @@
+[
+    {
+        "Team1": "Birmingham Stallions",
+        "Team2": "Memphis Showboats",
+        "Total": 43
+    },
+    {
+        "Team1": "Houston Roughnecks",
+        "Team2": "St. Louis Battlehawks",
+        "Total": 47.5
+    },
+    {
+        "Team1": "Arlington Renegades",
+        "Team2": "Michigan Panthers",
+        "Total": 42
+    },
+    {
+        "Team1": "San Antonio Brahmas",
+        "Team2": "D.C. Defenders",
+        "Total": 43
+    }
+]

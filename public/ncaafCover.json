@@ -1,0 +1,20 @@
+[
+    {
+        "Team1": "Notre Dame",
+        "Team2": "Penn State",
+        "point_spread": -1.5,
+        "favorite": "Notre Dame",
+        "team_1_pointsPG3": 38.4384,
+        "team_2_pointsPG3": 37.276799999999994,
+        "Cover": "Close game brotha!"
+    },
+    {
+        "Team1": "Ohio State",
+        "Team2": "Texas",
+        "point_spread": -6,
+        "favorite": "Ohio State",
+        "team_1_pointsPG3": 37.9533,
+        "team_2_pointsPG3": 30.096,
+        "Cover": "Close game brotha!"
+    }
+]
